@@ -17,6 +17,16 @@ Data types are used everywhere in the JSON files. Every field in a JSON has to h
 
 ## Origins-specific
 
-* [Identifier](identifier)
+* [Attribute Modifier](attribute_modifier)
+* [Attributed Attribute Modifier](attributed_attribute_modifier)
+* [Comparison](comparison)
+* [Crafting Recipe](crafting_recipe)
+* [Damage Source](damage_source)
 * [Hud Render](hud_render)
+* [Identifier](identifier)
+* [Ingredient](ingredient)
+* [Item Stack](item_stack)
+* [Key](key)
+* [Modifier Operation](modifier_operation)
+* [Positioned Item Stack](positioned_item_stack)
 * [Status Effect Instance](status_effect_instance)

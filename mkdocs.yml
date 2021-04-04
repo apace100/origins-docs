@@ -21,5 +21,9 @@ nav:
         - Block Actions: block_actions.md
         - Entity Actions: entity_actions.md
         - Item Actions: item_actions.md
+    - Miscellaneous:
+        - Keybindings: misc/keybindings.md
+        - Resource Bars: misc/resource_bars.md
+        - Vanilla Damage Sources: misc/vanilla_damage_sources.md
 theme: readthedocs
 separator: '_'
