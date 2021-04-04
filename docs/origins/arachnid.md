@@ -18,14 +18,14 @@ Power ID: `origins:fragile`
 ### Carnivore
 Your diet is restricted to meat, you can't eat vegetables.
 
-_You can only eat food items defined in the tags `origins:meat` or `origins:ignore_diet`_
+_You can only eat food items defined in the tags `origins:meat` or `origins:ignore_diet`._
 
 Power ID: `origins:carnivore`
 
 ### Climbing
 You are able to climb up any kind of wall, not just ladders.
 
-_You can climb up any block. Toggle-able with the primary active power key (default: G)_
+_You can climb up any block. Toggle-able with the primary active power key (default: G)._
 
 Power ID: `origins:climbing`
 
