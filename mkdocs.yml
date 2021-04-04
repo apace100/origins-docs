@@ -1,0 +1,21 @@
+site_name: Origins Documentation
+nav:
+    - Home: index.md
+    - Origins:
+        - Arachnid: origins/arachnid.md
+        - Avian: origins/avian.md
+    - Power Types:
+        - Power Types: power_types.md
+    - Conditions:
+        - Biome Conditions: block_conditions.md
+        - Block Conditions: block_conditions.md
+        - Damage Conditions: damage_conditions.md
+        - Entity Conditions: entity_conditions.md
+        - Fluid Conditions: fluid_conditions.md
+        - Item Conditions: item_conditions.md
+    - Actions:
+        - Block Actions: block_actions.md
+        - Entity Actions: entity_actions.md
+        - Item Actions: item_actions.md
+theme: readthedocs
+separator: '_'
