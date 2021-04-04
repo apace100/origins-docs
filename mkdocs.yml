@@ -4,6 +4,9 @@ nav:
     - Origins:
         - Arachnid: origins/arachnid.md
         - Avian: origins/avian.md
+        - Blazeborn: origins/blazeborn.md
+        - Elytrian: origins/elytrian.md
+        - Enderian: origins/enderian.md
     - Power Types:
         - Power Types: power_types.md
     - Conditions:

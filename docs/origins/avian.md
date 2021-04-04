@@ -11,7 +11,7 @@ The Avian race has lost their ability to fly a long time ago. Now these peaceful
 ### Featherweight
 You fall as gently to the ground as a feather would, unless you sneak.
 
-_You have permanent slow falling, unless you sneak. This is inverted while using an elytra._
+_You have permanent slow falling, unless you sneak. This is inverted while using an Elytra._
 
 Power ID: `origins:slow_falling`
 
