@@ -18,6 +18,7 @@ Unless stated otherwise, each power type supports a `condition` field with an [e
 * [Action On Item Use](action_on_item_use)
 * [Action On Land](action_on_land)
 * [Action On Wake Up](action_on_wake_up)
+* [Action Over Time](action_over_time)
 * [Active Self](active_self)
 * [Attacker Action When Hit](attacker_action_when_hit)
 * [Self Action On Hit](self_action_on_hit)
