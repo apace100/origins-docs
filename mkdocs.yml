@@ -1,12 +1,6 @@
 site_name: Origins Documentation
 nav:
     - Home: index.md
-    - Origins:
-        - Arachnid: origins/arachnid.md
-        - Avian: origins/avian.md
-        - Blazeborn: origins/blazeborn.md
-        - Elytrian: origins/elytrian.md
-        - Enderian: origins/enderian.md
     - Types:
         - Power Types: power_types.md
         - Data Types: data_types.md
@@ -22,6 +16,7 @@ nav:
         - Entity Actions: entity_actions.md
         - Item Actions: item_actions.md
     - Miscellaneous:
+        - Origins: origins.md
         - Keybindings: misc/keybindings.md
         - Resource Bars: misc/resource_bars.md
         - Vanilla Damage Sources: misc/vanilla_damage_sources.md
