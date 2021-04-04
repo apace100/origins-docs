@@ -21,24 +21,24 @@ Field  | Type | Default | Description
 
 ```json
 {
-  "type": "origins:active_self",
-  "entity_action": {
-    "type": "origins:if_else",
-    "condition": {
-      "type": "origins:on_fire"
-    },
-    "if_action": {
-      "type": "origins:extinguish"
-    },
-    "else_action": {
-      "type": "origins:set_on_fire",
-      "duration": 8
-    }
-  },
-  "cooldown": 20,
-  "hud_render": {
-    "should_render": false
-  }
+	"type": "origins:active_self",
+	"entity_action": {
+		"type": "origins:if_else",
+		"condition": {
+	    	"type": "origins:on_fire"
+    	},
+    	"if_action": {
+    		"type": "origins:extinguish"
+    	},
+    	"else_action": {
+    		"type": "origins:set_on_fire",
+    		"duration": 8
+    	}
+  	},
+  	"cooldown": 20,
+  	"hud_render": {
+    	"should_render": false
+  	}
 }
 ```
 This power allows players to press G in order to set themselves on fire for 8 seconds, or, if they are already burning, extinguish themselves.
