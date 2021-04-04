@@ -1,7 +1,5 @@
 ---
 title: Float (Data Type)
-authors:
-    - Apace
 date: 2021-04-03
 ---
 # Float

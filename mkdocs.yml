@@ -7,8 +7,9 @@ nav:
         - Blazeborn: origins/blazeborn.md
         - Elytrian: origins/elytrian.md
         - Enderian: origins/enderian.md
-    - Power Types:
+    - Types:
         - Power Types: power_types.md
+        - Data Types: data_types.md
     - Conditions:
         - Biome Conditions: block_conditions.md
         - Block Conditions: block_conditions.md
