@@ -4,8 +4,9 @@ nav:
     - Origins:
         - Arachnid: origins/arachnid.md
         - Avian: origins/avian.md
-    - Power Types:
+    - Types:
         - Power Types: power_types.md
+        - Data Types: data_types.md
     - Conditions:
         - Biome Conditions: block_conditions.md
         - Block Conditions: block_conditions.md
