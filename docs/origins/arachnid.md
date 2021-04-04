@@ -35,3 +35,10 @@ You navigate cobweb perfectly, and are able to climb in them. When you hit an en
 _You don't get slowed in cobweb and cobweb doesn't have a hitbox for you unless you sneak. You can also climb in cobweb if your climbing ability is toggled on. Hitting a living entity will create a temporary cobweb for 3 seconds at their position, with a cooldown of 6 seconds. All non-arthropods which are touching cobweb will glow on your screen. Combining two string in a crafting grid will produce a cobweb block._
 
 Power ID: `origins:master_of_webs`
+
+### Arthropod (Hidden)
+No description.
+
+_You are classified as an arthropod, meaning you receive more damage from weapons enchanted with Bane of Arthropods._
+
+Power ID: `origins:arthropod`
