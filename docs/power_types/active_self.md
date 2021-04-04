@@ -4,21 +4,18 @@ date: 2021-04-04
 ---
 # Active Self
 
-[Power Type](../power_types.md).
+[Power Type](../power_types.md). ID: `origins:active_self`
 
 Executes an entity action on the player when the player uses a specified [Key](..data_types/key.md) (default: G).
 
-Type ID: `origins:active_self`
-
 ### Fields
 
-`entity_action`, [Entity Action](../entity_actions.md): _The action to execute on the player._
-
-`cooldown`, [Integer](../data_types/integer.md): _Interval of ticks this power needs to recharge before the action can be executed again._
-
-`hud_render`, [Hud Render](../data_types/hud_render.md): _Determines how the cooldown of this power is visualized on the HUD._
-
-`key`, [Key](../data_types/key.md), default = `{"key": "key.origins.primary_active"}`: _Which active key this power should respond to._
+Field  | Type | Default | Description
+-------|------|---------|-------------
+`entity_action` | [Entity Action](../entity_actions.md) | | The action to execute on the player.
+`cooldown` | [Integer](../data_types/integer.md) | | Interval of ticks this power needs to recharge before the action can be executed again.
+`hud_render` | [Hud Render](../data_types/hud_render.md) | | Determines how the cooldown of this power is visualized on the HUD.
+`key` | [Key](../data_types/key.md) | `{"key": "key.origins.primary_active"}` | Which active key this power should respond to.
 
 ### Example
 
