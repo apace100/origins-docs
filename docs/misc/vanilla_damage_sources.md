@@ -24,7 +24,7 @@ Name | Description
 `wither` | wither status effect.
 `anvil` | being hit by a falling anvil.
 `fallingBlock` | being hit by a falling block that's not an anvil.
-`dragonBreath` | standing inside dragon breath.
+`dragonBreath` | unused in vanilla. Dragon breath actually deals `magic` damage.
 `dryout` | drying out (squid).
 `sweetBerryBush` | standing inside a sweet berry bush.
 `sting` | being stung by a bee.
