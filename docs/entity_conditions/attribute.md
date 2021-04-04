@@ -26,6 +26,7 @@ Field  | Type | Default | Description
   "attribute": "minecraft:generic.armor",
   "comparison": ">=",
   "compare_to": 10.0
-}```
+}
+```
 
 This condition makes a power only activate when the player is wearing enough armor to reach half of the displayed armor protection value.
