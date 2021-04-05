@@ -4,9 +4,11 @@ date: 2021-04-04
 ---
 # Action On Wake Up
 
-[Power Type](../power_types.md). ID: `origins:action_on_wake_up`
+[Power Type](../power_types.md).
 
 Executes an entity action or a block action when the player wakes up after sleeping.
+
+Type ID: `origins:action_on_wake_up`
 
 ### Fields
 

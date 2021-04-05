@@ -4,9 +4,11 @@ date: 2021-04-04
 ---
 # Action On Callback
 
-[Power Type](../power_types.md). ID: `origins:action_on_callback`
+[Power Type](../power_types.md).
 
 Can execute an entity action on the player at certain times: when the power is chosen (gained through becoming the origin), when the player respawns, when the player loses the power (i.e. becomes another origin).
+
+Type ID: `origins:action_on_callback`
 
 ### Fields
 

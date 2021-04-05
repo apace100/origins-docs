@@ -4,9 +4,11 @@ date: 2021-04-03
 ---
 # Attacker Action When Hit
 
-[Power Type](../power_types.md). ID: `origins:attacker_action_when_hit`
+[Power Type](../power_types.md).
 
 Executes an entity action on the attacker when the player is hit by another entity.
+
+Type ID: `origins:attacker_action_when_hit`
 
 ### Fields:
 

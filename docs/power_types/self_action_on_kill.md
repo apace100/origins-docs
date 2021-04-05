@@ -4,9 +4,11 @@ date: 2021-04-04
 ---
 # Self Action On Hit
 
-[Power Type](../power_types.md). ID: `origins:self_action_on_kill`
+[Power Type](../power_types.md).
 
 Executes an entity action on the player when the player kills another entity.
+
+Type ID: `origins:self_action_on_kill`
 
 ### Fields
 

@@ -4,9 +4,11 @@ date: 2021-04-04
 ---
 # Target Action On Hit
 
-[Power Type](../power_types.md). ID: `origins:target_action_on_hit`
+[Power Type](../power_types.md).
 
 Executes an entity action on every entity that is hit by the player.
+
+Type ID: `origins:target_action_on_hit`
 
 ### Fields
 

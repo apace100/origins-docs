@@ -4,9 +4,11 @@ date: 2021-04-04
 ---
 # Action On Block Break
 
-[Power Type](../power_types.md). ID: `origins:action_on_block_break`
+[Power Type](../power_types.md).
 
 Executes an entity action or a block action when the player breaks a block.
+
+Type ID: `origins:action_on_block_break`
 
 ### Fields
 
