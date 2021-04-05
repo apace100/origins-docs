@@ -5,7 +5,7 @@ nav:
         - Power Types: power_types.md
         - Data Types: data_types.md
     - Conditions:
-        - Biome Conditions: block_conditions.md
+        - Biome Conditions: biome_conditions.md
         - Block Conditions: block_conditions.md
         - Damage Conditions: damage_conditions.md
         - Entity Conditions: entity_conditions.md
