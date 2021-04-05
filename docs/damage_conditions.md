@@ -9,7 +9,7 @@ Damage Conditions operate on a combination of `DamageSource` and `Float`, allowi
 ## List
 
 * [Amount](amount)
+* [Attacker](attacker)
 * [Fire](fire)
 * [Name](name)
 * [Projectile](projectile)
-* [Attacker](attacker)
