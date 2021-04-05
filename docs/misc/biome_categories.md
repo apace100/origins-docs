@@ -1,5 +1,5 @@
 ---
-title: List of biome categories
+title: Biome Categories
 date: 2021-04-05
 ---
 # List of biome categories

@@ -14,4 +14,4 @@ Type ID: `origins:entity_group`
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`group` | [String](../data_types/string.md) | |  _Entity group required for the entity to pass the check. One of `default`, `undead`, `arthropod`, `illager` and `aquatic`._
+`group` | [String](../data_types/string.md) | |  Entity group required for the entity to pass the check. One of `default`, `undead`, `arthropod`, `illager` and `aquatic`.

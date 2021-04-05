@@ -15,7 +15,7 @@ Type ID: `origins:status_effect`
 Field  | Type | Default | Description
 -------|------|---------|-------------
 `effect` | [Identifier](../data_types/identifier.md) | | _ID of the status effect the player should have._
-`min_amplifier` | [Integer](../data_types/integer.md) | `0` | _The minimum amplifier the status effect should have in order to pass the check._
-`max_amplifier` | [Integer](../data_types/integer.md) | `2147483647` | _The maximum amplifier the status effect should have in order to pass the check._
-`min_duration` | [Integer](../data_types/integer.md) | `0` | _The minimum duration in ticks the status effect should have left in order to pass the check._
-`max_duration` | [Integer](../data_types/integer.md) | `2147483647` | _The maximum duration in ticks the status effect should have left in order to pass the check._
+`min_amplifier` | [Integer](../data_types/integer.md) | `0` | The minimum amplifier the status effect should have in order to pass the check.
+`max_amplifier` | [Integer](../data_types/integer.md) | `2147483647` | The maximum amplifier the status effect should have in order to pass the check.
+`min_duration` | [Integer](../data_types/integer.md) | `0` | The minimum duration in ticks the status effect should have left in order to pass the check.
+`max_duration` | [Integer](../data_types/integer.md) | `2147483647` | The maximum duration in ticks the status effect should have left in order to pass the check.

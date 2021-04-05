@@ -16,4 +16,4 @@ Type ID: `origins:predicate`
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`predicate` | [Identifier](../data_types/identifier.md) | |  _ID of the predicate the entity needs to pass._
+`predicate` | [Identifier](../data_types/identifier.md) | |  ID of the predicate the entity needs to pass.

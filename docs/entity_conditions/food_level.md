@@ -14,5 +14,5 @@ Type ID: `origins:food_level`
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`comparison` | [Comparison](../data_types/comparison.md) | | _How the food level should be compared to the specified value._
-`compare_to` | [Float](../data_types/float.md) | | _Which value the food level should be compared to._
+`comparison` | [Comparison](../data_types/comparison.md) | | How the food level should be compared to the specified value.
+`compare_to` | [Float](../data_types/float.md) | | Which value the food level should be compared to.

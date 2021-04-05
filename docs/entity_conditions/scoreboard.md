@@ -18,9 +18,9 @@ Type ID: `origins:scoreboard`
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`objective` | [String](../data_types/comparison.md) | | _The name of the scoreboard objective to retrieve the value from and compare._
-`comparison` | [Comparison](../data_types/comparison.md) | | _How to compare the objective's value to the specified value._
-`compare_to` | [Integer](../data_types/integer.md) | | _Which value to compare the objective's value to._
+`objective` | [String](../data_types/comparison.md) | | The name of the scoreboard objective to retrieve the value from and compare.
+`comparison` | [Comparison](../data_types/comparison.md) | | How to compare the objective's value to the specified value.
+`compare_to` | [Integer](../data_types/integer.md) | | Which value to compare the objective's value to.
 
 ### Example:
 

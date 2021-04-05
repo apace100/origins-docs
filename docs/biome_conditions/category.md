@@ -14,4 +14,4 @@ Type ID: `origins:category`
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`category` | [String](../data_types/string.md) | |  _Which category the biome must be in order to succeed the check. See [List of biome categories](../misc/list_of_biome_categories.md)._
+`category` | [String](../data_types/string.md) | |  Which category the biome must be in order to succeed the check. See the [list of biome categories](../misc/biome_categories.md).

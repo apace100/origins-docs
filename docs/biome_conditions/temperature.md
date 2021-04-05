@@ -14,5 +14,5 @@ Type ID: `origins:temperature`
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`comparison` | [Comparison](../data_types/comparison.md) | |  _How the temperature should be compared to the specified value._
-`compare_to` | [Float](../data_types/float.md) | | _Which value the temperature should be compared to._
+`comparison` | [Comparison](../data_types/comparison.md) | | How the temperature should be compared to the specified value.
+`compare_to` | [Float](../data_types/float.md) | | Which value the temperature should be compared to.

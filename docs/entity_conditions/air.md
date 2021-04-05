@@ -14,5 +14,5 @@ Type ID: `origins:air`
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`comparison` | [Comparison](../data_types/comparison.md) | |  _How the breath (in ticks) should be compared to the specified value._
-`compare_to` | [Integer](../data_types/integer.md) | | _Which value the breath should be compared to._
+`comparison` | [Comparison](../data_types/comparison.md) | |  How the breath (in ticks) should be compared to the specified value.
+`compare_to` | [Integer](../data_types/integer.md) | | Which value the breath should be compared to.

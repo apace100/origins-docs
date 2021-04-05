@@ -14,6 +14,6 @@ Type ID: `origins:fluid_height`
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`fluid` | [Identifier](../data_types/identifier.md) | | _ID of the fluid tag of which the height should be checked. Most important examples: `minecraft:water` and `minecraft:lava`._
-`comparison` | [Comparison](../data_types/comparison.md) | | _How the fluid height should be compared to the specified value._
-`compare_to` | [Float](../data_types/float.md) | | _Which value the fluid height should be compared to._
+`fluid` | [Identifier](../data_types/identifier.md) | | ID of the fluid tag of which the height should be checked. Most important examples: `minecraft:water` and `minecraft:lava`.
+`comparison` | [Comparison](../data_types/comparison.md) | | How the fluid height should be compared to the specified value.
+`compare_to` | [Float](../data_types/float.md) | | Which value the fluid height should be compared to.

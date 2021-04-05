@@ -14,4 +14,4 @@ Type ID: `origins:power_active`
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`power` | [Identifier](../data_types/identifier.md) | |  _ID of the power which will be checked for being active._
+`power` | [Identifier](../data_types/identifier.md) | |  ID of the power which will be checked for being active.

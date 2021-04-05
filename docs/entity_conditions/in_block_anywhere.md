@@ -14,6 +14,6 @@ Type ID: `origins:in_block_anywhere`
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`block_condition` | [Block Condition](../data_types/block_condition.md) | |  _The block condition which blocks need to fulfill in order to count for this power._
-`comparison` | [Comparison](../data_types/comparison.md) | `">="` |  _How the number of blocks which overlap and fulfill block_condition should be compared to the specified value._
-`compare_to` | [Integer](../data_types/integer.md) | `1` |  _The value to compare the number to._
+`block_condition` | [Block Condition](../data_types/block_condition.md) | |  The block condition which blocks need to fulfill in order to count for this power.
+`comparison` | [Comparison](../data_types/comparison.md) | `">="` |  How the number of blocks which overlap and fulfill block_condition should be compared to the specified value.
+`compare_to` | [Integer](../data_types/integer.md) | `1` |  The value to compare the number to.

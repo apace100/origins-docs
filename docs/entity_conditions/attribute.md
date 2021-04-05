@@ -14,9 +14,9 @@ Type ID: `origins:attribute`
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`attribute` | [Identifier](../data_types/identifier.md) | |  _ID of the attribute of which the value should be checked._
-`comparison` | [Comparison](../data_types/comparison.md) | |  _How to compare the attribute's value to the specified value._
-`compare_to` | [Float](../data_types/float.md) | | _Which value to compare the attribute's value to._
+`attribute` | [Identifier](../data_types/identifier.md) | |  ID of the attribute of which the value should be checked.
+`comparison` | [Comparison](../data_types/comparison.md) | |  How to compare the attribute's value to the specified value.
+`compare_to` | [Float](../data_types/float.md) | | Which value to compare the attribute's value to.
 
 ### Example:
 

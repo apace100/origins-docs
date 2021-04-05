@@ -14,8 +14,8 @@ Type ID: `origins:block_in_radius`
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`block_condition` | [Block Condition](../data_types/block_condition.md) | |  _The block condition which is applied to the block at the player's feet._
-`radius` | [Integer](../data_types/integer.md) | |  _The radius to check blocks in._
-`shape` | [String](../data_types/string.md) | `"cube"` | _Whether to check in a cube- or a star-shaped form. Either `"cube"` or `"star"`_
-`comparison` | [Comparison](../data_types/comparison.md) | `">="` | _How the number of blocks in the radius which fulfill `block_condition` should be compared to the specified value._
-`compare_to` | [Integer](../data_types/integer.md) | `1` | _The value to compare the number to._
+`block_condition` | [Block Condition](../data_types/block_condition.md) | |  The block condition which is applied to the block at the player's feet.
+`radius` | [Integer](../data_types/integer.md) | |  The radius to check blocks in.
+`shape` | [String](../data_types/string.md) | `"cube"` | Whether to check in a cube- or a star-shaped form. Either `"cube"` or `"star"`.
+`comparison` | [Comparison](../data_types/comparison.md) | `">="` | How the number of blocks in the radius which fulfill `block_condition` should be compared to the specified value.
+`compare_to` | [Integer](../data_types/integer.md) | `1` | The value to compare the number to.

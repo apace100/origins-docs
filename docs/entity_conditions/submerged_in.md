@@ -14,4 +14,4 @@ Type ID: `origins:submerged_in`
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`fluid` | [Identifier](../data_types/identifier.md) | | _ID of the fluid tag that should be checked. Most important examples: `minecraft:water` and `minecraft:lava`._
+`fluid` | [Identifier](../data_types/identifier.md) | | ID of the fluid tag that should be checked. Most important examples: `minecraft:water` and `minecraft:lava`.

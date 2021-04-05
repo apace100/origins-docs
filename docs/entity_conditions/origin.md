@@ -14,5 +14,5 @@ Type ID: `origins:origin`
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`origin` | [Identifier](../data_types/identifier.md) | |  _ID of the origin the player needs to have to pass the check._
-`layer` | [Identifier](../data_types/identifier.md) | _Optional_ |  _If set, will check only the layer with the provided ID for the origin._
+`origin` | [Identifier](../data_types/identifier.md) | |  ID of the origin the player needs to have to pass the check.
+`layer` | [Identifier](../data_types/identifier.md) | _optional_ |  If set, will check only the layer with the provided ID for the origin.

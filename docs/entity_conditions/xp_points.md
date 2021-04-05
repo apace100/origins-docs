@@ -14,5 +14,5 @@ Type ID: `origins:xp_points`
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`comparison` | [Comparison](../data_types/comparison.md) | | _How the experience points of the player should be compared to the specified value._
-`compare_to` | [Integer](../data_types/integer.md) | | _Which value the experience points should be compared to._
+`comparison` | [Comparison](../data_types/comparison.md) | | How the experience points of the player should be compared to the specified value.
+`compare_to` | [Integer](../data_types/integer.md) | | Which value the experience points should be compared to.

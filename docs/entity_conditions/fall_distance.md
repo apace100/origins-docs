@@ -14,5 +14,5 @@ Type ID: `origins:fall_distance`
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`comparison` | [Comparison](../data_types/comparison.md) | | _How the fall distance should be compared to the specified value._
-`compare_to` | [Float](../data_types/float.md) | | _The value to compare the fall distance to._
+`comparison` | [Comparison](../data_types/comparison.md) | | How the fall distance should be compared to the specified value.
+`compare_to` | [Float](../data_types/float.md) | | The value to compare the fall distance to.
