@@ -12,4 +12,4 @@ Type ID: `origins:empty`
 
 ### Fields:
 
-_.None._
+_None._

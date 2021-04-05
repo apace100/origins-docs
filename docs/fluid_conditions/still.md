@@ -12,4 +12,4 @@ Type ID: `origins:stil`
 
 ### Fields:
 
-_.None._
+_None._
