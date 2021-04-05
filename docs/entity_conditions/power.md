@@ -14,4 +14,4 @@ Type ID: `origins:power`
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`power` | [String](../data_types/string.md) | |  _ID of the power the player needs to have to pass the check._
+`power` | [Identifier](../data_types/identifier.md) | |  _ID of the power the player needs to have to pass the check._

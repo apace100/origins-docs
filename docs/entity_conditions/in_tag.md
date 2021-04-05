@@ -14,4 +14,4 @@ Type ID: `origins:in_tag`
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`tag` | [String](../data_types/string.md) | |  _ID of the tag the entity type needs to be in to pass the check._
+`tag` | [Identifier](../data_types/identifier.md) | |  _ID of the tag the entity type needs to be in to pass the check._

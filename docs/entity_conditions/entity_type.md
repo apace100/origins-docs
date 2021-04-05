@@ -14,4 +14,4 @@ Type ID: `origins:entity_type`
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`entity_type` | [String](../data_types/string.md) | |  _ID of the entity type the entity needs to have to pass the check._
+`entity_type` | [Indentifier](../data_types/identifier.md) | |  _ID of the entity type the entity needs to have to pass the check._
