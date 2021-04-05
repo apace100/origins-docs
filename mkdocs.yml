@@ -4,6 +4,8 @@ nav:
     - Types:
         - Power Types: power_types.md
         - Data Types: data_types.md
+        - Origin JSON: origin_json.md
+        - Layer JSON: layer_json.md
     - Conditions:
         - Biome Conditions: biome_conditions.md
         - Block Conditions: block_conditions.md
