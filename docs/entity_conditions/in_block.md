@@ -14,7 +14,7 @@ Type ID: `origins:in_block`
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`block_condition` | [Block Condition](../data_types/block_condition.md) | |  The block condition which is applied to the block at the player's lower body half.
+`block_condition` | [Block Condition](../block_condition.md) | |  The block condition which is applied to the block at the player's lower body half.
 
 ### Example:
 

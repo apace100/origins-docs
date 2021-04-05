@@ -1,6 +1,6 @@
 ---
 title: Data Types
-date: 2021-04-04
+date: 2021-04-05
 ---
 # Data Types
 
@@ -10,10 +10,10 @@ Data types are used everywhere in the JSON files. Every field in a JSON has to h
 
 * [Array](array)
 * [Boolean](boolean)
-* [Integer](integer)
 * [Float](float)
-* [String](string)
+* [Integer](integer)
 * [Object](object)
+* [String](string)
 
 ## Origins-specific
 

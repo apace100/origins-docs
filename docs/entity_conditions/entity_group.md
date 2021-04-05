@@ -1,5 +1,5 @@
 ---
-title: Entity Group
+title: Entity Group (Condition)
 date: 2021-04-04
 ---
 # Entity Group

@@ -14,7 +14,7 @@ Type ID: `origins:block_in_radius`
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`block_condition` | [Block Condition](../data_types/block_condition.md) | |  The block condition which is applied to the block at the player's feet.
+`block_condition` | [Block Condition](../block_condition.md) | |  The block condition which is applied to the block at the player's feet.
 `radius` | [Integer](../data_types/integer.md) | |  The radius to check blocks in.
 `shape` | [String](../data_types/string.md) | `"cube"` | Whether to check in a cube- or a star-shaped form. Either `"cube"` or `"star"`.
 `comparison` | [Comparison](../data_types/comparison.md) | `">="` | How the number of blocks in the radius which fulfill `block_condition` should be compared to the specified value.

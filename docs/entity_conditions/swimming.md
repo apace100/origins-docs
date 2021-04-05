@@ -1,5 +1,5 @@
 ---
-title: Swimming
+title: Swimming (Condition)
 date: 2021-04-04
 ---
 # Swimming
