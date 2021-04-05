@@ -14,4 +14,4 @@ Type ID: `origins:consume`
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`amount` | [Integer](../data_types/integer.md) | 1 | _The amount of items to remove._
+`amount` | [Integer](../data_types/integer.md) | `1` | The amount of items to remove.
