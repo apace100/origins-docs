@@ -4,9 +4,11 @@ date: 2021-04-04
 ---
 # Self Action When Hit
 
-[Power Type](../power_types.md). ID: `origins:self_action_when_hit`
+[Power Type](../power_types.md).
 
 Executes an entity action on the player when the player is hit by another entity.
+
+Type ID: `origins:self_action_when_hit`
 
 ### Fields
 

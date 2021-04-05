@@ -4,9 +4,11 @@ date: 2021-04-04
 ---
 # Action On Land
 
-[Power Type](../power_types.md). ID: `origins:action_on_land`
+[Power Type](../power_types.md).
 
 Executes an entity action when the player lands on the ground after being airborne.
+
+Type ID: `origins:action_on_land`
 
 ### Fields
 

@@ -4,9 +4,11 @@ date: 2021-04-04
 ---
 # Modify Break Speed
 
-[Power Type](../power_types.md). ID: `origins:modify_break_speed`
+[Power Type](../power_types.md).
 
 Modifies how fast the player can break blocks.
+
+Type ID: `origins:modify_break_speed`
 
 ### Fields
 

@@ -1,6 +1,6 @@
 ---
 title: Fire (Condition)
-date: 2021-04-04
+date: 2021-04-05
 ---
 # Fire
 
@@ -12,4 +12,4 @@ Type ID: `origins:fire`
 
 ### Fields:
 
-_none_
+_None._
