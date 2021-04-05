@@ -14,4 +14,4 @@ Type ID: `origins:name`
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`name` | [String](../data_types/string.md) | |  _Name the damage source should have to pass the check. See [List of vanilla damage source names](../misc/vanilla_damage_sources.md)._
+`name` | [String](../data_types/string.md) | |  Name the damage source should have to pass the check. See [List of vanilla damage source names](../misc/vanilla_damage_sources.md).

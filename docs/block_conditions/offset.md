@@ -14,7 +14,7 @@ Type ID: `origins:offset`
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`condition` | [Block Condition](../block_conditions.md) | | _The condition to check with the given offset._
-`x` | [Integer](../data_types/integer.md) | `0` |  _How much to offset the position on the x-axis._
-`y` | [Integer](../data_types/integer.md) | `0` |  _How much to offset the position on the y-axis._
-`z` | [Integer](../data_types/integer.md) | `0` |  _How much to offset the position on the z-axis._
+`condition` | [Block Condition](../block_conditions.md) | | The condition to check with the given offset.
+`x` | [Integer](../data_types/integer.md) | `0` |  How much to offset the position on the x-axis.
+`y` | [Integer](../data_types/integer.md) | `0` |  How much to offset the position on the y-axis.
+`z` | [Integer](../data_types/integer.md) | `0` |  How much to offset the position on the z-axis.

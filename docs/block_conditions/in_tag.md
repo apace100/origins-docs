@@ -14,4 +14,4 @@ Type ID: `origins:in_tag`
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`tag` | [String](../data_types/string.md) | |  _ID of the tag which the block should be in to pass the check._
+`tag` | [String](../data_types/string.md) | | ID of the tag which the block should be in to pass the check.

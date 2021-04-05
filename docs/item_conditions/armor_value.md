@@ -14,5 +14,5 @@ Type ID: `origins:armor_value`
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`comparison` | [Comparison](../data_types/comparison.md) | |  _How to compare the item's armor value to the specified value._
-`compare_to` | [Integer](../data_types/integer.md) | | _Which value to compare the item's armor value to._
+`comparison` | [Comparison](../data_types/comparison.md) | |  How to compare the item's armor value to the specified value.
+`compare_to` | [Integer](../data_types/integer.md) | | Which value to compare the item's armor value to.

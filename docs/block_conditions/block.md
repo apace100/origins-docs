@@ -14,4 +14,4 @@ Type ID: `origins:block`
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`block` | [String](../data_types/string.md) | |  _ID of the block that this block needs to be to pass the check._
+`block` | [String](../data_types/string.md) | | ID of the block that this block needs to be to pass the check.

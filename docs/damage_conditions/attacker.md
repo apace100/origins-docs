@@ -14,4 +14,4 @@ Type ID: `origins:attacker`
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`entity_condition` | [Entity Condition](../entity_conditions.md) | |  _optional: If set, the attacking entity must fulfill the provided entity condition in order for this condition to evaluate to true._
+`entity_condition` | [Entity Condition](../entity_conditions.md) | _optional_ | If set, the attacking entity must fulfill the provided entity condition in order for this condition to evaluate to true.

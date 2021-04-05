@@ -14,6 +14,6 @@ Type ID: `origins:adjacent`
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`adjacent_condition` | [Block Condition](../block_conditions.md) | | _The block condition that needs to be fulfilled by adjacent blocks to count towards this condition._
-`comparison` | [Comparison](../data_types/comparison.md) | |  _How the number of adjacent blocks which fulfill `adjacent_condition` should be compared to the specified value._
-`compare_to` | [Float](../data_types/float.md) | | _The value to compare the number to._
+`adjacent_condition` | [Block Condition](../block_conditions.md) | | The block condition that needs to be fulfilled by adjacent blocks to count towards this condition.
+`comparison` | [Comparison](../data_types/comparison.md) | |  How the number of adjacent blocks which fulfill `adjacent_condition` should be compared to the specified value.
+`compare_to` | [Float](../data_types/float.md) | | The value to compare the number to.

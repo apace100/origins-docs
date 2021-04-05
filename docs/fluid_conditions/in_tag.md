@@ -14,4 +14,4 @@ Type ID: `origins:in_tag`
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`tag` | [Identifier](../data_types/identifier.md) | |  _ID of the tag which the fluid should be in to pass the check._
+`tag` | [Identifier](../data_types/identifier.md) | |  ID of the tag which the fluid should be in to pass the check.

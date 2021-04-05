@@ -14,4 +14,4 @@ Type ID: `origins:ingredient`
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`ingredient` | [Ingredient](../data_types/ingredient.md) | |  _The ingredient this item must match to pass the check._
+`ingredient` | [Ingredient](../data_types/ingredient.md) | |  The ingredient this item must match to pass the check.

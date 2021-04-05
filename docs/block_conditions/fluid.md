@@ -14,4 +14,4 @@ Type ID: `origins:fluid`
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`fluid_condition` | [Fluid Condition](../fluid_conditions.md) | |  _The fluid condition to check the fluid state at the position._
+`fluid_condition` | [Fluid Condition](../fluid_conditions.md) | | The fluid condition to check the fluid state at the position.
