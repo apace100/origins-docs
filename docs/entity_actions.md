@@ -23,6 +23,7 @@ Entity Actions operate on an `Entity`. Some more specific actions only have an e
 * [Gain Air](gain_air)
 * [Give](give)
 * [Heal](heal)
+* [Play Sound](play_sound)
 * [Set Fall Distance](set_fall_distance)
 * [Set On Fire](set_on_fire)
 * [Spawn Effect Cloud](spawn_effect_cloud)
