@@ -15,7 +15,7 @@ Type ID: `origins:apply_effect`
 Field  | Type | Default | Description
 -------|------|---------|-------------
 `effect` | [Status Effect Instance](../data_types/status_effect_instance.md) | _optional_ | If set, this status effect will be applied by this action.
-`effects` | array of [Status Effect Instance](../data_types/status_effect_instance.md)s | _optional_ | If set, these status effects will be applied by this action.
+`effects` | [Array](../data_types/array.md) of [Status Effect Instances](../data_types/status_effect_instance.md) | _optional_ | If set, these status effects will be applied by this action.
 
 ### Example
 ```json

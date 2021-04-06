@@ -1,6 +1,6 @@
 ---
 title: Power Types
-date: 2021-04-04
+date: 2021-04-06
 ---
 # Power Types
 
@@ -29,3 +29,13 @@ Unless stated otherwise, each power type supports a `condition` field with an [e
 ## Modifying types
 
 * [Modify Break Speed](modify_break_speed)
+* [Modify Damage Dealt](modify_damage_dealt)
+* [Modify Damage Taken](modify_damage_taken)
+* [Modify Exhaustion](modify_exhaustion)
+* [Modify Food](modify_food)
+* [Modify Harvest](modify_harvest)
+* [Modify Jump](modify_jump)
+* [Modify Lava Speed](modify_lava_speed)
+* [Modify Player Spawn](modify_player_spawn)
+* [Modify Swim Speed](modify_swim_speed)
+* [Modify XP Gain](modify_xp_gain)
