@@ -11,7 +11,15 @@ Unless stated otherwise, each power type supports a `condition` field with an [e
 
 ## Regular types
 
+* [Attribute](attribute)
+* [Conditioned Attribute](conditioned_attribute)
+* [Burn](burn)
+* [Cooldown](cooldown)
+* [Effect Immunity](effect_immunity)
+* [Elytra Flight](elytra_flight)
+* [Multiple](multiple)
 * [Simple](simple)
+* [Toggle](toggle)
 
 ## Action-related
 
