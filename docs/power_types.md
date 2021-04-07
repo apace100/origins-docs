@@ -4,8 +4,10 @@ date: 2021-04-06
 ---
 # Power Types
 
-Power types are what grants functionality to your origins!
-Unless stated otherwise, each power type supports a `condition` field with an [entity condition](entity_conditions).
+Powers are what grants functionality to your origins! Each power has a type, specified with
+a `type` field in the JSON. Which type a power is defines which other fields it requires and supports.
+
+Unless stated otherwise, each power type supports a `condition` field with an [entity condition](entity_conditions). See [Power JSON](power_json.md) for more details.
 
 ## Regular types
 
@@ -39,3 +41,12 @@ Unless stated otherwise, each power type supports a `condition` field with an [e
 * [Modify Player Spawn](modify_player_spawn)
 * [Modify Swim Speed](modify_swim_speed)
 * [Modify XP Gain](modify_xp_gain)
+
+## Preventing types
+
+* [Prevent Block Selection](prevent_block_selection)
+* [Prevent Block Use](prevent_block_use)
+* [Prevent Death](prevent_death)
+* [Prevent Entity Render](prevent_entity_render)
+* [Prevent Item Use](prevent_item_use)
+* [Prevent Sleep](prevent_sleep)

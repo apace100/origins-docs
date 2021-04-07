@@ -4,6 +4,7 @@ nav:
     - Types:
         - Power Types: power_types.md
         - Data Types: data_types.md
+        - Power JSON: power_json.md
         - Origin JSON: origin_json.md
         - Layer JSON: layer_json.md
     - Conditions:
