@@ -13,10 +13,12 @@ nav:
         - Entity Conditions: entity_conditions.md
         - Fluid Conditions: fluid_conditions.md
         - Item Conditions: item_conditions.md
+        - Meta Conditions: meta_conditions.md
     - Actions:
         - Block Actions: block_actions.md
         - Entity Actions: entity_actions.md
         - Item Actions: item_actions.md
+        - Meta Actions: meta_actions.md
     - Miscellaneous:
         - Origins: origins.md
         - Keybindings: misc/keybindings.md

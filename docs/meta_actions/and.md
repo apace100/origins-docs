@@ -1,12 +1,12 @@
 ---
-title: AND Action
+title: And (Action)
 date: 2021-04-06
 ---
-# AND Action
+# And
 
 [Meta Action](../meta_actions.md).
 
-Usable as any action. Executes all provided actions in order.
+Executes all provided actions in order.
 
 Type ID: `origins:and`
 
@@ -14,7 +14,7 @@ Type ID: `origins:and`
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`actions` | [Array](../data_types/array.md) | | An array of [Actions](../actions.md) of the same type. All of these will be executed one after the other.
+`actions` | [Array](../data_types/array.md) of [Actions](../actions.md) | | These actions will be executed one after the other (but in the same tick).
 
 ### Example
 
