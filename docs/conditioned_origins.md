@@ -4,7 +4,7 @@ date: 2021-04-05
 ---
 # Upgrade JSON Format
 
-An [Object](object.md) used to specify origins in a [Layer JSON](layer_json.md) which only show up conditionally.
+An [Object](data_types/object.md) used to specify origins in a [Layer JSON](layer_json.md) which only show up conditionally.
 
 ### Fields
 

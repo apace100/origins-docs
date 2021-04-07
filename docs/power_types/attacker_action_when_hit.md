@@ -16,7 +16,7 @@ Field  | Type | Default | Description
 -------|------|---------|-------------
 `entity_action` | [Entity Action](../entity_actions.md) | | The action to execute on the attacker.
 `cooldown` | [Integer](../data_types/integer.md) | | Interval of ticks this power needs to recharge before the action can be executed again.
-`damage_condition` | [Damage Condition](../damage_condition.md) | _optional_ | If set, the action will only trigger when this condition holds for the damage that was dealt by the attacker.
+`damage_condition` | [Damage Condition](../damage_conditions.md) | _optional_ | If set, the action will only trigger when this condition holds for the damage that was dealt by the attacker.
 `hud_render` | [Hud Render](../data_types/hud_render.md) | _optional_ | If set, the cooldown of this power is visualized on the HUD in the specified way.
 
 ### Example

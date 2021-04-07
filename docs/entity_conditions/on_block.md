@@ -14,7 +14,7 @@ Type ID: `origins:on_block`
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`block_condition` | [Block Condition](../block_condition.md) | _optional_ |  If set, a block that satisfies this block condition needs to be right below the player's feet.
+`block_condition` | [Block Condition](../block_conditions.md) | _optional_ |  If set, a block that satisfies this block condition needs to be right below the player's feet.
 
 ### Example:
 

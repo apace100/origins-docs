@@ -4,7 +4,7 @@ date: 2021-04-05
 ---
 # Upgrade JSON Format
 
-An [Object](object.md) used to specify an upgrade of an origin within an [Origin JSON](origin_json.md).
+An [Object](data_types/object.md) used to specify an upgrade of an origin within an [Origin JSON](origin_json.md).
 
 
 ### Fields

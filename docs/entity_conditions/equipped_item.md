@@ -15,7 +15,7 @@ Type ID: `origins:equipped_item`
 Field  | Type | Default | Description
 -------|------|---------|-------------
 `equipment_slot` | [String](../data_types/string.md) | |  Which equipped item to check. One of: `"mainhand"`, `"offhand"`, `"head"`, `"chest"`, `"legs"`, `"feet"`.
-`item_condition` | [Item Condition](../item_condition.md) | |  Which condition will be applied to the item in the specified slot.
+`item_condition` | [Item Condition](../item_conditions.md) | |  Which condition will be applied to the item in the specified slot.
 
 ### Example:
 

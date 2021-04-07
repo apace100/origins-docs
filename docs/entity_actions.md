@@ -4,7 +4,7 @@ date: 2021-04-05
 ---
 # Entity Actions
 
-Entity Actions operate on an `Entity`. Some more specific actions only have an effect on more specific entity types (e.g. [Exhaust (Action)](../entity_actions/exhaust.md) only works on `PlayerEntity`, as other entities do not have a hunger bar).
+Entity Actions operate on an `Entity`. Some more specific actions only have an effect on more specific entity types (e.g. [Exhaust (Action)](exhaust) only works on `PlayerEntity`, as other entities do not have a hunger bar).
 
 ## List
 

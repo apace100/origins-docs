@@ -6,7 +6,7 @@ date: 2021-04-04
 
 [Power Type](../power_types.md).
 
-Executes an entity action on the player when the player uses a specified [Key](..data_types/key.md) (default: G).
+Executes an entity action on the player when the player uses a specified [Key](../data_types/key.md) (default: G).
 
 Type ID: `origins:active_self`
 
