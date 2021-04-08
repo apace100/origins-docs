@@ -6,7 +6,7 @@ date: 2021-04-06
 
 [Power Type](../power_types.md).
 
-Modifies how much melee damage the player deals.
+Modifies how much damage the player takes.
 
 Type ID: `origins:modify_damage_taken`
 

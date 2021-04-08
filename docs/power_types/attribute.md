@@ -2,7 +2,7 @@
 title: Attribute (Power Type)
 date: 2021-04-07
 ---
-# Modify Food
+# Attribute
 
 [Power Type](../power_types.md).
 
