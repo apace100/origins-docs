@@ -15,7 +15,7 @@ Type ID: `origins:damage`
 Field  | Type | Default | Description
 -------|------|---------|-------------
 `amount` | [Float](../data_types/float.md) |  | The amount of damage to deal.
-`source` | [Float](../data_types/damage_source.md) |  | The damage source to be used. Controls e.g. the death message, invulnerabilities (e.g. towards fire), or whether armor is taken into account.
+`source` | [Damage Source](../data_types/damage_source.md) |  | The damage source to be used. Controls e.g. the death message, invulnerabilities (e.g. towards fire), or whether armor is taken into account.
 
 ### Example
 ```json
