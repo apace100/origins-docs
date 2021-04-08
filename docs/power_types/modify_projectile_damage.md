@@ -1,14 +1,14 @@
 ---
-title: Modify Damage Dealt (Power Type)
-date: 2021-04-06
+title: Modify Projectile Dealt (Power Type)
+date: 2021-04-08
 ---
-# Modify Damage Dealt
+# Modify Projectile Dealt
 
 [Power Type](../power_types.md).
 
-Modifies how much melee damage the player deals.
+Modifies how much projectile damage the player deals.
 
-Type ID: `origins:modify_damage_dealt`
+Type ID: `origins:modify_projectile_damage`
 
 ### Fields
 
