@@ -22,6 +22,7 @@ nav:
         - Meta Actions: meta_actions.md
     - Miscellaneous:
         - Origins: origins.md
+        - Powers: origins_powers.md
         - Keybindings: misc/keybindings.md
         - Resource Bars: misc/resource_bars.md
         - Vanilla Damage Sources: misc/vanilla_damage_sources.md
