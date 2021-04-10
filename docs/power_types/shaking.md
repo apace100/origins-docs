@@ -19,7 +19,8 @@ _None._
 {
   	"type": "origins:shaking",
   	"condition": {
-    	"type": "origins:on_fire"
+    	"type": "origins:on_fire",
+      "inverted": true
   	}
 }
 ```
