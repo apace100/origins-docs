@@ -1,14 +1,14 @@
 ---
 title: Action Over Time (Power Type)
-date: 2021-04-04
+date: 2021-04-10
 ---
 # Action Over Time
 
 [Power Type](../power_types.md).
 
-Executes an entity or item action when the player finishes using an item (such as eating food or drinking a potion).
+Executes an entity action on the player in a regular interval.
 
-Type ID: `origins:action_on_item_use`
+Type ID: `origins:action_over_time`
 
 ### Fields
 
