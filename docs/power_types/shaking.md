@@ -1,6 +1,6 @@
 ---
 title: Shaking (Power Type)
-date: 2021-04-08
+date: 2021-04-10
 ---
 # Shaking
 
@@ -8,7 +8,7 @@ date: 2021-04-08
 
 Makes the player shake, similar to a strider out of lava or a zombie undergoing conversion.
 
-Type ID: `origins:disable_regen`
+Type ID: `origins:shaking`
 
 ### Fields
 
