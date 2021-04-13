@@ -8,7 +8,7 @@ This is the format of a JSON file describing a layer. Layers are collections of 
 
 Layer files need to be placed inside the `origin_layers` folder within your namespace.
 
-The most common use is to create a layer file at `data/origins/origin_layers/origin.json` with `replace` set to true, in order to add a custom origin to the list. See the examples below for what that would look like.
+The most common use is to create a layer file at `data/origins/origin_layers/origin.json` with `replace` set to false, in order to add a custom origin to the list. See the examples below for what that would look like.
 
 ### Fields
 
