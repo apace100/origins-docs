@@ -2,7 +2,7 @@
 title: Self Action On Kill (Power Type)
 date: 2021-04-04
 ---
-# Self Action On Hit
+# Self Action On Kill
 
 [Power Type](../power_types.md).
 
