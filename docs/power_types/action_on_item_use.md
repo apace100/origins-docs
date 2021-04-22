@@ -25,15 +25,15 @@ Field  | Type | Default | Description
     "type": "origins:action_on_item_use",
     "entity_action": {
         "type": "origins:feed",
-        "food": 3.0,
+        "food": 1.0,
         "saturation": 1.0
     },
     "item_condition": {
         "type": "origins:ingredient",
         "ingredient": {
-            "item": "minecraft:dried_kelp"
+            "item": "minecraft:potion"
         }
     }
 }
 ```
-This power will give 2 and a half shanks of hunger, and 1 saturation point if a player has eaten a dried kelp.
+This power will give half a shank of hunger, and 1 saturation point if the player drinks any kind of potion.
