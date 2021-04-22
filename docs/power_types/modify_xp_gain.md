@@ -16,3 +16,16 @@ Field  | Type | Default | Description
 -------|------|---------|-------------
 `modifier` | [Attribute Modifier](../data_types/attribute_modifier.md) | _optional_ | If set, this modifier will apply to the experience gained.
 `modifiers` | [Array](../data_types/array.md) of [Attribute Modifiers](../data_types/attribute_modifier.md) | _optional_ | If set, these modifiers will apply to the experience gained.
+
+
+### Example
+```json
+{
+    "type": "origins:modify_xp_gain",
+    "modifier": {
+        "operation": "multiply_base",
+        "value": 2.0
+    }
+}
+```
+This power doubles the gained experience from experience orbs.

@@ -16,3 +16,17 @@ Field  | Type | Default | Description
 -------|------|---------|-------------
 `modifier` | [Attribute Modifier](../data_types/attribute_modifier.md) | _optional_ | If set, this modifier will apply to the exhaustion amount.
 `modifiers` | [Array](../data_types/array.md) of [Attribute Modifiers](../data_types/attribute_modifier.md) | _optional_ | If set, these modifiers will apply to the exhaustion amount.
+
+
+### Example
+```json
+{
+    "type": "origins:modify_exhaustion",
+    "modifier": {
+        "name": "Increased exhaustion",
+        "operation": "multiply_base",
+        "value": 2.0
+    }
+}
+```
+This power doubles the exhaustion rate of the player.
