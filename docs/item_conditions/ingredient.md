@@ -2,7 +2,7 @@
 title: Ingredient (Condition)
 date: 2021-04-05
 ---
-# Food
+# Ingredient
 
 [Item Condition](../item_conditions.md).
 
