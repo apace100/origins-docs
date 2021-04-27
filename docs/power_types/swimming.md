@@ -13,3 +13,15 @@ Type ID: `origins:swimming`
 ### Fields
 
 _None._
+
+
+### Example
+```json
+{
+    "type": "origins:swimming",
+    "condition": {
+        "type": "origins:on_block"
+    }
+}
+```
+This power will make the player swim instead of sprint if the player is on the ground.

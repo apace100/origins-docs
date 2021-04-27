@@ -13,3 +13,11 @@ Type ID: `origins:simple`
 ### Fields
 
 _None._
+
+
+### Example
+```json
+{
+    "type": "origins:simple"
+}
+```
