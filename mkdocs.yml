@@ -23,6 +23,7 @@ nav:
     - Miscellaneous:
         - Origins: origins.md
         - Powers: origins_powers.md
+        - Origin conditions in layers: misc/origin_conditions_in_layers.md
         - Keybindings: misc/keybindings.md
         - Resource Bars: misc/resource_bars.md
         - Vanilla Damage Sources: misc/vanilla_damage_sources.md
