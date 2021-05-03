@@ -6,7 +6,7 @@ date: 2021-04-08
 
 [Power Type](../power_types.md).
 
-An active power which opens a 9-slot inventory which may or may not persist over deaths.
+An active power which opens a 9-slot inventory which may or may not persist over deaths. Note that this power type does not accept conditions.
 
 Type ID: `origins:inventory`
 
