@@ -20,3 +20,43 @@ Field  | Type | Default | Description
 `target_condition` | [Entity Condition](../entity_conditions.md) | _optional_ | If set, the action will only be triggered when a target matching this condition is hit.
 `self_action` | [Entity Action](../entity_actions.md) | _optional_ | If set, this action will be executed on the player whenever this power applies a modification.
 `target_action` | [Entity Action](../entity_actions.md) | _optional_ | If set, this action will be executed on the target whenever this power applies a modification.
+
+
+### Example
+```json
+{
+    "type": "origins:modify_damage_dealt",
+    "damage_condition": {
+        "type": "origins:attacker",
+        "entity_condition": {
+            "type": "origins:or",
+            "conditions": [
+                {
+                    "type": "origins:in_block",
+                    "block_condition": {
+                        "type": "origins:offset",
+                        "condition": {
+                            "type": "origins:block",
+                            "block": "minecraft:water"
+                        },
+                        "y": 1
+                    }
+                },
+                {
+                    "type": "origins:in_block",
+                    "block_condition": {
+                        "type": "origins:block",
+                        "block": "minecraft:water"
+                    }
+                }
+            ]
+        }
+    },
+    "modifier": {
+        "name": "Extra damage when submerged",
+        "operation": "addition",
+        "value": 5.0
+    }
+}
+```
+This power gives the player additional 2 and a half hearts of damage if its feet or eyes is inside a water block, regardless of its fluid level.

@@ -16,7 +16,7 @@ Field  | Type | Default | Description
 -------|------|---------|-------------
 `min_stacks` | [Integer](../data_types/integer.md) | | The minimum number of stacks. Negative numbers are allowed.
 `max_stacks` | [Integer](../data_types/integer.md) | | The maximum number of stacks.
-`duration_per_stacks` | [Integer](../data_types/integer.md) | | When the status effects are applied, their duration will be `stacks * duration_per_stack` in ticks.
+`duration_per_stack` | [Integer](../data_types/integer.md) | | When the status effects are applied, their duration will be `stacks * duration_per_stack` in ticks.
 `effect` | [Status Effect Instance](../data_types/status_effect_instance.md) | _optional_ | If set, this status effect will be applied by this power.
 `effects` | [Array](../data_types/array.md) of [Status Effect Instances](../data_types/status_effect_instance.md) | _optional_ | If set, these status effects will be applied by this power.
 

@@ -20,3 +20,20 @@ Field  | Type | Default | Description
 `target_condition` | [Entity Condition](../entity_conditions.md) | _optional_ | If set, the action will only be triggered when a target matching this condition is hit.
 `self_action` | [Entity Action](../entity_actions.md) | _optional_ | If set, this action will be executed on the player whenever this power applies a modification.
 `target_action` | [Entity Action](../entity_actions.md) | _optional_ | If set, this action will be executed on the target whenever this power applies a modification.
+
+
+### Example
+```json
+{
+    "type": "origins:modify_projectile_damage",
+    "damage_condition": {
+        "type": "origins:projectile",
+        "projectile": "minecraft:spectral_arrow"
+    },
+    "modifier": {
+        "operation": "addition",
+        "value": 8.0
+    }
+}
+```
+This power modifies the damage of the spectral arrow projectile shot by the player to deal 7 and a half hearts of damage.

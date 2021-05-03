@@ -16,3 +16,17 @@ Field  | Type | Default | Description
 -------|------|---------|-------------
 `cooldown` | [Integer](../data_types/integer.md) | | Cooldown duration in ticks.
 `hud_render` | [Hud Render](../data_types/hud_render.md) | | Specifies how and if a cooldown bar is rendered.
+
+
+### Example
+```json
+{
+    "type": "origins:cooldown",
+    "cooldown": 200,
+    "hud_render": {
+        "should_render": true,
+        "bar_index": 3
+    }
+}
+```
+This power will last for 10 seconds (20 ticks = 1 second), and display the 4th resource bar sprite in the default sprite sheet if triggered with the [`origins:trigger_cooldown`](../entity_actions/trigger_cooldown.md) entity action.

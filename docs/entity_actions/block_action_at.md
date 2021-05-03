@@ -6,7 +6,7 @@ date: 2021-04-05
 
 [Entity Action](../entity_actions.md).
 
-Executes a [Block Action](../block_actions) at the position of the entity.
+Executes a [Block Action](../block_actions.md) at the position of the entity.
 
 Type ID: `origins:block_action_at`
 
@@ -14,7 +14,7 @@ Type ID: `origins:block_action_at`
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`block_action` | [Block Action](../block_actions) |  | The block action to execute.
+`block_action` | [Block Action](../block_actions.md) |  | The block action to execute.
 
 ### Example
 ```json

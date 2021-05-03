@@ -13,3 +13,12 @@ Type ID: `origins:disable_regen`
 ### Fields
 
 _None._
+
+
+### Example
+```json
+{
+    "type": "origins:disable_regen"
+}
+```
+This power disables natural regeneration of the player.

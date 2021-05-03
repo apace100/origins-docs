@@ -1,6 +1,10 @@
 site_name: Origins Documentation
 nav:
     - Home: index.md
+    - Datapack Guides:
+        - Defining an Origin: guides/data/define_origin.md
+        - Defining a Power: guides/data/define_power.md
+        - Origin conditions in layers: misc/origin_conditions_in_layers.md
     - Types:
         - Power Types: power_types.md
         - Data Types: data_types.md
@@ -22,6 +26,7 @@ nav:
         - Meta Actions: meta_actions.md
     - Miscellaneous:
         - Origins: origins.md
+        - Powers: origins_powers.md
         - Keybindings: misc/keybindings.md
         - Resource Bars: misc/resource_bars.md
         - Vanilla Damage Sources: misc/vanilla_damage_sources.md

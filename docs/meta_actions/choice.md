@@ -8,7 +8,7 @@ date: 2021-04-07
 
 Executes one of the provided actions, choosing randomly based on the assigned weights. The actions with higher weight values are more likely to be chosen.
 
-Type ID: `origins:chance`
+Type ID: `origins:choice`
 
 ### Fields
 
