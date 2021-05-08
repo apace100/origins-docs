@@ -14,7 +14,7 @@ Type ID: `origins:prevent_block_use`
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`block_condition` | [Block Condition](../block_conditions.md) | _optional_ | When set, only blocks which meet this condition will be unable to be used.
+`block_condition` | [Block Condition](../block_conditions.md) | | When set, only blocks which meet this condition will be unable to be used.
 
 ### Example
 ```json
