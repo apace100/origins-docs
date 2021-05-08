@@ -18,3 +18,16 @@ Field  | Type | Default | Description
 `x` | [Integer](../data_types/integer.md) | `0` | How much to offset the position on the x-axis.
 `y` | [Integer](../data_types/integer.md) | `0` | How much to offset the position on the y-axis.
 `z` | [Integer](../data_types/integer.md) | `0` | How much to offset the position on the z-axis.
+
+### Example
+```json
+"block_action": {
+    "type": "origins:offset",
+    "action": {
+        "type": "origins:add_block",
+        "block": "minecraft:gravel"
+    },
+    "y": 1
+}
+```
+This example offsets the [`origins:add_block`](../block_actions/add_block.md) block action in the positive Y axis, raising the positional context of the block action to be 1 block above to where it initially was.

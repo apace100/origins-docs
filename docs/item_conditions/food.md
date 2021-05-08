@@ -13,3 +13,11 @@ Type ID: `origins:food`
 ### Fields:
 
 _None._
+
+### Example
+```json
+"item_condition": {
+    "type": "origins:food"
+}
+```
+This example checks if the item is a food item.

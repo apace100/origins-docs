@@ -16,3 +16,12 @@ Field  | Type | Default | Description
 -------|------|---------|-------------
 `points` | [Integer](../data_types/integer.md) | _optional_ | If set, this is the amount experience points that will be given to the player. Can not be negative.
 `levels` | [Integer](../data_types/integer.md) | _optional_ | If set, this is the amount experience levels that will be given to the player. Can be negative and thus used to subtract levels.
+
+### Example
+```json
+"entity_action": {
+    "type": "origins:add_xp",
+    "levels": 2
+}
+```
+This action adds 2 levels to the player.

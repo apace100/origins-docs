@@ -6,7 +6,7 @@ date: 2021-04-04
 
 [Fluid Condition](../fluid_conditions.md).
 
-Checks whether the player is in a specified dimension.
+Checks whether the fluid is in a specified tag.
 
 Type ID: `origins:in_tag`
 

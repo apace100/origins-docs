@@ -15,3 +15,25 @@ Type ID: `origins:ingredient`
 Field  | Type | Default | Description
 -------|------|---------|-------------
 `ingredient` | [Ingredient](../data_types/ingredient.md) | |  The ingredient this item must match to pass the check.
+
+### Examples
+```json
+"item_condition": {
+    "type": "origins:ingredient",
+    "ingredient": {
+        "item": "minecraft:egg"
+    }
+}
+```
+This example checks if the item is a `minecraft:egg` item.
+
+
+```json
+"item_condition": {
+    "type": "origins:ingredient",
+    "ingredient": {
+        "tag": "minecraft:flowers"
+    }
+}
+```
+This example checks if the item is inside the `#minecraft:flowers` item tag. (`data\minecraft\tags\items\flowers.json`)
