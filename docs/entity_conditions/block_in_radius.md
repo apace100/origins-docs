@@ -6,7 +6,7 @@ date: 2021-04-04
 
 [Entity Condition](../entity_conditions.md).
 
-Checks whether the player has a specified number of blocks blocks that match a specified block condition in a specified radius. The radius originates at the player's lower body block position.
+Checks whether the player has a specified number of blocks that match a specified block condition in a specified radius. The radius originates at the player's lower body block position.
 
 Type ID: `origins:block_in_radius`
 
