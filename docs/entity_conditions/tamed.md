@@ -13,3 +13,10 @@ Type ID: `origins:tamed`
 ### Fields:
 
 _None._
+
+### Example:
+```json
+"condition": {
+    "type": "origins:tamed"
+}
+```

@@ -13,3 +13,10 @@ Type ID: `origins:sneaking`
 ### Fields:
 
 _None._
+
+### Example:
+```json
+"condition": {
+    "type": "origins:sneaking"
+}
+```

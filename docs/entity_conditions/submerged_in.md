@@ -15,3 +15,12 @@ Type ID: `origins:submerged_in`
 Field  | Type | Default | Description
 -------|------|---------|-------------
 `fluid` | [Identifier](../data_types/identifier.md) | | ID of the fluid tag that should be checked. Most important examples: `minecraft:water` and `minecraft:lava`.
+
+### Example:
+```json
+"condition": {
+    "type": "origins:submerged_in",
+    "fluid": "minecraft:water"
+}
+```
+This example checks if the player is submerged in water.

@@ -13,3 +13,10 @@ Type ID: `origins:swimming`
 ### Fields:
 
 _None._
+
+### Example:
+```json
+"condition": {
+    "type": "origins:swimming"
+}
+```

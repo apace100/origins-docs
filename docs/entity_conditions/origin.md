@@ -16,3 +16,13 @@ Field  | Type | Default | Description
 -------|------|---------|-------------
 `origin` | [Identifier](../data_types/identifier.md) | |  ID of the origin the player needs to have to pass the check.
 `layer` | [Identifier](../data_types/identifier.md) | _optional_ |  If set, will check only the layer with the provided ID for the origin.
+
+### Example:
+```json
+"condition": {
+    "type": "origins:origin",
+    "origin": "origins:human",
+    "layer": "origins:origin"
+}
+```
+This example checks if the player has the `origins:human` origin that is provided by the `origins:origin` origin layer.

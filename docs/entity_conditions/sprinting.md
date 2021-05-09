@@ -13,3 +13,10 @@ Type ID: `origins:sprinting`
 ### Fields:
 
 _None._
+
+### Example:
+```json
+"condition": {
+    "type": "origins:sprinting"
+}
+```

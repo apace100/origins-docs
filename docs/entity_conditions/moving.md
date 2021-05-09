@@ -13,3 +13,10 @@ Type ID: `origins:moving`
 ### Fields:
 
 _None._
+
+### Example:
+```json
+"condition": {
+    "type": "origins:moving"
+}
+```

@@ -13,3 +13,10 @@ Type ID: `origins:exposed_to_sun`
 ### Fields:
 
 _None._
+
+### Example:
+```json
+"condition": {
+    "type": "origins:exposed_to_sun"
+}
+```

@@ -15,3 +15,12 @@ Type ID: `origins:power`
 Field  | Type | Default | Description
 -------|------|---------|-------------
 `power` | [Identifier](../data_types/identifier.md) | |  ID of the power the player needs to have to pass the check.
+
+### Example:
+```json
+"condition": {
+    "type": "origins:power",
+    "power": "origins:damage_from_potions"
+}
+```
+This example checks if the player has the [`origins:damage_from_potions`](https://github.com/apace100/origins-fabric/blob/master/src/main/resources/data/origins/powers/damage_from_potions.json) power in its origin.

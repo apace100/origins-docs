@@ -13,3 +13,10 @@ Type ID: `origins:daytime`
 ### Fields:
 
 _None._
+
+### Example
+```json
+{
+    "type": "origins:daytime"
+}
+```

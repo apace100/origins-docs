@@ -17,3 +17,22 @@ Type ID: `origins:predicate`
 Field  | Type | Default | Description
 -------|------|---------|-------------
 `predicate` | [Identifier](../data_types/identifier.md) | |  ID of the predicate the entity needs to pass.
+
+### Example:
+```json
+"condition": {
+    "type": "origins:predicate",
+    "predicate": "example:weather/is_thunderstorm"
+}
+```
+This example checks if the `test:check_if_thunderstorm` predicate (`data\example\predicates\weather\is_thunderstorm.json`) is true.
+
+
+```json
+{
+    "condition": "minecraft:weather_check",
+    "raining": true,
+    "thundering": true
+}
+```
+This being the contents of the `example:check_if_thunderstorm` predicate. (`data\example\predicates\weather\is_thunderstorm.json`)

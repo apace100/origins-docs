@@ -13,3 +13,10 @@ Type ID: `origins:in_rain`
 ### Fields:
 
 _None._
+
+### Example:
+```json
+"condition": {
+    "type": "origins:in_rain"
+}
+```

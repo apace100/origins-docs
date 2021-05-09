@@ -19,3 +19,13 @@ Field  | Type | Default | Description
 `max_amplifier` | [Integer](../data_types/integer.md) | `2147483647` | The maximum amplifier the status effect should have in order to pass the check.
 `min_duration` | [Integer](../data_types/integer.md) | `0` | The minimum duration in ticks the status effect should have left in order to pass the check.
 `max_duration` | [Integer](../data_types/integer.md) | `2147483647` | The maximum duration in ticks the status effect should have left in order to pass the check.
+
+### Example:
+```json
+"condition": {
+    "type": "origins:status_effect",
+    "effect": "minecraft:speed",
+    "min_amplifier": 1
+}
+```
+This example checks if the player has the Speed II status effect.

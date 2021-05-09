@@ -2,7 +2,7 @@
 title: Collided Horizontally
 date: 2021-04-04
 ---
-# Brightness
+# Collided Horizontally
 
 [Entity Condition](../entity_conditions.md).
 
@@ -13,3 +13,10 @@ Type ID: `origins:collided_horizontally`
 ### Fields:
 
 _None._
+
+### Example:
+```json
+"condition": {
+    "type": "origins:collided_horizontally"
+}
+```

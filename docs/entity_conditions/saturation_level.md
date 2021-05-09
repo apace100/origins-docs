@@ -16,3 +16,13 @@ Field  | Type | Default | Description
 -------|------|---------|-------------
 `comparison` | [Comparison](../data_types/comparison.md) | | How the saturation level should be compared to the specified value.
 `compare_to` | [Float](../data_types/float.md) | | Which value the saturation level should be compared to.
+
+### Example:
+```json
+"condition": {
+    "type": "origins:saturation_level",
+    "comparison": "==",
+    "compare_to": 0
+}
+```
+This example checks if the player's saturation level reaches 0.

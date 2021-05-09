@@ -15,3 +15,12 @@ Type ID: `origins:entity_type`
 Field  | Type | Default | Description
 -------|------|---------|-------------
 `entity_type` | [Indentifier](../data_types/identifier.md) | |  ID of the entity type the entity needs to have to pass the check.
+
+### Example
+```json
+"condition": {
+    "type": "origins:entity_type",
+    "entity_type": "minecraft:creeper"
+}
+```
+This example checks if the entity is a Creeper.

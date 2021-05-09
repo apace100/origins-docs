@@ -13,3 +13,10 @@ Type ID: `origins:climbing`
 ### Fields:
 
 _None._
+
+### Example:
+```json
+"condition": {
+    "type": "origins:climbing"
+}
+```

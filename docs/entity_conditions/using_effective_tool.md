@@ -13,3 +13,10 @@ Type ID: `origins:using_effective_tool`
 ### Fields:
 
 _None._
+
+### Example:
+```json
+"condition": {
+    "type": "origins:using_effective_tool"
+}
+```

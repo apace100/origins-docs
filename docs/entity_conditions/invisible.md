@@ -13,3 +13,10 @@ Type ID: `origins:invisible`
 ### Fields:
 
 _None._
+
+### Example:
+```json
+"condition": {
+    "type": "origins:invisible"
+}
+```

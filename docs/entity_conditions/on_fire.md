@@ -13,3 +13,10 @@ Type ID: `origins:on_fire`
 ### Fields:
 
 _None._
+
+### Example:
+```json
+"condition": {
+    "type": "origins:on_fire"
+}
+```
