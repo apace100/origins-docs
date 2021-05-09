@@ -13,3 +13,11 @@ Type ID: `origins:fire`
 ### Fields:
 
 _None._
+
+### Example
+```json
+"damage_condition": {
+    "type": "origins:fire"
+}
+```
+This example checks if the damage taken/dealt is considered fire damage.
