@@ -13,3 +13,10 @@ Type ID: `origins:empty`
 ### Fields:
 
 _None._
+
+### Example:
+```json
+"fluid_condition": {
+    "type": "origins:empty"
+}
+```

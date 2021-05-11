@@ -13,3 +13,10 @@ Type ID: `origins:stil`
 ### Fields:
 
 _None._
+
+### Example:
+```json
+"fluid_condition": {
+    "type": "origins:still"
+}
+```
