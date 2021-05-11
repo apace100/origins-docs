@@ -13,3 +13,10 @@ Type ID: `origins:attachable`
 ### Fields:
 
 _None._
+
+### Example:
+```json
+"block_condition": {
+    "type": "origins:attachable"
+}
+```

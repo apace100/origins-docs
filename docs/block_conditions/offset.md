@@ -18,3 +18,16 @@ Field  | Type | Default | Description
 `x` | [Integer](../data_types/integer.md) | `0` |  How much to offset the position on the x-axis.
 `y` | [Integer](../data_types/integer.md) | `0` |  How much to offset the position on the y-axis.
 `z` | [Integer](../data_types/integer.md) | `0` |  How much to offset the position on the z-axis.
+
+### Example:
+```json
+"block_condition": {
+    "type": "origins:offset",
+    "condition": {
+        "type": "origins:block",
+        "block": "minecraft:grass_block"
+    },
+    "y": 1
+}
+```
+This example checks if the block above the block is a grass block.

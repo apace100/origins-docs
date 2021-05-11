@@ -13,3 +13,10 @@ Type ID: `origins:movement_blocking`
 ### Fields:
 
 _None._
+
+### Example:
+```json
+"block_condition": {
+    "type": "origins:movement_blocking"
+}
+```

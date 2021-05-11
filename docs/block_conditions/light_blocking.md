@@ -13,3 +13,10 @@ Type ID: `origins:light_blocking`
 ### Fields:
 
 _None._
+
+### Example:
+```json
+"block_condition": {
+    "type": "origins:light_blocking"
+}
+```

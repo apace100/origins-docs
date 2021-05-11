@@ -19,3 +19,22 @@ Field  | Type | Default | Description
 `compare_to` | [Integer](../data_types/integer.md) | _optional_ | If the property contains an integer value, this is the value the property's value will be compared to.
 `value` | [Boolean](../data_types/boolean.md) | _optional_ | If the property contains a boolean value, this is the value the property needs to be to pass the check.
 `enum` | [String](../data_types/string.md) | _optional_ | If the property contains different string values, this is the string value the property needs to be to pass the check.
+
+### Example:
+```json
+"block_condition": {
+    "type": "origins:and",
+    "conditions": [
+        {
+            "type": "origins:block",
+            "block": "minecraft:chest"
+        },
+        {
+            "type": "origins:block_state",
+            "property": "facing",
+            "enum": "north"
+        }
+    ]
+}
+```
+This example checks if a chest block is facing north.

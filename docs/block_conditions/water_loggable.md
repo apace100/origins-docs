@@ -13,3 +13,10 @@ Type ID: `origins:water_loggable`
 ### Fields:
 
 _None._
+
+### Example:
+```json
+"block_condition": {
+    "type": "origins:water_loggable"
+}
+```

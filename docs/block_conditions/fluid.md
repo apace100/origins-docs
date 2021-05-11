@@ -15,3 +15,14 @@ Type ID: `origins:fluid`
 Field  | Type | Default | Description
 -------|------|---------|-------------
 `fluid_condition` | [Fluid Condition](../fluid_conditions.md) | | The fluid condition to check the fluid state at the position.
+
+### Example:
+```json
+"block_condition": {
+    "type": "origins:fluid",
+    "fluid_condition": {
+        "type": "origins:still"
+    }
+}
+```
+This example checks if the fluid block is a source fluid block.

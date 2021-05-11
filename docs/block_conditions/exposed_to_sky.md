@@ -13,3 +13,10 @@ Type ID: `origins:exposed_to_sky`
 ### Fields:
 
 _None._
+
+### Example:
+```json
+"block_condition": {
+    "type": "origins:exposed_to_sky"
+}
+```
