@@ -22,7 +22,7 @@ Field  | Type | Default | Description
 {
   	"type": "origins:exhaust",
   	"interval": 20,
-  	"amount": 4.0,
+  	"exhaustion": 4.0,
 	"condition": {
 		"type": "origins:fluid_height",
 		"fluid": "minecraft:water",
