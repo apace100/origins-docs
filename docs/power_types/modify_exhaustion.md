@@ -29,4 +29,4 @@ Field  | Type | Default | Description
     }
 }
 ```
-This power doubles the exhaustion rate of the player.
+This power triples the exhaustion rate of the player.
