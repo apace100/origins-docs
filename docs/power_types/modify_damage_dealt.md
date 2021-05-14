@@ -26,30 +26,11 @@ Field  | Type | Default | Description
 ```json
 {
     "type": "origins:modify_damage_dealt",
-    "damage_condition": {
-        "type": "origins:attacker",
-        "entity_condition": {
-            "type": "origins:or",
-            "conditions": [
-                {
-                    "type": "origins:in_block",
-                    "block_condition": {
-                        "type": "origins:offset",
-                        "condition": {
-                            "type": "origins:block",
-                            "block": "minecraft:water"
-                        },
-                        "y": 1
-                    }
-                },
-                {
-                    "type": "origins:in_block",
-                    "block_condition": {
-                        "type": "origins:block",
-                        "block": "minecraft:water"
-                    }
-                }
-            ]
+    "condition": {
+        "type": "origins:in_block_anywhere",
+        "block_condition": {
+            "type": "origins:block",
+            "block": "minecraft:water"
         }
     },
     "modifier": {
@@ -59,4 +40,4 @@ Field  | Type | Default | Description
     }
 }
 ```
-This power gives the player additional 2 and a half hearts of damage if its feet or eyes is inside a water block, regardless of its fluid level.
+This example gives the player additional 2 and a half hearts of damage if the player is inside a water fluid, regardless of its fluid level.
