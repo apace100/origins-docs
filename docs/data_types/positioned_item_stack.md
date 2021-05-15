@@ -15,7 +15,7 @@ Field  | Type | Default | Description
 `item` | [Identifier](identifier.md) | | ID of a registered item.
 `amount` | [Integer](integer.md) | 1 | Size of the stack.
 `tag` | [String](string.md) | _optional_ | NBT data of the item.
-`slot` | [Integer](integer.md) | _optional_ | Inventory slot position of the stack. If not specified, will be the first free slot in the inventory.
+`slot` | [Integer](integer.md) | _optional_ | Inventory [slot position](../misc/slots.md) of the stack. If not specified, will be the first free slot in the inventory.
 
 ### Example
 ```json
