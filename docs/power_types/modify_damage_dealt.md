@@ -31,7 +31,9 @@ Field  | Type | Default | Description
         "block_condition": {
             "type": "origins:block",
             "block": "minecraft:water"
-        }
+        },
+        "comparison": ">=",
+        "compare_to": 1
     },
     "modifier": {
         "name": "Extra damage when submerged",
