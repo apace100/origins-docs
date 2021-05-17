@@ -39,7 +39,7 @@ A Slowness II status which lasts for 4 seconds.
 		"duration": 200,
 		"is_ambient": true,
 		"show_particles": false,
-		"show_icon": false,
+		"show_icon": false
 	}
 }
 ```
