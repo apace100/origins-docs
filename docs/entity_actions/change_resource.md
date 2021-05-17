@@ -25,4 +25,4 @@ Field  | Type | Default | Description
     "change": 1
 }
 ```
-This action adds 1 to the `namespace:example` [resource](../power_types/resource) power. (`data\namespace\powers\example.json`)
+This action adds 1 to the `namespace:example` [resource](../power_types/resource.md) power. (`data\namespace\powers\example.json`)
