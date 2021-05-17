@@ -14,7 +14,7 @@ Type ID: `origins:action_over_time`
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`interval` | [Integer](../data_types/integer.md) | | Interval of ticks between subsequent executions of the action.
+`interval` | [Integer](../data_types/integer.md) | | Interval of ticks between subsequent executions of the action. Must be a value of at least 1.
 `entity_action` | [Entity Action](../entity_actions.md) | _optional_ | The action to execute on the player each interval.
 `rising_action` | [Entity Action](../entity_actions.md) | _optional_ | The action to execute on the first interval tick in which the condition became true.
 `falling_action` | [Entity Action](../entity_actions.md) | _optional_ | The action to execute on the first interval tick in which the condition became false.
