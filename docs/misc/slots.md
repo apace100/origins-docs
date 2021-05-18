@@ -78,7 +78,6 @@ An [Integer](../data_types/integer.md) that specifies the position (or slot) of 
         {
             "item": "minecraft:white_stained_glass",
             "amount": 1,
-            "tag": "{display: {color: 16383998}}",
             "slot": 39
         },
         {
