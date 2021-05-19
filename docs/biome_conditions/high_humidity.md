@@ -13,3 +13,10 @@ Type ID: `origins:high_humidity`
 ### Fields:
 
 _None._
+
+### Example:
+```json
+"biome_condition": {
+    "type": "origins:high_humidity"
+}
+```
