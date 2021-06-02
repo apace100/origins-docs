@@ -4,7 +4,7 @@ date: 2021-04-04
 ---
 # Enderian
 
-[Origin](../origins.md). ID: `origins:enderian`
+[Origin](../misc/origins.md). ID: `origins:enderian`
 
 Born as sons and daughters of the Ender Dragon, Enderians are capable of teleporting but are vulnerable to water.
 

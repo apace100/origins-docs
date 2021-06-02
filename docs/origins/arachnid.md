@@ -4,7 +4,7 @@ date: 2021-04-04
 ---
 # Arachnid
 
-[Origin](../origins.md). ID: `origins:arachnid`
+[Origin](../misc/origins.md). ID: `origins:arachnid`
 
 Their climbing abilities and the ability to trap their foes in spiderweb make the Arachnid perfect hunters.
 

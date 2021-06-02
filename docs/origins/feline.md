@@ -4,7 +4,7 @@ date: 2021-04-04
 ---
 # Feline
 
-[Origin](../origins.md). ID: `origins:feline`
+[Origin](../misc/origins.md). ID: `origins:feline`
 
 With their cat-like appearance, the Feline scare creepers away. With the dexterity of cats, they always land safely on their feet.
 
