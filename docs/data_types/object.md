@@ -2,13 +2,13 @@
 title: Object (Data Type)
 date: 2021-04-04
 ---
-# Object
+# Object:
 
 [Data Type](../data_types.md).
 
 A complex piece of data consisting of more fields. Objects are enclosed in curly braces and contain multiple `"key": value` entries separated by commas.
 
-### Examples
+### Examples:
 
 ```json
 {
@@ -23,14 +23,16 @@ A complex piece of data consisting of more fields. Objects are enclosed in curly
 }
 ```
 An object containing a [String](string.md) field, an [Integer](integer.md) field, and an [Array](array.md) of [Strings](string.md).
+<br>
 
 ```json
 {
-	"field_name": {
+	"effect": {
 		"effect": "minecraft:slowness",
 		"amplifier": 1,
 		"duration": 80
 	}
 }
 ```
+
 An object in the format of a [Status Effect Instance](status_effect_instance.md), specifying a Slowness II status which lasts for 4 seconds.

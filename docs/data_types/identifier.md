@@ -15,18 +15,23 @@ If no namespace is specified, it will default to `minecraft`.
 
 Read more here: [Minecraft Wiki: Namespaced ID](https://minecraft.fandom.com/wiki/Namespaced_ID)
 
-### Example
+### Example:
 
 ```json
 {
-	"field_name": "iron_ore"
+	"type": "origins:block",
+	"block": "iron_ore"
 }
 ```
-An identifier specifying iron ore. The namespace is not specified, thus defaults to `minecraft`.
+
+A `block` identifier specifying iron ore. The namespace is not specified, thus defaults to `minecraft`.
+<br>
 
 ```json
 {
-	"field_name": "origins-classes:stealth"
+	"type": "origins:origin",
+	"origin": "origins-classes:stealth"
 }
 ```
-An identifier specifying the stealth status effect added by the Origins: Classes add-on.
+
+An `origin` identifier specifying the stealth status effect added by the Origins: Classes add-on.

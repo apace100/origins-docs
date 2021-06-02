@@ -8,7 +8,7 @@ date: 2021-04-04
 
 An [Object](object.md) used to define how a resource or cooldown bar should be rendered.
 
-### Fields
+### Fields:
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
@@ -17,11 +17,11 @@ Field  | Type | Default | Description
 `bar_index` | [Integer](integer.md) | 0 | The indexed position of the bar on the sprite to use.
 `condition` | [Entity Condition](../entity_conditions.md) | _optional_ | If set (and `should_render` is true), the bar will only display when the entity with the power fulfills this condition.
 
-### Examples
+### Examples:
 
 ```json
 {
-	"field_name": {
+	"hud_render": {
 		"bar_index": 4,
 		"condition": {
 			"type": "origins:power_active",
@@ -30,14 +30,17 @@ Field  | Type | Default | Description
 	}
 }
 ```
+
 This definition shows the resource/cooldown as the Elytrian bar (white and with a wings icon), but only while the player is phantomized.
+<br>
 
 ```json
 {
-	"field_name": {
+	"hud_render": {
 		"sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_03.png",
 		"bar_index": 5
 	}
 }
 ```
+
 This definition shows the resource/cooldown as a white bar with a bone icon.

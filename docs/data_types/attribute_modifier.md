@@ -8,7 +8,7 @@ date: 2021-04-04
 
 An [Object](object.md) used to specify how a value should be modified.
 
-### Fields
+### Fields:
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
@@ -16,24 +16,27 @@ Field  | Type | Default | Description
 `value` | [Float](float.md) | | The value with which to apply the operation to the value.
 `name` | [String](string.md) | _optional_ | A descriptive name for the modifier, describing where it comes from.
 
-### Examples
+### Examples:
 
 ```json
 {
-	"field_name": {
+	"modifier": {
 		"operation": "multiply_base",
 		"value": 1
 	}
 }
 ```
+
 This attribute modifier will multiply the base value by 2, stacking additively with other `multiply_base` operations on the same value.
+<br>
 
 ```json
 {
-	"field_name": {
+	"modifier": {
 		"operation": "multiply_total",
 		"value": -1
 	}
 }
 ```
+
 This attribute modifier will multiply the total value by 0.

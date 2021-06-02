@@ -8,7 +8,7 @@ date: 2021-04-04
 
 An [Object](object.md) used to specify how to deal damage to an entity.
 
-### Fields
+### Fields:
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
@@ -19,15 +19,16 @@ Field  | Type | Default | Description
 `magic` | [Boolean](boolean.md) | false | When true, the damage will be considered magic damage.
 `out_of_world` | [Boolean](boolean.md) | false | When true, the damage will be considered "out of world" damage, i.e. damage from falling into the void.
 
-### Example
+### Example:
 
 ```json
 {
-	"field_name": {
+	"source": {
 		"name": "starve",
 		"bypasses_armor": true,
 		"unblockable": true
 	}
 }
 ```
+
 A damage source which specifies damage similar to the one caused by starvation.

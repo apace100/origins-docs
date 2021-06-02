@@ -8,7 +8,7 @@ date: 2021-04-04
 
 An [Object](object.md) specifying a shapeless or shaped crafting recipe. For some more information, view [the page on recipes on the MC wiki](https://minecraft.gamepedia.com/Recipe).
 
-### Fields (both types)
+### Fields (both types):
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
@@ -16,16 +16,19 @@ Field  | Type | Default | Description
 `id` | [Identifier](identifier.md) | | An ID for this recipe. Has to be unique among all recipes, otherwise there will be a conflict.
 `result` | [Object](object.md) with an `item` [ID](identifier.md) and `count` [Integer](integer.md) | | The result of the crafting. Note that vanilla does _not_ support NBT tags in the result.
 
-### Fields (shapeless)
+<br>
+
+### Fields (shapeless):
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
 `ingredients` | [Array](array.md) of [Ingredient](ingredient.md) | | These items need to be put in the crafting grid for the recipe.
 
-### Example (shapeless)
+### Example (shapeless):
+
 ```json
 {
-  	"field_name": {
+  	"recipe": {
 	  	"type": "minecraft:crafting_shapeless",
 	  	"id": "origins:fire_charge_without_blaze_powder",
 	  	"ingredients": [
@@ -48,19 +51,22 @@ Field  | Type | Default | Description
   	}
 }
 ```
-A crafting recipe to craft fire charges, but without the blaze powder required by the vanilla recipe.
 
-### Fields (shaped)
+A crafting recipe to craft fire charges, but without the blaze powder required by the vanilla recipe.
+<br>
+
+### Fields (shaped):
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
 `pattern` | [Array](array.md) of [Strings](string.md) | | Specifies the pattern, with each element representing one row. Use a single character to describe one item. A space means that position is empty.
 `key` | [Object](object.md) of "character": [Ingredient](ingredient.md) fields | | Specifies which character in the pattern corresponds to which [Ingredient](ingredient.md).
 
-### Example (shaped)
+### Example (shaped):
+
 ```json
 {
-  	"field_name": {
+  	"recipe": {
 	  	"type": "minecraft:crafting_shaped",
 	  	"id": "origins:sideways_birch_boat",
 	  	"pattern": [
@@ -79,4 +85,6 @@ Field  | Type | Default | Description
 	}
 }
 ```
+
 A crafting recipe for a birch boat, but with the planks rotated to the side in the crafting grid.
+<br>
