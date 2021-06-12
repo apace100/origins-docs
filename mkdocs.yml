@@ -25,9 +25,10 @@ nav:
         - Item Actions: item_actions.md
         - Meta Actions: meta_actions.md
     - Miscellaneous:
+        - Commands: misc/commands.md
+        - Keybindings: misc/keybindings.md
         - Origins: misc/origins.md
         - Powers: misc/origins_powers.md
-        - Keybindings: misc/keybindings.md
         - Resource Bars: misc/resource_bars.md
         - Vanilla Damage Sources: misc/vanilla_damage_sources.md
 theme: readthedocs
