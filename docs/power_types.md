@@ -17,6 +17,7 @@ Unless stated otherwise, each power type supports a `condition` field with an [e
 * [Conditioned Attribute](conditioned_attribute)
 * [Conditioned Restrict Armor](conditioned_restrict_armor)
 * [Cooldown](cooldown)
+* [Creative Flight](creative_flight)
 * [Damage Over Time](damage_over_time)
 * [Disable Regen](disable_regen)
 * [Effect Immunity](effect_immunity)
