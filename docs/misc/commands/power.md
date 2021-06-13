@@ -4,6 +4,7 @@ date: 2021-06-13
 ---
 
 # `/power`
+
 The `/power` command can be used to grant powers, revoke powers, and check if an entity has a certain power. Powers can only be granted once by one source.
 <br>
 <br>

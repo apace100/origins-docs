@@ -7,3 +7,4 @@ date: 2021-06-12
 
 * [`/origin`](commands/origin.md)
 * [`/power`](commands/power.md)
+* [`/resource`](commands/resource.md)
