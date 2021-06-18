@@ -4,7 +4,7 @@ date: 2021-04-04
 ---
 # Phantom
 
-[Origin](../origins.md). ID: `origins:phantom`
+[Origin](../misc/origins.md). ID: `origins:phantom`
 
 As half-human and half-phantom offspring, these creatures can switch between a Phantom and a normal form.
 

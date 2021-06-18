@@ -15,3 +15,15 @@ Type ID: `origins:category`
 Field  | Type | Default | Description
 -------|------|---------|-------------
 `category` | [String](../data_types/string.md) | |  Which category the biome must be in order to succeed the check. See the [list of biome categories](../misc/biome_categories.md).
+
+### Example:
+```json
+"condition": {
+    "type": "origins:biome",
+    "condition": {
+        "type": "origins:category",
+        "category": "forest"
+    }
+}
+```
+This example checks if the player is inside a Forest-like biome.

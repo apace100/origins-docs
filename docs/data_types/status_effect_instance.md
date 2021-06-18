@@ -8,7 +8,7 @@ date: 2021-04-04
 
 An [Object](object.md) used to define a status effect with duration, amplifier, etc.
 
-### Fields
+### Fields:
 
 Field  | Type | Default | Description
 -------|-----|---------------|-------------
@@ -19,22 +19,24 @@ Field  | Type | Default | Description
 `show_particles` | [Boolean](boolean.md) | true | Whether the status effect will spawn particles on the player.
 `show_icon` | [Boolean](boolean.md) | true | Whether the status effect will show an icon on the HUD.
 
-### Examples
+### Examples:
 
 ```json
 {
-	"field_name": {
+	"effect": {
 		"effect": "minecraft:slowness",
 		"amplifier": 1,
 		"duration": 80
 	}
 }
 ```
+
 A Slowness II status which lasts for 4 seconds.
+<br>
 
 ```json
 {
-	"field_name": {
+	"effect": {
 		"effect": "minecraft:levitation",
 		"duration": 200,
 		"is_ambient": true,
@@ -43,4 +45,5 @@ A Slowness II status which lasts for 4 seconds.
 	}
 }
 ```
+
 An ambient and mostly hidden status effect of Levitation I which lasts for 10 seconds.

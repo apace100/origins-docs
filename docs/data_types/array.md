@@ -8,7 +8,7 @@ date: 2021-04-04
 
 Arrays are lists of other existing data types. They are enclosed by square brackets and each element is separated from the next by a comma.
 
-### Examples
+### Examples:
 
 ```json
 {
@@ -19,12 +19,15 @@ Arrays are lists of other existing data types. They are enclosed by square brack
 	]
 }
 ```
+
 An array of [Strings](string.md).
+<br>
 
 
 ```json
 {
-	"field_name": [
+	"type": "origins:or",
+	"conditions": [
 		{
 			"type": "origins:on_fire"
 		},
@@ -34,4 +37,5 @@ An array of [Strings](string.md).
 	]
 }
 ```
-An array of [Entity Conditions](../entity_conditions.md).
+
+An array of [Entity Conditions](../entity_conditions.md) that uses the [`origins:or` meta condition type](../meta_conditions/or.md).

@@ -23,18 +23,21 @@ Value  | Description
 
 ```json
 {
-	"field_name": "=="
+	"comparison": "=="
 }
 ```
+
 Equal to. There's not much to say about this.
+<br>
 
 ```json
 {
-	"field_name": {
+	"condition": {
 		"type": "origins:xp_levels",
 		"comparison": ">=",
 		"compare_to": 3
 	}
 }
 ```
+
 A comparison used inside an [XP Levels](../entity_conditions/xp_levels.md) condition, which checks that the player is level 3 or higher.

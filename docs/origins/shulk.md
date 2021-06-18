@@ -4,7 +4,7 @@ date: 2021-04-04
 ---
 # Shulk
 
-[Origin](../origins.md). ID: `origins:shulk`
+[Origin](../misc/origins.md). ID: `origins:shulk`
 
 Related to Shulkers, the bodies of the Shulk are outfitted with a protective shell-like skin.
 

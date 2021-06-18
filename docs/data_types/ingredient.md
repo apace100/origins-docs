@@ -10,36 +10,40 @@ _Either_: an [Object](object.md) specifying a registered item or item tag.
 
 _Or_: an [Array](array.md) of [Objects](object.md) specifying a registered item or item tag.
 
-### Fields
+### Fields:
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
 `item` | [Identifier](identifier.md) | _optional_ | ID of a registered item.
 `tag` | [Identifier](identifier.md) | _optional_  | ID of an item tag. Will be ignored if `item` is set.
 
-### Examples
+### Examples:
 ```json
 {
-  	"field_name": {
+  	"ingredient": {
 		"item": "minecraft:diamond"
   	}
 }
 ```
+
 An ingredient which matches a diamond.
+<br>
 
 ```json
 {
-  	"field_name": {
+  	"ingredient": {
 		"tag": "minecraft:wool"
   	}
 }
 ```
+
 An ingredient which matches any wool block.
+<br>
 
 
 ```json
 {
-  	"field_name": [
+  	"ingredient": [
 		{
 			"item": "minecraft:cod"
 		},
@@ -52,4 +56,5 @@ An ingredient which matches any wool block.
 	]
 }
 ```
+
 An ingredient which matches cod in its raw or cooked form, or any of the wooden planks.
