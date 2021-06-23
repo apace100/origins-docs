@@ -1,8 +1,8 @@
 ---
-title: Damage Conditions
-date: 2021-04-04
+title: Fluid Conditions
+date: 2021-06-23
 ---
-# Damage Conditions
+# Fluid Conditions
 
 Fluid Conditions operate on a `FluidState`, essentially which fluid (if any) exists, as well as properties of the fluid.
 
