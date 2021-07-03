@@ -1,6 +1,6 @@
 ---
 title: Conditioned Restrict Armor (Power Type)
-date: 2021-04-07
+date: 2021-07-04
 ---
 # Conditioned Restrict Armor
 
@@ -24,7 +24,7 @@ Field  | Type | Default | Description
 ### Example
 ```json
 {
-  	"type": "origins:restrict_armor",
+  	"type": "origins:conditioned_restrict_armor",
   	"head": {
     	"type": "origins:armor_value",
     	"comparison": ">",
