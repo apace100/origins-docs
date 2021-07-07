@@ -48,7 +48,7 @@ Unless stated otherwise, each power type supports a `condition` field with an [e
 * [Starting Equipment](power_types/starting_equipment.md)
 * [Swimming](power_types/swimming.md)
 * [Toggle Night Vision](power_types/toggle_night_vision.md)
-* [Toggle](power_types/toggle_night_vision.md)
+* [Toggle](power_types/toggle.md)
 * [Walk On Fluid](power_types/walk_on_fluid.md)
 
 ## Action-related
