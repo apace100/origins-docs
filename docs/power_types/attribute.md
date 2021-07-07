@@ -16,6 +16,7 @@ Field  | Type | Default | Description
 -------|------|---------|-------------
 `modifier` | [Attributed Attribute Modifier](../data_types/attributed_attribute_modifier.md) | _optional_ | If specified, this modifier will be applied to its corresponding attribute.
 `modifiers` | [Array](../data_types/array.md) of [Attributed Attribute Modifiers](../data_types/attributed_attribute_modifier.md) | _optional_ | If specified, these modifiers will be applied to their corresponding attributes.
+`update_health` | [Boolean](../data_types/boolean.md) | true | When true, the player's health percentage will update to match their new maximum health.
 
 ### Example
 ```json
