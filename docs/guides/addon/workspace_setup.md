@@ -8,7 +8,7 @@ So, you want to create an Origins add-on? Nice.
 
 Before you start, let me just say that I assume you have worked with Fabric before in some capacity and have at least general programming knowledge. I'm not going to explain every necessary Java concept here, but focus on what Origins does and how you can add your own features.
 
-To begin developing an add-on, you need to set up your workspace. The first step is setting it up like any other Fabric modding workspace, outlined here: https://fabricmc.net/wiki/tutorial:setup
+To begin developing an add-on, you need to set up your workspace. The first step is setting it up like any other Fabric modding workspace, outlined here: [Fabric Wiki (Setup)](https://fabricmc.net/wiki/tutorial:setup)
 
 Once that's done and you have a mod that runs (even though it doesn't do anything yet), you should be able to add Origins to your gradle build script, so that the workspace automatically downloads the mod. In your `build.gradle` file, add the following Maven repositories if you don't have them already:
 ```
