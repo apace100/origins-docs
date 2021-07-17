@@ -5,6 +5,9 @@ nav:
         - Defining an Origin: guides/data/define_origin.md
         - Defining a Power: guides/data/define_power.md
         - Origin conditions in layers: guides/data/origin_conditions_in_layers.md
+    - Add-on Guides:
+        - Workspace Setup: guides/addon/workspace_setup.md
+        - Dependencies Explained: guides/addon/dependencies.md
     - Types:
         - Power Types: power_types.md
         - Data Types: data_types.md
