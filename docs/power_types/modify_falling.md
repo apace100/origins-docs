@@ -8,6 +8,7 @@ date: 2021-07-06
 [Power Type](../power_types.md)
 
 Modifies player's falling velocity, and whether if the player should take fall damage or not.
+By default, the player falls at a speed of 0.08, or 0.01 if a slow falling potion is active.
 
 Type ID: `origins:modify_falling`
 
