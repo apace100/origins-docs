@@ -17,6 +17,6 @@ _None._
 ### Example:
 ```json
 "block_condition": {
-    "type": "origins:replaceable"
+    "type": "origins:replacable"
 }
 ```
