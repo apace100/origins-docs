@@ -24,7 +24,7 @@ Field  | Type | Default | Description
 ### Example
 ```json
 {
-  	"type": "origins:restrict_armor",
+  	"type": "origins:conditioned_restrict_armor",
   	"head": {
     	"type": "origins:armor_value",
     	"comparison": ">",
