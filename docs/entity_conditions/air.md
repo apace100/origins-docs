@@ -6,7 +6,7 @@ date: 2021-04-04
 
 [Entity Condition](../entity_conditions.md).
 
-Checks how much breath / air / bubbles the player has at the moment.
+Checks how much breath / air / bubble the player has at the moment. For each bubble, there are 30 ticks, making the max value of the breath / air / bubble bar 300 ticks. (15 seconds)
 
 Type ID: `origins:air`
 
@@ -14,7 +14,7 @@ Type ID: `origins:air`
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`comparison` | [Comparison](../data_types/comparison.md) | |  How the breath (in ticks) should be compared to the specified value.
+`comparison` | [Comparison](../data_types/comparison.md) | |  How the breath / air / bubble bar (in ticks) should be compared to the specified value.
 `compare_to` | [Integer](../data_types/integer.md) | | Which value the breath should be compared to.
 
 ### Example:
@@ -25,4 +25,4 @@ Field  | Type | Default | Description
     "compare_to": 0
 }
 ```
-This example would check if the player has no air / bubbles left.
+This example would check if the player has no breath / air / bubbles left.
