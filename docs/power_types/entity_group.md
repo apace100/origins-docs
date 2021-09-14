@@ -14,7 +14,7 @@ Type ID: `origins:entity_group`
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`group` | [String](../data_types/string.md) | | The group to associate with the player. One of `default`, `undead`, `arthropod`, `illager`, or `aquatic`.
+`group` | [String](../data_types/string.md) | | The group to associate with the player. One of `default`, `undead`, `arthropod`, `illager`, or `aquatic`. [See here for more information about the entity groups](https://minecraft.fandom.com/wiki/Mob#Classification)
 
 ### Example
 ```json
