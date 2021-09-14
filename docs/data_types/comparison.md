@@ -31,12 +31,10 @@ Equal to. There's not much to say about this.
 <br>
 
 ```json
-{
-	"condition": {
-		"type": "origins:xp_levels",
-		"comparison": ">=",
-		"compare_to": 3
-	}
+"condition": {
+	"type": "origins:xp_levels",
+	"comparison": ">=",
+	"compare_to": 3
 }
 ```
 

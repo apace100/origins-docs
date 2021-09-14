@@ -18,10 +18,8 @@ Field  | Type | Default | Description
 ### Examples:
 
 ```json
-{
-  	"key": {
-		"key": "key.origins.secondary_active"
-  	}
+"key": {
+    "key": "key.origins.secondary_active"
 }
 ```
 
@@ -29,11 +27,9 @@ This key will trigger each time the secondary active power key of Origins (by de
 <br>
 
 ```json
-{
-  	"key": {
-		"key": "key.attack",
-		"continuous": true
-  	}
+"key": {
+    "key": "key.attack",
+    "continuous": true
 }
 ```
 

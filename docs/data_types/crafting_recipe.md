@@ -27,28 +27,26 @@ Field  | Type | Default | Description
 ### Example (shapeless):
 
 ```json
-{
-  	"recipe": {
-	  	"type": "minecraft:crafting_shapeless",
-	  	"id": "origins:fire_charge_without_blaze_powder",
-	  	"ingredients": [
-	    	{
-	      		"item": "minecraft:gunpowder"
-	    	},
-	    	[
-		      	{
-		        	"item": "minecraft:coal"
-		      	},
-		      	{
-		        	"item": "minecraft:charcoal"
-		      	}
-	    	]
-	  	],
-	  	"result": {
-	    	"item": "minecraft:fire_charge",
-	    	"count": 3
-	  	}
-  	}
+"recipe": {
+	"type": "minecraft:crafting_shapeless",
+	"id": "origins:fire_charge_without_blaze_powder",
+	"ingredients": [
+	    {
+	      	"item": "minecraft:gunpowder"
+	    },
+	    [
+		    {
+		        "item": "minecraft:coal"
+		    },
+		    {
+		        "item": "minecraft:charcoal"
+		    }
+	    ]
+	],
+	"result": {
+	    "item": "minecraft:fire_charge",
+	    "count": 3
+	}
 }
 ```
 
@@ -65,24 +63,22 @@ Field  | Type | Default | Description
 ### Example (shaped):
 
 ```json
-{
-  	"recipe": {
-	  	"type": "minecraft:crafting_shaped",
-	  	"id": "origins:sideways_birch_boat",
-	  	"pattern": [
-	    	"##",
-	    	" #",
-	    	"##"
-	  	],
-	  	"key": {
-	    	"#": {
-	      		"item": "minecraft:birch_planks"
-	    	}
-  		},
-  		"result": {
-    		"item": "minecraft:birch_boat"
-  		}
-	}
+"recipe": {
+	"type": "minecraft:crafting_shaped",
+	"id": "origins:sideways_birch_boat",
+	"pattern": [
+	    "##",
+	    " #",
+	    "##"
+	],
+	"key": {
+	    "#": {
+	    	"item": "minecraft:birch_planks"
+	    }
+  	},
+  	"result": {
+    	"item": "minecraft:birch_boat"
+  	}
 }
 ```
 

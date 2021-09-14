@@ -11,12 +11,10 @@ Arrays are lists of other existing data types. They are enclosed by square brack
 ### Examples:
 
 ```json
-{
-	"field_name": [
-		"first_value",
-		"second_value",
-		"third"
-	]
+"field_name": {
+    "first",
+    "second",
+    "third"
 }
 ```
 
@@ -25,17 +23,14 @@ An array of [Strings](string.md).
 
 
 ```json
-{
-	"type": "origins:or",
-	"conditions": [
-		{
-			"type": "origins:on_fire"
-		},
-		{
-			"type": "origins:sprinting"
-		}
-	]
-}
+"conditions": [
+    {
+        "type": "origins:on_fire"
+    },
+    {
+        "type": "origins:sprinting"
+    }
+]
 ```
 
-An array of [Entity Conditions](../entity_conditions.md) that uses the [`origins:or` meta condition type](../meta_conditions/or.md).
+An array of [Entity Conditions](../entity_conditions.md).

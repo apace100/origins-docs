@@ -19,11 +19,9 @@ Field  | Type | Default | Description
 ### Examples:
 
 ```json
-{
-  	"stack": {
-		"item": "minecraft:coal",
-		"amount": 24
-  	}
+"stack": {
+    "item": "minecraft:coal",
+    "amount": 24
 }
 ```
 
@@ -31,11 +29,9 @@ An item stack of 24 coal.
 <br>
 
 ```json
-{
-  	"stack": {
-		"item": "minecraft:golden_helmet",
-		"tag": "{Enchantments:[{id:\"minecraft:projectile_protection\",lvl:2s}]}"
-  	}
+"stack": {
+    "item": "minecraft:golden_helmet",
+    "tag": "{Enchantments: [{id: \"minecraft:projectile_protection\", lvl: 2s}]}"
 }
 ```
 
