@@ -2,7 +2,7 @@
 title: Modify Projectile Dealt (Power Type)
 date: 2021-04-08
 ---
-# Modify Projectile Dealt
+# Modify Projectile Damage
 
 [Power Type](../power_types.md).
 
