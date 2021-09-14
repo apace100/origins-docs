@@ -15,3 +15,13 @@ Type ID: `origins:consume`
 Field  | Type | Default | Description
 -------|------|---------|-------------
 `amount` | [Integer](../data_types/integer.md) | `1` | The amount of items to remove.
+
+
+### Example
+
+```json
+"item_action": {
+    "type": "origins:consume",
+    "amount": 1
+}
+```
