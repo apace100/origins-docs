@@ -26,12 +26,10 @@ An object containing a [String](string.md) field, an [Integer](integer.md) field
 <br>
 
 ```json
-{
-	"effect": {
-		"effect": "minecraft:slowness",
-		"amplifier": 1,
-		"duration": 80
-	}
+"effect": {
+    "effect": "minecraft:slowness",
+    "amplifier": 1,
+    "duration": 80
 }
 ```
 

@@ -28,12 +28,10 @@ Will multiply the total value.
 <br>
 
 ```json
-{
-	"modifier": {
-		"attribute": "reach-entity-attributes:reach",
-		"operation": "addition",
-		"value": -2
-	}
+"modifier": {
+    "attribute": "reach-entity-attributes:reach",
+    "operation": "addition",
+    "value": -2
 }
 ```
 

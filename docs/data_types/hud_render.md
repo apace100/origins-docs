@@ -20,13 +20,11 @@ Field  | Type | Default | Description
 ### Examples:
 
 ```json
-{
-	"hud_render": {
-		"bar_index": 4,
-		"condition": {
-			"type": "origins:power_active",
-			"power": "origins:phantomize"
-		}
+"hud_render": {
+	"bar_index": 4,
+	"condition": {
+		"type": "origins:power_active",
+		"power": "origins:phantomize"
 	}
 }
 ```
@@ -35,11 +33,9 @@ This definition shows the resource/cooldown as the Elytrian bar (white and with 
 <br>
 
 ```json
-{
-	"hud_render": {
-		"sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_03.png",
-		"bar_index": 5
-	}
+"hud_render": {
+    "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_03.png",
+    "bar_index": 5
 }
 ```
 

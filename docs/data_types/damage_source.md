@@ -22,12 +22,10 @@ Field  | Type | Default | Description
 ### Example:
 
 ```json
-{
-	"source": {
-		"name": "starve",
-		"bypasses_armor": true,
-		"unblockable": true
-	}
+"source": {
+	"name": "starve",
+	"bypasses_armor": true,
+	"unblockable": true
 }
 ```
 

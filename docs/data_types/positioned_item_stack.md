@@ -20,11 +20,9 @@ Field  | Type | Default | Description
 ### Example:
 
 ```json
-{
-  	"stack": {
-		"item": "minecraft:shield",
-		"slot": 40
-  	}
+"stack": {
+    "item": "minecraft:shield",
+    "slot": 40
 }
 ```
 

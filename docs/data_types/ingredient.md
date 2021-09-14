@@ -19,10 +19,8 @@ Field  | Type | Default | Description
 
 ### Examples:
 ```json
-{
-  	"ingredient": {
-		"item": "minecraft:diamond"
-  	}
+"ingredient": {
+    "item": "minecraft:diamond"
 }
 ```
 
@@ -30,10 +28,8 @@ An ingredient which matches a diamond.
 <br>
 
 ```json
-{
-  	"ingredient": {
-		"tag": "minecraft:wool"
-  	}
+"ingredient": {
+    "tag": "minecraft:wool"
 }
 ```
 
@@ -42,19 +38,17 @@ An ingredient which matches any wool block.
 
 
 ```json
-{
-  	"ingredient": [
-		{
-			"item": "minecraft:cod"
-		},
-		{
-			"item": "minecraft:cooked_cod"
-		},
-		{
-			"tag": "minecraft:planks"
-		}
-	]
-}
+"ingredient": [
+    {
+        "item": "minecraft:cod"
+    },
+    {
+        "item": "minecraft:cooked_cod"
+    },
+    {
+        "tag": "minecraft:planks"
+    }
+]
 ```
 
 An ingredient which matches cod in its raw or cooked form, or any of the wooden planks.

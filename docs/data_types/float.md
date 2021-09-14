@@ -11,12 +11,10 @@ A floating point (decimal) number, like `6.0`, `-1.5` or `0.1`.
 ### Example:
 
 ```json
-{
-	"condition": {
-		"type": "origins:relative_health",
-		"comparison": "<=",
-		"compare_to": 0.5
-	}
+"condition": {
+	"type": "origins:relative_health",
+	"comparison": "<=",
+	"compare_to": 0.5
 }
 ```
 

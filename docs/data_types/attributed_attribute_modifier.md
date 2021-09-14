@@ -20,12 +20,10 @@ Field  | Type | Default | Description
 ### Example:
 
 ```json
-{
-	"modifier": {
-		"attribute": "minecraft:generic.attack_speed",
-		"operation": "multiply_total",
-		"value": -0.25
-	}
+"modifier": {
+	"attribute": "minecraft:generic.attack_speed",
+	"operation": "multiply_total",
+	"value": -0.25
 }
 ```
 
