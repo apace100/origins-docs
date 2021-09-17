@@ -5,7 +5,7 @@ date: 2021-07-13
 
 # `/power`
 
-The `/power` command can be used to grant powers, revoke powers, and check if an entity has a certain power. There can only be one power per power source.
+The `/power` command can be used to grant powers, revoke powers, and check if an entity has a certain power. Every power in Apoli comes from a specific source (an identifier). If a power has no sources, the entity does not have the power. If a power has at least one source, the entity does have the power. For each power, the sources are unique, meaning that a single source can not grant the same power twice.
 
 ### Syntax:
 
@@ -94,13 +94,16 @@ Revoke a power from the specified target(s) (and from a specific power source, i
 <br>
 
 ```mcfunction
-power revokeall <targets>
+power revokeall <targets> <source>
 ```
-Revoke all the powers from the specified target(s).
+Revoke all the powers from the specified target(s) that are granted by the specified source.
 <br>
 
 * `<targets>` being a target selector, username, or UUID
     * (e.g: `@a`, `eggohito`, `70ecd8a7-5abb-492a-a3b3-9aae099400db`)
+
+* `<source>` being the source to completely revoke all powers from
+	* (e.g: `example:test`)
 <br>
 <br>
 
