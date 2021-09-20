@@ -18,8 +18,7 @@ Field  | Type | Default | Description
 `chest` | [Item Condition](../item_conditions.md) | _optional_ | If set, items which satisfy this condition can not be equipped in the chest slot.
 `legs` | [Item Condition](../item_conditions.md) | _optional_ | If set, items which satisfy this condition can not be equipped in the legs slot.
 `feet` | [Item Condition](../item_conditions.md) | _optional_ | If set, items which satisfy this condition can not be equipped in the feet slot.
-
-`tick_rate`, int, default = 80: _The frequency (in ticks) with which to check the condition. Lower values mean the condition changes are detected more quickly, but this comes at a potentially huge performance cost._
+`tick_rate` | [Integer](../data_types/integer.md) | _80_ | The frequency (in ticks) with which to check the condition. Lower values mean the condition changes are detected more quickly, but this comes at a potentially huge performance cost.
 
 ### Example
 ```json
