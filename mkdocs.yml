@@ -34,6 +34,7 @@ nav:
         - Positioned Item Stack Slots: misc/positioned_item_stack_slots.md
         - Powers: misc/origins_powers.md
         - Resource Bars: misc/resource_bars.md
+        - Space: misc/space.md
         - Vanilla Damage Sources: misc/vanilla_damage_sources.md
 theme: readthedocs
 separator: '_'
