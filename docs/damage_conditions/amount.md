@@ -21,8 +21,8 @@ Field  | Type | Default | Description
 ```json
 "damage_condition": {
     "type": "origins:amount",
-    "comparison": ">",
+    "comparison": "==",
     "compare_to": 4
 }
 ```
-This example checks if the damage dealt/taken is 2 hearts. (or 4 damage points)
+This example checks if the damage dealt/taken is equal to 2 hearts. (or 4 damage points)
