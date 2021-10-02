@@ -18,6 +18,7 @@ Entity Actions operate on an `Entity`. Some more specific actions only have an e
 * [Equipped Item Action](equipped_item_action)
 * [Execute Command](execute_command)
 * [Exhaust (Action)](exhaust)
+* [Explode](entity_actions/explode.md)
 * [Extinguish](extinguish)
 * [Feed](feed)
 * [Gain Air](gain_air)
