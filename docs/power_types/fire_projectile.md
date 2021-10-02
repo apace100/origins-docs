@@ -18,8 +18,8 @@ Field  | Type | Default | Description
 `cooldown` | [Integer](../data_types/integer.md) | | The number of ticks the player has to wait between uses of this power.
 `hud_render` | [Hud Render](../data_types/hud_render.md) | | Specifies how and if a cooldown bar is rendered.
 `count` | [Integer](../data_types/integer.md) | 1 | The amount of projectiles to fire each use.
-`interval` | [Integer](../data_types/integer.md) | 0 | Determines the interval for firing multiple projectiles consecutively. If set to 0, it will fire all the projectiles in the same tick.
-`start_delay` | [Integer](../data_types/integer.md) | 0 | Determines how long the start of the firing process is delayed.
+`interval` | [Integer](../data_types/integer.md) | 0 | Determines the interval for firing multiple projectiles consecutively (in ticks). If set to 0, it will fire all the projectiles at the same tick.
+`start_delay` | [Integer](../data_types/integer.md) | 0 | Determines how long the start of the firing process is delayed (in ticks).
 `speed` | [Float](../data_types/float.md) | 1.5 | The speed applied to the fired projectile.
 `divergence` | [Float](../data_types/float.md) | 1.0 | How much each projectile fired is affected by random spread.
 `sound` | [Identifier](../data_types/identifier.md) | _optional_ | If set, the sound with this ID will be played when the power is used.
