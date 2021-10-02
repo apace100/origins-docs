@@ -49,6 +49,7 @@ Unless stated otherwise, each power type supports a `condition` field with an [e
 * [Simple](power_types/simple.md)
 * [Stacking Status Effect](power_types/stacking_status_effect.md)
 * [Starting Equipment](power_types/starting_equipment.md)
+* [Status Bar Texture](power_types/status_bar_texture.md)
 * [Swimming](power_types/swimming.md)
 * [Toggle Night Vision](power_types/toggle_night_vision.md)
 * [Toggle](power_types/toggle.md)
@@ -72,6 +73,7 @@ Unless stated otherwise, each power type supports a `condition` field with an [e
 ## Modifying types
 
 * [Modify Break Speed](power_types/modify_break_speed.md)
+* [Modify Crafting](power_types/modify_crafting.md)
 * [Modify Damage Dealt](power_types/modify_damage_dealt.md)
 * [Modify Damage Taken](power_types/modify_damage_taken.md)
 * [Modify Exhaustion](power_types/modify_exhaustion.md)
