@@ -15,7 +15,7 @@ Type ID: `origins:elytra_flight`
 Field  | Type | Default | Description
 -------|------|---------|-------------
 `render_elytra` | [Boolean](../data_types/boolean.md) |  | Whether an Elytra should render on the player's back while this power is active.
-
+`texture_location` | [Identifier](../data_types/identifier.md) | *optional* | If set, this will be the texture used by an Elytra granted by this power.
 
 ### Example
 ```json
@@ -25,3 +25,12 @@ Field  | Type | Default | Description
 }
 ```
 This power gives the player the ability to fall-fly, with the elytra not being rendered.
+
+```json
+{
+    "type": "origins:elytra_flight",
+    "render_elytra": true,
+    "texture_location": "minecraft:textures/entity/elytra.png"
+}
+```
+This power gives the player the ability to fall-fly, with the elytra being rendered as the default texture.
