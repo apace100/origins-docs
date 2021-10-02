@@ -13,6 +13,7 @@ Type ID: `origins:modify_crafting`
 ### Fields
 
 Field | Type | Default | Description
+------|------|---------|-------------
 `recipe` | [Identifier](../data_types/identifier.md) | _optional_ | The ID of the recipe to be modified.
 `item_condition"` | [Item Condition](../item_conditions.md) | _optional_ | If set, it will only apply the item stack from the `result` field, and trigger the actions when this condition is met by the result item from the crafting recipe.
 `result` | [Item Stack](../data_types/item_stack.md) | _optional_ | If set, replaces the result item stack of the recipe.
