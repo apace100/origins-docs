@@ -14,8 +14,8 @@ Type ID: `origins:modify_camera_submersion`
 
 Field | Type | Default | Description
 ------|------|---------|-------------
-`from` | Camera Submersion Type | _optional_ | Which submersion type to modify. Can be `none`, `water` or `lava`.
-`to` | Camera Submersion Type | _optional_ | Which submersion type to change to. Can be `none`, `water` or `lava`.
+`from` | [String](../data_types/string.md) | _optional_ | Which submersion type to modify. Can be `none`, `water` or `lava`.
+`to` | [String](../data_types/string.md) | _optional_ | Which submersion type to change to. Can be `none`, `water` or `lava`.
 
 ### Example
 ```json
