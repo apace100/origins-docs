@@ -30,6 +30,7 @@ nav:
     - Miscellaneous:
         - Commands: misc/commands.md
         - Keybindings: misc/keybindings.md
+        - Orb of Origin: misc/orb_of_origin.md
         - Origins: misc/origins.md
         - Positioned Item Stack Slots: misc/positioned_item_stack_slots.md
         - Powers: misc/origins_powers.md
