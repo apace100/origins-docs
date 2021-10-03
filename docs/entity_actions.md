@@ -15,6 +15,7 @@ Entity Actions operate on an `Entity`. Some more specific actions only have an e
 * [Change Resource](change_resource)
 * [Clear Effect](clear_effect)
 * [Damage](damage)
+* [Emit Game Event](entity_actions/emit_game_event.md)
 * [Equipped Item Action](equipped_item_action)
 * [Execute Command](execute_command)
 * [Exhaust (Action)](exhaust)
@@ -29,4 +30,5 @@ Entity Actions operate on an `Entity`. Some more specific actions only have an e
 * [Set On Fire](set_on_fire)
 * [Spawn Effect Cloud](spawn_effect_cloud)
 * [Spawn Entity](spawn_entity)
+* [Toggle](entity_actions/toggle.md)
 * [Trigger Cooldown](trigger_cooldown)
