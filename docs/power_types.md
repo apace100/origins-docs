@@ -74,6 +74,7 @@ Unless stated otherwise, each power type supports a `condition` field with an [e
 
 * [Modify Break Speed](power_types/modify_break_speed.md)
 * [Modify Crafting](power_types/modify_crafting.md)
+* [Modify Camera Submersion](power_types/modify_camera_submersion.md)
 * [Modify Damage Dealt](power_types/modify_damage_dealt.md)
 * [Modify Damage Taken](power_types/modify_damage_taken.md)
 * [Modify Exhaustion](power_types/modify_exhaustion.md)
