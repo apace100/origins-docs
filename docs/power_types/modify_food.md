@@ -20,6 +20,7 @@ Field  | Type | Default | Description
 `saturation_modifier` | [Attribute Modifiers](../data_types/attribute_modifier.md) | _optional_ | If set, this modifier will apply to the saturation gained by eating.
 `saturation_modifiers` | [Array](../data_types/array.md) of [Attribute Modifiers](../data_types/attribute_modifier.md) | _optional_ | If set, these modifiers will apply to the saturation gained by eating.
 `entity_action` | [Entity Action](../entity_actions.md) | _optional_ | If set, this action will be executed on the entity eating this item.
+`always_edible` | [Boolean](../data_types/boolean.md) | false | If set to true, makes it so that the food item can still be eaten regardless if the player's hunger bar is full.
 
 
 ### Example
