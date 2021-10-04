@@ -10,6 +10,7 @@ Item Conditions operate on an `ItemStack`.
 
 * [Amount](item_conditions/amount.md)
 * [Armor Value](armor_value)
+* [Empty](item_conditions/empty.md)
 * [Enchantment](enchantment)
 * [Fireproof](item_conditions/fireproof.md)
 * [Food](food)
