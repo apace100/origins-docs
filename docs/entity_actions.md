@@ -28,6 +28,7 @@ Entity Actions operate on an `Entity`. Some more specific actions only have an e
 * [Play Sound](play_sound)
 * [Set Fall Distance](set_fall_distance)
 * [Set On Fire](set_on_fire)
+* [Set Resource](entity_actions/set_resource.md)
 * [Spawn Effect Cloud](spawn_effect_cloud)
 * [Spawn Entity](spawn_entity)
 * [Toggle](entity_actions/toggle.md)
