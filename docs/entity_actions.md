@@ -27,6 +27,7 @@ Entity Actions operate on an `Entity`. Some more specific actions only have an e
 * [Grant Power](entity_actions/grant_power.md)
 * [Heal](heal)
 * [Play Sound](play_sound)
+* [Revoke Power](entity_actions/revoke_power.md)
 * [Set Fall Distance](set_fall_distance)
 * [Set On Fire](set_on_fire)
 * [Set Resource](entity_actions/set_resource.md)
