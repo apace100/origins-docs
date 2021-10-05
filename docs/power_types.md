@@ -80,6 +80,7 @@ Unless stated otherwise, each power type supports a `condition` field with an [e
 * [Modify Damage Taken](power_types/modify_damage_taken.md)
 * [Modify Exhaustion](power_types/modify_exhaustion.md)
 * [Modify Falling](power_types/modify_falling.md)
+* [Modify Fluid Render](power_types/modify_fluid_render.md)
 * [Modify Food](power_types/modify_food.md)
 * [Modify Harvest](power_types/modify_harvest.md)
 * [Modify Jump](power_types/modify_jump.md)
