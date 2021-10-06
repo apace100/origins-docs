@@ -101,6 +101,7 @@ Unless stated otherwise, each power type supports a `condition` field with an [e
 
 ## Preventing types
 
+* [Prevent Being Used](power_types/prevent_being_used.md)
 * [Prevent Block Selection](power_types/prevent_block_selection.md)
 * [Prevent Block Use](power_types/prevent_block_use.md)
 * [Prevent Death](power_types/prevent_death.md)
