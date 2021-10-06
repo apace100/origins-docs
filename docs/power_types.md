@@ -44,6 +44,7 @@ Unless stated otherwise, each power type supports a `condition` field with an [e
 * [Recipe](power_types/recipe.md)
 * [Resource](power_types/resource.md)
 * [Restrict Armor](power_types/restrict_armor.md)
+* [Self Glow](power_types/self_glow.md)
 * [Shader](power_types/shader.md)
 * [Shaking](power_types/shaking.md)
 * [Simple](power_types/simple.md)
