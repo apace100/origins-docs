@@ -14,7 +14,7 @@ Type ID: `origins:action_on_hit`
 
 Field | Type | Default | Description
 ------|------|---------|-------------
-`bientity_action` | [Bi-entity Action](../bientity_actions.md) | | Execute the specified bi-entity action.
+`bientity_action` | [Bi-entity Action](../bientity_actions.md) | | The action to execute upon hit.
 `damage_condition` | [Damage Condition](../damage_conditions.md) | _optional_ | If set, the action will only trigger when this condition holds for the damage that was dealt by the entity that has the power.
 `cooldown` | [Integer](../data_types/integer.md) | 1 | Interval of ticks this power needs to recharge before the action can be executed again.
 `hud_render` | [Hud Render](../data_types/hud_render.md) | `{"should_render": false}` | Determines how the cooldown of this power is visualized on the HUD.
