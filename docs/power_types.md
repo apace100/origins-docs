@@ -61,6 +61,7 @@ Unless stated otherwise, each power type supports a `condition` field with an [e
 
 * [Action On Block Break](power_types/action_on_block_break.md)
 * [Action On Callback](power_types/action_on_callback.md)
+* [Action On Entity Use](power_types/action_on_entity_use.md)
 * [Action On Item Use](power_types/action_on_item_use.md)
 * [Action On Land](power_types/action_on_land.md)
 * [Action On Wake Up](power_types/action_on_wake_up.md)
