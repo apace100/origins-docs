@@ -15,6 +15,7 @@ Entity Actions operate on an `Entity`. Some more specific actions only have an e
 * [Change Resource](change_resource)
 * [Clear Effect](clear_effect)
 * [Damage](damage)
+* [Dismount](entity_actions/dismount.md)
 * [Emit Game Event](entity_actions/emit_game_event.md)
 * [Equipped Item Action](equipped_item_action)
 * [Execute Command](execute_command)
