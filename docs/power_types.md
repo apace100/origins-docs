@@ -11,6 +11,7 @@ Unless stated otherwise, each power type supports a `condition` field with an [e
 
 ## Regular types
 
+* [Attribute Modify Transfer](power_types/attribute_modify_transfer.md)
 * [Attribute](power_types/attribute.md)
 * [Burn](power_types/burn.md)
 * [Climbing](power_types/climbing.md)
