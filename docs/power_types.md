@@ -69,6 +69,7 @@ Unless stated otherwise, each power type supports a `condition` field with an [e
 * [Action On Land](power_types/action_on_land.md)
 * [Action On Wake Up](power_types/action_on_wake_up.md)
 * [Action Over Time](power_types/action_over_time.md)
+* [Action When Damage Taken](power_types/action_when_damage_taken.md)
 * [Active Self](power_types/active_self.md)
 * [Attacker Action When Hit](power_types/attacker_action_when_hit.md)
 * [Self Action On Hit](power_types/self_action_on_hit.md)
