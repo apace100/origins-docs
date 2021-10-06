@@ -77,6 +77,7 @@ Unless stated otherwise, each power type supports a `condition` field with an [e
 
 ## Modifying types
 
+* [Modify Air Speed](power_types/modify_air_speed.md)
 * [Modify Block Render](power_types/modify_block_render.md)
 * [Modify Break Speed](power_types/modify_break_speed.md)
 * [Modify Camera Submersion](power_types/modify_camera_submersion.md)
