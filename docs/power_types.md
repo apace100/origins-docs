@@ -102,5 +102,6 @@ Unless stated otherwise, each power type supports a `condition` field with an [e
 * [Prevent Block Use](power_types/prevent_block_use.md)
 * [Prevent Death](power_types/prevent_death.md)
 * [Prevent Entity Render](power_types/prevent_entity_render.md)
+* [Prevent Entity Use](power_types/prevent_entity_use.md)
 * [Prevent Item Use](power_types/prevent_item_use.md)
 * [Prevent Sleep](power_types/prevent_sleep.md)
