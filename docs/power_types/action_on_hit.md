@@ -18,7 +18,7 @@ Field | Type | Default | Description
 `damage_condition` | [Damage Condition](../damage_conditions.md) | _optional_ | If set, the action will only trigger when this condition holds for the damage that was dealt by the entity that has the power.
 `cooldown` | [Integer](../data_types/integer.md) | 1 | Interval of ticks this power needs to recharge before the action can be executed again.
 `hud_render` | [Hud Render](../data_types/hud_render.md) | `{"should_render": false}` | Determines how the cooldown of this power is visualized on the HUD.
-`bientity_condition` | [Bi-entity Condition](../bientity_conditions.md) | If set, the action will only trigger when this bi-entity condition is fulfilled.
+`bientity_condition` | [Bi-entity Condition](../bientity_conditions.md) | _optional_ | If set, the action will only trigger when this bi-entity condition is fulfilled.
 
 ### Example
 ```json
