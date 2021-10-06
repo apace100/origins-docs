@@ -22,7 +22,7 @@ Field | Type | Default | Description
 "entity_action": {
     "type": "origins:set_resource",
     "resource": "namespace:example",
-    "set": 10
+    "value": 10
 }
 ```
 This example will set the value of the `namespace:example` (`data/namespace/powers/example.json`) power that uses the [`origins:resource`](../power_types/resource.md) power type.
