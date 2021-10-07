@@ -4,7 +4,7 @@ date: 2021-10-07
 ---
 # Invert
 
-[Bi-Entity Action](../bientity_actions.md).
+[Bi-Entity Condition](../bientity_conditions.md).
 
 Swaps the context of the target entity and the actor entity.
 
