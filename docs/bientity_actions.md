@@ -8,4 +8,4 @@ Bi-entity Actions operate on a `Pair<Entity, Entity>`; in simpler terms: an acto
 
 ## List
 
-* [Add Velocity](bientity_actions/add_velocity)
+* [Add Velocity](https://origins.readthedocs.io/en/latest/bientity_actions/add_velocity)
