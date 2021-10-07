@@ -8,4 +8,6 @@ Item Actions operate on a stack of items.
 
 ## List
 
-* [Consume](consume)
+* [Consume](item_actions/consume.md)
+* [Damage](item_actions/damage.md)
+* [Modify](item_actions/modify.md)
