@@ -6,7 +6,7 @@ date: 2021-10-07
 
 [Bi-Entity Action](../bientity_actions.md).
 
-Mounts the target of the action as the actor of the action.
+Mounts the target entity onto the actor entity.
 
 Type ID: `origins:mount`
 

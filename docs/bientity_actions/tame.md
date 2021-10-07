@@ -6,7 +6,7 @@ date: 2021-10-07
 
 [Bi-Entity Action](../bientity_actions.md).
 
-Tames the target of the action, with the actor as the owner. Only works on tameable entities such as wolves or cats.
+Tames the target entity with the actor entity as the owner. Only works on tameable entities such as wolves or cats.
 
 Type ID: `origins:tame`
 

@@ -8,8 +8,8 @@ Bi-Entity Actions operate on a `Pair<Entity, Entity>`; in simpler terms: an acto
 
 ## List
 
-* [Add Velocity](bientity_actions/add_velocity.md)
 * [Actor Action](bientity_actions/actor_action.md)
+* [Add Velocity](bientity_actions/add_velocity.md)
 * [Invert](bientity_actions/invert.md)
 * [Mount](bientity_actions/mount.md)
 * [Set In Love](bientity_actions/set_in_love.md)

@@ -6,7 +6,7 @@ date: 2021-10-07
 
 [Bi-Entity Action](../bientity_actions.md).
 
-Executes an entity action as the actor of the action, simulating a regular entity action. This is mainly to be used when there is only a bientity action field.
+Executes an entity action on the actor entity.
 
 Type ID: `origins:actor_action`
 
@@ -14,7 +14,7 @@ Type ID: `origins:actor_action`
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`entity_action` | [Action](../entity_actions.md) | | The action which might be executed.
+`entity_action` | [Entity Action](../entity_actions.md) | | The action to execute on the actor entity.
 
 ### Example
 

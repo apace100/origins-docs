@@ -6,7 +6,7 @@ date: 2021-10-06
 
 [Bi-Entity Action](../bientity_actions.md).
 
-Adds velocity to the target, calculated from the position of the actor
+Adds or sets the velocity of the target entity, relative to the actor entity's rotation.
 
 Type ID: `origins:add_velocity`
 

@@ -6,7 +6,7 @@ date: 2021-10-07
 
 [Bi-Entity Action](../bientity_actions.md).
 
-Inverts a Bi-Entity Action, switching the Actor and Target.
+Swaps the context of the target entity and the actor entity.
 
 Type ID: `origins:invert`
 
@@ -14,7 +14,7 @@ Type ID: `origins:invert`
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`bientity_action` | [Action](../bientity_actions.md) | | The action which will be executed.
+`bientity_action` | [Bi-entity Action](../bientity_actions.md) | | The bi-entity action to execute which will have its 'target' and 'actor' contexts swapped.
 
 ### Example
 
