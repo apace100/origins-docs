@@ -11,3 +11,4 @@ Bi-entity Conditions operate on a `Pair<Entity, Entity>`, or in simpler terms: a
 * [Both](bientity_conditions/both.md)
 * [Can See](bientity_conditions/can_see.md)
 * [Distance](bientity_conditions/distance.md)
+* [Either](bientity_conditions/either.md)
