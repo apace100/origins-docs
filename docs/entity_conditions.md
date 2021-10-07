@@ -45,6 +45,7 @@ Entity Conditions operate on a `LivingEntity`, which also allows access to the w
 * [On Fire](on_fire)
 * [Origin](origin)
 * [Passenger Recursive](entity_conditions/passenger_recursive.md)
+* [Passenger](entity_conditions/passenger.md)
 * [Power Active](power_active)
 * [Power](power)
 * [Predicate](predicate)
