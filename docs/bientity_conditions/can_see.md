@@ -6,7 +6,7 @@ date: 2021-10-06
 
 [Bi-Entity Condition](../bientity_conditions.md)
 
-Checks if you can see the entity targetted by the condition (e.g They are within your line of sight)
+Checks if the target entity is within the perspective angles (first person, front third person, back third person) of the actor entity.
 
 Type ID: `origins:can_see`
 
