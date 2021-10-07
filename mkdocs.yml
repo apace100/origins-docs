@@ -15,6 +15,7 @@ nav:
         - Origin JSON: origin_json.md
         - Layer JSON: layer_json.md
     - Conditions:
+        - Bi-entity Conditions: bientity_conditions.md
         - Biome Conditions: biome_conditions.md
         - Block Conditions: block_conditions.md
         - Damage Conditions: damage_conditions.md
@@ -23,6 +24,7 @@ nav:
         - Item Conditions: item_conditions.md
         - Meta Conditions: meta_conditions.md
     - Actions:
+        - Bi-entity Actions: bientity_actions.md
         - Block Actions: block_actions.md
         - Entity Actions: entity_actions.md
         - Item Actions: item_actions.md
