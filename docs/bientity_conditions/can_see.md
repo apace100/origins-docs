@@ -1,5 +1,5 @@
 ---
-title: Exists (Bi-Entity Condition)
+title: Can See (Bi-entity Condition)
 date: 2021-10-06
 ---
 # Can See
