@@ -6,7 +6,7 @@ date: 2021-04-05
 
 [Entity Action](../entity_actions.md).
 
-Adds velocity towards a specific direction.
+Adds or sets velocity towards a specific direction.
 
 Type ID: `origins:add_velocity`
 
