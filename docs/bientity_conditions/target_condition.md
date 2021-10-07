@@ -8,7 +8,7 @@ date: 2021-10-07
 
 Checks for an entity condition on the target entity.
 
-Type ID: `origins:target_action`
+Type ID: `origins:target_condition`
 
 ### Fields
 
