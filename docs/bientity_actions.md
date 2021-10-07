@@ -1,5 +1,5 @@
 ---
-title: Actions
+title: Bi-entity Actions
 date: 2021-10-06
 ---
 # Bi-Entity Actions
