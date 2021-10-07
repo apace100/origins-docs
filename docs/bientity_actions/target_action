@@ -4,7 +4,7 @@ date: 2021-10-07
 ---
 # Target Action
 
-[Meta Action](../bientity_actions.md).
+[Bi-Entity Action](../bientity_actions.md).
 
 Executes an entity action as the target of the action, simulating a regular entity action. This is mainly to be used when there is only a bientity action field.
 
