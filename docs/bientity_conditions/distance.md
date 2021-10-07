@@ -6,7 +6,7 @@ date: 2021-10-06
 
 [Meta Condition](../meta_conditions.md).
 
-This condition is either always fulfilled or always not fulfilled. Mainly added as a backup in case a condition isn't optional in some place.
+Checks the distance between the target entity and the actor entity.
 
 Type ID: `origins:distance`
 
