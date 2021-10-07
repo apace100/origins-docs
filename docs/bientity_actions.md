@@ -8,10 +8,10 @@ Bi-Entity Actions operate on a `Pair<Entity, Entity>`; in simpler terms: an acto
 
 ## List
 
-* [Add Velocity](https://origins.readthedocs.io/en/latest/bientity_actions/add_velocity)
-* [Actor Action](https://origins.readthedocs.io/en/latest/bientity_actions/actor_action)
-* [Invert](https://origins.readthedocs.io/en/latest/bientity_actions/invert)
-* [Mount](https://origins.readthedocs.io/en/latest/bientity_actions/mount)
-* [Set In Love](https://origins.readthedocs.io/en/latest/bientity_actions/set_in_love)
-* [Tame](https://origins.readthedocs.io/en/latest/bientity_actions/tame)
-* [Target Action](https://origins.readthedocs.io/en/latest/bientity_actions/target_action)
+* [Add Velocity](bientity_actions/add_velocity.md)
+* [Actor Action](bientity_actions/actor_action.md)
+* [Invert](bientity_actions/invert.md)
+* [Mount](bientity_actions/mount.md)
+* [Set In Love](bientity_actions/set_in_love.md)
+* [Tame](bientity_actions/tame.md)
+* [Target Action](bientity_actions/target_action.md)
