@@ -39,6 +39,7 @@ Entity Conditions operate on a `LivingEntity`, which also allows access to the w
 * [In Rain](in_rain)
 * [In Tag](in_tag)
 * [Invisible](invisible)
+* [Living](entity_conditions/living.md)
 * [Moving](moving)
 * [On Block](on_block)
 * [On Fire](on_fire)
