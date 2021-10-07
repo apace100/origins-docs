@@ -1,5 +1,5 @@
 ---
-title: Constant (Bi-Entity Condition)
+title: Distance (Bi-entity Condition)
 date: 2021-10-06
 ---
 # Distance
