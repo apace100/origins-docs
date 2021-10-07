@@ -4,7 +4,7 @@ date: 2021-10-06
 ---
 # Bi-Entity Actions
 
-Bi-Entity Actions are a special type of action that acts upon two entities: The actor, and target. Which entity is the actor, or target, is largely dependent on the power type in question.
+Bi-entity Actions operate on a `Pair<Entity, Entity>`; in simpler terms: an actor and a target. The actor and target is determined depending on the used power type, and can be swapped.
 
 ## List
 
