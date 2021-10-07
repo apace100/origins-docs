@@ -51,6 +51,7 @@ Entity Conditions operate on a `LivingEntity`, which also allows access to the w
 * [Predicate](predicate)
 * [Relative Health](relative_health)
 * [Resource](resource)
+* [Riding Recursive](entity_conditions/riding_recursive.md)
 * [Saturation Level](saturation_level)
 * [Scoreboard](scoreboard)
 * [Sneaking](sneaking)
