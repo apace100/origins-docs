@@ -8,7 +8,7 @@ date: 2021-10-06
 
 This condition is either always fulfilled or always not fulfilled. Mainly added as a backup in case a condition isn't optional in some place.
 
-Type ID: `origins:constant`
+Type ID: `origins:distance`
 
 ### Fields
 

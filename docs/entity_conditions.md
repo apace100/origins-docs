@@ -4,7 +4,7 @@ date: 2021-04-04
 ---
 # Entity Conditions
 
-Entity Conditions operate on a `LivingEntity`, which also allows access to the world. These are available to be used in most powers in the `condition` field, which restricts when a power is active.
+Entity Conditions operate on an Entity, which also allows access to the world. These are available to be used in most powers in the `condition` field, which restricts when a power is active.
 
 ## List
 
