@@ -20,7 +20,7 @@ Field  | Type | Default | Description
 ### Example
 
 ```json
-"condition": {
+"bientity_condition": {
   "type": "origins:distance",
   "comparison": "<=",
   "compare_to": 30
