@@ -1,5 +1,5 @@
 ---
-title: Conditions
+title: Bi-entity Conditions
 date: 2021-10-06
 ---
 # Bi-Entity Conditions
