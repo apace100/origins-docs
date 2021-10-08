@@ -2,7 +2,7 @@
 title: Attacker (Bi-entity Condition)
 date: 2021-10-07
 ---
-# Distance
+# Attacker
 
 [Bi-Entity Condition](../bientity_conditions.md).
 
