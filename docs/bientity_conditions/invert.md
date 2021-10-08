@@ -14,7 +14,7 @@ Type ID: `origins:invert`
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`bientity_condition` | [Bi-entity Action](../bientity_condition.md) | | The bi-entity condition to check which will have its 'target' and 'actor' contexts swapped.
+`bientity_condition` | [Bi-entity Action](../bientity_conditions.md) | | The bi-entity condition to check which will have its 'target' and 'actor' contexts swapped.
 
 ### Example
 
