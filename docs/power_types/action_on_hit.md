@@ -25,7 +25,7 @@ Field | Type | Default | Description
 {
     "type": "origins:action_on_hit",
     "bientity_action": {
-        "type": "origins:add_velocity",'
+        "type": "origins:add_velocity",
         "z": 2
     }
 }
