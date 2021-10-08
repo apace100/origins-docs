@@ -15,4 +15,5 @@ Bi-entity Conditions operate on a `Pair<Entity, Entity>`, or in simpler terms: a
 * [Distance](bientity_conditions/distance.md)
 * [Either](bientity_conditions/either.md)
 * [Invert](bientity_conditions/invert.md)
+* [Owner](bientity_conditions/owner.md)
 * [Target Condition](bientity_conditions/target_condition.md)
