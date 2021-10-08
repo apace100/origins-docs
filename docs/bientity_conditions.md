@@ -17,6 +17,7 @@ Bi-entity Conditions operate on a `Pair<Entity, Entity>`, or in simpler terms: a
 * [Either](bientity_conditions/either.md)
 * [Invert](bientity_conditions/invert.md)
 * [Owner](bientity_conditions/owner.md)
+* [Riding Recursive](bientity_conditions/riding_recursive.md)
 * [Riding Root](bientity_conditions/riding_root.md)
 * [Riding](bientity_conditions/riding.md)
 * [Target Condition](bientity_conditions/target_condition.md)
