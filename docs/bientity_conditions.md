@@ -9,6 +9,7 @@ Bi-entity Conditions operate on a `Pair<Entity, Entity>`, or in simpler terms: a
 ## List
 
 * [Actor Condition](bientity_conditions/actor_condition.md)
+* [Attack Target](bientity_conditions/attack_target.md)
 * [Attacker](bientity_conditions/attacker.md)
 * [Both](bientity_conditions/both.md)
 * [Can See](bientity_conditions/can_see.md)
