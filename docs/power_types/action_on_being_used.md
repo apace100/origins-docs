@@ -54,7 +54,10 @@ Field | Type | Default | Description
             "comparison": ">",
             "compare_to": 0
         }
-    }
+    },
+    "hands": [
+        "main_hand"
+    ]
 }
 ```
 This example enables other players to steal diamonds from the player that has the power.
