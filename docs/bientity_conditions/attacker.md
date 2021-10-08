@@ -6,7 +6,7 @@ date: 2021-10-07
 
 [Bi-Entity Condition](../bientity_conditions.md).
 
-Checks if the target entity has attacked the acting entity within the last 5 seconds, and still exists.
+Checks if the actor entity has attacked the target entity within the last 5 seconds, and still exists.
 
 Type ID: `origins:attacker`
 
