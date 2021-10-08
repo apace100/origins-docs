@@ -4,7 +4,7 @@ date: 2021-10-06
 ---
 # Distance
 
-[Meta Condition](../meta_conditions.md).
+[Bi-Entity Condition](../bientity_conditions.md).
 
 Checks the distance between the target entity and the actor entity.
 
@@ -20,7 +20,7 @@ Field  | Type | Default | Description
 ### Example
 
 ```json
-"condition": {
+"bientity_condition": {
   "type": "origins:distance",
   "comparison": "<=",
   "compare_to": 30
