@@ -6,7 +6,7 @@ date: 2021-10-06
 
 [Bi-Entity Condition](../bientity_conditions.md)
 
-Checks if the target entity is within the perspective angles (first person, front third person, back third person) of the actor entity.
+Checks whether the straight path from the actor entity's eyes to the target entity's eyes is unobstructed.
 
 Type ID: `origins:can_see`
 
