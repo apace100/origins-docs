@@ -14,13 +14,13 @@ Type ID: `origins:invert`
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`bientity_action` | [Bi-entity Action](../bientity_actions.md) | | The bi-entity action to execute which will have its 'target' and 'actor' contexts swapped.
+`action` | [Bi-entity Action](../bientity_actions.md) | | The bi-entity action to execute which will have its 'target' and 'actor' contexts swapped.
 
 ### Example
 
 ```json
 "bientity_action": {
-    "type": "origins:inverted",
+    "type": "origins:invert",
     "action": {
         "type": "origins:mount"
     }
