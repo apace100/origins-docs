@@ -14,14 +14,14 @@ Type ID: `origins:actor_action`
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`entity_action` | [Entity Action](../entity_actions.md) | | The action to execute on the actor entity.
+`action` | [Entity Action](../entity_actions.md) | | The action to execute on the actor entity.
 
 ### Example
 
 ```json
 "bientity_action": {
     "type": "origins:actor_action",
-    "entity_action": {
+    "action": {
         "type": "origins:set_on_fire",
         "duration": 5
     }
