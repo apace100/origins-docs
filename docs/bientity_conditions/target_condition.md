@@ -14,14 +14,14 @@ Type ID: `origins:target_condition`
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`entity_condition` | [Entity Condition](../entity_conditions.md) | | The condition to check for on the target entity.
+`condition` | [Entity Condition](../entity_conditions.md) | | The condition to check for on the target entity.
 
 ### Example
 
 ```json
 "bientity_condition": {
     "type": "origins:target_condition",
-    "entity_condition": {
+    "condition": {
        "type": "origins:tamed"
     }
 }
