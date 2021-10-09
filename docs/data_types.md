@@ -19,6 +19,7 @@ Data types are used everywhere in the JSON files. Every field in a JSON has to h
 
 * [Attribute Modifier](attribute_modifier)
 * [Attributed Attribute Modifier](attributed_attribute_modifier)
+* [Badge](data_types/badge.md)
 * [Comparison](comparison)
 * [Crafting Recipe](crafting_recipe)
 * [Damage Source](damage_source)
