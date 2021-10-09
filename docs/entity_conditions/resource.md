@@ -38,4 +38,4 @@ This example checks if the player has a value of 1 in the `example:a_simple_reso
     "compare_to": 50
 }
 ```
-This example checks if the player has a value of 50 or more in the `with_resource_subpower` sub-power of `example:a_multiple_power` power. (`data\example\powers\a_multiple_power.json`)
+This example checks if the player has a value of more than 50 in the `with_resource_subpower` sub-power of `example:a_multiple_power` power. (`data\example\powers\a_multiple_power.json`)
