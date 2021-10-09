@@ -48,7 +48,7 @@ date: 2021-05-26
 * [**Translucent:**](https://github.com/apace100/origins-fabric/blob/master/src/main/resources/data/origins/powers/translucent.json) `origins:translucent`
 * [**Unwieldy:**](https://github.com/apace100/origins-fabric/blob/master/src/main/resources/data/origins/powers/no_shield.json) `origins:no_shield`
 * [**Vegetarian:**](https://github.com/apace100/origins-fabric/blob/master/src/main/resources/data/origins/powers/vegetarian.json) `origins:vegetarian`
-* [**Velvet Paws**]((https://github.com/apace100/origins-fabric/blob/master/src/main/resources/data/origins/powers/velvet_paws.json) `origins:velvet_paws`
+* [**Velvet Paws**](https://github.com/apace100/origins-fabric/blob/master/src/main/resources/data/origins/powers/velvet_paws.json) `origins:velvet_paws`
 * [**Weak Arms:**](https://github.com/apace100/origins-fabric/blob/master/src/main/resources/data/origins/powers/weak_arms.json) `origins:weak_arms`
 * [**Webbing:**](https://github.com/apace100/origins-fabric/blob/master/src/main/resources/data/origins/powers/webbing.json) `origins:webbing`
 * [**Wet Eyes:**](https://github.com/apace100/origins-fabric/blob/master/src/main/resources/data/origins/powers/water_vision.json) `origins:water_vision`
