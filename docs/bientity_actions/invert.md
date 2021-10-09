@@ -21,7 +21,7 @@ Field  | Type | Default | Description
 ```json
 "bientity_action": {
     "type": "origins:inverted",
-    "bientity_action": {
+    "action": {
         "type": "origins:mount"
     }
 }
