@@ -6,7 +6,7 @@ date: 2021-10-08
 
 [Bi-entity Condition](../bientity_conditions.md)
 
-Checks if the actor entity is riding the target entity recursively.
+Checks if the actor entity is riding the target entity, regardless of where the target entity is in the riding chain. 
 
 Type ID: `origins:riding_recursive`
 
