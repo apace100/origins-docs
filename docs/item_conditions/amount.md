@@ -14,7 +14,7 @@ Type ID: `origins:amount`
 
 Field | Type | Default | Description
 ------|------|---------|-------------
-`comparison` | [Comparison](../data_types/comparison.md) | | Determines how to compare the item's count value to the specified value
+`comparison` | [Comparison](../data_types/comparison.md) | | Determines how to compare the number of items in this stack to the specified value.
 `compare_to` | [Integer](../data_types/integer.md) | | Which value to compare the item's count value to.
 
 ### Example
