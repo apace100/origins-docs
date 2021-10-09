@@ -19,8 +19,8 @@ Field | Type | Default | Description
 `red` | [Float](../data_types/float.md) | 1.0 | Value by which the red component of the texture will be multiplied. Range: 0.0 to 1.0.
 `green` | [Float](../data_types/float.md) | 1.0 | Value by which the green component of the texture will be multiplied. Range: 0.0 to 1.0.
 `blue` | [Float](../data_types/float.md) | 1.0 | Value by which the blue component of the texture will be multiplied. Range: 0.0 to 1.0.
-`draw_mode` | [String](../data_types/string.md) | | Determines whether to use the Nausea overlay, or a custom texture defined by the `texture` field. Accepts either `"nausea"` or `"texture"`
-`draw_phase` | [String](../data_types/string.md) | | Determines if the overlay should render below or above the HUD. Accepts either `"above_hud"` or `"below_hud"`.
+`draw_mode` | [String](../data_types/string.md) | | Determines whether to treat black as transparent or draw the texture as is (`"nausea"` or `"texture"` respectively).
+`draw_phase` | [String](../data_types/string.md) | | Determines if the overlay should render below or above the HUD (`"below_hud"` or `"above_hud"` respectively).
 `hide_with_hud` | [Boolean](../data_types/boolean.md) | true | Determines if the overlay should be hidden if the HUD elements are hidden (with F1).
 `visible_in_third_person` | [Boolean](../data_types/boolean.md) | false | Determines if the overlay is visible in third person.
 
