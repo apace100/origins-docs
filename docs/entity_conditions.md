@@ -41,6 +41,7 @@ Entity Conditions operate on an Entity, which also allows access to the world. T
 * [Invisible](invisible)
 * [Living](entity_conditions/living.md)
 * [Moving](moving)
+* [NBT](nbt)
 * [On Block](on_block)
 * [On Fire](on_fire)
 * [Origin](origin)
