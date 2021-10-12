@@ -22,9 +22,9 @@ Field | Type | Default | Description
 ```json
 {
     "type": "origins:attribute_modify_transfer",
-    "class": "io.github.apace100.apoli.power.ModifyBreakSpeedPower",
+    "class": "modify_break_speed",
     "attribute": "minecraft:generic.movement_speed",
     "multiplier": 1.25
 }
 ```
-This example transfers the attribute modifier value of the `minecraft:generic.movement_speed` attribute to the `io.github.apace100.apoli.power.ModifyBreakSpeedPower` class, essentially giving you mining speed boost if your movement speed is high.
+This example transfers the attribute modifier value of the `minecraft:generic.movement_speed` attribute to the `modify_break_speed` (`io.github.apace100.apoli.power.ModifyBreakSpeedPower`) class, essentially giving you mining speed boost if your movement speed is high.
