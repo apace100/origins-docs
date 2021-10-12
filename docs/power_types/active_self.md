@@ -15,8 +15,8 @@ Type ID: `origins:active_self`
 Field  | Type | Default | Description
 -------|------|---------|-------------
 `entity_action` | [Entity Action](../entity_actions.md) | | The action to execute on the player.
-`cooldown` | [Integer](../data_types/integer.md) | | Interval of ticks this power needs to recharge before the action can be executed again.
-`hud_render` | [Hud Render](../data_types/hud_render.md) | | Determines how the cooldown of this power is visualized on the HUD.
+`cooldown` | [Integer](../data_types/integer.md) | `1` | Interval of ticks this power needs to recharge before the action can be executed again.
+`hud_render` | [Hud Render](../data_types/hud_render.md) | `{"should_render": false}` | Determines how the cooldown of this power is visualized on the HUD.
 `key` | [Key](../data_types/key.md) | `{"key": "key.origins.primary_active"}` | Which active key this power should respond to.
 
 ### Example
