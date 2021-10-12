@@ -21,3 +21,4 @@ Bi-entity Conditions operate on a `Pair<Entity, Entity>`, or in simpler terms: a
 * [Riding Root](bientity_conditions/riding_root.md)
 * [Riding](bientity_conditions/riding.md)
 * [Target Condition](bientity_conditions/target_condition.md)
+* [Undirected](bientity_conditions/undirected.md)
