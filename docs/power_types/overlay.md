@@ -15,7 +15,7 @@ Type ID: `origins:overlay`
 Field | Type | Default | Description
 ------|------|---------|-------------
 `texture` | [Identifier](../data_types/identifier.md) | | The ID of the texture to use as an overlay.
-`strength` | [Float](../data_types/float.md) | 1.0 | Value by which the alpha (transparency) component of the texture will be multiplied. Range: 0.0 to 1.0.
+`strength` | [Float](../data_types/float.md) | 1.0 | If the `"texture"` draw mode is used, it determines the alpha (transparency) value of the texture. If the `"nausea"` draw mode is used, it determines the value of how the texture is stretched (1.0 = screen size). Range: 0.0 to 1.0.
 `red` | [Float](../data_types/float.md) | 1.0 | Value by which the red component of the texture will be multiplied. Range: 0.0 to 1.0.
 `green` | [Float](../data_types/float.md) | 1.0 | Value by which the green component of the texture will be multiplied. Range: 0.0 to 1.0.
 `blue` | [Float](../data_types/float.md) | 1.0 | Value by which the blue component of the texture will be multiplied. Range: 0.0 to 1.0.
