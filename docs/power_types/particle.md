@@ -18,6 +18,7 @@ Field  | Type | Default | Description
 -------|------|---------|-------------
 `particle` | [Identifier](../data_types/identifier.md) | | ID of the particle type to use.
 `frequency` | [Integer](../data_types/integer.md) | | How often the particles should spawn (interval in ticks).
+`visible_in_first_person` | [Boolean](../data_types/boolean.md) | `false` | Determines whether the particle should be visible in first person.
 
 ### Example
 ```json
