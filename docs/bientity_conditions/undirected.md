@@ -14,13 +14,13 @@ Type ID: `origins:undirected`
 
 Field | Type | Default | Description
 ------|------|---------|-------------
-`bientity_condition` | [Bi-entity Condition](../bientity_conditions.md) | | The bi-entity condition to check for.
+`condition` | [Bi-entity Condition](../bientity_conditions.md) | | The bi-entity condition to check for.
 
 ### Examples
 ```json
 "bientity_condition": {
 	"type": "origins:undirected",
-	"bientity_condition": {
+	"condition": {
 		"type": "origins:owner"
 	}
 }
