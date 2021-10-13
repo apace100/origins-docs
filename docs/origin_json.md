@@ -19,3 +19,19 @@ Field  | Type | Default | Description
 `description` | [String](data_types/string.md) | _optional_ | The description of the origin. Can be a translation key which is localized in a language file, or the literal description.
 `upgrades` | [Array](data_types/array.md) of [Upgrades](upgrade_json.md) | _optional_ | A list of upgrades for this origin, specifying which advancements turn this origin into which other origin.
 `loading_priority` | [Integer](data_types/integer.md) | 0 | Specifies when this origin is loaded. Higher numbers mean it's loaded later, which means it will override those with lower loading priorities which share the same ID.
+
+### Example
+
+```json
+{
+    "powers": [],
+    "icon": {
+        "item": "minecraft:zombie_head"
+    },
+    "order": 3,
+    "impact": 2,
+    "name": "Zombie",
+    "description": "Raah, brains..."
+}
+```
+This example origin adds an origin with a `minecraft:zombie_head` as its icon.

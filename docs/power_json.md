@@ -21,3 +21,23 @@ Field  | Type | Default | Description
 `condition` | [Entity Condition](entity_conditions.md) | _optional_ | If set, this power will only be active when the player with this power fulfills the condition.
 `loading_priority` | [Integer](data_types/integer.md) | 0 | Specifies when this power is loaded. Higher numbers mean it's loaded later, which means it will override those with lower loading priorities which share the same ID.
 `badges` | [Array](data_types/array.md) of [Badges](data_types/badge.md) | _optional_ | If set, it will display icon(s) after the name of the power.
+
+### Example
+```json
+{
+    "type": "origins:active_self",
+    "entity_action": {
+        "type": "origins:execute_command",
+        "command": "tellraw @a {\"text\": \"Hello world!\", \"color\": \"green\"}"
+    },
+    "name": "Hello World!",
+    "description": "A power that announces a 'Hello world!' message to everyone in the server.",
+    "badges": [
+        {
+            "sprite": "minecraft:textures/item/diamond.png",
+            "text": "Ooh, shiny!"
+        }
+    ]
+}
+```
+This example power will print a green-colored 'Hello world!' message to all currently online players once activated.
