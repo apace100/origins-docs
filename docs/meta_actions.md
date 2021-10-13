@@ -12,7 +12,9 @@ Meta Actions are independent of the type they operate on. They basically combine
 * [Chance](chance)
 * [Choice](choice)
 * [Delay](delay)*
-* [If-Else](if_else)
 * [If-Else List](if_else_list)*
+* [If-Else](if_else)
+* [Nothing](meta_actions/nothing.md)\*\*
 
 *: These actions are currently only available as [Entity Actions](entity_actions.md).
+\*\*: This action is currently only available as an [Entity Action](entity_actions.md) and a [Bi-entity Action](bientity_actions.md)
