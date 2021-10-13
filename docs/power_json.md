@@ -20,3 +20,21 @@ Field  | Type | Default | Description
 `hidden` | [Boolean](data_types/boolean.md) | false | If set to true, this power will not be displayed in the power list of the origin.
 `condition` | [Entity Condition](entity_conditions.md) | _optional_ | If set, this power will only be active when the player with this power fulfills the condition.
 `loading_priority` | [Integer](data_types/integer.md) | 0 | Specifies when this power is loaded. Higher numbers mean it's loaded later, which means it will override those with lower loading priorities which share the same ID.
+
+### Example
+```json
+{
+    "type": "origins:active_self",
+    "entity_action": {
+        "type": "origins:execute_command",
+        "command": "tellraw @a {\"text\": \"Hello world!\", \"color\": \"green\"}"
+    },
+    "cooldown": 1,
+    "hud_render": {
+        "should_render": false
+    },
+    "name": "Hello World!",
+    "description": "A power that announces a 'Hello world!' message to everyone in the server."
+}
+```
+This example power will print a green-colored 'Hello world!' message to all currently online players once activated.
