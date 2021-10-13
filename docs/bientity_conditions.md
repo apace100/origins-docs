@@ -8,17 +8,11 @@ Bi-entity Conditions operate on a `Pair<Entity, Entity>`, or in simpler terms: a
 
 ## List
 
-* [Actor Condition](bientity_conditions/actor_condition.md)
 * [Attack Target](bientity_conditions/attack_target.md)
 * [Attacker](bientity_conditions/attacker.md)
-* [Both](bientity_conditions/both.md)
 * [Can See](bientity_conditions/can_see.md)
 * [Distance](bientity_conditions/distance.md)
-* [Either](bientity_conditions/either.md)
-* [Invert](bientity_conditions/invert.md)
 * [Owner](bientity_conditions/owner.md)
 * [Riding Recursive](bientity_conditions/riding_recursive.md)
 * [Riding Root](bientity_conditions/riding_root.md)
 * [Riding](bientity_conditions/riding.md)
-* [Target Condition](bientity_conditions/target_condition.md)
-* [Undirected](bientity_conditions/undirected.md)

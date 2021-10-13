@@ -4,7 +4,9 @@ date: 2021-10-12
 ---
 # Undirected
 
-[Bi-entity Condition](../bientity_conditions.md)
+[Meta Condition](../meta_conditions.md)
+
+**Currently only available as a [Bi-entity Condition](../bientity_conditions.md)**
 
 Checks if the specified bi-entity condition is true before or after swapping the actor and target context.
 

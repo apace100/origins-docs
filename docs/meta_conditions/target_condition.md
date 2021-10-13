@@ -4,7 +4,9 @@ date: 2021-10-07
 ---
 # Target Condition
 
-[Bi-Entity Condition](../bientity_conditions.md).
+[Meta Condition](../meta_conditions.md)
+
+**Currently only available as a [Bi-entity Condition](../bientity_conditions.md)**
 
 Checks for an entity condition on the target entity.
 
