@@ -4,7 +4,9 @@ date: 2021-10-07
 ---
 # Actor Action
 
-[Bi-Entity Action](../bientity_actions.md).
+[Meta Action](../meta_actions.md).
+
+**Currently only available as a [Bi-entity Action](../bientity_actions.md)**
 
 Executes an entity action on the actor entity.
 

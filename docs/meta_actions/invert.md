@@ -4,7 +4,9 @@ date: 2021-10-07
 ---
 # Invert
 
-[Bi-Entity Action](../bientity_actions.md).
+[Meta Action](../meta_actions.md)
+
+**Currently only available as a [Bi-entity Action](../bientity_actions.md)**
 
 Swaps the context of the target entity and the actor entity.
 
