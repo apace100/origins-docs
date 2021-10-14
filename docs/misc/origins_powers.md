@@ -29,7 +29,7 @@ date: 2021-05-26
 * [**Invisibility:**](https://github.com/apace100/origins-fabric/blob/master/src/main/resources/data/origins/powers/invisibility.json) `origins:invisibility`
 * [**Large Appetite:**](https://github.com/apace100/origins-fabric/blob/master/src/main/resources/data/origins/powers/more_exhaustion.json) `origins:more_exhaustion`
 * [**Like Water:**](https://github.com/apace100/origins-fabric/blob/master/src/main/resources/data/origins/powers/like_water.json) `origins:like_water`
-* [**Like Air:**](https://github.com/apace100/origins-fabric/blob/master/src/main/resources/data/origins/powers/like_air.json) `origins:like_air`
+* [**Like Air:**](https://github.com/apace100/origins-fabric/blob/1.17/src/main/resources/data/origins/powers/like_air.json) `origins:like_air`
 * [**Master of Webs:**](https://github.com/apace100/origins-fabric/blob/master/src/main/resources/data/origins/powers/master_of_webs.json) `origins:master_of_webs`
 * [**Need for Mobility:**](https://github.com/apace100/origins-fabric/blob/master/src/main/resources/data/origins/powers/light_armor.json) `origins:light_armor`
 * [**Nether Inhabitant:**](https://github.com/apace100/origins-fabric/blob/master/src/main/resources/data/origins/powers/nether_spawn.json) `origins:nether_spawn`
@@ -48,7 +48,7 @@ date: 2021-05-26
 * [**Translucent:**](https://github.com/apace100/origins-fabric/blob/master/src/main/resources/data/origins/powers/translucent.json) `origins:translucent`
 * [**Unwieldy:**](https://github.com/apace100/origins-fabric/blob/master/src/main/resources/data/origins/powers/no_shield.json) `origins:no_shield`
 * [**Vegetarian:**](https://github.com/apace100/origins-fabric/blob/master/src/main/resources/data/origins/powers/vegetarian.json) `origins:vegetarian`
-* [**Velvet Paws**](https://github.com/apace100/origins-fabric/blob/master/src/main/resources/data/origins/powers/velvet_paws.json) `origins:velvet_paws`
+* [**Velvet Paws**](https://github.com/apace100/origins-fabric/blob/1.17/src/main/resources/data/origins/powers/velvet_paws.json) `origins:velvet_paws`
 * [**Weak Arms:**](https://github.com/apace100/origins-fabric/blob/master/src/main/resources/data/origins/powers/weak_arms.json) `origins:weak_arms`
 * [**Webbing:**](https://github.com/apace100/origins-fabric/blob/master/src/main/resources/data/origins/powers/webbing.json) `origins:webbing`
 * [**Wet Eyes:**](https://github.com/apace100/origins-fabric/blob/master/src/main/resources/data/origins/powers/water_vision.json) `origins:water_vision`
