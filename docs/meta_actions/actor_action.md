@@ -1,16 +1,18 @@
 ---
-title: Actor Action (Bi-Entity Action)
+title: Actor Action (Meta Action)
 date: 2021-10-07
 ---
 # Actor Action
 
 [Meta Action](../meta_actions.md).
 
-**Currently only available as a [Bi-entity Action](../bientity_actions.md)**
-
 Executes an entity action on the actor entity.
 
 Type ID: `origins:actor_action`
+
+!!! note
+
+    **Only available as a [Bi-entity Action](../bientity_actions.md)**
 
 ### Fields
 

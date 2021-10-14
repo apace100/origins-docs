@@ -6,11 +6,13 @@ date: 2021-04-07
 
 [Meta Action](../meta_actions.md).
 
-**Currently only available as an [Entity Action](../entity_actions.md)**
-
 Executes the provided action after a set amount of ticks.
 
 Type ID: `origins:delay`
+
+!!! note
+
+    **Only available as an [Entity Action](../entity_actions.md)**
 
 ### Fields
 

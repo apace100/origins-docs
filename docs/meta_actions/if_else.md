@@ -10,11 +10,21 @@ Executes an action only if a condition holds, and optionally executes another ac
 
 Type ID: `origins:if_else`
 
+!!! note
+
+    Depending on the condition type, a different action type is expected:
+    
+    Action Type | Condition Type
+    ------------|----------------
+    [Entity Action](../entity_actions.md) | [Entity Condition](../entity_conditions.md)
+    [Block Action](../block_actions.md) | [Block Condition](../block_conditions.md)
+    [Item Action](../item_actions.md) | [Item Condition](../item_conditions.md)
+
 ### Fields
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`condition` | [Condition](../conditions.md) | | A condition based on the type of action, see **Notes** section at the bottom of this page.
+`condition` | [Condition](../conditions.md) | | A condition based on the type of action.
 `if_action` | [Action](../actions.md) | | The action which is executed when the condition evaluates to true.
 `else_action` | [Action](../actions.md) | _optional_ | If present, this action will be executed when the condition evaluates to false.
 
@@ -37,13 +47,3 @@ Field  | Type | Default | Description
 }
 ```
 This action will set the target on fire if they are in Elytra flight, or, if not in Elytra flight, will heal the target. The `else_action` can be omitted to just execute nothing if the `condition` doesn't hold.
-
-### Notes
-
-Depending on the action type, a different condition type is expected:
-
-Action type | Condition type
-------------|---------------
-[Entity Action](../entity_actions.md) | [Entity Condition](../entity_conditions.md)
-[Block Action](../block_actions.md) | [Block Condition](../block_conditions.md)
-[Item Action](../item_actions.md) | [Item Condition](../item_conditions.md)
