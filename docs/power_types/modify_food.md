@@ -10,6 +10,10 @@ Modifies the food level and saturation gain when a player eats specific food ite
 
 Type ID: `origins:modify_food`
 
+!!! note
+
+    The actual food saturation level of the food item is determined by the `food * saturation * 2` equation. If you are going to refer to the Minecraft Fandom wiki's '[Food (Nourishment value)](https://minecraft.fandom.com/wiki/Food#Nourishment_value)' page for the saturation value of the food item, you would have to divide the value by 2.
+
 ### Fields
 
 Field  | Type | Default | Description
@@ -45,4 +49,4 @@ Field  | Type | Default | Description
     }
 }
 ```
-This power will add 1 and a half shanks of hunger, and 1 saturation point if a player eats a dried kelp.
+This power will add 1 and a half shanks of hunger, and 1 saturation point if a player eats a dried kelp, totalling to 2 shanks of hunger (4 hunger points) and 6.4 saturation points.

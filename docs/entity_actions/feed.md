@@ -10,6 +10,10 @@ Feeds the player, filling up their hunger bar as if they had eaten a food item w
 
 Type ID: `origins:feed`
 
+!!! note
+
+    The actual food saturation level is determined by the `food * saturation * 2` equation.
+
 ### Fields
 
 Field  | Type | Default | Description
@@ -25,4 +29,4 @@ Field  | Type | Default | Description
     "saturation": 2
 }
 ```
-This action *feeds* the player 2 hunger shanks (4 hunger points), and 2 saturation points.
+This action *feeds* the player 2 hunger shanks (4 hunger points), and 6 saturation points.
