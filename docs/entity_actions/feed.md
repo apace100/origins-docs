@@ -29,4 +29,4 @@ Field  | Type | Default | Description
     "saturation": 2
 }
 ```
-This action *feeds* the player 2 hunger shanks (4 hunger points), and 6 saturation points.
+This action *feeds* the player 2 hunger shanks (4 hunger points), and 16 saturation points.
