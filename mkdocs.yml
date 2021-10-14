@@ -41,3 +41,5 @@ nav:
         - Vanilla Damage Sources: misc/vanilla_damage_sources.md
 theme: readthedocs
 separator: '_'
+markdown_extensions:
+    - admonition
