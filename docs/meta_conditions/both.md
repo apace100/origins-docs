@@ -6,11 +6,13 @@ date: 2021-10-07
 
 [Meta Condition](../meta_conditions.md)
 
-**Currently only available as a [Bi-entity Condition](../bientity_conditions.md)**
-
 Checks for an entity condition on both the actor and target entities.
 
 Type ID: `origins:both`
+
+!!! note
+
+	**Only available as a [Bi-entity Condition](../bientity_conditions.md)**
 
 ### Fields
 

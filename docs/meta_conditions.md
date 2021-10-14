@@ -8,15 +8,16 @@ Meta Conditions are independent of the type they operate on. They basically comb
 
 ## List
 
-* [Actor Condition](meta_conditions/actor_condition.md)\*
 * [And](meta_conditions/and.md)
-* [Both](meta_conditions/both.md)\*
 * [Constant](meta_conditions/constant.md)
-* [Either](meta_conditions/either.md)\*
-* [Invert](meta_actions/invert.md)\*
 * [Not](meta_conditions/not.md)
 * [Or](meta_conditions/or.md)
-* [Target Condition](meta_conditions/target_condition.md)\*
-* [Undirected](meta_conditions/undirected.md)\*
 
-\*: These conditions are currently only available as [Bi-entity Conditions](bientity_conditions.md).
+### Bi-entity Conditions
+
+* [Actor Condition](meta_conditions/actor_condition.md)
+* [Both](meta_conditions/both.md)
+* [Either](meta_conditions/either.md)
+* [Invert](meta_conditions/invert.md)
+* [Target Condition](meta_conditions/target_condition.md)
+* [Undirected](meta_conditions/undirected.md)

@@ -6,11 +6,13 @@ date: 2021-10-07
 
 [Meta Condition](../meta_conditions.md)
 
-**Currently only available as a [Bi-entity Condition](../bientity_conditions.md)**
-
 Checks for an entity condition on the target entity.
 
 Type ID: `origins:target_condition`
+
+!!! note
+
+	**Only available as a [Bi-entity Condition](../bientity_conditions.md)**
 
 ### Fields
 

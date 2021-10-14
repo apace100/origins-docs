@@ -6,11 +6,13 @@ date: 2021-10-07
 
 [Meta Condition](../meta_conditions.md)
 
-**Currently only available as a [Bi-entity Condition](../bientity_conditions.md)**
-
 Swaps the context of the target entity and the actor entity.
 
 Type ID: `origins:invert`
+
+!!! note
+
+	**Only available as a [Bi-entity Condition](../bientity_conditions.md)**
 
 ### Fields
 
