@@ -6,9 +6,13 @@ date: 2021-04-04
 
 [Entity Condition](../entity_conditions.md).
 
-Applies a check towards a specific attribute value of the player. For a list of attributes available in vanilla, see [Minecraft Wiki: Attributes](https://minecraft.fandom.com/wiki/Attribute#Attributes).
+Applies a check towards a specific attribute value of the entity.
 
 Type ID: `origins:attribute`
+
+!!! note
+
+    For a list of attributes available in vanilla, see [Minecraft Fandom Wiki: Attributes](https://minecraft.fandom.com/wiki/Attribute#Attributes).
 
 ### Fields:
 

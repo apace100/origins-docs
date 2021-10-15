@@ -8,11 +8,15 @@ date: 2021-04-04
 
 Compares the value of a scoreboard objective on the player to a specified value.
 
-**Note 1**: If the player does not have the scoreboard objective, this condition would always return false (even if != is run). You can then use the != comparison in combination with the == comparison to test if the player does not have this objective set (for example if a player has newly joined a world or had their objectives reset).
-
-**Note 2**: Due to the nature of scoreboards, this condition is only effective on the server-side. That means client-based powers, such as triggering active powers, climbing, or making entities glow, won't work with this.
-
 Type ID: `origins:scoreboard`
+
+!!! note
+
+    If the player does not have the the scoreboard objective, this condition would always return false (even if `"=/="` is run). You can then use the `"=/="` comparison in combination with the `"=="` comparison to test if the player does not have this objective set (for example, if a player has newly joined a world or had their objectives reset).
+
+!!! caution
+
+    This condition is only effective server-side. That means client-side power types such as [`origins:climbing`](../power_types/climbing.md), [`origins:entity_glow`](../power_types/entity_glow.md), [`origins:shader`](../power_types/shader.md), etc. won't work with this.
 
 ### Fields:
 
