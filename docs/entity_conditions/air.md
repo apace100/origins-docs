@@ -6,7 +6,13 @@ date: 2021-04-04
 
 [Entity Condition](../entity_conditions.md).
 
-Checks how much breath / air / bubble the player has at the moment. For each bubble, there are 30 ticks, making the max value of the breath / air / bubble bar 300 ticks. (15 seconds)
+Checks how much breath / air / bubble the entity has at the moment.
+
+!!! note
+
+    Players (and most mobs) have a max value of 300 ticks, whilst dolphins have a max value of 4800 ticks. Axolotls, on the other hand, have a max value of 6000 ticks.
+
+    In other to get the value of a single bubble, you can divide the max value by 10. (`max / 10 = value`)
 
 Type ID: `origins:air`
 

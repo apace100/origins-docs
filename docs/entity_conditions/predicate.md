@@ -8,7 +8,9 @@ date: 2021-04-04
 
 Checks whether the entity fulfills a certain [predicate](https://minecraft.gamepedia.com/Predicate).
 
-**Note**: due to the nature of predicates, this condition is only effective on the server-side. That means client-based powers, such as triggering active powers, climbing, or making entities glow, won't work with this.
+!!! caution
+
+    This condition is only effective server-side. That means client-side power types such as [`origins:climbing`](../power_types/climbing.md), [`origins:entity_glow`](../power_types/entity_glow.md), [`origins:shader`](../power_types/shader.md), etc. won't work with this.
 
 Type ID: `origins:predicate`
 

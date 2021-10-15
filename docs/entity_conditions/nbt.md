@@ -10,6 +10,10 @@ Checks the entity's NBT.
 
 Type ID: `origins:nbt`
 
+!!! caution
+
+    This condition is only effective server-side. That means client-side power types such as [`origins:climbing`](../power_types/climbing.md), [`origins:entity_glow`](../power_types/entity_glow.md), [`origins:shader`](../power_types/shader.md), etc. won't work with this.    
+
 ### Fields
 
 Field | Type | Default | Description

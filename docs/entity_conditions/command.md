@@ -8,6 +8,10 @@ date: 2021-04-04
 
 Compares the result of a command to a specified value.
 
+!!! caution
+
+    This condition is only effective server-side. That means client-side power types such as [`origins:climbing`](../power_types/climbing.md), [`origins:entity_glow`](../power_types/entity_glow.md), [`origins:shader`](../power_types/shader.md), etc. won't work with this.
+
 Type ID: `origins:command`
 
 ### Fields:
