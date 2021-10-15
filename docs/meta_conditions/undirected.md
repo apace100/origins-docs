@@ -20,7 +20,7 @@ Field | Type | Default | Description
 ------|------|---------|-------------
 `condition` | [Bi-entity Condition](../bientity_conditions.md) | | The bi-entity condition to check for.
 
-### Examples
+### Example
 ```json
 "bientity_condition": {
 	"type": "origins:undirected",

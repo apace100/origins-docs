@@ -14,12 +14,13 @@ Type ID: `origins:nothing`
 
 _None._
 
-### Example
+### Examples
 ```json
 "entity_action": {
     "type": "origins:nothing"
 }
 ```
+This example does.. nothing.
 <br>
 
 ```json
@@ -27,3 +28,4 @@ _None._
     "type": "origins:nothing"
 }
 ```
+This example also does.. nothing.
