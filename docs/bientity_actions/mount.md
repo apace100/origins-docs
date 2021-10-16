@@ -1,5 +1,5 @@
 ---
-title: Mount (Bi-Entity Action)
+title: Mount (Bi-entity Action)
 date: 2021-10-07
 ---
 # Mount

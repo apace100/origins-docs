@@ -1,5 +1,5 @@
 ---
-title: Invert (Bi-Entity Action)
+title: Invert (Meta Condition)
 date: 2021-10-07
 ---
 # Invert

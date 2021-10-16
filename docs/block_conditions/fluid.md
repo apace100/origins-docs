@@ -1,5 +1,5 @@
 ---
-title: Fluid (Condition)
+title: Fluid (Block Condition)
 date: 2021-04-05
 ---
 # Fluid

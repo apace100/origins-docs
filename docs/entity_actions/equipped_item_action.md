@@ -1,5 +1,5 @@
 ---
-title: Equipped Item Action (Action)
+title: Equipped Item Action (Entity Action)
 date: 2021-04-06
 ---
 # Equipped Item Action

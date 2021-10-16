@@ -1,5 +1,5 @@
 ---
-title: Set In Love (Bi-Entity Action)
+title: Set In Love (Bi-entity Action)
 date: 2021-10-07
 ---
 # Set In Love

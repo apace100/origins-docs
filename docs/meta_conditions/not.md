@@ -1,5 +1,5 @@
 ---
-title: Not / Invert (Condition)
+title: Not / Invert (Meta Condition)
 date: 2021-04-07
 ---
 # Not / Invert

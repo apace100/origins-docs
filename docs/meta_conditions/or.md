@@ -1,5 +1,5 @@
 ---
-title: Or (Condition)
+title: Or (Meta Condition)
 date: 2021-04-07
 ---
 # Or

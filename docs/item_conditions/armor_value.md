@@ -1,5 +1,5 @@
 ---
-title: Armor Value (Condition)
+title: Armor Value (Item Condition)
 date: 2021-04-05
 ---
 # Armor Value

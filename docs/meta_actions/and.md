@@ -1,5 +1,5 @@
 ---
-title: And (Action)
+title: And (Meta Action)
 date: 2021-04-06
 ---
 # And

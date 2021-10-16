@@ -1,5 +1,5 @@
 ---
-title: Toggle (Action)
+title: Toggle (Entity Action)
 date: 2021-10-03
 ---
 # Toggle

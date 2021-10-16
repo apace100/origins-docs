@@ -1,5 +1,5 @@
 ---
-title: Give (Action)
+title: Give (Entity Action)
 date: 2021-04-06
 ---
 # Give

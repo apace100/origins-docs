@@ -1,5 +1,5 @@
 ---
-title: Fireproof (Condition)
+title: Fireproof (Item Condition)
 date: 2021-10-03
 ---
 # Fireproof

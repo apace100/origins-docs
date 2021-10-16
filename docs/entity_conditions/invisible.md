@@ -1,5 +1,5 @@
 ---
-title: Invisible
+title: Invisible (Entity Condition)
 date: 2021-04-04
 ---
 # Invisible

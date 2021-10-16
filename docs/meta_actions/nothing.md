@@ -1,5 +1,5 @@
 ---
-title: Nothing (Action)
+title: Nothing (Meta Action)
 date: 2021-10-13
 ---
 # Nothing

@@ -1,5 +1,5 @@
 ---
-title: Empty (Condition)
+title: Empty (Fluid Condition)
 date: 2021-04-04
 ---
 # Empty

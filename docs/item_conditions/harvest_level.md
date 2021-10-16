@@ -1,5 +1,5 @@
 ---
-title: Harvest Level (Condition)
+title: Harvest Level (Item Condition)
 date: 2021-04-05
 ---
 # Harvest Level

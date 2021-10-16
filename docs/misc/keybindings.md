@@ -1,5 +1,5 @@
 ---
-title: Keybindings
+title: Keybindings (Miscellaneous)
 date: 2021-04-04
 ---
 # List of keybindings

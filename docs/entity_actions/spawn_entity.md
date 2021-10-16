@@ -1,5 +1,5 @@
 ---
-title: Spawn Entity (Action)
+title: Spawn Entity (Entity Action)
 date: 2021-04-05
 ---
 # Spawn Entity

@@ -1,5 +1,5 @@
 ---
-title: Light Blocking (Condition)
+title: Light Blocking (Block Condition)
 date: 2021-04-05
 ---
 # Light Blocking

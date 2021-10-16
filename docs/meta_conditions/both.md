@@ -1,5 +1,5 @@
 ---
-title: Both (Bi-entity Condition)
+title: Both (Meta Condition)
 date: 2021-10-07
 ---
 # Both

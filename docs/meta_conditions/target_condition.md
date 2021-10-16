@@ -1,5 +1,5 @@
 ---
-title: Target Condition (Bi-Entity Condition)
+title: Target Condition (Meta Condition)
 date: 2021-10-07
 ---
 # Target Condition

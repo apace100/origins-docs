@@ -1,5 +1,5 @@
 ---
-title: Apply Effect (Action)
+title: Apply Effect (Entity Action)
 date: 2021-04-05
 ---
 # Apply Effect

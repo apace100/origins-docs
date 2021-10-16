@@ -1,5 +1,5 @@
 ---
-title: Feed (Action)
+title: Feed (Entity Action)
 date: 2021-04-05
 ---
 # Feed

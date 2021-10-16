@@ -1,5 +1,5 @@
 ---
-title: Name (Condition)
+title: Name (Damage Condition)
 date: 2021-04-04
 ---
 # Name

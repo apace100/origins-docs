@@ -1,5 +1,5 @@
 ---
-title: Add XP (Action)
+title: Add XP (Entity Action)
 date: 2021-04-05
 ---
 # Add XP

@@ -1,5 +1,5 @@
 ---
-title: Gamemode (Condition)
+title: Gamemode (Entity Condition)
 date: 2021-04-06
 ---
 # Gamemode

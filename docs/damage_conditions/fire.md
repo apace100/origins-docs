@@ -1,5 +1,5 @@
 ---
-title: Fire (Condition)
+title: Fire (Damage Condition)
 date: 2021-04-05
 ---
 # Fire

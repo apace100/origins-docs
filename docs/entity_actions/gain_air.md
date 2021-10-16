@@ -1,5 +1,5 @@
 ---
-title: Gain Air (Action)
+title: Gain Air (Entity Action)
 date: 2021-04-05
 ---
 # Gain Air

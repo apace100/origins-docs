@@ -1,5 +1,5 @@
 ---
-title: Add Velocity (Action)
+title: Add Velocity (Entity Action)
 date: 2021-04-05
 ---
 # Add Velocity

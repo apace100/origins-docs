@@ -1,5 +1,5 @@
 ---
-title: Chance (Action)
+title: Chance (Meta Action)
 date: 2021-04-07
 ---
 # Chance

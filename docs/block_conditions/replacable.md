@@ -1,5 +1,5 @@
 ---
-title: Replacable (Condition)
+title: Replacable (Block Condition)
 date: 2021-04-05
 ---
 # Replacable

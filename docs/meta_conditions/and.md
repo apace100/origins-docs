@@ -1,5 +1,5 @@
 ---
-title: And (Condition)
+title: And (Meta Condition)
 date: 2021-04-07
 ---
 # And

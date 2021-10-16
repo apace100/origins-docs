@@ -1,5 +1,5 @@
 ---
-title: Damage (Action)
+title: Damage (Entity Action)
 date: 2021-04-05
 ---
 # Damage

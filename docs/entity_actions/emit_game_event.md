@@ -1,5 +1,5 @@
 ---
-title: Emit Game Event (Action)
+title: Emit Game Event (Entity Action)
 date: 2021-10-03
 ---
 # Emit Game Event

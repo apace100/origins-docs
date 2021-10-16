@@ -1,5 +1,5 @@
 ---
-title: Projectile (Condition)
+title: Projectile (Damage Condition)
 date: 2021-04-04
 ---
 # Projectile

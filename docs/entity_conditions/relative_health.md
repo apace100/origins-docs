@@ -1,5 +1,5 @@
 ---
-title: Relative Health
+title: Relative Health (Entity Condition)
 date: 2021-04-04
 ---
 # Relative Health

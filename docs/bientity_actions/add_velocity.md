@@ -1,5 +1,5 @@
 ---
-title: Add Velocity (Bi-Entity Action)
+title: Add Velocity (Bi-entity Action)
 date: 2021-10-06
 ---
 # Add Velocity

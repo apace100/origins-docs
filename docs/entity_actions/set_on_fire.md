@@ -1,5 +1,5 @@
 ---
-title: Set On Fire (Action)
+title: Set On Fire (Entity Action)
 date: 2021-04-05
 ---
 # Set On Fire

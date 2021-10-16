@@ -1,5 +1,5 @@
 ---
-title: Light Level (Condition)
+title: Light Level (Block Condition)
 date: 2021-04-05
 ---
 # Light Level

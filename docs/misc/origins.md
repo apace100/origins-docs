@@ -1,5 +1,5 @@
 ---
-title: Origins
+title: Origins (Miscellaneous)
 date: 2021-04-04
 ---
 # List of origins

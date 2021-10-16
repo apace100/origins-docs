@@ -1,5 +1,5 @@
 ---
-title: Block Action At (Action)
+title: Block Action At (Entity Action)
 date: 2021-04-05
 ---
 # Block Action At

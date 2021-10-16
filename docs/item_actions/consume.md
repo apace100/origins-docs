@@ -1,5 +1,5 @@
 ---
-title: Consume (Action)
+title: Consume (Item Action)
 date: 2021-04-04
 ---
 # Consume

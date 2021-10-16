@@ -1,5 +1,5 @@
 ---
-title: Either (Bi-entity Condition)
+title: Either (Meta Condition)
 date: 2021-10-07
 ---
 # Either

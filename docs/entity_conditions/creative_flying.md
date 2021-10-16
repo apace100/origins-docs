@@ -1,5 +1,5 @@
 ---
-title: Creative Flying (Condition)
+title: Creative Flying (Entity Condition)
 date: 2021-10-02
 ---
 # Creative Flying

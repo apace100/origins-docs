@@ -1,5 +1,5 @@
 ---
-title: Undirected (Bi-entity Condition)
+title: Undirected (Meta Condition)
 date: 2021-10-12
 ---
 # Undirected

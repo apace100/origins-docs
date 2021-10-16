@@ -1,5 +1,5 @@
 ---
-title: Brightness
+title: Brightness (Entity Condition)
 date: 2021-07-04
 ---
 # Brightness

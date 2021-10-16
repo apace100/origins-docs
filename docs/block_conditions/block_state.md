@@ -1,5 +1,5 @@
 ---
-title: Block State (Condition)
+title: Block State (Block Condition)
 date: 2021-04-05
 ---
 # Block State

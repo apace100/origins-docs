@@ -1,5 +1,5 @@
 ---
-title: Explode (Action)
+title: Explode (Entity Action)
 date: 2021-10-02
 ---
 # Explode

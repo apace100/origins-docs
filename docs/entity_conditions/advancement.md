@@ -1,5 +1,5 @@
 ---
-title: Advancement (Condition)
+title: Advancement (Entity Condition)
 date: 2021-04-06
 ---
 # Advancement

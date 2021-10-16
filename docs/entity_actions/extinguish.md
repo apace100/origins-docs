@@ -1,5 +1,5 @@
 ---
-title: Extinguish (Action)
+title: Extinguish (Entity Action)
 date: 2021-04-05
 ---
 # Extinguish

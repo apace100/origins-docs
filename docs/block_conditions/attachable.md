@@ -1,5 +1,5 @@
 ---
-title: Attachable (Condition)
+title: Attachable (Block Condition)
 date: 2021-04-05
 ---
 # Attachable

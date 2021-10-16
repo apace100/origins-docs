@@ -1,5 +1,5 @@
 ---
-title: Trigger Cooldown (Action)
+title: Trigger Cooldown (Entity Action)
 date: 2021-04-06
 ---
 # Trigger Cooldown

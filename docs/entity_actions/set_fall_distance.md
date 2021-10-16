@@ -1,5 +1,5 @@
 ---
-title: Set Fall Distance (Action)
+title: Set Fall Distance (Entity Action)
 date: 2021-04-06
 ---
 # Set Fall Distance

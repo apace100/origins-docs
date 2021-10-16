@@ -1,5 +1,5 @@
 ---
-title: Precipitation (Condition)
+title: Precipitation (Biome Condition)
 date: 2021-04-05
 ---
 # Precipitation

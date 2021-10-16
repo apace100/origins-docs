@@ -1,5 +1,5 @@
 ---
-title: Using Effective Tool
+title: Using Effective Tool (Entity Condition)
 date: 2021-04-04
 ---
 # Using Effective Tool

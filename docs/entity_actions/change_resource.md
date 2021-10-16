@@ -1,5 +1,5 @@
 ---
-title: Change Resource (Action)
+title: Change Resource (Entity Action)
 date: 2021-04-05
 ---
 # Change Resource

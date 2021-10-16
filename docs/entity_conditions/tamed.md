@@ -1,5 +1,5 @@
 ---
-title: Tamed (Condition)
+title: Tamed (Entity Condition)
 date: 2021-04-06
 ---
 # Tamed

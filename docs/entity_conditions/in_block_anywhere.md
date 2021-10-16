@@ -1,5 +1,5 @@
 ---
-title: In Block Anywhere
+title: In Block Anywhere (Entity Condition)
 date: 2021-04-04
 ---
 # In Block Anywhere

@@ -1,5 +1,5 @@
 ---
-title: Tame (Bi-Entity Action)
+title: Tame (Bi-entity Action)
 date: 2021-10-07
 ---
 # Tame

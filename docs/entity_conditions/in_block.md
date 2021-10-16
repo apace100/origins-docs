@@ -1,5 +1,5 @@
 ---
-title: In Block
+title: In Block (Entity Condition)
 date: 2021-04-04
 ---
 # In Block

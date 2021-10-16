@@ -1,5 +1,5 @@
 ---
-title: Play Sound (Action)
+title: Play Sound (Entity Action)
 date: 2021-04-05
 ---
 # Play Sound

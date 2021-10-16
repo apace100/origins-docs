@@ -1,5 +1,5 @@
 ---
-title: Execute Command (Action)
+title: Execute Command (Entity Action)
 date: 2021-04-05
 ---
 # Execute Command

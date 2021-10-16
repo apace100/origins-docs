@@ -1,5 +1,5 @@
 ---
-title: Choice (Action)
+title: Choice (Meta Action)
 date: 2021-04-07
 ---
 # Choice

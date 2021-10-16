@@ -1,5 +1,5 @@
 ---
-title: Spawn Effect Cloud (Action)
+title: Spawn Effect Cloud (Entity Action)
 date: 2021-04-05
 ---
 # Spawn Effect Cloud

@@ -1,5 +1,5 @@
 ---
-title: Enchantment (Condition)
+title: Enchantment (Item Condition)
 date: 2021-04-05
 ---
 # Enchantment

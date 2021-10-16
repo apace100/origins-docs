@@ -1,5 +1,5 @@
 ---
-title: Commands
+title: Commands (Miscellaneous)
 date: 2021-06-12
 ---
 

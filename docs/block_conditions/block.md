@@ -1,5 +1,5 @@
 ---
-title: Block (Condition)
+title: Block (Block Condition)
 date: 2021-04-05
 ---
 # Block

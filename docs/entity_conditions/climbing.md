@@ -1,5 +1,5 @@
 ---
-title: Climbing (Condition)
+title: Climbing (Entity Condition)
 date: 2021-04-06
 ---
 # Climbing

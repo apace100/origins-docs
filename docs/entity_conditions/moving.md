@@ -1,5 +1,5 @@
 ---
-title: Moving (Condition)
+title: Moving (Entity Condition)
 date: 2021-04-06
 ---
 # Moving

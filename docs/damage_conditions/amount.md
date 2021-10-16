@@ -1,5 +1,5 @@
 ---
-title: Amount (Condition)
+title: Amount (Damage Condition)
 date: 2021-04-04
 ---
 # Amount

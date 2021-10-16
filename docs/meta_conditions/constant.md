@@ -1,5 +1,5 @@
 ---
-title: Constant (Condition)
+title: Constant (Meta Condition)
 date: 2021-04-07
 ---
 # Constant
