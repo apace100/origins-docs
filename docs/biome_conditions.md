@@ -8,7 +8,7 @@ Biome Conditions operate on a `Biome`.
 
 ## List
 
-* [Category](category)
-* [High Humidity](high_humidity)
-* [Precipitation](precipitation)
-* [Temperature](temperature)
+* [Category](biome_conditions/category.md)
+* [High Humidity](biome_conditions/high_humidity.md)
+* [Precipitation](biome_conditions/precipitation.md)
+* [Temperature](biome_conditions/temperature.md)
