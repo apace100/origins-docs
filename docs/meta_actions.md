@@ -27,3 +27,7 @@ Meta Actions are independent of the type they operate on. They basically combine
 ### Entity and Bi-entity Actions
 
 * [Nothing](meta_actions/nothing.md)
+
+## Block Actions
+
+* [Offset](meta_actions/offset.md)

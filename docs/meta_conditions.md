@@ -13,6 +13,10 @@ Meta Conditions are independent of the type they operate on. They basically comb
 * [Not](meta_conditions/not.md)
 * [Or](meta_conditions/or.md)
 
+## Block Conditions
+
+* [Offset](meta_conditions/offset.md)
+
 ### Bi-entity Conditions
 
 * [Actor Condition](meta_conditions/actor_condition.md)
