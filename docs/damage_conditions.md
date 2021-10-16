@@ -8,8 +8,8 @@ Damage Conditions operate on a combination of `DamageSource` and `Float`, allowi
 
 ## List
 
-* [Amount](amount)
-* [Attacker](attacker)
-* [Fire](fire)
-* [Name](name)
-* [Projectile](projectile)
+* [Amount](damage_conditions/amount.md)
+* [Attacker](damage_conditions/attacker.md)
+* [Fire](damage_conditions/fire.md)
+* [Name](damage_conditions/name.md)
+* [Projectile](damage_conditions/projectile.md)

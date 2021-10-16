@@ -8,6 +8,6 @@ Fluid Conditions operate on a `FluidState`, essentially which fluid (if any) exi
 
 ## List
 
-* [Empty](empty)
-* [In Tag](in_tag)
-* [Still](still)
+* [Empty](fluid_conditions/empty.md)
+* [In Tag](fluid_conditions/in_tag.md)
+* [Still](fluid_conditions/still.md)
