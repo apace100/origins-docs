@@ -14,7 +14,7 @@ Type ID: `origins:clear_effect`
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`effect` | [String](../data_types/string.md) |  | If specified, the effect with this ID will be cleared. If not specified, all effects will be cleared.
+`effect` | [String](../data_types/string.md) | _optional_ | If specified, the effect with this ID will be cleared. If not specified, all effects will be cleared.
 
 ### Example
 ```json
