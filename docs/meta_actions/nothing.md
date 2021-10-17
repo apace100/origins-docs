@@ -6,7 +6,7 @@ date: 2021-10-13
 
 [Meta Action](../meta_actions.md)
 
-Does nothing. Can be used as a backup in case an entity action/bi-entity action is not optional in some place.
+Does nothing. Can be used as a backup in case an action is not optional in some place.
 
 Type ID: `origins:nothing`
 
