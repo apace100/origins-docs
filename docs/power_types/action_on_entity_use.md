@@ -6,7 +6,7 @@ date: 2021-10-05
 
 [Power Type](../power_types.md)
 
-Executes a bi-entity action, optionally gives an result item stack and executes an item action on both the result item stack and the item stack that's in the player's specified hand when the player "uses" (right-click) an entity.
+Executes a bi-entity action, optionally gives a result item stack and executes an item action on both the result item stack and the item stack that's in the player's specified hand when the player "uses" (right-click) an entity.
 
 Type ID: `origins:action_on_entity_use`
 
