@@ -14,20 +14,21 @@ Meta Actions are independent of the type they operate on. They basically combine
 * [If-Else-List](meta_actions/if_else_list.md)
 * [If-Else](meta_actions/if_else.md)
 
-### Entity Actions
 
-* [Delay](meta_actions/delay.md)
-
-### Bi-entity Actions
+## Bi-entity Actions
 
 * [Actor Action](meta_actions/actor_action.md)
 * [Invert](meta_actions/invert.md)
 * [Target Action](meta_actions/target_action.md)
 
-### Entity and Bi-entity Actions
-
-* [Nothing](meta_actions/nothing.md)
-
 ## Block Actions
 
 * [Offset](meta_actions/offset.md)
+
+## Entity Actions
+
+* [Delay](meta_actions/delay.md)
+
+## Entity and Bi-entity Actions
+
+* [Nothing](meta_actions/nothing.md)
