@@ -23,9 +23,9 @@ Field  | Type | Default | Description
   "type": "origins:on_block",
   "block_condition": {
     "type": "origins:block",
-    "block": "minecraft:grass"
+    "block": "minecraft:grass_block"
   }
 }
 ```
 
-This condition applied to a power will make sure it's only active while the player is on grass.
+This condition applied to a power will make sure it's only active while the player is on a Grass Block.
