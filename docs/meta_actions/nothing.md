@@ -10,6 +10,10 @@ Does nothing. Can be used as a backup in case an entity action/bi-entity action 
 
 Type ID: `origins:nothing`
 
+!!! note
+
+    **Only available as an [Entity Action](../entity_actions.md) and a [Bi-entity Action](../bientity_actions.md)**
+
 ### Fields
 
 _None._
