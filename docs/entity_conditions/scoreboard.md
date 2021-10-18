@@ -12,7 +12,7 @@ Type ID: `origins:scoreboard`
 
 !!! note
 
-    If the player does not have the the scoreboard objective, this condition would always return false (even if `"=/="` is run). You can then use the `"=/="` comparison in combination with the `"=="` comparison to test if the player does not have this objective set (for example, if a player has newly joined a world or had their objectives reset).
+    If the player does not have the the scoreboard objective, this condition would always return false (even if `"!="` is run). You can then use the `"!="` comparison in combination with the `"=="` comparison to test if the player does not have this objective set (for example, if a player has newly joined a world or had their objectives reset).
 
 !!! caution
 
