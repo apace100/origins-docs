@@ -36,7 +36,7 @@ repositories {
 		url "https://maven.shedaniel.me/"
 	}
 	maven {
-		url "https://api.modrinth.com/maven"
+		url "https://maven.terraformersmc.com/"
 	}
 }
 ```
