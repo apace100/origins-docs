@@ -6,9 +6,13 @@ date: 2021-04-07
 
 [Power Type](../power_types.md).
 
-Applies one or more attribute modifiers. Does *NOT* support a `condition`, use [Conditioned Attribute](../power_types/conditioned_attribute.md) instead if you need one.
+Applies one or more attribute modifiers.
 
 Type ID: `origins:attribute`
+
+!!! caution
+
+    Does **not** support a `condition`. If the `condition` field is presented, it will be ignored. Use [Conditioned Attribute](../power_types/conditioned_attribute.md) instead.
 
 ### Fields
 
