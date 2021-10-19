@@ -10,6 +10,10 @@ Applies the specified tooltip(s) to an item.
 
 Type ID: `origins:tooltip`
 
+!!! note
+
+    The `text` and `texts` fields can accept [JSON text components](https://minecraft.fandom.com/wiki/Raw_JSON_text_format).
+    
 ### Fields
 
 Field | Type | Default | Description
