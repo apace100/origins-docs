@@ -10,6 +10,10 @@ Modifies how a block would look like to the entity.
 
 Type ID: `origins:modify_block_render`
 
+!!! note
+
+    This power type does **not** support a `condition`. If the `condition` field is present, it will be ignored.
+
 ### Fields
 
 Field | Type | Default | Description
