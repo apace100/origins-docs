@@ -12,7 +12,7 @@ Type ID: `origins:attribute`
 
 !!! caution
 
-    Does **not** support a `condition`. If the `condition` field is presented, it will be ignored. Use [Conditioned Attribute](../power_types/conditioned_attribute.md) instead.
+    This power type does **not** support a `condition`. If the `condition` field is present, it will be ignored. If you wish to check for a condition, use [Conditioned Attribute](../power_types/conditioned_attribute.md) instead.
 
 ### Fields
 
