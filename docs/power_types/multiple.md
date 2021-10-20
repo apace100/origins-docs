@@ -6,9 +6,13 @@ date: 2021-04-07
 
 [Power Type](../power_types.md).
 
-Allows defining more than one power in a single file. The "sub-powers" are hidden by default. When the "super-power" (the file this `origins:multiple` is in) is added to an origin, all sub-powers are added automatically. Do note that specifying a condition in the "super-power" will not apply the specified condition to all sub-powers in it, meaning that you need to specify the condition to all the sub-powers.
+Allows defining more than one power in a single file. The "sub-powers" are hidden by default. When the "super-power" (the file this `origins:multiple` is in) is added to an origin, all sub-powers are added automatically.
 
 Type ID: `origins:multiple`
+
+!!! note
+
+    This power type does **not** support a `condition`. If the `condition` field is present, it will be ignored. If you wish to check for a condition, you would have to check for the said condition in every sub-power inside the super-power.
 
 ### Fields:
 
