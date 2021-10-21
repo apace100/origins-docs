@@ -14,6 +14,12 @@ Type ID: `origins:delay`
 
     **Only available as an [Entity Action](../entity_actions.md)**
 
+!!! caution
+
+    Delaying an action for more than a few ticks is not recommended! This meta action type is not reliable for such task.
+
+    If you want to delay an entity action *reliably,* you can use a power that uses the [`origins:resource`](../power_types/resource.md) power type and increase the value of that resource per set interval using a power that uses the [`origins:action_over_time`](../power_types/action_over_time.md) power type.
+
 ### Fields
 
 Field  | Type | Default | Description
