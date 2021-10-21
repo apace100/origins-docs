@@ -6,9 +6,13 @@ date: 2021-04-08
 
 [Power Type](../power_types.md).
 
-When reaching more than 0 stacks, the player will receive the provided status effects. By default, if this power is active, you will gain 2 stacks a second and if the power is inactive, you will lose 2 stacks a second. This is due to its `tick_rate` field being set to `10` (1 stack per 0.5 second), which now can be changed.
+When reaching more than 0 stacks, the player will receive the provided status effects.
 
 Type ID: `origins:stacking_status_effect`
+
+!!! note
+
+    By default, the power gains or loses 2 stacks a second if the power is active or inactive respectively (1 stack per 0.5 seconds).
 
 ### Fields
 
@@ -17,7 +21,7 @@ Field  | Type | Default | Description
 `min_stacks` | [Integer](../data_types/integer.md) | | The minimum number of stacks. Negative numbers are allowed.
 `max_stacks` | [Integer](../data_types/integer.md) | | The maximum number of stacks.
 `duration_per_stack` | [Integer](../data_types/integer.md) | | When the status effects are applied, their duration will be `stacks * duration_per_stack` in ticks.
-`tick_rate` | [Integer](../data_types/integer.md) | 10 | Determines how fast one will gain/lose stacks.
+`tick_rate` | [Integer](../data_types/integer.md) | 10 | Determines how fast one will gain/lose stacks in ticks.
 `effect` | [Status Effect Instance](../data_types/status_effect_instance.md) | _optional_ | If set, this status effect will be applied by this power.
 `effects` | [Array](../data_types/array.md) of [Status Effect Instances](../data_types/status_effect_instance.md) | _optional_ | If set, these status effects will be applied by this power.
 
