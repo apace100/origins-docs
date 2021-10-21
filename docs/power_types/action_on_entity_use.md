@@ -46,20 +46,14 @@ Field | Type | Default | Description
     "bientity_condition": {
         "type": "origins:owner"
     },
+    "item_condition": {
+        "type": "origins:empty"
+    },
+    "hands": [
+        "main_hand"
+    ],
     "condition": {
-        "type": "origins:and",
-        "conditions": [
-            {
-                "type": "origins:sneaking"
-            },
-            {
-                "type": "origins:equipped_item",
-                "equipment_slot": "mainhand",
-                "item_condition": {
-                    "type": "origins:empty"
-                }
-            }
-        ]
+        "type": "origins:sneaking"
     }
 }
 ```
