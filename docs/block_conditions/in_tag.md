@@ -14,7 +14,7 @@ Type ID: `origins:in_tag`
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`tag` | [String](../data_types/string.md) | | ID of the tag which the block should be in to pass the check.
+`tag` | [Identifier](../data_types/identifier.md) | | ID of the tag which the block should be in to pass the check.
 
 ### Example:
 ```json

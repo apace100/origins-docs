@@ -24,7 +24,7 @@ Type ID: `origins:delay`
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`action` | [Action](../actions.md) | | The action which will be executed after the delay.
+`action` | [Entity Action](../entity_actions.md) | | The action which will be executed after the delay.
 `ticks` | [Integer](../data_types/integer.md) | | The amount of ticks until the action is executed.
 
 ### Example

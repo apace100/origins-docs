@@ -10,11 +10,15 @@ Executes one of the provided actions, choosing randomly based on the assigned we
 
 Type ID: `origins:choice`
 
+!!! note
+
+    The chance of the object is determined by dividing the weight of the object to the sum of all weights of all the object (`weight / sumOfAllWeights = chance`).
+
 ### Fields
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`actions` | [Array](../data_types/array.md) | | Array of [Objects](../data_types/object.md), each with an `element` [Action](../actions.md) and a `weight` [Integer](../data_types/integer.md).
+`actions` | [Array](../data_types/array.md) of [Objects](../data_types/object.md) | | Each object has to have an `element` [Action](../actions.md) and a `weight` [Integer](../data_types/integer.md).
 
 ### Example
 

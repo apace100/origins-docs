@@ -10,6 +10,8 @@ date: 2021-04-07
 
 Checks a list of actions associated with conditions, and executes the first one in the list for which the condition holds. Basically a less indentation-heavy way to represent a deeply nested [If-Else Action](if_else.md).
 
+Type ID: `origins:if_else_list`
+
 !!! note
 
     Depending on the condition type, a different action type is expected:
@@ -20,15 +22,11 @@ Checks a list of actions associated with conditions, and executes the first one 
     [Block Action](../block_actions.md) | [Block Condition](../block_conditions.md)
     [Item Action](../item_actions.md) | [Item Condition](../item_conditions.md)
 
-
-
-Type ID: `origins:if_else_list`
-
 ### Fields
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`actions` | [Array](../data_types/array.md) | | Array of [Objects](../data_types/object.md), each with an `action` [Action](../actions.md) and a `condition` [Condition](../conditions.md).
+`actions` | [Array](../data_types/array.md) of [Objects](../data_types/object.md) | | Each object has to have an `action` [Action](../actions.md) object and a `condition` [Condition](../conditions.md) object.
 
 ### Example
 

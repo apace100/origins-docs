@@ -14,7 +14,7 @@ Type ID: `origins:projectile`
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`projectile` | [String](../data_types/string.md) | _optional_ | If set, the check will only pass if the projectile was of an entity type with this ID.
+`projectile` | [Identifier](../data_types/identifier.md) | _optional_ | If set, the check will only pass if the projectile was of an entity type with this ID.
 
 ### Example
 ```json

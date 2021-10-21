@@ -14,7 +14,7 @@ Type ID: `origins:block`
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`block` | [String](../data_types/string.md) | | ID of the block that this block needs to be to pass the check.
+`block` | [Identifier](../data_types/identifier.md) | | ID of the block that this block needs to be to pass the check.
 
 ### Examples:
 ```json

@@ -14,7 +14,7 @@ Type ID: `origins:spawn_entity`
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`entity_type` | [String](../data_types/string.md) |  | The ID of the entity type that will be spawned.
+`entity_type` | [Identifier](../data_types/identifier.md) |  | The ID of the entity type that will be spawned.
 `tag` | [String](../data_types/string.md) | _optional_ | When set, this NBT data will be applied to the new entity when it is spawned.
 `entity_action` | [Entity Action](../entity_actions.md) | _optional_ | When set, this action will be executed on the new entity when it is spawned.
 

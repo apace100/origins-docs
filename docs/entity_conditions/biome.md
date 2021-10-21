@@ -15,7 +15,7 @@ Type ID: `origins:biome`
 Field  | Type | Default | Description
 -------|------|---------|-------------
 `biome` | [Identifier](../data_types/identifier.md) | _optional_ |  If set, this is the ID of the biome the player needs to be in for this condition to evaluate to true, e.g. `minecraft:savanna`.
-`biomes` | [Array](../data_types/array.md) | _optional_ |  If set, these are the allowed biome IDs the player can be in for this condition to evaluate to true.
+`biomes` | [Array](../data_types/array.md) of [Identifiers](../data_types/identifier.md) | _optional_ |  If set, these are the allowed biome IDs the player can be in for this condition to evaluate to true.
 `condition` | [Biome Condition](../biome_conditions.md) | _optional_ | If set, this condition needs to be fulfilled (in addition to having the right ID, if provided) by the biome in order for the condition to evaluate to true.
 
 ### Examples:
