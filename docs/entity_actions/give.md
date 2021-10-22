@@ -35,7 +35,7 @@ Gives the entity a stack of 3 eggs.
 "entity_action": {
     "type": "origins:give",
     "stack": {
-        "type": "minecraft:iron_axe"
+        "item": "minecraft:iron_axe"
     },
     "item_action": {
         "type": "origins:damage",
