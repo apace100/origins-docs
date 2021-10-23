@@ -26,6 +26,7 @@ Field  | Type | Default | Description
 `exclude_random` | [Array](data_types/array.md) of [Identifiers](data_types/identifier.md) | _optional_ | If specified, the origins included in this list will not be picked by the random choice.
 `default_origin` | [Identifiers](data_types/identifier.md) | _optional_ | If set, the origin with this ID will automatically be chosen for a new player. If an orb of origin is used later on, the player will be able to choose another origin then and the `default_origin` will not apply. Could for example be used to make all players start as human, and then use the orb as a progression item to select an origin.
 `auto_choose` | [Boolean](data_types/boolean.md) | false | If set to true, this layer will automatically pick an origin for the player if only one option is available. This also applies when an orb of origin is used.
+`hidden` | [Boolean](data_types/boolean.md) | false | If set to true, this layer will be hidden from the "View Layer" screen.
 
 ### Example
 
