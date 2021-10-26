@@ -18,14 +18,14 @@ Type ID: `origins:invert`
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`bientity_condition` | [Bi-entity Condition](../bientity_conditions.md) | | The bi-entity condition to check which will have its 'target' and 'actor' contexts swapped.
+`condition` | [Bi-entity Condition](../bientity_conditions.md) | | The bi-entity condition to check which will have its 'target' and 'actor' contexts swapped.
 
 ### Example
 
 ```json
 "bientity_condition": {
-    "type": "origins:inverted",
-    "bientity_condition": {
+    "type": "origins:invert",
+    "condition": {
         "type": "origins:can_see"
     }
 }
