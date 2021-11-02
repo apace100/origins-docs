@@ -8,6 +8,9 @@ date: 2021-04-08
 
 Spawns particles on the player's body for visual effects.
 
+
+Type ID: `origins:particle`
+
 !!! note
 
     Currently, the particles are only available for other players to see (they won't even be visible in F5 on yourself, if you have this power). This has been changed in later updates (`1.1.0` onwards)
@@ -21,8 +24,6 @@ Spawns particles on the player's body for visual effects.
     * `minecraft:dust`
     * `minecraft:falling_dust`
     * `minecraft:item`
-
-Type ID: `origins:particle`
 
 ### Fields
 
