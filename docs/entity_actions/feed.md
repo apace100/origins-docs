@@ -13,7 +13,7 @@ Type ID: `origins:feed`
 
 !!! note
 
-    The actual food saturation level is determined by the `food * saturation * 2` equation.
+    The actual food saturation level is determined by the `food * saturation * 2` formula.
 
 ### Fields
 

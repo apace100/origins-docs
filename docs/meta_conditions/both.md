@@ -13,7 +13,7 @@ Type ID: `origins:both`
 
 !!! note
 
-	**Only available as a [Bi-entity Condition](../bientity_conditions.md)**
+	**Only available as a [Bi-entity Condition](../bientity_conditions.md).**
 
 ### Fields
 

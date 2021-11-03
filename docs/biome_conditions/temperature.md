@@ -13,7 +13,7 @@ Type ID: `origins:temperature`
 
 !!! note
 
-    You can visit [Minecraft Fandom: Biome (List of Overworld climates)](https://minecraft.fandom.com/wiki/Biome#List_of_Overworld_climates) for a list of biome temperature values
+    You can visit [Minecraft Fandom: Biome (List of Overworld climates)](https://minecraft.fandom.com/wiki/Biome#List_of_Overworld_climates) for a list of temperature values for the vanilla biomes.
 
 ### Fields:
 

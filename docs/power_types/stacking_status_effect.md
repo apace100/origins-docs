@@ -13,7 +13,7 @@ Type ID: `origins:stacking_status_effect`
 
 !!! note
 
-    By default, the power gains or loses 2 stacks a second if the power is active or inactive respectively (1 stack per 0.5 seconds).
+    This power gains or loses 1 stack per set tick rate if the power is active or inactive respectively.
 
 ### Fields
 

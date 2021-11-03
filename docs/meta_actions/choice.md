@@ -13,7 +13,7 @@ Type ID: `origins:choice`
 
 !!! note
 
-    The chance of the object is determined by dividing the weight of the object to the sum of all weights of all the object (`weight / sumOfAllWeights = chance`).
+    The chance of the object is determined by dividing the weight of the object to the sum of all weights of all the objects (`weight / sumOfAllWeights = chance`).
 
 ### Fields
 

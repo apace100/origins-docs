@@ -13,7 +13,7 @@ Type ID: `origins:offset`
 
 !!! note
 
-    **Only available as a [Block Action](../block_actions.md)**
+    **Only available as a [Block Action](../block_actions.md).**
 
 ### Fields
 

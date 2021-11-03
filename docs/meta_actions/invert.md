@@ -13,7 +13,7 @@ Type ID: `origins:invert`
 
 !!! note
 
-    **Only available as a [Bi-entity Action](../bientity_actions.md)**
+    **Only available as a [Bi-entity Action](../bientity_actions.md).**
 
 ### Fields
 

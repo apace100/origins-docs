@@ -13,7 +13,7 @@ Type ID: `origins:nothing`
 
 !!! note
 
-    **Only available as an [Entity Action](../entity_actions.md) and a [Bi-entity Action](../bientity_actions.md)**
+    **Only available as an [Entity Action](../entity_actions.md) and a [Bi-entity Action](../bientity_actions.md).**
 
 ### Fields
 
