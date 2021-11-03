@@ -23,6 +23,10 @@ Field  | Type | Default | Description
 `server` | [Boolean](../data_types/boolean.md) | true | If this is false, the action will not execute on the server.
 `set` | [Boolean](../data_types/boolean.md) | false | If this is true, the action will act as a "set" velocity action, overriding the entity's current velocity instead of adding to it.
 
+!!! note
+
+	**If the action behaves unexpectedly, try setting either `client` - should always work - or `server` - might not work - to `false` ([examples](https://github.com/apace100/apoli/blob/3115c41ea4390ad9ced3ae5be86151131accc36f/testdata/apoli/powers/add_velocity.json)).**
+
 ### Example
 ```json
 "entity_action": {
