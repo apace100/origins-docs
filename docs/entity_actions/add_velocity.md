@@ -19,6 +19,8 @@ Field  | Type | Default | Description
 `y` | [Float](../data_types/float.md) | `0` | The amount of velocity to add on the y-axis.
 `z` | [Float](../data_types/float.md) | `0` | The amount of velocity to add on the z-axis.
 `space` | [String](../data_types/string.md) | "world" | The [Space](../misc/space.md) to perform the velocity addition in.
+`client` | [Boolean](../data_types/boolean.md) | true | If this is false, the action will not execute on the client.
+`server` | [Boolean](../data_types/boolean.md) | true | If this is false, the action will not execute on the server.
 `set` | [Boolean](../data_types/boolean.md) | false | If this is true, the action will act as a "set" velocity action, overriding the entity's current velocity instead of adding to it.
 
 ### Example
