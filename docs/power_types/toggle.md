@@ -2,9 +2,10 @@
 title: Toggle (Power Type)
 date: 2021-04-07
 ---
+
 # Toggle
 
-[Power Type](../power_types.md).
+[Power Type](../power_types.md)
 
 Defines a power which can be toggled on and off with the active power key. Can be used by coders with a `PowerTypeReference` to provide functionality, or by other powers with a [Power Active](../entity_conditions/power_active.md) condition.
 

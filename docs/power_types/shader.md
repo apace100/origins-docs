@@ -2,9 +2,10 @@
 title: Shader (Power Type)
 date: 2021-07-13
 ---
+
 # Shader
 
-[Power Type](../power_types.md).
+[Power Type](../power_types.md)
 
 Applies a shader effect to the player's vision.
 

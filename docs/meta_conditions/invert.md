@@ -2,6 +2,7 @@
 title: Invert (Meta Condition)
 date: 2021-10-07
 ---
+
 # Invert
 
 [Meta Condition](../meta_conditions.md)

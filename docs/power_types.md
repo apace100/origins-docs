@@ -2,6 +2,7 @@
 title: Power Types
 date: 2021-07-06
 ---
+
 # Power Types
 
 Powers are what grants functionality to your origins! Each power has a type, specified with

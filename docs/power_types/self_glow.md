@@ -2,6 +2,7 @@
 title: Self Glow (Power Type)
 date: 2021-10-06
 ---
+
 # Self Glow
 
 [Power Type](../power_types.md)

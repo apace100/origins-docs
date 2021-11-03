@@ -2,9 +2,10 @@
 title: Fire Projectile (Power Type)
 date: 2021-10-02
 ---
+
 # Fire Projectile
 
-[Power Type](../power_types.md).
+[Power Type](../power_types.md)
 
 An active power which fires one or more projectiles when the active power key is pressed.
 

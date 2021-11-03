@@ -2,9 +2,10 @@
 title: Hud Render (Data Type)
 date: 2021-04-04
 ---
+
 # Hud Render
 
-[Data Type](../data_types.md).
+[Data Type](../data_types.md)
 
 An [Object](object.md) used to define how a resource or cooldown bar should be rendered.
 

@@ -2,9 +2,10 @@
 title: Prevent Block Use (Power Type)
 date: 2021-04-07
 ---
+
 # Prevent Block Use
 
-[Power Type](../power_types.md).
+[Power Type](../power_types.md)
 
 Prevents the usage (i.e. right-clicking) of blocks for a player. For example, this could be used to make a player not able to open a furnace or chest, not use composters, or not use a button.
 

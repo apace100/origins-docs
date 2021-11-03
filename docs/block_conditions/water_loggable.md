@@ -2,9 +2,10 @@
 title: Water Loggable (Block Condition)
 date: 2021-04-05
 ---
+
 # Water Loggable
 
-[Block Condition](../block_conditions.md).
+[Block Condition](../block_conditions.md)
 
 Checks whether the block is waterloggable, meaning that there can be fluid in the same block space (e.g. stairs).
 

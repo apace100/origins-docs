@@ -2,6 +2,7 @@
 title: NBT (Block Condition)
 date: 2021-10-02
 ---
+
 # NBT
 
 [Block Condition](../block_conditions.md)

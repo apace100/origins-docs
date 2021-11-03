@@ -2,6 +2,7 @@
 title: Action On Entity Use (Power Types)
 date: 2021-10-05
 ---
+
 # Action On Entity Use
 
 [Power Type](../power_types.md)

@@ -2,9 +2,10 @@
 title: Brightness (Entity Condition)
 date: 2021-07-04
 ---
+
 # Brightness
 
-[Entity Condition](../entity_conditions.md).
+[Entity Condition](../entity_conditions.md)
 
 Checks the brightness at the player's eyes, which ranges from 0 to 1.
 

@@ -2,9 +2,10 @@
 title: In Block (Entity Condition)
 date: 2021-04-04
 ---
+
 # In Block
 
-[Entity Condition](../entity_conditions.md).
+[Entity Condition](../entity_conditions.md)
 
 Checks whether the player is in a block (at the player's lower body half) that matches a specified block condition.
 

@@ -2,9 +2,10 @@
 title: Saturation Level (Entity Condition)
 date: 2021-04-04
 ---
+
 # Saturation Level
 
-[Entity Condition](../entity_conditions.md).
+[Entity Condition](../entity_conditions.md)
 
 Checks the player's saturation level (the invisible value of how "full" you are, i.e. how long it takes before your hunger meter actually goes down).
 

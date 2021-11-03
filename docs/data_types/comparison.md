@@ -2,9 +2,10 @@
 title: Comparison (Data Type)
 date: 2021-04-04
 ---
+
 # Comparison
 
-[Data Type](../data_types.md).
+[Data Type](../data_types.md)
 
 A [String](string.md) which specifies how two numbers should be compared. Usually the first number is provided by whatever condition you are in, and the second is specified in an accompanying `compare_to` field.
 

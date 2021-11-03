@@ -2,9 +2,10 @@
 title: XP Levels (Entity Condition)
 date: 2021-04-04
 ---
+
 # XP Levels
 
-[Entity Condition](../entity_conditions.md).
+[Entity Condition](../entity_conditions.md)
 
 Checks the experience level of the player.
 

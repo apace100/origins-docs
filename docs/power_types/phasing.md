@@ -2,9 +2,10 @@
 title: Phasing (Power Type)
 date: 2021-04-08
 ---
+
 # Phasing
 
-[Power Type](../power_types.md).
+[Power Type](../power_types.md)
 
 Lets the player move through solid blocks.
 

@@ -2,9 +2,10 @@
 title: Predicate (Entity Condition)
 date: 2021-04-04
 ---
+
 # Predicate
 
-[Entity Condition](../entity_conditions.md).
+[Entity Condition](../entity_conditions.md)
 
 Checks whether the entity fulfills a certain [predicate](https://minecraft.gamepedia.com/Predicate).
 

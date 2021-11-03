@@ -2,9 +2,10 @@
 title: Mount (Bi-entity Action)
 date: 2021-10-07
 ---
+
 # Mount
 
-[Bi-Entity Action](../bientity_actions.md).
+[Bi-entity Action](../bientity_actions.md)
 
 Mounts the actor entity onto the target entity.
 

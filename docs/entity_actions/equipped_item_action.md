@@ -2,9 +2,10 @@
 title: Equipped Item Action (Entity Action)
 date: 2021-04-06
 ---
+
 # Equipped Item Action
 
-[Entity Action](../entity_actions.md).
+[Entity Action](../entity_actions.md)
 
 Executes an [Item Action](../item_actions.md) on an item stack in a specified equipment slot.
 

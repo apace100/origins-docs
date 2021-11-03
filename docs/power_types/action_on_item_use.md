@@ -2,9 +2,10 @@
 title: Action On Item Use (Power Type)
 date: 2021-04-04
 ---
+
 # Action On Item Use
 
-[Power Type](../power_types.md).
+[Power Type](../power_types.md)
 
 Executes an entity or item action when the player finishes using an item (such as eating food or drinking a potion).
 

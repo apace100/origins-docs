@@ -2,9 +2,10 @@
 title: Exhaust (Power Type)
 date: 2021-04-08
 ---
+
 # Exhaust
 
-[Power Type](../power_types.md).
+[Power Type](../power_types.md)
 
 Applies exhaustion to the player over time.
 

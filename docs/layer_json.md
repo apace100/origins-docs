@@ -2,6 +2,7 @@
 title: Layer JSON
 date: 2021-04-05
 ---
+
 # Layer JSON Format
 
 This is the format of a JSON file describing a layer. Layers are collections of origins, and a player can have a single origin on each layer. For example, the classes from the Origins: Classes add-on are on a separate layer, thus you can choose a class _in addition to_ choosing an origin.

@@ -2,6 +2,7 @@
 title: Modify Block Render (Power Type)
 date: 2021-10-05
 ---
+
 # Modify Block Render
 
 [Power Type](../power_types.md)

@@ -2,9 +2,10 @@
 title: Trigger Cooldown (Entity Action)
 date: 2021-04-06
 ---
+
 # Trigger Cooldown
 
-[Entity Action](../entity_actions.md).
+[Entity Action](../entity_actions.md)
 
 Starts the cooldown of a cooldown power, as if that power has just been used.
 

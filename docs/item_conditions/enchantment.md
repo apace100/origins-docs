@@ -2,9 +2,10 @@
 title: Enchantment (Item Condition)
 date: 2021-04-05
 ---
+
 # Enchantment
 
-[Item Condition](../item_conditions.md).
+[Item Condition](../item_conditions.md)
 
 Checks the level of a certain enchantment on the item.
 

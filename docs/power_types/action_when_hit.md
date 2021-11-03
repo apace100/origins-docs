@@ -2,6 +2,7 @@
 title: Action When Hit (Power Type)
 date: 2021-10-06
 ---
+
 # Action When Hit
 
 [Power Type](../power_types.md)

@@ -2,9 +2,10 @@
 title: Modify Food (Power Type)
 date: 2021-04-06
 ---
+
 # Modify Food
 
-[Power Type](../power_types.md).
+[Power Type](../power_types.md)
 
 Modifies the food level and saturation gain when a player eats specific food items and optionally allows executing an [Entity Action](../entity_actions.md) on the eater.
 

@@ -2,9 +2,10 @@
 title: Attacker Action When Hit (Power Type)
 date: 2021-04-03
 ---
+
 # Attacker Action When Hit
 
-[Power Type](../power_types.md).
+[Power Type](../power_types.md)
 
 Executes an entity action on the attacker when the player is hit by another entity.
 

@@ -2,9 +2,10 @@
 title: Attribute Modifier (Data Type)
 date: 2021-04-04
 ---
+
 # Attribute Modifier
 
-[Data Type](../data_types.md).
+[Data Type](../data_types.md)
 
 An [Object](object.md) used to specify how an attribute should be modified.
 

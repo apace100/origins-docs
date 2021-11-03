@@ -2,9 +2,10 @@
 title: Gain Air (Entity Action)
 date: 2021-04-05
 ---
+
 # Gain Air
 
-[Entity Action](../entity_actions.md).
+[Entity Action](../entity_actions.md)
 
 Restores breath (bubbles!) to a living entity.
 

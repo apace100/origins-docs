@@ -2,9 +2,10 @@
 title: Invisibility (Power Type)
 date: 2021-04-08
 ---
+
 # Invisibility
 
-[Power Type](../power_types.md).
+[Power Type](../power_types.md)
 
 Turns the player (and optionally their armor) invisible.
 

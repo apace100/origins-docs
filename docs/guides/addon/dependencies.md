@@ -2,6 +2,7 @@
 title: Dependencies
 date: 2021-07-17
 ---
+
 # Explaining Origins' dependencies
 
 You probably noticed there was a huge chunk of repositories you had to add in the previous step in order to include Origins in your project. That's because Origins itself depends on many other libraries:

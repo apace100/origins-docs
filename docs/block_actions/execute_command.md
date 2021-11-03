@@ -2,9 +2,10 @@
 title: Execute Command (Block Action)
 date: 2021-04-05
 ---
+
 # Execute Command
 
-[Block Action](../block_actions.md).
+[Block Action](../block_actions.md)
 
 Executes a command at the position of the block.
 

@@ -2,9 +2,10 @@
 title: Identifier (Data Type)
 date: 2021-04-04
 ---
+
 # Identifier
 
-[Data Type](../data_types.md).
+[Data Type](../data_types.md)
 
 A [String](string.md) which specifies an identifier used in Minecraft. They are used to refer to items, blocks, status effects, locations in data or resource packs, and a lot of other things.
 

@@ -2,9 +2,10 @@
 title: Block (Block Condition)
 date: 2021-04-05
 ---
+
 # Block
 
-[Block Condition](../block_conditions.md).
+[Block Condition](../block_conditions.md)
 
 Checks whether the block is a certain block (by ID).
 

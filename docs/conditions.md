@@ -2,6 +2,7 @@
 title: Conditions
 date: 2021-04-07
 ---
+
 # Conditions
 
 Conditions, along-side [Actions](actions.md) are Origins' main way of defining more complex functionality of powers in the new data-driven system. They were introduced in version 0.4.0, which is the update that made powers data-driven.

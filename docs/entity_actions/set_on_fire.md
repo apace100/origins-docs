@@ -2,9 +2,10 @@
 title: Set On Fire (Entity Action)
 date: 2021-04-05
 ---
+
 # Set On Fire
 
-[Entity Action](../entity_actions.md).
+[Entity Action](../entity_actions.md)
 
 Sets the entity to burn for a specified duration.
 

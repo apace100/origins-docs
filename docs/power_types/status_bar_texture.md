@@ -2,6 +2,7 @@
 title: Status Bar Texture (Power Type)
 date: 2021-10-02
 ---
+
 # Status Bar Texture
 
 [Power Type](../power_types.md)

@@ -2,9 +2,10 @@
 title: If-Else (Meta Action)
 date: 2021-04-07
 ---
+
 # If-Else
 
-[Meta Action](../meta_actions.md).
+[Meta Action](../meta_actions.md)
 
 Executes an action only if a condition holds, and optionally executes another action when it doesn't hold.
 

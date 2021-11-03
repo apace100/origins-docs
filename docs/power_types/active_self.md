@@ -2,9 +2,10 @@
 title: Active Self (Power Type)
 date: 2021-04-04
 ---
+
 # Active Self
 
-[Power Type](../power_types.md).
+[Power Type](../power_types.md)
 
 Executes an entity action on the player when the player uses a specified [Key](../data_types/key.md) (default: G).
 

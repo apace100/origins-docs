@@ -2,9 +2,10 @@
 title: Can See (Bi-entity Condition)
 date: 2021-10-06
 ---
+
 # Can See
 
-[Bi-Entity Condition](../bientity_conditions.md)
+[Bi-entity Condition](../bientity_conditions.md)
 
 Checks whether the straight path from the actor entity's eyes to the target entity's eyes is unobstructed.
 

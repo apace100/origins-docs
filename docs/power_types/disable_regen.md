@@ -2,9 +2,10 @@
 title: Disable Regen (Power Type)
 date: 2021-04-08
 ---
+
 # Disable Regen
 
-[Power Type](../power_types.md).
+[Power Type](../power_types.md)
 
 Disables the natural health regeneration when on full hunger.
 

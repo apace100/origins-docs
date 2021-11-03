@@ -2,9 +2,10 @@
 title: Conditioned Attribute (Power Type)
 date: 2021-04-07
 ---
+
 # Conditioned Attribute
 
-[Power Type](../power_types.md).
+[Power Type](../power_types.md)
 
 Applies one or more attribute modifiers, which may depend on a `condition` (use [Attribute](../power_types/attribute.md) if you are not using a `condition`).
 

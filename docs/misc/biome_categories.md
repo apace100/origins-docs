@@ -2,6 +2,7 @@
 title: Biome Categories (Miscellaneous)
 date: 2021-04-05
 ---
+
 # List of biome categories
 
 Category            |    Biomes    

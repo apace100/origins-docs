@@ -2,9 +2,10 @@
 title: Prevent Death (Power Type)
 date: 2021-04-07
 ---
+
 # Prevent Death
 
-[Power Type](../power_types.md).
+[Power Type](../power_types.md)
 
 Prevents dying. Any damage which would kill the player while this power is active, instead reduces them to half a heart. Also allows executing an action on the player when this happens, so you could spawn particles, heal the player back up, or do other stuff.
 

@@ -2,9 +2,10 @@
 title: Entity Glow (Power Type)
 date: 2021-04-08
 ---
+
 # Entity Glow
 
-[Power Type](../power_types.md).
+[Power Type](../power_types.md)
 
 Other entities will appear as if they glow (as with the glowing status effect), but only for the player with this power.
 

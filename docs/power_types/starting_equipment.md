@@ -2,9 +2,10 @@
 title: Starting Equipment (Power Type)
 date: 2021-04-08
 ---
+
 # Starting Equipment
 
-[Power Type](../power_types.md).
+[Power Type](../power_types.md)
 
 Provides the player with items when the power is chosen.
 

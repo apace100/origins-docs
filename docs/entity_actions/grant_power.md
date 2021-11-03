@@ -2,6 +2,7 @@
 title: Grant Power (Entity Action)
 date: 2021-10-05
 ---
+
 # Grant Power
 
 [Entity Action](../entity_actions.md)

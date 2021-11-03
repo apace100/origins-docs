@@ -2,6 +2,7 @@
 title: Item On Item (Power Type)
 date: 2021-10-02
 ---
+
 # Item On Item
 
 [Power Type](../power_types.md)

@@ -2,6 +2,7 @@
 title: Origin JSON
 date: 2021-04-05
 ---
+
 # Origin JSON Format
 
 This is the format of a JSON file describing an origin. They need to be placed inside the `origins` folder within your namespace.

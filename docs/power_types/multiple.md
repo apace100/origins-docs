@@ -2,9 +2,10 @@
 title: Multiple (Power Type)
 date: 2021-04-07
 ---
+
 # Multiple
 
-[Power Type](../power_types.md).
+[Power Type](../power_types.md)
 
 Allows defining more than one power in a single file. The "sub-powers" are hidden by default. When the "super-power" (the file this `origins:multiple` is in) is added to an origin, all sub-powers are added automatically.
 

@@ -2,6 +2,7 @@
 title: Block Conditions
 date: 2021-04-05
 ---
+
 # Block Conditions
 
 Block Conditions operate on `CachedBlockPosition`, essentially a combination of `World` and `BlockPos`, which allows retrieving all necessary information about the block.

@@ -2,9 +2,10 @@
 title: Array (Data Type)
 date: 2021-04-04
 ---
+
 # Array
 
-[Data Type](../data_types.md).
+[Data Type](../data_types.md)
 
 Arrays are lists of other existing data types. They are enclosed by square brackets and each element is separated from the next by a comma.
 

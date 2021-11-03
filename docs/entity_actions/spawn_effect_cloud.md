@@ -2,9 +2,10 @@
 title: Spawn Effect Cloud (Entity Action)
 date: 2021-04-05
 ---
+
 # Spawn Effect Cloud
 
-[Entity Action](../entity_actions.md).
+[Entity Action](../entity_actions.md)
 
 Spawns an effect cloud (as from a lingering potion) at the position of the entity.
 

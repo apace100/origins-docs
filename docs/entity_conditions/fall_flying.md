@@ -2,9 +2,10 @@
 title: Fall Flying (Entity Condition)
 date: 2021-04-04
 ---
+
 # Fall Flying
 
-[Entity Condition](../entity_conditions.md).
+[Entity Condition](../entity_conditions.md)
 
 Checks whether the player is currently fall flying (with an Elytra, an Elytra power, or similar).
 

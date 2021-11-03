@@ -2,9 +2,10 @@
 title: Self Action When Hit (Power Type)
 date: 2021-04-04
 ---
+
 # Self Action When Hit
 
-[Power Type](../power_types.md).
+[Power Type](../power_types.md)
 
 Executes an entity action on the player takes damage.
 

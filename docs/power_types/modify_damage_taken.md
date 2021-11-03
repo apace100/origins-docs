@@ -2,9 +2,10 @@
 title: Modify Damage Taken (Power Type)
 date: 2021-04-06
 ---
+
 # Modify Damage Taken
 
-[Power Type](../power_types.md).
+[Power Type](../power_types.md)
 
 Modifies how much damage the player takes.
 

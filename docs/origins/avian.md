@@ -2,9 +2,10 @@
 title: Avian (Origin)
 date: 2021-04-04
 ---
+
 # Avian
 
-[Origin](../misc/origins.md). ID: `origins:avian`
+[Origin](../misc/origins.md) ID: `origins:avian`
 
 The Avian race has lost their ability to fly a long time ago. Now these peaceful creatures can be seen gliding from one place to another.
 

@@ -2,9 +2,10 @@
 title: Health (Entity Condition)
 date: 2021-04-04
 ---
+
 # Health
 
-[Entity Condition](../entity_conditions.md).
+[Entity Condition](../entity_conditions.md)
 
 Checks the current health (absolute value) of the player.
 

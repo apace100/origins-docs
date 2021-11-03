@@ -2,9 +2,10 @@
 title: Projectile (Damage Condition)
 date: 2021-04-04
 ---
+
 # Projectile
 
-[Damage Condition](../damage_conditions.md).
+[Damage Condition](../damage_conditions.md)
 
 Checks whether the damage source was projectile damage, and optionally the type of projectile it was (if specified).
 

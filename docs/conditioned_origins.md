@@ -2,7 +2,8 @@
 title: Conditioned Origin JSON
 date: 2021-04-05
 ---
-# Upgrade JSON Format
+
+# Conditioned Origin JSON
 
 An [Object](data_types/object.md) used to specify origins in a [Layer JSON](layer_json.md) which only show up conditionally.
 

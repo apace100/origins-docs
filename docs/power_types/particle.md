@@ -2,9 +2,10 @@
 title: Particle (Power Type)
 date: 2021-04-08
 ---
+
 # Particle
 
-[Power Type](../power_types.md).
+[Power Type](../power_types.md)
 
 Spawns particles on the player's body for visual effects.
 

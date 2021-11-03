@@ -2,9 +2,10 @@
 title: Give (Entity Action)
 date: 2021-04-06
 ---
+
 # Give
 
-[Entity Action](../entity_actions.md).
+[Entity Action](../entity_actions.md)
 
 Gives the entity an item stack, by inserting it into its inventory or dropping it on the ground if there is no available space.
 

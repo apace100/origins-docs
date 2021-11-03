@@ -2,9 +2,10 @@
 title: In Rain (Entity Condition)
 date: 2021-04-04
 ---
+
 # In Rain
 
-[Entity Condition](../entity_conditions.md).
+[Entity Condition](../entity_conditions.md)
 
 Checks whether it is raining at the player's position.
 

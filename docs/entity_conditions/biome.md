@@ -2,9 +2,10 @@
 title: Biome (Entity Condition)
 date: 2021-04-04
 ---
+
 # Biome
 
-[Entity Condition](../entity_conditions.md).
+[Entity Condition](../entity_conditions.md)
 
 Checks whether the player is in a specific biome.
 

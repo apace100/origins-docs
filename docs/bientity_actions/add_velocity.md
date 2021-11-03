@@ -2,9 +2,10 @@
 title: Add Velocity (Bi-entity Action)
 date: 2021-10-06
 ---
+
 # Add Velocity
 
-[Bi-Entity Action](../bientity_actions.md).
+[Bi-entity Action](../bientity_actions.md)
 
 Adds or sets the velocity of the target entity, based on the direction from the actor entity to the target entity.
 

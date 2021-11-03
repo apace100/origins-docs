@@ -2,9 +2,10 @@
 title: Choice (Meta Action)
 date: 2021-04-07
 ---
+
 # Choice
 
-[Meta Action](../meta_actions.md).
+[Meta Action](../meta_actions.md)
 
 Executes one of the provided actions, choosing randomly based on the assigned weights. The actions with higher weight values are more likely to be chosen.
 

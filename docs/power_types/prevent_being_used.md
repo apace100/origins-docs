@@ -2,6 +2,7 @@
 title: Prevent Being Used (Power Type)
 date: 2021-10-06
 ---
+
 # Prevent Being Used
 
 [Power Type](../power_types.md)

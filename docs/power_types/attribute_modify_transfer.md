@@ -2,6 +2,7 @@
 title: Attribute Modify Transfer (Power Type)
 date: 2021-10-06
 ---
+
 # Attribute Modify Transfer
 
 [Power Type](../power_types.md)

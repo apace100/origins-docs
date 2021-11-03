@@ -2,6 +2,7 @@
 title: Emit Game Event (Entity Action)
 date: 2021-10-03
 ---
+
 # Emit Game Event
 
 [Entity Action](../entity_actions.md)

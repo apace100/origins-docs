@@ -1,7 +1,8 @@
 ---
-title: Actor Condition (Bi-Entity Condition)
+title: Actor Condition (Bi-entity Condition)
 date: 2021-10-07
 ---
+
 # Actor Condition
 
 [Meta Condition](../meta_conditions.md)

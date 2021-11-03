@@ -2,9 +2,10 @@
 title: Relative Health (Entity Condition)
 date: 2021-04-04
 ---
+
 # Relative Health
 
-[Entity Condition](../entity_conditions.md).
+[Entity Condition](../entity_conditions.md)
 
 Checks the current health (relative value) of the player. Relative means it will check the percentage of the health, i.e. `currentHealth / maxHealth`.
 

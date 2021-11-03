@@ -2,9 +2,10 @@
 title: Modify Projectile Dealt (Power Type)
 date: 2021-04-08
 ---
+
 # Modify Projectile Damage
 
-[Power Type](../power_types.md).
+[Power Type](../power_types.md)
 
 Modifies how much projectile damage the player deals.
 

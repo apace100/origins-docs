@@ -2,9 +2,10 @@
 title: Item Stack (Data Type)
 date: 2021-04-04
 ---
+
 # Item Stack
 
-[Data Type](../data_types.md).
+[Data Type](../data_types.md)
 
 An [Object](object.md) which defines a new item stack.
 

@@ -2,9 +2,10 @@
 title: Model Color (Power Type)
 date: 2021-04-08
 ---
+
 # Model Color
 
-[Power Type](../power_types.md).
+[Power Type](../power_types.md)
 
 Multiplies the color of the player's texture.
 

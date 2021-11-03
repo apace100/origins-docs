@@ -2,6 +2,7 @@
 title: Prevent Entity Use (Power Type)
 date: 2021-10-06
 ---
+
 # Prevent Entity Use
 
 [Power Type](../power_types.md)

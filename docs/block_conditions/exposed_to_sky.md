@@ -2,9 +2,10 @@
 title: Exposed To Sky (Block Condition)
 date: 2021-04-05
 ---
+
 # Exposed To Sky
 
-[Block Condition](../block_conditions.md).
+[Block Condition](../block_conditions.md)
 
 Checks whether the block is exposed to the sky.
 

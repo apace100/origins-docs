@@ -2,9 +2,10 @@
 title: Toggle Night Vision (Power Type)
 date: 2021-04-08
 ---
+
 # Toggle Night Vision
 
-[Power Type](../power_types.md).
+[Power Type](../power_types.md)
 
 Defines a [Night Vision](night_vision.md) power which can be toggled on and off with the active power key.
 

@@ -2,9 +2,10 @@
 title: Spawn Entity (Entity Action)
 date: 2021-04-05
 ---
+
 # Spawn Entity
 
-[Entity Action](../entity_actions.md).
+[Entity Action](../entity_actions.md)
 
 Spawns another entity at the position of the target entity.
 

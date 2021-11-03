@@ -2,9 +2,10 @@
 title: Crafting Recipe (Data Type)
 date: 2021-04-04
 ---
+
 # Crafting Recipe
 
-[Data Type](../data_types.md).
+[Data Type](../data_types.md)
 
 An [Object](object.md) specifying a shapeless or shaped crafting recipe. For some more information, view [the page on recipes on the MC wiki](https://minecraft.gamepedia.com/Recipe).
 

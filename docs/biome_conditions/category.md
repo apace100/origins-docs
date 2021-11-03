@@ -2,9 +2,10 @@
 title: Category (Biome Condition)
 date: 2021-04-05
 ---
+
 # Category
 
-[Biome Condition](../biome_conditions.md).
+[Biome Condition](../biome_conditions.md)
 
 Checks for the category of a biome.
 

@@ -2,9 +2,10 @@
 title: In Block Anywhere (Entity Condition)
 date: 2021-04-04
 ---
+
 # In Block Anywhere
 
-[Entity Condition](../entity_conditions.md).
+[Entity Condition](../entity_conditions.md)
 
 Checks whether the entity is overlapping with a block anywhere.
 

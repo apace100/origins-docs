@@ -2,9 +2,10 @@
 title: Inventory (Power Type)
 date: 2021-04-08
 ---
+
 # Inventory
 
-[Power Type](../power_types.md).
+[Power Type](../power_types.md)
 
 An active power which opens a 9-slot inventory which may or may not persist over deaths.
 

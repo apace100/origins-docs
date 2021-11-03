@@ -2,9 +2,10 @@
 title: Feed (Entity Action)
 date: 2021-04-05
 ---
+
 # Feed
 
-[Entity Action](../entity_actions.md).
+[Entity Action](../entity_actions.md)
 
 Feeds the player, filling up their hunger bar as if they had eaten a food item with the provided values.
 

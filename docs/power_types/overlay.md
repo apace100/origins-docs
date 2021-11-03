@@ -2,6 +2,7 @@
 title: Overlay (Power Type)
 date: 2021-10-02
 ---
+
 # Overlay
 
 [Power Type](../power_types.md)

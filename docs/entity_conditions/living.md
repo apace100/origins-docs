@@ -2,6 +2,7 @@
 title: Living (Entity Condition)
 date: 2021-10-07
 ---
+
 # Living
 
 [Entity Condition](../entity_conditions.md)

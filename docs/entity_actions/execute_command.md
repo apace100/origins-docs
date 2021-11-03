@@ -2,9 +2,10 @@
 title: Execute Command (Entity Action)
 date: 2021-04-05
 ---
+
 # Execute Command
 
-[Entity Action](../entity_actions.md).
+[Entity Action](../entity_actions.md)
 
 Executes a command with the entity as the source (i.e. @s will select the entity itself).
 

@@ -2,9 +2,10 @@
 title: Merling (Origin)
 date: 2021-04-04
 ---
+
 # Merling
 
-[Origin](../misc/origins.md). ID: `origins:merling`
+[Origin](../misc/origins.md) ID: `origins:merling`
 
 These natural inhabitants of the ocean are not used to being out of the water for too long.
 

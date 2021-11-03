@@ -2,9 +2,10 @@
 title: Invisible (Entity Condition)
 date: 2021-04-04
 ---
+
 # Invisible
 
-[Entity Condition](../entity_conditions.md).
+[Entity Condition](../entity_conditions.md)
 
 Checks whether the player is currently invisible - should capture all sources of invisibility.
 

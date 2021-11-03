@@ -2,9 +2,10 @@
 title: Elytra Flight (Power Type)
 date: 2021-04-07
 ---
+
 # Elytra Flight
 
-[Power Type](../power_types.md).
+[Power Type](../power_types.md)
 
 Allows the player to fly as if they had an Elytra equipped.
 

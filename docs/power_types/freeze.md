@@ -2,6 +2,7 @@
 title: Freeze (Power Type)
 date: 2021-10-02
 ---
+
 # Freeze
 
 [Power Type](../power_types.md)

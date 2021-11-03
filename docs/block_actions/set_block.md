@@ -2,9 +2,10 @@
 title: Set Block (Block Action)
 date: 2021-04-05
 ---
+
 # Set Block
 
-[Block Action](../block_actions.md).
+[Block Action](../block_actions.md)
 
 Overwrites the block at the targeted position with the default state of another one.
 

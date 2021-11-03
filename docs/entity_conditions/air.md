@@ -2,9 +2,10 @@
 title: Air (Entity Condition)
 date: 2021-04-04
 ---
+
 # Air
 
-[Entity Condition](../entity_conditions.md).
+[Entity Condition](../entity_conditions.md)
 
 Checks how much breath / air / bubble the entity has at the moment.
 

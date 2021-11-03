@@ -2,9 +2,10 @@
 title: Modifier Operation (Data Type)
 date: 2021-04-04
 ---
+
 # Modifier Operation
 
-[Data Type](../data_types.md).
+[Data Type](../data_types.md)
 
 A [String](string.md) used to specify an operation used by [Attribute Modifiers](attribute_modifier.md) and [Attributed Attribute Modifiers](attributed_attribute_modifier.md).
 

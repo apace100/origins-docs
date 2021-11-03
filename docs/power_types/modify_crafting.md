@@ -2,6 +2,7 @@
 title: Modify Crafting (Power Type)
 date: 2021-10-02
 ---
+
 # Modify Crafting
 
 [Power Type](../power_types.md)

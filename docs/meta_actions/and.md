@@ -2,9 +2,10 @@
 title: And (Meta Action)
 date: 2021-04-06
 ---
+
 # And
 
-[Meta Action](../meta_actions.md).
+[Meta Action](../meta_actions.md)
 
 Executes all provided actions in order.
 

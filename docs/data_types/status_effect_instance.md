@@ -2,9 +2,10 @@
 title: Status Effect Instance (Data Type)
 date: 2021-04-04
 ---
+
 # Status Effect Instance
 
-[Data Type](../data_types.md).
+[Data Type](../data_types.md)
 
 An [Object](object.md) used to define a status effect with duration, amplifier, etc.
 

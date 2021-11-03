@@ -2,9 +2,10 @@
 title: Change Resource (Entity Action)
 date: 2021-04-05
 ---
+
 # Change Resource
 
-[Entity Action](../entity_actions.md).
+[Entity Action](../entity_actions.md)
 
 Changes the value of a [Resource (Power Type)](../power_types/resource.md).
 

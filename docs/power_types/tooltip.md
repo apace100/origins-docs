@@ -2,6 +2,7 @@
 title: Tooltip (Power Type)
 date: 2021-10-05
 ---
+
 # Tooltip
 
 [Power Type](../power_types.md)

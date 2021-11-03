@@ -2,9 +2,10 @@
 title: Or (Meta Condition)
 date: 2021-04-07
 ---
+
 # Or
 
-[Meta Condition](../meta_conditions.md).
+[Meta Condition](../meta_conditions.md)
 
 This condition checks whether any (meaning 1 or more) of the provided conditions are fulfilled.
 

@@ -2,6 +2,7 @@
 title: NBT (Entity Condition)
 date: 2021-10-02
 ---
+
 # NBT
 
 [Entity Condition](../entity_conditions.md)

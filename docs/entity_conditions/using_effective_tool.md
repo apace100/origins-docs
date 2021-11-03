@@ -2,9 +2,10 @@
 title: Using Effective Tool (Entity Condition)
 date: 2021-04-04
 ---
+
 # Using Effective Tool
 
-[Entity Condition](../entity_conditions.md).
+[Entity Condition](../entity_conditions.md)
 
 Checks whether the player is currently mining and using an effective tool for the block (e.g. pickaxe for stone).
 

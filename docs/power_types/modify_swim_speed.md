@@ -2,9 +2,10 @@
 title: Modify Swim Speed (Power Type)
 date: 2021-04-06
 ---
+
 # Modify Swim Speed
 
-[Power Type](../power_types.md).
+[Power Type](../power_types.md)
 
 Modifies how fast the player swims.
 

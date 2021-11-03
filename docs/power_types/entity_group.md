@@ -2,9 +2,10 @@
 title: Entity Group (Power Type)
 date: 2021-07-13
 ---
+
 # Entity Group
 
-[Power Type](../power_types.md).
+[Power Type](../power_types.md)
 
 Defines the entity group of the player, mostly used for determining enchantment bonus damage towards the player. A player should only have one of these powers.
 

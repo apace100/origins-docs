@@ -2,9 +2,10 @@
 title: Advancement (Entity Condition)
 date: 2021-04-06
 ---
+
 # Advancement
 
-[Entity Condition](../entity_conditions.md).
+[Entity Condition](../entity_conditions.md)
 
 Checks whether the player has completed a specified advancement.
 

@@ -2,9 +2,10 @@
 title: Stacking Status Effect (Power Type)
 date: 2021-04-08
 ---
+
 # Stacking Status Effect
 
-[Power Type](../power_types.md).
+[Power Type](../power_types.md)
 
 When reaching more than 0 stacks, the player will receive the provided status effects.
 

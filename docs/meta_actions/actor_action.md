@@ -2,9 +2,10 @@
 title: Actor Action (Meta Action)
 date: 2021-10-07
 ---
+
 # Actor Action
 
-[Meta Action](../meta_actions.md).
+[Meta Action](../meta_actions.md)
 
 Executes an entity action on the actor entity.
 

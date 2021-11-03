@@ -2,9 +2,10 @@
 title: Heal (Entity Action)
 date: 2021-04-05
 ---
+
 # Heal
 
-[Entity Action](../entity_actions.md).
+[Entity Action](../entity_actions.md)
 
 Heals an entity.
 

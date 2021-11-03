@@ -2,9 +2,10 @@
 title: Armor Value (Item Condition)
 date: 2021-04-05
 ---
+
 # Armor Value
 
-[Item Condition](../item_conditions.md).
+[Item Condition](../item_conditions.md)
 
 Checks whether the item has a certain armor value. Non-armor items are considered as having an armor value of 0.
 

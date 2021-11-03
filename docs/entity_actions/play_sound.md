@@ -2,9 +2,10 @@
 title: Play Sound (Entity Action)
 date: 2021-04-05
 ---
+
 # Play Sound
 
-[Entity Action](../entity_actions.md).
+[Entity Action](../entity_actions.md)
 
 Plays a sound at the entity's position. Currently only works on player entities.
 

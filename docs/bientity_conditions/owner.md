@@ -2,6 +2,7 @@
 title: Owner (Bi-entity Condition)
 date: 2021-10-08
 ---
+
 # Owner
 
 [Bi-entity Condition](../bientity_conditions.md)

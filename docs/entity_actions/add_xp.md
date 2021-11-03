@@ -2,9 +2,10 @@
 title: Add XP (Entity Action)
 date: 2021-04-05
 ---
+
 # Add XP
 
-[Entity Action](../entity_actions.md).
+[Entity Action](../entity_actions.md)
 
 Adds experience points and levels to the player, or subtracts levels.
 

@@ -2,9 +2,10 @@
 title: Consume (Item Action)
 date: 2021-04-04
 ---
+
 # Consume
 
-[Item Action](../item_actions.md).
+[Item Action](../item_actions.md)
 
 Removes a provided amount of items from the item stack.
 

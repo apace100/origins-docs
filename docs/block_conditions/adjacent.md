@@ -2,9 +2,10 @@
 title: Adjacent (Block Condition)
 date: 2021-04-05
 ---
+
 # Adjacent
 
-[Block Condition](../block_conditions.md).
+[Block Condition](../block_conditions.md)
 
 Checks whether a certain amount of blocks adjacent to the block in question fulfill a certain block condition.
 

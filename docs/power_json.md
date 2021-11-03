@@ -2,6 +2,7 @@
 title: Power JSON
 date: 2021-04-07
 ---
+
 # Power JSON Format
 
 This is the format of a JSON file describing a power. Powers are used to give functionality to origins.

@@ -2,6 +2,7 @@
 title: Powers (Miscellaneous)
 date: 2021-05-26
 ---
+
 # List of Powers
 
 * [**Acrobatics:**](https://github.com/apace100/origins-fabric/blob/1.17/src/main/resources/data/origins/powers/fall_immunity.json) `origins:fall_immunity`

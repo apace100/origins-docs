@@ -2,9 +2,10 @@
 title: Exhaust (Entity Action)
 date: 2021-04-05
 ---
+
 # Exhaust
 
-[Entity Action](../entity_actions.md).
+[Entity Action](../entity_actions.md)
 
 Applies exhaustion to the player, reducing saturation and hunger. Only works on players.
 

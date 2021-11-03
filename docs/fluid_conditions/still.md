@@ -2,9 +2,10 @@
 title: Still (Fluid Condition)
 date: 2021-04-04
 ---
+
 # Still
 
-[Fluid Condition](../fluid_conditions.md).
+[Fluid Condition](../fluid_conditions.md)
 
 Checks whether this state describes a still (i.e. not flowing, i.e. source) fluid.
 

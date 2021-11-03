@@ -2,9 +2,10 @@
 title: Not / Invert (Meta Condition)
 date: 2021-04-07
 ---
+
 # Not / Invert
 
-[Meta Condition](../meta_conditions.md).
+[Meta Condition](../meta_conditions.md)
 
 **There is no** meta condition to invert the results of another condition. However, **every** condition supports the following field, which can be used to achieve the same:
 

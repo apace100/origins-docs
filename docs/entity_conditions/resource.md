@@ -2,9 +2,10 @@
 title: Resource (Entity Condition)
 date: 2021-04-04
 ---
+
 # Resource
 
-[Entity Condition](../entity_conditions.md).
+[Entity Condition](../entity_conditions.md)
 
 Checks the value of a [Resource (Power Type)](../power_types/resource.md) or a power with a cooldown (using the remaining ticks as the value).
 

@@ -2,9 +2,10 @@
 title: Prevent Block Selection (Power Type)
 date: 2021-04-07
 ---
+
 # Prevent Block Selection
 
-[Power Type](../power_types.md).
+[Power Type](../power_types.md)
 
 Prevents the selection (i.e. targetting) of blocks for a player. This means they are not able to mine them, and attacks, interactions, etc. will pass through the block to whatever's behind it.
 

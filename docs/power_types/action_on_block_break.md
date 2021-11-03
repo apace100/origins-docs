@@ -2,9 +2,10 @@
 title: Action On Block Break (Power Type)
 date: 2021-04-04
 ---
+
 # Action On Block Break
 
-[Power Type](../power_types.md).
+[Power Type](../power_types.md)
 
 Executes an entity action or a block action when the player breaks a block.
 

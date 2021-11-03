@@ -2,9 +2,10 @@
 title: Exposed to Sun (Entity Condition)
 date: 2021-04-04
 ---
+
 # Exposed to Sun
 
-[Entity Condition](../entity_conditions.md).
+[Entity Condition](../entity_conditions.md)
 
 Checks whether the player is currently exposed to the sun. Essentially a [Brightness](../brightness) check for `brightness > 0.5` combined with and an [Exposed to Sky](../exposed_to_sky) check.
 

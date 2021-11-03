@@ -2,6 +2,7 @@
 title: Fireproof (Item Condition)
 date: 2021-10-03
 ---
+
 # Fireproof
 
 [Item Condition](../item_conditions.md)

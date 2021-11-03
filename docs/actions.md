@@ -2,6 +2,7 @@
 title: Actions
 date: 2021-04-06
 ---
+
 # Actions
 
 Actions are, along-side [Conditions](conditions.md), Origins' way of specifying complex behavior from withing data packs. They were introduced in version 0.4.1.

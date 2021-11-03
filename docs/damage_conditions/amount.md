@@ -2,9 +2,10 @@
 title: Amount (Damage Condition)
 date: 2021-04-04
 ---
+
 # Amount
 
-[Damage Condition](../damage_conditions.md).
+[Damage Condition](../damage_conditions.md)
 
 Checks whether the damage is of a specified amount.
 

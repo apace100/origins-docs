@@ -2,9 +2,10 @@
 title: Modify Exhaustion (Power Type)
 date: 2021-04-06
 ---
+
 # Modify Exhaustion
 
-[Power Type](../power_types.md).
+[Power Type](../power_types.md)
 
 Modifies the amount of exhaustion the player receives each time they receive exhaustion.
 

@@ -2,6 +2,7 @@
 title: Badge (Data Type)
 date: 2021-10-02
 ---
+
 # Badge
 
 [Data Type](../data_types.md)

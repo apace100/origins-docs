@@ -2,9 +2,10 @@
 title: Effect Immunity (Power Type)
 date: 2021-04-07
 ---
+
 # Effect Immunity
 
-[Power Type](../power_types.md).
+[Power Type](../power_types.md)
 
 Prevents status effects from being applied to the player.
 

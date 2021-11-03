@@ -2,9 +2,10 @@
 title: If-Else List (Meta Action)
 date: 2021-04-07
 ---
+
 # If-Else List
 
-[Meta Action](../meta_actions.md).
+[Meta Action](../meta_actions.md)
 
 **Currently only available as an [Entity Action](../entity_actions.md)**
 

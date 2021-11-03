@@ -2,9 +2,10 @@
 title: Name (Damage Condition)
 date: 2021-04-04
 ---
+
 # Name
 
-[Damage Condition](../damage_conditions.md).
+[Damage Condition](../damage_conditions.md)
 
 Checks whether the damage source has a specific name (essentially checking the type of damage).
 

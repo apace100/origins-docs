@@ -2,6 +2,7 @@
 title: Riding Root (Bi-entity Condition)
 date: 2021-10-08
 ---
+
 # Riding Root
 
 [Bi-entity Condition](../bientity_conditions.md)

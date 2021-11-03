@@ -2,6 +2,7 @@
 title: Prevent Game Event (Power Type)
 date: 2021-10-03
 ---
+
 # Prevent Game Event
 
 [Power Type](../power_types.md)

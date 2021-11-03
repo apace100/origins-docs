@@ -2,9 +2,10 @@
 title: Block Action At (Entity Action)
 date: 2021-04-05
 ---
+
 # Block Action At
 
-[Entity Action](../entity_actions.md).
+[Entity Action](../entity_actions.md)
 
 Executes a [Block Action](../block_actions.md) at the position of the entity.
 

@@ -2,9 +2,10 @@
 title: Shaking (Power Type)
 date: 2021-04-10
 ---
+
 # Shaking
 
-[Power Type](../power_types.md).
+[Power Type](../power_types.md)
 
 Makes the player shake, similar to a strider out of lava or a zombie undergoing conversion.
 

@@ -2,9 +2,10 @@
 title: Climbing (Power Type)
 date: 2021-04-08
 ---
+
 # Climbing
 
-[Power Type](../power_types.md).
+[Power Type](../power_types.md)
 
 Allows players to climb.
 

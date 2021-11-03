@@ -2,9 +2,10 @@
 title: Command (Entity Condition)
 date: 2021-04-04
 ---
+
 # Command
 
-[Entity Condition](../entity_conditions.md).
+[Entity Condition](../entity_conditions.md)
 
 Compares the result of a command to a specified value.
 

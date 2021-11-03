@@ -2,6 +2,7 @@
 title: Orb of Origin (Miscellaneous)
 date: 2021-10-03
 ---
+
 # Orb of Origin
 
 By default, the Orb of Origins item doesn't have a crafting recipe and lets you pick an origin for every origin layer that's available. You can change either of these things by creating a recipe (JSON file) for the item, and giving the item a custom NBT respectively.

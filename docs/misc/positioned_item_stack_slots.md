@@ -2,6 +2,7 @@
 title: Positioned Item Stack Slots (Miscellaneous)
 date: 2021-06-19
 ---
+
 # Positioned Item Stack Slots
 
 An [Integer](../data_types/integer.md) that specifies the position (or slot) of a positioned item stack.
