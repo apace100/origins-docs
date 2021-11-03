@@ -1,10 +1,11 @@
 ---
-title: Climbing (Condition)
+title: Climbing (Entity Condition)
 date: 2021-04-06
 ---
+
 # Climbing
 
-[Entity Condition](../entity_conditions.md).
+[Entity Condition](../entity_conditions.md)
 
 Checks whether the entity is currently climbing.
 

@@ -1,7 +1,8 @@
 ---
-title: Vanilla Damage Sources
+title: Vanilla Damage Sources (Miscellaneous)
 date: 2021-06-23
 ---
+
 # List of vanilla damage source names
 
   Name                |  Description
@@ -43,3 +44,10 @@ date: 2021-06-23
   `trident`           |  being hit by a trident.
   `wither`            |  wither status effect.
   `witherSkull`       |  being hit by a wither skull projectile.
+
+# List of Origins damage source names
+  Name                |  Description
+----------------------|-------------------------------
+`no_water_for_gills`  |  Losing oxygen with the `origins:water_breathing` power.
+`hurt_by_water`       |  Damage from hydrophobia.
+`genericDamageOverTime`|  Generic placeholder for damage_over_time powers without a specified damage source.

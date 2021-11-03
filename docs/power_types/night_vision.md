@@ -2,9 +2,10 @@
 title: Night Vision (Power Type)
 date: 2021-04-08
 ---
+
 # Night Vision
 
-[Power Type](../power_types.md).
+[Power Type](../power_types.md)
 
 Grants night vision to the player without a status effect.
 

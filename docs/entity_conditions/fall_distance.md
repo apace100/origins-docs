@@ -1,10 +1,11 @@
 ---
-title: Fall Distance
+title: Fall Distance (Entity Condition)
 date: 2021-04-04
 ---
+
 # Fall Distance
 
-[Entity Condition](../entity_conditions.md).
+[Entity Condition](../entity_conditions.md)
 
 Used to check how much distance (in blocks) the player has fallen. Note that this is 0 if the player has slow falling.
 

@@ -1,10 +1,11 @@
 ---
-title: Ingredient (Condition)
+title: Ingredient (Item Condition)
 date: 2021-04-05
 ---
+
 # Ingredient
 
-[Item Condition](../item_conditions.md).
+[Item Condition](../item_conditions.md)
 
 Checks whether the item matches a specified [Item Condition](../item_conditions.md). Essentially, checking either for the item ID or whether the item is in a specified tag.
 

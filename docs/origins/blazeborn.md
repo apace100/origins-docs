@@ -2,9 +2,10 @@
 title: Blazeborn (Origin)
 date: 2021-04-04
 ---
+
 # Blazeborn
 
-[Origin](../misc/origins.md). ID: `origins:blazeborn`
+[Origin](../misc/origins.md) ID: `origins:blazeborn`
 
 Late descendants of the Blaze, the Blazeborn are naturally immune to the perils of the Nether.
 

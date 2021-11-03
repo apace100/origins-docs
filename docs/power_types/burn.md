@@ -2,9 +2,10 @@
 title: Burn (Power Type)
 date: 2021-04-07
 ---
+
 # Burn
 
-[Power Type](../power_types.md).
+[Power Type](../power_types.md)
 
 Sets the player on fire in regular intervals.
 

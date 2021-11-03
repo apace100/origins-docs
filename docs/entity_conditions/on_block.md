@@ -1,10 +1,11 @@
 ---
-title: On Block
+title: On Block (Entity Condition)
 date: 2021-04-04
 ---
+
 # On Block
 
-[Entity Condition](../entity_conditions.md).
+[Entity Condition](../entity_conditions.md)
 
 Checks whether the player is standing on the ground, and optionally has a block that matches a specified block condition under them.
 
@@ -23,9 +24,9 @@ Field  | Type | Default | Description
   "type": "origins:on_block",
   "block_condition": {
     "type": "origins:block",
-    "block": "minecraft:grass"
+    "block": "minecraft:grass_block"
   }
 }
 ```
 
-This condition applied to a power will make sure it's only active while the player is on grass.
+This condition applied to a power will make sure it's only active while the player is on a Grass Block.

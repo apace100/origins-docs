@@ -1,12 +1,13 @@
 ---
-title: Add Velocity (Action)
+title: Add Velocity (Entity Action)
 date: 2021-04-05
 ---
+
 # Add Velocity
 
-[Entity Action](../entity_actions.md).
+[Entity Action](../entity_actions.md)
 
-Adds velocity towards a specific direction.
+Adds or sets velocity towards a specific direction.
 
 Type ID: `origins:add_velocity`
 

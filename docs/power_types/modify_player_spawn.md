@@ -2,9 +2,10 @@
 title: Modify Player Spawn (Power Type)
 date: 2021-04-06
 ---
+
 # Modify Player Spawn
 
-[Power Type](../power_types.md).
+[Power Type](../power_types.md)
 
 Moves the player's spawn to another dimension and/or to a structure.
 

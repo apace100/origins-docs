@@ -5,6 +5,9 @@ nav:
         - Defining an Origin: guides/data/define_origin.md
         - Defining a Power: guides/data/define_power.md
         - Origin conditions in layers: guides/data/origin_conditions_in_layers.md
+    - Add-on Guides:
+        - Workspace Setup: guides/addon/workspace_setup.md
+        - Dependencies Explained: guides/addon/dependencies.md
     - Types:
         - Power Types: power_types.md
         - Data Types: data_types.md
@@ -12,6 +15,7 @@ nav:
         - Origin JSON: origin_json.md
         - Layer JSON: layer_json.md
     - Conditions:
+        - Bi-entity Conditions: bientity_conditions.md
         - Biome Conditions: biome_conditions.md
         - Block Conditions: block_conditions.md
         - Damage Conditions: damage_conditions.md
@@ -20,6 +24,7 @@ nav:
         - Item Conditions: item_conditions.md
         - Meta Conditions: meta_conditions.md
     - Actions:
+        - Bi-entity Actions: bientity_actions.md
         - Block Actions: block_actions.md
         - Entity Actions: entity_actions.md
         - Item Actions: item_actions.md
@@ -27,10 +32,14 @@ nav:
     - Miscellaneous:
         - Commands: misc/commands.md
         - Keybindings: misc/keybindings.md
+        - Orb of Origin: misc/orb_of_origin.md
         - Origins: misc/origins.md
         - Positioned Item Stack Slots: misc/positioned_item_stack_slots.md
         - Powers: misc/origins_powers.md
         - Resource Bars: misc/resource_bars.md
+        - Space: misc/space.md
         - Vanilla Damage Sources: misc/vanilla_damage_sources.md
 theme: readthedocs
 separator: '_'
+markdown_extensions:
+    - admonition

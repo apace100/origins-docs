@@ -2,9 +2,10 @@
 title: Lava Vision (Power Type)
 date: 2021-04-08
 ---
+
 # Lava Vision
 
-[Power Type](../power_types.md).
+[Power Type](../power_types.md)
 
 Changes how far the player can see when submerged in lava.
 

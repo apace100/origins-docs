@@ -1,10 +1,11 @@
 ---
-title: Equipped Item
+title: Equipped Item (Entity Condition)
 date: 2021-04-04
 ---
+
 # Equipped Item
 
-[Entity Condition](../entity_conditions.md).
+[Entity Condition](../entity_conditions.md)
 
 Checks whether the player has an item equipped in a specific slot which matches a provided item condition.
 

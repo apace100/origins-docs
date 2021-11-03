@@ -2,9 +2,10 @@
 title: Attributed Attribute Modifier (Data Type)
 date: 2021-04-04
 ---
+
 # Attributed Attribute Modifier
 
-[Data Type](../data_types.md).
+[Data Type](../data_types.md)
 
 An [Object](object.md) used to specify how a specific attribute should be modified. Basically an [Attribute Modifier](attribute_modifier.md) with an additional `attribute` field.
 
@@ -20,12 +21,10 @@ Field  | Type | Default | Description
 ### Example:
 
 ```json
-{
-	"modifier": {
-		"attribute": "minecraft:generic.attack_speed",
-		"operation": "multiply_total",
-		"value": -0.25
-	}
+"modifier": {
+	"attribute": "minecraft:generic.attack_speed",
+	"operation": "multiply_total",
+	"value": -0.25
 }
 ```
 

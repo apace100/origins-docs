@@ -1,10 +1,11 @@
 ---
-title: Block In Radius
+title: Block In Radius (Entity Condition)
 date: 2021-04-04
 ---
+
 # Block In Radius
 
-[Entity Condition](../entity_conditions.md).
+[Entity Condition](../entity_conditions.md)
 
 Checks whether the player has a specified number of blocks that match a specified block condition in a specified radius. The radius originates at the player's lower body block position.
 

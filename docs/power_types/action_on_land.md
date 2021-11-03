@@ -2,9 +2,10 @@
 title: Action On Land (Power Type)
 date: 2021-04-04
 ---
+
 # Action On Land
 
-[Power Type](../power_types.md).
+[Power Type](../power_types.md)
 
 Executes an entity action when the player lands on the ground after being airborne.
 

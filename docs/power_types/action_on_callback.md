@@ -2,9 +2,10 @@
 title: Action On Callback (Power Type)
 date: 2021-05-25
 ---
+
 # Action On Callback
 
-[Power Type](../power_types.md).
+[Power Type](../power_types.md)
 
 Can execute an entity action on the player at certain times: when the power is chosen (gained through becoming the origin), when the player respawns, when the player loses the power (i.e. becomes another origin).
 

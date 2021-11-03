@@ -1,10 +1,11 @@
 ---
-title: Damage (Action)
+title: Damage (Entity Action)
 date: 2021-04-05
 ---
+
 # Damage
 
-[Entity Action](../entity_actions.md).
+[Entity Action](../entity_actions.md)
 
 Applies damage to an entity.
 

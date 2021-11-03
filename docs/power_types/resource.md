@@ -2,9 +2,10 @@
 title: Resource (Power Type)
 date: 2021-04-08
 ---
+
 # Resource
 
-[Power Type](../power_types.md).
+[Power Type](../power_types.md)
 
 Defines a resource/cooldown/timer for the player. Basically holds a persistent integer value which can be modified by the [Change Resource](../entity_actions/change_resource.md) action and checked with the [Resource (Condition)](../entity_conditions/resource.md) player condition.
 

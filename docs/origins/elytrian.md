@@ -2,9 +2,10 @@
 title: Elytrian (Origin)
 date: 2021-04-04
 ---
+
 # Elytrian
 
-[Origin](../misc/origins.md). ID: `origins:elytrian`
+[Origin](../misc/origins.md) ID: `origins:elytrian`
 
 Often flying around in the winds, Elytrians are uncomfortable when they don't have enough space above their head.
 

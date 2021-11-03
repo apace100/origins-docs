@@ -2,9 +2,10 @@
 title: Modify Break Speed (Power Type)
 date: 2021-04-04
 ---
+
 # Modify Break Speed
 
-[Power Type](../power_types.md).
+[Power Type](../power_types.md)
 
 Modifies how fast the player can break blocks.
 

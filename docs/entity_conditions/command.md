@@ -1,14 +1,19 @@
 ---
-title: Command
+title: Command (Entity Condition)
 date: 2021-04-04
 ---
+
 # Command
 
-[Entity Condition](../entity_conditions.md).
+[Entity Condition](../entity_conditions.md)
 
 Compares the result of a command to a specified value.
 
 Type ID: `origins:command`
+
+!!! caution
+
+    This condition is only effective server-side. That means client-side power types such as [`origins:climbing`](../power_types/climbing.md), [`origins:entity_glow`](../power_types/entity_glow.md), [`origins:shader`](../power_types/shader.md), etc. won't work with this.
 
 ### Fields:
 
@@ -17,7 +22,6 @@ Field  | Type | Default | Description
 `command` | [String](../data_types/string.md) | |  Command to run.
 `comparison` | [Comparison](../data_types/comparison.md) | |  How to compare the command's result to the specified value.
 `compare_to` | [Integer](../data_types/integer.md) | | Which value to compare the command's result to.
-`permission_level` | [Integer](../data_types/integer.md) | 4 | The permission level to use for the command. 0 is a "survival player", anything higher emulates some form of operator. See [Minecraft Wiki (op-permission-level)](https://minecraft.fandom.com/wiki/Server.properties#op-permission-level) for details.
 
 ### Example:
 ```json

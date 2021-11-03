@@ -1,10 +1,11 @@
 ---
-title: Replacable (Condition)
+title: Replacable (Block Condition)
 date: 2021-04-05
 ---
+
 # Replacable
 
-[Block Condition](../block_conditions.md).
+[Block Condition](../block_conditions.md)
 
 Checks whether the block is a replacable material (e.g. tall grass, water, ...).
 
@@ -17,6 +18,6 @@ _None._
 ### Example:
 ```json
 "block_condition": {
-    "type": "origins:replaceable"
+    "type": "origins:replacable"
 }
 ```

@@ -1,10 +1,11 @@
 ---
-title: Extinguish (Action)
+title: Extinguish (Entity Action)
 date: 2021-04-05
 ---
+
 # Extinguish
 
-[Entity Action](../entity_actions.md).
+[Entity Action](../entity_actions.md)
 
 Removes burning from an entity.
 

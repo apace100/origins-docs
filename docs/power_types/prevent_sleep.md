@@ -2,9 +2,10 @@
 title: Prevent Sleep (Power Type)
 date: 2021-04-07
 ---
+
 # Prevent Sleep
 
-[Power Type](../power_types.md).
+[Power Type](../power_types.md)
 
 Prevents sleeping and sends the player a message about why they can't sleep.
 

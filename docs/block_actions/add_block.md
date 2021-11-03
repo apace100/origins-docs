@@ -1,10 +1,11 @@
 ---
-title: Add Block
+title: Add Block (Block Action)
 date: 2021-04-05
 ---
+
 # Add Block
 
-[Block Action](../block_actions.md).
+[Block Action](../block_actions.md)
 
 Adds a block at the specified action position. Adding means setting the block at the position, offset by the direction of the action.
 

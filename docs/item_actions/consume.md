@@ -1,10 +1,11 @@
 ---
-title: Consume (Action)
+title: Consume (Item Action)
 date: 2021-04-04
 ---
+
 # Consume
 
-[Item Action](../item_actions.md).
+[Item Action](../item_actions.md)
 
 Removes a provided amount of items from the item stack.
 
@@ -15,3 +16,13 @@ Type ID: `origins:consume`
 Field  | Type | Default | Description
 -------|------|---------|-------------
 `amount` | [Integer](../data_types/integer.md) | `1` | The amount of items to remove.
+
+
+### Example
+
+```json
+"item_action": {
+    "type": "origins:consume",
+    "amount": 1
+}
+```

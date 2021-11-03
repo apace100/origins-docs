@@ -1,10 +1,11 @@
 ---
-title: Fluid (Condition)
+title: Fluid (Block Condition)
 date: 2021-04-05
 ---
+
 # Fluid
 
-[Block Condition](../block_conditions.md).
+[Block Condition](../block_conditions.md)
 
 Checks the fluid state of the current position with a [Fluid Condition](../fluid_conditions.md).
 

@@ -2,6 +2,7 @@
 title: Defining a Power
 date: 2021-05-02
 ---
+
 # Defining a Power in JSON
 
 Powers are used by Origins to define functionality. Each Origin is a set of these powers. Since Origins v0.4.0, powers are data-driven, allowing you to change and add powers via datapacks.

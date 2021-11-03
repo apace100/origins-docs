@@ -2,9 +2,10 @@
 title: Launch (Power Type)
 date: 2021-04-08
 ---
+
 # Launch
 
-[Power Type](../power_types.md).
+[Power Type](../power_types.md)
 
 An active power which launches the player into the air.
 

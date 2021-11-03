@@ -2,9 +2,10 @@
 title: Phasing (Power Type)
 date: 2021-04-08
 ---
+
 # Phasing
 
-[Power Type](../power_types.md).
+[Power Type](../power_types.md)
 
 Lets the player move through solid blocks.
 
@@ -18,7 +19,7 @@ Field  | Type | Default | Description
 `block_condition` | [Block Condition](../block_conditions.md) | _optional_ | If set, the player will only be able to move through these blocks (or not be able to move through these, depending on what `blacklist` is set to).
 `render_type` | [String](../data_types/string.md) | "blindness" | Either "remove_blocks" or "blindness" - defines how the phasing will look when inside a block.
 `view_distance` | [Float](../data_types/float.md) | 10.0 | How far the player can look through walls while phasing with the "blindness" `render_type`.
-`phase_down_condition` | [Entity Condition](../block_conditions.md) | _optional_ | When specified, this condition needs to be fulfilled in order for blocks below the player to become phasable. Defaults to a condition which checks for sneaking.
+`phase_down_condition` | [Entity Condition](../entity_conditions.md) | _optional_ | When specified, this condition needs to be fulfilled in order for blocks below the player to become phasable. Defaults to a condition which checks for sneaking.
 
 ### Example
 ```json

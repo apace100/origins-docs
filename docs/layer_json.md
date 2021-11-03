@@ -2,6 +2,7 @@
 title: Layer JSON
 date: 2021-04-05
 ---
+
 # Layer JSON Format
 
 This is the format of a JSON file describing a layer. Layers are collections of origins, and a player can have a single origin on each layer. For example, the classes from the Origins: Classes add-on are on a separate layer, thus you can choose a class _in addition to_ choosing an origin.
@@ -24,5 +25,30 @@ Field  | Type | Default | Description
 `allow_random` | [Boolean](data_types/boolean.md) | false | If set to true, this layer will show an option for choosing a random origin.
 `allow_random_unchoosable` | [Boolean](data_types/boolean.md) | false | Whether origins which are unchoosable (`unchoosable` field set to true in the origin file) should be included in the random option. Can for example be used to force players to choose a random origin, by setting this to true and making all origins in the layer unchoosable.
 `exclude_random` | [Array](data_types/array.md) of [Identifiers](data_types/identifier.md) | _optional_ | If specified, the origins included in this list will not be picked by the random choice.
-`default_origin` | [Identifiers](data_types/identifier.md) | _optional_ | If set, the origin with this ID will automatically be chosen for a new player. If an orb of origin is used later on, the player will be able to choose another origin then and the `default_origin` will not apply. Could for example be used to make all players start as human, and then use the orb as a progression item to select an origin.
+`default_origin` | [Identifier](data_types/identifier.md) | _optional_ | If set, the origin with this ID will automatically be chosen for a new player. If an orb of origin is used later on, the player will be able to choose another origin then and the `default_origin` will not apply. Could for example be used to make all players start as human, and then use the orb as a progression item to select an origin.
 `auto_choose` | [Boolean](data_types/boolean.md) | false | If set to true, this layer will automatically pick an origin for the player if only one option is available. This also applies when an orb of origin is used.
+`hidden` | [Boolean](data_types/boolean.md) | false | If set to true, this layer will be hidden from the "View Origin" screen.
+
+### Example
+
+```json
+{
+    "order": 1,
+    "origins": [
+        "origins:arachnid",
+        "origins:avian",
+        "origins:blazeborn",
+        "origins:elytrian",
+        "origins:enderian",
+        "origins:feline",
+        "origins:human",
+        "origins:merling",
+        "origins:phantom",
+        "origins:shulk"
+    ],
+    "name": "Second Origin",
+    "missing_name": "None",
+    "missing_description": "You currently don't have a secondary origin selected."
+}
+```
+This example origin layer (`data/example/origin_layers/second_origin.json`) makes it possible to select a secondary origin after choosing your origin.

@@ -1,10 +1,11 @@
 ---
-title: XP Points
+title: XP Points (Entity Condition)
 date: 2021-04-04
 ---
+
 # XP Points
 
-[Entity Condition](../entity_conditions.md).
+[Entity Condition](../entity_conditions.md)
 
 Checks the experience points of the player.
 

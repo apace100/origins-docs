@@ -1,10 +1,11 @@
 ---
-title: Adjacent (Condition)
+title: Adjacent (Block Condition)
 date: 2021-04-05
 ---
+
 # Adjacent
 
-[Block Condition](../block_conditions.md).
+[Block Condition](../block_conditions.md)
 
 Checks whether a certain amount of blocks adjacent to the block in question fulfill a certain block condition.
 
@@ -30,4 +31,4 @@ Field  | Type | Default | Description
     "compare_to": 4
 }
 ```
-This example checks if there are two or more Iron Ore blocks next to the block in question.
+This example checks if there are four or more Iron Ore blocks next to the block in question.

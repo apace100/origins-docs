@@ -1,10 +1,11 @@
 ---
-title: Daytime
+title: Daytime (Entity Condition)
 date: 2021-04-04
 ---
+
 # Daytime
 
-[Entity Condition](../entity_conditions.md).
+[Entity Condition](../entity_conditions.md)
 
 Checks whether it is daytime in the world.
 

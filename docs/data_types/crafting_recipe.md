@@ -2,9 +2,10 @@
 title: Crafting Recipe (Data Type)
 date: 2021-04-04
 ---
+
 # Crafting Recipe
 
-[Data Type](../data_types.md).
+[Data Type](../data_types.md)
 
 An [Object](object.md) specifying a shapeless or shaped crafting recipe. For some more information, view [the page on recipes on the MC wiki](https://minecraft.gamepedia.com/Recipe).
 
@@ -27,28 +28,26 @@ Field  | Type | Default | Description
 ### Example (shapeless):
 
 ```json
-{
-  	"recipe": {
-	  	"type": "minecraft:crafting_shapeless",
-	  	"id": "origins:fire_charge_without_blaze_powder",
-	  	"ingredients": [
-	    	{
-	      		"item": "minecraft:gunpowder"
-	    	},
-	    	[
-		      	{
-		        	"item": "minecraft:coal"
-		      	},
-		      	{
-		        	"item": "minecraft:charcoal"
-		      	}
-	    	]
-	  	],
-	  	"result": {
-	    	"item": "minecraft:fire_charge",
-	    	"count": 3
-	  	}
-  	}
+"recipe": {
+	"type": "minecraft:crafting_shapeless",
+	"id": "origins:fire_charge_without_blaze_powder",
+	"ingredients": [
+	    {
+	      	"item": "minecraft:gunpowder"
+	    },
+	    [
+		    {
+		        "item": "minecraft:coal"
+		    },
+		    {
+		        "item": "minecraft:charcoal"
+		    }
+	    ]
+	],
+	"result": {
+	    "item": "minecraft:fire_charge",
+	    "count": 3
+	}
 }
 ```
 
@@ -65,24 +64,22 @@ Field  | Type | Default | Description
 ### Example (shaped):
 
 ```json
-{
-  	"recipe": {
-	  	"type": "minecraft:crafting_shaped",
-	  	"id": "origins:sideways_birch_boat",
-	  	"pattern": [
-	    	"##",
-	    	" #",
-	    	"##"
-	  	],
-	  	"key": {
-	    	"#": {
-	      		"item": "minecraft:birch_planks"
-	    	}
-  		},
-  		"result": {
-    		"item": "minecraft:birch_boat"
-  		}
-	}
+"recipe": {
+	"type": "minecraft:crafting_shaped",
+	"id": "origins:sideways_birch_boat",
+	"pattern": [
+	    "##",
+	    " #",
+	    "##"
+	],
+	"key": {
+	    "#": {
+	    	"item": "minecraft:birch_planks"
+	    }
+  	},
+  	"result": {
+    	"item": "minecraft:birch_boat"
+  	}
 }
 ```
 

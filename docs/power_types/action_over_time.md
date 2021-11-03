@@ -2,9 +2,10 @@
 title: Action Over Time (Power Type)
 date: 2021-04-10
 ---
+
 # Action Over Time
 
-[Power Type](../power_types.md).
+[Power Type](../power_types.md)
 
 Executes an entity action on the player in a regular interval.
 

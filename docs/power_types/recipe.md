@@ -2,9 +2,10 @@
 title: Recipe (Power Type)
 date: 2021-04-08
 ---
+
 # Recipe
 
-[Power Type](../power_types.md).
+[Power Type](../power_types.md)
 
 Allows a player with this power to use the defined crafting recipe.
 

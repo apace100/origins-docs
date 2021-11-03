@@ -1,10 +1,11 @@
 ---
-title: Light Blocking (Condition)
+title: Light Blocking (Block Condition)
 date: 2021-04-05
 ---
+
 # Light Blocking
 
-[Block Condition](../block_conditions.md).
+[Block Condition](../block_conditions.md)
 
 Checks whether the block is marked in code as blocking light. Glass for example would not fulfill this condition.
 

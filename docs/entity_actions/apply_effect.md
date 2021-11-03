@@ -1,10 +1,11 @@
 ---
-title: Apply Effect (Action)
+title: Apply Effect (Entity Action)
 date: 2021-04-05
 ---
+
 # Apply Effect
 
-[Entity Action](../entity_actions.md).
+[Entity Action](../entity_actions.md)
 
 Adds one or more status effects to the living entity. Does not have an effect on non-living entities.
 

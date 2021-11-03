@@ -2,13 +2,18 @@
 title: Attribute (Power Type)
 date: 2021-04-07
 ---
+
 # Attribute
 
-[Power Type](../power_types.md).
+[Power Type](../power_types.md)
 
-Applies one or more attribute modifiers. Does *NOT* support a `condition`, use [Conditioned Attribute](../power_types/conditioned_attribute.md) instead if you need one.
+Applies one or more attribute modifiers.
 
 Type ID: `origins:attribute`
+
+!!! caution
+
+    This power type does **not** support a `condition`. If the `condition` field is present, it will be ignored. If you wish to check for a condition, use [Conditioned Attribute](../power_types/conditioned_attribute.md) instead.
 
 ### Fields
 
@@ -16,6 +21,7 @@ Field  | Type | Default | Description
 -------|------|---------|-------------
 `modifier` | [Attributed Attribute Modifier](../data_types/attributed_attribute_modifier.md) | _optional_ | If specified, this modifier will be applied to its corresponding attribute.
 `modifiers` | [Array](../data_types/array.md) of [Attributed Attribute Modifiers](../data_types/attributed_attribute_modifier.md) | _optional_ | If specified, these modifiers will be applied to their corresponding attributes.
+`update_health` | [Boolean](../data_types/boolean.md) | true | When true, the player's health percentage will update to match their new maximum health.
 
 ### Example
 ```json

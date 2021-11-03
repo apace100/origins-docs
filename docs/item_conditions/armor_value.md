@@ -1,23 +1,24 @@
 ---
-title: Armor Value (Condition)
+title: Armor Value (Item Condition)
 date: 2021-04-05
 ---
+
 # Armor Value
 
-[Item Condition](../item_conditions.md).
+[Item Condition](../item_conditions.md)
 
-Checks whether the item has a certain armor value. Non-armor items are considered as having an armor value of 0. 
-
-You can visit these pages to get the armor values for each armor item piece:
-
-* [Helmet](https://minecraft.fandom.com/wiki/Helmet#Defense_points)
-* [Chestplate](https://minecraft.fandom.com/wiki/Chestplate#Defense_points)
-* [Leggings](https://minecraft.fandom.com/wiki/Leggings#Defense_points)
-* [Boots](https://minecraft.fandom.com/wiki/Boots#Defense_points)
-
-
+Checks whether the item has a certain armor value. Non-armor items are considered as having an armor value of 0.
 
 Type ID: `origins:armor_value`
+
+!!! note
+
+    You can visit these pages to get the armor values for each armor item piece:
+
+    * [Helmet](https://minecraft.fandom.com/wiki/Helmet#Defense_points)
+    * [Chestplate](https://minecraft.fandom.com/wiki/Chestplate#Defense_points)
+    * [Leggings](https://minecraft.fandom.com/wiki/Leggings#Defense_points)
+    * [Boots](https://minecraft.fandom.com/wiki/Boots#Defense_points)
 
 ### Fields:
 

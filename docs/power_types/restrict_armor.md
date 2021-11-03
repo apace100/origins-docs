@@ -2,9 +2,10 @@
 title: Restrict Armor (Power Type)
 date: 2021-04-07
 ---
+
 # Restrict Armor
 
-[Power Type](../power_types.md).
+[Power Type](../power_types.md)
 
 Blocks the player from equipping items as armor (via right-click, from dispensing, and by dragging them over in the inventory). Does **NOT** support a `condition`, use [Conditioned Restrict Armor](conditioned_restrict_armor.md) instead if you need one.
 

@@ -1,10 +1,11 @@
 ---
-title: Using Item (Condition)
+title: Using Item (Entity Condition)
 date: 2021-04-04
 ---
+
 # Using Item
 
-[Entity Condition](../entity_conditions.md).
+[Entity Condition](../entity_conditions.md)
 
 Checks whether the player is using an item (holding right-click, as in drinking a potion or eating food).
 

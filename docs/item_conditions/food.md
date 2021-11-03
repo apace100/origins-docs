@@ -1,10 +1,11 @@
 ---
-title: Food (Condition)
+title: Food (Item Condition)
 date: 2021-04-05
 ---
+
 # Food
 
-[Item Condition](../item_conditions.md).
+[Item Condition](../item_conditions.md)
 
 Checks whether the item has a food component.
 

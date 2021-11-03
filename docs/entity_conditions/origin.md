@@ -1,10 +1,11 @@
 ---
-title: Origin
+title: Origin (Entity Condition)
 date: 2021-04-04
 ---
+
 # Origin
 
-[Entity Condition](../entity_conditions.md).
+[Entity Condition](../entity_conditions.md)
 
 Checks whether the player has a certain origin (optionally in a certain layer). Mostly used for [Origin conditions in layers](../guides/data/origin_conditions_in_layers.md).
 

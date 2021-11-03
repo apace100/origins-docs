@@ -1,10 +1,11 @@
 ---
-title: Resource (Condition)
+title: Resource (Entity Condition)
 date: 2021-04-04
 ---
+
 # Resource
 
-[Entity Condition](../entity_conditions.md).
+[Entity Condition](../entity_conditions.md)
 
 Checks the value of a [Resource (Power Type)](../power_types/resource.md) or a power with a cooldown (using the remaining ticks as the value).
 
@@ -38,4 +39,4 @@ This example checks if the player has a value of 1 in the `example:a_simple_reso
     "compare_to": 50
 }
 ```
-This example checks if the player has a value of 50 or more in the `with_resource_subpower` sub-power of `example:a_multiple_power` power. (`data\example\powers\a_multiple_power.json`)
+This example checks if the player has a value of more than 50 in the `with_resource_subpower` sub-power of `example:a_multiple_power` power. (`data\example\powers\a_multiple_power.json`)

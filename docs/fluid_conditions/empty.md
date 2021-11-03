@@ -1,10 +1,11 @@
 ---
-title: Empty (Condition)
+title: Empty (Fluid Condition)
 date: 2021-04-04
 ---
+
 # Empty
 
-[Fluid Condition](../fluid_conditions.md).
+[Fluid Condition](../fluid_conditions.md)
 
 Checks whether there is no fluid in this state.
 

@@ -1,10 +1,11 @@
 ---
 title: Shader (Power Type)
-date: 2021-04-08
+date: 2021-07-13
 ---
+
 # Shader
 
-[Power Type](../power_types.md).
+[Power Type](../power_types.md)
 
 Applies a shader effect to the player's vision.
 
@@ -14,7 +15,8 @@ Type ID: `origins:shader`
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`shader` | [Identifier](../data_types/identifier.md) | | Specifies the location of the shader resource file to use. For more information about shaders, look at [Minecraft Wiki: Shaders](https://minecraft.fandom.com/wiki/Shaders).
+`shader` | [Identifier](../data_types/identifier.md) | | Specifies the location of the shader resource file to use. For more information about shaders, look at [Minecraft Wiki: Shaders (Before 1.9)](https://minecraft.fandom.com/wiki/Shaders/Before_1.9).
+`toggleable` | [Boolean](../data_types/boolean.md) | true | Determines if the applied shader can be toggled.
 
 ### Example
 ```json

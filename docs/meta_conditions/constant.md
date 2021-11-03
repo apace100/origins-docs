@@ -1,10 +1,11 @@
 ---
-title: Constant (Condition)
+title: Constant (Meta Condition)
 date: 2021-04-07
 ---
+
 # Constant
 
-[Meta Condition](../meta_conditions.md).
+[Meta Condition](../meta_conditions.md)
 
 This condition is either always fulfilled or always not fulfilled. Mainly added as a backup in case a condition isn't optional in some place.
 

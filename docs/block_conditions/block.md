@@ -1,10 +1,11 @@
 ---
-title: Block (Condition)
+title: Block (Block Condition)
 date: 2021-04-05
 ---
+
 # Block
 
-[Block Condition](../block_conditions.md).
+[Block Condition](../block_conditions.md)
 
 Checks whether the block is a certain block (by ID).
 
@@ -14,7 +15,7 @@ Type ID: `origins:block`
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`block` | [String](../data_types/string.md) | | ID of the block that this block needs to be to pass the check.
+`block` | [Identifier](../data_types/identifier.md) | | ID of the block that this block needs to be to pass the check.
 
 ### Examples:
 ```json

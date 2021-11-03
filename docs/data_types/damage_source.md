@@ -2,9 +2,10 @@
 title: Damage Source (Data Type)
 date: 2021-04-04
 ---
+
 # Damage Source
 
-[Data Type](../data_types.md).
+[Data Type](../data_types.md)
 
 An [Object](object.md) used to specify how to deal damage to an entity.
 
@@ -22,12 +23,10 @@ Field  | Type | Default | Description
 ### Example:
 
 ```json
-{
-	"source": {
-		"name": "starve",
-		"bypasses_armor": true,
-		"unblockable": true
-	}
+"source": {
+	"name": "starve",
+	"bypasses_armor": true,
+	"unblockable": true
 }
 ```
 

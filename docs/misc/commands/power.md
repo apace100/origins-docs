@@ -1,87 +1,120 @@
 ---
 title: /power (Command)
-date: 2021-06-13
+date: 2021-07-13
 ---
 
 # `/power`
 
-The `/power` command can be used to grant powers, revoke powers, and check if an entity has a certain power. Powers can only be granted once by one source.
-<br>
-<br>
+The `/power` command can be used to grant powers, revoke powers, and check if an entity has a certain power. Every power in Apoli comes from a specific source (an identifier). If a power has no sources, the entity does not have the power. If a power has at least one source, the entity does have the power. For each power, the sources are unique, meaning that a single source can not grant the same power twice.
 
-```mcfuncton
-power clear <selector>
-```
-* `<selector>` being a target selector.
-    * (e.g: `@a[tag = tagName]`)
-<br>
-
+### Syntax:
 
 ```mcfunction
-power grant <selector> <power> [<source>]
+power clear <targets>
 ```
-* `<selector>` being a target selector
-    * (e.g: `@a[tag = tagName]`)
+Clear all the powers from the specified target(s).
+<br>
 
-* `<power>` being the namespace and ID of a power.
-    * (e.g: `origins:arcane_skin`)
+* `<targets>` being a target selector, username, or UUID
+    * (e.g: `@a`, `eggohito`, `70ecd8a7-5abb-492a-a3b3-9aae099400db`)
+<br>
+<br>
 
-* `[<source>]` being the source of the power, optional, defaults to `apoli:command`
+```mcfunction
+power grant <targets> <power> [<source>]
+```
+Grant a power to the specified target(s) (from a specific power source, if specified)
+<br>
+
+* `<targets>` being a target selector, username, or UUID
+    * (e.g: `@a`, `eggohito`, `70ecd8a7-5abb-492a-a3b3-9aae099400db`)
+
+* `<power>` being the namespace and ID of a power
+    * (e.g: `origins:arcane_skin` (`data/origins/powers/arcane_skin.json`))
+
+* `[<source>]` being the source of the power; optional; defaults to `apoli:command`
     * (e.g: `example:test`)
 <br>
-
-```mcfunction
-power has <selector> <power>
-```
-* `<selector>` being a target selector.
-    * (e.g: `@a[tag = tagName]`)
-
-* `<power>` being the namespace and ID of a power.
-    * (e.g: `origins:arcane_skin`)
 <br>
 
 ```mcfunction
-power list @s
+power has <targets> <power>
 ```
-* `<selector>` being a target selector, can only select one at a time.
-    * (e.g: `@a[limit = 1, sort = random]`)
+Check if the specified target(s) has a certain power.
+<br>
+
+* `<targets>` being a target selector, username, or UUID
+    * (e.g: `@a`, `eggohito`, `70ecd8a7-5abb-492a-a3b3-9aae099400db`)
+
+* `<power>` being the namespace and ID of a power
+    * (e.g: `origins:arcane_skin` (`data/origins/powers/arcane_skin.json`))
+<br>
 <br>
 
 ```mcfunction
-power remove <selector> <power>
+power list <target>
 ```
-* `<selector>` being a target entity selector.
-    * (e.g: `@a[tag = tagName]`)
+List all the powers available from the specified target.
+<br>
 
-* `<power>` being the namespace and ID of a power.
-    * (e.g: `origins:arcane_skin`)
+* `<target>` being a target selector, username, or UUID; can only select one at a time.
+    * (e.g: `@a[limit = 1]`, `@p`, `eggohito`, `70ecd8a7-5abb-492a-a3b3-9aae099400db`)
+<br>
 <br>
 
 ```mcfunction
-power revoke <selector> <power> [<source>]
+power remove <targets> <power>
 ```
-* `<selector>` being a target selector.
-    * (e.g: `@a[tag = tagName]`)
+Remove a power from the specified target.
+<br>
 
-* `<power>` being the namespace and ID of a power.
-    * (e.g: `origins:arcane_skin`)
+* `<targets>` being a target selector, username, or UUID
+    * (e.g: `@a`, `eggohito`, `70ecd8a7-5abb-492a-a3b3-9aae099400db`)
 
-* `[<source>]` being the source of the power, defaults to `apoli:command`.
+* `<power>` being the namespace and ID of a power
+    * (e.g: `origins:arcane_skin` (`data/origins/powers/arcane_skin.json`))
+<br>
+<br>
+
+```mcfunction
+power revoke <targets> <power> [<source>]
+```
+Revoke a power from the specified target(s) (and from a specific power source, if specified.)
+<br>
+
+* `<targets>` being a target selector, username, or UUID
+    * (e.g: `@a`, `eggohito`, `70ecd8a7-5abb-492a-a3b3-9aae099400db`)
+
+* `<power>` being the namespace and ID of a power
+    * (e.g: `origins:arcane_skin` (`data/origins/powers/arcane_skin.json`))
+
+* `[<source>]` being the source of the power, defaults to `apoli:command`
     * (e.g: `example:test`)
 <br>
-
-```mcfunction
-power revokeall <selector>
-```
-* `<selector>` being a target selector.
-    * (e.g: `@a[tag = tagName]`)
 <br>
 
 ```mcfunction
-power sources @s origins:creative_flight
+power revokeall <targets> <source>
 ```
-* `<selector>` being a target selector, can only select one at a time.
-    * (e.g: `@a[limit = 1, sort = random]`)
+Revoke all the powers from the specified target(s) that are granted by the specified source.
+<br>
 
-* `<power>` being the namespace and ID of a power.
-    * (e.g: `origins:arcane_skin`)
+* `<targets>` being a target selector, username, or UUID
+    * (e.g: `@a`, `eggohito`, `70ecd8a7-5abb-492a-a3b3-9aae099400db`)
+
+* `<source>` being the source to completely revoke all powers from
+	* (e.g: `example:test`)
+<br>
+<br>
+
+```mcfunction
+power sources <target> <power>
+```
+List all the sources of a power from the specified target.
+<br>
+
+* `<target>` being a target selector, username, or UUID; can only select one at a time
+    * (e.g: `@a[limit = 1]`, `@p`, `eggohito`, `70ecd8a7-5abb-492a-a3b3-9aae099400db`)
+
+* `<power>` being the namespace and ID of a power
+    * (e.g: `origins:arcane_skin` (`data/origins/powers/arcane_skin.json`))

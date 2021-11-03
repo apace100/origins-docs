@@ -2,9 +2,10 @@
 title: Key (Data Type)
 date: 2021-04-04
 ---
+
 # Key
 
-[Data Type](../data_types.md).
+[Data Type](../data_types.md)
 
 An [Object](object.md) which defines a keybinding, used in active powers to define which key they react to.
 
@@ -18,10 +19,8 @@ Field  | Type | Default | Description
 ### Examples:
 
 ```json
-{
-  	"key": {
-		"key": "key.origins.secondary_active"
-  	}
+"key": {
+    "key": "key.origins.secondary_active"
 }
 ```
 
@@ -29,11 +28,9 @@ This key will trigger each time the secondary active power key of Origins (by de
 <br>
 
 ```json
-{
-  	"key": {
-		"key": "key.attack",
-		"continuous": true
-  	}
+"key": {
+    "key": "key.attack",
+    "continuous": true
 }
 ```
 

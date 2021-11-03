@@ -1,10 +1,11 @@
 ---
-title: High Humidity (Condition)
+title: High Humidity (Biome Condition)
 date: 2021-04-05
 ---
+
 # High Humidity
 
-[Biome Condition](../biome_conditions.md).
+[Biome Condition](../biome_conditions.md)
 
 Checks whether the biome counts as an area with high humidity.
 

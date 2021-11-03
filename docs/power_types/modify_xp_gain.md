@@ -2,9 +2,10 @@
 title: Modify XP Gain (Power Type)
 date: 2021-04-06
 ---
+
 # Modify XP Gain
 
-[Power Type](../power_types.md).
+[Power Type](../power_types.md)
 
 Modifies how much XP the player gains when they pick up an experience orb. Be careful not too make this go too high, as then the player would be able to gain more experience from dying.
 

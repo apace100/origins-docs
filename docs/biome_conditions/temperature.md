@@ -1,14 +1,19 @@
 ---
-title: Temperature (Condition)
+title: Temperature (Biome Condition)
 date: 2021-04-05
 ---
+
 # Temperature
 
-[Biome Condition](../biome_conditions.md).
+[Biome Condition](../biome_conditions.md)
 
 Checks for the temperature of a biome.
 
 Type ID: `origins:temperature`
+
+!!! note
+
+    You can visit [Minecraft Fandom: Biome (List of Overworld climates)](https://minecraft.fandom.com/wiki/Biome#List_of_Overworld_climates) for a list of biome temperature values
 
 ### Fields:
 

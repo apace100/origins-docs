@@ -1,10 +1,11 @@
 ---
-title: Light Level (Condition)
+title: Light Level (Block Condition)
 date: 2021-04-05
 ---
+
 # Light Level
 
-[Block Condition](../block_conditions.md).
+[Block Condition](../block_conditions.md)
 
 Allows checking the light level at the block's position.
 

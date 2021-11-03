@@ -1,10 +1,11 @@
 ---
-title: Height (Condition)
+title: Height (Block Condition)
 date: 2021-04-05
 ---
+
 # Height
 
-[Block Condition](../block_conditions.md).
+[Block Condition](../block_conditions.md)
 
 Compares the y position of the block to a value.
 

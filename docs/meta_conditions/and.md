@@ -1,10 +1,11 @@
 ---
-title: And (Condition)
+title: And (Meta Condition)
 date: 2021-04-07
 ---
+
 # And
 
-[Meta Condition](../meta_conditions.md).
+[Meta Condition](../meta_conditions.md)
 
 This condition checks whether all of the provided conditions are fulfilled.
 

@@ -2,11 +2,12 @@
 title: Attribute Modifier (Data Type)
 date: 2021-04-04
 ---
+
 # Attribute Modifier
 
-[Data Type](../data_types.md).
+[Data Type](../data_types.md)
 
-An [Object](object.md) used to specify how a value should be modified.
+An [Object](object.md) used to specify how an attribute should be modified.
 
 ### Fields:
 
@@ -19,11 +20,9 @@ Field  | Type | Default | Description
 ### Examples:
 
 ```json
-{
-	"modifier": {
-		"operation": "multiply_base",
-		"value": 1
-	}
+"modifier": {
+    "operation": "multiply_base",
+    "value": 1
 }
 ```
 
@@ -31,11 +30,9 @@ This attribute modifier will multiply the base value by 2, stacking additively w
 <br>
 
 ```json
-{
-	"modifier": {
-		"operation": "multiply_total",
-		"value": -1
-	}
+"modifier": {
+	"operation": "multiply_total",
+	"value": -1
 }
 ```
 

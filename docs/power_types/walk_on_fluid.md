@@ -2,9 +2,10 @@
 title: Walk On Fluid (Power Type)
 date: 2021-04-08
 ---
+
 # Walk On Fluid
 
-[Power Type](../power_types.md).
+[Power Type](../power_types.md)
 
 Allows the player to walk on a given fluid.
 

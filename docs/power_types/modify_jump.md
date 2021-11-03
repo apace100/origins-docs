@@ -2,9 +2,10 @@
 title: Modify Jump (Power Type)
 date: 2021-04-06
 ---
+
 # Modify Jump
 
-[Power Type](../power_types.md).
+[Power Type](../power_types.md)
 
 Modifies how high the player jumps.
 

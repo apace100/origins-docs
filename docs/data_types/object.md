@@ -2,9 +2,10 @@
 title: Object (Data Type)
 date: 2021-04-04
 ---
+
 # Object:
 
-[Data Type](../data_types.md).
+[Data Type](../data_types.md)
 
 A complex piece of data consisting of more fields. Objects are enclosed in curly braces and contain multiple `"key": value` entries separated by commas.
 
@@ -26,12 +27,10 @@ An object containing a [String](string.md) field, an [Integer](integer.md) field
 <br>
 
 ```json
-{
-	"effect": {
-		"effect": "minecraft:slowness",
-		"amplifier": 1,
-		"duration": 80
-	}
+"effect": {
+    "effect": "minecraft:slowness",
+    "amplifier": 1,
+    "duration": 80
 }
 ```
 

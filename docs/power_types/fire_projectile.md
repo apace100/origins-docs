@@ -1,10 +1,11 @@
 ---
 title: Fire Projectile (Power Type)
-date: 2021-04-08
+date: 2021-10-02
 ---
+
 # Fire Projectile
 
-[Power Type](../power_types.md).
+[Power Type](../power_types.md)
 
 An active power which fires one or more projectiles when the active power key is pressed.
 
@@ -18,6 +19,8 @@ Field  | Type | Default | Description
 `cooldown` | [Integer](../data_types/integer.md) | | The number of ticks the player has to wait between uses of this power.
 `hud_render` | [Hud Render](../data_types/hud_render.md) | | Specifies how and if a cooldown bar is rendered.
 `count` | [Integer](../data_types/integer.md) | 1 | The amount of projectiles to fire each use.
+`interval` | [Integer](../data_types/integer.md) | 0 | Determines the interval for firing multiple projectiles consecutively (in ticks). If set to 0, it will fire all the projectiles at the same tick.
+`start_delay` | [Integer](../data_types/integer.md) | 0 | Determines how long the start of the firing process is delayed (in ticks).
 `speed` | [Float](../data_types/float.md) | 1.5 | The speed applied to the fired projectile.
 `divergence` | [Float](../data_types/float.md) | 1.0 | How much each projectile fired is affected by random spread.
 `sound` | [Identifier](../data_types/identifier.md) | _optional_ | If set, the sound with this ID will be played when the power is used.
@@ -42,4 +45,24 @@ Field  | Type | Default | Description
 	}
 }
 ```
-This power will let the player fire arrows very rapidly by holding the left mouse button. They can't be picked up.
+This example will let the player fire arrows very rapidly by holding the left mouse button. They can't be picked up.
+<br>
+
+```json
+{
+    "type": "origins:fire_projectile",
+    "entity_type": "minecraft:snowball",
+    "cooldown": 100,
+    "hud_render": {
+        "should_render": false
+    },
+    "count": 4,
+    "interval": 5,
+    "tag": "{Item: {id: 'minecraft:slime_ball', Count: 1b}}",
+    "key": {
+        "key": "key.use",
+        "continuous": false
+    }
+}
+```
+This example will let the player fire 4 snow balls disguised as slime balls consecutively, with an interval of 5 ticks upon pressing the right mouse button.

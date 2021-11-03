@@ -1,10 +1,11 @@
 ---
-title: Amount (Condition)
+title: Amount (Damage Condition)
 date: 2021-04-04
 ---
+
 # Amount
 
-[Damage Condition](../damage_conditions.md).
+[Damage Condition](../damage_conditions.md)
 
 Checks whether the damage is of a specified amount.
 
@@ -21,8 +22,8 @@ Field  | Type | Default | Description
 ```json
 "damage_condition": {
     "type": "origins:amount",
-    "comparison": ">",
+    "comparison": "==",
     "compare_to": 4
 }
 ```
-This example checks if the damage dealt/taken is 2 hearts. (or 4 damage points)
+This example checks if the damage dealt/taken is equal to 2 hearts. (or 4 damage points)

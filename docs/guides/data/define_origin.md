@@ -2,6 +2,7 @@
 title: Defining an Origin
 date: 2021-05-02
 ---
+
 # Defining an Origin in JSON
 
 Origins are defined in JSON files. Let's use these to create a fictional new origin, a _Supermorph_, for our [data pack](https://minecraft.gamepedia.com/Data_Pack) which we call _OriginSuperPack_. We'd like this Origin to be a bit overpowered: Metamorphs are immune to fire, have elytra-flight and can teleport with ender pearls. Their only drawback is that they need a bed at a high altitude, just like Avians. This would be a JSON file which would accomplish that:

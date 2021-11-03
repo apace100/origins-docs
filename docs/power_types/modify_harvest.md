@@ -2,9 +2,10 @@
 title: Modify Harvest (Power Type)
 date: 2021-04-06
 ---
+
 # Modify Harvest
 
-[Power Type](../power_types.md).
+[Power Type](../power_types.md)
 
 Modifies whether a player is able to harvest a block or not (= receive the block drops).
 

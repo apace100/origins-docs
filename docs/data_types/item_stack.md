@@ -2,9 +2,10 @@
 title: Item Stack (Data Type)
 date: 2021-04-04
 ---
+
 # Item Stack
 
-[Data Type](../data_types.md).
+[Data Type](../data_types.md)
 
 An [Object](object.md) which defines a new item stack.
 
@@ -19,11 +20,9 @@ Field  | Type | Default | Description
 ### Examples:
 
 ```json
-{
-  	"stack": {
-		"item": "minecraft:coal",
-		"amount": 24
-  	}
+"stack": {
+    "item": "minecraft:coal",
+    "amount": 24
 }
 ```
 
@@ -31,11 +30,9 @@ An item stack of 24 coal.
 <br>
 
 ```json
-{
-  	"stack": {
-		"item": "minecraft:golden_helmet",
-		"tag": "{Enchantments:[{id:\"minecraft:projectile_protection\",lvl:2s}]}"
-  	}
+"stack": {
+    "item": "minecraft:golden_helmet",
+    "tag": "{Enchantments: [{id: \"minecraft:projectile_protection\", lvl: 2s}]}"
 }
 ```
 
