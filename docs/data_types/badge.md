@@ -13,7 +13,7 @@ An [Object](object.md) which displays an icon just after the name of a power in 
 
 Field | Type | Default | Description
 ------|------|---------|-------------
-`sprite` | [Identifier](identifier.md) | | ID of the texture to be displayed as an icon. [See the list of badge files](../misc/sprites.md)
+`sprite` | [Identifier](identifier.md) | | ID of the texture to be displayed as an icon. See the [List of badge files](../misc/sprites.md)
 `text` | [String](string.md) | | The string to display when you hover over the icon.
 
 ### Examples
