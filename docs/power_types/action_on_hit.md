@@ -7,7 +7,7 @@ date: 2021-10-06
 
 [Power Type](../power_types.md)
 
-Executes a bi-entity action that can execute on the entity that has the power, the entity that has been hit or both if the entity that has the power has hit another entity.
+Executes a bi-entity action when the entity that has the power has hit another entity.
 
 Type ID: `origins:action_on_hit`
 

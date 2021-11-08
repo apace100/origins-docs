@@ -7,7 +7,7 @@ date: 2021-10-06
 
 [Power Type](../power_types.md)
 
-Executes an entity action on the player if the player in question takes damage.
+Executes an entity action on the entity that has the power if the entity has taken damage.
 
 Type ID: `origins:action_when_damage_taken`
 

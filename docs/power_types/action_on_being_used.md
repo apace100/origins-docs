@@ -7,7 +7,7 @@ date: 2021-10-06
 
 [Power Type](../power_types.md)
 
-Executes a bi-entity action, optionally gives a result item stack and executes an item action on both the result item stack and the item stack that's in the player's specified hand when a player "uses" (right-click) the entity that has the power.
+Executes a bi-entity action or item actions on the item used or given to the player when the player "uses" (right-click) the entity that has the power.
 
 Type ID: `origins:action_on_being_used`
 
@@ -29,36 +29,15 @@ Field | Type | Default | Description
 {
     "type": "origins:action_on_being_used",
     "bientity_action": {
-        "type": "origins:and",
-        "actions": [
-            {
-                "type": "origins:target_action",
-                "action": {
-                    "type": "origins:execute_command",
-                    "command": "clear @s minecraft:diamond 1"
-                }
-            },
-            {
-                "type": "origins:actor_action",
-                "action": {
-                    "type": "origins:execute_command",
-                    "command": "give @s minecraft:diamond 1"
-                }
-            }
-        ]
+        "type": "origins:mount"
     },
     "bientity_condition": {
         "type": "origins:target_condition",
         "condition": {
-            "type": "origins:command",
-            "command": "clear @s minecraft:diamond 0",
-            "comparison": ">",
-            "compare_to": 0
+            "type": "origins:passenger",
+            "inverted": true
         }
-    },
-    "hands": [
-        "main_hand"
-    ]
+    }
 }
 ```
-This example enables other players to steal diamonds from the player that has the power.
+This example power grant players the ability to mount the target entity that has the power when "used" (right-clicked) unless the target entity that has the power already has a passenger.

@@ -7,7 +7,7 @@ date: 2021-10-02
 
 [Power Type](../power_types.md)
 
-A power type that can execute an entity action upon using an item on an item, similar to how you would put items in a bundle (right-clicking an item on an item in a GUI). It can also run an item action to the item that is right-clicked, and to the item that's used to right-click an item.
+Executes an entity action or item actions on the item used for right-clicking an item, or the item that's been right-clicked when the player uses an item on an item (e.g: right-clicking an item on top of an item, like how you would put items in a bundle).
 
 Type ID: `origins:item_on_item`
 

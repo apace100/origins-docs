@@ -7,9 +7,13 @@ date: 2021-05-25
 
 [Power Type](../power_types.md)
 
-Can execute an entity action on the player at certain times: when the power is chosen (gained through becoming the origin), when the player respawns, when the player loses the power (i.e. becomes another origin).
+Execute entity actions depending on the context.
 
 Type ID: `origins:action_on_callback`
+
+!!! note
+
+    For example: when the player chooses an origin that has the power, when the player joins the world, when the player leaves the world, when the player respawns or when the player becomes another origin.
 
 ### Fields
 
