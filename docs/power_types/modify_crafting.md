@@ -11,6 +11,10 @@ Modifies the result item of a recipe using an item action or an item stack. It a
 
 Type ID: `origins:modify_crafting`
 
+!!! caution
+
+    This power type **cannot** modify the result item from recipes added by the [`origins:recipe`](recipe.md) power type.
+
 ### Fields
 
 Field | Type | Default | Description
