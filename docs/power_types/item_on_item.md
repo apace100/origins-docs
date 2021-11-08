@@ -11,6 +11,10 @@ Executes an entity action or item actions on the item used for right-clicking an
 
 Type ID: `origins:item_on_item`
 
+!!! caution
+
+    This power type currently does not work properly in Creative Mode.
+
 ### Fields
 
 Field | Type | Default | Description
