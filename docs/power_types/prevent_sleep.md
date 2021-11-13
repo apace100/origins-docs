@@ -15,9 +15,9 @@ Type ID: `origins:prevent_sleep`
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`block_condition` | [Block Condition](../block_conditions.md) | _optional_ | If set, sleep will only be prevented if this condition holds for the bed.
-`message` | [String](../data_types/string.md) | "origins.cant_sleep" | The message that will be shown when sleep is prevented this way. Can be a literal text or a translation key which will be localized using a language file.
-`set_spawn_point` | [Boolean](../data_types/boolean.md) | false | If true, right-clicking the bed while sleeping is prevented with this power will still set the spawn point (similar to what happens when you right-click a bed while it's daytime).
+`block_condition` | [Block Condition](../block_conditions.md) | _optional_ | If specified, sleep will only be prevented if this condition is fulfilled by the bed block.
+`message` | [String](../data_types/string.md) | `"origins.cant_sleep"` | The message that will be shown when sleep is prevented this way. Can be a literal text or a translation key which will be localized using a language file.
+`set_spawn_point` | [Boolean](../data_types/boolean.md) | `false` | Determines whether the spawnpoint of the player is set upon right-clicking a bed while being prevented. (similar to what happens when you right-click a bed while it's daytime)
 
 ### Example
 ```json

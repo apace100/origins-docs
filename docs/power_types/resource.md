@@ -7,9 +7,13 @@ date: 2021-04-08
 
 [Power Type](../power_types.md)
 
-Defines a resource/cooldown/timer for the player. Basically holds a persistent integer value which can be modified by the [Change Resource](../entity_actions/change_resource.md) action and checked with the [Resource (Condition)](../entity_conditions/resource.md) player condition.
+Provides a variable with an assignable minimum and maximum value that can be used as a timer, or other things.
 
 Type ID: `origins:resource`
+
+!!! note
+
+    This power type provides a variable that can be changed with the [Change Resource](../entity_actions/change_resource.md) entity action type, and check the value of with the [Resource](../entity_conditions/resource.md) entity condition type.
 
 ### Fields
 
@@ -17,10 +21,10 @@ Field  | Type | Default | Description
 -------|------|---------|-------------
 `min` | [Integer](../data_types/integer.md) | | The minimum value of the resource.
 `max` | [Integer](../data_types/integer.md) | | The maximum value of the resource.
-`hud_render` | [Hud Render](../data_types/hud_render.md) | | Specifies how and if the resource is displayed with a bar on the HUD.
-`start_value` | [Integer](../data_types/integer.md) | _optional_ | The value of the resource when the player first chooses an origin with this power. If not set, this will be the same as `min`.
-`min_action` | [Entity Action](../entity_actions.md) | _optional_ | If set, this action will be executed on the player whenever the minimum value is reached.
-`max_action` | [Entity Action](../entity_actions.md) | _optional_ | If set, this action will be executed on the player whenever the maximum value is reached.
+`hud_render` | [Hud Render](../data_types/hud_render.md) | | Determines how the resource is visualized on the HUD.
+`start_value` | [Integer](../data_types/integer.md) | _optional_ | The value of the resource when the entity first receives the power. If not set, this will be set to the value of the `min` integer field.
+`min_action` | [Entity Action](../entity_actions.md) | _optional_ | If specified, this action will be executed on the entity whenever the minimum value is reached.
+`max_action` | [Entity Action](../entity_actions.md) | _optional_ | If specified, this action will be executed on the entity whenever the maximum value is reached.
 
 ### Example
 ```json

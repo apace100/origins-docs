@@ -13,18 +13,18 @@ Type ID: `origins:modify_crafting`
 
 !!! caution
 
-    This power type **cannot** modify the result item from recipes added by the [`origins:recipe`](recipe.md) power type.
+    This power type **cannot** modify the result item from recipes added by the [Recipe](recipe.md) power type.
 
 ### Fields
 
 Field | Type | Default | Description
 ------|------|---------|-------------
-`recipe` | [Identifier](../data_types/identifier.md) | _optional_ | The ID of the recipe to be modified.
-`item_condition` | [Item Condition](../item_conditions.md) | _optional_ | If set, it will only apply the item stack from the `result` field, and trigger the actions when this condition is met by the result item from the crafting recipe.
-`result` | [Item Stack](../data_types/item_stack.md) | _optional_ | If set, replaces the result item stack of the recipe.
-`item_action` | [Item Action](../item_actions.md) | _optional_ | If set, execute this item action on the result item stack.
-`entity_action` | [Entity Action](../entity_actions.md) | _optional_ | If set, execute this entity action on the player.
-`block_action` | [Block Action](../block_actions.md) | _optional_ | If set, execute this block action at the block used for crafting the recipe.
+`recipe` | [Identifier](../data_types/identifier.md) | _optional_ | If specified, modifies the result item of the recipe that matches the specified namespace and ID.
+`item_condition` | [Item Condition](../item_conditions.md) | _optional_ | If specified, the item from the `result` field and the specified actions will only be applied if this condition is fulfilled by the result item of a recipe.
+`result` | [Item Stack](../data_types/item_stack.md) | _optional_ | If specified, this item will replace the item of a recipe.
+`item_action` | [Item Action](../item_actions.md) | _optional_ | If specified, this action will be executed on the result item of a recipe.
+`entity_action` | [Entity Action](../entity_actions.md) | _optional_ | If specified, this action will be executed on the player upon crafting a recipe.
+`block_action` | [Block Action](../block_actions.md) | _optional_ | If specified, this action will be executed on the block used for crafting a recipe.
 
 ### Example
 ```json

@@ -7,7 +7,7 @@ date: 2021-10-05
 
 [Power Type](../power_types.md)
 
-Modifies how a block would look like to the entity.
+Modifies how a block would look like to the entity that has the power.
 
 Type ID: `origins:modify_block_render`
 
@@ -19,8 +19,8 @@ Type ID: `origins:modify_block_render`
 
 Field | Type | Default | Description
 ------|------|---------|-------------
-`block_condition` | [Block Condition](../block_conditions.md) | _optional_ | If set, modifies how the block would look like that meets this condition.
-`block` | [Identifier](../data_types/identifier.md) | | The ID of the block that would replace the block that meets the condition from the `block_condition` object field would look like.
+`block_condition` | [Block Condition](../block_conditions.md) | _optional_ | If specified, only modify how the blocks that fulfill this condition would look like.
+`block` | [Identifier](../data_types/identifier.md) | | The namespace and ID of the replacement block.
 
 ### Example
 ```json
@@ -33,4 +33,4 @@ Field | Type | Default | Description
     "block": "minecraft:diamond_block"
 }
 ```
-This example makes it so that a Diamond Ore block would look like a Diamond Block.
+This example makes it so that a Diamond Ore blocks would look like a Diamond Block.

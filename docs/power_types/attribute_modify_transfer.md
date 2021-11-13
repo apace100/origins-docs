@@ -15,9 +15,9 @@ Type ID: `origins:attribute_modify_transfer`
 
 Field | Type | Default | Description
 ------|------|---------|-------------
-`class` | [Identifier](../data_types/identifier.md) | | The path and ID of the class to transfer the value of an attribute to.
+`class` | [Identifier](../data_types/identifier.md) | | The path and ID of the class to transfer the value of an attribute modifier to.
 `attribute` | [Identifier](../data_types/identifier.md) | | The namespace and ID of the attribute to transfer the value from.
-`multiplier` | [Float](../data_types/float.md) | 1.0 | Determines the multiplier for the value.
+`multiplier` | [Float](../data_types/float.md) | `1.0` | Determines the multiplier for the value.
  
 ### Example
 ```json

@@ -7,7 +7,7 @@ date: 2021-04-08
 
 [Power Type](../power_types.md)
 
-Prevents the movement of the player from being affected by water.
+Prevents the movement of the entity that has the power from being affected by water.
 
 Type ID: `origins:ignore_water`
 
@@ -21,4 +21,4 @@ _None._
   	"type": "origins:ignore_water"
 }
 ```
-This power makes the player ignore water. :)
+This power makes the entity that has the power ignore water. :)

@@ -7,7 +7,7 @@ date: 2021-04-08
 
 [Power Type](../power_types.md)
 
-Turns the player (and optionally their armor) invisible.
+Grants the entity that has the power invisibility; may or may not affect their worn armor.
 
 Type ID: `origins:invisibility`
 

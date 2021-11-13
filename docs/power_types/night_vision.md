@@ -15,7 +15,7 @@ Type ID: `origins:night_vision`
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`strength` | [Float](../data_types/float.md) | 1.0 | How strong the night vision effect is. Range: 0 - 1.
+`strength` | [Float](../data_types/float.md) | `1.0` | How strong the night vision effect is. Range: 0.0 - 1.0.
 
 ### Example
 ```json

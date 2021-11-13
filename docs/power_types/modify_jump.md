@@ -7,7 +7,7 @@ date: 2021-04-06
 
 [Power Type](../power_types.md)
 
-Modifies how high the player jumps.
+Modifies how high the entity that has the power can jump.
 
 Type ID: `origins:modify_jump`
 
@@ -15,9 +15,9 @@ Type ID: `origins:modify_jump`
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`modifier` | [Attribute Modifier](../data_types/attribute_modifier.md) | _optional_ | If set, this modifier will apply to the upwards jump velocity.
-`modifiers` | [Array](../data_types/array.md) of [Attribute Modifiers](../data_types/attribute_modifier.md) | _optional_ | If set, these modifiers will apply to the upwards jump velocity.
-`entity_action` | [Entity Action](../entity_actions.md) | _optional_ | If set, this action will execute when the player jumps.
+`modifier` | [Attribute Modifier](../data_types/attribute_modifier.md) | _optional_ | If specified, this modifier will be applied to the upwards velocity.
+`modifiers` | [Array](../data_types/array.md) of [Attribute Modifiers](../data_types/attribute_modifier.md) | _optional_ | If specified, these modifiers will be applied to the upwards velocity.
+`entity_action` | [Entity Action](../entity_actions.md) | _optional_ | If specified, this action will be executed on the entity that has the power whenever the entity jumps.
 
 
 ### Example

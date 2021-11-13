@@ -7,7 +7,7 @@ date: 2021-04-04
 
 [Power Type](../power_types.md)
 
-Executes an entity action on the player takes damage.
+Executes an entity action on the entity that has the power when the entity takes damage.
 
 Type ID: `origins:self_action_when_hit`
 
@@ -15,10 +15,10 @@ Type ID: `origins:self_action_when_hit`
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`entity_action` | [Entity Action](../entity_actions.md) | | The action to execute on the player.
-`cooldown` | [Integer](../data_types/integer.md) | | Interval of ticks this power needs to recharge before the action can be executed again.
-`hud_render` | [Hud Render](../data_types/hud_render.md) | _optional_ | If set, the cooldown of this power is visualized on the HUD in the specified way.
-`damage_condition` | [Damage Condition](../damage_conditions.md) | _optional_ | If set, the action will only trigger when this condition holds for the specified type of damage.
+`entity_action` | [Entity Action](../entity_actions.md) | | The action to execute on the entity.
+`cooldown` | [Integer](../data_types/integer.md) | | Interval of ticks this power needs to recharge before the power can be triggered again.
+`hud_render` | [Hud Render](../data_types/hud_render.md) | _optional_ | If specified, determines how the cooldown of this power is visualized on the HUD.
+`damage_condition` | [Damage Condition](../damage_conditions.md) | _optional_ | If specified, the specified action will only execute if the damage taken fulfills this condition.
 
 ### Example
 ```json

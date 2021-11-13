@@ -7,21 +7,21 @@ date: 2021-10-05
 
 [Power Type](../power_types.md)
 
-Applies the specified tooltip(s) to an item.
+Applies the specified tooltip(s) to an item that is only visible to the entity that has the power.
 
 Type ID: `origins:tooltip`
 
 !!! note
 
-    The `text` and `texts` fields can accept [JSON text components](https://minecraft.fandom.com/wiki/Raw_JSON_text_format).
+    The `text` and `texts` fields can accept [JSON text components](https://minecraft.fandom.com/wiki/Raw_JSON_text_format). However, JSON text components that needs to be resolved may **not work**.
     
 ### Fields
 
 Field | Type | Default | Description
 ------|------|---------|-------------
-`item_condition` | [Item Condition](../item_conditions.md) | _optional_ | If set, only applies the tooltip(s) to the item(s) that meets this condition.
-`text` | [String](../data_types/string.md) | _optional_ | If set, apply this string as a tooltip.
-`texts` | [Array](../data_types/array.md) of [Strings](../data_types/string.md) | _optional_ | If set, apply these strings as a tooltip.
+`item_condition` | [Item Condition](../item_conditions.md) | _optional_ | If specified, the specified tooltip(s) will only apply to items that fulfills this condition.
+`text` | [String](../data_types/string.md) | _optional_ | If specified, apply this string as a tooltip.
+`texts` | [Array](../data_types/array.md) of [Strings](../data_types/string.md) | _optional_ | If specified, apply these strings as a tooltip.
 
 ### Example
 ```json

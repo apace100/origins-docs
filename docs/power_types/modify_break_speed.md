@@ -15,9 +15,9 @@ Type ID: `origins:modify_break_speed`
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`block_condition` | [Block Condition](../block_conditions.md) | _optional_ | If set, the modifiers will only apply to blocks which satisfy this condition.
-`modifier` | [Attribute Modifier](../data_types/attribute_modifier.md) | _optional_ | If set, this modifier will apply to the break speed.
-`modifiers` | [Array](../data_types/array.md) of [Attribute Modifiers](../data_types/attribute_modifier.md) | _optional_ | If set, these modifiers will apply to the break speed.
+`block_condition` | [Block Condition](../block_conditions.md) | _optional_ | If specified, the modifier(s) will only apply to the blocks that fulfills this condition.
+`modifier` | [Attribute Modifier](../data_types/attribute_modifier.md) | _optional_ | If specified, this modifier will be applied to the break speed.
+`modifiers` | [Array](../data_types/array.md) of [Attribute Modifiers](../data_types/attribute_modifier.md) | _optional_ | If specified, these modifiers will be applied to the break speed.
 
 ### Example
 ```json

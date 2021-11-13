@@ -7,7 +7,7 @@ date: 2021-04-06
 
 [Power Type](../power_types.md)
 
-Modifies how much melee damage the player deals.
+Modifies how much melee damage the entity that has the power deals.
 
 Type ID: `origins:modify_damage_dealt`
 
@@ -15,12 +15,12 @@ Type ID: `origins:modify_damage_dealt`
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`damage_condition` | [Damage Condition](../damage_conditions.md) | _optional_ | If set, the modifiers will only apply to damage which satisfies this condition.
-`modifier` | [Attribute Modifier](../data_types/attribute_modifier.md) | _optional_ | If set, this modifier will apply to the damage amount.
-`modifiers` | [Array](../data_types/array.md) of [Attribute Modifiers](../data_types/attribute_modifier.md) | _optional_ | If set, these modifiers will apply to the damage amount.
-`target_condition` | [Entity Condition](../entity_conditions.md) | _optional_ | If set, the action will only be triggered when a target matching this condition is hit.
-`self_action` | [Entity Action](../entity_actions.md) | _optional_ | If set, this action will be executed on the player whenever this power applies a modification.
-`target_action` | [Entity Action](../entity_actions.md) | _optional_ | If set, this action will be executed on the target whenever this power applies a modification.
+`damage_condition` | [Damage Condition](../damage_conditions.md) | _optional_ | If specified, the specified modifier(s) and/or action(s) will only apply if the dealt damage fulfills this condition.
+`modifier` | [Attribute Modifier](../data_types/attribute_modifier.md) | _optional_ | If specified, this modifier will apply to the damage amount.
+`modifiers` | [Array](../data_types/array.md) of [Attribute Modifiers](../data_types/attribute_modifier.md) | _optional_ | If specified, these modifiers will apply to the damage amount.
+`target_condition` | [Entity Condition](../entity_conditions.md) | _optional_ | If specified, the specified modifier(s) and action(s) will only be applied if the entity/entities that has been hit fulfills this condition.
+`self_action` | [Entity Action](../entity_actions.md) | _optional_ | If specified, this action will be executed on the entity that has the power whenever the modifier(s) is applied.
+`target_action` | [Entity Action](../entity_actions.md) | _optional_ | If specified, this action will be executed on the entity/entities that has been hit whenever the modifier(s) is applied.
 
 
 ### Example

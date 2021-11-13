@@ -7,7 +7,7 @@ date: 2021-10-03
 
 [Power Type](../power_types.md)
 
-Prevents specified game event(s) from being emitted by the entity.
+Prevents specified game event(s) from being emitted by the entity that has the power.
 
 Type ID: `origins:prevent_game_event`
 
@@ -15,10 +15,10 @@ Type ID: `origins:prevent_game_event`
 
 Field | Type | Default | Description
 ------|------|---------|-------------
-`event` | [Identifier](../data_types/identifier.md) | _optional_ | If specified, the game event with this ID will be prevented from being emitted by the entity.
-`events` | [Array](../data_types/array.md) of [Identifiers](../data_types/identifier.md) | _optional_ | If specified, the game events with these IDs will be prevented from being emitted by the entity.
-`tag` | [Identifier](../data_types/identifier.md) | _optional_ | If specified, the game events inside this game event tag will be prevented from being emitted by the entity.
-`entity_action` | [Entity Action](../entity_actions.md) | _optional_ | If set, this action will be executed on the entity if the specified game events are prevented.
+`event` | [Identifier](../data_types/identifier.md) | _optional_ | If specified, the game event with this namespace and ID will be prevent from being emitted by the entity.
+`events` | [Array](../data_types/array.md) of [Identifiers](../data_types/identifier.md) | _optional_ | If specified, the game events with these namespace and IDs will be prevent from being emitted by the entity.
+`tag` | [Identifier](../data_types/identifier.md) | _optional_ | If specified, the game events inside game event tag will be prevented from being emitted by the entity.
+`entity_action` | [Entity Action](../entity_actions.md) | _optional_ | If specified, this action will be executed on the entity upon preventing game events.
 
 ### Example
 ```json

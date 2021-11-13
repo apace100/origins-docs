@@ -7,18 +7,20 @@ date: 2021-04-08
 
 [Power Type](../power_types.md)
 
-Allows players to climb.
-
-**Note**: Keep in mind that the climbing is performed always while this power is active. Thus, a condition which checks for a horizontal collision is required for the player to have the usual climbing effect.
+Allows the entity that has the power to climb.
 
 Type ID: `origins:climbing`
+
+!!! note
+
+    To have the usual climbing effect, it is recommended to check for the [Collided Horizontally](../entity_conditions/collided_horizontally.md) entity condition type inside the `condition` object of the power.
 
 ### Fields
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`allow_holding` | [Boolean](../data_types/boolean.md) | true | If true, the player is able to hold onto blocks.
-`hold_condition` | [Entity Condition](../entity_conditions.md) | _optional_ | If set and `allow_holding` is true, players with the power who are sneaking and meet this condition are "holding onto the block", meaning they won't be affected by gravity.
+`allow_holding` | [Boolean](../data_types/boolean.md) | `true` | If `true`, the entity that has the power is able to hold onto blocks.
+`hold_condition` | [Entity Condition](../entity_conditions.md) | _optional_ | If specified and `allow_holding` is `true`, the entity that has the power will be able to 'hold onto the block' (not affected by gravity) if the entity is sneaking and if this condition is fulfilled.
 
 ### Example
 ```json

@@ -7,7 +7,7 @@ date: 2021-04-04
 
 [Power Type](../power_types.md)
 
-Executes an entity action or an item action on the remaining items when the player finishes using an item (e.g: eating food or drinking a potion).
+Executes an entity action or item action when the player finishes using an item (e.g: eating food or drinking a potion).
 
 Type ID: `origins:action_on_item_use`
 
@@ -15,9 +15,9 @@ Type ID: `origins:action_on_item_use`
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`entity_action` | [Entity Action](../entity_actions.md) | _optional_ | If set, this action will be executed on the player after they use the item.
-`item_action` | [Item Action](../item_actions.md) | _optional_ | If set, this action will be executed on the _remaining_ item stack.
-`item_condition` | [Item Condition](../item_conditions.md) | _optional_ | If set, the actions will only trigger when this item condition is met by the item stack _before use_.
+`entity_action` | [Entity Action](../entity_actions.md) | _optional_ | If specified, this action will be executed on the player after they use an item.
+`item_action` | [Item Action](../item_actions.md) | _optional_ | If specified, this action will be executed on the _remaining_ item.
+`item_condition` | [Item Condition](../item_conditions.md) | _optional_ | If specified, the actions will only execute if this condition is fulfilled by the item _before use._
 
 
 ### Example

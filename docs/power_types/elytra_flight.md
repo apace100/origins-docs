@@ -15,8 +15,8 @@ Type ID: `origins:elytra_flight`
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`render_elytra` | [Boolean](../data_types/boolean.md) |  | Whether an Elytra should render on the player's back while this power is active.
-`texture_location` | [Identifier](../data_types/identifier.md) | *optional* | If set, this will be the texture used by an Elytra granted by this power.
+`render_elytra` | [Boolean](../data_types/boolean.md) |  | Determines whether an Elytra should render on the player's back while this power is active.
+`texture_location` | [Identifier](../data_types/identifier.md) | _optional_ | If specified, this will be the texture used by the Elytra granted by this power.
 
 ### Example
 ```json

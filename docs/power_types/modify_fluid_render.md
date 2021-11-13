@@ -7,7 +7,7 @@ date: 2021-10-05
 
 [Power Type](../power_types.md)
 
-Modifies how a fluid would look like to the entity.
+Modifies how a fluid would look like to the entity that has the power.
 
 Type ID: `origins:modify_fluid_render`
 
@@ -19,9 +19,9 @@ Type ID: `origins:modify_fluid_render`
 
 Field | Type | Default | Description
 ------|------|---------|-------------
-`block_condition` | [Block Condition](../block_conditions.md) | _optional_ | If set, modifies how the block that meets this condition would look like.
-`fluid_condition` | [Fluid Condition](../fluid_conditions.md) | _optional_ | If set, modifies how the fluid that meets the condition would look like.
-`fluid` | [Identifier](../data_types/identifier.md) | | The ID of the fluid that would replace how the block/fluid that meets the conditions in the `block_condition` and/or `fluid_condition` object field would look like.
+`block_condition` | [Block Condition](../block_conditions.md) | _optional_ | If specified, only modify how the blocks that fulfills this condition would look like.
+`fluid_condition` | [Fluid Condition](../fluid_conditions.md) | _optional_ | If specified, only modify how the fluids that fulfills this condition would look like.
+`fluid` | [Identifier](../data_types/identifier.md) | | The namespace and ID of the replacement fluid.
 
 ### Example
 ```json

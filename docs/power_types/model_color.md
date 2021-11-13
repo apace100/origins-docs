@@ -7,7 +7,7 @@ date: 2021-04-08
 
 [Power Type](../power_types.md)
 
-Multiplies the color of the player's texture.
+Multiplies the color of the texture of entity that has the power.
 
 Type ID: `origins:model_color`
 
@@ -15,10 +15,10 @@ Type ID: `origins:model_color`
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`red` | [Float](../data_types/float.md) | 1.0 | Value by which the red component of the texture will be multiplied. Range: 0 - 1.
-`green` | [Float](../data_types/float.md) | 1.0 | Value by which the green component of the texture will be multiplied. Range: 0 - 1.
-`blue` | [Float](../data_types/float.md) | 1.0 | Value by which the blue component of the texture will be multiplied. Range: 0 - 1.
-`alpha` | [Float](../data_types/float.md) | 1.0 | Value by which the alpha (= transparency) component of the texture will be multiplied. Range: 0 - 1.
+`red` | [Float](../data_types/float.md) | `1.0` | Value by which the red component of the texture will be multiplied. Range: 0.0 - 1.0.
+`green` | [Float](../data_types/float.md) | `1.0` | Value by which the green component of the texture will be multiplied. Range: 0.0 - 1.0.
+`blue` | [Float](../data_types/float.md) | `1.0` | Value by which the blue component of the texture will be multiplied. Range: 0.0 - 1.0.
+`alpha` | [Float](../data_types/float.md) | `1.0` | Value by which the alpha (= transparency) component of the texture will be multiplied. Range: 0.0 - 1.0.
 
 ### Example
 ```json

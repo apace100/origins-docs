@@ -7,7 +7,7 @@ date: 2021-04-06
 
 [Power Type](../power_types.md)
 
-Modifies how fast the player moves in lava.
+Modifies how fast the entity that has the power moves in lava.
 
 Type ID: `origins:modify_lava_speed`
 
@@ -15,8 +15,8 @@ Type ID: `origins:modify_lava_speed`
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`modifier` | [Attribute Modifier](../data_types/attribute_modifier.md) | _optional_ | If set, this modifier will apply to the speed in lava.
-`modifiers` | [Array](../data_types/array.md) of [Attribute Modifiers](../data_types/attribute_modifier.md) | _optional_ | If set, these modifiers will apply to the speed in lava.
+`modifier` | [Attribute Modifier](../data_types/attribute_modifier.md) | _optional_ | If specified, this modifier will be applied to the movement speed while in lava.
+`modifiers` | [Array](../data_types/array.md) of [Attribute Modifiers](../data_types/attribute_modifier.md) | _optional_ | If specified, these modifiers will be applied to the movement speed while in lava.
 
 
 ### Example

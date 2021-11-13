@@ -7,7 +7,7 @@ date: 2021-04-08
 
 [Power Type](../power_types.md)
 
-Allows a player with this power to use the defined crafting recipe.
+Allows a player with this power to craft the defined crafting recipe.
 
 Type ID: `origins:recipe`
 

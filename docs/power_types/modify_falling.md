@@ -7,17 +7,20 @@ date: 2021-07-06
 
 [Power Type](../power_types.md)
 
-Modifies player's falling velocity, and whether if the player should take fall damage or not.
-By default, the player falls at a speed of 0.08, or 0.01 if a slow falling potion is active.
+Modifies the falling velocity of the entity that has the power; can determine whether the entity should take fall damage or not.
 
 Type ID: `origins:modify_falling`
 
+!!! note
+
+    By default, the player falls at a speed of 0.08, or 0.01 if a Slow Falling status effect is present.
+
 ### Fields:
 
-Field              | Type                                | Default | Description
--------------------|-------------------------------------|---------|------------
-`velocity`         | [Float](../data_types/float.md)     |         | How slow/fast the falling velocity should be.
-`take_fall_damage` | [Boolean](../data_types/boolean.md) | true    | Whether the player should take fall damage or not.
+Field | Type | Default | Description
+------|------|---------|------------
+`velocity` | [Float](../data_types/float.md) | | Determines the speed of the falling velocity.
+`take_fall_damage` | [Boolean](../data_types/boolean.md) | `true` | Determines whether the entity should take fall damage or not.
 
 ### Example:
 

@@ -7,7 +7,7 @@ date: 2021-04-07
 
 [Power Type](../power_types.md)
 
-Prevents dying. Any damage which would kill the player while this power is active, instead reduces them to half a heart. Also allows executing an action on the player when this happens, so you could spawn particles, heal the player back up, or do other stuff.
+Prevents death; any damage which would kill the entity that has the power will instead reduce their health to half a heart.
 
 Type ID: `origins:prevent_death`
 
@@ -15,8 +15,8 @@ Type ID: `origins:prevent_death`
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`damage_condition` | [Damage Condition](../damage_conditions.md) | _optional_ | If set, death will only prevented when damage which matches this condition is dealt. Other damage will still kill the player.
-`entity_action` | [Entity Action](../entity_actions.md) | _optional_ | The action to execute on the player when death is prevented.
+`damage_condition` | [Damage Condition](../damage_conditions.md) | _optional_ | If specified, death will only be prevented if the damage dealt to the entity fulfills this condition.
+`entity_action` | [Entity Action](../entity_actions.md) | _optional_ | If specified, this action will be executed on the entity when death is prevented.
 
 ### Example
 ```json

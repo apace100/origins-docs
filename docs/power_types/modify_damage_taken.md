@@ -7,7 +7,7 @@ date: 2021-04-06
 
 [Power Type](../power_types.md)
 
-Modifies how much damage the player takes.
+Modifies how much damage the entity that has the power takes.
 
 Type ID: `origins:modify_damage_taken`
 
@@ -15,11 +15,11 @@ Type ID: `origins:modify_damage_taken`
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`damage_condition` | [Damage Condition](../damage_conditions.md) | _optional_ | If set, the modifiers will only apply to damage which satisfies this condition.
-`modifier` | [Attribute Modifier](../data_types/attribute_modifier.md) | _optional_ | If set, this modifier will apply to the damage amount.
-`modifiers` | [Array](../data_types/array.md) of [Attribute Modifiers](../data_types/attribute_modifier.md) | _optional_ | If set, these modifiers will apply to the damage amount.
-`self_action` | [Entity Action](../entity_actions.md) | _optional_ | If set, this action will be executed on the player whenever this power applies a modification.
-`attacker_action` | [Entity Action](../entity_actions.md) | _optional_ | If set, this action will be executed on the attacker whenever this power applies a modification.
+`damage_condition` | [Damage Condition](../damage_conditions.md) | _optional_ | If specified, the specified modifiers(s) and/or action(s) will only apply if the taken damage fulfills this condition.
+`modifier` | [Attribute Modifier](../data_types/attribute_modifier.md) | _optional_ | If specified, this modifier will apply to the damage amount.
+`modifiers` | [Array](../data_types/array.md) of [Attribute Modifiers](../data_types/attribute_modifier.md) | _optional_ | If specified, these modifiers will apply to the damage amount.
+`self_action` | [Entity Action](../entity_actions.md) | _optional_ | If specified, this action will be executed on the entity that has the power whenever the modifier(s) is applied.
+`attacker_action` | [Entity Action](../entity_actions.md) | _optional_ | If specified, this action will be executed on the entity/entities that has been hit whenever the modifier(s) is applied.
 
 
 ### Example

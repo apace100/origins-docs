@@ -7,19 +7,23 @@ date: 2021-07-04
 
 [Power Type](../power_types.md)
 
-Blocks the player from equipping items as armor (via right-click, from dispensing, and by dragging them over in the inventory). May depend on a condition, use [Restrict Armor](restrict_armor.md) if you are not adding a `condition` (except the item conditions, of course).
+Restricts the entity that has the power from equipping items as armor (via right-click, dispensing or by dragging and dropping the item in the equipment slot(s)) in the specified equipment slot(s); may depend on a `condition`.
 
 Type ID: `origins:conditioned_restrict_armor`
+
+!!! note
+
+    You can use the [Restrict Armor](restrict_armor.md) power type if an entity condition is not needed.
 
 ### Fields
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`head` | [Item Condition](../item_conditions.md) | _optional_ | If set, items which satisfy this condition can not be equipped in the head slot.
-`chest` | [Item Condition](../item_conditions.md) | _optional_ | If set, items which satisfy this condition can not be equipped in the chest slot.
-`legs` | [Item Condition](../item_conditions.md) | _optional_ | If set, items which satisfy this condition can not be equipped in the legs slot.
-`feet` | [Item Condition](../item_conditions.md) | _optional_ | If set, items which satisfy this condition can not be equipped in the feet slot.
-`tick_rate` | [Integer](../data_types/integer.md) | _80_ | The frequency (in ticks) with which to check the condition. Lower values mean the condition changes are detected more quickly, but this comes at a potentially huge performance cost.
+`head` | [Item Condition](../item_conditions.md) | _optional_ | If specified, items which fulfills this condition cannot be equipped in the head equipment slot.
+`chest` | [Item Condition](../item_conditions.md) | _optional_ | If specified, items which fulfills this condition cannot be equipped in the chest equipment slot.
+`legs` | [Item Condition](../item_conditions.md) | _optional_ | If specified, items which fulfills this condition cannot be equipped in the legs equipment slot.
+`feet` | [Item Condition](../item_conditions.md) | _optional_ | If specified, items which fulfills this condition cannot be equipped in the feet equipment slot.
+`tick_rate` | [Integer](../data_types/integer.md) | `80` | The frequency (in ticks) with which to check the condition. Lower values mean the condition changes are detected more quickly, but this comes at a potentially huge performance cost.
 
 ### Example
 ```json

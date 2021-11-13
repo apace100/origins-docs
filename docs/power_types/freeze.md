@@ -7,7 +7,7 @@ date: 2021-10-02
 
 [Power Type](../power_types.md)
 
-Freezes the player, as if they're in a Powdered Snow block.
+Freezes the entity that has the power, as if they're in a Powdered Snow block.
 
 Type ID: `origins:freeze`
 
@@ -22,7 +22,7 @@ _None._
     "type": "origins:freeze"
 }
 ```
-Freezes the player.
+Freezes the entity that has the power.
 <br>
 
 ```json
@@ -37,4 +37,4 @@ Freezes the player.
     }
 }
 ```
-Freezes the player if the player in question is in a biome that snows.
+Freezes the entity that has the power if the entity is in a biome that snows.

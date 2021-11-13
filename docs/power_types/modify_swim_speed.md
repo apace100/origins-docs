@@ -7,7 +7,7 @@ date: 2021-04-06
 
 [Power Type](../power_types.md)
 
-Modifies how fast the player swims.
+Modifies how fast the entity that has the power swims.
 
 Type ID: `origins:modify_swim_speed`
 
@@ -15,8 +15,8 @@ Type ID: `origins:modify_swim_speed`
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`modifier` | [Attribute Modifier](../data_types/attribute_modifier.md) | _optional_ | If set, this modifier will apply to the swim speed.
-`modifiers` | [Array](../data_types/array.md) of [Attribute Modifiers](../data_types/attribute_modifier.md) | _optional_ | If set, these modifiers will apply to the swim speed.
+`modifier` | [Attribute Modifier](../data_types/attribute_modifier.md) | _optional_ | If specified, this modifier will apply to the swim speed.
+`modifiers` | [Array](../data_types/array.md) of [Attribute Modifiers](../data_types/attribute_modifier.md) | _optional_ | If specified, these modifiers will apply to the swim speed.
 
 
 ### Example
@@ -29,4 +29,4 @@ Field  | Type | Default | Description
     }
 }
 ```
-This power makes the player swim/walk significantly faster in water.
+This power makes the entity that has the power swim/walk significantly faster in water.

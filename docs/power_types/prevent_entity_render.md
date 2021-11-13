@@ -7,7 +7,7 @@ date: 2021-04-07
 
 [Power Type](../power_types.md)
 
-Completely prevents a player with this power to see an entity. This will also hide armor, the shadow, and even the hitboxes (which would be shown when F3+B was used).
+Prevents an entity from being rendered to the entity that has the power, including their armor, shadow, and hitboxes.
 
 Type ID: `origins:prevent_entity_render`
 
@@ -15,7 +15,7 @@ Type ID: `origins:prevent_entity_render`
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`entity_condition` | [Entity Condition](../entity_conditions.md) | _optional_ | If set, only entities which fulfill this condition will be invisible.
+`entity_condition` | [Entity Condition](../entity_conditions.md) | _optional_ | If specified, only entities which fulfills this condition will be affected.
 
 ### Example
 ```json

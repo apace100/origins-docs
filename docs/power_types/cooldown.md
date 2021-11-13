@@ -7,16 +7,20 @@ date: 2021-04-07
 
 [Power Type](../power_types.md)
 
-A generic power with a cooldown. The cooldown can be started with the [Trigger Cooldown](../entity_actions/trigger_cooldown.md) action. You can check whether the cooldown has passed with a [Resource](../entity_conditions/resource.md) condition checking for the value of the cooldown power to be 0.
+Provides a cooldown; can be used for providing cooldowns to power types that do not have a built-in cooldown.
 
 Type ID: `origins:cooldown`
+
+!!! note
+
+    This power type provides a cooldown that can be triggered with the [Trigger Cooldown](../entity_actions/trigger_cooldown.md) and [Change Resource](../entity_actions/change_resource.md) entity action types, and check the value of with the [Resource](../entity_conditions/resource.md) entity condition type.
 
 ### Fields
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
 `cooldown` | [Integer](../data_types/integer.md) | | Cooldown duration in ticks.
-`hud_render` | [Hud Render](../data_types/hud_render.md) | | Specifies how and if a cooldown bar is rendered.
+`hud_render` | [Hud Render](../data_types/hud_render.md) | | Determines how the cooldown of this power is visualized on the HUD.
 
 
 ### Example

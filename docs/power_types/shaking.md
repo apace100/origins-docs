@@ -7,7 +7,7 @@ date: 2021-04-10
 
 [Power Type](../power_types.md)
 
-Makes the player shake, similar to a strider out of lava or a zombie undergoing conversion.
+Makes the entity that has the power shake, similar to a strider out of lava or a zombie undergoing conversion.
 
 Type ID: `origins:shaking`
 

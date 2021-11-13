@@ -7,7 +7,7 @@ date: 2021-04-08
 
 [Power Type](../power_types.md)
 
-While this power is active, the player will receive damage in regular intervals.
+Inflicts damage on the entity that has the power from a specified damage source within the specified interval.
 
 Type ID: `origins:damage_over_time`
 
@@ -21,7 +21,7 @@ Field  | Type | Default | Description
 `damage_easy` | [Float](../data_types/float.md) | _optional_ | How much damage will be dealt each interval on Easy difficulty. If not set, this will be equal to `damage`.
 `damage_source` | [Damage Source](../data_types/damage_source.md) | _optional_ | If set, this is the damage source that will be used to deal the damage.
 `protection_enchantment` | [Identifier](../data_types/identifier.md) | _optional_ | If set, the total amount of levels of this enchantment will be counted on the player's armor to increase the `onset_delay`.
-`protection_effectiveness` | [Float](../data_types/float.md) | 1.0 | If `protection_enchantment` is set, this multiplier scales how effective it will be (1.0 = time the `onset_delay` is increased is the same as with Hydrophobia and Water Protection).
+`protection_effectiveness` | [Float](../data_types/float.md) | `1.0` | If `protection_enchantment` is set, this multiplier scales how effective it will be (1.0 = time the `onset_delay` is increased is the same as with Hydrophobia and Water Protection).
 
 ### Example
 ```json

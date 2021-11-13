@@ -7,16 +7,24 @@ date: 2021-04-07
 
 [Power Type](../power_types.md)
 
-Defines a power which can be toggled on and off with the active power key. Can be used by coders with a `PowerTypeReference` to provide functionality, or by other powers with a [Power Active](../entity_conditions/power_active.md) condition.
+Provides a switch that can be toggled ON and OFF with the specified [Key](../data_types/key.md).
 
 Type ID: `origins:toggle`
+
+!!! note
+
+    To check if the power with this power type is toggled ON (or OFF), you can use the [Power Active](../entity_conditions/power_active.md) entity condition type.
+
+!!! note
+
+    This power type can be used by <u>**addon**</u> developers by creating a new `PowerTypeReference` to provide functionality.
 
 ### Fields
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
 `active_by_default` | [Boolean](../data_types/boolean.md) | `true` | Whether this power starts in the on or off state.
-`key` | [Key](../data_types/key.md) | `primary` | Which active key this power should respond to.
+`key` | [Key](../data_types/key.md) | `{"key": "key.origins.primary_active"}` | Which active key this power should respond to.
 
 
 ### Example

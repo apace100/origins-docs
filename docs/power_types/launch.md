@@ -7,7 +7,7 @@ date: 2021-04-08
 
 [Power Type](../power_types.md)
 
-An active power which launches the player into the air.
+Launches the entity that has the power upwards upon pressing the specified [Key](../data_types/key.md).
 
 Type ID: `origins:launch`
 
@@ -15,11 +15,11 @@ Type ID: `origins:launch`
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`cooldown` | [Integer](../data_types/integer.md) | | The number of ticks the player has to wait between uses of this power.
+`cooldown` | [Integer](../data_types/integer.md) | | Interval of ticks this power needs to recharge before the power can be triggered again.
 `speed` | [Float](../data_types/float.md) | | The speed applied to the player in the upwards direction.
-`hud_render` | [Hud Render](../data_types/hud_render.md) | | Specifies how and if a cooldown bar is rendered.
-`sound` | [Identifier](../data_types/identifier.md) | _optional_ | If set, the sound with this ID will be played when the power is used.
-`key` | [Key](../data_types/key.md) | _optional_ | Which active key this power should respond to. If none is specified, this power will use the primary active power key (by default G).
+`hud_render` | [Hud Render](../data_types/hud_render.md) | | Determines how the cooldown of this power is visualized on the HUD.
+`sound` | [Identifier](../data_types/identifier.md) | _optional_ | If specified, the sound event with this namespace and ID will be played when the power is triggered.
+`key` | [Key](../data_types/key.md) | _optional_ | Which active key this power should respond to.
 
 ### Example
 ```json

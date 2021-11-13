@@ -15,7 +15,7 @@ Type ID: `origins:prevent_item_use`
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`item_condition` | [Item Condition](../item_conditions.md) | _optional_ | If set, only items which satisfy this condition will be blocked from being used.
+`item_condition` | [Item Condition](../item_conditions.md) | _optional_ | If specified, only items that fulfills this condition will be prevented from being used.
 
 ### Example
 ```json

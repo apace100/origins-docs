@@ -7,16 +7,20 @@ date: 2021-04-06
 
 [Power Type](../power_types.md)
 
-Modifies how much XP the player gains when they pick up an experience orb. Be careful not too make this go too high, as then the player would be able to gain more experience from dying.
+Modifies how much XP the player gains when they pick up an experience orb.
 
 Type ID: `origins:modify_xp_gain`
+
+!!! note
+
+    Be careful not to make this go too high, as then the player would be able to gain more experience from dying.
 
 ### Fields
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`modifier` | [Attribute Modifier](../data_types/attribute_modifier.md) | _optional_ | If set, this modifier will apply to the experience gained.
-`modifiers` | [Array](../data_types/array.md) of [Attribute Modifiers](../data_types/attribute_modifier.md) | _optional_ | If set, these modifiers will apply to the experience gained.
+`modifier` | [Attribute Modifier](../data_types/attribute_modifier.md) | _optional_ | If specified, this modifier will apply to the experience gained.
+`modifiers` | [Array](../data_types/array.md) of [Attribute Modifiers](../data_types/attribute_modifier.md) | _optional_ | If specified, these modifiers will apply to the experience gained.
 
 
 ### Example

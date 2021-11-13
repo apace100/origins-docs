@@ -7,7 +7,7 @@ date: 2021-04-10
 
 [Power Type](../power_types.md)
 
-Executes an entity action on the player in a regular interval.
+Executes an entity action on the entity that has the power within the specified interval.
 
 Type ID: `origins:action_over_time`
 
@@ -15,8 +15,8 @@ Type ID: `origins:action_over_time`
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`interval` | [Integer](../data_types/integer.md) | | Interval of ticks between subsequent executions of the action. Must be a value of at least 1.
-`entity_action` | [Entity Action](../entity_actions.md) | _optional_ | The action to execute on the player each interval.
+`interval` | [Integer](../data_types/integer.md) | | Interval of ticks between subsequent executions of the specified actions. Must be a value of at least 1.
+`entity_action` | [Entity Action](../entity_actions.md) | _optional_ | The action to execute on the entity that has the power each interval.
 `rising_action` | [Entity Action](../entity_actions.md) | _optional_ | The action to execute on the first interval tick in which the condition became true.
 `falling_action` | [Entity Action](../entity_actions.md) | _optional_ | The action to execute on the first interval tick in which the condition became false.
 

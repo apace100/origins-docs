@@ -15,11 +15,11 @@ Type ID: `origins:action_on_hit`
 
 Field | Type | Default | Description
 ------|------|---------|-------------
-`bientity_action` | [Bi-entity Action](../bientity_actions.md) | | The action to execute upon hit.
-`damage_condition` | [Damage Condition](../damage_conditions.md) | _optional_ | If set, the action will only trigger when this condition holds for the damage that was dealt by the entity that has the power.
-`cooldown` | [Integer](../data_types/integer.md) | 1 | Interval of ticks this power needs to recharge before the action can be executed again.
+`bientity_action` | [Bi-entity Action](../bientity_actions.md) | | The action to be executed on either or both 'actor' (the entity that has the power) and 'target' (the entity/entities that's been hit) entities.
+`damage_condition` | [Damage Condition](../damage_conditions.md) | _optional_ | If specified, the action will only execute when this condition holds for the damage that was dealt by the 'actor' (the entity that has the power) entity.
+`cooldown` | [Integer](../data_types/integer.md) | `1` | Interval of ticks this power needs to recharge before the power can be triggered again.
 `hud_render` | [Hud Render](../data_types/hud_render.md) | `{"should_render": false}` | Determines how the cooldown of this power is visualized on the HUD.
-`bientity_condition` | [Bi-entity Condition](../bientity_conditions.md) | _optional_ | If set, the action will only trigger when this bi-entity condition is fulfilled.
+`bientity_condition` | [Bi-entity Condition](../bientity_conditions.md) | _optional_ | If specified, the action will only execute when this condition is fulfilled by either or both 'actor' (the entity that has the power) and 'target' (the entity/entities that's been hit) entities. 
 
 ### Example
 ```json

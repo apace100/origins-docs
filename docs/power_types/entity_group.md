@@ -7,15 +7,23 @@ date: 2021-07-13
 
 [Power Type](../power_types.md)
 
-Defines the entity group of the player, mostly used for determining enchantment bonus damage towards the player. A player should only have one of these powers.
+Defines the entity group of the entity that has the power.
 
 Type ID: `origins:entity_group`
+
+!!! note
+
+    See [Minecraft Fandom Wiki: Mob (Classification)](https://minecraft.fandom.com/wiki/Mob#Classification) for more information about entity groups.
+
+!!! note
+
+    This power type is mostly used for determining the enchantment bonus damage towards the entity that has the power. That being said, there should only be one power that uses this power type.
 
 ### Fields
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`group` | [String](../data_types/string.md) | | The group to associate with the player. One of `default`, `undead`, `arthropod`, `illager`, or `aquatic`. [See here for more information about the entity groups](https://minecraft.fandom.com/wiki/Mob#Classification)
+`group` | [String](../data_types/string.md) | | The group to associate with the player. One of `default`, `undead`, `arthropod`, `illager`, or `aquatic`.
 
 ### Example
 ```json

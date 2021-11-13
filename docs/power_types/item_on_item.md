@@ -7,7 +7,7 @@ date: 2021-10-02
 
 [Power Type](../power_types.md)
 
-Executes an entity action or item actions on the item used for right-clicking an item, or the item that's been right-clicked when the player uses an item on an item (e.g: right-clicking an item on top of an item, like how you would put items in a bundle).
+Executes an entity action or item actions when the player uses an item on an item, similar to how you would put items in a bundle.
 
 Type ID: `origins:item_on_item`
 
@@ -19,13 +19,13 @@ Type ID: `origins:item_on_item`
 
 Field | Type | Default | Description
 ------|------|---------|-------------
-`using_item_condition` | [Item Condition](../item_conditions.md) | _optional_ | If set, the actions will only trigger when this condition is met by the item used to right-click an item stack.
-`on_item_condition` | [Item Condition](../item_conditions.md) | _optional_ | If set, the actions will only trigger when this condition is met by the item stack that's been right-clicked.
-`result` | [Item Stack](../data_types/item_stack.md) | _optional_ | If set, the specified item stack will be given to the player.
-`using_item_action` | [Item Action](../item_actions.md) | _optional_ | If set, this action will be executed on the item stack used to right-click an item stack.
-`on_item_action` | [Item Action](../item_actions.md) | _optional_ | If set, this action will be executed on the item stack that's been right-clicked.
-`result_item_action` | [Item Action](../item_actions.md) | _optional_ | If set, this action will be executed on the item stack specified in the `result` field.
-`entity_action` | [Entity Action](../entity_actions.md) | _optional_ | If set, this action will be executed on the player after they used an item on an item.
+`using_item_condition` | [Item Condition](../item_conditions.md) | _optional_ | If specified, the specified actions will only execute if this condition is fulfilled by the item that is used to right-click an item.
+`on_item_condition` | [Item Condition](../item_conditions.md) | _optional_ | If specified, the specified actions will only execute if this condition is fulfilled by the item that has been right-clicked.
+`result` | [Item Stack](../data_types/item_stack.md) | _optional_ | If specified, this item will be given to the player.
+`using_item_action` | [Item Action](../item_actions.md) | _optional_ | If specified, this action will be executed on the item that is used to right-click an item.
+`on_item_action` | [Item Action](../item_actions.md) | _optional_ | If specified, this action will be executed on the item that has been right-clicked.
+`result_item_action` | [Item Action](../item_actions.md) | _optional_ | If specified, this action will be executed on the item that is given to the player.
+`entity_action` | [Entity Action](../entity_actions.md) | _optional_ | If specified, this action will be executed on the player after they used an item on an item.
 
 ### Example
 ```json

@@ -7,7 +7,7 @@ date: 2021-04-07
 
 [Power Type](../power_types.md)
 
-Sets the player on fire in regular intervals.
+Sets the entity that has the power on fire within the specified interval.
 
 Type ID: `origins:burn`
 
@@ -16,7 +16,7 @@ Type ID: `origins:burn`
 Field  | Type | Default | Description
 -------|------|---------|-------------
 `interval` | [Integer](../data_types/integer.md) |  | Interval between being set on fire, in ticks.
-`burn_duration` | [Integer](../data_types/integer.md) |  | Time the fire should last on the player each time it is set, in seconds.
+`burn_duration` | [Integer](../data_types/integer.md) |  | Determines how long the fire should last on the entity each time it is set, in seconds.
 
 
 ### Example

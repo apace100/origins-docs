@@ -7,7 +7,7 @@ date: 2021-04-06
 
 [Power Type](../power_types.md)
 
-Moves the player's spawn to another dimension and/or to a structure.
+Modifies the location of the player's spawnpoint to the specified dimension, biome and/or structure.
 
 Type ID: `origins:modify_player_spawn`
 
@@ -15,11 +15,11 @@ Type ID: `origins:modify_player_spawn`
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`dimension` | [Identifier](../data_types/identifier.md) | | ID of the dimension the player should spawn in. Vanilla dimensions are `minecraft:overworld`, `minecraft:the_nether` and `minecraft:the_end`, but IDs of custom/modded dimensions should also work.
-`biome` | [Identifier](../data_types/identifier.md) | _optional_ | If set, the player will spawn in the biome with this ID.
-`structure` | [Identifier](../data_types/identifier.md) | _optional_ | ID of the structure the player should spawn in. Keep in mind that the structure needs to generate in the specified dimension!
-`spawn_strategy` | [String](../data_types/string.md) | "default" | Either `default` or `center`. `default` tries to find a spawn close to the coordinates of the overworld spawn (while considering the `dimension_distance_multiplier`). `center` tries to spawn the player close to 0, 0 of the dimension.
-`dimension_distance_multiplier` | [Float](../data_types/float.md) | _optional_ | Needs to be set when `spawn_strategy` is `default`. Defines the ratio of overworld blocks to blocks in this dimension, e.g. for the Nether this would be `0.125`.
+`dimension` | [Identifier](../data_types/identifier.md) | | The namespace and ID of the dimension the player should spawn in.
+`biome` | [Identifier](../data_types/identifier.md) | _optional_ | If specified, the player will only spawn in the biome that matches the specified namespace and ID.
+`structure` | [Identifier](../data_types/identifier.md) | _optional_ | If specified, the player will only spawn in the specified namespace and ID of the structure. **The structure needs to generate in the specified dimension.**
+`spawn_strategy` | [String](../data_types/string.md) | `"default"` | Determines whether the player should spawn near the world spawnpoint (0, 0) of the dimension (`"center"`) or near the coordinates of the Overworld spawnpoint (whilst considering the value of the `dimension_distance_multiplier` field) (`"default"`).
+`dimension_distance_multiplier` | [Float](../data_types/float.md) | _optional_ | Defines the ratio of Overworld blocks to blocks in the specified dimension. e.g: for The Nether dimension, this would be set to `0.125`. **This needs to be set when `spawn_strategy` is set to `"default"`**
 
 ### Example
 

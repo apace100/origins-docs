@@ -7,13 +7,13 @@ date: 2021-04-08
 
 [Power Type](../power_types.md)
 
-When reaching more than 0 stacks, the player will receive the provided status effects.
+Provides a system where the entity that has the power gains/loses a stack per specified interval if the power is active or inactive respectively. If the stack count is greater than 0, the specified status effect(s) will be applied to the entity.
 
 Type ID: `origins:stacking_status_effect`
 
 !!! note
 
-    This power gains or loses 1 stack per set tick rate if the power is active or inactive respectively.
+    The actual duration of the specified status effect(s) is determined by the `stacks * duration_per_stack` formula.
 
 ### Fields
 
@@ -21,10 +21,10 @@ Field  | Type | Default | Description
 -------|------|---------|-------------
 `min_stacks` | [Integer](../data_types/integer.md) | | The minimum number of stacks. Negative numbers are allowed.
 `max_stacks` | [Integer](../data_types/integer.md) | | The maximum number of stacks.
-`duration_per_stack` | [Integer](../data_types/integer.md) | | When the status effects are applied, their duration will be `stacks * duration_per_stack` in ticks.
-`tick_rate` | [Integer](../data_types/integer.md) | 10 | Determines how fast one will gain/lose stacks in ticks.
-`effect` | [Status Effect Instance](../data_types/status_effect_instance.md) | _optional_ | If set, this status effect will be applied by this power.
-`effects` | [Array](../data_types/array.md) of [Status Effect Instances](../data_types/status_effect_instance.md) | _optional_ | If set, these status effects will be applied by this power.
+`duration_per_stack` | [Integer](../data_types/integer.md) | | Determines the duration of the specified status effect(s) for each stack.
+`tick_rate` | [Integer](../data_types/integer.md) | `10` | Determines how fast the power will gain/lose stacks in ticks.
+`effect` | [Status Effect Instance](../data_types/status_effect_instance.md) | _optional_ | If specified, this status effect will be applied on the entity that has the power.
+`effects` | [Array](../data_types/array.md) of [Status Effect Instances](../data_types/status_effect_instance.md) | _optional_ | If specified, these status effects will be applied on the entity that has the power.
 
 ### Example
 ```json

@@ -7,7 +7,7 @@ date: 2021-04-04
 
 [Power Type](../power_types.md)
 
-Executes an entity action on the player when the player uses a specified [Key](../data_types/key.md) (default: G).
+Executes an entity action on the entity that has the power upon pressing the specified [Key](../data_types/key.md).
 
 Type ID: `origins:active_self`
 
@@ -16,7 +16,7 @@ Type ID: `origins:active_self`
 Field  | Type | Default | Description
 -------|------|---------|-------------
 `entity_action` | [Entity Action](../entity_actions.md) | | The action to execute on the player.
-`cooldown` | [Integer](../data_types/integer.md) | `1` | Interval of ticks this power needs to recharge before the action can be executed again.
+`cooldown` | [Integer](../data_types/integer.md) | `1` | Interval of ticks this power needs to recharge before the power can be triggered again.
 `hud_render` | [Hud Render](../data_types/hud_render.md) | `{"should_render": false}` | Determines how the cooldown of this power is visualized on the HUD.
 `key` | [Key](../data_types/key.md) | `{"key": "key.origins.primary_active"}` | Which active key this power should respond to.
 

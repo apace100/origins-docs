@@ -7,7 +7,7 @@ date: 2021-10-06
 
 [Power Type](../power_types.md)
 
-Modifies the entity's air speed.
+Modifies the air speed of the entity that has the power.
 
 Type ID: `origins:modify_air_speed`
 

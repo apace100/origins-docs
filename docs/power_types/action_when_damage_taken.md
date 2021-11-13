@@ -17,8 +17,8 @@ Field | Type | Default | Description
 ------|------|---------|-------------
 `entity_action` | [Entity Action](../entity_actions.md) | | The action to be executed upon taking damage.
 `damage_condition` | [Damage Condition](../damage_conditions.md) | _optional_ | If specified, the action will only trigger when this condition holds for the specified type of damage.
-`cooldown` | [Integer](../data_types/integer.md) | 1 | Interval of ticks this power needs to recharge before the action can be executed again.
-`hud_render` | [Hud Render](../data_types/hud_render.md) | `{"should_render": false}` | Specifies how the cooldown of this power is visualized on the HUD.
+`cooldown` | [Integer](../data_types/integer.md) | | Interval of ticks this power needs to recharge before the power can be triggered again.
+`hud_render` | [Hud Render](../data_types/hud_render.md) | `{"should_render": false}` | Determines how the cooldown of this power is visualized on the HUD.
 
 ### Example
 ```json
@@ -30,7 +30,8 @@ Field | Type | Default | Description
     },
     "damage_condition": {
         "type": "origins:fire"
-    }
+    },
+    "cooldown": 1
 }
 ```
 This example executes an `origins:execute_command` entity action if the damage type taken is fire-related.

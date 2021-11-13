@@ -15,7 +15,7 @@ Type ID: `origins:status_bar_texture`
 
 Field | Type | Default | Description
 ------|------|---------|-------------
-`texture` | [Identifier](../data_types/identifier.md) | | The ID of the sprite sheet to replace the default one with. [Here's what the vanilla sprite sheet looks like.](https://media.discordapp.net/attachments/802622603008409600/893716345055772682/unknown.png)
+`texture` | [Identifier](../data_types/identifier.md) | | The namespace and ID of the sprite sheet to replace the default one with. [Here's what the vanilla sprite sheet looks like.](https://media.discordapp.net/attachments/802622603008409600/893716345055772682/unknown.png)
 
 ### Example
 ```json
