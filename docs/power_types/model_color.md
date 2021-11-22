@@ -7,9 +7,13 @@ date: 2021-04-08
 
 [Power Type](../power_types.md)
 
-Multiplies the color of the texture of entity that has the power.
+Multiplies the luminosity of the base color of the texture of the entity that has the power by the specified color values.
 
 Type ID: `origins:model_color`
+
+!!! caution
+
+	The resulting color will **always** be a darker color. Currently, there is no way to make it bright due to how the power type blends the color.
 
 ### Fields
 
