@@ -1,5 +1,5 @@
 ---
-title: Damage Sources (Extra)
+title: Damage Sources (Extras)
 date: 2021-06-23
 ---
 

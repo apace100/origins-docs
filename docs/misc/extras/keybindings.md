@@ -1,5 +1,5 @@
 ---
-title: Keybindings (Extra)
+title: Keybindings (Extras)
 date: 2021-04-04
 ---
 

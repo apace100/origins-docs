@@ -1,5 +1,5 @@
 ---
-title: Biome Categories (Extra)
+title: Biome Categories (Extras)
 date: 2021-04-05
 ---
 

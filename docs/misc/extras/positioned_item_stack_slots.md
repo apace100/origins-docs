@@ -1,5 +1,5 @@
 ---
-title: Positioned Item Stack Slots (Extra)
+title: Positioned Item Stack Slots (Extras)
 date: 2021-06-19
 ---
 

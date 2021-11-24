@@ -1,5 +1,5 @@
 ---
-title: Sprites (Extra)
+title: Sprites (Extras)
 date: 2021-04-04
 ---
 

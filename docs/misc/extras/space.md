@@ -1,5 +1,5 @@
 ---
-title: Space (Extra)
+title: Space (Extras)
 date: 2021-11-03
 ---
 
