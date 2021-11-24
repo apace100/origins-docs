@@ -34,7 +34,11 @@ Field  | Type | Default | Description
 	"max": 1,
 	"hud_render": {
 		"should_render": false
-	}
+	},
+    "min_action": {
+        "type": "origins:heal",
+        "amount": 6
+    }
 }
 ```
-This power is a resource which stores a value of either 0 or 1, effectively being able to act as a toggle or boolean which can be changed from entity actions.
+This power is a resource which stores a value of either 0 or 1, effectively being able to act as a toggle or boolean which can be changed from entity actions. When the resource reaches 0, the entity is healed for 3 hearts.
