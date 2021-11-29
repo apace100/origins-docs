@@ -13,7 +13,8 @@ Type ID: `origins:exhaust`
 
 !!! note
 
-    This entity action type will **only** work on players.
+    **This entity action type will only work on players.**
+
 
 ### Fields
 
@@ -21,11 +22,14 @@ Field  | Type | Default | Description
 -------|------|---------|-------------
 `amount` | [Float](../data_types/float.md) |  | The amount of exhaustion to apply to the player.
 
-### Example
+
+### Examples
+
 ```json
 "entity_action": {
     "type": "origins:exhaust",
     "amount": 0.4
 }
 ```
-This action applies 0.4 exhaustion, which is similar in effect to jumping 8 times (without sprinting).
+
+This example will apply 0.4 exhaustion to the player, which is similar in effect to jumping 8 times (without sprinting).

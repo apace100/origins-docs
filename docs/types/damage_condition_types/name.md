@@ -11,17 +11,21 @@ Checks whether the damage source has a specific name (essentially checking the t
 
 Type ID: `origins:name`
 
-### Fields:
+
+### Fields
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`name` | [String](../data_types/string.md) | |  Name the damage source should have to pass the check. See [List of vanilla damage source names](../../misc/extra/vanilla_damage_sources.md).
+`name` | [String](../data_types/string.md) | |  Name the damage source should have to pass the check. See [List of Damage Sources](../../misc/extras/damage_sources.md) for possible values.
 
-### Example
+
+### Examples
+
 ```json
 "damage_condition": {
     "type": "origins:name",
     "name": "inWall"
 }
 ```
-This example checks if the damage source is `inWall`, which means that the player is suffocating in a block.
+
+This example will check if the damage source name is `inWall`, meaning that the condition will evaluate to true if the entity is suffocating in a block.

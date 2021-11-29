@@ -11,11 +11,13 @@ Checks whether it is daytime in the world.
 
 Type ID: `origins:daytime`
 
-### Fields:
+
+### Fields
 
 _None._
 
-### Example
+
+### Examples
 ```json
 "condition": {
     "type": "origins:daytime"

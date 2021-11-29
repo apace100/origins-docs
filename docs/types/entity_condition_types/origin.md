@@ -7,18 +7,25 @@ date: 2021-04-04
 
 [Entity Condition Type](../entity_condition_types.md)
 
-Checks whether the player has a certain origin (optionally in a certain layer). Mostly used for [Origin conditions in layers](../../guides/data/origin_conditions_in_layers.md).
+Checks whether the entity has a certain origin (optionally in a certain layer). Mostly used for [Origin conditions in layers](../../guides/data/origin_conditions_in_layers.md).
 
 Type ID: `origins:origin`
 
-### Fields:
+!!! note
+
+    **This entity condition type will only work on players.**
+
+
+### Fields
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`origin` | [Identifier](../data_types/identifier.md) | |  ID of the origin the player needs to have to pass the check.
-`layer` | [Identifier](../data_types/identifier.md) | _optional_ |  If set, will check only the layer with the provided ID for the origin.
+`origin` | [Identifier](../data_types/identifier.md) | | The namespace and ID of the origin the player needs to have to pass the check.
+`layer` | [Identifier](../data_types/identifier.md) | _optional_ |  If specified, only evaluate the condition to true if the origin is from the specified origin layer.
 
-### Example:
+
+### Examples
+
 ```json
 "condition": {
     "type": "origins:origin",
@@ -26,4 +33,5 @@ Field  | Type | Default | Description
     "layer": "origins:origin"
 }
 ```
-This example checks if the player has the `origins:human` origin that is provided by the `origins:origin` origin layer.
+
+This example will check if the player has the `origins:human` origin that is provided by the `origins:origin` origin layer.

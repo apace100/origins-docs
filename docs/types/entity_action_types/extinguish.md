@@ -7,18 +7,20 @@ date: 2021-04-05
 
 [Entity Action Type](../entity_action_types.md)
 
-Removes burning from an entity.
+Extinguishes the fire from the entity, removing the burning effect.
 
 Type ID: `origins:extinguish`
+
 
 ### Fields
 
 _None._
 
-### Example
+
+### Examples
+
 ```json
 "entity_action": {
     "type": "origins:extinguish"
 }
 ```
-Extinguishes the entity.

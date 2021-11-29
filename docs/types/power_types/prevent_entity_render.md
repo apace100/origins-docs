@@ -11,13 +11,16 @@ Prevents an entity from being rendered to the entity that has the power, includi
 
 Type ID: `origins:prevent_entity_render`
 
+
 ### Fields
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`entity_condition` | [Entity Condition](../entity_conditions.md) | _optional_ | If specified, only entities which fulfills this condition will be affected.
+`entity_condition` | [Entity Condition Type](../entity_condition_types.md) | _optional_ | If specified, only entities which fulfills this condition will be affected.
 
-### Example
+
+### Examples
+
 ```json
 {
     "type": "origins:prevent_entity_render",
@@ -30,4 +33,5 @@ Field  | Type | Default | Description
 	}
 }
 ```
-This power makes creepers invisible for the player during day.
+
+This example will make creepers invisible for the player that has the power during the day.

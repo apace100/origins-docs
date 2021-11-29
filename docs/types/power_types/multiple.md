@@ -19,8 +19,33 @@ Type ID: `origins:multiple`
 
     If you wish to check for an entity condition, you would have to check for the said entity condition in every sub-power inside the super-power.
 
-### Fields:
+
+### Fields
 
 Arbitrary fields. Any "key" is considered a sub-power, and takes a fully-defined power type as the value. You can reference sub-powers by using the super-power ID, appended by an underscore (`_`) and lastly the sub-power ID (which is the key), i.e. `<namespace>:<powerfile>_<subpower>`
 
-### Example: [Master of Webs](https://github.com/apace100/origins-fabric/blob/master/src/main/resources/data/origins/powers/master_of_webs.json)
+
+### Examples 
+
+```json
+{
+    "type": "origins:multiple",
+    "toggle": {
+        "type": "origins:toggle",
+        "active_by_default": false,
+        "key": {
+            "key": "key.origins.secondary_active"
+        }
+    },
+    "invisibility": {
+        "type": "origins:invisibility",
+        "render_armor": false,
+        "condition": {
+            "type": "origins:power_active",
+            "power": "*:*_toggle"
+        }
+    }
+}
+```
+
+This example will grant the player that has the super-power to toggle invisibility by pressing the Secondary ability key.

@@ -7,19 +7,22 @@ date: 2021-04-04
 
 [Power Type](../power_types.md)
 
-Modifies how fast the player can break blocks.
+Modifies how fast the player that has the power can break blocks.
 
 Type ID: `origins:modify_break_speed`
+
 
 ### Fields
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`block_condition` | [Block Condition](../block_conditions.md) | _optional_ | If specified, the modifier(s) will only apply to the blocks that fulfills this condition.
-`modifier` | [Attribute Modifier](../types/data_types/attribute_modifier.md) | _optional_ | If specified, this modifier will be applied to the break speed.
-`modifiers` | [Array](../types/data_types/array.md) of [Attribute Modifiers](../types/data_types/attribute_modifier.md) | _optional_ | If specified, these modifiers will be applied to the break speed.
+`block_condition` | [Block Condition Type](../block_condition_types.md) | _optional_ | If specified, the modifier(s) will only apply to the blocks that fulfills this condition.
+`modifier` | [Attribute Modifier](../data_types/attribute_modifier.md) | _optional_ | If specified, this modifier will be applied to the break speed.
+`modifiers` | [Array](../data_types/array.md) of [Attribute Modifiers](../data_types/attribute_modifier.md) | _optional_ | If specified, these modifiers will be applied to the break speed.
 
-### Example
+
+### Examples
+
 ```json
 {
 	"type": "origins:modify_break_speed",
@@ -33,4 +36,5 @@ Field  | Type | Default | Description
 	}
 }
 ```
-This power allows the player to break Netherrack 50% faster than usual.
+
+This example will allow the player to break Netherrack 50% faster than usual.

@@ -11,15 +11,18 @@ Provides the player with items when the power is granted.
 
 Type ID: `origins:starting_equipment`
 
+
 ### Fields
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
 `stack` | [Positioned Item Stack](../data_types/positioned_item_stack.md) | _optional_ | If specified, this item will be given to the player (can be specified in an inventory slot). 
-`stacks` | [Array](../types/data_types/array.md) of [Positioned Item Stacks](../data_types/positioned_item_stack.md) | _optional_ | If specified, these items will be given to the player (can be specified in an inventory slot). 
-`recurrent` | [Boolean](../types/data_types/boolean.md) | `false` | Determines whether the specified item(s) should be given after respawning.
+`stacks` | [Array](../data_types/array.md) of [Positioned Item Stacks](../data_types/positioned_item_stack.md) | _optional_ | If specified, these items will be given to the player (can be specified in an inventory slot). 
+`recurrent` | [Boolean](../data_types/boolean.md) | `false` | Determines whether the specified item(s) should be given after respawning.
+
 
 ### Examples
+
 ```json
 {
   	"type": "origins:starting_equipment",
@@ -37,7 +40,9 @@ Field  | Type | Default | Description
   	]
 }
 ```
-Players with this power will receive the "Explorer Kit" known from Origins: Classes. It contains a compass, a clock, and 9 empty maps.
+
+This example will give the player the "Explorer Kit" known from Origins: Classes that consists of a compass, a clock and 9 empty maps.
+<br>
 
 ```json
 {
@@ -75,4 +80,5 @@ Players with this power will receive the "Explorer Kit" known from Origins: Clas
     ]
 }
 ```
-This example equips the player with a White Stained Glass Block in its head armor slot, a white-colored Leather Chestplate, Leggings and Boots in its chest, legs, and feet armor slots respectively, and a Written Book with two pages in the 9th hotbar slot.
+
+This example will give the player a White Stained Glass Block in its head equipment slot, a white-colored Leather Chestplate, Leggings and Boots in its chest, legs, and feet equipment slots respectively and a Written Book with two pages in the 9th hotbar slot.

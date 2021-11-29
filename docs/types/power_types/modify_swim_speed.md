@@ -11,15 +11,18 @@ Modifies how fast the entity that has the power swims.
 
 Type ID: `origins:modify_swim_speed`
 
+
 ### Fields
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`modifier` | [Attribute Modifier](../types/data_types/attribute_modifier.md) | _optional_ | If specified, this modifier will apply to the swim speed.
-`modifiers` | [Array](../types/data_types/array.md) of [Attribute Modifiers](../types/data_types/attribute_modifier.md) | _optional_ | If specified, these modifiers will apply to the swim speed.
+`modifier` | [Attribute Modifier](../data_types/attribute_modifier.md) | _optional_ | If specified, this modifier will apply to the swim speed.
+`modifiers` | [Array](../data_types/array.md) of [Attribute Modifiers](../data_types/attribute_modifier.md) | _optional_ | If specified, these modifiers will apply to the swim speed.
 
 
-### Example
+
+### Examples
+
 ```json
 {
     "type": "origins:modify_swim_speed",
@@ -29,4 +32,5 @@ Field  | Type | Default | Description
     }
 }
 ```
-This power makes the entity that has the power swim/walk significantly faster in water.
+
+This power will make the entity that has the power swim/walk significantly faster in water.

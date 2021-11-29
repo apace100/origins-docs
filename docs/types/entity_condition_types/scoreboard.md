@@ -7,7 +7,7 @@ date: 2021-04-04
 
 [Entity Condition Type](../entity_condition_types.md)
 
-Compares the value of a scoreboard objective on the player to a specified value.
+Compares the score of the entity from a specified scoreboard objective to a specified value.
 
 Type ID: `origins:scoreboard`
 
@@ -19,15 +19,17 @@ Type ID: `origins:scoreboard`
 
     This condition is only effective server-side. That means client-side power types such as [`origins:climbing`](../power_types/climbing.md), [`origins:entity_glow`](../power_types/entity_glow.md), [`origins:shader`](../power_types/shader.md), etc. won't work with this.
 
-### Fields:
+
+### Fields
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
 `objective` | [String](../data_types/string.md) | | The name of the scoreboard objective to retrieve the value from and compare.
 `comparison` | [Comparison](../data_types/comparison.md) | | How to compare the objective's value to the specified value.
-`compare_to` | [Integer](../data_types/integer.md) | | Which value to compare the objective's value to.
+`compare_to` | [Integer](../data_types/integer.md) | | The value to compare the objective's value to.
 
-### Example:
+
+### Examples
 
 ```json
 "condition": {
@@ -38,4 +40,4 @@ Field  | Type | Default | Description
 }
 ```
 
-This condition will activate whenever the player has a value greater than 3 on the scoreboard objective "obj".
+This example will check if the score of the player in the `obj` scoreboard objective is greater than 3.

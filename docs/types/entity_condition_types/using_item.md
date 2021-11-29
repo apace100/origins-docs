@@ -7,24 +7,29 @@ date: 2021-04-04
 
 [Entity Condition Type](../entity_condition_types.md)
 
-Checks whether the player is using an item (holding right-click, as in drinking a potion or eating food).
+Checks whether the entity is currently using an item (eating a food item, using a shield, drawing a bow, etc.) that fulfills the specified [Item Condition Type](../item_condition_types.md).
 
 Type ID: `origins:using_item`
 
-### Fields:
+!!! ntoe
+
+
+### Fields
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`item_condition` | [Item Condition](../item_conditions.md) | _optional_ | If specified, the condition will only pass if the item that is being used fulfills this condition.
+`item_condition` | [Item Condition Type](../item_condition_types/amount.md) | _optional_ | If specified, the condition will only evaluate to true if the item that is being used fulfills the specified item condition type.
 
-### Example:
+
+### Examples
 
 ```json
 "condition": {
-  "type": "origins:using_item",
-  "item_condition": {
-    "type": "origins:food"
-  }
+    "type": "origins:using_item",
+    "item_condition": {
+        "type": "origins:food"
+    }
 }
 ```
-Checks whether the entity is currently eating food.
+
+This example will check if the entity is currently eating a food item.

@@ -5,10 +5,12 @@ date: 2021-04-04
 
 # List of keybindings
 
+
 ### Origins
 
 * `key.origins.primary_active`
 * `key.origins.secondary_active`
+
 
 ### Minecraft
 

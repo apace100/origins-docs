@@ -11,7 +11,8 @@ Checks the level of a certain enchantment on the item.
 
 Type ID: `origins:enchantment`
 
-### Fields:
+
+### Fields
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
@@ -19,7 +20,9 @@ Field  | Type | Default | Description
 `comparison` | [Comparison](../data_types/comparison.md) | |  How to compare the enchantment level the specified value.
 `compare_to` | [Integer](../data_types/integer.md) | | Which value to compare the enchantment level against.
 
-### Example
+
+### Examples
+
 ```json
 "item_condition": {
     "type": "origins:enchantment",
@@ -28,4 +31,5 @@ Field  | Type | Default | Description
     "compare_to": 3
 }
 ```
-This example checks if the item has the Fortune III enchantment.
+
+This example will check if the item has the Fortune III enchantment.

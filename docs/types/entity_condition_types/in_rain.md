@@ -7,15 +7,18 @@ date: 2021-04-04
 
 [Entity Condition Type](../entity_condition_types.md)
 
-Checks whether it is raining at the player's position.
+Checks if it's raining at the entity's position.
 
 Type ID: `origins:in_rain`
 
-### Fields:
+
+### Fields
 
 _None._
 
-### Example:
+
+### Examples
+
 ```json
 "condition": {
     "type": "origins:in_rain"

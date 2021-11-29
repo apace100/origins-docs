@@ -7,7 +7,8 @@ date: 2021-04-07
 
 Meta Condition Types are independent of the type they operate on. They basically combine or modify other conditions. The conditions which are modified have to be of the type the field of the meta condition requires. For example, if you have a field which requires an [Entity Condition Type](entity_condition_types.md) and you insert an [And (Meta Condition Type)](meta_condition_types/and.md), the condition types you need to provide inside that condition type will have to be an [Entity Condition Type](entity_condition_types.md) as well.
 
-## List
+
+### List
 
 * [And](meta_condition_types/and.md)
 * [Constant](meta_condition_types/constant.md)

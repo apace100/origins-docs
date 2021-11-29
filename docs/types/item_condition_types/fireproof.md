@@ -11,11 +11,14 @@ Checks if the item stack is fireproof.
 
 Type ID: `origins:fireproof`
 
+
 ### Fields
 
 _None._
 
-### Example
+
+### Examples
+
 ```json
 "item_condition": {
     "type": "origins:fireproof"

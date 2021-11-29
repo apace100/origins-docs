@@ -7,7 +7,8 @@ date: 2021-10-06
 
 Bi-entity Action Types operate on a `Pair<Entity, Entity>`; in simpler terms: an actor and a target. The actor and target is determined depending on the used power type, and can be swapped. These are available to power/action types that provides a `bientity_action` object field.
 
-## List
+
+### List
 
 * [Add Velocity](bientity_action_types/add_velocity.md)
 * [Mount](bientity_action_types/mount.md)

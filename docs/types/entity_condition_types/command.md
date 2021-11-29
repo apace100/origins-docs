@@ -7,7 +7,7 @@ date: 2021-04-04
 
 [Entity Condition Type](../entity_condition_types.md)
 
-Compares the result of a command to a specified value.
+Stores the result of the specified command, and compares the stored result to a specified value.
 
 Type ID: `origins:command`
 
@@ -15,15 +15,18 @@ Type ID: `origins:command`
 
     This condition is only effective server-side. That means client-side power types such as [`origins:climbing`](../power_types/climbing.md), [`origins:entity_glow`](../power_types/entity_glow.md), [`origins:shader`](../power_types/shader.md), etc. won't work with this.
 
-### Fields:
+
+### Fields
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
 `command` | [String](../data_types/string.md) | |  The command to execute.
-`comparison` | [Comparison](../data_types/comparison.md) | |  How to compare the command's result to the specified value.
-`compare_to` | [Integer](../data_types/integer.md) | | Which value to compare the command's result to.
+`comparison` | [Comparison](../data_types/comparison.md) | | How to compare the stored result of the specified command to the specified value.
+`compare_to` | [Integer](../data_types/integer.md) | | The value to compare the stored result of the specified command to.
 
-### Example:
+
+### Examples
+
 ```json
 "condition": {
     "type": "origins:command",
@@ -32,4 +35,16 @@ Field  | Type | Default | Description
     "compare_to": 1
 }
 ```
-This example checks if the entity has the same score in the `objective1` and `objective2` scoreboard objectives.
+This example will check if the entity has the same score in the `objective1` and `objective2` scoreboard objectives.
+<br>
+
+```json
+"condition": {
+    "type": "origins:command",
+    "command": "execute if entity @e[type = #minecraft:skeletons, distance = ..64]",
+    "comparison": ">=",
+    "compare_to": 4
+}
+```
+
+This example will check if there are 4 or more entities that are included in the `#minecraft:skeletons` (`data/minecraft/tags/entity_types/skeletons.json`) entity type tag within a 64 blocks spherical radius relative to the entity.

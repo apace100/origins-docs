@@ -11,17 +11,21 @@ Sets the fall distance of the entity to the specified amount. The fall distance 
 
 Type ID: `origins:set_fall_distance`
 
+
 ### Fields
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
 `fall_distance` | [Float](../data_types/float.md) |  | The desired fall distance value.
 
-### Example
+
+### Examples
+
 ```json
 "entity_action": {
     "type": "origins:set_fall_distance",
     "fall_distance": 0
 }
 ```
-Resets the entity's fall distance so the fall damage is now calculated from that point.
+
+This example will reset the entity's fall distance so that the fall damage is now calculated from that point.

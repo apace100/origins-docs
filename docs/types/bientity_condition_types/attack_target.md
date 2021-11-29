@@ -11,11 +11,14 @@ Checks if the actor entity is currently aggressive to the target entity.
 
 Type ID: `origins:attack_target`
 
+
 ### Fields
 
 _None._
 
-### Example
+
+### Examples
+
 ```json
 "bientity_condition": {
     "type": "origins:attack_target"

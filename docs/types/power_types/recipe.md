@@ -11,13 +11,16 @@ Allows a player with this power to craft the defined crafting recipe.
 
 Type ID: `origins:recipe`
 
+
 ### Fields
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`recipe` | [Crafting Recipe](../types/data_types/crafting_recipe.md) | | The recipe to craft, including an `id` field which can be any arbitrary (but unique) identifier.
+`recipe` | [Crafting Recipe](../data_types/crafting_recipe.md) | | The recipe to craft, including an `id` field which can be any arbitrary (but unique) identifier.
 
-### Example
+
+### Examples
+
 ```json
 {
     "type": "origins:recipe",
@@ -38,4 +41,5 @@ Field  | Type | Default | Description
     }
 }
 ```
-This power allows players to craft cobweb by combining two strings in a crafting grid.
+
+This example will allow the player that has the power to craft Cobwebs by combining two strings in a crafting grid.

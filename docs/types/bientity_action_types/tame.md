@@ -11,11 +11,13 @@ Tames the target entity with the actor entity as the owner. Only works on tameab
 
 Type ID: `origins:tame`
 
+
 ### Fields
 
 _None._
 
-### Example
+
+### Examples
 
 ```json
 "bientity_action": {

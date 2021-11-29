@@ -11,15 +11,18 @@ Modifies whether a player is able to harvest a block or not (= receive the block
 
 Type ID: `origins:modify_harvest`
 
+
 ### Fields
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`block_condition` | [Block Condition](../block_conditions.md) | _optional_ | If set, the modification will only apply to blocks which satisfy this condition.
-`allow` | [Boolean](../types/data_types/boolean.md) | _optional_ | When true, the player will be able to harvest the blocks. When false, the player will not be able to harvest the blocks.
+`block_condition` | [Block Condition Type](../block_condition_types.md) | _optional_ | If set, the modification will only apply to blocks which satisfy this condition.
+`allow` | [Boolean](../data_types/boolean.md) | _optional_ | When true, the player will be able to harvest the blocks. When false, the player will not be able to harvest the blocks.
 
 
-### Example
+
+### Examples
+
 ```json
 {
     "type": "origins:modify_harvest",
@@ -30,4 +33,5 @@ Field  | Type | Default | Description
     "allow": true
 }
 ```
-This power allow players to obtain a diamond block regardless of using a proper tool or not.
+
+This example will allow players to harvest a Diamond Block regardless of using the proper tool or not.

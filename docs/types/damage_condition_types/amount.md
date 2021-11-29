@@ -11,14 +11,17 @@ Checks whether the damage is of a specified amount.
 
 Type ID: `origins:amount`
 
-### Fields:
+
+### Fields
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
 `comparison` | [Comparison](../data_types/comparison.md) | |  How the amount of damage should be compared to the specified value.
 `compare_to` | [Float](../data_types/float.md) | | The value to compare the amount of damage to.
 
-### Example
+
+### Examples
+
 ```json
 "damage_condition": {
     "type": "origins:amount",
@@ -26,4 +29,5 @@ Field  | Type | Default | Description
     "compare_to": 4
 }
 ```
-This example checks if the damage dealt/taken is equal to 2 hearts. (or 4 damage points)
+
+This example will check if the damage dealt/taken is equal to 2 hearts.

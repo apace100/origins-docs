@@ -11,14 +11,18 @@ Checks whether the item is considered meat by Minecraft (usable for breeding wol
 
 Type ID: `origins:meat`
 
-### Fields:
+
+### Fields
 
 _None._
 
-### Example
+
+### Examples
+
 ```json
 "item_condition": {
     "type": "origins:meat"
 }
 ```
-This example checks if the item is considered meat by Minecraft.
+
+This example will check if the item is considered meat by Minecraft.

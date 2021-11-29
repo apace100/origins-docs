@@ -7,15 +7,18 @@ date: 2021-04-04
 
 [Entity Condition Type](../entity_condition_types.md)
 
-Checks whether the player is currently burning.
+Checks if the entity is currently burning.
 
 Type ID: `origins:on_fire`
 
-### Fields:
+
+### Fields
 
 _None._
 
-### Example:
+
+### Examples
+
 ```json
 "condition": {
     "type": "origins:on_fire"

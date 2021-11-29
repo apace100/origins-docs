@@ -16,7 +16,7 @@ Typically, the `origins` field in a layer JSON file looks something like this:
 ]
 ```
 
-But, this new feature (0.4.0 and higher) allows you to add conditional origins. This is done by instead of providing a [string](../../types/data_types/string.md), providing a JSON [object](../../types/data_types/object.md) with an [Entity Condition](../../types/entity_conditions.md):
+But, this new feature (0.4.0 and higher) allows you to add conditional origins. This is done by instead of providing a [String](../../types/data_types/string.md), providing a JSON [Object](../../types/data_types/object.md) with an [Entity Condition Type](../../types/entity_condition_types.md):
 
 ```json
 "origins": [
@@ -44,7 +44,7 @@ But, this new feature (0.4.0 and higher) allows you to add conditional origins. 
 
 As you can see from the above example, the "conditioned origin objects" can be used alongside the regular strings of origin IDs in the array. Also, the objects contain an array of origins which will be available only when the condition holds. That means you don't have to repeat a condition for several origins if they would have the same condition.
 
-The main use of this feature is for a data pack which provides several layers, and would like to restrict which origins are possible given the previously selected ones (such as first picking an element, and then a fitting origin in the next layer). Specifically for this, the conditions [Origin](../../types/entity_conditions/origin.md) and [Power](../../types/entity_conditions/power.md) exist. Example, assuming you have a layer `elemental_origins:element` where you can choose an element:
+The main use of this feature is for a data pack which provides several layers, and would like to restrict which origins are possible given the previously selected ones (such as first picking an element, and then a fitting origin in the next layer). Specifically for this, [Origin (Entity Condition Type)](../../types/entity_condition_types/origin.md) and [Power (Entity Condition Type)](../../types/entity_condition_types/power.md) exist. Example, assuming you have a layer `elemental_origins:element` where you can choose an element:
 
 ```json
 "origins": [

@@ -11,11 +11,14 @@ Checks if the actor entity is riding the target entity, regardless of where the 
 
 Type ID: `origins:riding_recursive`
 
+
 ### Fields
 
 _None._
 
-### Example
+
+### Examples
+
 ```json
 "bientity_condition": {
 	"type": "origins:riding_recursive"

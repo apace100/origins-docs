@@ -11,13 +11,16 @@ Grants the entity that has the power invisibility; may or may not affect their w
 
 Type ID: `origins:invisibility`
 
+
 ### Fields
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`render_armor` | [Boolean](../types/data_types/boolean.md) | | Whether or not the player's armor should be shown.
+`render_armor` | [Boolean](../data_types/boolean.md) | | Whether or not the player's armor should be shown.
 
-### Example
+
+### Examples
+
 ```json
 {
   	"type": "origins:invisibility",
@@ -28,4 +31,5 @@ Field  | Type | Default | Description
 	}
 }
 ```
-Makes the player invisible if they're not burning, even hiding the armor.
+
+This exmample will make the entity that has the power invisible if the entity is not burning, even hiding the armor.

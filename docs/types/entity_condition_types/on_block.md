@@ -7,17 +7,28 @@ date: 2021-04-04
 
 [Entity Condition Type](../entity_condition_types.md)
 
-Checks whether the player is standing on the ground, and optionally has a block that matches a specified block condition under them.
+Checks if a block underneath the entity's feet fulfills the specified [Block Condition Type](../block_condition_types.md).
 
 Type ID: `origins:on_block`
 
-### Fields:
+
+### Fields
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`block_condition` | [Block Condition](../block_conditions.md) | _optional_ |  If set, a block that satisfies this block condition needs to be right below the player's feet.
+`block_condition` | [Block Condition Type](../block_condition_types.md) | _optional_ | If specified, the condition will evaluate to true if the block underneath the entity's feet fulfills the specified block condition type. Otherwise, only check if the entity is on the ground. 
 
-### Example:
+
+### Examples
+
+```json
+"condition": {
+    "type": "origins:on_block"
+}
+```
+
+This example will check if the entity is currently on the ground.
+<br>
 
 ```json
 "condition": {
@@ -29,4 +40,4 @@ Field  | Type | Default | Description
 }
 ```
 
-This condition applied to a power will make sure it's only active while the player is on a Grass Block.
+This example will check if the entity is currently on a Grass Block.

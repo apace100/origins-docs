@@ -15,16 +15,19 @@ Type ID: `origins:model_color`
 
 	The resulting color will **always** be a darker color. Currently, there is no way to make it bright due to how the power type blends the color.
 
+
 ### Fields
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`red` | [Float](../types/data_types/float.md) | `1.0` | Value by which the red component of the texture will be multiplied. Range: 0.0 - 1.0.
-`green` | [Float](../types/data_types/float.md) | `1.0` | Value by which the green component of the texture will be multiplied. Range: 0.0 - 1.0.
-`blue` | [Float](../types/data_types/float.md) | `1.0` | Value by which the blue component of the texture will be multiplied. Range: 0.0 - 1.0.
-`alpha` | [Float](../types/data_types/float.md) | `1.0` | Value by which the alpha (= transparency) component of the texture will be multiplied. Range: 0.0 - 1.0.
+`red` | [Float](../data_types/float.md) | `1.0` | Value by which the red component of the texture will be multiplied. Range: 0.0 - 1.0.
+`green` | [Float](../data_types/float.md) | `1.0` | Value by which the green component of the texture will be multiplied. Range: 0.0 - 1.0.
+`blue` | [Float](../data_types/float.md) | `1.0` | Value by which the blue component of the texture will be multiplied. Range: 0.0 - 1.0.
+`alpha` | [Float](../data_types/float.md) | `1.0` | Value by which the alpha (= transparency) component of the texture will be multiplied. Range: 0.0 - 1.0.
 
-### Example
+
+### Examples
+
 ```json
 {
   	"type": "origins:model_color",
@@ -33,4 +36,5 @@ Field  | Type | Default | Description
   	"alpha": 0.7
 }
 ```
-Gives the player's skin a bluish tint and makes it slightly transparent.
+
+This example will give the entity's texture a blue-ish tint and makes it slightly transparent.

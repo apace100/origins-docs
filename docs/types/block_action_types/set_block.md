@@ -11,13 +11,15 @@ Overwrites the block at the targeted position with the default state of another 
 
 Type ID: `origins:set_block`
 
+
 ### Fields
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`block` | [Identifier](../data_types/identifier.md) | | The ID of the block to place.
+`block` | [Identifier](../data_types/identifier.md) | | The namespace and ID of the block to place.
 
-### Example
+
+### Examples
 
 ```json
 "block_action": {
@@ -26,4 +28,4 @@ Field  | Type | Default | Description
 }
 ```
 
-This action sets the block at the position of the action to a coal ore.
+This example will set a Coal Ore block at the position of the block action type.

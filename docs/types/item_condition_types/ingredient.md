@@ -11,13 +11,16 @@ Checks whether the item matches a specified [Item Condition Type](../item_condit
 
 Type ID: `origins:ingredient`
 
-### Fields:
+
+### Fields
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
 `ingredient` | [Ingredient](../data_types/ingredient.md) | |  The ingredient this item must match to pass the check.
 
+
 ### Examples
+
 ```json
 "item_condition": {
     "type": "origins:ingredient",
@@ -26,8 +29,9 @@ Field  | Type | Default | Description
     }
 }
 ```
-This example checks if the item is a `minecraft:egg` item.
 
+This example will check if the item is a `minecraft:egg` item.
+<br>
 
 ```json
 "item_condition": {
@@ -37,4 +41,5 @@ This example checks if the item is a `minecraft:egg` item.
     }
 }
 ```
-This example checks if the item is inside the `#minecraft:flowers` item tag. (`data\minecraft\tags\items\flowers.json`)
+
+This example will check if the item is inside the `#minecraft:flowers` item tag. (`data\minecraft\tags\items\flowers.json`)

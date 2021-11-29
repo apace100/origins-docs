@@ -17,19 +17,21 @@ Type ID: `origins:if_else`
     
     Action Type | Condition Type
     ------------|----------------
-    [Entity Action](../entity_actions.md) | [Entity Condition](../entity_conditions.md)
-    [Block Action](../block_actions.md) | [Block Condition](../block_conditions.md)
-    [Item Action](../item_actions.md) | [Item Condition](../item_conditions.md)
+    [Entity Action Type](../entity_action_types.md) | [Entity Condition Type](../entity_condition_types.md)
+    [Block Action Type](../block_action_types.md) | [Block Condition Type](../block_condition_types.md)
+    [Item Action Type](../item_action_types.md) | [Item Condition Type](../item_condition_types.md)
+
 
 ### Fields
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`condition` | [Condition](../condition_types.md) | | A condition based on the type of action.
-`if_action` | [Action](../action_types.md) | | The action which is executed when the condition evaluates to true.
-`else_action` | [Action](../action_types.md) | _optional_ | If present, this action will be executed when the condition evaluates to false.
+`condition` | [Condition Type](../condition_types.md) | | A condition based on the type of action.
+`if_action` | [Action Type](../action_types.md) | | The action which is executed when the condition evaluates to true.
+`else_action` | [Action Type](../action_types.md) | _optional_ | If present, this action will be executed when the condition evaluates to false.
 
-### Example
+
+### Examples
 
 ```json
 "entity_action": {
@@ -47,4 +49,5 @@ Field  | Type | Default | Description
     }
 }
 ```
-This action will set the target on fire if they are in Elytra flight, or, if not in Elytra flight, will heal the target. The `else_action` can be omitted to just execute nothing if the `condition` doesn't hold.
+
+This example will set the entity on fire if they are "fall flying" for 5 seconds. Otherwise, it will restore 3 hearts of health to the entity instead.

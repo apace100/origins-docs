@@ -7,21 +7,24 @@ date: 2021-04-04
 
 [Entity Condition Type](../entity_condition_types.md)
 
-Checks whether the player has a specified number of blocks that match a specified block condition in a specified radius. The radius originates at the player's lower body block position.
+Checks whether there is a specified number of blocks that fulfills the specified [Block Condition Type](../block_condition_types.md) within a specified radius relative to the entity's feet.
 
 Type ID: `origins:block_in_radius`
 
-### Fields:
+
+### Fields
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`block_condition` | [Block Condition](../block_conditions.md) | |  The block condition which is applied to the block at the player's feet.
-`radius` | [Integer](../data_types/integer.md) | |  The radius to check blocks in.
-`shape` | [String](../data_types/string.md) | `"cube"` | Whether to check in a cube- or a star-shaped form. Either `"cube"` or `"star"`.
-`comparison` | [Comparison](../data_types/comparison.md) | `">="` | How the number of blocks in the radius which fulfill `block_condition` should be compared to the specified value.
-`compare_to` | [Integer](../data_types/integer.md) | `1` | The value to compare the number to.
+`block_condition` | [Block Condition Type](../block_condition_types.md) | |  The block condition type to check for.
+`radius` | [Integer](../data_types/integer.md) | | The radius to check the blocks that fulfills the specified block condition type within.
+`shape` | [String](../data_types/string.md) | `"cube"` | Determines the shape of the radius. Accepts `"cube"` or `"star"`.
+`comparison` | [Comparison](../data_types/comparison.md) | `">="` | How the amount of blocks within the specified radius which fulfills the specified block condition type should be compared to the specified value.
+`compare_to` | [Integer](../data_types/integer.md) | `1` | The value to compare the amount to.
 
-### Example:
+
+### Examples
+
 ```json
 "condition": {
     "type": "origins:block_in_radius",
@@ -35,4 +38,5 @@ Field  | Type | Default | Description
     "compare_to": 4
 }
 ```
-This example checks for 4 or more blocks that is inside the [`#origins:natural_stone`](https://github.com/apace100/origins-fabric/blob/master/src/main/resources/data/origins/tags/blocks/natural_stone.json) block tag (`data\origins\tags\blocks\natural_stone.json`) within a 1 block radius of a player.
+
+This example will check if 4 or more blocks that is included in the [`origins:natural_stone`](https://github.com/apace100/origins-fabric/blob/master/src/main/resources/data/origins/tags/blocks/natural_stone.json) (`data/origins/tags/blocks/natural_stone.json`) block tag is within a 1 block radius relative from the entity.

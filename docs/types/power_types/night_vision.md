@@ -11,13 +11,16 @@ Grants night vision to the player without a status effect.
 
 Type ID: `origins:night_vision`
 
+
 ### Fields
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`strength` | [Float](../types/data_types/float.md) | `1.0` | How strong the night vision effect is. Range: 0.0 - 1.0.
+`strength` | [Float](../data_types/float.md) | `1.0` | How strong the night vision effect is. Range: 0.0 - 1.0.
 
-### Example
+
+### Examples
+
 ```json
 {
   	"type": "origins:night_vision",
@@ -28,4 +31,5 @@ Field  | Type | Default | Description
 	}
 }
 ```
-Gives the player night vision while underwater, improving their vision by quite a bit (though not as good as real night vision, because this is set to be only half as strong).
+
+This example will give the player night vision while underwater, improving their vision by quite a bit.

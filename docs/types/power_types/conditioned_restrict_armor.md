@@ -13,19 +13,22 @@ Type ID: `origins:conditioned_restrict_armor`
 
 !!! note
 
-    You can use the [Restrict Armor](restrict_armor.md) power type if an entity condition is not needed.
+    You can use the [Restrict Armor (Power Type)](restrict_armor.md) if an entity condition is not needed.
+
 
 ### Fields
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`head` | [Item Condition](../item_conditions.md) | _optional_ | If specified, items which fulfills this condition cannot be equipped in the head equipment slot.
-`chest` | [Item Condition](../item_conditions.md) | _optional_ | If specified, items which fulfills this condition cannot be equipped in the chest equipment slot.
-`legs` | [Item Condition](../item_conditions.md) | _optional_ | If specified, items which fulfills this condition cannot be equipped in the legs equipment slot.
-`feet` | [Item Condition](../item_conditions.md) | _optional_ | If specified, items which fulfills this condition cannot be equipped in the feet equipment slot.
-`tick_rate` | [Integer](../types/data_types/integer.md) | `80` | The frequency (in ticks) with which to check the condition. Lower values mean the condition changes are detected more quickly, but this comes at a potentially huge performance cost.
+`head` | [Item Condition Type](../item_condition_types.md) | _optional_ | If specified, items which fulfills this condition cannot be equipped in the head equipment slot.
+`chest` | [Item Condition Type](../item_condition_types.md) | _optional_ | If specified, items which fulfills this condition cannot be equipped in the chest equipment slot.
+`legs` | [Item Condition Type](../item_condition_types.md) | _optional_ | If specified, items which fulfills this condition cannot be equipped in the legs equipment slot.
+`feet` | [Item Condition Type](../item_condition_types.md) | _optional_ | If specified, items which fulfills this condition cannot be equipped in the feet equipment slot.
+`tick_rate` | [Integer](../data_types/integer.md) | `80` | The frequency (in ticks) with which to check the condition. Lower values mean the condition changes are detected more quickly, but this comes at a potentially huge performance cost.
 
-### Example
+
+### Examples
+
 ```json
 {
   	"type": "origins:conditioned_restrict_armor",
@@ -60,4 +63,5 @@ Field  | Type | Default | Description
 	"tick_rate": 20
 }
 ```
-This power prevents the player from putting on any armor which is more powerful than chainmail, unless they are in dark places (light level below 7).
+
+This example will prevent the entity from equipping any armor which is more powerful than chainmail, unless the entity is in dark places (light level below 7).

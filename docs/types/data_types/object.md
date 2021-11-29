@@ -9,7 +9,8 @@ date: 2021-04-04
 
 A complex piece of data consisting of more fields. Objects are enclosed in curly braces and contain multiple `"key": value` entries separated by commas.
 
-### Examples:
+
+### Examples
 
 ```json
 {

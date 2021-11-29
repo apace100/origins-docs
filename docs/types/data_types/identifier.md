@@ -14,9 +14,10 @@ An identifier consists of a namespace and a path. Namespace and path are separat
 
 If no namespace is specified, it will default to `minecraft`.
 
-Read more here: [Minecraft Fandom: Namespaced ID](https://minecraft.fandom.com/wiki/Namespaced_ID)
+Read more here: [Minecraft Fandom Wiki: Namespaced ID](https://minecraft.fandom.com/wiki/Namespaced_ID)
 
-### Example:
+
+### Examples
 
 ```json
 {

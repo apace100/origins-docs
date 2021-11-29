@@ -11,11 +11,14 @@ Checks whether there is no fluid in this state.
 
 Type ID: `origins:empty`
 
-### Fields:
+
+### Fields
 
 _None._
 
-### Example:
+
+### Examples
+
 ```json
 "fluid_condition": {
     "type": "origins:empty"

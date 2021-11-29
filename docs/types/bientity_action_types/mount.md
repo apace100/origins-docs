@@ -11,11 +11,13 @@ Mounts the actor entity onto the target entity.
 
 Type ID: `origins:mount`
 
+
 ### Fields
 
 _None._
 
-### Example
+
+### Examples
 
 ```json
 "bientity_action": {

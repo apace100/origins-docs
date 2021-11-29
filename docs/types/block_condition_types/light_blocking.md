@@ -11,11 +11,14 @@ Checks whether the block is marked in code as blocking light. Glass for example 
 
 Type ID: `origins:light_blocking`
 
-### Fields:
+
+### Fields
 
 _None._
 
-### Example:
+
+### Examples
+
 ```json
 "block_condition": {
     "type": "origins:light_blocking"

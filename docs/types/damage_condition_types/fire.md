@@ -11,14 +11,16 @@ Checks whether the damage is fire damage (this includes lava damage!).
 
 Type ID: `origins:fire`
 
-### Fields:
+
+### Fields
 
 _None._
 
-### Example
+
+### Examples
+
 ```json
 "damage_condition": {
     "type": "origins:fire"
 }
 ```
-This example checks if the damage taken/dealt is considered fire damage.

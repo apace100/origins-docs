@@ -11,14 +11,18 @@ Prevents the movement of the entity that has the power from being affected by wa
 
 Type ID: `origins:ignore_water`
 
+
 ### Fields
 
 _None._
 
-### Example
+
+### Examples
+
 ```json
 {
   	"type": "origins:ignore_water"
 }
 ```
-This power makes the entity that has the power ignore water. :)
+
+This example makes the entity that has the power ignore water. :)

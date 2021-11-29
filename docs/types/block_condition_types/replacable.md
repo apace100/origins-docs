@@ -11,11 +11,14 @@ Checks whether the block is a replacable material (e.g. tall grass, water, ...).
 
 Type ID: `origins:replacable`
 
-### Fields:
+
+### Fields
 
 _None._
 
-### Example:
+
+### Examples
+
 ```json
 "block_condition": {
     "type": "origins:replacable"

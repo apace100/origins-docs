@@ -11,11 +11,14 @@ Checks if the actor entity is riding the target entity from the very end of the 
 
 Type ID: `origins:riding_root`
 
+
 ### Fields
 
 _None._
 
-### Example
+
+### Examples
+
 ```json
 "bientity_condition": {
 	"type": "origins:riding_root"

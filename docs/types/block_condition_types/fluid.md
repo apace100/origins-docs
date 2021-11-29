@@ -7,17 +7,20 @@ date: 2021-04-05
 
 [Block Condition Type](../block_condition_types.md)
 
-Checks the fluid state of the current position with a [Fluid Condition](../fluid_conditions.md).
+Checks the fluid state of the current position with a [Fluid Condition Type](../fluid_condition_types.md).
 
 Type ID: `origins:fluid`
 
-### Fields:
+
+### Fields
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`fluid_condition` | [Fluid Condition](../fluid_conditions.md) | | The fluid condition to check the fluid state at the position.
+`fluid_condition` | [Fluid Condition Type](../fluid_condition_types.md) | | The fluid condition type to check the fluid state at the position.
 
-### Example:
+
+### Examples
+
 ```json
 "block_condition": {
     "type": "origins:fluid",
@@ -26,4 +29,5 @@ Field  | Type | Default | Description
     }
 }
 ```
-This example checks if the fluid block is a source fluid block.
+
+This example will check if the block is a source fluid.

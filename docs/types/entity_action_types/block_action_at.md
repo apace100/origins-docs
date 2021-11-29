@@ -7,17 +7,20 @@ date: 2021-04-05
 
 [Entity Action Type](../entity_action_types.md)
 
-Executes a [Block Action](../block_actions.md) at the position of the entity.
+Executes a [Block Action Type](../block_action_types.md) at the position of the entity.
 
 Type ID: `origins:block_action_at`
+
 
 ### Fields
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`block_action` | [Block Action](../block_actions.md) |  | The block action to execute.
+`block_action` | [Block Action Type](../block_action_types.md) |  | The block action type to execute.
 
-### Example
+
+### Examples
+
 ```json
 "entity_action": {
     "type": "origins:block_action_at",
@@ -27,4 +30,5 @@ Field  | Type | Default | Description
     }
 }
 ```
-This action will set the block at the position of the entity (usually at their feet) to a sand block.
+
+This example will execute a [Set Block (Block Action Type)](../block_action_types/set_block.md) that would set a Sand block at the entity's feet.

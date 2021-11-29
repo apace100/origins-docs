@@ -7,20 +7,23 @@ date: 2021-04-10
 
 [Power Type](../power_types.md)
 
-Executes an entity action on the entity that has the power within the specified interval.
+Executes an [Entity Action Type](../entity_action_types.md) on the entity that has the power within the specified interval.
 
 Type ID: `origins:action_over_time`
+
 
 ### Fields
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`interval` | [Integer](../types/data_types/integer.md) | | Interval of ticks between subsequent executions of the specified actions. Must be a value of at least 1.
-`entity_action` | [Entity Action](../entity_actions.md) | _optional_ | The action to execute on the entity that has the power each interval.
-`rising_action` | [Entity Action](../entity_actions.md) | _optional_ | The action to execute on the first interval tick in which the condition became true.
-`falling_action` | [Entity Action](../entity_actions.md) | _optional_ | The action to execute on the first interval tick in which the condition became false.
+`interval` | [Integer](../data_types/integer.md) | | Interval of ticks between subsequent executions of the specified actions. Must be a value of at least 1.
+`entity_action` | [Entity Action Type](../entity_action_types.md) | _optional_ | The action to execute on the entity that has the power each interval.
+`rising_action` | [Entity Action Type](../entity_action_types.md) | _optional_ | The action to execute on the first interval tick in which the condition became true.
+`falling_action` | [Entity Action Type](../entity_action_types.md) | _optional_ | The action to execute on the first interval tick in which the condition became false.
 
-### Example
+
+### Examples
+
 ```json
 {
   	"type": "origins:action_over_time",
@@ -34,4 +37,5 @@ Field  | Type | Default | Description
   	}
 }
 ```
-When a player with this power is burning, the power will set the player on fire for 4 seconds every second. Effectively, this power makes players burn forever once set on fire, unless they extinguish themselves by stepping in water.
+
+This example will set the entity on fire if the entity that has the power is on fire, essentially making the entity burn indefinitely unless the entity manages to extinguish the fire.

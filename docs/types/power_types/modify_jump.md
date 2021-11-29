@@ -11,16 +11,19 @@ Modifies how high the entity that has the power can jump.
 
 Type ID: `origins:modify_jump`
 
+
 ### Fields
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`modifier` | [Attribute Modifier](../types/data_types/attribute_modifier.md) | _optional_ | If specified, this modifier will be applied to the upwards velocity.
-`modifiers` | [Array](../types/data_types/array.md) of [Attribute Modifiers](../types/data_types/attribute_modifier.md) | _optional_ | If specified, these modifiers will be applied to the upwards velocity.
-`entity_action` | [Entity Action](../entity_actions.md) | _optional_ | If specified, this action will be executed on the entity that has the power whenever the entity jumps.
+`modifier` | [Attribute Modifier](../data_types/attribute_modifier.md) | _optional_ | If specified, this modifier will be applied to the upwards velocity.
+`modifiers` | [Array](../data_types/array.md) of [Attribute Modifiers](../data_types/attribute_modifier.md) | _optional_ | If specified, these modifiers will be applied to the upwards velocity.
+`entity_action` | [Entity Action Type](../entity_action_types.md) | _optional_ | If specified, this action will be executed on the entity that has the power whenever the entity jumps.
 
 
-### Example
+
+### Examples
+
 ```json
 {
     "type": "origins:modify_jump",
@@ -34,4 +37,5 @@ Field  | Type | Default | Description
     }
 }
 ```
-This power modifies the player's jump height, increasing it to 4 blocks, and display a cloud particle at the player's feet.
+
+This example will increase the entity that has the power's jump height to 4 blocks and display a cloud particle at the entity's feet upon jumping.

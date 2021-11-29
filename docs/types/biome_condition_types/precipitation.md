@@ -7,17 +7,20 @@ date: 2021-04-05
 
 [Biome Condition Type](../biome_condition_types.md)
 
-Checks for the precipitation type of a biome.
+Checks for the precipitation type of the biome the entity is currently in.
 
 Type ID: `origins:precipitation`
 
-### Fields:
+
+### Fields
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
 `precipitation` | [String](../data_types/string.md) | |  Which precipitation the biome has to have in order to succeed the check. One of `none`, `rain` and `snow`.
 
-### Example:
+
+### Examples
+
 ```json
 "condition": {
     "type": "origins:biome",
@@ -27,4 +30,5 @@ Field  | Type | Default | Description
     }
 }
 ```
-This example checks if the biome the player is currently in has a snowy precipitation. (e.g: `minecraft:snowy_taiga`, `minecraft:ice_spikes`, etc.)
+
+This example will check if the biome the entity is currently in has a snowy precipitation. (e.g: `minecraft:snowy_taiga`, `minecraft:ice_spikes`, etc.)

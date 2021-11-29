@@ -13,15 +13,17 @@ Type ID: `origins:invert`
 
 !!! note
 
-    **Only available as a [Bi-entity Action](../bientity_actions.md).**
+    **Only available as a [Bi-entity Action Type](../bientity_action_types.md).**
+
 
 ### Fields
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`action` | [Bi-entity Action](../bientity_actions.md) | | The bi-entity action to execute which will have its 'target' and 'actor' contexts swapped.
+`action` | [Bi-entity Action Type](../bientity_action_types.md) | | The bi-entity action to execute which will have its 'target' and 'actor' contexts swapped.
 
-### Example
+
+### Examples
 
 ```json
 "bientity_action": {
@@ -32,4 +34,4 @@ Field  | Type | Default | Description
 }
 ```
 
-This will make the target of the action mount the actor, as the roles are swapped.
+This example will mount the target entity onto the actor entity, as their roles are now swapped.

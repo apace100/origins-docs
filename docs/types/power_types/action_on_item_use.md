@@ -7,20 +7,22 @@ date: 2021-04-04
 
 [Power Type](../power_types.md)
 
-Executes an entity action or item action when the player finishes using an item (e.g: eating food or drinking a potion).
+Executes an [Entity Action Type](../entity_action_types.md) or an [Item Action Type](../item_action_types.md) when the player finishes using an item (e.g: eating food or drinking a potion).
 
 Type ID: `origins:action_on_item_use`
+
 
 ### Fields
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`entity_action` | [Entity Action](../entity_actions.md) | _optional_ | If specified, this action will be executed on the player after they use an item.
-`item_action` | [Item Action](../item_actions.md) | _optional_ | If specified, this action will be executed on the _remaining_ item.
-`item_condition` | [Item Condition](../item_conditions.md) | _optional_ | If specified, the actions will only execute if this condition is fulfilled by the item _before use._
+`entity_action` | [Entity Action Type](../entity_action_types.md) | _optional_ | If specified, this action will be executed on the player after they use an item.
+`item_action` | [Item Action Type](../item_action_types.md) | _optional_ | If specified, this action will be executed on the _remaining_ item.
+`item_condition` | [Item Condition Type](../item_condition_types.md) | _optional_ | If specified, the actions will only execute if this condition is fulfilled by the item _before use._
 
 
-### Example
+### Examples
+
 ```json
 {
     "type": "origins:action_on_item_use",
@@ -37,4 +39,5 @@ Field  | Type | Default | Description
     }
 }
 ```
-This power will give half a shank of hunger, and 1 saturation point if the player drinks any kind of potion.
+
+This example will give half a shank of hunger, and 1 saturation point if the player drinks any kind of potion.

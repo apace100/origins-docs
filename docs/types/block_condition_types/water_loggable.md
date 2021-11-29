@@ -11,11 +11,14 @@ Checks whether the block is waterloggable, meaning that there can be fluid in th
 
 Type ID: `origins:water_loggable`
 
-### Fields:
+
+### Fields
 
 _None._
 
-### Example:
+
+### Examples
+
 ```json
 "block_condition": {
     "type": "origins:water_loggable"

@@ -11,17 +11,21 @@ Checks whether the entity is of a specific entity type.
 
 Type ID: `origins:entity_type`
 
-### Fields:
+
+### Fields
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`entity_type` | [Identifier](../data_types/identifier.md) | |  ID of the entity type the entity needs to have to pass the check.
+`entity_type` | [Identifier](../data_types/identifier.md) | | The namespace and ID of the entity type the entity needs to have to pass the check.
 
-### Example
+
+### Examples
+
 ```json
 "condition": {
     "type": "origins:entity_type",
     "entity_type": "minecraft:creeper"
 }
 ```
-This example checks if the entity is a Creeper.
+
+This example will check if the entity is a Creeper.

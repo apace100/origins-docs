@@ -11,17 +11,21 @@ Executes a command with the entity as the source (i.e. `@s` will select the enti
 
 Type ID: `origins:execute_command`
 
+
 ### Fields
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`command` | [String](../data_types/string.md) |  | The command to execute (from the perspective of the entity!).
+`command` | [String](../data_types/string.md) |  | The command to execute on the entity.
 
-### Example
+
+### Examples
+
 ```json
 "entity_action": {
     "type": "origins:execute_command",
-    "command": "give @s minecraft:dirt 64"
+    "command": "tellraw @a {\"text\": \"Hello world!\", \"color\": \"green\"}"
 }
 ```
-This action gives the entity a stack of dirt.
+
+This example will execute a `/tellraw` command that will print a green-colored "Hello world!" message to all players.

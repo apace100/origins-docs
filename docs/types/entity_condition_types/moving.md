@@ -11,11 +11,14 @@ Checks whether the entity is currently moving horizontally.
 
 Type ID: `origins:moving`
 
-### Fields:
+
+### Fields
 
 _None._
 
-### Example:
+
+### Examples
+
 ```json
 "condition": {
     "type": "origins:moving"

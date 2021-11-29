@@ -7,18 +7,25 @@ date: 2021-04-04
 
 [Entity Condition Type](../entity_condition_types.md)
 
-Checks the current health (relative value) of the player. Relative means it will check the percentage of the health, i.e. `currentHealth / maxHealth`.
+Checks the current (and the percentage) health value of the entity.
 
 Type ID: `origins:relative_health`
 
-### Fields:
+!!! note
+
+    The percentage of the health value can be calculated with the `currentHealth / maxHealth` formula.
+
+
+### Fields
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
 `comparison` | [Comparison](../data_types/comparison.md) | | How the relative health of the player should be compared to the specified value.
 `compare_to` | [Float](../data_types/float.md) | | Which value the relative health should be compared to.
 
-### Example:
+
+### Examples
+
 ```json
 "condition": {
     "type": "origins:relative_health",
@@ -26,4 +33,5 @@ Field  | Type | Default | Description
     "compare_to": 0.5
 }
 ```
-This example checks if the player has half or less of their max health.
+
+This example will check if the player has half or less of their max health.

@@ -11,14 +11,17 @@ Changes how far the player can see when submerged in lava.
 
 Type ID: `origins:lava_vision`
 
+
 ### Fields
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`s` | [Float](../types/data_types/float.md) | | Near view. Vanilla default is 0.25, or 0.0 if you are under the effect of Fire Resistance.
-`v` | [Float](../types/data_types/float.md) | | Far view. Vanilla default is 1.0, or 3.0 if you are under the effect of Fire Resistance.
+`s` | [Float](../data_types/float.md) | | Near view. Vanilla default is 0.25, or 0.0 if you are under the effect of Fire Resistance.
+`v` | [Float](../data_types/float.md) | | Far view. Vanilla default is 1.0, or 3.0 if you are under the effect of Fire Resistance.
 
-### Example
+
+### Examples
+
 ```json
 {
   	"type": "origins:lava_vision",
@@ -26,4 +29,5 @@ Field  | Type | Default | Description
   	"v": 15
 }
 ```
-Allows the player to see 15 blocks far while submerged in lava.
+
+This example will allow the player to see 15 blocks far while submerged in Lava.

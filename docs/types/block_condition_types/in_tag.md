@@ -11,17 +11,21 @@ Checks whether the block is in a specified tag.
 
 Type ID: `origins:in_tag`
 
-### Fields:
+
+### Fields
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`tag` | [Identifier](../data_types/identifier.md) | | ID of the tag which the block should be in to pass the check.
+`tag` | [Identifier](../data_types/identifier.md) | | The namespace and ID of the tag which the block should be in to pass the check.
 
-### Example:
+
+### Examples
+
 ```json
 "block_condition": {
     "type": "origins:in_tag",
     "tag": "minecraft:base_stone_overworld"
 }
 ```
-This example checks if the block is included in the `#minecraft:base_stone_overworld` (`data\minecraft\tags\blocks\base_stone_overworld.json`) block tag.
+
+This example will check if the block is included in the `#minecraft:base_stone_overworld` (`data/minecraft/tags/blocks/base_stone_overworld.json`) block tag.

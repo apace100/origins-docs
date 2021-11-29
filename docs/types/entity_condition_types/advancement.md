@@ -7,17 +7,23 @@ date: 2021-04-06
 
 [Entity Condition Type](../entity_condition_types.md)
 
-Checks whether the player has completed a specified advancement.
+Checks whether the entity has completed a specified advancement.
 
 Type ID: `origins:advancement`
 
-### Fields:
+!!! note
+
+    **This entity condition type will only work on players.**
+
+
+### Fields
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`advancement` | [Identifier](../data_types/identifier.md) | | ID of the advancement the player needs to have completed in order for this condition to evaluate to true.
+`advancement` | [Identifier](../data_types/identifier.md) | | The namespace and ID of the advancement the player needs to have completed in order for this condition to evaluate to true.
 
-### Example:
+
+### Examples
 
 ```json
 "condition": {
@@ -25,4 +31,5 @@ Field  | Type | Default | Description
     "advancement": "minecraft:story/smelt_iron"
 }
 ```
-This condition added to a power will make it only activate after the player has smelted or found their first iron ingot.
+
+This example will check if the player has the `minecraft:story/smelt_iron` advancement, which can be obtained by smelting or obtaining their first Iron Ingot.

@@ -11,14 +11,18 @@ Checks whether the item is a food component.
 
 Type ID: `origins:food`
 
-### Fields:
+
+### Fields
 
 _None._
 
-### Example
+
+### Examples
+
 ```json
 "item_condition": {
     "type": "origins:food"
 }
 ```
-This example checks if the item is a food item.
+
+This example will check if the item is considered a food item.

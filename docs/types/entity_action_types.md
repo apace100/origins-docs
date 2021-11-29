@@ -7,7 +7,8 @@ date: 2021-04-05
 
 Entity Action Types operate on an `Entity`. Some more specific actions only have an effect on more specific entity types (e.g. [Exhaust (Entity Action Type)](entity_action_types/exhaust.md) only works on a `PlayerEntity`, as other entities do not have a hunger bar). These are available to power/action types that provides a `entity_action` object field.
 
-## List
+
+### List
 
 * [Add Velocity](entity_action_types/add_velocity.md)
 * [Add XP](entity_action_types/add_xp.md)

@@ -7,20 +7,22 @@ date: 2021-04-04
 
 [Power Type](../power_types.md)
 
-Executes an entity action on the entity that has the power upon pressing the specified [Key](../data_types/key.md).
+Executes an [Entity Action Type](../entity_action_types.md) on the entity that has the power upon pressing the specified [Key](../data_types/key.md).
 
 Type ID: `origins:active_self`
+
 
 ### Fields
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`entity_action` | [Entity Action](../entity_actions.md) | | The action to execute on the player.
-`cooldown` | [Integer](../types/data_types/integer.md) | `1` | Interval of ticks this power needs to recharge before the power can be triggered again.
-`hud_render` | [Hud Render](../types/data_types/hud_render.md) | `{"should_render": false}` | Determines how the cooldown of this power is visualized on the HUD.
+`entity_action` | [Entity Action Type](../entity_action_types.md) | | The action to execute on the player.
+`cooldown` | [Integer](../data_types/integer.md) | `1` | Interval of ticks this power needs to recharge before the power can be triggered again.
+`hud_render` | [Hud Render](../data_types/hud_render.md) | `{"should_render": false}` | Determines how the cooldown of this power is visualized on the HUD.
 `key` | [Key](../data_types/key.md) | `{"key": "key.origins.primary_active"}` | Which active key this power should respond to.
 
-### Example
+
+### Examples
 
 ```json
 {
@@ -45,7 +47,7 @@ Field  | Type | Default | Description
 }
 ```
 
-This power allows players to press G in order to set themselves on fire for 8 seconds, or, if they are already burning, extinguish themselves.
+This example will set the player on fire for 8 seconds, or extinguish themselves if they're already on fire upon pressing the Primary ability key.
 <br>
 
 ```json
@@ -96,4 +98,5 @@ This power allows players to press G in order to set themselves on fire for 8 se
 }
 ```
 
-This example allows the player to consume a sugar item, which would apply a Speed II status effect that would last for 5 seconds. The example is bound to the `key.use` keybind, as seen inside the [`key`](../data_types/key.md) object field.
+This example will allow the player that has the power to essentially consume a Sugar item if the player is holding a Sugar item, which would then apply a Speed II status effect that would last for 5 seconds upon pressing the `key.use` keybind.
+(The example is bound to the `key.use` keybind, as seen inside the [`key`](../data_types/key.md) object field.)

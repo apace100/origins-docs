@@ -11,17 +11,20 @@ Executes an entity action on every entity that is hit by the entity that has the
 
 Type ID: `origins:target_action_on_hit`
 
+
 ### Fields
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`entity_action` | [Entity Action](../entity_actions.md) | | The action to execute on the entity that has been hit.
-`cooldown` | [Integer](../types/data_types/integer.md) | | Interval of ticks this power needs to recharge before the power can be triggered again.
-`hud_render` | [Hud Render](../types/data_types/hud_render.md) | _optional_ | If specified, determines how the cooldown of this power is visualized on the HUD.
-`damage_condition` | [Damage Condition](../damage_conditions.md) | _optional_ | If specified, the specified action will only execute if the damage dealt by the entity that has the power fulfills this condition.
-`target_condition` | [Entity Condition](../entity_conditions.md) | _optional_ | If specified, the specified action will only execute if the entity that has been hit fulfills this condition.
+`entity_action` | [Entity Action Type](../entity_action_types.md) | | The action to execute on the entity that has been hit.
+`cooldown` | [Integer](../data_types/integer.md) | | Interval of ticks this power needs to recharge before the power can be triggered again.
+`hud_render` | [Hud Render](../data_types/hud_render.md) | _optional_ | If specified, determines how the cooldown of this power is visualized on the HUD.
+`damage_condition` | [Damage Condition Type](../damage_condition_types.md) | _optional_ | If specified, the specified action will only execute if the damage dealt by the entity that has the power fulfills this condition.
+`target_condition` | [Entity Condition Type](../entity_condition_types.md) | _optional_ | If specified, the specified action will only execute if the entity that has been hit fulfills this condition.
 
-### Example
+
+### Examples
+
 ```json
 {
   	"type": "origins:target_action_on_hit",
@@ -40,4 +43,5 @@ Field  | Type | Default | Description
   	}
 }
 ```
-When a player with this power hits another entity, they will apply a strong slowness effect on the enemy for 5 seconds. This effect has a cooldown of 10 seconds, so you can't easily stack it on a single enemy! In order to give the player an indication of when this power is ready again, a `hud_render` was specified.
+
+This example will apply a Slowness IV status effect on the target entity that would last for 5 seconds for every 10 seconds of usage.

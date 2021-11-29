@@ -7,21 +7,25 @@ date: 2021-04-04
 
 [Entity Condition Type](../entity_condition_types.md)
 
-Checks whether the player is submerged in a fluid of a specific tag (submerged means: eyes are inside that fluid).
+Checks whether the entity's eyes are in a fluid that is included in the specified fluid tag.
 
 Type ID: `origins:submerged_in`
 
-### Fields:
+
+### Fields
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`fluid` | [Identifier](../data_types/identifier.md) | | ID of the fluid tag that should be checked. Most important examples: `minecraft:water` and `minecraft:lava`.
+`fluid` | [Identifier](../data_types/identifier.md) | | The namespace and ID of the fluid tag that should be checked. Most important examples: `minecraft:water` and `minecraft:lava`.
 
-### Example:
+
+### Examples
+
 ```json
 "condition": {
     "type": "origins:submerged_in",
     "fluid": "minecraft:water"
 }
 ```
-This example checks if the player is submerged in water.
+
+This example will check if the player is submerged in water.

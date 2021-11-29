@@ -11,7 +11,8 @@ Allows checking the light level at the block's position.
 
 Type ID: `origins:light_level`
 
-### Fields:
+
+### Fields
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
@@ -19,7 +20,9 @@ Field  | Type | Default | Description
 `comparison` | [Comparison](../data_types/comparison.md) | | How the light level should be compared to the specified value.
 `compare_to` | [Integer](../data_types/integer.md) | | The value to compare the light level at the block's position to.
 
-### Example:
+
+### Examples
+
 ```json
 "block_condition": {
     "type": "origins:light_level",
@@ -28,4 +31,5 @@ Field  | Type | Default | Description
     "compare_to": 10
 }
 ```
-This example checks if the light level at the specified position is emitted by a block, and more than 10.
+
+This example will check if the light level at the specified position is more than 10, and is emitted by a block.

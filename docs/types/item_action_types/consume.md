@@ -11,6 +11,7 @@ Removes a provided amount of items from the item stack.
 
 Type ID: `origins:consume`
 
+
 ### Fields
 
 Field  | Type | Default | Description
@@ -18,7 +19,8 @@ Field  | Type | Default | Description
 `amount` | [Integer](../data_types/integer.md) | `1` | The amount of items to remove.
 
 
-### Example
+
+### Examples
 
 ```json
 "item_action": {
@@ -26,3 +28,5 @@ Field  | Type | Default | Description
     "amount": 1
 }
 ```
+
+This example will "consume" (remove) 1 item from the item stack.

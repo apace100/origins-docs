@@ -7,21 +7,23 @@ date: 2021-10-07
 
 [Meta Action Type](../meta_action_types.md)
 
-Executes an entity action on the actor entity.
+Executes an [Entity Action Type](../entity_action_types.md) on the actor entity.
 
 Type ID: `origins:actor_action`
 
 !!! note
 
-    **Only available as a [Bi-entity Action](../bientity_actions.md).**
+    **Only available as a [Bi-entity Action Type](../bientity_action_types.md).**
+
 
 ### Fields
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`action` | [Entity Action](../entity_actions.md) | | The action to execute on the actor entity.
+`action` | [Entity Action Type](../entity_action_types.md) | | The entity action type to execute on the actor entity.
 
-### Example
+
+### Examples
 
 ```json
 "bientity_action": {
@@ -33,4 +35,4 @@ Field  | Type | Default | Description
 }
 ```
 
-This will set the actor of the action on fire for 5 seconds.
+This example will set the actor entity on fire for 5 seconds.

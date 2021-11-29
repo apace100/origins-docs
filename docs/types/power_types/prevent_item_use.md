@@ -11,13 +11,16 @@ Prevents the player from using items (right-click action such as eating food or 
 
 Type ID: `origins:prevent_item_use`
 
+
 ### Fields
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`item_condition` | [Item Condition](../item_conditions.md) | _optional_ | If specified, only items that fulfills this condition will be prevented from being used.
+`item_condition` | [Item Condition Type](../item_condition_types.md) | _optional_ | If specified, only items that fulfills this condition will be prevented from being used.
 
-### Example
+
+### Examples
+
 ```json
 {
     "type": "origins:prevent_item_use",
@@ -26,4 +29,5 @@ Field  | Type | Default | Description
 	}
 }
 ```
-This power prevents the player from eating any food.
+
+This example will prevent the player from eating any food items.

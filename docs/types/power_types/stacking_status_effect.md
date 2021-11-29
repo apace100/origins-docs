@@ -15,18 +15,21 @@ Type ID: `origins:stacking_status_effect`
 
     The actual duration of the specified status effect(s) is determined by the `stacks * duration_per_stack` formula.
 
+
 ### Fields
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`min_stacks` | [Integer](../types/data_types/integer.md) | | The minimum number of stacks. Negative numbers are allowed.
-`max_stacks` | [Integer](../types/data_types/integer.md) | | The maximum number of stacks.
-`duration_per_stack` | [Integer](../types/data_types/integer.md) | | Determines the duration of the specified status effect(s) for each stack.
-`tick_rate` | [Integer](../types/data_types/integer.md) | `10` | Determines how fast the power will gain/lose stacks in ticks.
+`min_stacks` | [Integer](../data_types/integer.md) | | The minimum number of stacks. Negative numbers are allowed.
+`max_stacks` | [Integer](../data_types/integer.md) | | The maximum number of stacks.
+`duration_per_stack` | [Integer](../data_types/integer.md) | | Determines the duration of the specified status effect(s) for each stack.
+`tick_rate` | [Integer](../data_types/integer.md) | `10` | Determines how fast the power will gain/lose stacks in ticks.
 `effect` | [Status Effect Instance](../data_types/status_effect_instance.md) | _optional_ | If specified, this status effect will be applied on the entity that has the power.
-`effects` | [Array](../types/data_types/array.md) of [Status Effect Instances](../data_types/status_effect_instance.md) | _optional_ | If specified, these status effects will be applied on the entity that has the power.
+`effects` | [Array](../data_types/array.md) of [Status Effect Instances](../data_types/status_effect_instance.md) | _optional_ | If specified, these status effects will be applied on the entity that has the power.
 
-### Example
+
+### Examples
+
 ```json
 {
   	"type": "origins:stacking_status_effect",
@@ -55,15 +58,16 @@ Field  | Type | Default | Description
   	}
 }
 ```
-This example makes the player weak and slow after being under a low ceiling for a while. (Yes, it's the Elytrian's claustrophobia power.)
+
+This example will apply the Weakness I and Slowness I status effects that would last for 1 second to the entity that has the power if the entity is under a low ceiling. 
 <br>
 
 ```json
 {
     "type": "origins:stacking_status_effect",
-    "min_stacks": -2,
-    "max_stacks": 5,
-    "duration_per_stack": 20,
+    "min_stacks": -3,
+    "max_stacks": 1,
+    "duration_per_stack": 100,
     "tick_rate": 20,
     "effect": {
         "effect": "minecraft:blindness",
@@ -76,4 +80,5 @@ This example makes the player weak and slow after being under a low ceiling for 
     }
 }
 ```
-This example makes the player blind after being exposed to the sun for at least 4 seconds.
+
+This example will apply the Blindness I status effect that would last for  seconds after being exposed to the sun for at least 4 seconds.

@@ -11,15 +11,18 @@ Spawns another entity at the position of the target entity.
 
 Type ID: `origins:spawn_entity`
 
+
 ### Fields
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`entity_type` | [Identifier](../data_types/identifier.md) |  | The ID of the entity type that will be spawned.
-`tag` | [String](../data_types/string.md) | _optional_ | When set, this NBT data will be applied to the new entity when it is spawned.
-`entity_action` | [Entity Action Type](../entity_action_types.md) | _optional_ | When set, this action will be executed on the new entity when it is spawned.
+`entity_type` | [Identifier](../data_types/identifier.md) |  | The namespace and ID of the entity type that will be spawned.
+`tag` | [String](../data_types/string.md) | _optional_ | If specified, this NBT data will be applied to the entity that will be spawned.
+`entity_action` | [Entity Action Type](../entity_action_types.md) | _optional_ | If specified, the specified entity action type will be executed on the entity that will be spawned when it is spawned.
 
-### Example
+
+### Examples
+
 ```json
 "entity_action": {
     "type": "origins:spawn_entity",
@@ -27,4 +30,5 @@ Field  | Type | Default | Description
     "tag": "{NoAI:1b,IsBaby:1,HandItems:[{id:\"minecraft:gold_block\",Count:1},{}]}"
 }
 ```
-This action will spawn a baby zombie holding a gold block at the position, without AI (will not move or act in any way).
+
+This example will spawn a baby Zombie holding a Gold Block that has no AI at the position of the entity.

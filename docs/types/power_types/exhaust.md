@@ -11,14 +11,17 @@ Applies exhaustion to the player over time.
 
 Type ID: `origins:exhaust`
 
+
 ### Fields
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`interval` | [Integer](../types/data_types/integer.md) | | Duration of ticks to wait between applying exhaustion.
-`exhaustion` | [Float](../types/data_types/float.md) | | How much exhaustion will be applied each interval.
+`interval` | [Integer](../data_types/integer.md) | | Duration of ticks to wait between applying exhaustion.
+`exhaustion` | [Float](../data_types/float.md) | | How much exhaustion will be applied each interval.
 
-### Example
+
+### Examples
+
 ```json
 {
   	"type": "origins:exhaust",
@@ -32,4 +35,5 @@ Field  | Type | Default | Description
 	}
 }
 ```
-This power will quickly exhaust the player if they are touching water.
+
+This example will apply 4.0 exhaustion to the player if the player is touching water.

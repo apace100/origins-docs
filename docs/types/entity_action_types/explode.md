@@ -7,22 +7,25 @@ date: 2021-10-02
 
 [Entity Action Type](../entity_action_types.md)
 
-Makes the entity explode, and whether if they take damage from the explosion or be able to destroy the terrain.
+Summons an explosion at the position of the entity.
 
 Type ID: `origins:explode`
+
 
 ### Fields
 
 Field | Type | Default | Description
 ------|------|---------|-------------
 `power` | [Float](../data_types/float.md) | | Determines the power of the explosion.
-`destruction_type` | [String](../data_types/string.md) | `"break"` | Determines if the explosion should destroy the terrain, destroy the terrain and drop the loot of the blocks, or none. Accepts either `"destroy"`, `"break"` or `"none"`.
-`damage_self` | [Boolean](../data_types/boolean.md) | `true` | Determines if the player should take damage from the explosion.
-`indestructible` | [Block Condition](../block_conditions.md) | _optional_ | If set, blocks specified in this block condition object is not destroyed by the explosion.
-`destructible` | [Block Condition](../block_conditions.md) | _optional_ | If set, blocks specified in this block condition object will be the only blocks destroyed by the explosion.
+`destruction_type` | [String](../data_types/string.md) | `"break"` | Determines if the explosion should destroy the terrain, destroy the terrain and drop the loot of the blocks, or none (`"destroy"`, `"break"` or `"none"` respectively).
+`damage_self` | [Boolean](../data_types/boolean.md) | `true` | Determines if the player should take damage from the summoned explosion.
+`indestructible` | [Block Condition Type](../block_condition_types.md) | _optional_ | If specified, the blocks that fulfills the specified block condition type is not destroyed by the summoned explosion.
+`destructible` | [Block Condition Type](../block_condition_types.md) | _optional_ | If specified, the blocks that fulfills this specified block condition type are the **only** blocks that are destroyed by the summoned explosion.
 `create_fire` | [Boolean](../data_types/boolean.md) | `false` | Determines if the explosion should create fire.
 
-### Example
+
+### Examples
+
 ```json
 "entity_action": {
     "type": "origins:explode",
@@ -32,4 +35,5 @@ Field | Type | Default | Description
     "create_fire": false
 }
 ```
-Makes the entity explode without damaging itself and the terrain.
+
+This example will summon an explosion that will **not** damage the entity that has summoned the explosion, or the terrain, or create fire.

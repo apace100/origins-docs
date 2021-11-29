@@ -13,21 +13,24 @@ Type ID: `origins:toggle`
 
 !!! note
 
-    To check if the power with this power type is toggled ON (or OFF), you can use the [Power Active](../entity_conditions/power_active.md) entity condition type.
+    To check if the power with this power type is toggled ON (or OFF), you can use the [Power Active (Entity Condition Type)](../entity_condition_types/power_active.md) entity condition type.
 
 !!! note
 
-    This power type can be used by <u>**addon**</u> developers by creating a new `PowerTypeReference` to provide functionality.
+    This power type can be used by <u>**addon**</u> developers by creating a new `PowerTypeReference` to provide additional functionality.
+
 
 ### Fields
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`active_by_default` | [Boolean](../types/data_types/boolean.md) | `true` | Whether this power starts in the on or off state.
+`active_by_default` | [Boolean](../data_types/boolean.md) | `true` | Whether this power starts in the on or off state.
 `key` | [Key](../data_types/key.md) | `{"key": "key.origins.primary_active"}` | Which active key this power should respond to.
 
 
-### Example
+
+### Examples
+
 ```json
 {
     "type": "origins:toggle",
@@ -37,4 +40,5 @@ Field  | Type | Default | Description
     }
 }
 ```
-This power is not active by default, and can be toggled by using the `key.use` keybind. Can be checked if the power is toggled on with the [`origins:power_active`](../entity_conditions/power_active.md) entity condition.
+
+This example will provide a switch that is not active by default, and can be toggled with the `key.use` keybind.

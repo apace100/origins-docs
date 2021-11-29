@@ -15,13 +15,15 @@ Type ID: `origins:choice`
 
     The chance of the object is determined by dividing the weight of the object to the sum of all weights of all the objects (`weight / sumOfAllWeights = chance`).
 
+
 ### Fields
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
 `actions` | [Array](../data_types/array.md) of [Objects](../data_types/object.md) | | Each object has to have an `element` [Action](../action_types.md) and a `weight` [Integer](../data_types/integer.md).
 
-### Example
+
+### Examples
 
 ```json
 "entity_action": {
@@ -56,4 +58,4 @@ Field  | Type | Default | Description
 }
 ```
 
-With a chance of 25% (weight / sum of all weights), this action will exhaust the player. With a chance of 25%, it will apply a regeneration effect. With a chance of 50%, it will set the player on fire for 8 seconds.
+This example has multiple entity action types with different weights: one with a 25% chance of applying exhaustion with a value of `0.5` to the player, another with a 25% chance of applying a Regeneration II status effect that would last for 5 seconds, and another one with a 50% of setting the entity on fire for 8 seconds.

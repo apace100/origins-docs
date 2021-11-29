@@ -11,11 +11,13 @@ Allows the players to fly as if they were in Creative Mode.
 
 Type ID: `origins:creative_flight`
 
-### Fields:
+
+### Fields
 
 _None._
 
-### Example:
+
+### Examples
 
 ```json
 {

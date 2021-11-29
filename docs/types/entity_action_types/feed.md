@@ -17,16 +17,19 @@ Type ID: `origins:feed`
 
 !!! note
 
-    This entity action type will **only** work on players.
+    **This entity action type will only work on players.**
+
 
 ### Fields
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`food` | [Integer](../data_types/integer.md) |  | The food amount to restore.
-`saturation` | [Float](../data_types/float.md) |  | The saturation amount to restore.
+`food` | [Integer](../data_types/integer.md) |  | The amount of food points to restore.
+`saturation` | [Float](../data_types/float.md) |  | The amount of saturation points to restore.
 
-### Example
+
+### Examples
+
 ```json
 "entity_action": {
     "type": "origins:feed",
@@ -34,4 +37,5 @@ Field  | Type | Default | Description
     "saturation": 2
 }
 ```
-This action *feeds* the player 2 hunger shanks (4 hunger points), and 16 saturation points.
+
+This example will *feed* the player 2 hunger shanks (4 hunger points), and 16 saturation points.

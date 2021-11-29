@@ -7,7 +7,8 @@ date: 2021-04-05
 
 Item Condition Types operate on an `ItemStack`. These are available to power/condition types that provides an `item_condition` object field.
 
-## List
+
+### List
 
 * [Amount](item_condition_types/amount.md)
 * [Armor Value](item_condition_types/armor_value.md)

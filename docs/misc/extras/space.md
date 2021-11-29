@@ -5,7 +5,7 @@ date: 2021-11-03
 
 # Space
 
-A space is a string which defines which coordinate system is used for directions, currently only used in [Add Velocity](../../types/entity_action_types/add_velocity.md).
+A space is a string which defines which coordinate system is used for directions, currently only used in [Add Velocity (Entity Action Type)](../../types/entity_action_types/add_velocity.md).
 
 * `world`: The axes are global: `x` goes from west (negative) to east (positive), `y` from bottom to top, and `z` from north to south.
 * `local`: The axes are local to the entity: `x` goes towards its left side and is always horizontal, `y` is pointing towards the top of the entity's head, and `z` points in the direction the entity is looking.

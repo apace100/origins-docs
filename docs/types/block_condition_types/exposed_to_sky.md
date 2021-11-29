@@ -11,11 +11,14 @@ Checks whether the block is exposed to the sky.
 
 Type ID: `origins:exposed_to_sky`
 
-### Fields:
+
+### Fields
 
 _None._
 
-### Example:
+
+### Examples
+
 ```json
 "block_condition": {
     "type": "origins:exposed_to_sky"

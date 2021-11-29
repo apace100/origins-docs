@@ -7,7 +7,8 @@ date: 2021-04-05
 
 Block Condition Types operate on `CachedBlockPosition`, essentially a combination of `World` and `BlockPos`, which allows retrieving all necessary information about the block. These are available to power/condition types that provides a `block_condition` object field.
 
-## List
+
+### List
 
 * [Adjacent](block_condition_types/adjacent.md)
 * [Attachable](block_condition_types/attachable.md)

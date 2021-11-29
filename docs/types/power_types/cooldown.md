@@ -7,23 +7,26 @@ date: 2021-04-07
 
 [Power Type](../power_types.md)
 
-Provides a cooldown; can be used for providing cooldowns to power types that do not have a built-in cooldown.
+Provides a cooldown; can be used for providing cooldowns to power types that do not have a built-in cooldown or as a simple timer.
 
 Type ID: `origins:cooldown`
 
 !!! note
 
-    This power type provides a cooldown that can be triggered with the [Trigger Cooldown](../entity_actions/trigger_cooldown.md) and [Change Resource](../entity_actions/change_resource.md) entity action types, and check the value of with the [Resource](../entity_conditions/resource.md) entity condition type.
+    This power type provides a cooldown that can be triggered with the [Trigger Cooldown (Entity Action Type)](../entity_action_types/trigger_cooldown.md) and [Change Resource (Entity Action Type)](../entity_action_types/change_resource.md), and check the value of with the [Resource (Entity Condition Type)](../entity_condition_types/resource.md).
+
 
 ### Fields
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`cooldown` | [Integer](../types/data_types/integer.md) | | Cooldown duration in ticks.
-`hud_render` | [Hud Render](../types/data_types/hud_render.md) | | Determines how the cooldown of this power is visualized on the HUD.
+`cooldown` | [Integer](../data_types/integer.md) | | Cooldown duration in ticks.
+`hud_render` | [Hud Render](../data_types/hud_render.md) | | Determines how the cooldown of this power is visualized on the HUD.
 
 
-### Example
+
+### Examples
+
 ```json
 {
     "type": "origins:cooldown",
@@ -34,4 +37,5 @@ Field  | Type | Default | Description
     }
 }
 ```
-This power will last for 10 seconds (20 ticks = 1 second), and display the 4th resource bar sprite in the default sprite sheet if triggered with the [`origins:trigger_cooldown`](../entity_actions/trigger_cooldown.md) entity action.
+
+This example will provide a cooldown that will last for 10 seconds, and display the 4th resource bar sprite from the default sprite sheet.

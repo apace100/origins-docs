@@ -11,12 +11,15 @@ Allows the player to swim (outside of water!).
 
 Type ID: `origins:swimming`
 
+
 ### Fields
 
 _None._
 
 
-### Example
+
+### Examples
+
 ```json
 {
     "type": "origins:swimming",
@@ -25,4 +28,5 @@ _None._
     }
 }
 ```
-This power will make the player swim instead of sprint if the player is on the ground.
+
+This example will make the player swim instead of sprint if the player is on the ground.

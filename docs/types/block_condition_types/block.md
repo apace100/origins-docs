@@ -11,20 +11,25 @@ Checks whether the block is a certain block (by ID).
 
 Type ID: `origins:block`
 
-### Fields:
+
+### Fields
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`block` | [Identifier](../data_types/identifier.md) | | ID of the block that this block needs to be to pass the check.
+`block` | [Identifier](../data_types/identifier.md) | | The namespace and ID of the block that this block needs to be to pass the check.
 
-### Examples:
+
+### Examples
+
 ```json
 "block_condition": {
     "type": "origins:block",
     "block": "minecraft:diamond_block"
 }
 ```
+
 This example checks if the block is a Diamond Block.
+<br>
 
 ```json
 "block_condition": {
@@ -41,4 +46,5 @@ This example checks if the block is a Diamond Block.
     ]
 }
 ```
-This example checks if the block is either a Diamond Block or an Emerald Block, though using the [`origins:in_tag`](../block_conditions/in_tag.md) block condition type would be better for checking multiple block types.
+
+This example will check if the block is either a Diamond Block or an Emerald Block.

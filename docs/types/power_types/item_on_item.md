@@ -7,7 +7,7 @@ date: 2021-10-02
 
 [Power Type](../power_types.md)
 
-Executes an entity action or item actions when the player uses an item on an item, similar to how you would put items in a bundle.
+Executes an [Entity Action Type](../entity_action_types.md) or [Item Action Types](../item_action_types.md) when the player uses an item on an item, similar to how you would put items in a bundle.
 
 Type ID: `origins:item_on_item`
 
@@ -15,19 +15,22 @@ Type ID: `origins:item_on_item`
 
     This power type currently does not work properly in Creative Mode.
 
+
 ### Fields
 
 Field | Type | Default | Description
 ------|------|---------|-------------
-`using_item_condition` | [Item Condition](../item_conditions.md) | _optional_ | If specified, the specified actions will only execute if this condition is fulfilled by the item that is used to right-click an item.
-`on_item_condition` | [Item Condition](../item_conditions.md) | _optional_ | If specified, the specified actions will only execute if this condition is fulfilled by the item that has been right-clicked.
+`using_item_condition` | [Item Condition Type](../item_condition_types.md) | _optional_ | If specified, the specified actions will only execute if this condition is fulfilled by the item that is used to right-click an item.
+`on_item_condition` | [Item Condition Type](../item_condition_types.md) | _optional_ | If specified, the specified actions will only execute if this condition is fulfilled by the item that has been right-clicked.
 `result` | [Item Stack](../data_types/item_stack.md) | _optional_ | If specified, this item will be given to the player.
-`using_item_action` | [Item Action](../item_actions.md) | _optional_ | If specified, this action will be executed on the item that is used to right-click an item.
-`on_item_action` | [Item Action](../item_actions.md) | _optional_ | If specified, this action will be executed on the item that has been right-clicked.
-`result_item_action` | [Item Action](../item_actions.md) | _optional_ | If specified, this action will be executed on the item that is given to the player.
-`entity_action` | [Entity Action](../entity_actions.md) | _optional_ | If specified, this action will be executed on the player after they used an item on an item.
+`using_item_action` | [Item Action Type](../item_action_types.md) | _optional_ | If specified, this action will be executed on the item that is used to right-click an item.
+`on_item_action` | [Item Action Type](../item_action_types.md) | _optional_ | If specified, this action will be executed on the item that has been right-clicked.
+`result_item_action` | [Item Action Type](../item_action_types.md) | _optional_ | If specified, this action will be executed on the item that is given to the player.
+`entity_action` | [Entity Action Type](../entity_action_types.md) | _optional_ | If specified, this action will be executed on the player after they used an item on an item.
 
-### Example
+
+### Examples
+
 ```json
 {
     "type": "origins:item_on_item",
@@ -64,4 +67,5 @@ Field | Type | Default | Description
     }
 }
 ```
+
 This example will give the player 8 Oak Planks if the player were to use any Axe tool item on an Oak Log item (have the Axe tool item in the cursor, and right-click on an Oak Log item). 

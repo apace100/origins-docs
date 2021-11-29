@@ -7,7 +7,8 @@ date: 2021-10-06
 
 Bi-entity Condition Types operate on a `Pair<Entity, Entity>`, or in simpler terms: an actor and a target. The actor and target is determined depending on the used power type, and can be swapped. These are available to power/condition types that provides a `bientity_condition` object field.
 
-## List
+
+### List
 
 * [Attack Target](bientity_condition_types/attack_target.md)
 * [Attacker](bientity_condition_types/attacker.md)

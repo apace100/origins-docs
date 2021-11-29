@@ -7,39 +7,54 @@ date: 2021-04-04
 
 [Entity Condition Type](../entity_condition_types.md)
 
-Checks whether the player is in a block (at the player's lower body half) that matches a specified block condition.
+Checks whether a block that fulfills the specified [Block Condition Type](../block_condition_types.md) is overlapping with the entity's feet.
 
 Type ID: `origins:in_block`
 
-### Fields:
+
+### Fields
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`block_condition` | [Block Condition](../block_conditions.md) | |  The block condition which is applied to the block at the player's lower body half.
+`block_condition` | [Block Condition Type](../block_condition_types.md) | | The block condition type to check for on the block that is overlapping with the entity's feet.
 
-### Example:
+
+### Examples
 
 ```json
 "condition": {
-  "type": "origins:in_block",
-  "block_condition": {
-    "type": "origins:and",
-    "conditions": [
-      {
+    "type": "origins:in_block",
+    "block_condition": {
         "type": "origins:block",
-        "block": "minecraft:sand"
-      },
-      {
-        "type": "origins:offset",
-        "y": 1,
-        "condition": {
-          "type": "origins:block",
-          "block": "minecraft:sand"
-        }
-      }
-    ]
-  }
+        "block": "minecraft:grass"
+    }
 }
 ```
 
-This condition applied to a power will make sure it's only active while the player is buried in sand.
+This example will check if Grass (foliage) is currently overlapping the entity's feet.
+<br>
+
+```json
+"condition": {
+    "type": "origins:in_block",
+    "block_condition": {
+        "type": "origins:and",
+        "conditions": [
+            {
+                "type": "origins:block",
+                "block": "minecraft:sand"
+            },
+            {
+                "type": "origins:offset",
+                "condition": {
+                    "type": "origins:block",
+                    "block": "minecraft:sand"
+                },
+                "y": 1
+            }
+        ]
+    }
+}
+```
+
+This example will check if there are Sand blocks at the entity's feet and eyes, essentially checking if the entity is buried in sand.

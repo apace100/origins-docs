@@ -11,11 +11,14 @@ Checks if the entity exists.
 
 Type ID: `origins:exists`
 
+
 ### Fields
 
 _None._
 
-### Example
+
+### Examples
+
 ```json
 "condition": {
     "type": "origins:exists"

@@ -9,7 +9,8 @@ date: 2021-04-04
 
 An [Object](object.md) which defines a new item stack.
 
-### Fields:
+
+### Fields
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
@@ -17,7 +18,8 @@ Field  | Type | Default | Description
 `amount` | [Integer](integer.md) | `1` | Size of the stack.
 `tag` | [String](string.md) | _optional_ | NBT data of the item.
 
-### Examples:
+
+### Examples
 
 ```json
 "stack": {

@@ -11,14 +11,17 @@ Checks whether the material of the item has a certain harvest level value. Refer
 
 Type ID: `origins:harvest_level`
 
-### Fields:
+
+### Fields
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
 `comparison` | [Comparison](../data_types/comparison.md) | |  How to compare the item's harvest level to the specified value.
 `compare_to` | [Integer](../data_types/integer.md) | | Which value to compare the item's harvest level to.
 
-### Example
+
+### Examples
+
 ```json
 "item_condition": {
     "type": "origins:harvest_level",
@@ -26,4 +29,5 @@ Field  | Type | Default | Description
     "compare_to": 1
 }
 ```
+
 This example checks if the item has a harvest level higher than 1, which is the value for stone tools.

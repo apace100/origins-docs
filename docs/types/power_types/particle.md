@@ -22,15 +22,18 @@ Type ID: `origins:particle`
     * `minecraft:item`
     * `minecraft:vibration`
 
+
 ### Fields
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`particle` | [Identifier](../types/data_types/identifier.md) | | The namespace and ID of the partice type to use.
-`frequency` | [Integer](../types/data_types/integer.md) | | Determines how often the particles should spawn (interval in ticks).
-`visible_in_first_person` | [Boolean](../types/data_types/boolean.md) | `false` | Determines whether the particle should be visible in first person.
+`particle` | [Identifier](../data_types/identifier.md) | | The namespace and ID of the partice type to use.
+`frequency` | [Integer](../data_types/integer.md) | | Determines how often the particles should spawn (interval in ticks).
+`visible_in_first_person` | [Boolean](../data_types/boolean.md) | `false` | Determines whether the particle should be visible in first person.
 
-### Example
+
+### Examples
+
 ```json
 {
   	"type": "origins:particle",
@@ -38,4 +41,5 @@ Field  | Type | Default | Description
   	"frequency": 4
 }
 ```
-Continuously spawns portal particles on the entity that has the power.
+
+This example will continuously spawn portal particles on the entity that has the power.

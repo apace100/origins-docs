@@ -13,18 +13,22 @@ Type ID: `origins:nothing`
 
 !!! note
 
-    **Only available as an [Entity Action](../entity_actions.md) and a [Bi-entity Action](../bientity_actions.md).**
+    **Only available as an [Entity Action Type](../entity_action_types.md) and a [Bi-entity Action Type](../bientity_action_types.md).**
+
 
 ### Fields
 
 _None._
 
+
 ### Examples
+
 ```json
 "entity_action": {
     "type": "origins:nothing"
 }
 ```
+
 This example does.. nothing.
 <br>
 
@@ -33,4 +37,5 @@ This example does.. nothing.
     "type": "origins:nothing"
 }
 ```
+
 This example also does.. nothing.

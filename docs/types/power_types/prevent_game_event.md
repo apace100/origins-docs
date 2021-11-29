@@ -11,16 +11,19 @@ Prevents specified game event(s) from being emitted by the entity that has the p
 
 Type ID: `origins:prevent_game_event`
 
+
 ### Fields
 
 Field | Type | Default | Description
 ------|------|---------|-------------
-`event` | [Identifier](../types/data_types/identifier.md) | _optional_ | If specified, the game event with this namespace and ID will be prevent from being emitted by the entity.
-`events` | [Array](../types/data_types/array.md) of [Identifiers](../types/data_types/identifier.md) | _optional_ | If specified, the game events with these namespace and IDs will be prevent from being emitted by the entity.
-`tag` | [Identifier](../types/data_types/identifier.md) | _optional_ | If specified, the game events inside game event tag will be prevented from being emitted by the entity.
-`entity_action` | [Entity Action](../entity_actions.md) | _optional_ | If specified, this action will be executed on the entity upon preventing game events.
+`event` | [Identifier](../data_types/identifier.md) | _optional_ | If specified, the game event with this namespace and ID will be prevent from being emitted by the entity.
+`events` | [Array](../data_types/array.md) of [Identifiers](../data_types/identifier.md) | _optional_ | If specified, the game events with these namespace and IDs will be prevent from being emitted by the entity.
+`tag` | [Identifier](../data_types/identifier.md) | _optional_ | If specified, the game events inside game event tag will be prevented from being emitted by the entity.
+`entity_action` | [Entity Action Type](../entity_action_types.md) | _optional_ | If specified, this action will be executed on the entity upon preventing game events.
 
-### Example
+
+### Examples
+
 ```json
 {
     "type": "origins:prevent_game_event",
@@ -31,4 +34,5 @@ Field | Type | Default | Description
     }
 }
 ```
-This example prevents the entity that has the power to emit a `minecraft:hit_ground` game event, which is usually emitted by landing on the ground upon falling, and runs a `/say` command.
+
+This example will prevent the entity that has the power to emit a `minecraft:hit_ground` game event, which is usually emitted by landong on the ground upon falling.

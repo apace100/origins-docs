@@ -11,6 +11,7 @@ Applies damage to an entity.
 
 Type ID: `origins:damage`
 
+
 ### Fields
 
 Field  | Type | Default | Description
@@ -18,7 +19,9 @@ Field  | Type | Default | Description
 `amount` | [Float](../data_types/float.md) |  | The amount of damage to deal.
 `source` | [Damage Source](../data_types/damage_source.md) |  | The damage source to be used. Controls e.g. the death message, invulnerabilities (e.g. towards fire), or whether armor is taken into account.
 
-### Example
+
+### Examples
+
 ```json
 "entity_action": {
     "type": "origins:damage",
@@ -30,4 +33,5 @@ Field  | Type | Default | Description
     }
 }
 ```
-This action deals 2 hearts of damage as if the target was burning.
+
+This example will deal 2 hearts of `onFire` damage that is considered as fire damage, and bypasses armor.

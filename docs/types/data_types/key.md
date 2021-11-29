@@ -9,14 +9,16 @@ date: 2021-04-04
 
 An [Object](object.md) which defines a keybinding, used in active powers to define which key they react to.
 
-### Fields:
+
+### Fields
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`key` | [String](string.md) | | A string specifying the keybinding. See [Keybindings](../../misc/extra/keybindings.md) for possible values.
+`key` | [String](string.md) | | A string specifying the keybinding. See [Keybindings](../../misc/extras/keybindings.md) for possible values.
 `continuous` | [Boolean](boolean.md) | `false` | Whether the keybinding should only trigger the power on the first tick the key is held down, or, if set to true, continuously on each tick while the key is held.
 
-### Examples:
+
+### Examples
 
 ```json
 "key": {

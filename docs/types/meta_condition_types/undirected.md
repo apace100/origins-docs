@@ -13,15 +13,18 @@ Type ID: `origins:undirected`
 
 !!! note
 
-	**Only available as a [Bi-entity Condition](../bientity_conditions.md).**
+	**Only available as a [Bi-entity Condition Type](../bientity_condition_types.md).**
+
 
 ### Fields
 
 Field | Type | Default | Description
 ------|------|---------|-------------
-`condition` | [Bi-entity Condition](../bientity_conditions.md) | | The bi-entity condition to check for.
+`condition` | [Bi-entity Condition Type](../bientity_condition_types.md) | | The bi-entity condition type to check for.
 
-### Example
+
+### Examples
+
 ```json
 "bientity_condition": {
 	"type": "origins:undirected",
@@ -30,4 +33,5 @@ Field | Type | Default | Description
 	}
 }
 ```
-This example will return true if the actor entity is the owner of the target entity, or if the target entity is the owner of the actor entity.
+
+This example will check if the actor entity is the owner of the target entity, or if the target entity is the owner of the actor entity.

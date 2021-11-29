@@ -7,15 +7,18 @@ date: 2021-04-04
 
 [Entity Condition Type](../entity_condition_types.md)
 
-Checks whether the player is currently fall flying (with an Elytra, an Elytra power, or similar).
+Checks whether the entity is currently fall flying (with an Elytra, an Elytra power, or similar).
 
 Type ID: `origins:fall_flying`
 
-### Fields:
+
+### Fields
 
 _None._
 
-### Example:
+
+### Examples
+
 ```json
 "condition": {
     "type": "origins:fall_flying"

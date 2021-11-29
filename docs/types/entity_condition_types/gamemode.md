@@ -7,17 +7,23 @@ date: 2021-04-06
 
 [Entity Condition Type](../entity_condition_types.md)
 
-Checks the gamemode of a player. Will return false if the entity is not a player.
+Checks the gamemode of the entity.
 
 Type ID: `origins:gamemode`
 
-### Fields:
+!!! note
+
+    **This entity condition type will only work on players.**
+
+
+### Fields
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
 `gamemode` | [String](../data_types/string.md) | | Name of the gamemode the player should have in order for this condition to evaluate to true.
 
-### Example:
+
+### Examples
 
 ```json
 "condition": {
@@ -25,4 +31,5 @@ Field  | Type | Default | Description
   "gamemode": "creative"
 }
 ```
-This condition will only pass on players which are in creative mode.
+
+This example will check if the player is in Creative Mode.

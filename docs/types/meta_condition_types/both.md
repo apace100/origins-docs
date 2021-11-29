@@ -13,15 +13,18 @@ Type ID: `origins:both`
 
 !!! note
 
-	**Only available as a [Bi-entity Condition](../bientity_conditions.md).**
+	**Only available as a [Bi-entity Condition Type](../bientity_condition_types.md).**
+
 
 ### Fields
 
 Field | Type | Default | Description
 ------|------|---------|-------------
-`condition` | [Entity Condition](../entity_conditions.md) | | The condition to check on both the actor and target entity.
+`condition` | [Entity Condition Type](../entity_condition_types.md) | | The entity condition type to check on both the actor and target entity.
 
-### Example
+
+### Examples
+
 ```json
 "bientity_condition": {
     "type": "origins:both",
@@ -31,4 +34,5 @@ Field | Type | Default | Description
     }
 }
 ```
-This example will only return true if both the actor entity and the target entity is a player.
+
+This example will check if both the actor entity and the target entity is a player.

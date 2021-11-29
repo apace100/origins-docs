@@ -11,17 +11,21 @@ Executes a command at the position of the block.
 
 Type ID: `origins:execute_command`
 
+
 ### Fields
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
 `command` | [String](../data_types/string.md) |  | The command to execute.
 
-### Example
+
+### Examples
+
 ```json
 "block_action": {
     "type": "origins:execute_command",
     "command": "summon minecraft:item ~ ~ ~ {Item:{id:\"minecraft:wheat\",Count:1}}"
 }
 ```
-Creates a wheat item at the position of the block the action is executed on.
+
+This example will summon a Wheat item entity at the position of the block action type.

@@ -11,11 +11,14 @@ Checks whether the block is marked in code as blocking movement and doesn't have
 
 Type ID: `origins:movement_blocking`
 
-### Fields:
+
+### Fields
 
 _None._
 
-### Example:
+
+### Examples
+
 ```json
 "block_condition": {
     "type": "origins:movement_blocking"

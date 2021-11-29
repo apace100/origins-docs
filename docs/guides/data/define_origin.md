@@ -70,6 +70,6 @@ That concludes this tutorial on how to define custom origins using existing powe
 
 ### Related pages
 
-* [Origin JSON](../../json/origin.md.md)
+* [Origin JSON](../../json/origin.md)
 * [Upgrade JSON](../../json/upgrade.md)
 * [Layer JSON](../../json/origin_layer.md)

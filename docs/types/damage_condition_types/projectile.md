@@ -11,17 +11,21 @@ Checks whether the damage source was projectile damage, and optionally the type 
 
 Type ID: `origins:projectile`
 
-### Fields:
+
+### Fields
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`projectile` | [Identifier](../data_types/identifier.md) | _optional_ | If set, the check will only pass if the projectile was of an entity type with this ID.
+`projectile` | [Identifier](../data_types/identifier.md) | _optional_ | If set, the check will only pass if the projectile was of an entity type with the specified namespace and ID.
 
-### Example
+
+### Examples
+
 ```json
 "damage_condition": {
     "type": "origins:projectile",
     "projectile": "minecraft:spectral_arrow"
 }
 ```
-This example checks if the damage source projectile entity is a spectral arrow.
+
+This example will check if the damage source is a Spectral Arrow projectile entity.

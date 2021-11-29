@@ -11,14 +11,17 @@ Modifies the air speed of the entity that has the power.
 
 Type ID: `origins:modify_air_speed`
 
+
 ### Fields
 
 Field | Type | Default | Description
 ------|------|---------|-------------
-`modifier` | [Attribute Modifier](../types/data_types/attribute_modifier.md) | _optional_ | If specified, this modifier will be applied to the entity's air speed.
-`modifiers` | [Array](../types/data_types/array.md) of [Attribute Modifiers](../types/data_types/attribute_modifier.md) | _optional_ | If specified, these modifiers will be applied to the entity's air speed.
+`modifier` | [Attribute Modifier](../data_types/attribute_modifier.md) | _optional_ | If specified, this modifier will be applied to the entity's air speed.
+`modifiers` | [Array](../data_types/array.md) of [Attribute Modifiers](../data_types/attribute_modifier.md) | _optional_ | If specified, these modifiers will be applied to the entity's air speed.
 
-### Example
+
+### Examples
+
 ```json
 {
     "type": "origins:modify_air_speed",
@@ -28,4 +31,5 @@ Field | Type | Default | Description
     }
 }
 ```
-This example increases the entity's air speed by 150%.
+
+This example will increase the entity's air speed by 150%.

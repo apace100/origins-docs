@@ -11,11 +11,14 @@ Checks whether the biome counts as an area with high humidity.
 
 Type ID: `origins:high_humidity`
 
-### Fields:
+
+### Fields
 
 _None._
 
-### Example:
+
+### Examples
+
 ```json
 "biome_condition": {
     "type": "origins:high_humidity"

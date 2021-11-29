@@ -17,7 +17,8 @@ Value  | Description
 `multiply_base` | Adds (or subtracts) a portion of the base value: NewValue = CurrentValue + (BaseValue * ModifierValue)
 `multiply_total` | Multiplies the total value by this value: NewTotalValue = TotalValue * (1 + ModifierValue)
 
-### Examples:
+
+### Examples
 
 ```json
 {

@@ -11,13 +11,16 @@ Checks the NBT of the block entity.
 
 Type ID: `origins:nbt`
 
+
 ### Fields
 
 Field | Type | Default | Description
 ------|------|---------|-------------
 `nbt` | [String](../data_types/string.md) | | The NBT data to check for.
 
-### Example
+
+### Examples
+
 ```json
 "block_condition": {
     "type": "origins:and",
@@ -33,4 +36,5 @@ Field | Type | Default | Description
     ]
 }
 ```
-This example checks if a beacon block has a level value of 1.
+
+This example will check if Beacon block has a `Level` value of 1.

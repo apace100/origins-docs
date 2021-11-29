@@ -7,19 +7,22 @@ date: 2021-04-04
 
 [Entity Condition Type](../entity_condition_types.md)
 
-Checks how high a specific fluid is at the player. A fluid height of 0 means the player is not touching the fluid.
+Checks how high a specific fluid is at the entity. A fluid height of 0 means the entity is not touching the fluid.
 
 Type ID: `origins:fluid_height`
 
-### Fields:
+
+### Fields
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`fluid` | [Identifier](../data_types/identifier.md) | | ID of the fluid tag of which the height should be checked. Most important examples: `minecraft:water` and `minecraft:lava`.
+`fluid` | [Identifier](../data_types/identifier.md) | | The namespace and ID of the fluid tag of which the height should be checked. Most important examples: `minecraft:water` and `minecraft:lava`.
 `comparison` | [Comparison](../data_types/comparison.md) | | How the fluid height should be compared to the specified value.
 `compare_to` | [Float](../data_types/float.md) | | Which value the fluid height should be compared to.
 
-### Example:
+
+### Examples
+
 ```json
 "condition": {
     "type": "origins:fluid_height",
@@ -28,4 +31,5 @@ Field  | Type | Default | Description
     "compare_to": 0
 }
 ```
-This example checks if the player is not touching a lava fluid.
+
+This example will check if the entity is not touching a lava fluid.

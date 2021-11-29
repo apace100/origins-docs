@@ -11,18 +11,19 @@ Modifies how much damage the entity that has the power takes.
 
 Type ID: `origins:modify_damage_taken`
 
+
 ### Fields
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`damage_condition` | [Damage Condition](../damage_conditions.md) | _optional_ | If specified, the specified modifiers(s) and/or action(s) will only apply if the taken damage fulfills this condition.
-`modifier` | [Attribute Modifier](../types/data_types/attribute_modifier.md) | _optional_ | If specified, this modifier will apply to the damage amount.
-`modifiers` | [Array](../types/data_types/array.md) of [Attribute Modifiers](../types/data_types/attribute_modifier.md) | _optional_ | If specified, these modifiers will apply to the damage amount.
-`self_action` | [Entity Action](../entity_actions.md) | _optional_ | If specified, this action will be executed on the entity that has the power whenever the modifier(s) is applied.
-`attacker_action` | [Entity Action](../entity_actions.md) | _optional_ | If specified, this action will be executed on the entity/entities that has been hit whenever the modifier(s) is applied.
+`damage_condition` | [Damage Condition Type](../damage_condition_types.md) | _optional_ | If specified, the specified modifiers(s) and/or action(s) will only apply if the taken damage fulfills this condition.
+`modifier` | [Attribute Modifier](../data_types/attribute_modifier.md) | _optional_ | If specified, this modifier will apply to the damage amount.
+`modifiers` | [Array](../data_types/array.md) of [Attribute Modifiers](../data_types/attribute_modifier.md) | _optional_ | If specified, these modifiers will apply to the damage amount.
+`self_action` | [Entity Action Type](../entity_action_types.md) | _optional_ | If specified, this action will be executed on the entity that has the power whenever the modifier(s) is applied.
+`attacker_action` | [Entity Action Type](../entity_action_types.md) | _optional_ | If specified, this action will be executed on the entity/entities that has been hit whenever the modifier(s) is applied.
 
 
-### Example
+### Examples
 ```json
 {
     "type": "origins:modify_damage_taken",
@@ -57,4 +58,5 @@ Field  | Type | Default | Description
     }
 }
 ```
-This power will make the player take 3 hearts of damage if the attacker is holding an item with either the Curse of Binding, or Curse of Vanishing enchantments.
+
+This example will make the entity that has the power take 3 additional hearts of damage if the attacker is holding an item with either the Curse of Binding, or Curse of Vanishing enchantments.

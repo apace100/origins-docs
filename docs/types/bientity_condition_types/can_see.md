@@ -11,11 +11,14 @@ Checks whether the straight path from the actor entity's eyes to the target enti
 
 Type ID: `origins:can_see`
 
+
 ### Fields
 
 _None._
 
-### Example
+
+### Examples
+
 ```json
 "bientity_condition": {
     "type": "origins:can_see"

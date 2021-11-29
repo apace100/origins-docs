@@ -7,20 +7,23 @@ date: 2021-10-06
 
 [Power Type](../power_types.md)
 
-Executes an entity action on the entity that has the power if the entity has taken damage.
+Executes an [Entity Action Type](../entity_action_types.md) on the entity that has the power if the entity has taken damage.
 
 Type ID: `origins:action_when_damage_taken`
+
 
 ### Fields
 
 Field | Type | Default | Description
 ------|------|---------|-------------
-`entity_action` | [Entity Action](../entity_actions.md) | | The action to be executed upon taking damage.
-`damage_condition` | [Damage Condition](../damage_conditions.md) | _optional_ | If specified, the action will only trigger when this condition holds for the specified type of damage.
-`cooldown` | [Integer](../types/data_types/integer.md) | | Interval of ticks this power needs to recharge before the power can be triggered again.
-`hud_render` | [Hud Render](../types/data_types/hud_render.md) | `{"should_render": false}` | Determines how the cooldown of this power is visualized on the HUD.
+`entity_action` | [Entity Action Type](../entity_action_types.md) | | The action to be executed upon taking damage.
+`damage_condition` | [Damage Condition Type](../damage_condition_types.md) | _optional_ | If specified, the action will only trigger when this condition holds for the specified type of damage.
+`cooldown` | [Integer](../data_types/integer.md) | | Interval of ticks this power needs to recharge before the power can be triggered again.
+`hud_render` | [Hud Render](../data_types/hud_render.md) | `{"should_render": false}` | Determines how the cooldown of this power is visualized on the HUD.
 
-### Example
+
+### Examples
+
 ```json
 {
     "type": "origins:action_when_damage_taken",
@@ -34,4 +37,5 @@ Field | Type | Default | Description
     "cooldown": 1
 }
 ```
-This example executes an `origins:execute_command` entity action if the damage type taken is fire-related.
+
+This example will execute an [Execute Command (Entity Action Type)](../entity_action_types/execute_command.md) that will execute a `/say` command that will display a "`[ENTITYNAME] ow! i'm burning!`" in chat if the entity has taken fire-related damage source.

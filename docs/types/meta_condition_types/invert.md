@@ -13,15 +13,17 @@ Type ID: `origins:invert`
 
 !!! note
 
-	**Only available as a [Bi-entity Condition](../bientity_conditions.md).**
+	**Only available as a [Bi-entity Condition Type](../bientity_condition_types.md).**
+
 
 ### Fields
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`condition` | [Bi-entity Condition](../bientity_conditions.md) | | The bi-entity condition to check which will have its 'target' and 'actor' contexts swapped.
+`condition` | [Bi-entity Condition Type](../bientity_condition_types.md) | | The bi-entity condition type to check which will have its 'target' and 'actor' contexts swapped.
 
-### Example
+
+### Examples
 
 ```json
 "bientity_condition": {
@@ -32,4 +34,4 @@ Field  | Type | Default | Description
 }
 ```
 
-This will check if the target of the action can see the actor, as the roles are swapped.
+This example will check if the target entity can see the actor entity, as the roles are now swapped.

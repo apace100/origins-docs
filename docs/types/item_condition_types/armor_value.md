@@ -20,14 +20,17 @@ Type ID: `origins:armor_value`
     * [Leggings](https://minecraft.fandom.com/wiki/Leggings#Defense_points)
     * [Boots](https://minecraft.fandom.com/wiki/Boots#Defense_points)
 
-### Fields:
+
+### Fields
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
 `comparison` | [Comparison](../data_types/comparison.md) | |  How to compare the item's armor value to the specified value.
 `compare_to` | [Integer](../data_types/integer.md) | | Which value to compare the item's armor value to.
 
-### Example
+
+### Examples
+
 ```json
 "item_condition": {
     "type": "origins:armor_value",
@@ -35,4 +38,5 @@ Field  | Type | Default | Description
     "compare_to": 3
 }
 ```
-This example checks if the armor item (in this context, a chestplate) has a higher armor value than 3, which is the armor value for the leather chestplate armor item.
+
+This example will check if the armor item (in this context, a chestplate) has a higher armor value than 3, which is the armor value for the leather chestplate armor item.

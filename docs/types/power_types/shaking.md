@@ -7,15 +7,18 @@ date: 2021-04-10
 
 [Power Type](../power_types.md)
 
-Makes the entity that has the power shake, similar to a strider out of lava or a zombie undergoing conversion.
+Makes the entity that has the power shake, similar to a Strider out of lava or a Zombie undergoing conversion.
 
 Type ID: `origins:shaking`
+
 
 ### Fields
 
 _None._
 
-### Example
+
+### Examples
+
 ```json
 {
   	"type": "origins:shaking",
@@ -25,4 +28,5 @@ _None._
   	}
 }
 ```
-This power makes the player shake when they are not burning.
+
+This example will make the entity shake if the entity is not burning.

@@ -11,11 +11,14 @@ Checks whether this state describes a still (i.e. not flowing, i.e. source) flui
 
 Type ID: `origins:still`
 
-### Fields:
+
+### Fields
 
 _None._
 
-### Example:
+
+### Examples
+
 ```json
 "fluid_condition": {
     "type": "origins:still"

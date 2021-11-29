@@ -10,7 +10,8 @@ a `type` field in the JSON. Which type a power is defines which other fields it 
 
 Unless stated otherwise, each power type supports a `condition` field that can check for [Entity Condition Types](entity_condition_types.md). See [Power JSON](../json/power.md) for more details.
 
-## Regular types
+
+### Regular types
 
 * [Attribute Modify Transfer](power_types/attribute_modify_transfer.md)
 * [Attribute](power_types/attribute.md)
@@ -59,7 +60,8 @@ Unless stated otherwise, each power type supports a `condition` field that can c
 * [Tooltip](power_types/tooltip.md)
 * [Walk On Fluid](power_types/walk_on_fluid.md)
 
-## Action-related
+
+### Action-related
 
 * [Action On Being Used](power_types/action_on_being_used.md)
 * [Action On Block Break](power_types/action_on_block_break.md)
@@ -79,7 +81,8 @@ Unless stated otherwise, each power type supports a `condition` field that can c
 * [Self Action When Hit](power_types/self_action_when_hit.md)
 * [Target Action On Hit](power_types/target_action_on_hit.md)
 
-## Modifying types
+
+### Modifying types
 
 * [Modify Air Speed](power_types/modify_air_speed.md)
 * [Modify Block Render](power_types/modify_block_render.md)
@@ -100,7 +103,8 @@ Unless stated otherwise, each power type supports a `condition` field that can c
 * [Modify Swim Speed](power_types/modify_swim_speed.md)
 * [Modify XP Gain](power_types/modify_xp_gain.md)
 
-## Preventing types
+
+### Preventing types
 
 * [Prevent Being Used](power_types/prevent_being_used.md)
 * [Prevent Block Selection](power_types/prevent_block_selection.md)

@@ -11,6 +11,7 @@ Damages the item stack with a specified amount.
 
 Type ID: `origins:damage`
 
+
 ### Fields
 
 Field | Type | Default | Description
@@ -19,7 +20,9 @@ Field | Type | Default | Description
 `ignore_unbreaking` | [Boolean](../data_types/boolean.md) | `false` | Determines if this action should ignore the Unbreaking enchantment.
 
 
-### Example
+
+### Examples
+
 ```json
 "item_action": {
     "type": "origins:damage",
@@ -27,4 +30,5 @@ Field | Type | Default | Description
     "ignore_unbreaking": true
 }
 ```
-This example damages the item stack by 10, ignoring the Unbreaking enchantment.
+
+This example will damage the item stack by 10, ignoring the Unbreaking enchantment.

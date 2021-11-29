@@ -7,15 +7,22 @@ date: 2021-04-04
 
 [Entity Condition Type](../entity_condition_types.md)
 
-This is true when the player is swimming. Also activates when a [Swimming](../power_types/swimming.md) power is active.
+Checks whether the entity is currently swimming (in the swimming pose).
 
 Type ID: `origins:swimming`
 
-### Fields:
+!!! note
+
+    **This entity condition type will only work on players.**
+
+
+### Fields
 
 _None._
 
-### Example:
+
+### Examples
+
 ```json
 "condition": {
     "type": "origins:swimming"

@@ -11,15 +11,18 @@ Transfers the value of an attribute modifier from a specified attribute to a spe
 
 Type ID: `origins:attribute_modify_transfer`
 
+
 ### Fields
 
 Field | Type | Default | Description
 ------|------|---------|-------------
-`class` | [Identifier](../types/data_types/identifier.md) | | The path and ID of the class to transfer the value of an attribute modifier to.
-`attribute` | [Identifier](../types/data_types/identifier.md) | | The namespace and ID of the attribute to transfer the value from.
-`multiplier` | [Float](../types/data_types/float.md) | `1.0` | Determines the multiplier for the value.
+`class` | [Identifier](../data_types/identifier.md) | | The path and ID of the class to transfer the value of an attribute modifier to.
+`attribute` | [Identifier](../data_types/identifier.md) | | The namespace and ID of the attribute to transfer the value from.
+`multiplier` | [Float](../data_types/float.md) | `1.0` | Determines the multiplier for the value.
  
-### Example
+
+### Examples
+
 ```json
 {
     "type": "origins:attribute_modify_transfer",
@@ -28,4 +31,5 @@ Field | Type | Default | Description
     "multiplier": 1.25
 }
 ```
-This example transfers the attribute modifier value of the `minecraft:generic.movement_speed` attribute to the `modify_break_speed` (`io.github.apace100.apoli.power.ModifyBreakSpeedPower`) class, essentially giving you mining speed boost if your movement speed is high.
+
+This example will transfer the value of the attribute modifier for the `minecraft:generic.movement_speed` attribute to the `modify_break_speed` (`io.github.apace100.apoli.power.ModifyBreakSpeedPower`) class, essentially giving the player mining speed boost if the player's movement speed is quite high.

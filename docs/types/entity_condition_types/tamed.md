@@ -11,11 +11,14 @@ Checks whether a tamable entity is tamed. Will return false if the entity is not
 
 Type ID: `origins:tamed`
 
-### Fields:
+
+### Fields
 
 _None._
 
-### Example:
+
+### Examples
+
 ```json
 "condition": {
     "type": "origins:tamed"

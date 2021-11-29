@@ -11,13 +11,15 @@ Adds a block at the specified action position. Adding means setting the block at
 
 Type ID: `origins:add_block`
 
+
 ### Fields
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`block` | [Identifier](../data_types/identifier.md) | | The ID of the block to place.
+`block` | [Identifier](../data_types/identifier.md) | | The namespace and ID of the block to place.
 
-### Example
+
+### Examples
 
 ```json
 "block_action": {
@@ -26,4 +28,4 @@ Field  | Type | Default | Description
 }
 ```
 
-This action sets the block at the position of the action, offset by the direction of the action, to a coal ore.
+This example will add a Coal Ore block at the position of the block action type.

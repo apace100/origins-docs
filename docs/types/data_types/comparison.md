@@ -20,6 +20,7 @@ Value  | Description
 `==` | Checks if the first number is **equal to** the second number.
 `!=` | Checks if the first number is **not equal to** the second number.
 
+
 ### Examples
 
 ```json
@@ -39,4 +40,4 @@ Equal to. There's not much to say about this.
 }
 ```
 
-A comparison used inside an [XP Levels](../entity_conditions/xp_levels.md) condition, which checks that the player is level 3 or higher.
+A comparison used inside [XP Levels (Entity Condition Type)](../entity_condition_types/xp_levels.md), which checks that the player is level 3 or higher.

@@ -55,6 +55,7 @@ An [Integer](../../types/data_types/integer.md) that specifies the position (or 
 
 <br>
 
+
 ### Hotbar Slots
 
   Item Stack Slot  |  `/item replace entity` Slot  |  `Inventory` NBT Slot  

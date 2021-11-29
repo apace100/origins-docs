@@ -15,15 +15,18 @@ Type ID: `origins:modify_xp_gain`
 
     Be careful not to make this go too high, as then the player would be able to gain more experience from dying.
 
+
 ### Fields
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`modifier` | [Attribute Modifier](../types/data_types/attribute_modifier.md) | _optional_ | If specified, this modifier will apply to the experience gained.
-`modifiers` | [Array](../types/data_types/array.md) of [Attribute Modifiers](../types/data_types/attribute_modifier.md) | _optional_ | If specified, these modifiers will apply to the experience gained.
+`modifier` | [Attribute Modifier](../data_types/attribute_modifier.md) | _optional_ | If specified, this modifier will apply to the experience gained.
+`modifiers` | [Array](../data_types/array.md) of [Attribute Modifiers](../data_types/attribute_modifier.md) | _optional_ | If specified, these modifiers will apply to the experience gained.
 
 
-### Example
+
+### Examples
+
 ```json
 {
     "type": "origins:modify_xp_gain",
@@ -33,4 +36,5 @@ Field  | Type | Default | Description
     }
 }
 ```
-This power doubles the gained experience from experience orbs.
+
+This example will triple the gained experience from experience orbs.

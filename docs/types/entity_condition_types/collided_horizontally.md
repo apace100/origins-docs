@@ -11,11 +11,13 @@ Checks whether the entity is colliding horizontally (walking against a block).
 
 Type ID: `origins:collided_horizontally`
 
-### Fields:
+
+### Fields
 
 _None._
 
-### Example:
+
+### Examples
 ```json
 "condition": {
     "type": "origins:collided_horizontally"

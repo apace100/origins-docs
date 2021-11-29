@@ -7,19 +7,22 @@ date: 2021-04-04
 
 [Entity Condition Type](../entity_condition_types.md)
 
-Checks the value of a [Resource (Power Type)](../power_types/resource.md) or a power with a cooldown (using the remaining ticks as the value).
+Checks the value of a power that uses the [Resource (Power Type)](../power_types/resource.md) or a power type that has a built-in cooldown (using remaining ticks as the value).
 
 Type ID: `origins:resource`
 
-### Fields:
+
+### Fields
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`resource` | [Identifier](../data_types/identifier.md) | | ID of the power type that defines the resource. Must be a [Resource (Power Type)](../power_types/resource.md) which exists on the player.
-`comparison` | [Comparison](../data_types/comparison.md) | | How the resource should be compared to the specified value.
-`compare_to` | [Integer](../data_types/integer.md) | | Which value the resource should be compared to.
+`resource` | [Identifier](../data_types/identifier.md) | | The namespace and ID of a power that will be evaluated.
+`comparison` | [Comparison](../data_types/comparison.md) | | How the value of the power that will be evaluated should be compared to the specified value.
+`compare_to` | [Integer](../data_types/integer.md) | | The value to compare the value of the power that will be evaluated to.
 
-### Examples:
+
+### Examples
+
 ```json
 "condition": {
     "type": "origins:resource",
@@ -28,8 +31,9 @@ Field  | Type | Default | Description
     "compare_to": 1
 }
 ```
-This example checks if the player has a value of 1 in the `example:a_simple_resource` resource power. (`data\example\powers\a_simple_resource.json`)
 
+This example will check if the player has a value of 1 in the `example:a_simple_resource` resource power. (`data\example\powers\a_simple_resource.json`)
+<br>
 
 ```json
 "condition": {
@@ -39,4 +43,5 @@ This example checks if the player has a value of 1 in the `example:a_simple_reso
     "compare_to": 50
 }
 ```
-This example checks if the player has a value of more than 50 in the `with_resource_subpower` sub-power of `example:a_multiple_power` power. (`data\example\powers\a_multiple_power.json`)
+
+This example will check if the player has a value of more than 50 in the `with_resource_subpower` sub-power of `example:a_multiple_power` power. (`data\example\powers\a_multiple_power.json`)

@@ -11,13 +11,15 @@ Executes all provided actions in order.
 
 Type ID: `origins:and`
 
+
 ### Fields
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
 `actions` | [Array](../data_types/array.md) of [Actions](../action_types.md) | | These actions will be executed one after the other (but in the same tick).
 
-### Example
+
+### Examples
 
 ```json
 "entity_action": {
@@ -39,4 +41,4 @@ Field  | Type | Default | Description
 }
 ```
 
-This action will exhaust the player (reduce their saturation/food level) and then immediately apply a 5 second Regeneration II effect.
+This example will apply exhaustion with a value of 0.5 to the player, and apply a Regeneration II status effect that would last for 5 seconds.

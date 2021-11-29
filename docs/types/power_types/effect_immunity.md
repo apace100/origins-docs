@@ -11,14 +11,17 @@ Prevents status effects from being applied to the entity that has the power.
 
 Type ID: `origins:effect_immunity`
 
+
 ### Fields
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`effect` | [Identifier](../types/data_types/identifier.md) |  | If specified, the status effect with this namespace and ID can not be applied to the entity that has the power.
-`effects` | [Array](../types/data_types/array.md) of [Identifiers](../types/data_types/identifier.md) |  | If specified, the status effects with the specified namespace and IDs can not be applied to the entity that has the power.
+`effect` | [Identifier](../data_types/identifier.md) |  | If specified, the status effect with this namespace and ID can not be applied to the entity that has the power.
+`effects` | [Array](../data_types/array.md) of [Identifiers](../data_types/identifier.md) |  | If specified, the status effects with the specified namespace and IDs can not be applied to the entity that has the power.
 
-### Example
+
+### Examples
+
 ```json
 {
 	"type": "origins:effect_immunity",
@@ -28,4 +31,5 @@ Field  | Type | Default | Description
 	]
 }
 ```
-This power would make the player immune to the weakness and strength potion effects.
+
+This example will make the entity immune to the Weakness and Strength status effects.

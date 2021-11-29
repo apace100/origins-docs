@@ -11,15 +11,18 @@ Sets the entity that has the power on fire within the specified interval.
 
 Type ID: `origins:burn`
 
+
 ### Fields
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`interval` | [Integer](../types/data_types/integer.md) |  | Interval between being set on fire, in ticks.
-`burn_duration` | [Integer](../types/data_types/integer.md) |  | Determines how long the fire should last on the entity each time it is set, in seconds.
+`interval` | [Integer](../data_types/integer.md) |  | Interval between being set on fire, in ticks.
+`burn_duration` | [Integer](../data_types/integer.md) |  | Determines how long the fire should last on the entity each time it is set, in seconds.
 
 
-### Example
+
+### Examples
+
 ```json
 {
     "type": "origins:burn",
@@ -38,4 +41,5 @@ Field  | Type | Default | Description
     }
 }
 ```
-This power will only burn the player for 1 second, within a 20 ticks interval if the said player is not wearing a leather helmet.
+
+This example will set the entity on fire for 1 second, within an interval of 20 ticks if the said entity is not wearing a Leather Helmet.

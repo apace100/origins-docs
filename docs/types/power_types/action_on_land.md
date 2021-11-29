@@ -7,18 +7,21 @@ date: 2021-04-04
 
 [Power Type](../power_types.md)
 
-Executes an entity action when the player lands on the ground after being airborne.
+Executes an [Entity Action Type](../entity_action_types.md) when the player lands on the ground after being airborne.
 
 Type ID: `origins:action_on_land`
+
 
 ### Fields
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`entity_action` | [Entity Action](../entity_actions.md) | | The action to execute on the player.
+`entity_action` | [Entity Action Type](../entity_action_types.md) | | The action to execute on the player.
 
 
-### Example
+
+### Examples
+
 ```json
 {
     "type": "origins:action_on_land",
@@ -33,4 +36,5 @@ Field  | Type | Default | Description
     }
 }
 ```
-If a player with this power has been falling for more than 4 blocks, it'll run a `/fill` command below the player, replacing a 3x3 area of grass blocks with air.
+
+This example will execute an [Execute Command (Entity Action Type)](../entity_action_types/execute_command.md) that will then execute a `/fill` command that will replace a 3x3 area of Grass Blocks with Air underneath the entity's feet if the entity in question has been falling for 4 or more blocks.

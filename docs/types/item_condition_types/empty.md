@@ -11,11 +11,14 @@ Checks if there is no item.
 
 Type ID: `origins:empty`
 
+
 ### Fields
 
 _None._
 
-### Example
+
+### Examples
+
 ```json
 "item_condition": {
     "type": "origins:empty"

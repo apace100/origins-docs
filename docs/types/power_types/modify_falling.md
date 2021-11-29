@@ -15,14 +15,16 @@ Type ID: `origins:modify_falling`
 
     By default, the player falls at a speed of 0.08, or 0.01 if a Slow Falling status effect is present.
 
-### Fields:
+
+### Fields
 
 Field | Type | Default | Description
 ------|------|---------|------------
-`velocity` | [Float](../types/data_types/float.md) | | Determines the speed of the falling velocity.
-`take_fall_damage` | [Boolean](../types/data_types/boolean.md) | `true` | Determines whether the entity should take fall damage or not.
+`velocity` | [Float](../data_types/float.md) | | Determines the speed of the falling velocity.
+`take_fall_damage` | [Boolean](../data_types/boolean.md) | `true` | Determines whether the entity should take fall damage or not.
 
-### Example:
+
+### Examples
 
 ```json
 {
@@ -34,4 +36,5 @@ Field | Type | Default | Description
     }
 }
 ```
-Makes the player fall faster and not take fall damage if they're sneaking.
+
+This example will make the player fall faster and not take fall damage if they're sneaking.

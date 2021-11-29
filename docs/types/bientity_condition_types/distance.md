@@ -11,6 +11,7 @@ Checks the distance between the target entity and the actor entity.
 
 Type ID: `origins:distance`
 
+
 ### Fields
 
 Field  | Type | Default | Description
@@ -18,7 +19,8 @@ Field  | Type | Default | Description
 `comparison` | [Comparison](../data_types/comparison.md) | | How to compare the distance against the specified value.
 `compare_to` | [Float](../data_types/float.md) | | The distance (in blocks) to compare the distance between the actor and target to.
 
-### Example
+
+### Examples
 
 ```json
 "bientity_condition": {
@@ -27,4 +29,5 @@ Field  | Type | Default | Description
     "compare_to": 30
 }
 ```
-This condition checks if the target is at most 30 blocks away from the actor.
+
+This example will check if the target entity is within 30 blocks radius relative from the actor entity.

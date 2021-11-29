@@ -11,11 +11,13 @@ Checks if the actor entity has attacked the target entity within the last 5 seco
 
 Type ID: `origins:attacker`
 
+
 ### Fields
 
 _None._
 
-### Example
+
+### Examples
 
 ```json
 "bientity_condition": {

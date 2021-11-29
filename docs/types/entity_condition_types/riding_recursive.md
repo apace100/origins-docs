@@ -11,15 +11,18 @@ Checks whether any of the entities in the riding chain (starting from the actor 
 
 Type ID: `origins:riding_recursive`
 
+
 ### Fields
 
 Field | Type | Default | Description
 ------|------|---------|-------------
-`bientity_condition` | [Bi-entity Condition](../bientity_conditions.md) | _optional_ | If specified, it will only check for the entity/entities that fulfills the bi-entity condition.
+`bientity_condition` | [Bi-entity Condition Type](../bientity_condition_types.md) | _optional_ | If specified, it will only check for the entity/entities that fulfills the bi-entity condition.
 `comparison` | [Comparison](../data_types/comparison.md) | `">="` | How the amount of entities currently being ridden should be compared to the specified value.
 `compare_to` | [Integer](../data_types/integer.md) | `1` | Which value the amount of entities currently being ridden should be compared to.
 
-### Example
+
+### Examples
+
 ```json
 "condition": {
     "type": "origins:riding_recursive",
@@ -34,4 +37,5 @@ Field | Type | Default | Description
     }
 }
 ```
-This example checks if the actor entity is riding a strider that is also riding a strider (and so on).
+
+This example will check if the actor entity is riding a strider that is also riding a strider (and so on).

@@ -13,15 +13,18 @@ Type ID: `origins:either`
 
 !!! note
 
-	**Only available as a [Bi-entity Condition](../bientity_conditions.md).**
+	**Only available as a [Bi-entity Condition Type](../bientity_condition_types.md).**
+
 
 ### Fields
 
 Field | Type | Default | Description
 ------|------|---------|-------------
-`condition` | [Entity Condition](../entity_conditions.md) | | The condition to check on either actor or target entities.
+`condition` | [Entity Condition Type](../entity_condition_types.md) | | The entity condition type to check on either actor or target entities.
 
-### Example
+
+### Examples
+
 ```json
 "bientity_condition": {
     "type": "origins:either",
@@ -30,4 +33,5 @@ Field | Type | Default | Description
     }
 }
 ```
-This example will return true if either the actor or the target entities are in rain.
+
+This example will check if either the actor or target entities are in rain.

@@ -7,18 +7,21 @@ date: 2021-04-04
 
 [Entity Condition Type](../entity_condition_types.md)
 
-Checks the current health (absolute value) of the player.
+Checks the current (and absolute) health value of the entity.
 
 Type ID: `origins:health`
 
-### Fields:
+
+### Fields
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`comparison` | [Comparison](../data_types/comparison.md) | | How the health of the player should be compared to the specified value.
+`comparison` | [Comparison](../data_types/comparison.md) | | How the health of the entity should be compared to the specified value.
 `compare_to` | [Float](../data_types/float.md) | | Which value the health should be compared to.
 
-### Example:
+
+### Examples
+
 ```json
 "condition": {
     "type": "origins:health",
@@ -26,4 +29,5 @@ Field  | Type | Default | Description
     "compare_to": 20
 }
 ```
-This example checks if the player's health is less than 10 hearts (or 20 health points), which is the default value for the player's max health.
+
+This example will check if the entity's health is less than 10 hearts (or 20 health points).

@@ -7,29 +7,32 @@ date: 2021-04-07
 
 [Meta Condition Type](../meta_condition_types.md)
 
-This condition checks whether all of the provided conditions are fulfilled.
+Checks whether all of the provided conditions are fulfilled.
 
 Type ID: `origins:and`
+
 
 ### Fields
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`conditions` | [Array](../types/data_types/array.md) of [Conditions](../conditions.md) | | All of these conditions have to be fulfilled in order for this condition to be fulfilled.
+`conditions` | [Array](../data_types/array.md) of [Condition Types](../condition_types.md) | | All of these condition types have to be fulfilled in order for this condition to be fulfilled.
 
-### Example
+
+### Examples
 
 ```json
 "condition": {
-  "type": "origins:and",
-  "conditions": [
-    {
-      "type": "origins:daytime"
-    },
-    {      
-      "type": "origins:invisible"
-    }
-  ]
+    "type": "origins:and",
+    "conditions": [
+        {
+            "type": "origins:daytime"
+        },
+        {      
+            "type": "origins:invisible"
+        }
+    ]
 }
 ```
-This condition added to a power will make sure the power is only active when it is both day and the player is invisible.
+
+This example will check if it is both daytime, and the entity is invisible.

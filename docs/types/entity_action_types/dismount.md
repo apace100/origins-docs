@@ -7,15 +7,18 @@ date: 2021-10-06
 
 [Entity Action Type](../entity_action_types.md)
 
-Dismounts the entity.
+Dismounts the entity from their vehicle.
 
 Type ID: `origins:dismount`
+
 
 ### Fields
 
 _None._
 
-### Example
+
+### Examples
+
 ```json
 "entity_action": {
     "type": "origins:dismount"

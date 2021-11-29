@@ -7,15 +7,22 @@ date: 2021-04-04
 
 [Entity Condition Type](../entity_condition_types.md)
 
-Checks whether the player is currently mining and using an effective tool for the block (e.g. pickaxe for stone).
+Checks whether the entity is currently using the effective tool of the block they're mining.
 
 Type ID: `origins:using_effective_tool`
 
-### Fields:
+!!! note
+
+    **This entity condition type will only work on players.**
+
+
+### Fields
 
 _None._
 
-### Example:
+
+### Examples
+
 ```json
 "condition": {
     "type": "origins:using_effective_tool"

@@ -17,14 +17,17 @@ Type ID: `origins:air`
 
     In order to get the value of a single bubble, you can divide the max value by 10. (`max / 10 = value`)
 
-### Fields:
+
+### Fields
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
 `comparison` | [Comparison](../data_types/comparison.md) | |  How the breath / air / bubble bar (in ticks) should be compared to the specified value.
 `compare_to` | [Integer](../data_types/integer.md) | | Which value the breath should be compared to.
 
-### Example:
+
+### Examples
+
 ```json
 "condition": {
     "type": "origins:air",
@@ -32,4 +35,5 @@ Field  | Type | Default | Description
     "compare_to": 0
 }
 ```
-This example would check if the player has no breath / air / bubbles left.
+
+This example will check if the player has no breath / air / bubbles left.

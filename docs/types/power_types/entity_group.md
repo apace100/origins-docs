@@ -19,17 +19,21 @@ Type ID: `origins:entity_group`
 
     This power type is mostly used for determining the enchantment bonus damage towards the entity that has the power. That being said, there should only be one power that uses this power type.
 
+
 ### Fields
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
 `group` | [String](../data_types/string.md) | | The group to associate with the player. One of `default`, `undead`, `arthropod`, `illager`, or `aquatic`.
 
-### Example
+
+### Examples
+
 ```json
 {
     "type": "origins:entity_group",
 	"group": "arthropod"
 }
 ```
-This power marks the player as an arthropod, meaning they will take more damage from Bane of Arthropods.
+
+This exampel will classify the entity that has the power as an arthropod, meaning that they will take more damage from the Bane of Arthropods enchantment.

@@ -11,13 +11,16 @@ Prevents the usage (i.e. right-clicking) of blocks for a player. For example, th
 
 Type ID: `origins:prevent_block_use`
 
+
 ### Fields
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`block_condition` | [Block Condition](../block_conditions.md) | | If specified, only blocks that fulfills this condition is affected
+`block_condition` | [Block Condition Type](../block_condition_types.md) | | If specified, only blocks that fulfills this condition is affected
 
-### Example
+
+### Examples
+
 ```json
 {
     "type": "origins:prevent_block_use",
@@ -27,4 +30,5 @@ Field  | Type | Default | Description
     }
 }
 ```
-This power will prevent the player from using crafting tables.
+
+This example will prevent the player from using Crafting Tables.

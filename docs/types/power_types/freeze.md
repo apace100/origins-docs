@@ -11,18 +11,22 @@ Freezes the entity that has the power, as if they're in a Powdered Snow block.
 
 Type ID: `origins:freeze`
 
+
 ### Fields
 
 _None._
 
 
+
 ### Examples
+
 ```json
 {
     "type": "origins:freeze"
 }
 ```
-Freezes the entity that has the power.
+
+This example will freeze the entity that has the power.
 <br>
 
 ```json
@@ -37,4 +41,5 @@ Freezes the entity that has the power.
     }
 }
 ```
-Freezes the entity that has the power if the entity is in a biome that snows.
+
+This example will freeze the entity that has the power if the entity is in a biome that snows.

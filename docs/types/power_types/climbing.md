@@ -13,16 +13,19 @@ Type ID: `origins:climbing`
 
 !!! note
 
-    To have the usual climbing effect, it is recommended to check for the [Collided Horizontally](../entity_conditions/collided_horizontally.md) entity condition type inside the `condition` object of the power.
+    To have the usual climbing effect, it is recommended to check for the [Collided Horizontally (Entity Condition Type)](../entity_condition_types/collided_horizontally.md) inside the `condition` object of the power.
+
 
 ### Fields
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`allow_holding` | [Boolean](../types/data_types/boolean.md) | `true` | If `true`, the entity that has the power is able to hold onto blocks.
-`hold_condition` | [Entity Condition](../entity_conditions.md) | _optional_ | If specified and `allow_holding` is `true`, the entity that has the power will be able to 'hold onto the block' (not affected by gravity) if the entity is sneaking and if this condition is fulfilled.
+`allow_holding` | [Boolean](../data_types/boolean.md) | `true` | If `true`, the entity that has the power is able to hold onto blocks.
+`hold_condition` | [Entity Condition Type](../entity_condition_types.md) | _optional_ | If specified and `allow_holding` is `true`, the entity that has the power will be able to 'hold onto the block' (not affected by gravity) if the entity is sneaking and if this condition is fulfilled.
 
-### Example
+
+### Examples
+
 ```json
 {
     "type": "origins:climbing",
@@ -42,4 +45,5 @@ Field  | Type | Default | Description
     }
 }
 ```
-This power allows players to climb in cobwebs, and also hold onto them by sneaking.
+
+This example will allow the entity to climb in cobwebs and hold onto them by sneaking.

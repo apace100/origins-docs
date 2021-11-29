@@ -11,14 +11,17 @@ Prevents death; any damage which would kill the entity that has the power will i
 
 Type ID: `origins:prevent_death`
 
+
 ### Fields
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`damage_condition` | [Damage Condition](../damage_conditions.md) | _optional_ | If specified, death will only be prevented if the damage dealt to the entity fulfills this condition.
-`entity_action` | [Entity Action](../entity_actions.md) | _optional_ | If specified, this action will be executed on the entity when death is prevented.
+`damage_condition` | [Damage Condition Type](../damage_condition_types.md) | _optional_ | If specified, death will only be prevented if the damage dealt to the entity fulfills this condition.
+`entity_action` | [Entity Action Type](../entity_action_types.md) | _optional_ | If specified, this action will be executed on the entity when death is prevented.
 
-### Example
+
+### Examples
+
 ```json
 {
     "type": "origins:prevent_death",
@@ -51,4 +54,5 @@ Field  | Type | Default | Description
 	}
 }
 ```
-This power will always prevent the player from dying and then apply the same effects as a Totem of Undying, i.e. clear all status effects on the player and then grant Regeneration II, Fire Resistance and Absorption.
+
+This example will always prevent the entity from dying and then apply the same effects as a Totem of Undying, e.g: clear all status effects on the entity an then apply Regeneration II, Fire Resistance I and Absorption I.

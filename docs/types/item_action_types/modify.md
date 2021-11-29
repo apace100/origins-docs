@@ -11,6 +11,7 @@ Applies an [item modifier](https://minecraft.fandom.com/wiki/Item_modifier) to t
 
 Type ID: `origins:modify`
 
+
 ### Fields
 
 Field | Type | Default | Description
@@ -18,14 +19,17 @@ Field | Type | Default | Description
 `modifier` | [Identifier](../data_types/identifier.md) | | The ID of an item modifier.
 
 
-### Example
+
+### Examples
+
 ```json
 "item_action": {
     "type": "origins:modify",
     "modifier": "example:stuff"
 }
 ```
-This example applies the `example:stuff` (`data/example/item_modifiers/stuff.json`) item modifier to the item stack.
+
+This example will apply the `example:stuff` (`data/example/item_modifiers/stuff.json`) item modifier to the item stack.
 <br>
 
 ```json
@@ -41,4 +45,5 @@ This example applies the `example:stuff` (`data/example/item_modifiers/stuff.jso
     ]
 }
 ```
+
 This being the contents of the `example:stuff` (`data/example/item_modifiers/stuff.json`) item modifier.

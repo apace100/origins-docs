@@ -11,15 +11,17 @@ Disables the natural health regeneration when on full hunger.
 
 Type ID: `origins:disable_regen`
 
+
 ### Fields
 
 _None._
 
 
-### Example
+
+### Examples
+
 ```json
 {
     "type": "origins:disable_regen"
 }
 ```
-This power disables natural regeneration of the player.

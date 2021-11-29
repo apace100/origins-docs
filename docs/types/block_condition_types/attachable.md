@@ -11,11 +11,14 @@ Checks whether the block is in a place where a supported block can be attached (
 
 Type ID: `origins:attachable`
 
-### Fields:
+
+### Fields
 
 _None._
 
-### Example:
+
+### Examples
+
 ```json
 "block_condition": {
     "type": "origins:attachable"

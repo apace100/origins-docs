@@ -13,22 +13,24 @@ Type ID: `origins:delay`
 
 !!! note
 
-    **Only available as an [Entity Action](../entity_actions.md)**
+    **Only available as an [Entity Action Type](../entity_action_types.md)**
 
 !!! caution
 
     Delaying an action for more than a few ticks is not recommended! This meta action type is not reliable for such task.
 
-    If you want to delay an entity action *reliably,* you can use a power that uses the [`origins:resource`](../power_types/resource.md) power type and increase the value of that resource per set interval using a power that uses the [`origins:action_over_time`](../power_types/action_over_time.md) power type.
+    If you want to delay an entity action *reliably,* you can use a power that uses the [Resource (Power Type)](../power_types/resource.md) power type and increase the value of that resource per set interval using a power that uses the [Action Over Time (Power Type)](../power_types/action_over_time.md) power type.
+
 
 ### Fields
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`action` | [Entity Action](../entity_actions.md) | | The action which will be executed after the delay.
+`action` | [Entity Action Type](../entity_action_types.md) | | The action which will be executed after the delay.
 `ticks` | [Integer](../data_types/integer.md) | | The amount of ticks until the action is executed.
 
-### Example
+
+### Examples
 
 ```json
 "entity_action": {

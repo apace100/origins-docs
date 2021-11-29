@@ -11,12 +11,15 @@ Grants full fire immunity (meaning not only do you take no damage from fire sour
 
 Type ID: `origins:fire_immunity`
 
+
 ### Fields
 
 _None._
 
 
-### Example
+
+### Examples
+
 ```json
 {
     "type": "origins:fire_immunity",
@@ -32,4 +35,5 @@ _None._
     }
 }
 ```
-This power grants immunity to fire if the player is holding a Magma Block.
+
+This example will grant immunity to fire if the entity is holding a Magma Block in their mainhand.

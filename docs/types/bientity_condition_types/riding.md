@@ -11,11 +11,14 @@ Checks if the actor entity is currently riding the target entity.
 
 Type ID: `origins:riding`
 
+
 ### Fields
 
 _None._
 
-### Example
+
+### Examples
+
 ```json
 "bientity_condition": {
 	"type": "origins:riding"

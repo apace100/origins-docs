@@ -7,7 +7,8 @@ date: 2021-04-07
 
 Meta Action Types are independent of the type they operate on. They basically combine or modify other action types. The actions which are modified have to be of the type the field of the meta action type requires. For example, if you have a field which requires an [Entity Action Type](entity_action_types.md) and you insert a [Delay (Meta Action Type)](meta_action_types/delay.md), the action type you need to provide inside that meta action type will have to be an [Entity Action Type](entity_action_types.md) as well.
 
-## List
+
+### List
 
 * [And](meta_action_types/and.md)
 * [Chance](meta_action_types/chance.md)
