@@ -10,5 +10,5 @@ Base Contents are JSON files that are added by the mod by default. These JSON fi
 
 ### List
 
-*   [Origins](base/origins.md)
-*   [Powers](base/powers.md)
+*   [Origins](base_contents/origins.md)
+*   [Powers](base_contents/powers.md)
