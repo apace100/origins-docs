@@ -8,38 +8,25 @@ nav:
     - Add-on Guides:
         - Workspace Setup: guides/addon/workspace_setup.md
         - Dependencies Explained: guides/addon/dependencies.md
+    - JSON:
+        - Origin Layer JSON: json/origin_layer.md
+        - Origin JSON: json/origin.md
+        - Power JSON: json/power.md
     - Types:
-        - Power Types: power_types.md
-        - Data Types: data_types.md
-        - Power JSON: power_json.md
-        - Origin JSON: origin_json.md
-        - Layer JSON: layer_json.md
-    - Conditions:
-        - Bi-entity Conditions: bientity_conditions.md
-        - Biome Conditions: biome_conditions.md
-        - Block Conditions: block_conditions.md
-        - Damage Conditions: damage_conditions.md
-        - Entity Conditions: entity_conditions.md
-        - Fluid Conditions: fluid_conditions.md
-        - Item Conditions: item_conditions.md
-        - Meta Conditions: meta_conditions.md
-    - Actions:
-        - Bi-entity Actions: bientity_actions.md
-        - Block Actions: block_actions.md
-        - Entity Actions: entity_actions.md
-        - Item Actions: item_actions.md
-        - Meta Actions: meta_actions.md
+        - Data Types: types/data_types.md
+        - Power Types: types/power_types.md
+        - Action Types: types/action_types.md
+        - Condition Types: types/condition_types.md
     - Miscellaneous:
+        - Advancement Triggers: misc/advancement_triggers.md
+        - Base Contents: misc/base_contents.md
         - Commands: misc/commands.md
-        - Orb of Origin: misc/orb_of_origin.md
-        - Origins: misc/origins.md
-        - Positioned Item Stack Slots: misc/positioned_item_stack_slots.md
-        - Powers: misc/origins_powers.md
-        - Sprites: misc/sprites.md
-        - Space: misc/space.md
-        - Keybindings: misc/keybindings.md
-        - Vanilla Damage Sources: misc/vanilla_damage_sources.md
+        - Extras: misc/extras.md
+        - Item Modifiers: misc/item_modifiers.md
+        - Items: misc/items.md
+        - Predicates: misc/predicates.md
 theme: readthedocs
-separator: '_'
 markdown_extensions:
+    - toc:
+        separator: "_"
     - admonition
