@@ -18,10 +18,13 @@ nav:
         - Action Types: types/action_types.md
         - Condition Types: types/condition_types.md
     - Miscellaneous:
-        - Base Contents: misc/base.md
+        - Advancement Triggers: misc/advancement_triggers.md
+        - Base Contents: misc/base_contents.md
         - Commands: misc/commands.md
         - Extras: misc/extras.md
+        - Item Modifiers: misc/item_modifiers.md
         - Items: misc/items.md
+        - Predicates: misc/predicates.md
 theme: readthedocs
 markdown_extensions:
     - toc:
