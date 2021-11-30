@@ -18,7 +18,7 @@ nav:
         - Action Types: types/action_types.md
         - Condition Types: types/condition_types.md
     - Miscellaneous:
-        - Base Components: misc/base.md
+        - Base Contents: misc/base.md
         - Commands: misc/commands.md
         - Extras: misc/extras.md
         - Items: misc/items.md
