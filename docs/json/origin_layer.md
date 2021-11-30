@@ -53,4 +53,5 @@ Field  | Type | Default | Description
     "missing_description": "You currently don't have a secondary origin selected."
 }
 ```
-This example origin layer (`data/example/origin_layers/second_origin.json`) makes it possible to select a secondary origin after choosing your origin.
+
+This example will make it possible to select a secondary base origin after choosing an origin in the `origins:origin` (`data/origins/origin_layers/origin.json`) origin layer as long as the example is a separate origin layer.

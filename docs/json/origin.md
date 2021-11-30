@@ -37,4 +37,5 @@ Field  | Type | Default | Description
     "description": "Raah, brains..."
 }
 ```
-This example origin adds an origin with a `minecraft:zombie_head` as its icon.
+
+This example will add an origin that has a Zombie Head item as its icon.

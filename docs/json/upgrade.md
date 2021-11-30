@@ -19,6 +19,7 @@ Field  | Type | Default | Description
 
 
 ### Examples
+
 ```json
 "upgrades": [
     {
@@ -27,5 +28,6 @@ Field  | Type | Default | Description
         "announcement": "You have killed an ender dragon! You have evolved to Elytrian"
     }
 ]
+
 ```
 This example will change the player's origin to `origins:elytrian` once they've killed an ender dragon (or when they've been granted the `minecraft:end/kill_dragon` advancement).

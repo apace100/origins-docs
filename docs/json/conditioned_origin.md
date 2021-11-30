@@ -33,4 +33,5 @@ Field  | Type | Default | Description
     ]
 }
 ```
-This example makes it so that players can only pick the `origins:phantom` origin if it's night time.
+
+This example will make it so that players can only pick the `origins:phantom` origin if it's night time.

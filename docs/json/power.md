@@ -26,6 +26,7 @@ Field  | Type | Default | Description
 
 
 ### Examples
+
 ```json
 {
     "type": "origins:active_self",
@@ -43,4 +44,5 @@ Field  | Type | Default | Description
     ]
 }
 ```
-This example power will print a green-colored 'Hello world!' message to all currently online players once activated.
+
+This example will print a green-colored 'Hello world!' message to all currently online players once activated.
