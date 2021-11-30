@@ -1,5 +1,5 @@
 ---
-title: Explode (Entity Action Type)
+title: Explode (Block Action Type)
 date: 2021-11-30
 ---
 
