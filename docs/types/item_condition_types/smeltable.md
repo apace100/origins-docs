@@ -9,6 +9,8 @@ date: 2021-12-01
 
 Checks if the item is smeltable.
 
+Type ID: `origins:smeltable`
+
 
 ### Fields
 
