@@ -51,6 +51,7 @@ Entity Condition Types operate on an Entity, which also allows access to the wor
 * [Passenger Recursive](entity_condition_types/passenger_recursive.md)
 * [Passenger](entity_condition_types/passenger.md)
 * [Power Active](entity_condition_types/power_active.md)
+* [Power Type](entity_condition_types/power_type.md)
 * [Power](entity_condition_types/power.md)
 * [Predicate](entity_condition_types/predicate.md)
 * [Relative Health](entity_condition_types/relative_health.md)
