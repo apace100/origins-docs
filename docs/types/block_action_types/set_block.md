@@ -29,3 +29,13 @@ Field  | Type | Default | Description
 ```
 
 This example will set a Coal Ore block at the position of the block action type.
+<br>
+
+```json
+"block_action": {
+    "type": "origins:set_block",
+    "block": "minecraft:redstone_lamp[lit=true]"
+}
+```
+
+This example will set a Lit Redstone Lamp at the position of the block action type.

@@ -29,3 +29,13 @@ Field  | Type | Default | Description
 ```
 
 This example will add a Coal Ore block at the position of the block action type.
+<br>
+
+```json
+"block_action": {
+    "type": "origins:add_block",
+    "block": "minecraft:chest[facing=north]"
+}
+```
+
+This example will add a Chest block facing north at the position of the block action type.
