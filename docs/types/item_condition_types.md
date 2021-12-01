@@ -20,3 +20,4 @@ Item Condition Types operate on an `ItemStack`. These are available to power/con
 * [Ingredient](item_condition_types/ingredient.md)
 * [Meat](item_condition_types/meat.md)
 * [NBT](item_condition_types/nbt.md)
+* [Smeltable](item_condition_types/smeltable.md)
