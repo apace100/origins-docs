@@ -17,6 +17,7 @@ Type ID: `origins:power`
 Field  | Type | Default | Description
 -------|------|---------|-------------
 `power` | [Identifier](../data_types/identifier.md) | | The namespace and ID of the power the entity needs to have to pass the check.
+`source` | [Identifier](../data_types/identifier.md) | _optional_ | The namespace and ID of the source of the power.
 
 
 ### Examples
