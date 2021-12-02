@@ -17,6 +17,7 @@ Entity Action Types operate on an `Entity`. Some more specific actions only have
 * [Block Action At](entity_action_types/block_action_at.md)
 * [Change Resource](entity_action_types/change_resource.md)
 * [Clear Effect](entity_action_types/clear_effect.md)
+* [Crafting Table](entity_action_types/crafting_table.md)
 * [Damage](entity_action_types/damage.md)
 * [Dismount](entity_action_types/dismount.md)
 * [Emit Game Event](entity_action_types/emit_game_event.md)
