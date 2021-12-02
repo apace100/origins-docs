@@ -20,7 +20,7 @@ Type ID: `origins:swing_hand`
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`hand` | [String](../types/data_types/string.md) | `MAIN_HAND` | If set, determines which hand is swung. Takes one of either `MAIN_HAND`, `OFF_HAND`
+`hand` | [String](../data_types/string.md) | `MAIN_HAND` | If set, determines which hand is swung. Takes one of either `MAIN_HAND`, `OFF_HAND`
 
 
 
