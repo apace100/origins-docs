@@ -26,4 +26,4 @@ Meta Condition Types are independent of the type they operate on. They basically
 
 ## Block Conditions
 
-* [Offset](meta_action_types/offset.md)
+* [Offset](meta_condition_types/offset.md)
