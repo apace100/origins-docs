@@ -65,4 +65,4 @@ This example will make all entities which are not arthropods glow when they're i
 }
 ```
 
-This example will make all entities that the player is able to see glow wih a green glow.
+This example will make all entities that the player is able to see glow with a green glow.
