@@ -65,6 +65,7 @@ Unless stated otherwise, each power type supports a `condition` field that can c
 
 * [Action On Being Used](power_types/action_on_being_used.md)
 * [Action On Block Break](power_types/action_on_block_break.md)
+* [Action On Block Use](power_types/action_on_block_use.md)
 * [Action On Callback](power_types/action_on_callback.md)
 * [Action On Entity Use](power_types/action_on_entity_use.md)
 * [Action On Hit](power_types/action_on_hit.md)
@@ -101,6 +102,7 @@ Unless stated otherwise, each power type supports a `condition` field that can c
 * [Modify Player Spawn](power_types/modify_player_spawn.md)
 * [Modify Projectile Damage](power_types/modify_projectile_damage.md)
 * [Modify Swim Speed](power_types/modify_swim_speed.md)
+* [Modify Slipperiness](power_types/modify_slipperiness.md)
 * [Modify XP Gain](power_types/modify_xp_gain.md)
 
 
@@ -112,6 +114,7 @@ Unless stated otherwise, each power type supports a `condition` field that can c
 * [Prevent Death](power_types/prevent_death.md)
 * [Prevent Entity Render](power_types/prevent_entity_render.md)
 * [Prevent Entity Use](power_types/prevent_entity_use.md)
+* [Prevent Entity Collision](power_types/prevent_entity_collision.md)
 * [Prevent Game Event](power_types/prevent_game_event.md)
 * [Prevent Item Use](power_types/prevent_item_use.md)
 * [Prevent Sleep](power_types/prevent_sleep.md)

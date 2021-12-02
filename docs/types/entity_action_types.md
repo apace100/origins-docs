@@ -33,6 +33,7 @@ Entity Action Types operate on an `Entity`. Some more specific actions only have
 * [Play Sound](entity_action_types/play_sound.md)
 * [Revoke Power](entity_action_types/revoke_power.md)
 * [Riding Action](entity_action_types/riding_action.md)
+* [Swing Hand](entity_action_types/swing_hand.md)
 * [Set Fall Distance](entity_action_types/set_fall_distance.md)
 * [Set On Fire](entity_action_types/set_on_fire.md)
 * [Spawn Effect Cloud](entity_action_types/spawn_effect_cloud.md)
