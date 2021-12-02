@@ -18,7 +18,7 @@ Field  | Type | Default | Description
 -------|------|---------|-------------
 `blacklist` | [Boolean](../data_types/boolean.md) | `false` | If set to true, the `block_condition` field will define which blocks the player can **NOT** move through.
 `block_condition` | [Block Condition Type](../block_condition_types.md) | _optional_ | If specified, the entity will only be able to move through these blocks (or **not** be able to move through these, depending on what `blacklist` is set to).
-`render_type` | [String](../data_types/string.md) | `"blindness"` | Determines how the environment is rendered when "phasing" through (moving) blocks. Accepts `"blindness"` or `"remove_blocks"`.
+`render_type` | [String](../data_types/string.md) | `"blindness"` | Determines how the environment is rendered when "phasing" through (moving) blocks. Accepts `"blindness"`, `"remove_blocks"` or `"none"`.
 `view_distance` | [Float](../data_types/float.md) | `10.0` | Determines how far the player can look through walls when "phasing" (moving) through blocks when `render_type` is set to `"blindness"`.
 `phase_down_condition` | [Entity Condition Type](../entity_condition_types.md) | _optional_ | If specified, the entity will only be able to "phase" (move) downwards if this condition is fulfilled.
 
