@@ -21,6 +21,7 @@ Entity Action Types operate on an `Entity`. Some more specific actions only have
 * [Damage](entity_action_types/damage.md)
 * [Dismount](entity_action_types/dismount.md)
 * [Emit Game Event](entity_action_types/emit_game_event.md)
+* [Ender Chest](entity_action_types/ender_chest.md)
 * [Equipped Item Action](entity_action_types/equipped_item_action.md)
 * [Execute Command](entity_action_types/execute_command.md)
 * [Exhaust (Action)](entity_action_types/exhaust.md)
