@@ -16,7 +16,7 @@ Type ID: `origins:action_on_block_use`
 
 Field | Type | Default | Description
 ------|------|---------|-------------
-`block_action` | [Bi-entity Action Type](../block_action_types.md) | _optional_ | If specified, the used block will run this action if all conditions are met.
+`block_action` | [Block Action Type](../block_action_types.md) | _optional_ | If specified, the used block will run this action if all conditions are met.
 `block_condition` | [Block Condition Type](../block_condition_types.md) | _optional_ | If specified, only execute the specified actions if this condition is fulfilled by the used block.
 `item_condition` | [Item Condition Type](../item_condition_types.md) | _optional_ | If specified, only execute the specified actions if this condition is fulfilled by the item in the 'actor' (the player that has the power) entity's specified hand(s) determined by the `hands` string field.
 `directions` |[Array](../data_types/array.md) of [Strings](../data_types/string.md) | `["north", "east", "south", "west", "up", "down"]` | If specified, only execute the specified actions if you used the specified face of the block.
