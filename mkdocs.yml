@@ -12,19 +12,39 @@ nav:
         - Origin Layer JSON: json/origin_layer.md
         - Origin JSON: json/origin.md
         - Power JSON: json/power.md
-    - Types:
+    - General Types:
         - Data Types: types/data_types.md
         - Power Types: types/power_types.md
-        - Action Types: types/action_types.md
-        - Condition Types: types/condition_types.md
+    - Action Types:
+        - Bi-entity Action Types: types/bientity_action_types.md
+        - Block Action Types: types/block_action_types.md
+        - Entity Action Types: types/entity_action_types.md
+        - Item Action Types: types/item_action_types.md
+        - Meta Action Types: types/meta_action_types.md
+    - Condition Types:
+        - Bi-entity Condition Types: types/bientity_condition_types.md
+        - Biome Condition Types: types/biome_condition_types.md
+        - Block Condition Types: types/block_condition_types.md
+        - Damage Condition Types: types/damage_condition_types.md
+        - Entity Condition Types: types/entity_condition_types.md
+        - Fluid Condition Types: types/fluid_condition_types.md
+        - Item Condition Types: types/item_condition_types.md
+        - Meta Condition Types: types/meta_condition_types.md
     - Miscellaneous:
         - Advancement Triggers: misc/advancement_triggers.md
         - Base Contents: misc/base_contents.md
         - Commands: misc/commands.md
-        - Extras: misc/extras.md
         - Item Modifiers: misc/item_modifiers.md
         - Items: misc/items.md
         - Predicates: misc/predicates.md
+    - Extras:
+        - Biome Categories: misc/extras/biome_categories.md
+        - Damage Sources: misc/extras/damage_sources.md
+        - Keybindings: misc/extras/keybindings.md
+        - Positioned Item Stack Slots: misc/extras/positioned_item_stack_slots.md
+        - Space: misc/extras/space.md
+        - Sprites: misc/extras/sprites.md
+
 theme: readthedocs
 markdown_extensions:
     - toc:
