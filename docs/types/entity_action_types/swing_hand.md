@@ -7,7 +7,7 @@ date: 2021-11-30
 
 [Entity Action Type](../entity_action_types.md)
 
-Adds or sets velocity towards a specific direction.
+Swings the specified hand.
 
 Type ID: `origins:swing_hand`
 
@@ -28,8 +28,8 @@ Field  | Type | Default | Description
 
 ```json
 "entity_action": {
-  "type": "origins:swing_hand",
-  "hand": "OFF_HAND"
+    "type": "origins:swing_hand",
+    "hand": "OFF_HAND"
 }
 ```
 
