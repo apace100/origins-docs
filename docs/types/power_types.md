@@ -36,6 +36,7 @@ Unless stated otherwise, each power type supports a `condition` field that can c
 * [Invisibility](power_types/invisibility.md)
 * [Invulnerability](power_types/invulnerability.md)
 * [Item On Item](power_types/item_on_item.md)
+* [Keep Inventory](power_types/keep_inventory.md)
 * [Launch](power_types/launch.md)
 * [Lava Vision](power_types/lava_vision.md)
 * [Model Color](power_types/model_color.md)
