@@ -23,6 +23,7 @@ Field | Type | Default | Description
 `using_item_condition` | [Item Condition Type](../item_condition_types.md) | _optional_ | If specified, the specified actions will only execute if this condition is fulfilled by the item that is used to right-click an item.
 `on_item_condition` | [Item Condition Type](../item_condition_types.md) | _optional_ | If specified, the specified actions will only execute if this condition is fulfilled by the item that has been right-clicked.
 `result` | [Item Stack](../data_types/item_stack.md) | _optional_ | If specified, this item will be given to the player.
+`result_from_on_stack` | [Integer](../data_types/integer.md) | `0` | Determines how many items based on the `on_item` stack will be given as a result for using an item on an item. Mostly to be used in conjunction with `result_item_action`.
 `using_item_action` | [Item Action Type](../item_action_types.md) | _optional_ | If specified, this action will be executed on the item that is used to right-click an item.
 `on_item_action` | [Item Action Type](../item_action_types.md) | _optional_ | If specified, this action will be executed on the item that has been right-clicked.
 `result_item_action` | [Item Action Type](../item_action_types.md) | _optional_ | If specified, this action will be executed on the item that is given to the player.
@@ -30,6 +31,42 @@ Field | Type | Default | Description
 
 
 ### Examples
+
+```json
+{
+    "type": "origins:item_on_item",
+    "on_item_condition": {
+        "type": "origins:smeltable"
+    },
+    "using_item_condition": {
+        "type": "origins:ingredient",
+        "ingredient": {
+            "item": "minecraft:coal"
+        }
+    },
+    "result_from_on_stack": 8,
+    "result_item_action": {
+        "type": "origins:modify",
+        "modifier": "example:furnace_smelt"
+    },
+    "using_item_action": {
+        "type": "origins:consume",
+        "amount": 1
+    }
+}
+```
+
+This example will smelt smeltable items by using a Coal item on it.
+<br>
+
+```json
+{
+    "function": "minecraft:furnace_smelt"
+}
+```
+
+This example being the contents of the `example:furnace_smelt` (`data/example/item_modifiers/furnace_smelt.json`) item modifier.
+<br>
 
 ```json
 {
