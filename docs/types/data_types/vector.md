@@ -14,9 +14,9 @@ An [Object](object.md) that specifies the size of a three-dimensional cuboid, ac
 
 Field | Type | Default | Description
 ------|------|---------|------------
-`x` | [Float](float.md) | | The size of the cuboid to the X axis.
-`y` | [Float](float.md) | | The size of the cuboid to the Y axis.
-`z` | [Float](float.md) | | The size of the cuboid to the Z axis.
+`x` | [Float](float.md) | `0` | The size of the cuboid to the X axis.
+`y` | [Float](float.md) | `0` | The size of the cuboid to the Y axis.
+`z` | [Float](float.md) | `0` | The size of the cuboid to the Z axis.
 
 ### Examples
 
