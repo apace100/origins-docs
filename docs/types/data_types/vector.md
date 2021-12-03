@@ -7,7 +7,7 @@ date: 2021-12-03
 
 [Data Type](../data_types.md)
 
-An [Object](object.md) that specifies the size of a three-dimensional cuboid, accepting floating-point number values for each coordinate, which are then multiplied by 8.
+An [Object](object.md) that specifies the size of a three-dimensional cuboid, accepting [Floats](float.md) for each axis.
 
 
 ### Fields
@@ -22,10 +22,10 @@ Field | Type | Default | Description
 
 ```json
 "spread": {
-    "x": 0.8,
-    "y": 0.8,
-    "z": 0.8
+    "x": 3.0,
+    "y": 0.0,
+    "z": 3.0
 }
 ```
 
-A cuboid of about 6.4x6.4x6.4 in size. (`0.8 * 8 = 6.4`)
+A cuboid of about 5x0x5 in size, which has a volume of 25 blocks. 
