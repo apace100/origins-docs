@@ -34,6 +34,7 @@ Entity Action Types operate on an `Entity`. Some more specific actions only have
 * [Heal](entity_action_types/heal.md)
 * [Passenger Action](entity_action_types/passenger_action.md)
 * [Play Sound](entity_action_types/play_sound.md)
+* [Raycast](entity_action_types/raycast.md)
 * [Revoke Power](entity_action_types/revoke_power.md)
 * [Riding Action](entity_action_types/riding_action.md)
 * [Set Fall Distance](entity_action_types/set_fall_distance.md)
