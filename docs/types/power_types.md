@@ -102,8 +102,8 @@ Unless stated otherwise, each power type supports a `condition` field that can c
 * [Modify Lava Speed](power_types/modify_lava_speed.md)
 * [Modify Player Spawn](power_types/modify_player_spawn.md)
 * [Modify Projectile Damage](power_types/modify_projectile_damage.md)
-* [Modify Swim Speed](power_types/modify_swim_speed.md)
 * [Modify Slipperiness](power_types/modify_slipperiness.md)
+* [Modify Swim Speed](power_types/modify_swim_speed.md)
 * [Modify XP Gain](power_types/modify_xp_gain.md)
 
 
@@ -113,9 +113,10 @@ Unless stated otherwise, each power type supports a `condition` field that can c
 * [Prevent Block Selection](power_types/prevent_block_selection.md)
 * [Prevent Block Use](power_types/prevent_block_use.md)
 * [Prevent Death](power_types/prevent_death.md)
+* [Prevent Entity Collision](power_types/prevent_entity_collision.md)
 * [Prevent Entity Render](power_types/prevent_entity_render.md)
 * [Prevent Entity Use](power_types/prevent_entity_use.md)
-* [Prevent Entity Collision](power_types/prevent_entity_collision.md)
+* [Prevent Feature Render](power_types/prevent_feature_render.md)
 * [Prevent Game Event](power_types/prevent_game_event.md)
 * [Prevent Item Use](power_types/prevent_item_use.md)
 * [Prevent Sleep](power_types/prevent_sleep.md)
