@@ -103,6 +103,7 @@ Unless stated otherwise, each power type supports a `condition` field that can c
 * [Modify Player Spawn](power_types/modify_player_spawn.md)
 * [Modify Projectile Damage](power_types/modify_projectile_damage.md)
 * [Modify Slipperiness](power_types/modify_slipperiness.md)
+* [Modify Status Effect Amplifier](power_types/modify_status_effect_amplifier.md)
 * [Modify Swim Speed](power_types/modify_swim_speed.md)
 * [Modify XP Gain](power_types/modify_xp_gain.md)
 
