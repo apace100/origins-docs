@@ -1,5 +1,5 @@
 ---
-title: Modify Projectile Dealt (Power Type)
+title: Modify Projectile Damage (Power Type)
 date: 2021-04-08
 ---
 
