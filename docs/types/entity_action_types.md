@@ -43,5 +43,5 @@ Entity Action Types operate on an `Entity`. Some more specific actions only have
 * [Spawn Entity](entity_action_types/spawn_entity.md)
 * [Spawn Particles](entity_action_types/spawn_particles.md)
 * [Swing Hand](entity_action_types/swing_hand.md)
-* [Toggle](power_types/toggle_night_vision.md)
+* [Toggle](entity_action_types/toggle.md)
 * [Trigger Cooldown](entity_action_types/trigger_cooldown.md)
