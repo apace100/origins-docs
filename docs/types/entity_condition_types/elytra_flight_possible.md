@@ -7,7 +7,7 @@ date: 2021-12-01
 
 [Entity Condition Type](../entity_condition_types.md)
 
-Checks if the entity can fly with an Elytra with either an Elytra item or a power that uses the [Elytra Flight (Power Type)](../power_types/elytra_flight.md).
+Checks if the entity can fly with either an Elytra item or a power that uses the [Elytra Flight (Power Type)](../power_types/elytra_flight.md).
 
 Type ID: `origins:elytra_flight_possible`
 
