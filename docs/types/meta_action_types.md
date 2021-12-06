@@ -13,24 +13,18 @@ Meta Action Types are independent of the type they operate on. They basically co
 * [And](meta_action_types/and.md)
 * [Chance](meta_action_types/chance.md)
 * [Choice](meta_action_types/choice.md)
+* [Delay](meta_action_types/delay.md)
 * [If-Else-List](meta_action_types/if_else_list.md)
 * [If-Else](meta_action_types/if_else.md)
+* [Nothing](meta_action_types/nothing.md)
 
 
-## Bi-entity Actions
+### Bi-entity Actions
 
 * [Actor Action](meta_action_types/actor_action.md)
 * [Invert](meta_action_types/invert.md)
 * [Target Action](meta_action_types/target_action.md)
 
-## Block Actions
+### Block Actions
 
 * [Offset](meta_action_types/offset.md)
-
-## Entity Actions
-
-* [Delay](meta_action_types/delay.md)
-
-## Entity and Bi-entity Actions
-
-* [Nothing](meta_action_types/nothing.md)
