@@ -13,7 +13,14 @@ Type ID: `origins:if_else_list`
 
 !!! note
 
-    **Currently only available as an [Entity Action Type](../entity_action_types.md)**
+    Depending on the condition type, a different action type is expected:
+    
+    Action Type | Condition Type
+    ------------|----------------
+    [Entity Action Type](../entity_action_types.md) | [Entity Condition Type](../entity_condition_types.md)
+    [Block Action Type](../block_action_types.md) | [Block Condition Type](../block_condition_types.md)
+    [Item Action Type](../item_action_types.md) | [Item Condition Type](../item_condition_types.md)
+
 
 
 ### Fields
