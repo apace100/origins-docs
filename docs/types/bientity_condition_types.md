@@ -15,6 +15,7 @@ Bi-entity Condition Types operate on a `Pair<Entity, Entity>`, or in simpler ter
 * [Can See](bientity_condition_types/can_see.md)
 * [Distance](bientity_condition_types/distance.md)
 * [Owner](bientity_condition_types/owner.md)
+* [Relative Rotation](bientity_condition_types/relative_rotation.md)
 * [Riding Recursive](bientity_condition_types/riding_recursive.md)
 * [Riding Root](bientity_condition_types/riding_root.md)
 * [Riding](bientity_condition_types/riding.md)
