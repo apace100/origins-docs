@@ -11,10 +11,6 @@ Executes the provided action after a set amount of ticks.
 
 Type ID: `origins:delay`
 
-!!! note
-
-    **Only available as an [Entity Action Type](../entity_action_types.md)**
-
 !!! caution
 
     Delaying an action for more than a few ticks is not recommended! This meta action type is not reliable for such task.
@@ -46,4 +42,4 @@ Field  | Type | Default | Description
     }
 }
 ```
-This action will apply a speed effect after 1 second.
+This example will apply a Speed II status effect after 1 second.
