@@ -11,10 +11,6 @@ Does nothing. Can be used as a backup in case an action is not optional in some 
 
 Type ID: `origins:nothing`
 
-!!! note
-
-    **Only available as an [Entity Action Type](../entity_action_types.md) and a [Bi-entity Action Type](../bientity_action_types.md).**
-
 
 ### Fields
 
