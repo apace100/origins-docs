@@ -11,6 +11,7 @@ Bi-entity Action Types operate on a `Pair<Entity, Entity>`; in simpler terms: an
 ### List
 
 * [Add Velocity](bientity_action_types/add_velocity.md)
+* [Damage](bientity_action_types/damage.md)
 * [Mount](bientity_action_types/mount.md)
 * [Set In Love](bientity_action_types/set_in_love.md)
 * [Tame](bientity_action_types/tame.md)
