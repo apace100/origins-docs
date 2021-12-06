@@ -16,6 +16,7 @@ Type ID: `origins:action_on_block_use`
 
 Field | Type | Default | Description
 ------|------|---------|-------------
+`entity_action` | [Entity Action Type](../entity_action_types.md) | _optional_ | If specified, this entity action type will be executed if all conditions are met.
 `block_action` | [Block Action Type](../block_action_types.md) | _optional_ | If specified, the used block will run this action if all conditions are met.
 `block_condition` | [Block Condition Type](../block_condition_types.md) | _optional_ | If specified, only execute the specified actions if this condition is fulfilled by the used block.
 `item_condition` | [Item Condition Type](../item_condition_types.md) | _optional_ | If specified, only execute the specified actions if this condition is fulfilled by the item in the 'actor' (the player that has the power) entity's specified hand(s) determined by the `hands` string field.
