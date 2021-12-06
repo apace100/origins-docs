@@ -115,6 +115,7 @@ Unless stated otherwise, each power type supports a `condition` field that can c
 * [Prevent Block Selection](power_types/prevent_block_selection.md)
 * [Prevent Block Use](power_types/prevent_block_use.md)
 * [Prevent Death](power_types/prevent_death.md)
+* [Prevent Elytra Flight](power_types/prevent_elytra_flight.md)
 * [Prevent Entity Collision](power_types/prevent_entity_collision.md)
 * [Prevent Entity Render](power_types/prevent_entity_render.md)
 * [Prevent Entity Use](power_types/prevent_entity_use.md)
