@@ -10,6 +10,7 @@ Entity Condition Types operate on an Entity, which also allows access to the wor
 
 ### List
 
+* [Ability](entity_condition_types/ability.md)
 * [Advancement](entity_condition_types/advancement.md)
 * [Air](entity_condition_types/air.md)
 * [Attribute](entity_condition_types/attribute.md)
