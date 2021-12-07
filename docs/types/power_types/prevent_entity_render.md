@@ -65,4 +65,4 @@ This example will make creepers invisible for the player that has the power duri
 }
 ```
 
-This example will prevent mobs that are from the 'aquatic' entity group from rendering for the entity that has the power if those mobs are 9 or more blocks away.
+This example will prevent mobs that are from the 'aquatic' entity group from rendering for the entity that has the power only if the entity that has the power is submerged in water and those mobs are 9 or more blocks away.
