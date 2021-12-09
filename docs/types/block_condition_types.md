@@ -12,6 +12,7 @@ Block Condition Types operate on `CachedBlockPosition`, essentially a combinatio
 
 * [Adjacent](block_condition_types/adjacent.md)
 * [Attachable](block_condition_types/attachable.md)
+* [Blast Resistance](block_condition_types/blast_resistance.md)
 * [Block State](block_condition_types/block_state.md)
 * [Block](block_condition_types/block.md)
 * [Exposed To Sky](block_condition_types/exposed_to_sky.md)
