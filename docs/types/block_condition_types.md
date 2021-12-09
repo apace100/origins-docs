@@ -16,6 +16,7 @@ Block Condition Types operate on `CachedBlockPosition`, essentially a combinatio
 * [Block](block_condition_types/block.md)
 * [Exposed To Sky](block_condition_types/exposed_to_sky.md)
 * [Fluid](block_condition_types/fluid.md)
+* [Hardness](block_condition_types/hardness.md)
 * [Height](block_condition_types/height.md)
 * [In Tag](block_condition_types/in_tag.md)
 * [Light Blocking](block_condition_types/light_blocking.md)
