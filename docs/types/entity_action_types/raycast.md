@@ -31,7 +31,7 @@ Field | Type | Default | Description
 `command_hit_offset` | [Float](../data_types/float.md) | _optional_ | Determines the offset of the command specified in the `command_at_hit` field.
 `command_along_ray` | [String](../data_types/string.md) | _optional_ | The command to execute for each step of the raycast.
 `command_step` | [Float](../data_types/float.md) | `1.0` | Determines the size of the step of the raycast.
-`command_along_ray_only_on_hit` | [String](../data_types/string.md) | `false` | Determines if the command specified in the `command_along_ray` field should be executed only if the raycast has hit a block/entity.
+`command_along_ray_only_on_hit` | [Boolean](../data_types/boolean.md) | `false` | Determines if the command specified in the `command_along_ray` field should be executed only if the raycast has hit a block/entity.
 
 
 ### Examples
