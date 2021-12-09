@@ -21,6 +21,7 @@ Block Condition Types operate on `CachedBlockPosition`, essentially a combinatio
 * [In Tag](block_condition_types/in_tag.md)
 * [Light Blocking](block_condition_types/light_blocking.md)
 * [Light Level](block_condition_types/light_level.md)
+* [Material](block_condition_types/material.md)
 * [Movement Blocking](block_condition_types/movement_blocking.md)
 * [Replacable](block_condition_types/replacable.md)
 * [Slipperiness](block_condition_types/slipperiness.md)

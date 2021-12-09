@@ -13,6 +13,7 @@ Extras are pages that do not fit in other sections of the wiki.
 * [Biome Categories](extras/biome_categories.md)
 * [Damage Sources](extras/damage_sources.md)
 * [Keybindings](extras/keybindings.md)
+* [Materials](extras/materials.md)
 * [Positioned Item Stack Slots](extras/positioned_item_stack_slots.md)
 * [Space](extras/space.md)
 * [Sprites](extras/sprites.md)
