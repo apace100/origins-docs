@@ -15,6 +15,7 @@ Block Condition Types operate on `CachedBlockPosition`, essentially a combinatio
 * [Blast Resistance](block_condition_types/blast_resistance.md)
 * [Block State](block_condition_types/block_state.md)
 * [Block](block_condition_types/block.md)
+* [Distance From Coordinates](block_condition_types/distance_from_coordinates.md)
 * [Exposed To Sky](block_condition_types/exposed_to_sky.md)
 * [Fluid](block_condition_types/fluid.md)
 * [Hardness](block_condition_types/hardness.md)

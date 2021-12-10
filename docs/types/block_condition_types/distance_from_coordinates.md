@@ -1,9 +1,9 @@
 ---
-title: Distance from Coordinates (Block Condition Type)
+title: Distance From Coordinates (Block Condition Type)
 date: 2021-12-10
 ---
 
-# Distance from Coordinates
+# Distance From Coordinates
 
 [Block Condition Type](../block_condition_types.md)
 
