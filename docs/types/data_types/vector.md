@@ -18,6 +18,7 @@ Field | Type | Default | Description
 `y` | [Float](float.md) | `0` | The Y coordinate of the point.
 `z` | [Float](float.md) | `0` | The Z coordinate of the point.
 
+
 ### Examples
 
 ```json
@@ -39,3 +40,20 @@ Field | Type | Default | Description
 ```
 
 A [Spawn Particles (Entity Action Type)](../entity_action_types/spawn_particles.md) that spawns a cuboid of about 5x0x5 in size, which has a volume of 25 blocks.
+<br>
+
+```json
+"condition": {
+    "type": "origins:distance_from_coordinates",
+    "offset": {
+        "x": 256,
+        "y": 64,
+        "z": 32
+    },
+    "shape": "sphere",
+    "comparison": "<",
+    "compare_to": 8
+}
+```
+
+A [Distance from Coordinates (Entity Condition Type)](../entity_condition_types/distance_from_coordinates.md) that checks if the entity is within an 8 blocks radius relative to the specified coordinates (X: 256, Y: 64, Z: 32).
