@@ -37,11 +37,11 @@ Field | Type | Default | Description
     "speed": 0.0,
     "force": true,
     "spread": {
-        "x": 0.8,
-        "y": 0.8,
-        "z": 0.8
+        "x": 3.0,
+        "y": 0.0,
+        "z": 3.0
     }
 }
 ```
 
-This example will display a block particle that will use the Redstone Block texture.
+This example will spawn a particle cuboid that is about 5x0x5 in size that will use the Redstone Block texture.
