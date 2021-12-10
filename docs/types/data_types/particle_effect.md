@@ -30,7 +30,7 @@ A happy villager particle type.
 ```json
 "particle": {
     "type": "minecraft:dust",
-    "params": "0.922 0.314 0.314"
+    "params": "0.922 0.314 0.314 2"
 }
 ```
 
