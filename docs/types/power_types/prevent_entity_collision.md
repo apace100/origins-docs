@@ -7,7 +7,7 @@ date: 2021-11-30
 
 [Power Type](../power_types.md)
 
-Prevents an entity colliding with the entity who has this power, if all conditions are met. 
+Prevents an entity colliding with the entity who has this power, if all conditions are met.
 
 Type ID: `origins:prevent_entity_collision`
 
@@ -16,7 +16,7 @@ Type ID: `origins:prevent_entity_collision`
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`bientity_condition` | [Bi-entity Condition Type](../bientity_condition_types.md) | _optional_ | If specified, collision is only affected as long as both the 'actor' (the entity with the power), and the 'target' fulfill the specified conditions..
+`bientity_condition` | [Bi-entity Condition Type](../bientity_condition_types.md) | _optional_ | If specified, collision is only affected as long as both the 'actor' (the entity with the power), and the 'target' fulfill the specified conditions.
 
 
 ### Examples
