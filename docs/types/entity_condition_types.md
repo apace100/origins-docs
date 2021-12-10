@@ -24,6 +24,7 @@ Entity Condition Types operate on an Entity, which also allows access to the wor
 * [Creative Flying](entity_condition_types/creative_flying.md)
 * [Daytime](entity_condition_types/daytime.md)
 * [Dimension](entity_condition_types/dimension.md)
+* [Distance From Coordinates](entity_condition_types/distance_from_coordinates.md)
 * [Elytra Flight Possible](entity_condition_types/elytra_flight_possible.md)
 * [Enchantment](entity_condition_types/enchantment.md)
 * [Entity Group](entity_condition_types/entity_group.md)

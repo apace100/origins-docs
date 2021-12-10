@@ -1,9 +1,9 @@
 ---
-title: Distance from Coordinates (Entity Condition Type)
+title: Distance From Coordinates (Entity Condition Type)
 date: 2021-12-10
 ---
 
-# Distance from Coordinates
+# Distance From Coordinates
 
 [Entity Condition Type](../entity_condition_types.md)
 
