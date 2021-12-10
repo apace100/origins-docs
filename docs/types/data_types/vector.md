@@ -7,25 +7,35 @@ date: 2021-12-03
 
 [Data Type](../data_types.md)
 
-An [Object](object.md) that specifies the size of a three-dimensional cuboid, accepting [Floats](float.md) for each axis.
+An [Object](object.md) that specifies the X, Y and Z coordinates of a certain point in space.
 
 
 ### Fields
 
 Field | Type | Default | Description
 ------|------|---------|------------
-`x` | [Float](float.md) | `0` | The size of the cuboid to the X axis.
-`y` | [Float](float.md) | `0` | The size of the cuboid to the Y axis.
-`z` | [Float](float.md) | `0` | The size of the cuboid to the Z axis.
+`x` | [Float](float.md) | `0` | The X coordinate of the point.
+`y` | [Float](float.md) | `0` | The Y coordinate of the point.
+`z` | [Float](float.md) | `0` | The Z coordinate of the point.
 
 ### Examples
 
 ```json
-"spread": {
-    "x": 3.0,
-    "y": 0.0,
-    "z": 3.0
+"entity_action": {
+    "type": "origins:spawn_particles",
+    "particle": {
+        "type": "minecraft:block",
+        "params": "minecraft:redstone_block"
+    },
+    "count": 16,
+    "speed": 0.0,
+    "force": true,
+    "spread": {
+        "x": 3.0,
+        "y": 0.0,
+        "z": 3.0
+    }
 }
 ```
 
-A cuboid of about 5x0x5 in size, which has a volume of 25 blocks. 
+A [Spawn Particles (Entity Action Type)](../entity_action_types/spawn_particles.md) that spawns a cuboid of about 5x0x5 in size, which has a volume of 25 blocks.
