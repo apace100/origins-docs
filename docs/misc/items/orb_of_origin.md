@@ -11,7 +11,8 @@ An item that can change the origin(s) of the player upon "use" (right-click).
 
 By default, the Orb of Origins item doesn't have a crafting recipe and lets you pick an origin for every origin layer that's available. You can change either of these things by creating a recipe (JSON file) for the item, and giving the item a custom NBT respectively.
 
-Item ID: `origins:orb_of_origins`
+Item ID: `origins:orb_of_origin`
+
 
 ### Creating a custom recipe
 
@@ -22,6 +23,7 @@ You can use [this website](https://crafting.thedestruc7i0n.ca/) to easily create
 3. Click the 'Add' button and drag-and-drop the newly added item that has a black and pink texture into the crafting result slot just beside the crafting grid slots.
 4. Create your own pattern.
 5. Download as a datapack by clicking on the 'Download datapack.zip' button below.
+
 
 ### Origin (and origin layer) specific Orb
 
