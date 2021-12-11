@@ -19,7 +19,7 @@ Field | Type | Default | Description
 `reference` | [String](../data_types/string.md) | `"world_origin"` | The point to compare the distance to.
 `offset` | [Vector](../data_types/vector.md) | _optional_ | If specified, determines how much the reference point should be offset.
 `ignore_x` | [Boolean](../data_types/boolean.md) | `false` | Determines whether to consider the X axis to be 0.
-`ignore_y` | [Boolean](../data_types/boolean.md) | `false` | Determines whetehr to consider the Y axis to be 0.
+`ignore_y` | [Boolean](../data_types/boolean.md) | `false` | Determines whether to consider the Y axis to be 0.
 `ignore_z` | [Boolean](../data_types/boolean.md) | `false` | Determines whether to consider the Z axis to be 0.
 `shape` | [String](../data_types/string.md) | `"cube"` | Determines the shape of the check. Accepts `"cube"`, `"star"` or `"sphere"`.
 `scale_reference_to_dimension` | [Boolean](../data_types/boolean.md) | `true` | Determines whether to check for the reference point whilst considering the coordinate scale of the dimension.
