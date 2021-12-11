@@ -7,7 +7,7 @@ date: 2021-12-01
 
 [Entity Condition Type](../entity_condition_types.md)
 
-Checks if the entity has a power that uses the specified power type.
+Checks if the entity has a power that uses the specified [Power Type](../power_types.md).
 
 Type ID: `origins:power_type`
 
@@ -16,7 +16,7 @@ Type ID: `origins:power_type`
 
 Field | Type | Default | Description
 ------|------|---------|------------
-`power_type` | [Identifier](../data_types/identifier.md) | | The namespace and ID of the power type of a power the entity has.
+`power_type` | [Identifier](../data_types/identifier.md) | | The namespace and ID of the [Power Type](../power_types.md) of a power the entity has.
 
 
 ### Examples
