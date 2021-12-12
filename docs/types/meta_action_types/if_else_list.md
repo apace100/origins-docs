@@ -17,6 +17,7 @@ Type ID: `origins:if_else_list`
     
     Action Type | Condition Type
     ------------|----------------
+    [Bi-entity Action Type](../bientity_action_types.md) | [Bi-entity Condition Type](../bientity_condition_types.md)
     [Entity Action Type](../entity_action_types.md) | [Entity Condition Type](../entity_condition_types.md)
     [Block Action Type](../block_action_types.md) | [Block Condition Type](../block_condition_types.md)
     [Item Action Type](../item_action_types.md) | [Item Condition Type](../item_condition_types.md)
