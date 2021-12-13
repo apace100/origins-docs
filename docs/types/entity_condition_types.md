@@ -56,6 +56,7 @@ Entity Condition Types operate on an Entity, which also allows access to the wor
 * [Power Type](entity_condition_types/power_type.md)
 * [Power](entity_condition_types/power.md)
 * [Predicate](entity_condition_types/predicate.md)
+* [Raycast](entity_condition_types/raycast.md)
 * [Relative Health](entity_condition_types/relative_health.md)
 * [Resource](entity_condition_types/resource.md)
 * [Riding Recursive](entity_condition_types/riding_recursive.md)
