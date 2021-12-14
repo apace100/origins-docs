@@ -40,7 +40,7 @@ Entity Condition Types operate on an Entity, which also allows access to the wor
 * [Gamemode](entity_condition_types/gamemode.md)
 * [Health](entity_condition_types/health.md)
 * [In Block Anywhere](entity_condition_types/in_block_anywhere.md)
-* [In Block](entity_condition_types/in_block_anywhere.md)
+* [In Block](entity_condition_types/in_block.md)
 * [In Rain](entity_condition_types/in_rain.md)
 * [In Tag](entity_condition_types/in_tag.md)
 * [Invisible](entity_condition_types/invisible.md)
