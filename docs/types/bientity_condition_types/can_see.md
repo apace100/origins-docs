@@ -16,8 +16,8 @@ Type ID: `origins:can_see`
 
 Field | Type | Default | Description
 ------|------|---------|------------
-`shape_type` | [String](../data_types/string.md) | `"visual"` | Determines how the raycast handles blocks. If set to `"outline"`, the raycast will take the shape of the collision box of the block into account. If set to `"visual"`, the raycast will ignore blocks that are see-through (e.g: Glass, Tinted Glass, etc.). If set to `"collider"`, the raycast will take physical collision of the block into account.
-`fluid_handling` | [String](../data_types/string.md) | `"none"` | Determines how the raycast handles fluids. If set to `"any"`, the raycast will ignore source and flowing fluids. If set to `"source"`, the raycast will only go through source fluids. If set to `"none"`, the raycast **won't** go through any kind of fluids.
+`shape_type` | [String](../data_types/string.md) | `"visual"` | Determines how the raycast will handle blocks. If set to `"visual"`, the raycast will only stop at blocks that are not see-through (like Glass, Tinted Glass, etc.). If set to `"collider"`, the raycast will only stop at blocks that are solid (cannot be walked through). If set to `"outline"`, the raycast will take the shape of the block into account.
+`fluid_handling` | [String](../data_types/string.md) | `"none"` | Deterines how the raycast will handle fluids. If set to `"any"`, the raycast will stop at both flowing and source fluids. If set to `"source"`, the raycast will only stop at source fluids. If set to `"none"`, the raycast will not stop at either source or flowing fluids.
 
 
 ### Examples
