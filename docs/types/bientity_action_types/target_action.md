@@ -1,11 +1,11 @@
 ---
-title: Target Action (Meta Action Type)
+title: Target Action (Bi-entity Action Type)
 date: 2021-10-07
 ---
 
 # Target Action
 
-[Meta Action Type](../meta_action_types.md)
+[Bi-entity Action Type](../bientity_action_types.md)
 
 Executes an [Entity Action Type](../entity_action_types.md) on the target entity.
 
