@@ -1,19 +1,15 @@
 ---
-title: Invert (Meta Action Type)
+title: Invert (Bi-entity Action Type)
 date: 2021-10-07
 ---
 
 # Invert
 
-[Meta Action Type](../meta_action_types.md)
+[Bi-entity Action Type](../bientity_action_types.md)
 
 Swaps the context of the target entity and the actor entity.
 
 Type ID: `origins:invert`
-
-!!! note
-
-    **Only available as a [Bi-entity Action Type](../bientity_action_types.md).**
 
 
 ### Fields

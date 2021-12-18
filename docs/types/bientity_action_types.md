@@ -18,4 +18,5 @@ Bi-entity Action Types operate on a `Pair<Entity, Entity>`; in simpler terms: an
 
 ### Meta
 * [Actor Action](bientity_action_types/actor_action.md)
+* [Invert](bientity_action_types/invert.md)
 * [Target Action](bientity_action_types/target_action.md)
