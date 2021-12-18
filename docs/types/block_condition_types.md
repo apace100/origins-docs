@@ -28,3 +28,8 @@ Block Condition Types operate on `CachedBlockPosition`, essentially a combinatio
 * [Replacable](block_condition_types/replacable.md)
 * [Slipperiness](block_condition_types/slipperiness.md)
 * [Water Loggable](block_condition_types/water_loggable.md)
+
+
+### Meta
+
+* [Offset](block_condition_types/offset.md)
