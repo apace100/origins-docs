@@ -18,3 +18,8 @@ Bi-entity Condition Types operate on a `Pair<Entity, Entity>`, or in simpler ter
 * [Riding Recursive](bientity_condition_types/riding_recursive.md)
 * [Riding Root](bientity_condition_types/riding_root.md)
 * [Riding](bientity_condition_types/riding.md)
+
+
+### Meta
+* [Actor Condition](bientity_condition_types/actor_condition.md)
+* [Target Condition](bientity_condition_types/target_condition.md)
