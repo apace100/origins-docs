@@ -24,5 +24,6 @@ Bi-entity Condition Types operate on a `Pair<Entity, Entity>`, or in simpler ter
 ### Meta
 * [Actor Condition](bientity_condition_types/actor_condition.md)
 * [Both](bientity_condition_types/both.md)
+* [Either](bientity_condition_types/either.md)
 * [Invert](bientity_condition_types/invert.md)
 * [Target Condition](bientity_condition_types/target_condition.md)
