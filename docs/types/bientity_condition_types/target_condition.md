@@ -1,19 +1,15 @@
 ---
-title: Target Condition (Meta Condition Type)
+title: Target Condition (Bi-entity Condition Type)
 date: 2021-10-07
 ---
 
 # Target Condition
 
-[Meta Condition Type](../meta_condition_types.md)
+[Bi-entity Condition Type](../bientity_condition_types.md)
 
 Checks for an [Entity Condition Type](../entity_condition_types.md) on the target entity.
 
 Type ID: `origins:target_condition`
-
-!!! note
-
-	**Only available as a [Bi-entity Condition Type](../bientity_condition_types.md).**
 
 
 ### Fields
