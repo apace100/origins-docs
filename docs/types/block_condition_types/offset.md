@@ -1,19 +1,15 @@
 ---
-title: Offset (Meta Condition Type)
+title: Offset (Block Condition Type)
 date: 2021-04-05
 ---
 
 # Offset
 
-[Meta Condition Type](../meta_condition_types.md)
+[Block Condition Type](../block_condition_types.md)
 
 Checks the provided [Block Condition Type](../block_condition_types.md) at a position offset from the current position.
 
 Type ID: `origins:offset`
-
-!!! note
-
-    **Only available as a [Block Condition Type](../block_condition_types.md).**
 
 
 ### Fields

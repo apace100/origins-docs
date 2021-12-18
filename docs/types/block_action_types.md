@@ -13,3 +13,7 @@ Block Action Types operate an action at a selected block or set of blocks. These
 * [Add Block](block_action_types/add_block.md)
 * [Execute Command](block_action_types/execute_command.md)
 * [Set Block](block_action_types/set_block.md)
+
+
+### Meta
+* [Offset](block_action_types/offset.md)

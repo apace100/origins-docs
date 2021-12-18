@@ -1,19 +1,15 @@
 ---
-title: Offset (Meta Action Type)
+title: Offset (Block Action Type)
 date: 2021-04-05
 ---
 
 # Offset
 
-[Meta Action Type](../meta_action_types.md)
+[Block Action Type](../block_action_types.md)
 
 Executes the provided [Block Action Type](../block_action_types.md) at the position offset from the current position.
 
 Type ID: `origins:offset`
-
-!!! note
-
-    **Only available as a [Block Action Type](../block_action_types.md).**
 
 
 ### Fields
