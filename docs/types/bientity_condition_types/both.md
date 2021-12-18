@@ -1,19 +1,15 @@
 ---
-title: Both (Meta Condition Type)
+title: Both (Bi-entity Condition Type)
 date: 2021-10-07
 ---
 
 # Both
 
-[Meta Condition Type](../meta_condition_types.md)
+[Bi-entity Condition Type](../bientity_condition_types.md)
 
 Checks for an entity condition on both the actor and target entities.
 
 Type ID: `origins:both`
-
-!!! note
-
-	**Only available as a [Bi-entity Condition Type](../bientity_condition_types.md).**
 
 
 ### Fields
