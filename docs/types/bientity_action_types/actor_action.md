@@ -1,11 +1,11 @@
 ---
-title: Actor Action (Meta Action Type)
+title: Actor Action (Bi-entity Action Type)
 date: 2021-10-07
 ---
 
 # Actor Action
 
-[Meta Action Type](../meta_action_types.md)
+[Bi-entity Action Type](../bientity_action_types.md)
 
 Executes an [Entity Action Type](../entity_action_types.md) on the actor entity.
 
