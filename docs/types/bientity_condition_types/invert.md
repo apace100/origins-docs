@@ -1,19 +1,15 @@
 ---
-title: Invert (Meta Condition Type)
+title: Invert (Bi-entity Condition Type)
 date: 2021-10-07
 ---
 
 # Invert
 
-[Meta Condition Type](../meta_condition_types.md)
+[Bi-entity Condition Type](../bientity_condition_types.md)
 
 Swaps the context of the target entity and the actor entity.
 
 Type ID: `origins:invert`
-
-!!! note
-
-	**Only available as a [Bi-entity Condition Type](../bientity_condition_types.md).**
 
 
 ### Fields
