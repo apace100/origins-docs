@@ -21,10 +21,10 @@ Meta Action Types are independent of the type they operate on. They basically co
 
 ### Bi-entity Actions
 
-* [Actor Action](meta_action_types/actor_action.md)
-* [Invert](meta_action_types/invert.md)
-* [Target Action](meta_action_types/target_action.md)
+* [Actor Action](bientity_action_types/actor_action.md)
+* [Invert](bientity_action_types/invert.md)
+* [Target Action](bientity_action_types/target_action.md)
 
 ### Block Actions
 
-* [Offset](meta_action_types/offset.md)
+* [Offset](block_action_types/offset.md)
