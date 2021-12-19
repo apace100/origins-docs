@@ -11,10 +11,6 @@ Executes an [Entity Action Type](../entity_action_types.md) on the actor entity.
 
 Type ID: `origins:actor_action`
 
-!!! note
-
-    **Only available as a [Bi-entity Action Type](../bientity_action_types.md).**
-
 
 ### Fields
 
