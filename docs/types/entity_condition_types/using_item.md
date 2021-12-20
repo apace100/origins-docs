@@ -11,8 +11,6 @@ Checks whether the entity is currently using an item (eating a food item, using 
 
 Type ID: `origins:using_item`
 
-!!! ntoe
-
 
 ### Fields
 
