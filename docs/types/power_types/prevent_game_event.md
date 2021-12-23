@@ -35,4 +35,4 @@ Field | Type | Default | Description
 }
 ```
 
-This example will prevent the entity that has the power to emit a `minecraft:hit_ground` game event, which is usually emitted by landong on the ground upon falling.
+This example will prevent the entity that has the power to emit a `minecraft:hit_ground` game event, which is usually emitted by landing on the ground upon falling.
