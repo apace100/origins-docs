@@ -10,6 +10,7 @@ Extras are pages that do not fit in other sections of the wiki.
 
 ### List
 
+* [Action Result](extras/action_result.md)
 * [Biome Categories](extras/biome_categories.md)
 * [Damage Sources](extras/damage_sources.md)
 * [Keybindings](extras/keybindings.md)

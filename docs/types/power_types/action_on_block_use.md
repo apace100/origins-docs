@@ -25,7 +25,7 @@ Field | Type | Default | Description
 `result_stack` | [Item Stack](../data_types/item_stack.md) | _optional_ | If specified, gives the item to the 'actor' (the player that has the power) entity.
 `held_item_action` | [Item Action Type](../item_action_types.md) | _optional_ | If specified, this action will be executed on the item used for right-clicking the 'target' entity in the specified hand(s) determined by the `hands` string field.
 `result_item_action` | [Item Action Type](../item_action_types.md) | _optional_ | If specified, this action will be executed on the item that is given to the 'actor' (the player that has the power) entity.
-`action_result` | [String](../data_types/string.md) | `"success"` | Determines the result of the 'use action'. Accepts `"consume"`, `"consume_partial"`, `"fail"`, `"pass"` or `"success"`.
+`action_result` | [String](../data_types/string.md) | `"success"` | Determines the result of the 'use' action. See [Action Result](../../misc/extras/action_result.md) for possible values.
 
 
 ### Examples
