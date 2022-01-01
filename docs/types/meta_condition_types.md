@@ -17,13 +17,13 @@ Meta Condition Types are independent of the type they operate on. They basically
 
 ## Bi-entity Conditions
 
-* [Actor Condition](meta_condition_types/actor_condition.md)
-* [Both](meta_condition_types/both.md)
-* [Either](meta_condition_types/either.md)
-* [Invert](meta_condition_types/invert.md)
-* [Target Condition](meta_condition_types/target_condition.md)
-* [Undirected](meta_condition_types/undirected.md)
+* [Actor Condition](bientity_condition_types/actor_condition.md)
+* [Both](bientity_condition_types/both.md)
+* [Either](bientity_condition_types/either.md)
+* [Invert](bientity_condition_types/invert.md)
+* [Target Condition](bientity_condition_types/target_condition.md)
+* [Undirected](bientity_condition_types/undirected.md)
 
 ## Block Conditions
 
-* [Offset](meta_condition_types/offset.md)
+* [Offset](block_condition_types/offset.md)
