@@ -9,7 +9,7 @@ date: 2021-04-04
 
 A [String](string.md) used to specify an operation used by [Attribute Modifiers](attribute_modifier.md) and [Attributed Attribute Modifiers](attributed_attribute_modifier.md).
 
-### Values:
+### Values
 
 Value  | Description
 -------|------
