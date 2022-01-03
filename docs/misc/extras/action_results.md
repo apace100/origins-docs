@@ -1,9 +1,9 @@
 ---
-title: Action Result (Extras)
+title: Action Results (Extras)
 date: 2021-12-27
 ---
 
-#   Action Result
+#   Action Results
 Action Results are [Strings](../../types/data_types/string.md) used for determining the result of an action.
 
 
