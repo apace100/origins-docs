@@ -39,7 +39,7 @@ nav:
         - Predicates: misc/predicates.md
     - Extras:
         - Biome Categories: misc/extras/biome_categories.md
-        - Damage Sources: misc/extras/damage_sources.md
+        - Damage Source Names: misc/extras/damage_source_names.md
         - Keybindings: misc/extras/keybindings.md
         - Materials: misc/extras/materials.md
         - Positioned Item Stack Slots: misc/extras/positioned_item_stack_slots.md
