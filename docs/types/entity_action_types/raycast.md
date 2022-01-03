@@ -16,22 +16,22 @@ Type ID: `origins:raycast`
 
 Field | Type | Default | Description
 ------|------|---------|------------
-`distance` | [Float](../data_types/float.md) | | Determines the maximum distance the raycast will travel.
-`block` | [Boolean](../data_types/boolean.md) | `true` | If set to `false`, the raycast will ignore blocks.
-`entity` | [Boolean](../data_types/boolean.md) | `true` | If set to `false`, the raycast will ignore entities.
-`shape_type` | [String](../data_types/string.md) | `"visual"` | Determines how the raycast will handle blocks. If set to `"visual"`, the raycast will only stop at blocks that are not see-through (like Glass, Tinted Glass, etc.). If set to `"collider"`, the raycast will only stop at blocks that are solid (cannot be walked through). If set to `"outline"`, the raycast will take the shape of the block into account.
-`fluid_handling` | [String](../data_types/string.md) | `"none"` | Deterines how the raycast will handle fluids. If set to `"any"`, the raycast will stop at both flowing and source fluids. If set to `"source"`, the raycast will only stop at source fluids. If set to `"none"`, the raycast will not stop at either source or flowing fluids.
-`bientity_condition` | [Bi-entity Condition Type](../bientity_condition_types.md) | _optional_ | If specified, the specified bi-entity action type will only be executed if the specified bi-entity condition type is fulfilled by either or both the 'actor' (the entity that has the power) or 'target' (the entity that was hit by the raycast).
-`bientity_action` | [Bi-entity Action Type](../bientity_action_types.md) | _optional_ | If specified, this bi-entity action type will be executed on either or both the 'actor' (the entity that has the power) or 'target' (the entity that was hit by the raycast).
-`block_action` | [Block Action Type](../block_action_types.md) | _optional_ | If specified, this block action type will be executed on the block the raycast has hit.
+`distance` | [Float](../data_types/float.md) | | Determines the maximum distance the ray-cast will travel.
+`block` | [Boolean](../data_types/boolean.md) | `true` | Determines whether the ray-cast should include blocks.
+`entity` | [Boolean](../data_types/boolean.md) | `true` | Determines whether the ray-cast should include entities.
+`shape_type` | [Shape Type](../data_types/shape_type.md) | `"visual"` | Determines how the ray-cast will handle blocks.
+`fluid_handling` | [Fluid Handling](../data_types/fluid_handling.md) | `"none"` | Determines how the ray-cast will handle fluids.
+`bientity_condition` | [Bi-entity Condition Type](../bientity_condition_types.md) | _optional_ | If specified, the specified bi-entity action type will only be executed if the specified bi-entity condition type is fulfilled by either or both the 'actor' (the entity that has the power) or 'target' (the entity that was hit by the ray-cast).
+`bientity_action` | [Bi-entity Action Type](../bientity_action_types.md) | _optional_ | If specified, this bi-entity action type will be executed on either or both the 'actor' (the entity that has the power) or 'target' (the entity that was hit by the ray-cast).
+`block_action` | [Block Action Type](../block_action_types.md) | _optional_ | If specified, this block action type will be executed on the block the ray-cast has hit.
 `before_action` | [Entity Action Type](../entity_action_types.md) | _optional_ | If specified, execute this entity action type *before* casting a ray.
-`hit_action` | [Entity Action Type](../entity_action_types.md) | _optional_ | If specified, execute this entity action type if the raycast has hit an entity/block.
-`miss_action` | [Entity Action Type](../entity_action_types.md) | _optional_ | If specified, execute this entity action type if the raycast did not hit an entity/block.
+`hit_action` | [Entity Action Type](../entity_action_types.md) | _optional_ | If specified, execute this entity action type if the ray-cast has hit an entity/block.
+`miss_action` | [Entity Action Type](../entity_action_types.md) | _optional_ | If specified, execute this entity action type if the ray-cast did not hit an entity/block.
 `command_at_hit` | [String](../data_types/string.md) | _optional_ | The command to execute upon the block/entity the raycast has hit.
 `command_hit_offset` | [Float](../data_types/float.md) | _optional_ | Determines the offset of the command specified in the `command_at_hit` field.
-`command_along_ray` | [String](../data_types/string.md) | _optional_ | The command to execute for each step of the raycast.
-`command_step` | [Float](../data_types/float.md) | `1.0` | Determines the size of the step of the raycast.
-`command_along_ray_only_on_hit` | [Boolean](../data_types/boolean.md) | `false` | Determines if the command specified in the `command_along_ray` field should be executed only if the raycast has hit a block/entity.
+`command_along_ray` | [String](../data_types/string.md) | _optional_ | The command to execute for each step of the ray-cast.
+`command_step` | [Float](../data_types/float.md) | `1.0` | Determines the size of the step of the ray-cast.
+`command_along_ray_only_on_hit` | [Boolean](../data_types/boolean.md) | `false` | Determines if the command specified in the `command_along_ray` field should be executed only if the ray-cast has hit a block/entity.
 
 
 ### Examples
