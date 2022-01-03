@@ -16,7 +16,7 @@ Type ID: `origins:name`
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`name` | [String](../data_types/string.md) | |  Name the damage source should have to pass the check. See [List of Damage Sources](../../misc/extras/damage_sources.md) for possible values.
+`name` | [String](../data_types/string.md) | |  Name the damage source should have to pass the check. See [List of Damage Source Names](../../misc/extras/damage_source_names.md) for possible values.
 
 
 ### Examples
