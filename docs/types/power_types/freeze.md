@@ -7,7 +7,7 @@ date: 2021-10-02
 
 [Power Type](../power_types.md)
 
-Freezes the entity that has the power, as if they're in a Powdered Snow block.
+Freezes the entity that has the power, as if they're in a Powder Snow block.
 
 Type ID: `origins:freeze`
 
