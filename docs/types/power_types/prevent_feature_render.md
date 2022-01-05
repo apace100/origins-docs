@@ -7,13 +7,13 @@ date: 2021-12-04
 
 [Power Type](../power_types.md)
 
-Prevents certain feature renderers (e.g: armor layer, sheep wool layer, or the sub-classes that extends the [`FeatureRender`](https://maven.fabricmc.net/docs/yarn-1.18+build.1/net/minecraft/client/render/entity/feature/FeatureRenderer.html) super-class) from rendering to the entity that has this power.
+Prevents certain feature renderers (e.g: armor layer, sheep wool layer, or sub-classes that extends the [`FeatureRenderer`](https://maven.fabricmc.net/docs/yarn-1.18.1+build.17/net/minecraft/client/render/entity/feature/FeatureRenderer.html) super-class) from rendering to the entity that has this power.
 
 Type ID: `origins:prevent_feature_render`
 
 !!! note
 
-    The sub-classes that extends the `FeatureRender` super-class uses pascal-case for its class name. One can convert it to snake-case and remove the `*FeatureRenderer` prefix, which will then be the string value that can be used in the `feature` or `features` fields of the power type.
+    The sub-classes that extends the `FeatureRenderer` super-class uses pascal-case for its class name. One can convert it to snake-case and remove the `*FeatureRenderer` suffix, which will then be the string value that can be used in the `feature` or `features` fields of the power type.
 
     (e.g: `ArmorFeatureRenderer` --> `"armor"`, `HeldItemFeatureRenderer` --> `"held_item"`, etc.) 
 
@@ -39,4 +39,4 @@ Field | Type | Default | Description
 }
 ```
 
-This example will make the armor layer, held item and worn Elytra essentially invisible for other players.
+This example will make the armor layer (`ArmorFeatureRenderer`), held item (`HeldItemFeatureRenderer`) and worn Elytra (`ElytraFeatureRenderer`) essentially invisible to the player that has the power.
