@@ -24,13 +24,13 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "origins:modify_status_effect_amplifier",
+    "type": "origins:modify_status_effect_duration",
     "status_effect": "minecraft:speed",
     "modifier": {
-        "operation": "addition",
-        "value": 1
+        "operation": "multiply_total",
+        "value": 0.25
     }
 }
 ```
 
-This example will modify the duration of the Speed status effect to have a 25% increase, making the entity that has the power recieve Speed that initially lasted 60 seconds now last for 75 seconds.
+This example will modify the duration of the Speed status effect to have a 25% increase, making the entity that has the power receive Speed that initially lasted 60 seconds now last for 75 seconds.
