@@ -32,4 +32,4 @@ Field  | Type | Default | Description
 }
 ```
 
-This exmample will make the entity that has the power invisible if the entity is not burning, even hiding the armor.
+This example will make the entity that has the power invisible if the entity is not burning, even hiding the armor.
