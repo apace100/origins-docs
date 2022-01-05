@@ -33,4 +33,4 @@ Field | Type | Default | Description
 }
 ```
 
-This example will modify the amplifier of the Speed status effect to have a 1 level increase, making the entity that has the power recieve Speed II if the entity were to receive Speed I, etc.
+This example will modify the amplifier of the Speed status effect to have a 1 level increase, making the entity that has the power receive Speed II if the entity were to receive Speed I, etc.
