@@ -18,7 +18,7 @@ Field  | Type | Default | Description
 -------|------|---------|-------------
 `action` | [Action](../action_types.md) | | The action which might be executed.
 `chance` | [Float](../data_types/float.md) | | The chance that the action will execute, from 0 to 1. (E.g. 0.1 means 10% chance, 0.95 means 95% chance).
-`fail_action` | [Action](../action_types.md) | The action to execute if the specified action in the `action` field is not executed.
+`fail_action` | [Action](../action_types.md)| *optional* | The action to execute if the specified action in the `action` field is not executed.
 
 
 ### Examples
