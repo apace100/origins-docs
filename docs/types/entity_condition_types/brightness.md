@@ -41,4 +41,4 @@ Field  | Type | Default | Description
 }
 ```
 
-This example will check if the brightness level at the player's eyes is 0.5 or lower, which corresponds to a light level of 11 or below in any of the three default dimesnions.
+This example will check if the brightness level at the player's eyes is 0.5 or lower, which corresponds to a light level of 11 or below in any of the three default dimensions.
