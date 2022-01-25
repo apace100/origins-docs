@@ -7,7 +7,7 @@ date: 2021-04-07
 
 [Meta Condition Type](../meta_condition_types.md)
 
-Provides a constnant state where it's either true or false. Mainly added as a backup case in case a condition is required in some power/action/condition types.
+Provides a constant state where it's either true or false. Mainly added as a backup case in case a condition is required in some power/action/condition types.
 
 Type ID: `origins:constant`
 
