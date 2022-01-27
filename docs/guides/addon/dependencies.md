@@ -11,8 +11,7 @@ Library | Responsibility | Used By
 --------|----------------|---------
 [Apoli](https://github.com/apace100/apoli) | data-driven powers | Origins
 [Calio](https://github.com/apace100/calio) | serialization of data | Origins, Apoli
-[FallFlyingLib](https://github.com/CafeteriaGuild/FallFlyingLib) | compatibility of Elytra flight mods | Apoli
-[PlayerAbilityLib](https://github.com/Ladysnake/PlayerAbilityLib) | compatibility of mods which modify "abilities" (such as creative flight) | FallFlyingLib, Apoli
+[PlayerAbilityLib](https://github.com/Ladysnake/PlayerAbilityLib) | compatibility of mods which modify "abilities" (such as creative flight) | Apoli
 [Cardinal Components API](https://github.com/OnyxStudios/Cardinal-Components-API) | attaching data to objects | Origins, Apoli
 [Cloth Config](https://github.com/shedaniel/cloth-config) | easy creation of configuration files and screens | Origins
 ([Mod Menu](https://github.com/TerraformersMC/ModMenu)) | showing mods, allowing modders to add configuration in-game | Origins
