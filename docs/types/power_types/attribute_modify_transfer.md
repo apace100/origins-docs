@@ -7,9 +7,15 @@ date: 2021-10-06
 
 [Power Type](../power_types.md)
 
-Transfers the value of an attribute modifier from a specified attribute to a specified class.
+Transfers the value of an attribute modifier from a specified attribute to a specified power class that extends the [`ValueModifyingPower`](https://github.com/apace100/apoli/blob/master/src/main/java/io/github/apace100/apoli/power/ValueModifyingPower.java) super-class.
 
 Type ID: `origins:attribute_modify_transfer`
+
+!!! note
+
+    The name for the power classes uses the pascal-case naming convention. One can convert it to snake-case and remove the `*Power` suffix, which will then be the string value that can be used in the `class` field of the power type.
+
+    (e.g: `ModifyAirSpeedPower` --> `"modify_air_speed`, `ModifyBreakSpeedPower` --> `"modify_break_speed"`, etc.)
 
 !!! note
 
