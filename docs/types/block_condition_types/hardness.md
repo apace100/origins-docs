@@ -12,6 +12,11 @@ Checks the hardness value of the block.
 Type ID: `origins:hardness`
 
 
+!!! note
+
+    A block's hardness value is used for determining how long it takes to break the block. If you want to see the hardness values of each block, you can refer to [Minecraft Fandom Wiki: Breaking (Blocks by hardness)](https://minecraft.fandom.com/wiki/Breaking#Blocks_by_hardness) page.
+
+
 ### Fields
 
 Field | Type | Default | Description
