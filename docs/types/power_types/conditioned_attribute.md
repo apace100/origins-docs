@@ -15,6 +15,10 @@ Type ID: `origins:conditioned_attribute`
 
     You can use the [Attribute (Power Type)](attribute.md) if an entity condition is not needed.
 
+!!! note
+
+    Refer to the [Minecraft Fandom Wiki: Attribute](https://minecraft.fandom.com/wiki/Attribute) page for a list of **vanilla** attributes that you can modify.
+
 
 ### Fields
 

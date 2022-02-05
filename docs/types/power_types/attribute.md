@@ -15,6 +15,10 @@ Type ID: `origins:attribute`
 
     This power type does **not** support a `condition`. If the `condition` field is present, it will be ignored. If you wish to check for an entity condition before applying the attribute modifier(s), you can use the [Conditioned Attribute](../power_types/conditioned_attribute.md) power type instead.
 
+!!! note
+
+    Refer to the [Minecraft Fandom Wiki: Attribute](https://minecraft.fandom.com/wiki/Attribute) page for a list of **vanilla** attributes that you can modify.
+
 
 ### Fields
 

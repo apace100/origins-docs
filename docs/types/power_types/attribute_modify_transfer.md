@@ -11,13 +11,17 @@ Transfers the value of an attribute modifier from a specified attribute to a spe
 
 Type ID: `origins:attribute_modify_transfer`
 
+!!! note
+
+    Refer to the [Minecraft Fandom Wiki: Attribute](https://minecraft.fandom.com/wiki/Attribute) page for a list of **vanilla** attributes that you can get the value from.
+
 
 ### Fields
 
 Field | Type | Default | Description
 ------|------|---------|-------------
 `class` | [Identifier](../data_types/identifier.md) | | The path and ID of the class to transfer the value of an attribute modifier to.
-`attribute` | [Identifier](../data_types/identifier.md) | | The namespace and ID of the attribute to transfer the value from.
+`attribute` | [Identifier](../data_types/identifier.md) | | The namespace and ID of the attribute to get the value from.
 `multiplier` | [Float](../data_types/float.md) | `1.0` | Determines the multiplier for the value.
  
 
