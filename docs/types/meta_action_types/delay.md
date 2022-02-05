@@ -15,14 +15,16 @@ Type ID: `origins:delay`
 
     Delaying an action for more than a few ticks is not recommended! This meta action type is not reliable for such task.
 
-    If you want to delay an entity action *reliably,* you can use a power that uses the [Resource (Power Type)](../power_types/resource.md) power type and increase the value of that resource per set interval using a power that uses the [Action Over Time (Power Type)](../power_types/action_over_time.md) power type.
+    If you want to delay an action type *reliably,* you can use a power that would use the [Cooldown (Power Type)](../power_types/cooldown.md) and trigger that power with the [Trigger Cooldown (Entity Action Type)](../entity_action_types/trigger_cooldown.md).
+
+    You can then use another power that would use the [Action Over Time (Power Type)](../power_types/action_over_time.md) and check if the value of the power that would use the [Cooldown (Power Type)](../power_types/cooldown.md) is `"=="` to `0` using the [Resource (Entity Condition Type)](../entity_condition_types/resource.md).
 
 
 ### Fields
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`action` | [Entity Action Type](../entity_action_types.md) | | The action which will be executed after the delay.
+`action` | [Action Type](../action_types.md) | | The action which will be executed after the delay.
 `ticks` | [Integer](../data_types/integer.md) | | The amount of ticks until the action is executed.
 
 
