@@ -13,12 +13,6 @@ Type ID: `origins:attribute_modify_transfer`
 
 !!! note
 
-    The name for the power classes uses the pascal-case naming convention. One can convert it to snake-case and remove the `*Power` suffix, which will then be the string value that can be used in the `class` field of the power type.
-
-    (e.g: `ModifyAirSpeedPower` --> `"modify_air_speed`, `ModifyBreakSpeedPower` --> `"modify_break_speed"`, etc.)
-
-!!! note
-
     Refer to the [Minecraft Fandom Wiki: Attribute](https://minecraft.fandom.com/wiki/Attribute) page for a list of **vanilla** attributes that you can get the value from.
 
 
@@ -26,7 +20,7 @@ Type ID: `origins:attribute_modify_transfer`
 
 Field | Type | Default | Description
 ------|------|---------|-------------
-`class` | [Identifier](../data_types/identifier.md) | | The path and ID of the class to transfer the value of an attribute modifier to.
+`class` | [Identifier](../data_types/identifier.md) | | The ID of the class to transfer the value of an attribute modifier to. See [Value Modifying Power Classes](../../misc/extras/value_modifying_power_classes.md) for possible values.
 `attribute` | [Identifier](../data_types/identifier.md) | | The namespace and ID of the attribute to get the value from.
 `multiplier` | [Float](../data_types/float.md) | `1.0` | Determines the multiplier for the value.
  
