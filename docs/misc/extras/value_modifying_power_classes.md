@@ -18,7 +18,7 @@ Class Name | String Value
 [`ModifyDamageDealtPower`](https://github.com/apace100/apoli/blob/master/src/main/java/io/github/apace100/apoli/power/ModifyDamageDealtPower.java) | [`"modify_damage_dealt"`](../../types/power_types/modify_damage_dealt.md)
 [`ModifyDamageTakenPower`](https://github.com/apace100/apoli/blob/master/src/main/java/io/github/apace100/apoli/power/ModifyDamageTaken.java) | [`"modify_damage_taken"`](../../types/power_types/modify_damage_taken.md)
 [`ModifyExhaustionPower`](https://github.com/apace100/apoli/blob/master/src/main/java/io/github/apace100/apoli/power/ModifyExhaustionPower.java) | [`"modify_exhaustion"`](../../types/power_types/modify_exhaustion.md)
-[`ModifyExperiencePower`]https://github.com/apace100/apoli/blob/master/src/main/java/io/github/apace100/apoli/power/ModifyExperiencePower.java | [`"modify_xp_gain"`](../../types/power_types/modify_xp_gain.md)
+[`ModifyExperiencePower`](https://github.com/apace100/apoli/blob/master/src/main/java/io/github/apace100/apoli/power/ModifyExperiencePower.java) | [`"modify_xp_gain"`](../../types/power_types/modify_xp_gain.md)
 [`ModifyJumpPower`](https://github.com/apace100/apoli/blob/master/src/main/java/io/github/apace100/apoli/power/ModifyJumpPower.java) | [`"modify_jump"`](../../types/power_types/modify_jump.md)
 [`ModifyLavaSpeedPower`](https://github.com/apace100/apoli/blob/master/src/main/java/io/github/apace100/apoli/power/ModifyLavaSpeedPower.java) | [`"modify_lava_speed"`](../../types/power_types/modify_lava_speed.md)
 [`ModifyProjectileDamagePower`](https://github.com/apace100/apoli/blob/master/src/main/java/io/github/apace100/apoli/power/ModifyProjectileDamagePower.java) | [`modify_projectile_damage`](../../types/power_types/modify_projectile_damage.md)
