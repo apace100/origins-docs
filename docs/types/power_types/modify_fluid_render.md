@@ -11,6 +11,10 @@ Modifies how a fluid would look like to the player that has the power.
 
 Type ID: `origins:modify_fluid_render`
 
+!!! caution
+
+    Currently, this power type does not work properly if you have installed a mod that changes the rendering engine, such as Sodium.
+
 !!! note
 
     This power type does **not** support a `condition`. If the `condition` field is present, it will be ignored.
