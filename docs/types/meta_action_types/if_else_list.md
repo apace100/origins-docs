@@ -28,7 +28,7 @@ Type ID: `origins:if_else_list`
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`actions` | [Array](../data_types/array.md) of [Objects](../data_types/object.md) | | Each object has to have an `action` [Entity Action Type](../entity_action_types.md) object and a `condition` [Entity Condition](../entity_condition_types.md) object.
+`actions` | [Array](../data_types/array.md) of [Objects](../data_types/object.md) | | Each object has to have an `action` [Action Type](../action_types.md) object and a `condition` [Condition Type](../condition_types.md) object.
 
 
 ### Examples
