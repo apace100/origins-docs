@@ -11,6 +11,11 @@ Executes an action on the passengers of the entity.
 
 Type ID: `origins:passenger_action`
 
+!!! note
+
+    Not to be confused with [Riding Action](./riding_action.md)
+
+
 
 ### Fields
 
