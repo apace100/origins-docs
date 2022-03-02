@@ -13,11 +13,11 @@ Arrays are lists of other existing data types. They are enclosed by square brack
 ### Examples
 
 ```json
-"field_name": {
+"field_name": [
     "first",
     "second",
     "third"
-}
+]
 ```
 
 An array of [Strings](string.md).
