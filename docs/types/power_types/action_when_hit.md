@@ -27,17 +27,14 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "origins:action_when_hit",
-    "bientity_action": {
-        "type": "origins:actor_action",
-        "action": {
+        "type": "origins:action_when_hit",
+        "bientity_action": {
             "type": "origins:damage",
             "amount": 2,
             "source": {
                 "name": "thorns"
             }
         }
-    }
 }
 ```
 
