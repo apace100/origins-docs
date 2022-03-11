@@ -31,4 +31,4 @@ Field  | Type | Default | Description
 }
 ```
 
-This exampel will set the target entity on fire for 5 seconds.
+This example will set the target entity on fire for 5 seconds.
