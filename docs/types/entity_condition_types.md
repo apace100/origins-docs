@@ -70,6 +70,7 @@ Entity Condition Types operate on an Entity, which also allows access to the wor
 * [Submerged In](entity_condition_types/submerged_in.md)
 * [Swimming](entity_condition_types/swimming.md)
 * [Tamed](entity_condition_types/tamed.md)
+* [Time Of Day](entity_condition_types/time_of_day.md)
 * [Using Effective Tool](entity_condition_types/using_effective_tool.md)
 * [Using Item](entity_condition_types/using_item.md)
 * [XP Levels](entity_condition_types/xp_levels.md)
