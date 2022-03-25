@@ -14,7 +14,7 @@ Type ID: `origins:tooltip`
 !!! note
 
     The `text` and `texts` fields can accept [JSON text components](https://minecraft.fandom.com/wiki/Raw_JSON_text_format). However, JSON text components that needs to be resolved may **not work**.
-    
+
 
 ### Fields
 
@@ -40,4 +40,4 @@ Field | Type | Default | Description
 }
 ```
 
-This example will apply a "`Hmm, egg.`" tooltip to an Egg item.
+This example will apply a `"Hmm, egg."` tooltip to an Egg item.
