@@ -55,3 +55,23 @@ Field  | Type | Default | Description
 ```
 
 This example will prevent the entity from equipping any armor which is more powerful than chainmail.
+
+```json
+{
+    "type": "origins:restrict_armor",
+    "chest": {
+        "type": "origins:ingredient",
+        "ingredient": {
+            "item": "minecraft:turtle_helmet"
+        }
+    },
+    "chest": {
+        "type": "origins:ingredient",
+        "ingredient": {
+            "item": "minecraft:elytra"
+        }
+    }
+}
+```
+
+This example will prevent the entity from equipping a Turtle Shell or an Elytra.
