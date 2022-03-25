@@ -31,3 +31,4 @@ Field  | Type | Default | Description
 }
 ```
 
+This example will check if the attacker is a Zombie entity, with the [Entity Type (Entity Condition Type)](../entity_condition_types/entity_type.md)
