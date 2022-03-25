@@ -9,7 +9,7 @@ date: 2021-04-04
 
 Checks if a block underneath the entity's feet fulfills the specified [Block Condition Type](../block_condition_types.md).
 
-Type ID: `origins:on_block`
+Type ID: `apoli:on_block`
 
 
 ### Fields
@@ -23,7 +23,7 @@ Field  | Type | Default | Description
 
 ```json
 "condition": {
-    "type": "origins:on_block"
+    "type": "apoli:on_block"
 }
 ```
 
@@ -32,9 +32,9 @@ This example will check if the entity is currently on the ground.
 
 ```json
 "condition": {
-    "type": "origins:on_block",
+    "type": "apoli:on_block",
     "block_condition": {
-        "type": "origins:block",
+        "type": "apoli:block",
         "block": "minecraft:grass_block"
     }
 }

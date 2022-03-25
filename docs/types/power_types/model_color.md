@@ -9,7 +9,7 @@ date: 2021-04-08
 
 Multiplies the luminosity of the base color of the texture of the entity that has the power by the specified color values.
 
-Type ID: `origins:model_color`
+Type ID: `apoli:model_color`
 
 !!! caution
 
@@ -30,7 +30,7 @@ Field  | Type | Default | Description
 
 ```json
 {
-  	"type": "origins:model_color",
+  	"type": "apoli:model_color",
   	"red": 0.5,
   	"green": 0.5,
   	"alpha": 0.7

@@ -9,7 +9,7 @@ date: 2021-04-04
 
 Checks the current (and absolute) health value of the entity.
 
-Type ID: `origins:health`
+Type ID: `apoli:health`
 
 
 ### Fields
@@ -24,7 +24,7 @@ Field  | Type | Default | Description
 
 ```json
 "condition": {
-    "type": "origins:health",
+    "type": "apoli:health",
     "comparison": "<",
     "compare_to": 20
 }

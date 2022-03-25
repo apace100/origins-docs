@@ -9,7 +9,7 @@ date: 2021-04-08
 
 Provides a variable with an assignable minimum and maximum value that can be used as a timer, or other things.
 
-Type ID: `origins:resource`
+Type ID: `apoli:resource`
 
 !!! note
 
@@ -32,14 +32,14 @@ Field  | Type | Default | Description
 
 ```json
 {
-    "type": "origins:resource",
+    "type": "apoli:resource",
     "min": 0,
 	"max": 1,
 	"hud_render": {
 		"should_render": false
 	},
     "min_action": {
-        "type": "origins:heal",
+        "type": "apoli:heal",
         "amount": 6
     }
 }

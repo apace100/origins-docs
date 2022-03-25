@@ -9,7 +9,7 @@ date: 2021-07-13
 
 Applies a post-processing shader to the vision of the entity that has the power.
 
-Type ID: `origins:shader`
+Type ID: `apoli:shader`
 
 !!! note
 
@@ -28,7 +28,7 @@ Field  | Type | Default | Description
 
 ```json
 {
-  	"type": "origins:shader",
+  	"type": "apoli:shader",
   	"shader": "minecraft:shaders/post/pencil.json"
 }
 ```

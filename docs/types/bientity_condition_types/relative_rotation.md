@@ -9,25 +9,23 @@ date: 2021-12-04
 
 Compares the rotation angle of the 'actor' to the 'target'.
 
-Type ID: `origins:relative_rotation`
-
+Type ID: `apoli:relative_rotation`
 
 ### Fields
 
-Field | Type | Default | Description
-------|------|---------|------------
-`axes` | [Array](../data_types/array.md) of [Strings](../data_types/string.md) | `["x", "y", "z"]` | The axes to get the angle values to calculate, and compare to.
-`actor_rotation` | [String](../data_types/string.md) | `"head"` | Determines the initial point of the rotation for the actor. Accepts `"head"` or `"body"`.
-`target_rotation` | [String](../data_types/string.md) | `"body"` | Determines the initial point of the rotation for the target. Accepts `"head"` or `"body"`. 
-`comparison` | [Comparison](../data_types/comparison.md) | | Determines how the calculated angle value will be compared to the specified value.
-`compare_to` | [Float](../data_types/float.md) | | The value to compare the calculated angle value to.
-
+| Field             | Type                                                                  | Default           | Description                                                                                |
+| ----------------- | --------------------------------------------------------------------- | ----------------- | ------------------------------------------------------------------------------------------ |
+| `axes`            | [Array](../data_types/array.md) of [Strings](../data_types/string.md) | `["x", "y", "z"]` | The axes to get the angle values to calculate, and compare to.                             |
+| `actor_rotation`  | [String](../data_types/string.md)                                     | `"head"`          | Determines the initial point of the rotation for the actor. Accepts `"head"` or `"body"`.  |
+| `target_rotation` | [String](../data_types/string.md)                                     | `"body"`          | Determines the initial point of the rotation for the target. Accepts `"head"` or `"body"`. |
+| `comparison`      | [Comparison](../data_types/comparison.md)                             |                   | Determines how the calculated angle value will be compared to the specified value.         |
+| `compare_to`      | [Float](../data_types/float.md)                                       |                   | The value to compare the calculated angle value to.                                        |
 
 ### Examples
 
 ```json
 "bientity_condition": {
-    "type": "origins:relative_rotation",
+    "type": "apoli:relative_rotation",
     "actor_rotation": "head",
     "target_rotation": "body",
     "comparison": ">=",

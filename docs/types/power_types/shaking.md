@@ -9,7 +9,7 @@ date: 2021-04-10
 
 Makes the entity that has the power shake, similar to a Strider out of lava or a Zombie undergoing conversion.
 
-Type ID: `origins:shaking`
+Type ID: `apoli:shaking`
 
 
 ### Fields
@@ -21,9 +21,9 @@ _None._
 
 ```json
 {
-  	"type": "origins:shaking",
+  	"type": "apoli:shaking",
   	"condition": {
-    	"type": "origins:on_fire",
+    	"type": "apoli:on_fire",
       "inverted": true
   	}
 }

@@ -9,7 +9,7 @@ date: 2021-07-04
 
 Checks the brightness level at the entity's eyes, which ranges from 0 to 1.
 
-Type ID: `origins:brightness`
+Type ID: `apoli:brightness`
 
 !!! note
 
@@ -22,20 +22,18 @@ Type ID: `origins:brightness`
     Overworld brightness | 0.0 | 0.017543862 | 0.03703704 | 0.05882353 | 0.08333334 | 0.11111111 | 0.14285715 | 0.17948718 | 0.22222225 | 0.2727273 | 0.33333334 | 0.40740743 | 0.50000006 | 0.6190476 | 0.77777773 | 1.0
     Nether brightness | 0.1 | 0.11578947 | 0.13333334 | 0.15294118 | 0.17500001 | 0.2 | 0.22857144 | 0.26153848 | 0.3 | 0.34545457 | 0.4 | 0.4666667 | 0.5500001 | 0.6571428 | 0.79999995 | 1.0
 
-
 ### Fields
 
-Field  | Type | Default | Description
--------|------|---------|-------------
-`comparison` | [Comparison](../data_types/comparison.md) | | How to compare the brightness level against the specified value.
-`compare_to` | [Float](../data_types/float.md) | | The value to compare the brightness level to.
-
+| Field        | Type                                      | Default | Description                                                      |
+| ------------ | ----------------------------------------- | ------- | ---------------------------------------------------------------- |
+| `comparison` | [Comparison](../data_types/comparison.md) |         | How to compare the brightness level against the specified value. |
+| `compare_to` | [Float](../data_types/float.md)           |         | The value to compare the brightness level to.                    |
 
 ### Examples
 
 ```json
 "condition": {
-    "type": "origins:brightness",
+    "type": "apoli:brightness",
     "comparison": "<=",
     "compare_to": 0.5
 }

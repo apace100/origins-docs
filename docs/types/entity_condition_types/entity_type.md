@@ -9,7 +9,7 @@ date: 2021-04-04
 
 Checks whether the entity is of a specific entity type.
 
-Type ID: `origins:entity_type`
+Type ID: `apoli:entity_type`
 
 
 ### Fields
@@ -23,7 +23,7 @@ Field  | Type | Default | Description
 
 ```json
 "condition": {
-    "type": "origins:entity_type",
+    "type": "apoli:entity_type",
     "entity_type": "minecraft:creeper"
 }
 ```

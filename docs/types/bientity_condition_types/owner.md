@@ -9,18 +9,16 @@ date: 2021-10-08
 
 Checks whether the actor entity is the owner of the tamable target entity.
 
-Type ID: `origins:owner`
-
+Type ID: `apoli:owner`
 
 ### Fields
 
 _None._
 
-
 ### Examples
 
 ```json
 "bientity_condition": {
-    "type": "origins:owner"
+    "type": "apoli:owner"
 }
 ```

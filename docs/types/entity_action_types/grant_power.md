@@ -9,7 +9,7 @@ date: 2021-10-05
 
 Grants a power to the entity from a specified power source.
 
-Type ID: `origins:grant_power`
+Type ID: `apoli:grant_power`
 
 
 ### Fields
@@ -24,10 +24,10 @@ Field | Type | Default | Description
 
 ```json
 "entity_action": {
-    "type": "origins:grant_power",
-    "power": "origins:burn_in_daylight",
+    "type": "apoli:grant_power",
+    "power": "test:example_power",
     "source": "example:power_source"
 }
 ```
 
-This example will grant the entity the `origins:burn_in_daylight` power from the `example:power_source` source.
+This example will grant the entity the `test:example_power` power from the `example:power_source` source.

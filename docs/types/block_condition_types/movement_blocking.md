@@ -9,7 +9,7 @@ date: 2021-04-05
 
 Checks whether the block is marked in code as blocking movement and doesn't have an empty collision shape.
 
-Type ID: `origins:movement_blocking`
+Type ID: `apoli:movement_blocking`
 
 
 ### Fields
@@ -21,6 +21,6 @@ _None._
 
 ```json
 "block_condition": {
-    "type": "origins:movement_blocking"
+    "type": "apoli:movement_blocking"
 }
 ```

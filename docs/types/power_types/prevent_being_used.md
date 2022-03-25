@@ -9,7 +9,7 @@ date: 2021-10-06
 
 Prevents other players from being able to "use" (right-click) the entity that has the power and executes a bi-entity action, item action and/or give an item upon being prevented.
 
-Type ID: `origins:prevent_being_used`
+Type ID: `apoli:prevent_being_used`
 
 
 ### Fields
@@ -29,11 +29,11 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "origins:prevent_being_used",
+    "type": "apoli:prevent_being_used",
     "bientity_action": {
-        "type": "origins:actor_action",
+        "type": "apoli:actor_action",
         "action": {
-            "type": "origins:execute_command",
+            "type": "apoli:execute_command",
             "command": "title @s actionbar {\"text\": \"Entity cannot be interacted with!\", \"color\": \"red\"}"
         }
     }

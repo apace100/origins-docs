@@ -9,11 +9,11 @@ date: 2021-04-04
 
 Stores the result of the specified command, and compares the stored result to a specified value.
 
-Type ID: `origins:command`
+Type ID: `apoli:command`
 
 !!! caution
 
-    This condition is only effective server-side. That means client-side power types such as [`origins:climbing`](../power_types/climbing.md), [`origins:entity_glow`](../power_types/entity_glow.md), [`origins:shader`](../power_types/shader.md), etc. won't work with this.
+    This condition is only effective server-side. That means client-side power types such as [`apoli:climbing`](../power_types/climbing.md), [`apoli:entity_glow`](../power_types/entity_glow.md), [`apoli:shader`](../power_types/shader.md), etc. won't work with this.
 
 
 ### Fields
@@ -29,7 +29,7 @@ Field  | Type | Default | Description
 
 ```json
 "condition": {
-    "type": "origins:command",
+    "type": "apoli:command",
     "command": "execute if score @s objective1 = @s objective2",
     "comparison": "==",
     "compare_to": 1
@@ -40,7 +40,7 @@ This example will check if the entity has the same score in the `objective1` and
 
 ```json
 "condition": {
-    "type": "origins:command",
+    "type": "apoli:command",
     "command": "execute if entity @e[type = #minecraft:skeletons, distance = ..64]",
     "comparison": ">=",
     "compare_to": 4

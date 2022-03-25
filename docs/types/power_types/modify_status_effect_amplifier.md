@@ -9,7 +9,7 @@ date: 2021-12-04
 
 Modifies the amplifier of the specified status effect upon receiving the specified status effect.
 
-Type ID: `origins:modify_status_effect_amplifier`
+Type ID: `apoli:modify_status_effect_amplifier`
 
 
 ### Fields
@@ -24,7 +24,7 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "origins:modify_status_effect_amplifier",
+    "type": "apoli:modify_status_effect_amplifier",
     "status_effect": "minecraft:speed",
     "modifier": {
         "operation": "addition",

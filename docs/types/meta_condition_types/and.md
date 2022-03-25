@@ -9,7 +9,7 @@ date: 2021-04-07
 
 Checks whether all of the provided conditions are fulfilled.
 
-Type ID: `origins:and`
+Type ID: `apoli:and`
 
 
 ### Fields
@@ -23,13 +23,13 @@ Field  | Type | Default | Description
 
 ```json
 "condition": {
-    "type": "origins:and",
+    "type": "apoli:and",
     "conditions": [
         {
-            "type": "origins:daytime"
+            "type": "apoli:daytime"
         },
         {      
-            "type": "origins:invisible"
+            "type": "apoli:invisible"
         }
     ]
 }

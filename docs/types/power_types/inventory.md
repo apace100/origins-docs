@@ -9,7 +9,7 @@ date: 2021-04-08
 
 Provides an inventory with 9 slots that can be opened with the specified [Key](../data_types/key.md); may or may not persist on death.
 
-Type ID: `origins:inventory`
+Type ID: `apoli:inventory`
 
 
 ### Fields
@@ -26,10 +26,10 @@ Field  | Type | Default | Description
 
 ```json
 {
-  	"type": "origins:inventory",
+  	"type": "apoli:inventory",
   	"drop_on_death": true,
 	"drop_on_death_filter": {
-		"type": "origins:food",
+		"type": "apoli:food",
 		"inverted": true
 	}
 }

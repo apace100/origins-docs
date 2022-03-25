@@ -9,18 +9,16 @@ date: 2021-04-05
 
 Checks whether the biome counts as an area with high humidity.
 
-Type ID: `origins:high_humidity`
-
+Type ID: `apoli:high_humidity`
 
 ### Fields
 
 _None._
 
-
 ### Examples
 
 ```json
 "biome_condition": {
-    "type": "origins:high_humidity"
+	"type": "apoli:high_humidity"
 }
 ```

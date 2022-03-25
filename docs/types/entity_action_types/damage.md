@@ -9,7 +9,7 @@ date: 2021-04-05
 
 Applies damage to an entity.
 
-Type ID: `origins:damage`
+Type ID: `apoli:damage`
 
 
 ### Fields
@@ -24,7 +24,7 @@ Field  | Type | Default | Description
 
 ```json
 "entity_action": {
-    "type": "origins:damage",
+    "type": "apoli:damage",
     "amount": 4,
     "source": {
         "name": "onFire",

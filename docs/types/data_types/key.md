@@ -22,18 +22,18 @@ Field  | Type | Default | Description
 
 ```json
 "key": {
-    "key": "key.origins.secondary_active"
+	"key": "key.sprint"
 }
 ```
 
-This key will trigger each time the secondary active power key of Origins (by default unbound) is pressed.
+This key will trigger each time the Minecraft sprint keybind (Left Control by default) is pressed.
 <br>
 
 ```json
 "key": {
-    "key": "key.attack",
-    "continuous": true
+	"key": "key.attack",
+	"continuous": true
 }
 ```
 
-This key will trigger each tick while the Minecraft attack key (default: left mouse button) is held.
+This key will trigger each tick while the Minecraft attack keybind (Left Mouse Click by default) is held.

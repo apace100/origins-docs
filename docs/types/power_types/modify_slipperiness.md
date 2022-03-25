@@ -9,7 +9,7 @@ date: 2021-11-30
 
 Adjusts your friction, allowing you to emulate or counter the effects of ice blocks under certain conditions.
 
-Type ID: `origins:modify_slipperiness`
+Type ID: `apoli:modify_slipperiness`
 
 
 ### Fields
@@ -25,13 +25,13 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "origins:modify_slipperiness",
+    "type": "apoli:modify_slipperiness",
     "modifier": {
         "operation": "multiply_total",
         "value": 0.5
     },
     "block_condition": {
-        "type": "origins:block",
+        "type": "apoli:block",
         "block": "minecraft:dirt"
     }
 }

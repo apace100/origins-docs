@@ -9,18 +9,16 @@ date: 2021-04-04
 
 Checks whether there is no fluid in this state.
 
-Type ID: `origins:empty`
-
+Type ID: `apoli:empty`
 
 ### Fields
 
 _None._
 
-
 ### Examples
 
 ```json
 "fluid_condition": {
-    "type": "origins:empty"
+    "type": "apoli:empty"
 }
 ```

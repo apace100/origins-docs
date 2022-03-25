@@ -9,7 +9,7 @@ date: 2021-04-04
 
 Executes an [Entity Action Type](../entity_action_types.md) on the entity that has the power when the entity takes damage.
 
-Type ID: `origins:self_action_when_hit`
+Type ID: `apoli:self_action_when_hit`
 
 
 ### Fields
@@ -25,9 +25,9 @@ Field  | Type | Default | Description
 ### Examples
 ```json
 {
-	"type": "origins:self_action_when_hit",
+	"type": "apoli:self_action_when_hit",
 	"entity_action": {
-		"type": "origins:apply_effect",
+		"type": "apoli:apply_effect",
 		"effect": {
 		    "effect": "minecraft:regeneration",
       		"amplifier": 1,
@@ -35,7 +35,7 @@ Field  | Type | Default | Description
     	}
   	},
   	"damage_condition": {
-    	"type": "origins:amount",
+    	"type": "apoli:amount",
     	"comparison": ">=",
     	"compare_to": 6.0
   	},

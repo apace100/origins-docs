@@ -9,7 +9,7 @@ date: 2021-12-04
 
 Casts a ray to the direction where the entity is looking.
 
-Type ID: `origins:raycast`
+Type ID: `apoli:raycast`
 
 
 ### Fields
@@ -38,29 +38,29 @@ Field | Type | Default | Description
 
 ```json
 "entity_action": {
-    "type": "origins:raycast",
+    "type": "apoli:raycast",
     "distance": 16,
     "block": true,
     "entity": true,
     "shape_type": "visual",
     "fluid_handling": "any",
     "bientity_action": {
-        "type": "origins:target_action",
+        "type": "apoli:target_action",
         "action": {
-            "type": "origins:execute_command",
+            "type": "apoli:execute_command",
             "command": "say I've been hit!"
         }
     },
     "before_action": {
-        "type": "origins:execute_command",
+        "type": "apoli:execute_command",
         "command": "say Before"
     },
     "hit_action": {
-        "type": "origins:execute_command",
+        "type": "apoli:execute_command",
         "command": "say After (hit)"
     },
     "miss_action": {
-        "type": "origins:execute_command",
+        "type": "apoli:execute_command",
         "command": "say After (miss)"
     },
     "command_at_hit": "particle minecraft:block_marker minecraft:emerald_block ~ ~ ~ 0 0 0 0.0 1 normal @a",

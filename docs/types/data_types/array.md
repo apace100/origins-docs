@@ -9,7 +9,6 @@ date: 2021-04-04
 
 Arrays are lists of other existing data types. They are enclosed by square brackets and each element is separated from the next by a comma.
 
-
 ### Examples
 
 ```json
@@ -23,14 +22,13 @@ Arrays are lists of other existing data types. They are enclosed by square brack
 An array of [Strings](string.md).
 <br>
 
-
 ```json
 "conditions": [
     {
-        "type": "origins:on_fire"
+        "type": "apoli:on_fire"
     },
     {
-        "type": "origins:sprinting"
+        "type": "apoli:sprinting"
     }
 ]
 ```

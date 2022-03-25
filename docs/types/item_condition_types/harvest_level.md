@@ -9,7 +9,7 @@ date: 2021-04-05
 
 Checks whether the material of the item has a certain harvest level value. Refer to [this page on the Minecraft Wiki](https://minecraft.fandom.com/wiki/Tiers) for the harvest level of the materials (there it's called "mining level"). Items without a material are considered to have a harvest level of 0.
 
-Type ID: `origins:harvest_level`
+Type ID: `apoli:harvest_level`
 
 
 ### Fields
@@ -24,7 +24,7 @@ Field  | Type | Default | Description
 
 ```json
 "item_condition": {
-    "type": "origins:harvest_level",
+    "type": "apoli:harvest_level",
     "comparison": ">",
     "compare_to": 1
 }

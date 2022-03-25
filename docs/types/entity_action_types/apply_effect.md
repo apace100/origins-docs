@@ -9,7 +9,7 @@ date: 2021-04-05
 
 Adds one or more status effects to the living entity. Does not have an effect on non-living entities.
 
-Type ID: `origins:apply_effect`
+Type ID: `apoli:apply_effect`
 
 
 ### Fields
@@ -24,7 +24,7 @@ Field  | Type | Default | Description
 
 ```json
 "entity_action": {
-    "type": "origins:apply_effect",
+    "type": "apoli:apply_effect",
     "effect": {
         "effect": "minecraft:speed",
         "duration": 400,

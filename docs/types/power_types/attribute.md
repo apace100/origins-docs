@@ -9,7 +9,7 @@ date: 2021-04-07
 
 Applies one or more attribute modifiers.
 
-Type ID: `origins:attribute`
+Type ID: `apoli:attribute`
 
 !!! caution
 
@@ -33,7 +33,7 @@ Field  | Type | Default | Description
 
 ```json
 {
-	"type": "origins:attribute",
+	"type": "apoli:attribute",
 	"modifier": {
 		"name": "Max health increase",
 		"attribute": "minecraft:generic.max_health",

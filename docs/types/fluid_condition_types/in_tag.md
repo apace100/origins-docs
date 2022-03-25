@@ -9,7 +9,7 @@ date: 2021-04-04
 
 Checks whether the fluid is in a specified tag.
 
-Type ID: `origins:in_tag`
+Type ID: `apoli:in_tag`
 
 
 ### Fields
@@ -23,7 +23,7 @@ Field  | Type | Default | Description
 
 ```json
 "fluid_condition": {
-    "type": "origins:in_tag",
+    "type": "apoli:in_tag",
     "tag": "minecraft:water"
 }
 ```

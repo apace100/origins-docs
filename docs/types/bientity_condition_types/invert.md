@@ -9,23 +9,21 @@ date: 2021-10-07
 
 Swaps the context of the target entity and the actor entity.
 
-Type ID: `origins:invert`
-
+Type ID: `apoli:invert`
 
 ### Fields
 
-Field  | Type | Default | Description
--------|------|---------|-------------
-`condition` | [Bi-entity Condition Type](../bientity_condition_types.md) | | The bi-entity condition type to check which will have its 'target' and 'actor' contexts swapped.
-
+| Field       | Type                                                       | Default | Description                                                                                      |
+| ----------- | ---------------------------------------------------------- | ------- | ------------------------------------------------------------------------------------------------ |
+| `condition` | [Bi-entity Condition Type](../bientity_condition_types.md) |         | The bi-entity condition type to check which will have its 'target' and 'actor' contexts swapped. |
 
 ### Examples
 
 ```json
 "bientity_condition": {
-    "type": "origins:invert",
+    "type": "apoli:invert",
     "condition": {
-        "type": "origins:can_see"
+        "type": "apoli:can_see"
     }
 }
 ```

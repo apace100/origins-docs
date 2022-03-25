@@ -9,7 +9,7 @@ date: 2021-10-05
 
 Revokes a power from the entity from a specified power source.
 
-Type ID: `origins:revoke_power`
+Type ID: `apoli:revoke_power`
 
 
 ### Fields
@@ -24,10 +24,10 @@ Field | Type | Default | Description
 
 ```json
 "entity_action": {
-    "type": "origins:revoke_power",
-    "power": "origins:elytra",
-    "source": "origins:elytrian"
+    "type": "apoli:revoke_power",
+    "power": "test:example_power",
+    "source": "example:test"
 }
 ```
 
-This example will revoke the `origins:elytra` power that's from the `origins:elytrian` source from the entity.
+This example will revoke the `test:example_power` power that's from the `example:test` source from the entity.

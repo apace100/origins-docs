@@ -9,7 +9,7 @@ date: 2021-10-05
 
 Modifies how a fluid would look like to the player that has the power.
 
-Type ID: `origins:modify_fluid_render`
+Type ID: `apoli:modify_fluid_render`
 
 !!! caution
 
@@ -33,9 +33,9 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "origins:modify_fluid_render",
+    "type": "apoli:modify_fluid_render",
     "block_condition": {
-        "type": "origins:block",
+        "type": "apoli:block",
         "block": "minecraft:water"
     },
     "fluid": "minecraft:lava"

@@ -9,7 +9,7 @@ date: 2021-04-05
 
 Checks whether the block is in a specified tag.
 
-Type ID: `origins:in_tag`
+Type ID: `apoli:in_tag`
 
 
 ### Fields
@@ -23,7 +23,7 @@ Field  | Type | Default | Description
 
 ```json
 "block_condition": {
-    "type": "origins:in_tag",
+    "type": "apoli:in_tag",
     "tag": "minecraft:base_stone_overworld"
 }
 ```

@@ -9,7 +9,7 @@ date: 2021-04-04
 
 Checks whether the entity is currently invisible.
 
-Type ID: `origins:invisible`
+Type ID: `apoli:invisible`
 
 
 ### Fields
@@ -21,6 +21,6 @@ _None._
 
 ```json
 "condition": {
-    "type": "origins:invisible"
+    "type": "apoli:invisible"
 }
 ```

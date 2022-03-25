@@ -9,7 +9,7 @@ date: 2021-04-08
 
 Allows the entity that has the power to "phase" (move) through blocks.
 
-Type ID: `origins:phasing`
+Type ID: `apoli:phasing`
 
 
 ### Fields
@@ -27,26 +27,26 @@ Field  | Type | Default | Description
 
 ```json
 {
-  	"type": "origins:phasing",
+  	"type": "apoli:phasing",
   	"blacklist": true,
   	"render_type": "blindness",
   	"view_distance": 10,
   	"block_condition": {
-    	"type": "origins:in_tag",
-    	"tag": "origins:unphasable"
+    	"type": "apoli:in_tag",
+    	"tag": "test:phase_blacklist"
   	},
   	"phase_down_condition": {
-    	"type": "origins:and",
+    	"type": "apoli:and",
     	"conditions": [
       		{
-        		"type": "origins:sneaking"
+        		"type": "apoli:sneaking"
       		},
       		{
-        		"type": "origins:on_block"
+        		"type": "apoli:on_block"
       		}
     	]
   	}
 }
 ```
 
-This example will allow the player to phase through all blocks except for those in the `origins:unphasable` (`data/origins/tags/blocks/unphasable.json`) block tag. They can also phase down while sneaking, but will make a short stop at each block so they don't take fall damage.
+This example will allow the player to phase through all blocks except for those in the `test:phase_blacklist` (`data/test/tags/blocks/phase_blacklist.json`) block tag. They can also phase down while sneaking, but will make a short stop at each block so they don't take fall damage.

@@ -9,7 +9,7 @@ date: 2021-04-04
 
 Checks whether the entity is of a specific entity group.
 
-Type ID: `origins:entity_group`
+Type ID: `apoli:entity_group`
 
 !!! note
 
@@ -27,7 +27,7 @@ Field  | Type | Default | Description
 
 ```json
 "condition": {
-    "type": "origins:entity_group",
+    "type": "apoli:entity_group",
     "group": "undead"
 }
 ```

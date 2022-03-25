@@ -9,7 +9,7 @@ date: 2021-04-05
 
 Checks the fluid state of the current position with a [Fluid Condition Type](../fluid_condition_types.md).
 
-Type ID: `origins:fluid`
+Type ID: `apoli:fluid`
 
 
 ### Fields
@@ -23,9 +23,9 @@ Field  | Type | Default | Description
 
 ```json
 "block_condition": {
-    "type": "origins:fluid",
+    "type": "apoli:fluid",
     "fluid_condition": {
-        "type": "origins:still"
+        "type": "apoli:still"
     }
 }
 ```

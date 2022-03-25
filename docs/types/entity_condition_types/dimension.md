@@ -9,7 +9,7 @@ date: 2021-04-04
 
 Checks whether the entity is in a specified dimension.
 
-Type ID: `origins:dimension`
+Type ID: `apoli:dimension`
 
 
 ### Fields
@@ -23,7 +23,7 @@ Field  | Type | Default | Description
 
 ```json
 "condition": {
-    "type": "origins:dimension",
+    "type": "apoli:dimension",
     "dimension": "minecraft:overworld",
     "inverted": true
 }

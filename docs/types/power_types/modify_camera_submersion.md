@@ -9,7 +9,7 @@ date: 2021-10-03
 
 Modifies how the player perceives the world, similarly to when they're submerged in fluids like water or lava.
 
-Type ID: `origins:modify_camera_submersion`
+Type ID: `apoli:modify_camera_submersion`
 
 
 ### Fields
@@ -24,7 +24,7 @@ Field | Type | Default | Description
 
 ```json
 {
-  "type": "origins:modify_camera_submersion",
+  "type": "apoli:modify_camera_submersion",
   "from": "none",
   "to": "water"
 }

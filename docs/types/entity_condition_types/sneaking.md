@@ -9,7 +9,7 @@ date: 2021-04-04
 
 Checks whether the entity is currently sneaking.
 
-Type ID: `origins:sneaking`
+Type ID: `apoli:sneaking`
 
 !!! note
 
@@ -25,6 +25,6 @@ _None._
 
 ```json
 "condition": {
-    "type": "origins:sneaking"
+    "type": "apoli:sneaking"
 }
 ```

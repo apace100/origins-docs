@@ -9,7 +9,7 @@ date: 2021-04-08
 
 Allows the player to swim (outside of water!).
 
-Type ID: `origins:swimming`
+Type ID: `apoli:swimming`
 
 
 ### Fields
@@ -22,9 +22,9 @@ _None._
 
 ```json
 {
-    "type": "origins:swimming",
+    "type": "apoli:swimming",
     "condition": {
-        "type": "origins:on_block"
+        "type": "apoli:on_block"
     }
 }
 ```

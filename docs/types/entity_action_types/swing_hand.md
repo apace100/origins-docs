@@ -9,7 +9,7 @@ date: 2021-11-30
 
 Swings the specified hand.
 
-Type ID: `origins:swing_hand`
+Type ID: `apoli:swing_hand`
 
 !!! note
 
@@ -28,7 +28,7 @@ Field  | Type | Default | Description
 
 ```json
 "entity_action": {
-    "type": "origins:swing_hand",
+    "type": "apoli:swing_hand",
     "hand": "OFF_HAND"
 }
 ```

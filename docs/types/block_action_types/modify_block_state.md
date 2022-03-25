@@ -9,7 +9,7 @@ date: 2021-11-30
 
 Modifies the block state property of the block.
 
-Type ID: `origins:modify_block_state`
+Type ID: `apoli:modify_block_state`
 
 
 ### Fields
@@ -28,7 +28,7 @@ Field | Type | Default | Description
 
 ```json
 "block_action": {
-	"type": "origins:modify_block_state",
+	"type": "apoli:modify_block_state",
 	"property": "facing",
 	"cycle": true
 }

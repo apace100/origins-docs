@@ -9,7 +9,7 @@ date: 2021-10-07
 
 Checks whether the actor entity is directly riding the target entity.
 
-Type ID: `origins:passenger`
+Type ID: `apoli:passenger`
 
 
 ### Fields
@@ -25,11 +25,11 @@ Field | Type | Default | Description
 
 ```json
 "condition": {
-    "type": "origins:passenger",
+    "type": "apoli:passenger",
     "bientity_condition": {
-        "type": "origins:actor_condition",
+        "type": "apoli:actor_condition",
         "condition": {
-            "type": "origins:entity_type",
+            "type": "apoli:entity_type",
             "entity_type": "minecraft:player"
         }
     }

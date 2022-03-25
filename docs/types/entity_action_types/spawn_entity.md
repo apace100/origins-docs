@@ -9,7 +9,7 @@ date: 2021-04-05
 
 Spawns another entity at the position of the target entity.
 
-Type ID: `origins:spawn_entity`
+Type ID: `apoli:spawn_entity`
 
 
 ### Fields
@@ -25,7 +25,7 @@ Field  | Type | Default | Description
 
 ```json
 "entity_action": {
-    "type": "origins:spawn_entity",
+    "type": "apoli:spawn_entity",
     "entity_type": "minecraft:zombie",
     "tag": "{NoAI:1b,IsBaby:1,HandItems:[{id:\"minecraft:gold_block\",Count:1},{}]}"
 }

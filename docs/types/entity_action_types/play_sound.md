@@ -9,7 +9,7 @@ date: 2021-04-05
 
 Plays a sound event at the entity's position. Currently only works on player entities.
 
-Type ID: `origins:play_sound`
+Type ID: `apoli:play_sound`
 
 
 ### Fields
@@ -25,7 +25,7 @@ Field  | Type | Default | Description
 ### Examples
 ```json
 "entity_action": {
-    "type": "origins:play_sound",
+    "type": "apoli:play_sound",
     "sound": "minecraft:entity.chicken.egg"
 }
 ```

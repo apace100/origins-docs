@@ -9,7 +9,7 @@ date: 2021-10-06
 
 Executes a [Bi-entity Action Type](../bientity_action_types.md) if the entity that has the power has been hit by another entity.
 
-Type ID: `origins:action_when_hit`
+Type ID: `apoli:action_when_hit`
 
 
 ### Fields
@@ -27,14 +27,14 @@ Field | Type | Default | Description
 
 ```json
 {
-        "type": "origins:action_when_hit",
-        "bientity_action": {
-            "type": "origins:damage",
-            "amount": 2,
-            "source": {
-                "name": "thorns"
-            }
-        }
+	"type": "apoli:action_when_hit",
+	"bientity_action": {
+		"type": "apoli:damage",
+		"amount": 2,
+		"source": {
+			"name": "thorns"
+		}
+	}
 }
 ```
 

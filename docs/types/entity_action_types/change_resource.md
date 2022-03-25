@@ -9,7 +9,7 @@ date: 2021-04-05
 
 Changes the value of a power that either uses the [Resource](../power_types/resource.md) power type, or has a built-in cooldown.
 
-Type ID: `origins:change_resource`
+Type ID: `apoli:change_resource`
 
 
 ### Fields
@@ -25,10 +25,10 @@ Field  | Type | Default | Description
 
 ```json
 "entity_action": {
-    "type": "origins:change_resource",
-    "resource": "namespace:example",
+    "type": "apoli:change_resource",
+    "resource": "test:example_resource",
     "change": 1
 }
 ```
 
-This example will add 1 to the `namespace:example` (`data/namespace/powers/example.json`) power that uses the [Resource (Power Type)](../power_types/resource.md).
+This example will add 1 to the `test:example_resource` (`data/test/powers/example_resource.json`) power that uses the [Resource (Power Type)](../power_types/resource.md).

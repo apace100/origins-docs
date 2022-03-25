@@ -9,25 +9,20 @@ date: 2021-04-05
 
 Checks for the precipitation type of the biome the entity is currently in.
 
-Type ID: `origins:precipitation`
-
+Type ID: `apoli:precipitation`
 
 ### Fields
 
-Field  | Type | Default | Description
--------|------|---------|-------------
-`precipitation` | [String](../data_types/string.md) | |  Which precipitation the biome has to have in order to succeed the check. One of `none`, `rain` and `snow`.
-
+| Field           | Type                              | Default | Description                                                                                                |
+| --------------- | --------------------------------- | ------- | ---------------------------------------------------------------------------------------------------------- |
+| `precipitation` | [String](../data_types/string.md) |         | Which precipitation the biome has to have in order to succeed the check. One of `none`, `rain` and `snow`. |
 
 ### Examples
 
 ```json
-"condition": {
-    "type": "origins:biome",
-    "condition": {
-        "type": "origins:precipitation",
-        "precipitation": "snow"
-    }
+"biome_condition": {
+	"type": "apoli:precipitation",
+	"precipitation": "snow"
 }
 ```
 

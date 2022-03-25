@@ -9,7 +9,7 @@ date: 2021-04-04
 
 Modifies how fast the player that has the power can break blocks.
 
-Type ID: `origins:modify_break_speed`
+Type ID: `apoli:modify_break_speed`
 
 
 ### Fields
@@ -25,9 +25,9 @@ Field  | Type | Default | Description
 
 ```json
 {
-	"type": "origins:modify_break_speed",
+	"type": "apoli:modify_break_speed",
 	"block_condition": {
-		"type": "origins:block",
+		"type": "apoli:block",
 		"block": "minecraft:netherrack"
 	},
 	"modifier": {

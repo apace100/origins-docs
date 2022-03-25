@@ -9,7 +9,7 @@ date: 2021-04-06
 
 Gives the entity an item stack by inserting it into its inventory or dropping it on the ground if there is no available inventory space.
 
-Type ID: `origins:give`
+Type ID: `apoli:give`
 
 
 ### Fields
@@ -25,7 +25,7 @@ Field  | Type | Default | Description
 
 ```json
 "entity_action": {
-  	"type": "origins:give",
+  	"type": "apoli:give",
   	"stack": {
 	  "item": "minecraft:egg",
 	  "amount": 3
@@ -38,16 +38,16 @@ This example gives the entity 3 Eggs.
 
 ```json
 "entity_action": {
-    "type": "origins:give",
-    "stack": {
-        "item": "minecraft:iron_axe"
-    },
-    "item_action": {
-        "type": "origins:damage",
-        "amount": 20,
-        "ignore_unbreaking": true
-    },
-    "preferred_slot": "offhand"
+	"type": "apoli:give",
+	"stack": {
+		"item": "minecraft:iron_axe"
+	},
+	"item_action": {
+		"type": "apoli:damage",
+		"amount": 20,
+		"ignore_unbreaking": true
+	},
+	"preferred_slot": "offhand"
 }
 ```
 

@@ -9,7 +9,7 @@ date: 2021-12-09
 
 Checks if the block is classified as the specified material.
 
-Type ID: `origins:material`
+Type ID: `apoli:material`
 
 
 ### Fields
@@ -24,7 +24,7 @@ Field | Type | Default | Description
 
 ```json
 "block_condition": {
-    "type": "origins:material",
+    "type": "apoli:material",
     "material": "wood"
 }
 ```

@@ -9,7 +9,7 @@ date: 2021-04-05
 
 Checks the provided [Block Condition Type](../block_condition_types.md) at a position offset from the current position.
 
-Type ID: `origins:offset`
+Type ID: `apoli:offset`
 
 
 ### Fields
@@ -26,9 +26,9 @@ Field  | Type | Default | Description
 
 ```json
 "block_condition": {
-    "type": "origins:offset",
+    "type": "apoli:offset",
     "condition": {
-        "type": "origins:block",
+        "type": "apoli:block",
         "block": "minecraft:grass_block"
     },
     "y": 1

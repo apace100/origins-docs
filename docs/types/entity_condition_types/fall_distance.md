@@ -9,7 +9,7 @@ date: 2021-04-04
 
 Checks how much blocks the entity has been falling.
 
-Type ID: `origins:fall_distance`
+Type ID: `apoli:fall_distance`
 
 !!! note
 
@@ -28,7 +28,7 @@ Field  | Type | Default | Description
 
 ```json
 "condition": {
-    "type": "origins:fall_distance",
+    "type": "apoli:fall_distance",
     "comparison": ">=",
     "compare_to": 4
 }

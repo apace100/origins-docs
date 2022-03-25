@@ -9,7 +9,7 @@ date: 2021-04-04
 
 Checks whether the entity's eyes are in a fluid that is included in the specified fluid tag.
 
-Type ID: `origins:submerged_in`
+Type ID: `apoli:submerged_in`
 
 
 ### Fields
@@ -23,7 +23,7 @@ Field  | Type | Default | Description
 
 ```json
 "condition": {
-    "type": "origins:submerged_in",
+    "type": "apoli:submerged_in",
     "fluid": "minecraft:water"
 }
 ```

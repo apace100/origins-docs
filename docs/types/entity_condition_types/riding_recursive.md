@@ -9,7 +9,7 @@ date: 2021-10-07
 
 Checks whether any of the entities in the riding chain (starting from the actor entity) is the target entity.
 
-Type ID: `origins:riding_recursive`
+Type ID: `apoli:riding_recursive`
 
 
 ### Fields
@@ -25,11 +25,11 @@ Field | Type | Default | Description
 
 ```json
 "condition": {
-    "type": "origins:riding_recursive",
+    "type": "apoli:riding_recursive",
     "bientity_condition": {
-        "type": "origins:target_condition",
+        "type": "apoli:target_condition",
         "condition": {
-            "type": "origins:entity_type",
+            "type": "apoli:entity_type",
             "entity_type": "minecraft:strider"
         },
         "comparison": ">=",

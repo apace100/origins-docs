@@ -9,25 +9,22 @@ date: 2021-04-03
 
 Does nothing.
 
-Type ID: `origins:simple`
+Type ID: `apoli:simple`
 
 !!! note
 
     This power type can be used by <u>**addon**</u> developers by creating a new `PowerTypeReference` to provide functionality.
 
-
 ### Fields
 
 _None._
-
-
 
 ### Examples
 
 ```json
 {
-    "type": "origins:simple"
+	"type": "apoli:simple"
 }
 ```
 
-This example will do nothing. However, it's still visible in the origin's power list GUI.
+This example will do nothing.

@@ -9,7 +9,7 @@ date: 2021-04-04
 
 Checks whether the damage source is from an entity.
 
-Type ID: `origins:attacker`
+Type ID: `apoli:attacker`
 
 
 ### Fields
@@ -23,9 +23,9 @@ Field  | Type | Default | Description
 
 ```json
 "damage_condition": {
-    "type": "origins:attacker",
+    "type": "apoli:attacker",
     "entity_condition": {
-        "type": "origins:entity_type",
+        "type": "apoli:entity_type",
         "entity_type": "minecraft:zombie"
     }
 }

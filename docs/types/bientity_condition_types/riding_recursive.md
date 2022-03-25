@@ -7,20 +7,18 @@ date: 2021-10-08
 
 [Bi-entity Condition Type](../bientity_condition_types.md)
 
-Checks if the actor entity is riding the target entity, regardless of where the target entity is in the riding chain. 
+Checks if the actor entity is riding the target entity, regardless of where the target entity is in the riding chain.
 
-Type ID: `origins:riding_recursive`
-
+Type ID: `apoli:riding_recursive`
 
 ### Fields
 
 _None._
 
-
 ### Examples
 
 ```json
 "bientity_condition": {
-	"type": "origins:riding_recursive"
+	"type": "apoli:riding_recursive"
 }
 ```

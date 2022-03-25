@@ -9,7 +9,7 @@ date: 2021-04-04
 
 Executes an [Entity Action Type](../entity_action_types.md) on the entity that has the power upon pressing the specified [Key](../data_types/key.md).
 
-Type ID: `origins:active_self`
+Type ID: `apoli:active_self`
 
 
 ### Fields
@@ -19,24 +19,24 @@ Field  | Type | Default | Description
 `entity_action` | [Entity Action Type](../entity_action_types.md) | | The action to execute on the player.
 `cooldown` | [Integer](../data_types/integer.md) | `1` | Interval of ticks this power needs to recharge before the power can be triggered again.
 `hud_render` | [Hud Render](../data_types/hud_render.md) | `{"should_render": false}` | Determines how the cooldown of this power is visualized on the HUD.
-`key` | [Key](../data_types/key.md) | `{"key": "key.origins.primary_active"}` | Which active key this power should respond to.
+`key` | [Key](../data_types/key.md) | `{"key": "none"}` | Which active key this power should respond to.
 
 
 ### Examples
 
 ```json
 {
-	"type": "origins:active_self",
+	"type": "apoli:active_self",
 	"entity_action": {
-		"type": "origins:if_else",
+		"type": "apoli:if_else",
 		"condition": {
-	    	"type": "origins:on_fire"
+	    	"type": "apoli:on_fire"
     	},
     	"if_action": {
-    		"type": "origins:extinguish"
+    		"type": "apoli:extinguish"
     	},
     	"else_action": {
-    		"type": "origins:set_on_fire",
+    		"type": "apoli:set_on_fire",
     		"duration": 8
     	}
   	},
@@ -52,20 +52,20 @@ This example will set the player on fire for 8 seconds, or extinguish themselves
 
 ```json
 {
-	"type": "origins:active_self",
+	"type": "apoli:active_self",
 	"entity_action": {
-		"type": "origins:and",
+		"type": "apoli:and",
 		"actions": [
 			{
-				"type": "origins:equipped_item_action",
+				"type": "apoli:equipped_item_action",
 				"equipment_slot": "mainhand",
 				"action": {
-					"type": "origins:consume",
+					"type": "apoli:consume",
 					"amount": 1
 				}
 			},
 			{
-				"type": "origins:apply_effect",
+				"type": "apoli:apply_effect",
 				"effect": {
 					"effect": "minecraft:speed",
 					"duration": 100,
@@ -86,10 +86,10 @@ This example will set the player on fire for 8 seconds, or extinguish themselves
 		"continuous": true
 	},
 	"condition": {
-		"type": "origins:equipped_item",
+		"type": "apoli:equipped_item",
 		"equipment_slot": "mainhand",
 		"item_condition": {
-			"type": "origins:ingredient",
+			"type": "apoli:ingredient",
 			"ingredient": {
 				"item": "minecraft:sugar"
 			}

@@ -9,7 +9,7 @@ date: 2021-04-04
 
 Executes an [Entity Action Type](../entity_action_types.md) on the entity that has the power when the entity hits another entity.
 
-Type ID: `origins:self_action_on_hit`
+Type ID: `apoli:self_action_on_hit`
 
 
 ### Fields
@@ -27,13 +27,13 @@ Field  | Type | Default | Description
 
 ```json
 {
-  	"type": "origins:self_action_on_hit",
+  	"type": "apoli:self_action_on_hit",
   	"entity_action": {
-    	"type": "origins:heal",
+    	"type": "apoli:heal",
     	"amount": 8.0
   	},
   	"damage_condition": {
-    	"type": "origins:amount",
+    	"type": "apoli:amount",
     	"comparison": ">=",
     	"compare_to": 10.0
   	},

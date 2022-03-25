@@ -9,7 +9,7 @@ date: 2021-04-07
 
 Prevents the selection (i.e. targetting) of blocks for a player. This means they are not able to mine them, and attacks, interactions, etc. will pass through the block to whatever's behind it.
 
-Type ID: `origins:prevent_block_selection`
+Type ID: `apoli:prevent_block_selection`
 
 
 ### Fields
@@ -23,16 +23,16 @@ Field  | Type | Default | Description
 
 ```json
 {
-    "type": "origins:prevent_block_selection",
+    "type": "apoli:prevent_block_selection",
     "block_condition": {
-      "type": "origins:in_tag",
-      "tag": "origins:cobwebs"
+      "type": "apoli:block",
+      "block": "minecraft:cobweb"
     },
     "condition": {
-      "type": "origins:sneaking",
+      "type": "apoli:sneaking",
       "inverted": true
     }
 }
 ```
 
-This example will prevent the selection of cobwebs (including the Temporary Cobweb block from the Arachnid's power), allowing the player to punch through them, unless they sneak.
+This example will prevent the selection of cobweb blocks, allowing the player to punch through them, unless they sneak.

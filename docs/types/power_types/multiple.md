@@ -9,11 +9,11 @@ date: 2021-04-07
 
 Allows for defining more that one power in a single file.
 
-Type ID: `origins:multiple`
+Type ID: `apoli:multiple`
 
 !!! note
 
-    The sub-powers are hidden by default. When the super-power (where the `origins:multiple` power type is in) is added to the entity, all sub-powers are added automatically.
+    The sub-powers are hidden by default. When the super-power (where the `apoli:multiple` power type is in) is added to the entity, all sub-powers are added automatically.
 
 !!! caution
 
@@ -29,19 +29,19 @@ Arbitrary fields. Any "key" is considered a sub-power, and takes a fully-defined
 
 ```json
 {
-    "type": "origins:multiple",
+    "type": "apoli:multiple",
     "toggle": {
-        "type": "origins:toggle",
+        "type": "apoli:toggle",
         "active_by_default": false,
         "key": {
-            "key": "key.origins.secondary_active"
+            "key": "key.swapOffhand"
         }
     },
     "invisibility": {
-        "type": "origins:invisibility",
+        "type": "apoli:invisibility",
         "render_armor": false,
         "condition": {
-            "type": "origins:power_active",
+            "type": "apoli:power_active",
             "power": "*:*_toggle"
         }
     }

@@ -9,7 +9,7 @@ date: 2021-04-05
 
 Extinguishes the fire from the entity, removing the burning effect.
 
-Type ID: `origins:extinguish`
+Type ID: `apoli:extinguish`
 
 
 ### Fields
@@ -21,6 +21,6 @@ _None._
 
 ```json
 "entity_action": {
-    "type": "origins:extinguish"
+    "type": "apoli:extinguish"
 }
 ```

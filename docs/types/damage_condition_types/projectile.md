@@ -9,7 +9,7 @@ date: 2021-04-04
 
 Checks whether the damage source was projectile damage, and optionally the type of projectile it was (if specified).
 
-Type ID: `origins:projectile`
+Type ID: `apoli:projectile`
 
 
 ### Fields
@@ -23,7 +23,7 @@ Field  | Type | Default | Description
 
 ```json
 "damage_condition": {
-    "type": "origins:projectile",
+    "type": "apoli:projectile",
     "projectile": "minecraft:spectral_arrow"
 }
 ```

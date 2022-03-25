@@ -9,7 +9,7 @@ date: 2021-04-04
 
 Checks the current experience level of the entity.
 
-Type ID: `origins:xp_levels`
+Type ID: `apoli:xp_levels`
 
 !!! note
 
@@ -28,7 +28,7 @@ Field  | Type | Default | Description
 
 ```json
 "condition": {
-    "type": "origins:xp_levels",
+    "type": "apoli:xp_levels",
     "comparison": "<=",
     "compare_to": 5
 }
