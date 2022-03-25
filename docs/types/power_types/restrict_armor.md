@@ -54,7 +54,7 @@ Field  | Type | Default | Description
 }
 ```
 
-This example will prevent the entity from equipping any armor which is more powerful than chainmail.
+This example will prevent the entity from equipping any armor which has more defense than chainmail.
 
 ```json
 {
