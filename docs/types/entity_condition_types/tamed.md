@@ -7,7 +7,7 @@ date: 2021-04-06
 
 [Entity Condition Type](../entity_condition_types.md)
 
-Checks whether a tamable entity is tamed. Will return false if the entity is not tamable.
+Checks whether a tamable entity is tamed. Will always return false if the entity is not tamable.
 
 Type ID: `origins:tamed`
 
