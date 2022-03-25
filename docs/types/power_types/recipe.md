@@ -42,4 +42,4 @@ Field  | Type | Default | Description
 }
 ```
 
-This example will allow the player that has the power to craft Cobwebs by combining two strings in a crafting grid.
+This example will allow the player that has the power to craft Cobwebs by combining two strings in a crafting grid with no specific order.
