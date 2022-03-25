@@ -9,18 +9,16 @@ date: 2021-04-05
 
 Checks whether the block is waterloggable, meaning that there can be fluid in the same block space (e.g. stairs).
 
-Type ID: `origins:water_loggable`
-
+Type ID: `apoli:water_loggable`
 
 ### Fields
 
 _None._
 
-
 ### Examples
 
 ```json
 "block_condition": {
-    "type": "origins:water_loggable"
+    "type": "apoli:water_loggable"
 }
 ```

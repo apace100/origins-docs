@@ -9,7 +9,7 @@ date: 2021-10-02
 
 Checks the item's NBT.
 
-Type ID: `origins:nbt`
+Type ID: `apoli:nbt`
 
 
 ### Fields
@@ -23,7 +23,7 @@ Field | Type | Default | Description
 
 ```json
 "item_condition": {
-    "type": "origins:nbt",
+    "type": "apoli:nbt",
     "nbt": "{exampleCustomTag: 1b}"
 }
 ```

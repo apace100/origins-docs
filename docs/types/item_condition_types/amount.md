@@ -9,7 +9,7 @@ date: 2021-10-02
 
 Checks the amount of the item.
 
-Type ID: `origins:amount`
+Type ID: `apoli:amount`
 
 
 ### Fields
@@ -24,7 +24,7 @@ Field | Type | Default | Description
 
 ```json
 "item_condition": {
-    "type": "origins:amount",
+    "type": "apoli:amount",
     "comparison": ">=",
     "compare_to": 10
 }

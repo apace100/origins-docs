@@ -9,7 +9,7 @@ date: 2021-07-04
 
 Restricts the entity that has the power from equipping items as armor (via right-click, dispensing or by dragging and dropping the item in the equipment slot(s)) in the specified equipment slot(s); may depend on a `condition`.
 
-Type ID: `origins:conditioned_restrict_armor`
+Type ID: `apoli:conditioned_restrict_armor`
 
 !!! note
 
@@ -31,31 +31,31 @@ Field  | Type | Default | Description
 
 ```json
 {
-  	"type": "origins:conditioned_restrict_armor",
+  	"type": "apoli:conditioned_restrict_armor",
   	"head": {
-    	"type": "origins:armor_value",
+    	"type": "apoli:armor_value",
     	"comparison": ">",
     	"compare_to": 2
   	},
   	"chest": {
-    	"type": "origins:armor_value",
+    	"type": "apoli:armor_value",
     	"comparison": ">",
     	"compare_to": 5
   	},
   	"legs": {
-    	"type": "origins:armor_value",
+    	"type": "apoli:armor_value",
     	"comparison": ">",
     	"compare_to": 4
   	},
   	"feet": {
-    	"type": "origins:armor_value",
+    	"type": "apoli:armor_value",
     	"comparison": ">",
     	"compare_to": 1
 	},
 	"condition": {
-		"type": "origins:in_block",
+		"type": "apoli:in_block",
 		"block_condition": {
-			"type": "origins:light_level",
+			"type": "apoli:light_level",
 			"comparison": ">",
 			"compare_to": 6
 		}

@@ -9,7 +9,7 @@ date: 2021-04-04
 
 Checks whether the entity has a specified status effect with a specified amplifier, and/or duration range.
 
-Type ID: `origins:status_effect`
+Type ID: `apoli:status_effect`
 
 
 ### Fields
@@ -27,7 +27,7 @@ Field  | Type | Default | Description
 
 ```json
 "condition": {
-    "type": "origins:status_effect",
+    "type": "apoli:status_effect",
     "effect": "minecraft:speed",
     "min_amplifier": 1
 }

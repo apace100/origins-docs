@@ -9,7 +9,7 @@ date: 2021-04-08
 
 Launches the entity that has the power upwards upon pressing the specified [Key](../data_types/key.md).
 
-Type ID: `origins:launch`
+Type ID: `apoli:launch`
 
 
 ### Fields
@@ -27,7 +27,7 @@ Field  | Type | Default | Description
 
 ```json
 {
-  	"type": "origins:launch",
+  	"type": "apoli:launch",
   	"cooldown": 600,
   	"hud_render": {
     	"bar_index": 4
@@ -35,7 +35,7 @@ Field  | Type | Default | Description
   	"sound": "minecraft:entity.parrot.fly",
   	"speed": 2,
   	"key": {
-    	"key": "key.origins.primary_active",
+    	"key": "key.jump",
     	"continuous": true
   	}
 }

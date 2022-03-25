@@ -9,7 +9,7 @@ date: 2021-04-04
 
 Checks whether the entity is currently exposed to the sky, meaning that the sky is currently visible in the entity's position.
 
-Type ID: `origins:exposed_to_sky`
+Type ID: `apoli:exposed_to_sky`
 
 
 ### Fields
@@ -21,6 +21,6 @@ _None._
 
 ```json
 "condition": {
-    "type": "origins:exposed_to_sky"
+    "type": "apoli:exposed_to_sky"
 }
 ```

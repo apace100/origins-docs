@@ -9,7 +9,7 @@ date: 2021-10-06
 
 Prevents the player that has the power from "using" (right-clicking) an entity and executes a bi-entity action, item action and/or give an item upon being prevented.
 
-Type ID: `origins:prevent_entity_use`
+Type ID: `apoli:prevent_entity_use`
 
 
 ### Fields
@@ -29,18 +29,18 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "origins:prevent_entity_use",
+    "type": "apoli:prevent_entity_use",
     "bientity_action": {
-        "type": "origins:actor_action",
+        "type": "apoli:actor_action",
         "action": {
-            "type": "origins:execute_command",
+            "type": "apoli:execute_command",
             "command": "title @s actionbar {\"text\": \"Cannot interact with pigs!\", \"color\": \"red\"}"
         }
     },
     "bientity_condition": {
-        "type": "origins:target_condition",
+        "type": "apoli:target_condition",
         "condition": {
-            "type": "origins:entity_type",
+            "type": "apoli:entity_type",
             "entity_type": "minecraft:pig"
         }
     }

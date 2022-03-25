@@ -14,7 +14,7 @@ A whole number (integer number), like 3 or -1. Numbers such as 0.3 or 5.5 are no
 
 ```json
 {	
-	"type":"origins:set_on_fire",
+	"type":"apoli:set_on_fire",
 	"duration": 3
 }
 ```

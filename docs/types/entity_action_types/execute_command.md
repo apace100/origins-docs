@@ -9,7 +9,7 @@ date: 2021-04-05
 
 Executes a command with the entity as the source (i.e. `@s` will select the entity itself).
 
-Type ID: `origins:execute_command`
+Type ID: `apoli:execute_command`
 
 
 ### Fields
@@ -23,7 +23,7 @@ Field  | Type | Default | Description
 
 ```json
 "entity_action": {
-    "type": "origins:execute_command",
+    "type": "apoli:execute_command",
     "command": "tellraw @a {\"text\": \"Hello world!\", \"color\": \"green\"}"
 }
 ```

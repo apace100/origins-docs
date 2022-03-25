@@ -9,7 +9,7 @@ date: 2021-10-03
 
 Prevents specified game event(s) from being emitted by the entity that has the power.
 
-Type ID: `origins:prevent_game_event`
+Type ID: `apoli:prevent_game_event`
 
 
 ### Fields
@@ -26,10 +26,10 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "origins:prevent_game_event",
+    "type": "apoli:prevent_game_event",
     "event": "minecraft:hit_ground",
     "entity_action": {
-        "type": "origins:execute_command",
+        "type": "apoli:execute_command",
         "command": "say donk"
     }
 }

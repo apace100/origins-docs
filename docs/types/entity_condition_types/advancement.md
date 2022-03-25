@@ -9,7 +9,7 @@ date: 2021-04-06
 
 Checks whether the entity has completed a specified advancement.
 
-Type ID: `origins:advancement`
+Type ID: `apoli:advancement`
 
 !!! note
 
@@ -27,7 +27,7 @@ Field  | Type | Default | Description
 
 ```json
 "condition": {
-    "type": "origins:advancement",
+    "type": "apoli:advancement",
     "advancement": "minecraft:story/smelt_iron"
 }
 ```

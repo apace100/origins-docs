@@ -9,11 +9,11 @@ date: 2021-10-02
 
 Checks the entity's NBT.
 
-Type ID: `origins:nbt`
+Type ID: `apoli:nbt`
 
 !!! caution
 
-    This condition is only effective server-side. That means client-side power types such as [`origins:climbing`](../power_types/climbing.md), [`origins:entity_glow`](../power_types/entity_glow.md), [`origins:shader`](../power_types/shader.md), etc. won't work with this.    
+    This condition is only effective server-side. That means client-side power types such as [`apoli:climbing`](../power_types/climbing.md), [`apoli:entity_glow`](../power_types/entity_glow.md), [`apoli:shader`](../power_types/shader.md), etc. won't work with this.    
 
 
 ### Fields
@@ -27,7 +27,7 @@ Field | Type | Default | Description
 
 ```json
 "condition": {
-    "type": "origins:nbt",
+    "type": "apoli:nbt",
     "nbt": "{Tags: ['example_tag']}"
 }
 ```

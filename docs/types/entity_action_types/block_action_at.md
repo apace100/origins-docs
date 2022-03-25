@@ -9,7 +9,7 @@ date: 2021-04-05
 
 Executes a [Block Action Type](../block_action_types.md) at the position of the entity.
 
-Type ID: `origins:block_action_at`
+Type ID: `apoli:block_action_at`
 
 
 ### Fields
@@ -23,9 +23,9 @@ Field  | Type | Default | Description
 
 ```json
 "entity_action": {
-    "type": "origins:block_action_at",
+    "type": "apoli:block_action_at",
     "block_action": {
-        "type": "origins:set_block",
+        "type": "apoli:set_block",
         "block": "minecraft:sand"
     }
 }

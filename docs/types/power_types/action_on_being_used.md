@@ -9,7 +9,7 @@ date: 2021-10-06
 
 Executes a [Bi-entity Action Type](../bientity_action_types.md) or [Item Action Types](../item_action_types.md) when a player "uses" (right-clicks) the entity that has the power.
 
-Type ID: `origins:action_on_being_used`
+Type ID: `apoli:action_on_being_used`
 
 
 ### Fields
@@ -30,14 +30,14 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "origins:action_on_being_used",
+    "type": "apoli:action_on_being_used",
     "bientity_action": {
-        "type": "origins:mount"
+        "type": "apoli:mount"
     },
     "bientity_condition": {
-        "type": "origins:target_condition",
+        "type": "apoli:target_condition",
         "condition": {
-            "type": "origins:passenger",
+            "type": "apoli:passenger",
             "inverted": true
         }
     }

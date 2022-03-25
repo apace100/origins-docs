@@ -9,7 +9,7 @@ date: 2021-04-04
 
 Checks how high a specific fluid is at the entity. A fluid height of 0 means the entity is not touching the fluid.
 
-Type ID: `origins:fluid_height`
+Type ID: `apoli:fluid_height`
 
 
 ### Fields
@@ -25,7 +25,7 @@ Field  | Type | Default | Description
 
 ```json
 "condition": {
-    "type": "origins:fluid_height",
+    "type": "apoli:fluid_height",
     "fluid": "minecraft:lava",
     "comparison": "==",
     "compare_to": 0

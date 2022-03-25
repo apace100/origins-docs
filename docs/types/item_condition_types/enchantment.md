@@ -9,7 +9,7 @@ date: 2021-04-05
 
 Checks the level of a certain enchantment on the item.
 
-Type ID: `origins:enchantment`
+Type ID: `apoli:enchantment`
 
 
 ### Fields
@@ -25,7 +25,7 @@ Field  | Type | Default | Description
 
 ```json
 "item_condition": {
-    "type": "origins:enchantment",
+    "type": "apoli:enchantment",
     "enchantment": "minecraft:fortune",
     "comparison": "==",
     "compare_to": 3

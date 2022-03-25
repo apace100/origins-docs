@@ -9,7 +9,7 @@ date: 2021-04-05
 
 Spawns an area effect cloud (as from a lingering potion) at the position of the entity.
 
-Type ID: `origins:spawn_effect_cloud`
+Type ID: `apoli:spawn_effect_cloud`
 
 
 ### Fields
@@ -27,7 +27,7 @@ Field  | Type | Default | Description
 
 ```json
 "entity_action": {
-    "type": "origins:spawn_effect_cloud",
+    "type": "apoli:spawn_effect_cloud",
     "radius": 10.0,
     "wait_time": 40,
     "effect": {

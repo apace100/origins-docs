@@ -9,7 +9,7 @@ date: 2021-04-04
 
 Executes an [Entity Action Type](../entity_action_types.md) or a [Block Action Type](../block_action_types.md) when the player breaks a block.
 
-Type ID: `origins:action_on_block_break`
+Type ID: `apoli:action_on_block_break`
 
 
 ### Fields
@@ -27,25 +27,25 @@ Field  | Type | Default | Description
 
 ```json
 {
-    "type": "origins:action_on_block_break",
-    "entity_action": {
-        "type": "origins:damage",
-        "amount": 2.0,
-        "source": {
-            "name": "onFire",
-            "bypasses_armor": true,
-            "fire": true
-        }
-    },
-    "block_action": {
-        "type": "origins:set_block",
-        "block": "minecraft:lava"
-    },
-    "block_condition": {
-        "type": "origins:block",
-        "block": "minecraft:magma_block"
-    },
-    "only_when_harvested": false
+	"type": "apoli:action_on_block_break",
+	"entity_action": {
+		"type": "apoli:damage",
+		"amount": 2.0,
+		"source": {
+			"name": "onFire",
+			"bypasses_armor": true,
+			"fire": true
+		}
+	},
+	"block_action": {
+		"type": "apoli:set_block",
+		"block": "minecraft:lava"
+	},
+	"block_condition": {
+		"type": "apoli:block",
+		"block": "minecraft:magma_block"
+	},
+	"only_when_harvested": false
 }
 ```
 

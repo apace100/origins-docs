@@ -9,7 +9,7 @@ date: 2021-11-03
 
 Adds or sets velocity towards a specific direction.
 
-Type ID: `origins:add_velocity`
+Type ID: `apoli:add_velocity`
 
 !!! note
 
@@ -34,7 +34,7 @@ Field  | Type | Default | Description
 
 ```json
 "entity_action": {
-    "type": "origins:add_velocity",
+    "type": "apoli:add_velocity",
     "y": 2
 }
 ```

@@ -9,7 +9,7 @@ date: 2021-10-06
 
 Executes an [Entity Action Type](../entity_action_types.md) on the entity that has the power if the entity has taken damage.
 
-Type ID: `origins:action_when_damage_taken`
+Type ID: `apoli:action_when_damage_taken`
 
 
 ### Fields
@@ -26,13 +26,13 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "origins:action_when_damage_taken",
+    "type": "apoli:action_when_damage_taken",
     "entity_action": {
-        "type": "origins:execute_command",
+        "type": "apoli:execute_command",
         "command": "say ow! i'm burning!"
     },
     "damage_condition": {
-        "type": "origins:fire"
+        "type": "apoli:fire"
     },
     "cooldown": 1
 }

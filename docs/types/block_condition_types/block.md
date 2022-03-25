@@ -9,21 +9,19 @@ date: 2021-04-05
 
 Checks whether the block is a certain block (by ID).
 
-Type ID: `origins:block`
-
+Type ID: `apoli:block`
 
 ### Fields
 
-Field  | Type | Default | Description
--------|------|---------|-------------
-`block` | [Identifier](../data_types/identifier.md) | | The namespace and ID of the block that this block needs to be to pass the check.
-
+| Field   | Type                                      | Default | Description                                                                      |
+| ------- | ----------------------------------------- | ------- | -------------------------------------------------------------------------------- |
+| `block` | [Identifier](../data_types/identifier.md) |         | The namespace and ID of the block that this block needs to be to pass the check. |
 
 ### Examples
 
 ```json
 "block_condition": {
-    "type": "origins:block",
+    "type": "apoli:block",
     "block": "minecraft:diamond_block"
 }
 ```
@@ -33,14 +31,14 @@ This example checks if the block is a Diamond Block.
 
 ```json
 "block_condition": {
-    "type": "origins:or",
+    "type": "apoli:or",
     "conditions": [
         {
-            "type": "origins:block",
+            "type": "apoli:block",
             "block": "minecraft:diamond_block"
         },
         {
-            "type": "origins:block",
+            "type": "apoli:block",
             "block": "minecraft:emerald_block"
         }
     ]

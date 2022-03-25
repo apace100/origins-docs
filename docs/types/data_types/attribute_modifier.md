@@ -9,15 +9,13 @@ date: 2021-04-04
 
 An [Object](object.md) used to specify how an attribute should be modified.
 
-
 ### Fields
 
-Field  | Type | Default | Description
--------|------|---------|-------------
-`operation` | [Modifier Operation](modifier_operation.md) | | The operation which will be performed by this modifier.
-`value` | [Float](float.md) | | The value with which to apply the operation to the value.
-`name` | [String](string.md) | _optional_ | A descriptive name for the modifier, describing where it comes from.
-
+| Field       | Type                                        | Default    | Description                                                          |
+| ----------- | ------------------------------------------- | ---------- | -------------------------------------------------------------------- |
+| `operation` | [Modifier Operation](modifier_operation.md) |            | The operation which will be performed by this modifier.              |
+| `value`     | [Float](float.md)                           |            | The value with which to apply the operation to the value.            |
+| `name`      | [String](string.md)                         | _optional_ | A descriptive name for the modifier, describing where it comes from. |
 
 ### Examples
 

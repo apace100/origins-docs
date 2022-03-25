@@ -9,7 +9,7 @@ date: 2021-04-04
 
 Removes a provided amount of items from the item stack.
 
-Type ID: `origins:consume`
+Type ID: `apoli:consume`
 
 
 ### Fields
@@ -24,7 +24,7 @@ Field  | Type | Default | Description
 
 ```json
 "item_action": {
-    "type": "origins:consume",
+    "type": "apoli:consume",
     "amount": 1
 }
 ```

@@ -9,7 +9,7 @@ date: 2021-10-06
 
 Executes an action on the passengers of the entity.
 
-Type ID: `origins:passenger_action`
+Type ID: `apoli:passenger_action`
 
 !!! note
 
@@ -31,9 +31,9 @@ Field | Type | Default | Description
 
 ```json
 "entity_action": {
-    "type": "origins:passenger_action",
+    "type": "apoli:passenger_action",
     "action": {
-        "type": "origins:heal",
+        "type": "apoli:heal",
         "amount": 2
     },
     "recursive": true

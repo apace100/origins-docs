@@ -9,7 +9,7 @@ date: 2021-12-10
 
 Compares the distance of the entity's current position to the specified coordinates.
 
-Type ID: `origins:distance_from_coordinates`
+Type ID: `apoli:distance_from_coordinates`
 
 
 ### Fields
@@ -33,7 +33,7 @@ Field | Type | Default | Description
 
 ```json
 "condition": {
-    "type": "origins:distance_from_coordinates",
+    "type": "apoli:distance_from_coordinates",
     "offset": {
         "x": 256,
         "y": 64,
@@ -50,7 +50,7 @@ This example will check if the entity is within an 8 blocks radius relative to t
 
 ```json
 "condition": {
-    "type": "origins:distance_from_coordinates",
+    "type": "apoli:distance_from_coordinates",
     "reference": "world_spawn",
     "shape": "cube",
     "ignore_y": true,

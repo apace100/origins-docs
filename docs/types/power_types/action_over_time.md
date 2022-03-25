@@ -9,7 +9,7 @@ date: 2021-04-10
 
 Executes an [Entity Action Type](../entity_action_types.md) on the entity that has the power within the specified interval.
 
-Type ID: `origins:action_over_time`
+Type ID: `apoli:action_over_time`
 
 
 ### Fields
@@ -26,14 +26,14 @@ Field  | Type | Default | Description
 
 ```json
 {
-  	"type": "origins:action_over_time",
+  	"type": "apoli:action_over_time",
   	"entity_action": {
-    	"type": "origins:set_on_fire",
+    	"type": "apoli:set_on_fire",
     	"duration": 4
   	},
   	"interval": 20,
   	"condition": {
-    	"type": "origins:on_fire"
+    	"type": "apoli:on_fire"
   	}
 }
 ```

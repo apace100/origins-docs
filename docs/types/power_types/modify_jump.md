@@ -9,7 +9,7 @@ date: 2021-04-06
 
 Modifies how high the entity that has the power can jump.
 
-Type ID: `origins:modify_jump`
+Type ID: `apoli:modify_jump`
 
 
 ### Fields
@@ -26,13 +26,13 @@ Field  | Type | Default | Description
 
 ```json
 {
-    "type": "origins:modify_jump",
+    "type": "apoli:modify_jump",
     "modifier": {
         "operation": "addition",
         "value": 0.4
     },
     "entity_action": {
-        "type": "origins:execute_command",
+        "type": "apoli:execute_command",
         "command": "particle cloud ~ ~ ~ 0.3 0.3 0.3 0.01 16 normal @a"
     }
 }

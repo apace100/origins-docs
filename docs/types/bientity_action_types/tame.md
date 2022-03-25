@@ -9,18 +9,16 @@ date: 2021-10-07
 
 Tames the target entity with the actor entity as the owner. Only works on tameable entities such as wolves or cats.
 
-Type ID: `origins:tame`
-
+Type ID: `apoli:tame`
 
 ### Fields
 
 _None._
 
-
 ### Examples
 
 ```json
 "bientity_action": {
-    "type": "origins:tame"
+    "type": "apoli:tame"
 }
 ```

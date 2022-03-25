@@ -9,7 +9,7 @@ date: 2021-12-04
 
 Modifies the duration of the specified status effect upon receiving the specified status effect.
 
-Type ID: `origins:modify_status_effect_duration`
+Type ID: `apoli:modify_status_effect_duration`
 
 
 ### Fields
@@ -24,7 +24,7 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "origins:modify_status_effect_duration",
+    "type": "apoli:modify_status_effect_duration",
     "status_effect": "minecraft:speed",
     "modifier": {
         "operation": "multiply_total",

@@ -9,7 +9,7 @@ date: 2021-04-05
 
 Applies exhaustion to the entity, reducing saturation and hunger.
 
-Type ID: `origins:exhaust`
+Type ID: `apoli:exhaust`
 
 !!! note
 
@@ -27,7 +27,7 @@ Field  | Type | Default | Description
 
 ```json
 "entity_action": {
-    "type": "origins:exhaust",
+    "type": "apoli:exhaust",
     "amount": 0.4
 }
 ```

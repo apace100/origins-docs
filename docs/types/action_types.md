@@ -5,7 +5,7 @@ date: 2021-04-06
 
 # Action Types
 
-Action types are, along-side [Condition Types](condition_types.md), Origins' way of specifying complex behavior from within data packs. They were introduced in version 0.4.1.
+Action types are, along-side [Condition Types](condition_types.md), Apoli's way of specifying complex behavior from within data packs.
 
 They are grouped by the type of object they act on, such as entities, blocks or items.
 

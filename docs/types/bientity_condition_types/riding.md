@@ -9,18 +9,16 @@ date: 2021-10-08
 
 Checks if the actor entity is currently riding the target entity.
 
-Type ID: `origins:riding`
-
+Type ID: `apoli:riding`
 
 ### Fields
 
 _None._
 
-
 ### Examples
 
 ```json
 "bientity_condition": {
-	"type": "origins:riding"
+	"type": "apoli:riding"
 }
 ```

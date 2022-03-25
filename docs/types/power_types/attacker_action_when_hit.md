@@ -9,7 +9,7 @@ date: 2021-04-03
 
 Executes an entity action on the attacker entity when the entity that has the power is hit by another entity.
 
-Type ID: `origins:attacker_action_when_hit`
+Type ID: `apoli:attacker_action_when_hit`
 
 
 ### Fields
@@ -26,9 +26,9 @@ Field  | Type | Default | Description
 
 ```json
 {
-  "type": "origins:attacker_action_when_hit",
+  "type": "apoli:attacker_action_when_hit",
   "entity_action": {
-    "type": "origins:add_velocity",
+    "type": "apoli:add_velocity",
     "y": 2
   },
   "cooldown": 20

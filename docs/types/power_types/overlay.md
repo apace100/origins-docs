@@ -9,7 +9,7 @@ date: 2021-10-02
 
 Applies an overlay to the player's screen.
 
-Type ID: `origins:overlay`
+Type ID: `apoli:overlay`
 
 
 ### Fields
@@ -31,7 +31,7 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "origins:overlay",
+    "type": "apoli:overlay",
     "texture": "minecraft:textures/block/ice.png",
     "strength": 1.0,
     "red": 1.0,

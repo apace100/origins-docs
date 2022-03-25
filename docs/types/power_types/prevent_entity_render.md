@@ -9,7 +9,7 @@ date: 2021-04-07
 
 Prevents an entity from being rendered to the entity that has the power, including their armor, shadow, and hitboxes.
 
-Type ID: `origins:prevent_entity_render`
+Type ID: `apoli:prevent_entity_render`
 
 
 ### Fields
@@ -24,13 +24,13 @@ Field  | Type | Default | Description
 
 ```json
 {
-    "type": "origins:prevent_entity_render",
+    "type": "apoli:prevent_entity_render",
     "entity_condition": {
-		"type": "origins:entity_type",
+		"type": "apoli:entity_type",
 		"entity_type": "minecraft:creeper"
 	},
 	"condition": {
-		"type": "origins:daytime"
+		"type": "apoli:daytime"
 	}
 }
 ```
@@ -40,26 +40,26 @@ This example will make creepers invisible for the player that has the power duri
 
 ```json
 {
-    "type": "origins:prevent_entity_render",
+    "type": "apoli:prevent_entity_render",
     "bientity_condition": {
-        "type": "origins:and",
+        "type": "apoli:and",
         "conditions": [
             {
-                "type": "origins:distance",
+                "type": "apoli:distance",
                 "comparison": ">",
                 "compare_to": 8
             },
             {
-                "type": "origins:target_condition",
+                "type": "apoli:target_condition",
                 "condition": {
-                    "type": "origins:entity_group",
+                    "type": "apoli:entity_group",
                     "group": "aquatic"
                 }
             }
         ]
     },
     "condition": {
-        "type": "origins:submerged_in",
+        "type": "apoli:submerged_in",
         "fluid": "minecraft:water"
     }
 }

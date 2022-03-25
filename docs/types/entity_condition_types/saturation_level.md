@@ -9,7 +9,7 @@ date: 2021-04-04
 
 Checks the entity's saturation level, which is the invisible value that determines how "full" the entity is, which then determines how long it takes before the hunger level of the entity will go down.
 
-Type ID: `origins:saturation_level`
+Type ID: `apoli:saturation_level`
 
 !!! note
 
@@ -28,7 +28,7 @@ Field  | Type | Default | Description
 
 ```json
 "condition": {
-    "type": "origins:saturation_level",
+    "type": "apoli:saturation_level",
     "comparison": "==",
     "compare_to": 0
 }

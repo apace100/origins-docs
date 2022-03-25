@@ -9,7 +9,7 @@ date: 2021-04-06
 
 Starts the cooldown of a power that uses a [Power Type](../power_types.md) that has a built-in cooldown, as if that power has just been used.
 
-Type ID: `origins:trigger_cooldown`
+Type ID: `apoli:trigger_cooldown`
 
 !!! note
 
@@ -40,9 +40,9 @@ Field  | Type | Default | Description
 
 ```json
 "entity_action": {
-  	"type": "origins:trigger_cooldown",
-  	"power": "origins:launch_into_air"
+  	"type": "apoli:trigger_cooldown",
+  	"power": "test:timer"
 }
 ```
 
-This example will trigger the cooldown of the 'Gift of the Winds' (`origins:launch_into_air` (`data/origins/powers/launch_into_air.json`)) power as if the entity had used that ability.
+This example will trigger the cooldown of the `test:timer` (`data/test/powers/timer.json`) power as if the entity had used that ability.

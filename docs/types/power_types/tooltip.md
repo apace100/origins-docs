@@ -9,7 +9,7 @@ date: 2021-10-05
 
 Applies the specified tooltip(s) to an item that is only visible to the entity that has the power.
 
-Type ID: `origins:tooltip`
+Type ID: `:tooltip`
 
 !!! note
 
@@ -29,9 +29,9 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "origins:tooltip",
+    "type": "apoli:tooltip",
     "item_condition": {
-        "type": "origins:ingredient",
+        "type": "apoli:ingredient",
         "ingredient": {
             "item": "minecraft:egg"
         }

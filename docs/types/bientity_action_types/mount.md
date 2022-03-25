@@ -9,18 +9,16 @@ date: 2021-10-07
 
 Mounts the actor entity onto the target entity.
 
-Type ID: `origins:mount`
-
+Type ID: `apoli:mount`
 
 ### Fields
 
 _None._
 
-
 ### Examples
 
 ```json
 "bientity_action": {
-    "type": "origins:mount"
+    "type": "apoli:mount"
 }
 ```

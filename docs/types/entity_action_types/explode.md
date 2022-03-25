@@ -9,7 +9,7 @@ date: 2021-10-02
 
 Summons an explosion at the position of the entity.
 
-Type ID: `origins:explode`
+Type ID: `apoli:explode`
 
 
 ### Fields
@@ -28,7 +28,7 @@ Field | Type | Default | Description
 
 ```json
 "entity_action": {
-    "type": "origins:explode",
+    "type": "apoli:explode",
     "power": 5,
     "destruction_type": "none",
     "damage_self": false,

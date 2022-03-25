@@ -9,7 +9,7 @@ date: 2021-04-04
 
 Checks whether this state describes a still (i.e. not flowing, i.e. source) fluid.
 
-Type ID: `origins:still`
+Type ID: `apoli:still`
 
 
 ### Fields
@@ -21,6 +21,6 @@ _None._
 
 ```json
 "fluid_condition": {
-    "type": "origins:still"
+    "type": "apoli:still"
 }
 ```

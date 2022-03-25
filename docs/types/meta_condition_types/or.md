@@ -9,7 +9,7 @@ date: 2021-04-07
 
 Checks whether any (one or more) of the provided conditions are fulfilled.
 
-Type ID: `origins:or`
+Type ID: `apoli:or`
 
 
 ### Fields
@@ -23,14 +23,14 @@ Field  | Type | Default | Description
 
 ```json
 "condition": {
-    "type": "origins:or",
+    "type": "apoli:or",
     "conditions": [
         {
-            "type": "origins:status_effect",
+            "type": "apoli:status_effect",
             "effect": "minecraft:poison"
         },
         {    
-            "type": "origins:status_effect",
+            "type": "apoli:status_effect",
             "effect": "minecraft:wither"
         }
     ]

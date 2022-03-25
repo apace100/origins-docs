@@ -9,23 +9,21 @@ date: 2021-10-07
 
 Executes an [Entity Action Type](../entity_action_types.md) on the target entity.
 
-Type ID: `origins:target_action`
-
+Type ID: `apoli:target_action`
 
 ### Fields
 
-Field  | Type | Default | Description
--------|------|---------|-------------
-`action` | [Entity Action Type](../entity_action_types.md) | | The entity action type to execute on the target entity.
-
+| Field    | Type                                            | Default | Description                                             |
+| -------- | ----------------------------------------------- | ------- | ------------------------------------------------------- |
+| `action` | [Entity Action Type](../entity_action_types.md) |         | The entity action type to execute on the target entity. |
 
 ### Examples
 
 ```json
 "bientity_action": {
-    "type": "origins:target_action",
+    "type": "apoli:target_action",
     "action": {
-        "type": "origins:set_on_fire",
+        "type": "apoli:set_on_fire",
         "duration": 5
     }
 }

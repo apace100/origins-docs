@@ -9,7 +9,7 @@ date: 2021-04-08
 
 Applies exhaustion to the player over time.
 
-Type ID: `origins:exhaust`
+Type ID: `apoli:exhaust`
 
 
 ### Fields
@@ -24,11 +24,11 @@ Field  | Type | Default | Description
 
 ```json
 {
-  	"type": "origins:exhaust",
+  	"type": "apoli:exhaust",
   	"interval": 20,
   	"exhaustion": 4.0,
 	"condition": {
-		"type": "origins:fluid_height",
+		"type": "apoli:fluid_height",
 		"fluid": "minecraft:water",
 		"comparison": ">",
 		"compare_to": 0.0

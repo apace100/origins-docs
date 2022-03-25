@@ -9,7 +9,7 @@ date: 2021-10-02
 
 Checks the NBT of the block entity.
 
-Type ID: `origins:nbt`
+Type ID: `apoli:nbt`
 
 
 ### Fields
@@ -23,14 +23,14 @@ Field | Type | Default | Description
 
 ```json
 "block_condition": {
-    "type": "origins:and",
+    "type": "apoli:and",
     "conditions": [
         {
-            "type": "origins:block",
+            "type": "apoli:block",
             "block": "minecraft:beacon"
         },
         {
-            "type": "origins:nbt",
+            "type": "apoli:nbt",
             "nbt": "{Levels: 1}"
         }
     ]

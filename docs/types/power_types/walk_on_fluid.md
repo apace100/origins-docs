@@ -9,7 +9,7 @@ date: 2021-04-08
 
 Allows the entity that has the power to walk on fluid.
 
-Type ID: `origins:walk_on_fluid`
+Type ID: `apoli:walk_on_fluid`
 
 !!! note
 
@@ -27,10 +27,10 @@ Field  | Type | Default | Description
 
 ```json
 {
-  	"type": "origins:walk_on_fluid",
+  	"type": "apoli:walk_on_fluid",
   	"fluid": "minecraft:lava",
   	"condition": {
-    	"type": "origins:fluid_height",
+    	"type": "apoli:fluid_height",
     	"fluid": "minecraft:lava",
     	"comparison": "<=",
     	"compare_to": 0.4

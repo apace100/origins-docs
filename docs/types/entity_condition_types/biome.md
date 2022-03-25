@@ -9,7 +9,7 @@ date: 2021-04-04
 
 Checks whether the entity is in a specified biome.
 
-Type ID: `origins:biome`
+Type ID: `apoli:biome`
 
 
 ### Fields
@@ -25,7 +25,7 @@ Field  | Type | Default | Description
 
 ```json
 "condition": {
-    "type": "origins:biome",
+    "type": "apoli:biome",
     "biome": "minecraft:plains"
 }
 ```
@@ -35,9 +35,9 @@ This example will check if the entity is currently in a Plains biome.
 
 ```json
 "condition": {
-    "type": "origins:biome",
+    "type": "apoli:biome",
     "condition": {
-        "type": "origins:category",
+        "type": "apoli:category",
         "category": "forest"
     }
 }

@@ -9,7 +9,7 @@ date: 2021-04-05
 
 Sets the entity on fire for the specified amount of time in seconds.
 
-Type ID: `origins:set_on_fire`
+Type ID: `apoli:set_on_fire`
 
 
 ### Fields
@@ -23,7 +23,7 @@ Field  | Type | Default | Description
 
 ```json
 "entity_action": {
-    "type": "origins:set_on_fire",
+    "type": "apoli:set_on_fire",
     "duration": 5
 }
 ```

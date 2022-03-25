@@ -9,7 +9,7 @@ date: 2021-04-04
 
 Checks whether there is a specified number of blocks that fulfills the specified [Block Condition Type](../block_condition_types.md) within a specified radius relative to the entity's feet.
 
-Type ID: `origins:block_in_radius`
+Type ID: `apoli:block_in_radius`
 
 
 ### Fields
@@ -27,10 +27,10 @@ Field  | Type | Default | Description
 
 ```json
 "condition": {
-    "type": "origins:block_in_radius",
+    "type": "apoli:block_in_radius",
     "block_condition": {
-        "type": "origins:in_tag",
-        "tag": "origins:natural_stone"
+        "type": "apoli:in_tag",
+        "tag": "minecraft:base_stone_overworld"
     },
     "radius": 1,
     "shape": "cube",
@@ -39,4 +39,4 @@ Field  | Type | Default | Description
 }
 ```
 
-This example will check if 4 or more blocks that is included in the [`origins:natural_stone`](https://github.com/apace100/origins-fabric/blob/master/src/main/resources/data/origins/tags/blocks/natural_stone.json) (`data/origins/tags/blocks/natural_stone.json`) block tag is within a 1 block radius relative from the entity.
+This example will check if 4 or more blocks that is included in the `minecraft:base_stone_overworld` (`data/minecraft/tags/blocks/base_stone_overworld.json`) block tag is within a 1 block radius relative from the entity.

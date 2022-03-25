@@ -9,23 +9,21 @@ date: 2021-10-07
 
 Checks for an entity condition on either the actor or the target entities.
 
-Type ID: `origins:either`
-
+Type ID: `apoli:either`
 
 ### Fields
 
-Field | Type | Default | Description
-------|------|---------|-------------
-`condition` | [Entity Condition Type](../entity_condition_types.md) | | The entity condition type to check on either actor or target entities.
-
+| Field       | Type                                                  | Default | Description                                                            |
+| ----------- | ----------------------------------------------------- | ------- | ---------------------------------------------------------------------- |
+| `condition` | [Entity Condition Type](../entity_condition_types.md) |         | The entity condition type to check on either actor or target entities. |
 
 ### Examples
 
 ```json
 "bientity_condition": {
-    "type": "origins:either",
+    "type": "apoli:either",
     "condition": {
-        "type": "origins:in_rain"
+        "type": "apoli:in_rain"
     }
 }
 ```

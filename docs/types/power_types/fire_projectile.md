@@ -9,7 +9,7 @@ date: 2021-10-02
 
 Fires one or more projectiles upon pressing the specified [Key](../data_types/key.md).
 
-Type ID: `origins:fire_projectile`
+Type ID: `apoli:fire_projectile`
 
 
 ### Fields
@@ -33,7 +33,7 @@ Field  | Type | Default | Description
 
 ```json
 {
-  	"type": "origins:fire_projectile",
+  	"type": "apoli:fire_projectile",
 	"entity_type": "minecraft:arrow",
   	"cooldown": 2,
 	"hud_render": {
@@ -52,7 +52,7 @@ This example will let the player fire arrows very rapidly by holding the left mo
 
 ```json
 {
-    "type": "origins:fire_projectile",
+    "type": "apoli:fire_projectile",
     "entity_type": "minecraft:snowball",
     "cooldown": 100,
     "hud_render": {

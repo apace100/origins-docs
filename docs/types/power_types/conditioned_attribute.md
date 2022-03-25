@@ -9,7 +9,7 @@ date: 2021-04-07
 
 Applies one or more attribute modifiers; may depend on a `condition`.
 
-Type ID: `origins:conditioned_attribute`
+Type ID: `apoli:conditioned_attribute`
 
 !!! note
 
@@ -35,7 +35,7 @@ Field  | Type | Default | Description
 
 ```json
 {
-    "type": "origins:conditioned_attribute",
+    "type": "apoli:conditioned_attribute",
     "modifier": {
         "attribute": "minecraft:generic.movement_speed",
         "operation": "addition",
@@ -44,7 +44,7 @@ Field  | Type | Default | Description
     },
     "tick_rate": 20,
     "condition": {
-        "type": "origins:sprinting"
+        "type": "apoli:sprinting"
     }
 }
 ```

@@ -9,23 +9,21 @@ date: 2021-10-07
 
 Swaps the context of the target entity and the actor entity.
 
-Type ID: `origins:invert`
-
+Type ID: `apoli:invert`
 
 ### Fields
 
-Field  | Type | Default | Description
--------|------|---------|-------------
-`action` | [Bi-entity Action Type](../bientity_action_types.md) | | The bi-entity action to execute which will have its 'target' and 'actor' contexts swapped.
-
+| Field    | Type                                                 | Default | Description                                                                                |
+| -------- | ---------------------------------------------------- | ------- | ------------------------------------------------------------------------------------------ |
+| `action` | [Bi-entity Action Type](../bientity_action_types.md) |         | The bi-entity action to execute which will have its 'target' and 'actor' contexts swapped. |
 
 ### Examples
 
 ```json
 "bientity_action": {
-    "type": "origins:invert",
+    "type": "apoli:invert",
     "action": {
-        "type": "origins:mount"
+        "type": "apoli:mount"
     }
 }
 ```

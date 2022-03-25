@@ -9,7 +9,7 @@ date: 2021-04-05
 
 Overwrites the block at the targeted position with the default state of another one.
 
-Type ID: `origins:set_block`
+Type ID: `apoli:set_block`
 
 
 ### Fields
@@ -23,7 +23,7 @@ Field  | Type | Default | Description
 
 ```json
 "block_action": {
-    "type": "origins:set_block",
+    "type": "apoli:set_block",
     "block": "minecraft:coal_ore"
 }
 ```
@@ -33,7 +33,7 @@ This example will set a Coal Ore block at the position of the block action type.
 
 ```json
 "block_action": {
-    "type": "origins:set_block",
+    "type": "apoli:set_block",
     "block": "minecraft:redstone_lamp[lit=true]"
 }
 ```

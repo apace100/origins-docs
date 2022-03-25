@@ -9,7 +9,7 @@ date: 2021-04-04
 
 Checks how many blocks are overlapping with the entity's eyes or feet.
 
-Type ID: `origins:in_block_anywhere`
+Type ID: `apoli:in_block_anywhere`
 
 
 ### Fields
@@ -25,9 +25,9 @@ Field  | Type | Default | Description
 
 ```json
 "condition": {
-    "type": "origins:in_block_anywhere",
+    "type": "apoli:in_block_anywhere",
     "block_condition": {
-        "type": "origins:in_tag",
+        "type": "apoli:in_tag",
         "tag": "minecraft:flowers"
     },
     "comparison": ">",
