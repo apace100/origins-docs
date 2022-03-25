@@ -35,13 +35,11 @@ Field  | Type | Default | Description
   	"type": "origins:action_on_callback",
   	"entity_action_chosen": {
     	"type": "origins:execute_command",
-    	"command": "team join TheNetherBoys @s",
-    	"permission_level": 4
+    	"command": "team join TheNetherBoys @s"
   	},
   	"entity_action_lost": {
     	"type": "origins:execute_command",
-    	"command": "team leave @s",
-    	"permission_level": 4
+    	"command": "team leave @s"
   	},
   	"execute_chosen_when_orb": true
 }
