@@ -9,7 +9,7 @@ date: 2021-12-04
 
 Prevents certain feature renderers (e.g: armor layer, sheep wool layer, or sub-classes that extends the [`FeatureRenderer`](https://maven.fabricmc.net/docs/yarn-1.18.1+build.17/net/minecraft/client/render/entity/feature/FeatureRenderer.html) super-class) from rendering to the entity that has this power.
 
-Type ID: `apoli:prevent_feature_render`
+Type ID: `origins:prevent_feature_render`
 
 !!! note
 
@@ -30,7 +30,7 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "apoli:prevent_feature_render",
+    "type": "origins:prevent_feature_render",
     "features": [
         "armor",
         "held_item",

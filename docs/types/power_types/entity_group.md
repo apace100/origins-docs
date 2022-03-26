@@ -9,7 +9,7 @@ date: 2021-07-13
 
 Defines the entity group of the entity that has the power.
 
-Type ID: `apoli:entity_group`
+Type ID: `origins:entity_group`
 
 !!! note
 
@@ -31,7 +31,7 @@ Field  | Type | Default | Description
 
 ```json
 {
-    "type": "apoli:entity_group",
+    "type": "origins:entity_group",
 	"group": "arthropod"
 }
 ```

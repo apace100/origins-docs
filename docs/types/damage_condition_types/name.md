@@ -9,7 +9,7 @@ date: 2021-04-04
 
 Checks whether the damage source has a specific name (essentially checking the type of damage).
 
-Type ID: `apoli:name`
+Type ID: `origins:name`
 
 
 ### Fields
@@ -23,7 +23,7 @@ Field  | Type | Default | Description
 
 ```json
 "damage_condition": {
-    "type": "apoli:name",
+    "type": "origins:name",
     "name": "inWall"
 }
 ```

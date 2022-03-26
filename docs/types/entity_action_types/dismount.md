@@ -9,7 +9,7 @@ date: 2021-10-06
 
 Dismounts the entity from their vehicle.
 
-Type ID: `apoli:dismount`
+Type ID: `origins:dismount`
 
 
 ### Fields
@@ -21,6 +21,6 @@ _None._
 
 ```json
 "entity_action": {
-    "type": "apoli:dismount"
+    "type": "origins:dismount"
 }
 ```

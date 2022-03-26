@@ -9,7 +9,7 @@ date: 2021-04-06
 
 Modifies the amount of exhaustion the player receives each time they receive exhaustion.
 
-Type ID: `apoli:modify_exhaustion`
+Type ID: `origins:modify_exhaustion`
 
 
 ### Fields
@@ -25,7 +25,7 @@ Field  | Type | Default | Description
 
 ```json
 {
-    "type": "apoli:modify_exhaustion",
+    "type": "origins:modify_exhaustion",
     "modifier": {
         "name": "Increased exhaustion",
         "operation": "multiply_base",

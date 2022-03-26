@@ -9,7 +9,7 @@ date: 2021-07-06
 
 Modifies the falling velocity of the entity that has the power; can determine whether the entity should take fall damage or not.
 
-Type ID: `apoli:modify_falling`
+Type ID: `origins:modify_falling`
 
 !!! note
 
@@ -28,11 +28,11 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "apoli:modify_falling",
+    "type": "origins:modify_falling",
     "velocity": 1.0,
     "take_fall_damage": false,
     "condition": {
-        "type": "apoli:sneaking"
+        "type": "origins:sneaking"
     }
 }
 ```

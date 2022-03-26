@@ -9,18 +9,20 @@ date: 2021-10-07
 
 Sets the target entity into "love mode", where they will seek out other animals to breed with. Note that this only works on animals that can breed, such as Cows or Pigs.
 
-Type ID: `apoli:set_in_love`
+Type ID: `origins:set_in_love`
+
 
 ### Fields
 
 _None_.
 
+
 ### Examples
 
 ```json
 "bientity_action": {
-    "type": "apoli:set_in_love"
+    "type": "origins:set_in_love"
 }
 ```
 
-[//]: # (flushed)
+[//]: <> (flushed)

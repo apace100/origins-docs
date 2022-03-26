@@ -9,7 +9,7 @@ date: 2021-04-05
 
 Checks whether the block is marked in code as blocking light. Glass for example would not fulfill this condition.
 
-Type ID: `apoli:light_blocking`
+Type ID: `origins:light_blocking`
 
 
 ### Fields
@@ -21,6 +21,6 @@ _None._
 
 ```json
 "block_condition": {
-    "type": "apoli:light_blocking"
+    "type": "origins:light_blocking"
 }
 ```

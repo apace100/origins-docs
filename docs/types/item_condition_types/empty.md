@@ -9,16 +9,18 @@ date: 2021-10-04
 
 Checks if there is no item.
 
-Type ID: `apoli:empty`
+Type ID: `origins:empty`
+
 
 ### Fields
 
 _None._
 
+
 ### Examples
 
 ```json
 "item_condition": {
-    "type": "apoli:empty"
+    "type": "origins:empty"
 }
 ```

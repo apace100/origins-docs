@@ -5,7 +5,7 @@ date: 2021-07-06
 
 # Power Types
 
-Power Types are what grants special functionality to the player! Each power has a type, specified with
+Power Types are what grants functionality to your origins! Each power has a type, specified with
 a `type` field in the JSON. Which type a power is defines which other fields it requires and supports.
 
 Unless stated otherwise, each power type supports a `condition` field that can check for [Entity Condition Types](entity_condition_types.md). See [Power JSON](../json/power.md) for more details.

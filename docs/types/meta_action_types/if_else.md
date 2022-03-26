@@ -9,7 +9,7 @@ date: 2021-04-07
 
 Executes an action only if a condition holds, and optionally executes another action when it doesn't hold.
 
-Type ID: `apoli:if_else`
+Type ID: `origins:if_else`
 
 !!! note
 
@@ -36,16 +36,16 @@ Field  | Type | Default | Description
 
 ```json
 "entity_action": {
-    "type": "apoli:if_else",
+    "type": "origins:if_else",
     "condition": {
-        "type": "apoli:fall_flying"
+        "type": "origins:fall_flying"
     },
     "if_action": {
-        "type": "apoli:set_on_fire",
+        "type": "origins:set_on_fire",
         "duration": 5
     },
     "else_action": {
-        "type": "apoli:heal",
+        "type": "origins:heal",
         "amount": 6
     }
 }

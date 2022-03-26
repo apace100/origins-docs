@@ -9,7 +9,7 @@ date: 2021-04-05
 
 Checks whether the damage is fire damage (this includes lava damage!).
 
-Type ID: `apoli:fire`
+Type ID: `origins:fire`
 
 
 ### Fields
@@ -21,6 +21,6 @@ _None._
 
 ```json
 "damage_condition": {
-    "type": "apoli:fire"
+    "type": "origins:fire"
 }
 ```

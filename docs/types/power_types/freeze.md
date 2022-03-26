@@ -9,7 +9,7 @@ date: 2021-10-02
 
 Freezes the entity that has the power, as if they're in a Powder Snow block.
 
-Type ID: `apoli:freeze`
+Type ID: `origins:freeze`
 
 
 ### Fields
@@ -22,7 +22,7 @@ _None._
 
 ```json
 {
-    "type": "apoli:freeze"
+    "type": "origins:freeze"
 }
 ```
 
@@ -31,11 +31,11 @@ This example will freeze the entity that has the power.
 
 ```json
 {
-    "type": "apoli:freeze",
+    "type": "origins:freeze",
     "condition": {
-        "type": "apoli:biome",
+        "type": "origins:biome",
         "condition": {
-            "type": "apoli:precipitation",
+            "type": "origins:precipitation",
             "precipitation": "snow"
         }
     }

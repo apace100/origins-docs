@@ -9,7 +9,7 @@ date: 2021-10-03
 
 Toggles the state of a power that uses the [Toggle (Power Type)](../power_types/toggle.md).
 
-Type ID: `apoli:toggle`
+Type ID: `origins:toggle`
 
 
 ### Fields
@@ -23,9 +23,9 @@ Field | Type | Default | Description
 
 ```json
 "entity_action": {
-    "type": "apoli:toggle",
-    "power": "test:toggle"
+    "type": "origins:toggle",
+    "power": "origins:phantomize"
 }
 ```
 
-This example will toggle the state of the `test:toggle` (`data/test/powers/toggle.json`) power (e.g: ON --> OFF, OFF --> ON).
+This example will toggle the state of the [`origins:phantomize`](https://github.com/apace100/origins-fabric/blob/1.17/src/main/resources/data/origins/powers/phantomize.json) (`data/origins/powers/phantomize.json`) power (e.g: ON --> OFF, OFF --> ON).

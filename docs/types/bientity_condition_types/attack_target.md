@@ -9,16 +9,18 @@ date: 2021-10-08
 
 Checks if the actor entity is currently aggressive to the target entity.
 
-Type ID: `apoli:attack_target`
+Type ID: `origins:attack_target`
+
 
 ### Fields
 
 _None._
 
+
 ### Examples
 
 ```json
 "bientity_condition": {
-    "type": "apoli:attack_target"
+    "type": "origins:attack_target"
 }
 ```

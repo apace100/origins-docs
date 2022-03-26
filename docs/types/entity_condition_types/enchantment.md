@@ -9,7 +9,7 @@ date: 2021-04-04
 
 Checks the level of an enchantment on the entity's equipment.
 
-Type ID: `apoli:enchantment`
+Type ID: `origins:enchantment`
 
 
 ### Fields
@@ -26,7 +26,7 @@ Field  | Type | Default | Description
 
 ```json
 "condition": {
-    "type": "apoli:enchantment",
+    "type": "origins:enchantment",
     "enchantment": "minecraft:protection",
     "calculation": "sum",
     "comparison": ">=",

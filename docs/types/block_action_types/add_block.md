@@ -9,19 +9,21 @@ date: 2021-04-05
 
 Adds a block at the specified action position. Adding means setting the block at the position, offset by the direction of the action.
 
-Type ID: `apoli:add_block`
+Type ID: `origins:add_block`
+
 
 ### Fields
 
-| Field   | Type                                      | Default | Description                                 |
-| ------- | ----------------------------------------- | ------- | ------------------------------------------- |
-| `block` | [Identifier](../data_types/identifier.md) |         | The namespace and ID of the block to place. |
+Field  | Type | Default | Description
+-------|------|---------|-------------
+`block` | [Identifier](../data_types/identifier.md) | | The namespace and ID of the block to place.
+
 
 ### Examples
 
 ```json
 "block_action": {
-    "type": "apoli:add_block",
+    "type": "origins:add_block",
     "block": "minecraft:coal_ore"
 }
 ```
@@ -31,7 +33,7 @@ This example will add a Coal Ore block at the position of the block action type.
 
 ```json
 "block_action": {
-    "type": "apoli:add_block",
+    "type": "origins:add_block",
     "block": "minecraft:chest[facing=north]"
 }
 ```

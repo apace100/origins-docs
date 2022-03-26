@@ -9,7 +9,7 @@ date: 2021-04-04
 
 Executes an [Entity Action Type](../entity_action_types.md) when the player lands on the ground after being airborne.
 
-Type ID: `apoli:action_on_land`
+Type ID: `origins:action_on_land`
 
 
 ### Fields
@@ -24,13 +24,13 @@ Field  | Type | Default | Description
 
 ```json
 {
-    "type": "apoli:action_on_land",
+    "type": "origins:action_on_land",
     "entity_action": {
-        "type": "apoli:execute_command",
+        "type": "origins:execute_command",
         "command": "fill ~1 ~-1 ~1 ~-1 ~-1 ~-1 minecraft:air replace minecraft:grass_block"
     },
     "condition": {
-        "type": "apoli:fall_distance",
+        "type": "origins:fall_distance",
         "comparison": ">",
         "compare_to": 4
     }

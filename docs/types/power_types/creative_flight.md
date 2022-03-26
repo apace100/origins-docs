@@ -9,7 +9,7 @@ date: 2021-06-12
 
 Allows the players to fly as if they were in Creative Mode.
 
-Type ID: `apoli:creative_flight`
+Type ID: `origins:creative_flight`
 
 
 ### Fields
@@ -21,6 +21,6 @@ _None._
 
 ```json
 {
-    "type": "apoli:creative_flight"
+    "type": "origins:creative_flight"
 }
 ```

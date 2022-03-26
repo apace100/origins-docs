@@ -9,7 +9,7 @@ date: 2021-04-08
 
 Grants night vision to the player without a status effect.
 
-Type ID: `apoli:night_vision`
+Type ID: `origins:night_vision`
 
 
 ### Fields
@@ -23,10 +23,10 @@ Field  | Type | Default | Description
 
 ```json
 {
-  	"type": "apoli:night_vision",
+  	"type": "origins:night_vision",
   	"strength": 0.5,
 	"condition": {
-		"type": "apoli:submerged_in",
+		"type": "origins:submerged_in",
 		"fluid": "minecraft:water"
 	}
 }

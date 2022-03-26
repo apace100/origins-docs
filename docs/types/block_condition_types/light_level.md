@@ -9,7 +9,7 @@ date: 2021-04-05
 
 Allows checking the light level at the block's position.
 
-Type ID: `apoli:light_level`
+Type ID: `origins:light_level`
 
 
 ### Fields
@@ -25,7 +25,7 @@ Field  | Type | Default | Description
 
 ```json
 "block_condition": {
-    "type": "apoli:light_level",
+    "type": "origins:light_level",
     "light_type": "block",
     "comparison": ">",
     "compare_to": 10

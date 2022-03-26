@@ -9,7 +9,7 @@ date: 2021-04-04
 
 Checks the entity's food level (chicken legs / hunger meter / whatever you wanna call it). The food level is in the range of 0 to 20.
 
-Type ID: `apoli:food_level`
+Type ID: `origins:food_level`
 
 !!! note
 
@@ -28,7 +28,7 @@ Field  | Type | Default | Description
 
 ```json
 "condition": {
-    "type": "apoli:food_level",
+    "type": "origins:food_level",
     "comparison": "==",
     "compare_to": 0
 }

@@ -9,7 +9,7 @@ date: 2021-04-05
 
 Checks whether the item has a certain armor value. Non-armor items are considered as having an armor value of 0.
 
-Type ID: `apoli:armor_value`
+Type ID: `origins:armor_value`
 
 !!! note
 
@@ -20,18 +20,20 @@ Type ID: `apoli:armor_value`
     * [Leggings](https://minecraft.fandom.com/wiki/Leggings#Defense_points)
     * [Boots](https://minecraft.fandom.com/wiki/Boots#Defense_points)
 
+
 ### Fields
 
-| Field        | Type                                      | Default | Description                                                   |
-| ------------ | ----------------------------------------- | ------- | ------------------------------------------------------------- |
-| `comparison` | [Comparison](../data_types/comparison.md) |         | How to compare the item's armor value to the specified value. |
-| `compare_to` | [Integer](../data_types/integer.md)       |         | Which value to compare the item's armor value to.             |
+Field  | Type | Default | Description
+-------|------|---------|-------------
+`comparison` | [Comparison](../data_types/comparison.md) | |  How to compare the item's armor value to the specified value.
+`compare_to` | [Integer](../data_types/integer.md) | | Which value to compare the item's armor value to.
+
 
 ### Examples
 
 ```json
 "item_condition": {
-    "type": "apoli:armor_value",
+    "type": "origins:armor_value",
     "comparison": ">",
     "compare_to": 3
 }

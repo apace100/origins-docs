@@ -9,7 +9,7 @@ date: 2021-10-02
 
 Executes an [Entity Action Type](../entity_action_types.md) or [Item Action Types](../item_action_types.md) when the player uses an item on an item, similar to how you would put items in a bundle.
 
-Type ID: `apoli:item_on_item`
+Type ID: `origins:item_on_item`
 
 !!! caution
 
@@ -34,23 +34,23 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "apoli:item_on_item",
+    "type": "origins:item_on_item",
     "on_item_condition": {
-        "type": "apoli:smeltable"
+        "type": "origins:smeltable"
     },
     "using_item_condition": {
-        "type": "apoli:ingredient",
+        "type": "origins:ingredient",
         "ingredient": {
             "item": "minecraft:coal"
         }
     },
     "result_from_on_stack": 8,
     "result_item_action": {
-        "type": "apoli:modify",
+        "type": "origins:modify",
         "modifier": "example:furnace_smelt"
     },
     "using_item_action": {
-        "type": "apoli:consume",
+        "type": "origins:consume",
         "amount": 1
     }
 }
@@ -70,15 +70,15 @@ This example being the contents of the `example:furnace_smelt` (`data/example/it
 
 ```json
 {
-    "type": "apoli:item_on_item",
+    "type": "origins:item_on_item",
     "using_item_condition": {
-        "type": "apoli:ingredient",
+        "type": "origins:ingredient",
         "ingredient": {
             "tag": "fabric:axes"
         }
     },
     "on_item_condition": {
-        "type": "apoli:ingredient",
+        "type": "origins:ingredient",
         "ingredient": {
             "item": "minecraft:oak_log"
         }
@@ -88,16 +88,16 @@ This example being the contents of the `example:furnace_smelt` (`data/example/it
         "amount": 8
     },
     "using_item_action": {
-        "type": "apoli:damage",
+        "type": "origins:damage",
         "amount": 20,
         "ignore_unbreaking": false
     },
     "on_item_action": {
-        "type": "apoli:consume",
+        "type": "origins:consume",
         "amount": 1
     },
     "entity_action": {
-        "type": "apoli:play_sound",
+        "type": "origins:play_sound",
         "sound": "minecraft:entity.zombie.break_wooden_door",
         "volume": 0.45,
         "pitch": 2

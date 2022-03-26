@@ -9,7 +9,7 @@ date: 2021-04-04
 
 Checks whether the specified power is "active", meaning that the entity has the power and the power has all its conditions fulfilled.
 
-Type ID: `apoli:power_active`
+Type ID: `origins:power_active`
 
 
 ### Fields
@@ -23,9 +23,9 @@ Field  | Type | Default | Description
 
 ```json
 "condition": {
-    "type": "apoli:power_active",
-    "power": "test:toggle"
+    "type": "origins:power_active",
+    "power": "origins:phantomize"
 }
 ```
 
-This example will check if the `test:toggle` power is toggled on.
+This example will check if the [`origins:phantomize`](https://github.com/apace100/origins-fabric/blob/master/src/main/resources/data/origins/powers/phantomize.json) power is toggled on.

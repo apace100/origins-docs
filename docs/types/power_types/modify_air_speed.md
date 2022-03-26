@@ -9,7 +9,7 @@ date: 2021-10-06
 
 Modifies the air speed of the entity that has the power.
 
-Type ID: `apoli:modify_air_speed`
+Type ID: `origins:modify_air_speed`
 
 
 ### Fields
@@ -24,7 +24,7 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "apoli:modify_air_speed",
+    "type": "origins:modify_air_speed",
     "modifier": {
         "operation": "multiply_total",
         "value": 1.5

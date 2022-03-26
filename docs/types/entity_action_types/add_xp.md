@@ -9,7 +9,7 @@ date: 2021-04-05
 
 Adds experience points and levels to the player, or subtracts levels.
 
-Type ID: `apoli:add_xp`
+Type ID: `origins:add_xp`
 
 
 ### Fields
@@ -24,7 +24,7 @@ Field  | Type | Default | Description
 
 ```json
 "entity_action": {
-    "type": "apoli:add_xp",
+    "type": "origins:add_xp",
     "levels": 2
 }
 ```

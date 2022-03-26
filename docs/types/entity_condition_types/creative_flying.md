@@ -9,7 +9,7 @@ date: 2021-10-02
 
 Checks if the player is Creative Mode flying.
 
-Type ID: `apoli:creative_flying`
+Type ID: `origins:creative_flying`
 
 
 ### Fields
@@ -20,6 +20,6 @@ _None._
 ### Examples
 ```json
 "condition": {
-    "type": "apoli:creative_flying"
+    "type": "origins:creative_flying"
 }
 ```

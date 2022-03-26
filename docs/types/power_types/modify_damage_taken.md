@@ -9,7 +9,7 @@ date: 2021-04-06
 
 Modifies how much damage the entity that has the power takes.
 
-Type ID: `apoli:modify_damage_taken`
+Type ID: `origins:modify_damage_taken`
 
 
 ### Fields
@@ -28,23 +28,23 @@ Field  | Type | Default | Description
 ### Examples
 ```json
 {
-    "type": "apoli:modify_damage_taken",
+    "type": "origins:modify_damage_taken",
     "damage_condition": {
-        "type": "apoli:attacker",
+        "type": "origins:attacker",
         "entity_condition": {
-            "type": "apoli:equipped_item",
+            "type": "origins:equipped_item",
             "equipment_slot": "mainhand",
             "item_condition": {
-                "type": "apoli:or",
+                "type": "origins:or",
                 "conditions": [
                     {
-                        "type": "apoli:enchantment",
+                        "type": "origins:enchantment",
                         "enchantment": "minecraft:binding_curse",
                         "comparison": ">=",
                         "compare_to": 1
                     },
                     {
-                        "type": "apoli:enchantment",
+                        "type": "origins:enchantment",
                         "enchantment": "minecraft:vanishing_curse",
                         "comparison": ">=",
                         "compare_to": 1
@@ -66,23 +66,23 @@ This example will make the entity that has the power take 3 additional hearts of
 
 ```json
 {
-    "type": "apoli:modify_damage_taken",
+    "type": "origins:modify_damage_taken",
     "bientity_condition": {
-        "type": "apoli:actor_condition",
+        "type": "origins:actor_condition",
         "condition": {
-            "type": "apoli:equipped_item",
+            "type": "origins:equipped_item",
             "equipment_slot": "mainhand",
             "item_condition": {
-                "type": "apoli:or",
+                "type": "origins:or",
                 "conditions": [
                     {
-                        "type": "apoli:enchantment",
+                        "type": "origins:enchantment",
                         "enchantment": "minecraft:binding_curse",
                         "comparison": ">=",
                         "compare_to": 1
                     },
                     {
-                        "type": "apoli:enchantment",
+                        "type": "origins:enchantment",
                         "enchantment": "minecraft:vanishing_curse",
                         "comparison": ">=",
                         "compare_to": 1

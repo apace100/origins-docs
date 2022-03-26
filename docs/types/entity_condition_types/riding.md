@@ -9,7 +9,7 @@ date: 2021-10-07
 
 Checks whether the actor entity is directly riding the target entity.
 
-Type ID: `apoli:riding`
+Type ID: `origins:riding`
 
 
 ### Fields
@@ -23,11 +23,11 @@ Field | Type | Default | Description
 
 ```json
 "condition": {
-    "type": "apoli:riding",
+    "type": "origins:riding",
     "bientity_condition": {
-        "type": "apoli:target_condition",
+        "type": "origins:target_condition",
         "condition": {
-            "type": "apoli:entity_type",
+            "type": "origins:entity_type",
             "entity_type": "minecraft:minecart"
         }
     }

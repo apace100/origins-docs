@@ -9,7 +9,7 @@ date: 2021-10-02
 
 Checks if the entity exists.
 
-Type ID: `apoli:exists`
+Type ID: `origins:exists`
 
 
 ### Fields
@@ -21,6 +21,6 @@ _None._
 
 ```json
 "condition": {
-    "type": "apoli:exists"
+    "type": "origins:exists"
 }
 ```

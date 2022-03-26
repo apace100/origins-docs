@@ -9,7 +9,7 @@ date: 2021-04-07
 
 Prevents the player from using items (right-click action such as eating food or using a shield, placing them as blocks will still work).
 
-Type ID: `apoli:prevent_item_use`
+Type ID: `origins:prevent_item_use`
 
 
 ### Fields
@@ -23,9 +23,9 @@ Field  | Type | Default | Description
 
 ```json
 {
-    "type": "apoli:prevent_item_use",
+    "type": "origins:prevent_item_use",
     "item_condition": {
-		"type": "apoli:food"
+		"type": "origins:food"
 	}
 }
 ```

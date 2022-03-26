@@ -9,7 +9,7 @@ date: 2021-04-08
 
 Spawns particles on the body of the entity that has the power for visual effects.
 
-Type ID: `apoli:particle`
+Type ID: `origins:particle`
 
 
 ### Fields
@@ -25,7 +25,7 @@ Field  | Type | Default | Description
 
 ```json
 {
-  	"type": "apoli:particle",
+  	"type": "origins:particle",
   	"particle": "minecraft:portal",
   	"frequency": 4
 }

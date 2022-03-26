@@ -9,7 +9,7 @@ date: 2021-04-06
 
 Modifies the location of the player's spawnpoint to the specified dimension, biome and/or structure.
 
-Type ID: `apoli:modify_player_spawn`
+Type ID: `origins:modify_player_spawn`
 
 !!! note
 
@@ -31,7 +31,7 @@ Field  | Type | Default | Description
 
 ```json
 {
-  "type": "apoli:modify_player_spawn",
+  "type": "origins:modify_player_spawn",
   "dimension": "minecraft:the_end",
   "structure": "minecraft:endcity",
   "spawn_strategy": "center"

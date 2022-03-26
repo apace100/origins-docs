@@ -9,7 +9,7 @@ date: 2021-04-06
 
 Modifies whether a player is able to harvest a block or not (= receive the block drops).
 
-Type ID: `apoli:modify_harvest`
+Type ID: `origins:modify_harvest`
 
 
 ### Fields
@@ -25,9 +25,9 @@ Field  | Type | Default | Description
 
 ```json
 {
-    "type": "apoli:modify_harvest",
+    "type": "origins:modify_harvest",
     "block_condition": {
-        "type": "apoli:block",
+        "type": "origins:block",
         "block": "minecraft:diamond_block"
     },
     "allow": true

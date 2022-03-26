@@ -9,7 +9,7 @@ date: 2022-03-14
 
 Checks the current day time ticks of the world.
 
-Type ID: `apoli:time_of_day`
+Type ID: `origins:time_of_day`
 
 
 ### Fields
@@ -24,15 +24,15 @@ Field | Type | Default | Description
 
 ```json
 "condition": {
-    "type": "apoli:and",
+    "type": "origins:and",
     "conditions": [
         {
-            "type": "apoli:time_of_day",
+            "type": "origins:time_of_day",
             "comparison": ">=",
             "compare_to": 12000
         },
         {
-            "type": "apoli:time_of_day",
+            "type": "origins:time_of_day",
             "comparison": "<=",
             "compare_to": 13000
         }

@@ -9,7 +9,7 @@ date: 2021-04-07
 
 Allows the player to fly as if they had an Elytra equipped.
 
-Type ID: `apoli:elytra_flight`
+Type ID: `origins:elytra_flight`
 
 
 ### Fields
@@ -24,7 +24,7 @@ Field  | Type | Default | Description
 
 ```json
 {
-    "type": "apoli:elytra_flight",
+    "type": "origins:elytra_flight",
     "render_elytra": false
 }
 ```
@@ -34,7 +34,7 @@ This example will grant the player the ability to fall-fly, with the Elytra not 
 
 ```json
 {
-    "type": "apoli:elytra_flight",
+    "type": "origins:elytra_flight",
     "render_elytra": true,
     "texture_location": "minecraft:textures/entity/elytra.png"
 }

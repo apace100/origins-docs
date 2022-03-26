@@ -9,21 +9,23 @@ date: 2021-10-12
 
 Checks if the specified bi-entity condition is true before or after swapping the actor and target context.
 
-Type ID: `apoli:undirected`
+Type ID: `origins:undirected`
+
 
 ### Fields
 
-| Field       | Type                                                       | Default | Description                                |
-| ----------- | ---------------------------------------------------------- | ------- | ------------------------------------------ |
-| `condition` | [Bi-entity Condition Type](../bientity_condition_types.md) |         | The bi-entity condition type to check for. |
+Field | Type | Default | Description
+------|------|---------|-------------
+`condition` | [Bi-entity Condition Type](../bientity_condition_types.md) | | The bi-entity condition type to check for.
+
 
 ### Examples
 
 ```json
 "bientity_condition": {
-	"type": "apoli:undirected",
+	"type": "origins:undirected",
 	"condition": {
-		"type": "apoli:owner"
+		"type": "origins:owner"
 	}
 }
 ```

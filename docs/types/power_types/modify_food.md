@@ -9,7 +9,7 @@ date: 2021-04-06
 
 Executes an [Entity Action Type](../entity_action_types.md) and modifies the food and saturation level gain of a food item when a player that has the power eats food item.
 
-Type ID: `apoli:modify_food`
+Type ID: `origins:modify_food`
 
 !!! note
 
@@ -36,9 +36,9 @@ Field  | Type | Default | Description
 
 ```json
 {
-    "type": "apoli:modify_food",
+    "type": "origins:modify_food",
     "item_condition": {
-        "type": "apoli:ingredient",
+        "type": "origins:ingredient",
         "ingredient": {
             "item": "minecraft:dried_kelp"
         }

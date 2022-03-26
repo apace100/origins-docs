@@ -9,7 +9,7 @@ date: 2021-04-04
 
 Executes an entity action on every entity that is hit by the entity that has the power.
 
-Type ID: `apoli:target_action_on_hit`
+Type ID: `origins:target_action_on_hit`
 
 
 ### Fields
@@ -27,9 +27,9 @@ Field  | Type | Default | Description
 
 ```json
 {
-  	"type": "apoli:target_action_on_hit",
+  	"type": "origins:target_action_on_hit",
   	"entity_action": {
-    	"type": "apoli:apply_effect",
+    	"type": "origins:apply_effect",
     	"effect": {
       		"effect": "minecraft:slowness",
       		"amplifier": 3,

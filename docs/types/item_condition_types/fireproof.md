@@ -9,7 +9,7 @@ date: 2021-10-03
 
 Checks if the item stack is fireproof.
 
-Type ID: `apoli:fireproof`
+Type ID: `origins:fireproof`
 
 
 ### Fields
@@ -21,6 +21,6 @@ _None._
 
 ```json
 "item_condition": {
-    "type": "apoli:fireproof"
+    "type": "origins:fireproof"
 }
 ```

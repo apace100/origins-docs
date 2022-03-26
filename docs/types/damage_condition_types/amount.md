@@ -9,20 +9,22 @@ date: 2021-04-04
 
 Checks whether the damage is of a specified amount.
 
-Type ID: `apoli:amount`
+Type ID: `origins:amount`
+
 
 ### Fields
 
-| Field        | Type                                      | Default | Description                                                         |
-| ------------ | ----------------------------------------- | ------- | ------------------------------------------------------------------- |
-| `comparison` | [Comparison](../data_types/comparison.md) |         | How the amount of damage should be compared to the specified value. |
-| `compare_to` | [Float](../data_types/float.md)           |         | The value to compare the amount of damage to.                       |
+Field  | Type | Default | Description
+-------|------|---------|-------------
+`comparison` | [Comparison](../data_types/comparison.md) | |  How the amount of damage should be compared to the specified value.
+`compare_to` | [Float](../data_types/float.md) | | The value to compare the amount of damage to.
+
 
 ### Examples
 
 ```json
 "damage_condition": {
-    "type": "apoli:amount",
+    "type": "origins:amount",
     "comparison": "==",
     "compare_to": 4
 }

@@ -9,7 +9,7 @@ date: 2021-04-06
 
 Checks whether the entity is currently moving horizontally.
 
-Type ID: `apoli:moving`
+Type ID: `origins:moving`
 
 
 ### Fields
@@ -21,6 +21,6 @@ _None._
 
 ```json
 "condition": {
-    "type": "apoli:moving"
+    "type": "origins:moving"
 }
 ```

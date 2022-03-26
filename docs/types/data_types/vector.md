@@ -23,7 +23,7 @@ Field | Type | Default | Description
 
 ```json
 "entity_action": {
-    "type": "apoli:spawn_particles",
+    "type": "origins:spawn_particles",
     "particle": {
         "type": "minecraft:block",
         "params": "minecraft:redstone_block"
@@ -44,7 +44,7 @@ A [Spawn Particles (Entity Action Type)](../entity_action_types/spawn_particles.
 
 ```json
 "condition": {
-    "type": "apoli:distance_from_coordinates",
+    "type": "origins:distance_from_coordinates",
     "offset": {
         "x": 256,
         "y": 64,

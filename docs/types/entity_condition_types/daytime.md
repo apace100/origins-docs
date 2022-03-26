@@ -9,7 +9,7 @@ date: 2021-04-04
 
 Checks whether it is daytime in the world.
 
-Type ID: `apoli:daytime`
+Type ID: `origins:daytime`
 
 
 ### Fields
@@ -20,6 +20,6 @@ _None._
 ### Examples
 ```json
 "condition": {
-    "type": "apoli:daytime"
+    "type": "origins:daytime"
 }
 ```

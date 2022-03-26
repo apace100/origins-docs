@@ -9,7 +9,7 @@ date: 2021-04-04
 
 Checks the experience points of the entity.
 
-Type ID: `apoli:xp_points`
+Type ID: `origins:xp_points`
 
 !!! note
 
@@ -28,7 +28,7 @@ Field  | Type | Default | Description
 
 ```json
 "condition": {
-    "type": "apoli:xp_points",
+    "type": "origins:xp_points",
     "comparison": ">=",
     "compare_to": 90
 }

@@ -9,7 +9,7 @@ date: 2021-04-04
 
 Executes an [Entity Action Type](../entity_action_types.md) or an [Item Action Type](../item_action_types.md) when the player finishes using an item (e.g: eating food or drinking a potion).
 
-Type ID: `apoli:action_on_item_use`
+Type ID: `origins:action_on_item_use`
 
 
 ### Fields
@@ -25,14 +25,14 @@ Field  | Type | Default | Description
 
 ```json
 {
-    "type": "apoli:action_on_item_use",
+    "type": "origins:action_on_item_use",
     "entity_action": {
-        "type": "apoli:feed",
+        "type": "origins:feed",
         "food": 1.0,
         "saturation": 1.0
     },
     "item_condition": {
-        "type": "apoli:ingredient",
+        "type": "origins:ingredient",
         "ingredient": {
             "item": "minecraft:potion"
         }

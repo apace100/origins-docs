@@ -9,7 +9,7 @@ date: 2021-10-06
 
 Transfers the value of an attribute modifier from a specified attribute to a specified power class that extends the [`ValueModifyingPower`](https://github.com/apace100/apoli/blob/master/src/main/java/io/github/apace100/apoli/power/ValueModifyingPower.java) super-class.
 
-Type ID: `apoli:attribute_modify_transfer`
+Type ID: `origins:attribute_modify_transfer`
 
 !!! note
 
@@ -29,7 +29,7 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "apoli:attribute_modify_transfer",
+    "type": "origins:attribute_modify_transfer",
     "class": "modify_break_speed",
     "attribute": "minecraft:generic.movement_speed",
     "multiplier": 1.25

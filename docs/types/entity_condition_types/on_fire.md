@@ -9,16 +9,18 @@ date: 2021-04-04
 
 Checks if the entity is currently burning.
 
-Type ID: `apoli:on_fire`
+Type ID: `origins:on_fire`
+
 
 ### Fields
 
 _None._
 
+
 ### Examples
 
 ```json
 "condition": {
-    "type": "apoli:on_fire"
+    "type": "origins:on_fire"
 }
 ```

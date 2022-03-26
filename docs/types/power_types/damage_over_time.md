@@ -9,7 +9,7 @@ date: 2021-04-08
 
 Inflicts damage on the entity that has the power from a specified damage source within the specified interval.
 
-Type ID: `apoli:damage_over_time`
+Type ID: `origins:damage_over_time`
 
 
 ### Fields
@@ -29,7 +29,7 @@ Field  | Type | Default | Description
 
 ```json
 {
-  	"type": "apoli:damage_over_time",
+  	"type": "origins:damage_over_time",
   	"interval": 20,
   	"onset_delay": 1,
   	"damage": 2,
@@ -39,19 +39,19 @@ Field  | Type | Default | Description
     	"unblockable": true,
     	"bypasses_armor": true
   	},
-  	"protection_enchantment": "apoli:water_protection",
+  	"protection_enchantment": "origins:water_protection",
   	"protection_effectiveness": 1.0,
   	"condition": {
-    	"type": "apoli:or",
+    	"type": "origins:or",
     	"conditions": [
 	      	{
-	        	"type": "apoli:fluid_height",
+	        	"type": "origins:fluid_height",
 		        "fluid": "minecraft:water",
 	        	"comparison": ">",
 	        	"compare_to": 0.0
 	      	},
 	      	{
-	        	"type": "apoli:in_rain"
+	        	"type": "origins:in_rain"
 	      	}
     	]
   	}

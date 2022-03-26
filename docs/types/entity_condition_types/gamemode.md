@@ -9,7 +9,7 @@ date: 2021-04-06
 
 Checks the gamemode of the entity.
 
-Type ID: `apoli:gamemode`
+Type ID: `origins:gamemode`
 
 !!! note
 
@@ -27,7 +27,7 @@ Field  | Type | Default | Description
 
 ```json
 "condition": {
-  "type": "apoli:gamemode",
+  "type": "origins:gamemode",
   "gamemode": "creative"
 }
 ```

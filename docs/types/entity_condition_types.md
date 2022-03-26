@@ -49,6 +49,7 @@ Entity Condition Types operate on an Entity, which also allows access to the wor
 * [NBT](entity_condition_types/nbt.md)
 * [On Block](entity_condition_types/on_block.md)
 * [On Fire](entity_condition_types/on_fire.md)
+* [Origin](entity_condition_types/origin.md)
 * [Passenger Recursive](entity_condition_types/passenger_recursive.md)
 * [Passenger](entity_condition_types/passenger.md)
 * [Power Active](entity_condition_types/power_active.md)

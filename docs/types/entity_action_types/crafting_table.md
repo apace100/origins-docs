@@ -9,7 +9,7 @@ date: 2021-12-03
 
 Brings up the Crafting Table GUI as if the player has interacted with one.
 
-Type ID: `apoli:crafting_table`
+Type ID: `origins:crafting_table`
 
 
 ### Fields
@@ -21,6 +21,6 @@ _None._
 
 ```json
 "entity_action": {
-    "type": "apoli:crafting_table"
+    "type": "origins:crafting_table"
 }
 ```

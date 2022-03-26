@@ -9,20 +9,22 @@ date: 2021-10-06
 
 Checks the distance between the target entity and the actor entity.
 
-Type ID: `apoli:distance`
+Type ID: `origins:distance`
+
 
 ### Fields
 
-| Field        | Type                                      | Default | Description                                                                       |
-| ------------ | ----------------------------------------- | ------- | --------------------------------------------------------------------------------- |
-| `comparison` | [Comparison](../data_types/comparison.md) |         | How to compare the distance against the specified value.                          |
-| `compare_to` | [Float](../data_types/float.md)           |         | The distance (in blocks) to compare the distance between the actor and target to. |
+Field  | Type | Default | Description
+-------|------|---------|-------------
+`comparison` | [Comparison](../data_types/comparison.md) | | How to compare the distance against the specified value.
+`compare_to` | [Float](../data_types/float.md) | | The distance (in blocks) to compare the distance between the actor and target to.
+
 
 ### Examples
 
 ```json
 "bientity_condition": {
-    "type": "apoli:distance",
+    "type": "origins:distance",
     "comparison": "<=",
     "compare_to": 30
 }

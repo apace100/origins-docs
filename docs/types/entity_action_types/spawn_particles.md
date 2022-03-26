@@ -9,7 +9,7 @@ date: 2021-12-03
 
 Spawns particles on the body of the entity that has the power for visual effects.
 
-Type ID: `apoli:spawn_particles`
+Type ID: `origins:spawn_particles`
 
 
 ### Fields
@@ -28,7 +28,7 @@ Field | Type | Default | Description
 
 ```json
 "entity_action": {
-    "type": "apoli:spawn_particles",
+    "type": "origins:spawn_particles",
     "particle": {
         "type": "minecraft:block",
         "params": "minecraft:redstone_block"

@@ -9,7 +9,7 @@ date: 2021-10-02
 
 Damages the item stack with a specified amount.
 
-Type ID: `apoli:damage`
+Type ID: `origins:damage`
 
 
 ### Fields
@@ -25,7 +25,7 @@ Field | Type | Default | Description
 
 ```json
 "item_action": {
-    "type": "apoli:damage",
+    "type": "origins:damage",
     "amount": 10,
     "ignore_unbreaking": true
 }

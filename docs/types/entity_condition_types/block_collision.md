@@ -9,7 +9,7 @@ date: 2021-04-04
 
 Checks whether the bounding box of the entity collides with any block.
 
-Type ID: `apoli:block_collision`
+Type ID: `origins:block_collision`
 
 
 ### Fields
@@ -25,7 +25,7 @@ Field  | Type | Default | Description
 
 ```json
 "condition": {
-    "type": "apoli:block_collision",
+    "type": "origins:block_collision",
     "offset_x": 0.1,
     "offset_y": 0,
     "offset_z": 0.1

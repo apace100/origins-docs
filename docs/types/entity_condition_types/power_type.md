@@ -9,7 +9,7 @@ date: 2021-12-01
 
 Checks if the entity has a power that uses the specified [Power Type](../power_types.md).
 
-Type ID: `apoli:power_type`
+Type ID: `origins:power_type`
 
 
 ### Fields
@@ -23,8 +23,8 @@ Field | Type | Default | Description
 
 ```json
 "condition": {
-    "type": "apoli:power_type",
-    "power_type": "apoli:active_self"
+    "type": "origins:power_type",
+    "power_type": "origins:active_self"
 }
 ```
 

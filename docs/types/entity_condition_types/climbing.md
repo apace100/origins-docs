@@ -9,16 +9,17 @@ date: 2021-04-06
 
 Checks whether the entity is currently climbing.
 
-Type ID: `apoli:climbing`
+Type ID: `origins:climbing`
+
 
 ### Fields
 
 _None._
 
-### Examples
 
+### Examples
 ```json
 "condition": {
-    "type": "apoli:climbing"
+    "type": "origins:climbing"
 }
 ```

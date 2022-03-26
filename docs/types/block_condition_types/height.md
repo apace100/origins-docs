@@ -9,7 +9,7 @@ date: 2021-04-05
 
 Compares the Y position of the block to a value.
 
-Type ID: `apoli:height`
+Type ID: `origins:height`
 
 
 ### Fields
@@ -24,7 +24,7 @@ Field  | Type | Default | Description
 
 ```json
 "block_condition": {
-    "type": "apoli:height",
+    "type": "origins:height",
     "comparison": "<=",
     "compare_to": 11
 }

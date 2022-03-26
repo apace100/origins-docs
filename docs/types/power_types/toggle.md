@@ -9,7 +9,7 @@ date: 2021-04-07
 
 Provides a switch that can be toggled ON and OFF with the specified [Key](../data_types/key.md).
 
-Type ID: `apoli:toggle`
+Type ID: `origins:toggle`
 
 !!! note
 
@@ -25,7 +25,7 @@ Type ID: `apoli:toggle`
 Field  | Type | Default | Description
 -------|------|---------|-------------
 `active_by_default` | [Boolean](../data_types/boolean.md) | `true` | Whether this power starts in the on or off state.
-`key` | [Key](../data_types/key.md) | _optional_ | Which active key this power should respond to.
+`key` | [Key](../data_types/key.md) | `{"key": "key.origins.primary_active"}` | Which active key this power should respond to.
 `retain_state` | [Boolean](../data_types/boolean.md) | `true` | Whether this power switches back to default if the condition is no longer met.
 
 
@@ -34,7 +34,7 @@ Field  | Type | Default | Description
 
 ```json
 {
-    "type": "apoli:toggle",
+    "type": "origins:toggle",
     "active_by_default": false,
     "key": {
         "key": "key.use"

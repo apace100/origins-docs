@@ -9,7 +9,7 @@ date: 2021-04-08
 
 Disables the natural health regeneration when on full hunger.
 
-Type ID: `apoli:disable_regen`
+Type ID: `origins:disable_regen`
 
 
 ### Fields
@@ -22,6 +22,6 @@ _None._
 
 ```json
 {
-    "type": "apoli:disable_regen"
+    "type": "origins:disable_regen"
 }
 ```

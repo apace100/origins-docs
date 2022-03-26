@@ -23,7 +23,7 @@ A simple text.
 
 ```json
 {
-	"type": "apoli:execute_command",
+	"type": "origins:execute_command",
 	"command": "give @s minecraft:iron_axe{display:{Name:'{\"text\":\"Brutal Axe\", \"italic\": false}'}}"
 }
 ```

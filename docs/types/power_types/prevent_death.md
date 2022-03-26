@@ -9,7 +9,7 @@ date: 2021-04-07
 
 Prevents death; any damage which would kill the entity that has the power will instead reduce their health to half a heart.
 
-Type ID: `apoli:prevent_death`
+Type ID: `origins:prevent_death`
 
 
 ### Fields
@@ -24,15 +24,15 @@ Field  | Type | Default | Description
 
 ```json
 {
-    "type": "apoli:prevent_death",
+    "type": "origins:prevent_death",
     "entity_action": {
-		"type": "apoli:and",
+		"type": "origins:and",
 		"actions": [
 			{
-				"type": "apoli:clear_effect"
+				"type": "origins:clear_effect"
 			},
 			{
-				"type": "apoli:apply_effect",
+				"type": "origins:apply_effect",
 				"effects": [
 					{
 						"effect": "minecraft:regeneration",

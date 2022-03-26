@@ -9,7 +9,7 @@ date: 2021-04-05
 
 Restores a specified amount of health to the entity.
 
-Type ID: `apoli:heal`
+Type ID: `origins:heal`
 
 
 ### Fields
@@ -23,7 +23,7 @@ Field  | Type | Default | Description
 
 ```json
 "entity_action": {
-    "type": "apoli:heal",
+    "type": "origins:heal",
     "amount": 6
 }
 ```

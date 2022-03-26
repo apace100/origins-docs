@@ -9,7 +9,7 @@ date: 2021-04-04
 
 Checks if it's raining at the entity's position.
 
-Type ID: `apoli:in_rain`
+Type ID: `origins:in_rain`
 
 
 ### Fields
@@ -21,6 +21,6 @@ _None._
 
 ```json
 "condition": {
-    "type": "apoli:in_rain"
+    "type": "origins:in_rain"
 }
 ```

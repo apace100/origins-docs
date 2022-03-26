@@ -9,7 +9,7 @@ date: 2021-04-07
 
 Prevents the usage (i.e. right-clicking) of blocks for a player. For example, this could be used to make a player not able to open a furnace or chest, not use composters, or not use a button.
 
-Type ID: `apoli:prevent_block_use`
+Type ID: `origins:prevent_block_use`
 
 
 ### Fields
@@ -23,9 +23,9 @@ Field  | Type | Default | Description
 
 ```json
 {
-    "type": "apoli:prevent_block_use",
+    "type": "origins:prevent_block_use",
     "block_condition": {
-      "type": "apoli:block",
+      "type": "origins:block",
       "block": "minecraft:crafting_table"
     }
 }

@@ -9,7 +9,7 @@ date: 2021-04-07
 
 Prevents status effects from being applied to the entity that has the power.
 
-Type ID: `apoli:effect_immunity`
+Type ID: `origins:effect_immunity`
 
 
 ### Fields
@@ -24,7 +24,7 @@ Field  | Type | Default | Description
 
 ```json
 {
-	"type": "apoli:effect_immunity",
+	"type": "origins:effect_immunity",
 	"effects": [
 		"minecraft:weakness",
 		"minecraft:strength"

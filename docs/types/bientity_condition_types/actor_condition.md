@@ -9,21 +9,23 @@ date: 2021-10-07
 
 Checks for an [Entity Condition Type](../entity_condition_types.md) on the actor entity.
 
-Type ID: `apoli:actor_condition`
+Type ID: `origins:actor_condition`
+
 
 ### Fields
 
-| Field       | Type                                                  | Default | Description                                                  |
-| ----------- | ----------------------------------------------------- | ------- | ------------------------------------------------------------ |
-| `condition` | [Entity Condition Type](../entity_condition_types.md) |         | The entity condition type to check for on the acting entity. |
+Field  | Type | Default | Description
+-------|------|---------|-------------
+`condition` | [Entity Condition Type](../entity_condition_types.md) | | The entity condition type to check for on the acting entity.
+
 
 ### Examples
 
 ```json
 "bientity_condition": {
-    "type": "apoli:actor_condition",
+    "type": "origins:actor_condition",
     "condition": {
-       "type": "apoli:tamed"
+       "type": "origins:tamed"
     }
 }
 ```

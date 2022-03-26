@@ -9,7 +9,7 @@ date: 2021-04-08
 
 Grants the entity that has the power invisibility; may or may not affect their worn armor.
 
-Type ID: `apoli:invisibility`
+Type ID: `origins:invisibility`
 
 
 ### Fields
@@ -23,10 +23,10 @@ Field  | Type | Default | Description
 
 ```json
 {
-  	"type": "apoli:invisibility",
+  	"type": "origins:invisibility",
 	"render_armor": false,
 	"condition": {
-		"type": "apoli:on_fire",
+		"type": "origins:on_fire",
 		"inverted": true
 	}
 }

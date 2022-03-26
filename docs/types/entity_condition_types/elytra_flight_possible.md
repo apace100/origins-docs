@@ -9,7 +9,7 @@ date: 2021-12-01
 
 Checks if the entity can fly with either an Elytra item or a power that uses the [Elytra Flight (Power Type)](../power_types/elytra_flight.md).
 
-Type ID: `apoli:elytra_flight_possible`
+Type ID: `origins:elytra_flight_possible`
 
 
 ### Fields
@@ -24,7 +24,7 @@ Field | Type | Default | Description
 
 ```json
 "condition": {
-    "type": "apoli:elytra_flight_possible",
+    "type": "origins:elytra_flight_possible",
     "check_state": true,
     "check_abilities": true
 }

@@ -9,7 +9,7 @@ date: 2021-04-06
 
 Executes an [Item Action Type](../item_action_types.md) on an item stack in a specified equipment slot.
 
-Type ID: `apoli:equipped_item_action`
+Type ID: `origins:equipped_item_action`
 
 
 ### Fields
@@ -24,10 +24,10 @@ Field  | Type | Default | Description
 
 ```json
 "entity_action": {
-  	"type": "apoli:equipped_item_action",
+  	"type": "origins:equipped_item_action",
   	"equipment_slot": "mainhand",
   	"action": {
-	  	"type": "apoli:consume",
+	  	"type": "origins:consume",
 	  	"amount": 1
   	}
 }

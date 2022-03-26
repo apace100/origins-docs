@@ -9,7 +9,7 @@ date: 2021-04-05
 
 Removes one specific type of status effect, or all status effects, from a living entity.
 
-Type ID: `apoli:clear_effect`
+Type ID: `origins:clear_effect`
 
 
 ### Fields
@@ -23,7 +23,7 @@ Field  | Type | Default | Description
 
 ```json
 "entity_action": {
-    "type": "apoli:clear_effect",
+    "type": "origins:clear_effect",
     "effect": "minecraft:poison"
 }
 ```

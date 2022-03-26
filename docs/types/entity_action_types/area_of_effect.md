@@ -9,7 +9,7 @@ date: 2021-12-03
 
 Executes a [Bi-entity Action](../bientity_action_types.md) within a specified radius.
 
-Type ID: `apoli:area_of_effect`
+Type ID: `origins:area_of_effect`
 
 
 ### Fields
@@ -26,17 +26,17 @@ Field | Type | Default | Description
 
 ```json
 "entity_action": {
-    "type": "apoli:area_of_effect",
+    "type": "origins:area_of_effect",
     "radius": 32,
     "bientity_action": {
-        "type": "apoli:target_action",
+        "type": "origins:target_action",
         "action": {
-            "type": "apoli:set_on_fire",
+            "type": "origins:set_on_fire",
             "duration": 5
         }
     },
     "bientity_condition": {
-        "type": "apoli:can_see"
+        "type": "origins:can_see"
     }
 }
 ```

@@ -9,7 +9,7 @@ date: 2021-04-05
 
 Checks whether the item is considered meat by Minecraft (usable for breeding wolves).
 
-Type ID: `apoli:meat`
+Type ID: `origins:meat`
 
 
 ### Fields
@@ -21,7 +21,7 @@ _None._
 
 ```json
 "item_condition": {
-    "type": "apoli:meat"
+    "type": "origins:meat"
 }
 ```
 

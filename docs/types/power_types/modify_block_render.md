@@ -9,7 +9,7 @@ date: 2021-10-05
 
 Modifies how a block would look like to the entity that has the power.
 
-Type ID: `apoli:modify_block_render`
+Type ID: `origins:modify_block_render`
 
 !!! caution
 
@@ -32,9 +32,9 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "apoli:modify_block_render",
+    "type": "origins:modify_block_render",
     "block_condition": {
-        "type": "apoli:block",
+        "type": "origins:block",
         "block": "minecraft:diamond_ore"
     },
     "block": "minecraft:diamond_block"

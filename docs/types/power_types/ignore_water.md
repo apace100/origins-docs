@@ -9,7 +9,7 @@ date: 2021-04-08
 
 Prevents the movement of the entity that has the power from being affected by water.
 
-Type ID: `apoli:ignore_water`
+Type ID: `origins:ignore_water`
 
 
 ### Fields
@@ -21,7 +21,7 @@ _None._
 
 ```json
 {
-  	"type": "apoli:ignore_water"
+  	"type": "origins:ignore_water"
 }
 ```
 

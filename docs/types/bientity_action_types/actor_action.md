@@ -9,23 +9,25 @@ date: 2021-10-07
 
 Executes an [Entity Action Type](../entity_action_types.md) on the actor entity.
 
-Type ID: `apoli:actor_action`
+Type ID: `origins:actor_action`
+
 
 ### Fields
 
-| Field    | Type                                            | Default | Description                                            |
-| -------- | ----------------------------------------------- | ------- | ------------------------------------------------------ |
-| `action` | [Entity Action Type](../entity_action_types.md) |         | The entity action type to execute on the actor entity. |
+Field  | Type | Default | Description
+-------|------|---------|-------------
+`action` | [Entity Action Type](../entity_action_types.md) | | The entity action type to execute on the actor entity.
+
 
 ### Examples
 
 ```json
 "bientity_action": {
-	"type": "apoli:actor_action",
-	"action": {
-		"type": "apoli:set_on_fire",
-		"duration": 5
-	}
+    "type": "origins:actor_action",
+    "action": {
+        "type": "origins:set_on_fire",
+        "duration": 5
+    }
 }
 ```
 

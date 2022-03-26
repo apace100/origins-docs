@@ -9,7 +9,7 @@ date: 2021-04-04
 
 Checks whether the entity is currently using the effective tool of the block they're mining.
 
-Type ID: `apoli:using_effective_tool`
+Type ID: `origins:using_effective_tool`
 
 !!! note
 
@@ -25,6 +25,6 @@ _None._
 
 ```json
 "condition": {
-    "type": "apoli:using_effective_tool"
+    "type": "origins:using_effective_tool"
 }
 ```

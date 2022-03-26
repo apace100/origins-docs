@@ -9,7 +9,7 @@ date: 2021-04-06
 
 Modifies how fast the entity that has the power moves in lava.
 
-Type ID: `apoli:modify_lava_speed`
+Type ID: `origins:modify_lava_speed`
 
 
 ### Fields
@@ -25,7 +25,7 @@ Field  | Type | Default | Description
 
 ```json
 {
-    "type": "apoli:modify_lava_speed",
+    "type": "origins:modify_lava_speed",
     "modifier": {
         "operation": "addition",
         "value": 0.4

@@ -5,6 +5,16 @@ date: 2021-04-04
 
 # List of keybindings
 
+### Origins
+
+| Identifier                     | In-Game Name             | Default   |
+| ------------------------------ | ------------------------ | --------- |
+| `key.origins.primary_active`   | Active Power (Primary)   | `G`       |
+| `key.origins.secondary_active` | Active Power (Secondary) | _Unbound_ |
+| `key.origins.view_origin`      | View Origin              | `O`       |
+
+### Minecraft
+
 | Identifier                 | In-Game Name                   | Default         |
 | -------------------------- | ------------------------------ | --------------- |
 | `key.sprint`               | Sprint                         | `Left Control`  |

@@ -9,7 +9,7 @@ date: 2021-04-04
 
 Executes an [Entity Action Type](../entity_action_types.md) on the entity that has the power when the entity kills another entity.
 
-Type ID: `apoli:self_action_on_kill`
+Type ID: `origins:self_action_on_kill`
 
 
 ### Fields
@@ -28,22 +28,22 @@ Field  | Type | Default | Description
 
 ```json
 {
-    "type": "apoli:self_action_on_kill",
+    "type": "origins:self_action_on_kill",
     "entity_action": {
-        "type": "apoli:heal",
+        "type": "origins:heal",
         "amount": 4.0
     },
     "cooldown": 100,
     "hud_render": {
         "should_render": true,
-        "sprite_location": "apoli:textures/gui/community/spiderkolo/resource_bar_01.png",
+        "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_01.png",
         "bar_index": 5
     },
     "condition": {
-        "type": "apoli:equipped_item",
+        "type": "origins:equipped_item",
         "equipment_slot": "mainhand",
         "item_condition": {
-            "type": "apoli:ingredient",
+            "type": "origins:ingredient",
             "ingredient": {
                 "item": "minecraft:iron_sword"
             }

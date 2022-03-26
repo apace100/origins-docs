@@ -9,6 +9,7 @@ date: 2021-04-04
 
 A data type of which the value can be either `true` or `false`.
 
+
 ### Examples
 
 ```json
@@ -17,7 +18,7 @@ A data type of which the value can be either `true` or `false`.
 }
 ```
 
-A `hidden` boolean set to true, which would hide the power it's in.
+A `hidden` boolean set to true, which would hide the power it's in from the list of powers of an origin in the origin menu.
 <br>
 
 ```json

@@ -9,7 +9,7 @@ date: 2021-12-07
 
 Casts a ray to the direction where the entity is looking.
 
-Type ID: `apoli:raycast`
+Type ID: `origins:raycast`
 
 
 ### Fields
@@ -30,21 +30,21 @@ Field | Type | Default | Description
 
 ```json
 "condition": {
-    "type": "apoli:raycast",
+    "type": "origins:raycast",
     "distance": 6,
     "block": true,
     "entity": true,
     "shape_type": "visual",
     "fluid_handling": "any",
     "match_bientity_condition": {
-        "type": "apoli:target_condition",
+        "type": "origins:target_condition",
         "condition": {
-            "type": "apoli:entity_type",
+            "type": "origins:entity_type",
             "entity_type": "minecraft:wolf"
         }
     },
     "hit_bientity_condition": {
-        "type": "apoli:owner"
+        "type": "origins:owner"
     }
 }
 ```

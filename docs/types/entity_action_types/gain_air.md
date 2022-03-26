@@ -9,7 +9,7 @@ date: 2021-04-05
 
 Restores breath (bubbles!) to a living entity.
 
-Type ID: `apoli:gain_air`
+Type ID: `origins:gain_air`
 
 
 ### Fields
@@ -23,7 +23,7 @@ Field  | Type | Default | Description
 
 ```json
 "entity_action": {
-    "type": "apoli:gain_air",
+    "type": "origins:gain_air",
     "value": 20
 }
 ```

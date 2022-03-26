@@ -9,7 +9,7 @@ date: 2021-04-08
 
 Provides a system where the entity that has the power gains/loses a stack per specified interval if the power is active or inactive respectively. If the stack count is greater than 0, the specified status effect(s) will be applied to the entity.
 
-Type ID: `apoli:stacking_status_effect`
+Type ID: `origins:stacking_status_effect`
 
 !!! note
 
@@ -32,7 +32,7 @@ Field  | Type | Default | Description
 
 ```json
 {
-  	"type": "apoli:stacking_status_effect",
+  	"type": "origins:stacking_status_effect",
   	"min_stacks": -20,
   	"max_stacks": 361,
   	"duration_per_stack": 10,
@@ -51,7 +51,7 @@ Field  | Type | Default | Description
     	}
   	],
   	"condition": {
-    	"type": "apoli:block_collision",
+    	"type": "origins:block_collision",
     	"offset_x": 0,
     	"offset_y": 1,
     	"offset_z": 0
@@ -64,7 +64,7 @@ This example will apply the Weakness I and Slowness I status effects that would 
 
 ```json
 {
-    "type": "apoli:stacking_status_effect",
+    "type": "origins:stacking_status_effect",
     "min_stacks": -3,
     "max_stacks": 1,
     "duration_per_stack": 100,
@@ -76,7 +76,7 @@ This example will apply the Weakness I and Slowness I status effects that would 
         "show_icon": true
     },
     "condition": {
-        "type": "apoli:exposed_to_sun"
+        "type": "origins:exposed_to_sun"
     }
 }
 ```

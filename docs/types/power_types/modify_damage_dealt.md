@@ -9,7 +9,7 @@ date: 2021-04-06
 
 Modifies how much melee damage the entity that has the power deals.
 
-Type ID: `apoli:modify_damage_dealt`
+Type ID: `origins:modify_damage_dealt`
 
 
 ### Fields
@@ -31,11 +31,11 @@ Field  | Type | Default | Description
 
 ```json
 {
-    "type": "apoli:modify_damage_dealt",
+    "type": "origins:modify_damage_dealt",
     "condition": {
-        "type": "apoli:in_block_anywhere",
+        "type": "origins:in_block_anywhere",
         "block_condition": {
-            "type": "apoli:block",
+            "type": "origins:block",
             "block": "minecraft:water"
         },
         "comparison": ">=",
@@ -54,9 +54,9 @@ This example will give the entity that has the power additional 2 and a half hea
 
 ```json
 {
-    "type": "apoli:modify_damage_dealt",
+    "type": "origins:modify_damage_dealt",
     "bientity_condition": {
-        "type": "apoli:owner"
+        "type": "origins:owner"
     },
     "modifier": {
         "operation": "multiply_total",

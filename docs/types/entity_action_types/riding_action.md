@@ -9,7 +9,7 @@ date: 2021-10-06
 
 Executes an action on the entity/entities that's being ridden by the entity.
 
-Type ID: `apoli:riding_action`
+Type ID: `origins:riding_action`
 
 !!! note
 
@@ -30,9 +30,9 @@ Field | Type | Default | Description
 
 ```json
 "entity_action": {
-    "type": "apoli:riding_action",
+    "type": "origins:riding_action",
     "action": {
-        "type": "apoli:apply_effect",
+        "type": "origins:apply_effect",
         "effect": {
             "effect": "minecraft:speed",
             "duration": 100,

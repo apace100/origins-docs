@@ -9,7 +9,7 @@ date: 2021-04-08
 
 Changes how far the player can see when submerged in lava.
 
-Type ID: `apoli:lava_vision`
+Type ID: `origins:lava_vision`
 
 
 ### Fields
@@ -24,7 +24,7 @@ Field  | Type | Default | Description
 
 ```json
 {
-  	"type": "apoli:lava_vision",
+  	"type": "origins:lava_vision",
   	"s": 0,
   	"v": 15
 }

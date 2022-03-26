@@ -7,9 +7,9 @@ date: 2021-10-03
 
 [Entity Action Type](../entity_action_types.md)
 
-Emits a 'game event' (or vibration) at the entity's position.
+Emits a 'game event' at the entity's position.
 
-Type ID: `apoli:emit_game_event`
+Type ID: `origins:emit_game_event`
 
 
 ### Fields
@@ -23,7 +23,7 @@ Field | Type | Default | Description
 
 ```json
 "entity_action": {
-    "type": "apoli:emit_game_event",
+    "type": "origins:emit_game_event",
     "event": "minecraft:ring_bell"
 }
 ```

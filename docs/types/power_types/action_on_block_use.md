@@ -9,7 +9,7 @@ date: 2021-11-30
 
 Executes a [Block Action Type](../bientity_action_types.md) and/or [Item Action Types](../item_action_types.md) when the player that has the power "uses" (right-clicks) a block.
 
-Type ID: `apoli:action_on_block_use`
+Type ID: `origins:action_on_block_use`
 
 
 ### Fields
@@ -32,13 +32,13 @@ Field | Type | Default | Description
 
 ```json
 {
-	"type": "apoli:action_on_block_use",
+	"type": "origins:action_on_block_use",
 	"block_action": {
-		"type": "apoli:set_block",
+		"type": "origins:set_block",
 		"block": "minecraft:gold_block"
 	},
 	"block_condition": {
-		"type": "apoli:block",
+		"type": "origins:block",
 		"block": "minecraft:iron_block"
 	},
 	"directions": [
@@ -46,7 +46,7 @@ Field | Type | Default | Description
 		"down"
 	],
 	"condition": {
-		"type": "apoli:sprinting"
+		"type": "origins:sprinting"
 	}
 }
 ```

@@ -9,7 +9,7 @@ date: 2021-04-06
 
 Modifies how much XP the player gains when they pick up an experience orb.
 
-Type ID: `apoli:modify_xp_gain`
+Type ID: `origins:modify_xp_gain`
 
 !!! note
 
@@ -29,7 +29,7 @@ Field  | Type | Default | Description
 
 ```json
 {
-    "type": "apoli:modify_xp_gain",
+    "type": "origins:modify_xp_gain",
     "modifier": {
         "operation": "multiply_base",
         "value": 2.0

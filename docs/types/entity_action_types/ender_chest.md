@@ -9,7 +9,7 @@ date: 2021-12-03
 
 Brings up the Ender Chest GUI as if the player has interacted with one.
 
-Type ID: `apoli:ender_chest`
+Type ID: `origins:ender_chest`
 
 
 ### Fields
@@ -21,6 +21,6 @@ _None._
 
 ```json
 "entity_action": {
-    "type": "apoli:ender_chest"
+    "type": "origins:ender_chest"
 }
 ```

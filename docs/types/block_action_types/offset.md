@@ -9,7 +9,7 @@ date: 2021-04-05
 
 Executes the provided [Block Action Type](../block_action_types.md) at the position offset from the current position.
 
-Type ID: `apoli:offset`
+Type ID: `origins:offset`
 
 
 ### Fields
@@ -26,9 +26,9 @@ Field  | Type | Default | Description
 
 ```json
 "block_action": {
-    "type": "apoli:offset",
+    "type": "origins:offset",
     "action": {
-        "type": "apoli:add_block",
+        "type": "origins:add_block",
         "block": "minecraft:gravel"
     },
     "y": 1

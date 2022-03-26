@@ -9,16 +9,18 @@ date: 2021-04-05
 
 Checks whether the block is exposed to the sky.
 
-Type ID: `apoli:exposed_to_sky`
+Type ID: `origins:exposed_to_sky`
+
 
 ### Fields
 
 _None._
 
+
 ### Examples
 
 ```json
 "block_condition": {
-    "type": "apoli:exposed_to_sky"
+    "type": "origins:exposed_to_sky"
 }
 ```

@@ -15,7 +15,7 @@ An [Object](object.md) used to define how a resource or cooldown bar should be r
 Field  | Type | Default | Description
 -------|------|---------|-------------
 `should_render` | [Boolean](boolean.md) | `true` | Whether the bar should be visible or not.
-`sprite_location` | [Identifier](identifier.md) | `"resourcepack:textures/gui/resource_bar.png"` | The path to the file in the assets which contains what the bar looks like.
+`sprite_location` | [Identifier](identifier.md) | `"origins:textures/gui/resource_bar.png"` | The path to the file in the assets which contains what the bar looks like. See the [List of sprites](../../misc/extras/sprites.md) for a list of files included by default in the mod.
 `bar_index` | [Integer](integer.md) | `0` | The indexed position of the bar on the sprite to use. Please note that indexes start at 0.
 `condition` | [Entity Condition Type](../entity_condition_types.md) | _optional_ | If set (and `should_render` is true), the bar will only display when the entity with the power fulfills this condition.
 `inverted` | [Boolean](boolean.md) | `false` | If set to true, inverts the way the hud render process (it'll look like its value is being decreased).
@@ -27,8 +27,8 @@ Field  | Type | Default | Description
 "hud_render": {
 	"bar_index": 4,
 	"condition": {
-		"type": "apoli:power_active",
-		"power": "apoli:phantomize"
+		"type": "origins:power_active",
+		"power": "origins:phantomize"
 	}
 }
 ```
@@ -38,7 +38,7 @@ This definition shows the resource/cooldown as the Elytrian bar (white and with 
 
 ```json
 "hud_render": {
-    "sprite_location": "apoli:textures/gui/community/spiderkolo/resource_bar_03.png",
+    "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_03.png",
     "bar_index": 5
 }
 ```

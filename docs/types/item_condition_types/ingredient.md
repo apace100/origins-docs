@@ -9,7 +9,7 @@ date: 2021-04-05
 
 Checks whether the item matches a specified [Item Condition Type](../item_condition_types.md). Essentially, checking either for the item ID or whether the item is in a specified tag.
 
-Type ID: `apoli:ingredient`
+Type ID: `origins:ingredient`
 
 
 ### Fields
@@ -23,7 +23,7 @@ Field  | Type | Default | Description
 
 ```json
 "item_condition": {
-    "type": "apoli:ingredient",
+    "type": "origins:ingredient",
     "ingredient": {
         "item": "minecraft:egg"
     }
@@ -35,7 +35,7 @@ This example will check if the item is a `minecraft:egg` item.
 
 ```json
 "item_condition": {
-    "type": "apoli:ingredient",
+    "type": "origins:ingredient",
     "ingredient": {
         "tag": "minecraft:flowers"
     }

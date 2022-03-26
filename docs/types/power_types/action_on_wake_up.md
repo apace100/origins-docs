@@ -9,7 +9,7 @@ date: 2021-04-04
 
 Executes an [Entity Action Type](../entity_action_types.md) or a [Block Action type](../block_action_types.md) when the player wakes up after sleeping.
 
-Type ID: `apoli:action_on_wake_up`
+Type ID: `origins:action_on_wake_up`
 
 
 ### Fields
@@ -26,16 +26,16 @@ Field  | Type | Default | Description
 
 ```json
 {
-    "type": "apoli:action_on_wake_up",
+    "type": "origins:action_on_wake_up",
     "entity_action": {
-        "type": "apoli:and",
+        "type": "origins:and",
         "actions": [
             {
-                "type": "apoli:execute_command",
+                "type": "origins:execute_command",
                 "command": "title @s actionbar {\"translate\": \"You feel %1$s but %2$s\", \"color\": \"yellow\", \"with\": [{\"text\": \"rejuvenated\", \"color\": \"green\"}, {\"text\": \"hungry...\", \"color\": \"red\"}]}"
             },
             {
-                "type": "apoli:apply_effect",
+                "type": "origins:apply_effect",
                 "effects": [
                     {
                         "effect": "minecraft:regeneration",
@@ -58,7 +58,7 @@ Field  | Type | Default | Description
         ]
     },
     "block_condition": {
-        "type": "apoli:block",
+        "type": "origins:block",
         "block": "minecraft:red_bed"
     }
 }

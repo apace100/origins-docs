@@ -9,7 +9,7 @@ date: 2021-10-07
 
 Checks whether any of the entities in the riding chain is the actor entity.
 
-Type ID: `apoli:passenger_recursive`
+Type ID: `origins:passenger_recursive`
 
 
 ### Fields
@@ -25,11 +25,11 @@ Field | Type | Default | Description
 
 ```json
 "condition": {
-    "type": "apoli:passenger_recursive",
+    "type": "origins:passenger_recursive",
     "bientity_condition": {
-        "type": "apoli:actor_condition",
+        "type": "origins:actor_condition",
         "condition": {
-            "type": "apoli:entity_type",
+            "type": "origins:entity_type",
             "entity_type": "minecraft:armor_stand"
         }
     },

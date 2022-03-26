@@ -9,7 +9,7 @@ date: 2021-04-07
 
 Prevents sleeping and sends the player a message about why they can't sleep.
 
-Type ID: `apoli:prevent_sleep`
+Type ID: `origins:prevent_sleep`
 
 
 ### Fields
@@ -20,17 +20,15 @@ Field  | Type | Default | Description
 `message` | [String](../data_types/string.md) | `"origins.cant_sleep"` | The message that will be shown when sleep is prevented this way. Can be a literal text or a translation key which will be localized using a language file.
 `set_spawn_point` | [Boolean](../data_types/boolean.md) | `false` | Determines whether the spawnpoint of the player is set upon right-clicking a bed while being prevented. (similar to what happens when you right-click a bed while it's daytime)
 
-[//]: # (That's literally the default value for `message`. `origins.cant_sleep`...)
-
 
 ### Examples
 
 ```json
 {
-    "type": "apoli:prevent_sleep",
+    "type": "origins:prevent_sleep",
 	"message": "It's not hot enough for you to sleep",
     "condition": {
-		"type": "apoli:on_fire",
+		"type": "origins:on_fire",
 		"inverted": true
 	}
 }

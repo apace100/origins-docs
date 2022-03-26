@@ -9,7 +9,7 @@ date: 2021-10-02
 
 Modifies the result item of a recipe using an [Item Action Type](../item_action_types.md) or an [Item Stack](../data_types/item_stack.md). It can also execute an [Entity Action Type](../entity_action_types.md) on the player and a [Block Action](../block_action_types.md) at the block used for crafting the recipe.
 
-Type ID: `apoli:modify_crafting`
+Type ID: `origins:modify_crafting`
 
 !!! caution
 
@@ -32,7 +32,7 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "apoli:modify_crafting",
+    "type": "origins:modify_crafting",
     "recipe": "minecraft:wooden_sword",
     "result": {
         "item": "minecraft:diamond_sword"

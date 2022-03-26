@@ -9,7 +9,7 @@ date: 2021-10-07
 
 Checks if the entity is an instance of [`LivingEntity`](https://maven.fabricmc.net/docs/yarn-1.17.1+build.64/net/minecraft/entity/LivingEntity.html).
 
-Type ID: `apoli:living`
+Type ID: `origins:living`
 
 
 ### Fields
@@ -21,6 +21,6 @@ _None._
 
 ```json
 "condition": {
-    "type": "apoli:living"
+    "type": "origins:living"
 }
 ```

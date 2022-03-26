@@ -9,7 +9,7 @@ date: 2021-12-07
 
 Checks if the entity has the specified ability enabled.
 
-Type ID: `apoli:ability`
+Type ID: `origins:ability`
 
 
 ### Fields
@@ -23,7 +23,7 @@ Field | Type | Default | Description
 
 ```json
 "condition": {
-    "type": "apoli:ability",
+    "type": "origins:ability",
     "ability": "minecraft:mayfly"
 }
 ```

@@ -9,7 +9,7 @@ date: 2021-12-03
 
 Makes certain items persist in the entity's inventory.
 
-Type ID: `apoli:keep_inventory`
+Type ID: `origins:keep_inventory`
 
 
 ### Fields
@@ -24,7 +24,7 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "apoli:keep_inventory",
+    "type": "origins:keep_inventory",
     "slots": [
         0,
         1,

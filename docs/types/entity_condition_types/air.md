@@ -9,7 +9,7 @@ date: 2021-04-04
 
 Checks how much breath / air / bubble the entity has at the moment.
 
-Type ID: `apoli:air`
+Type ID: `origins:air`
 
 !!! note
 
@@ -30,7 +30,7 @@ Field  | Type | Default | Description
 
 ```json
 "condition": {
-    "type": "apoli:air",
+    "type": "origins:air",
     "comparison": "==",
     "compare_to": 0
 }

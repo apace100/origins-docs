@@ -9,7 +9,7 @@ date: 2021-04-07
 
 Provides a cooldown; can be used for providing cooldowns to power types that do not have a built-in cooldown or as a simple timer.
 
-Type ID: `apoli:cooldown`
+Type ID: `origins:cooldown`
 
 !!! note
 
@@ -29,7 +29,7 @@ Field  | Type | Default | Description
 
 ```json
 {
-    "type": "apoli:cooldown",
+    "type": "origins:cooldown",
     "cooldown": 200,
     "hud_render": {
         "should_render": true,

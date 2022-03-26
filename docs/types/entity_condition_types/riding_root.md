@@ -9,7 +9,7 @@ date: 2021-10-07
 
 Checks whether the actor entity is riding the target entity from the very end of the riding chain.
 
-Type ID: `apoli:riding_root`
+Type ID: `origins:riding_root`
 
 
 ### Fields
@@ -23,11 +23,11 @@ Field | Type | Default | Description
 
 ```json
 "condition": {
-    "type": "apoli:riding_root",
+    "type": "origins:riding_root",
     "bientity_condition": {
-        "type": "apoli:target_condition",
+        "type": "origins:target_condition",
         "condition": {
-            "type": "apoli:entity_type",
+            "type": "origins:entity_type",
             "entity_type": "minecraft:pig"
         }
     }

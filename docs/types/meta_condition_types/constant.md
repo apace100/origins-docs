@@ -9,7 +9,7 @@ date: 2021-04-07
 
 Provides a constant state where it's either true or false. Mainly added as a backup case in case a condition is required in some power/action/condition types.
 
-Type ID: `apoli:constant`
+Type ID: `origins:constant`
 
 
 ### Fields
@@ -23,7 +23,7 @@ Field  | Type | Default | Description
 
 ```json
 "condition": {
-    "type": "apoli:constant",
+    "type": "origins:constant",
     "value": true
 }
 ```

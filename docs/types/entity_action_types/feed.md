@@ -9,7 +9,7 @@ date: 2021-04-05
 
 Feeds the entity, filling up their hunger bar as if they had eaten a food item with the provided values.
 
-Type ID: `apoli:feed`
+Type ID: `origins:feed`
 
 !!! note
 
@@ -32,7 +32,7 @@ Field  | Type | Default | Description
 
 ```json
 "entity_action": {
-    "type": "apoli:feed",
+    "type": "origins:feed",
     "food": 4,
     "saturation": 2
 }

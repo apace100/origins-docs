@@ -9,7 +9,7 @@ date: 2021-11-30
 
 Prevents an entity colliding with the entity who has this power, if all conditions are met.
 
-Type ID: `apoli:prevent_entity_collision`
+Type ID: `origins:prevent_entity_collision`
 
 
 ### Fields
@@ -23,9 +23,9 @@ Field  | Type | Default | Description
 
 ```json
 {
-    "type": "apoli:prevent_entity_collision",
+    "type": "origins:prevent_entity_collision",
     "bientity_condition": {
-        "type": "apoli:attacker"
+        "type": "origins:attacker"
     }
 }
 ```

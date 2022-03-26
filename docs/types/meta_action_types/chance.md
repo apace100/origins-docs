@@ -9,7 +9,7 @@ date: 2021-04-07
 
 Executes the provided action only with a specific chance.
 
-Type ID: `apoli:chance`
+Type ID: `origins:chance`
 
 
 ### Fields
@@ -25,9 +25,9 @@ Field  | Type | Default | Description
 
 ```json
 "entity_action": {
-    "type": "apoli:chance",
+    "type": "origins:chance",
     "action": {
-        "type": "apoli:set_on_fire",
+        "type": "origins:set_on_fire",
         "duration": 5
     },
     "chance": 0.4

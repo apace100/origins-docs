@@ -9,7 +9,7 @@ date: 2021-10-02
 
 Applies an [item modifier](https://minecraft.fandom.com/wiki/Item_modifier) to the item stack.
 
-Type ID: `apoli:modify`
+Type ID: `origins:modify`
 
 
 ### Fields
@@ -24,12 +24,12 @@ Field | Type | Default | Description
 
 ```json
 "item_action": {
-    "type": "apoli:modify",
-    "modifier": "example:add_lore"
+    "type": "origins:modify",
+    "modifier": "example:stuff"
 }
 ```
 
-This example will apply the `test:add_lore` (`data/test/item_modifiers/add_lore.json`) item modifier to the item stack.
+This example will apply the `example:stuff` (`data/example/item_modifiers/stuff.json`) item modifier to the item stack.
 <br>
 
 ```json
@@ -46,4 +46,4 @@ This example will apply the `test:add_lore` (`data/test/item_modifiers/add_lore.
 }
 ```
 
-This being the contents of the `test:add_lore` (`data/test/item_modifiers/add_lore.json`) item modifier.
+This being the contents of the `example:stuff` (`data/example/item_modifiers/stuff.json`) item modifier.

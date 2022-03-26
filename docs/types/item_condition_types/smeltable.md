@@ -9,7 +9,7 @@ date: 2021-11-30
 
 Checks if the item stack is an ingredient used in a smelting recipe.
 
-Type ID: `apoli:smeltable`
+Type ID: `origins:smeltable`
 
 
 ### Fields
@@ -21,6 +21,6 @@ _None._
 
 ```json
 "item_condition": {
-    "type": "apoli:smeltable"
+    "type": "origins:smeltable"
 }
 ```

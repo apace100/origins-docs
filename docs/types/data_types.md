@@ -18,10 +18,11 @@ Data types are used everywhere in the JSON files. Every field in a JSON has to h
 * [String](data_types/string.md)
 
 
-### Apoli-specific
+### Origins-specific
 
 * [Attribute Modifier](data_types/attribute_modifier.md)
 * [Attributed Attribute Modifier](data_types/attributed_attribute_modifier.md)
+* [Badge](data_types/badge.md)
 * [Comparison](data_types/comparison.md)
 * [Crafting Recipe](data_types/crafting_recipe.md)
 * [Damage Source](data_types/damage_source.md)

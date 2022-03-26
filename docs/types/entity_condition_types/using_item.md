@@ -9,7 +9,7 @@ date: 2021-04-04
 
 Checks whether the entity is currently using an item (eating a food item, using a shield, drawing a bow, etc.) that fulfills the specified [Item Condition Type](../item_condition_types.md).
 
-Type ID: `apoli:using_item`
+Type ID: `origins:using_item`
 
 
 ### Fields
@@ -23,9 +23,9 @@ Field  | Type | Default | Description
 
 ```json
 "condition": {
-    "type": "apoli:using_item",
+    "type": "origins:using_item",
     "item_condition": {
-        "type": "apoli:food"
+        "type": "origins:food"
     }
 }
 ```

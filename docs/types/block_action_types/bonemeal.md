@@ -9,19 +9,21 @@ date: 2021-12-02
 
 Applies bone meal to the target block as if a dispenser or a player used a Bone Meal item to it.
 
-Type ID: `apoli:bonemeal`
+Type ID: `origins:bonemeal`
+
 
 ### Fields
 
-| Field     | Type                                | Default | Description                                                                                   |
-| --------- | ----------------------------------- | ------- | --------------------------------------------------------------------------------------------- |
-| `effects` | [Boolean](../data_types/boolean.md) | `true`  | Determines if the particle and other visual effects of the bonemeal-ing action should appear. |
+Field | Type | Default | Description
+------|------|---------|------------
+`effects` | [Boolean](../data_types/boolean.md) | `true` | Determines if the particle and other visual effects of the bonemeal-ing action should appear.
+
 
 ### Examples
 
 ```json
 "block": {
-    "type": "apoli:bonemeal",
+    "type": "origins:bonemeal",
     "effects": false
 }
 ```

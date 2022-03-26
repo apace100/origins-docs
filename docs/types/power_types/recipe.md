@@ -9,7 +9,7 @@ date: 2021-04-08
 
 Allows a player with this power to craft the defined crafting recipe.
 
-Type ID: `apoli:recipe`
+Type ID: `origins:recipe`
 
 
 ### Fields
@@ -23,9 +23,9 @@ Field  | Type | Default | Description
 
 ```json
 {
-    "type": "apoli:recipe",
+    "type": "origins:recipe",
     "recipe": {
-      	"id": "test:web_crafting",
+      	"id": "origins:master_of_webs/web_crafting",
       	"type": "minecraft:crafting_shapeless",
       	"ingredients": [
         	{

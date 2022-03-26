@@ -9,7 +9,7 @@ date: 2021-04-08
 
 Allows the entity that has the power to climb.
 
-Type ID: `apoli:climbing`
+Type ID: `origins:climbing`
 
 !!! note
 
@@ -28,19 +28,19 @@ Field  | Type | Default | Description
 
 ```json
 {
-    "type": "apoli:climbing",
+    "type": "origins:climbing",
     "condition": {
-		"type": "apoli:in_block_anywhere",
+		"type": "origins:in_block_anywhere",
 		"block_condition": {
-			"type": "apoli:block",
-			"block": "minecraft:cobweb"
+			"type": "origins:in_tag",
+			"tag": "origins:cobwebs"
 		}
     },
     "hold_condition": {
-		"type": "apoli:in_block_anywhere",
+		"type": "origins:in_block_anywhere",
 		"block_condition": {
-			"type": "apoli:block",
-			"block": "minecraft:cobweb"
+			"type": "origins:in_tag",
+			"tag": "origins:cobwebs"
 		}
     }
 }

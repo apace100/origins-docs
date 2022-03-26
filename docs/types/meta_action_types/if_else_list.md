@@ -9,7 +9,7 @@ date: 2021-04-07
 
 Checks a list of actions associated with conditions, and executes the first one in the list for which the condition holds. Basically a less indentation-heavy way to represent a deeply nested [If-Else (Meta Action Type)](if_else.md).
 
-Type ID: `apoli:if_else_list`
+Type ID: `origins:if_else_list`
 
 !!! note
 
@@ -35,16 +35,16 @@ Field  | Type | Default | Description
 
 ```json
 "entity_action": {
-	"type": "apoli:if_else_list",
+	"type": "origins:if_else_list",
 	"actions": [
 		{
 			"condition": {
-				"type": "apoli:health",
+				"type": "origins:health",
 				"comparison": "<=",
 				"compare_to": 6
 			},
 			"action": {
-				"type": "apoli:apply_effect",
+				"type": "origins:apply_effect",
 				"effect": {
 					"effect": "minecraft:speed",
 					"amplifier": 2,
@@ -54,12 +54,12 @@ Field  | Type | Default | Description
 		},
 		{
 			"condition": {
-				"type": "apoli:health",
+				"type": "origins:health",
 				"comparison": "<=",
 				"compare_to": 12
 			},
 			"action": {
-				"type": "apoli:apply_effect",
+				"type": "origins:apply_effect",
 				"effect": {
 					"effect": "minecraft:speed",
 					"amplifier": 1,
@@ -69,14 +69,15 @@ Field  | Type | Default | Description
 		},
 		{
 			"condition": {
-				"type": "apoli:health",
+				"type": "origins:health",
 				"comparison": "<=",
 				"compare_to": 18
 			},
 			"action": {
-				"type": "apoli:apply_effect",
+				"type": "origins:apply_effect",
 				"effect": {
 					"effect": "minecraft:speed",
+					"amplifier": 0,
 					"duration": 80
 				}
 			}

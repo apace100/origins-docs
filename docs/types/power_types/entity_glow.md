@@ -9,7 +9,7 @@ date: 2021-04-08
 
 Makes other entities glow (as with the glowing status effect), but only for the player that has the power.
 
-Type ID: `apoli:entity_glow`
+Type ID: `origins:entity_glow`
 
 
 ### Fields
@@ -28,19 +28,19 @@ Field  | Type | Default | Description
 
 ```json
 {
-	"type": "apoli:entity_glow",
+	"type": "origins:entity_glow",
     "entity_condition": {
-      	"type": "apoli:and",
+      	"type": "origins:and",
       	"conditions": [
         	{
-          		"type": "apoli:in_block_anywhere",
+          		"type": "origins:in_block_anywhere",
           		"block_condition": {
-            		"type": "apoli:block",
-            		"block": "minecraft:cobweb"
+            		"type": "origins:in_tag",
+            		"tag": "origins:cobwebs"
           		}
         	},
         	{
-          		"type": "apoli:entity_group",
+          		"type": "origins:entity_group",
           		"group": "arthropod",
           		"inverted": true
         	}
@@ -49,14 +49,14 @@ Field  | Type | Default | Description
 }
 ```
 
-This example will make all entities which are not arthropods glow when they're in a cobweb. The glow is the same color as the entity's team.
+This example will make all entities which are not arthropods glow when they're in cobwebs. The glow is the same color as the entity's team.
 <br>
 
 ```json
 {
-	"type": "apoli:entity_glow",
+	"type": "origins:entity_glow",
     "bientity_condition": {
-		"type": "apoli:can_see"
+		"type": "origins:can_see"
 	},
 	"use_teams": false,
 	"red": 0.0,

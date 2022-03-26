@@ -33,7 +33,7 @@ Field  | Type | Default | Description
 ```json
 "recipe": {
 	"type": "minecraft:crafting_shapeless",
-	"id": "apoli:fire_charge_without_blaze_powder",
+	"id": "origins:fire_charge_without_blaze_powder",
 	"ingredients": [
 	    {
 	      	"item": "minecraft:gunpowder"
@@ -71,7 +71,7 @@ Field  | Type | Default | Description
 ```json
 "recipe": {
 	"type": "minecraft:crafting_shaped",
-	"id": "apoli:sideways_birch_boat",
+	"id": "origins:sideways_birch_boat",
 	"pattern": [
 	    "##",
 	    " #",

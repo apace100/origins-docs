@@ -3,11 +3,9 @@ title: Defining a Power
 date: 2021-05-02
 ---
 
-[//]: # (Unused)
-
 # Defining a Power in JSON
 
-Powers are used by Origiins to define functionality. Each Origin is a set of these powers. Since origiins v0.4.0, powers are data-driven, allowing you to change and add powers via datapacks.
+Powers are used by Origins to define functionality. Each Origin is a set of these powers. Since Origins v0.4.0, powers are data-driven, allowing you to change and add powers via datapacks.
 
 In order for the game to load powers, they have to go in the correct path of the data pack. The full path of a power file should look like this: `data/<namespace>/powers/<power_id>.json`.
 
@@ -23,7 +21,7 @@ Most often, if you want to do something to a target you're hitting, [Target Acti
 
 ```json
 {
-	"type": "origiins:target_action_on_hit",
+	"type": "origins:target_action_on_hit",
 	"name": "Holy Fire",
 	"description": "Your divine grace sets the undead ablaze when you hit them."
 }
@@ -35,11 +33,13 @@ Now, onto the actual functionality. As can be seen on the [Target Action On Hit 
 
 ```json
 {
-	"type": "origiins:target_action_on_hit",
+	"type": "origins:target_action_on_hit",
 	"name": "Holy Fire",
 	"description": "Your divine grace sets the undead ablaze when you hit them.",
 	"cooldown": 1,
-	"entity_action": {}
+	"entity_action": {
+
+	}
 }
 ```
 
@@ -47,12 +47,12 @@ As you can see from the JSON above, I already began adding the `entity_action` f
 
 ```json
 {
-	"type": "origiins:target_action_on_hit",
+	"type": "origins:target_action_on_hit",
 	"name": "Holy Fire",
 	"description": "Your divine grace sets the undead ablaze when you hit them.",
 	"cooldown": 1,
 	"entity_action": {
-		"type": "origiins:set_on_fire",
+		"type": "origins:set_on_fire",
 		"duration": 4
 	}
 }
@@ -64,16 +64,16 @@ Doing that, you probably noticed that this power burns everything you hit, not j
 
 ```json
 {
-	"type": "origiins:target_action_on_hit",
+	"type": "origins:target_action_on_hit",
 	"name": "Holy Fire",
 	"description": "Your divine grace sets the undead ablaze when you hit them.",
 	"cooldown": 1,
 	"entity_action": {
-		"type": "origiins:set_on_fire",
+		"type": "origins:set_on_fire",
 		"duration": 4
 	},
 	"target_condition": {
-		"type": "origiins:entity_group",
+		"type": "origins:entity_group",
 		"group": "undead"
 	}
 }
@@ -85,6 +85,6 @@ Hopefully this tutorial has shed some light into the process of creating powers,
 
 ### Related pages
 
--   [Power Types](../../types/power_types.md)
--   [Power JSON](../../json/power.md)
--   [Origin JSON](../../json/origin.md)
+* [Power Types](../../types/power_types.md)
+* [Power JSON](../../json/power.md)
+* [Origin JSON](../../json/origin.md)

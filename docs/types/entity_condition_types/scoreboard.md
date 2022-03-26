@@ -9,7 +9,7 @@ date: 2021-04-04
 
 Compares the score of the entity from a specified scoreboard objective to a specified value.
 
-Type ID: `apoli:scoreboard`
+Type ID: `origins:scoreboard`
 
 !!! note
 
@@ -17,7 +17,7 @@ Type ID: `apoli:scoreboard`
 
 !!! caution
 
-    This condition is only effective server-side. That means client-side power types such as [`apoli:climbing`](../power_types/climbing.md), [`apoli:entity_glow`](../power_types/entity_glow.md), [`apoli:shader`](../power_types/shader.md), etc. won't work with this.
+    This condition is only effective server-side. That means client-side power types such as [`origins:climbing`](../power_types/climbing.md), [`origins:entity_glow`](../power_types/entity_glow.md), [`origins:shader`](../power_types/shader.md), etc. won't work with this.
 
 
 ### Fields
@@ -33,7 +33,7 @@ Field  | Type | Default | Description
 
 ```json
 "condition": {
-    "type": "apoli:scoreboard",
+    "type": "origins:scoreboard",
     "objective": "obj",
     "comparison": ">",
     "compare_to": 3

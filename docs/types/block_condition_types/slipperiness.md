@@ -9,20 +9,22 @@ date: 2021-12-09
 
 Checks the slipperiness value of the block.
 
-Type ID: `apoli:slipperiness`
+Type ID: `origins:slipperiness`
+
 
 ### Fields
 
-| Field        | Type                                      | Default | Description                                                                            |
-| ------------ | ----------------------------------------- | ------- | -------------------------------------------------------------------------------------- |
-| `comparison` | [Comparison](../data_types/comparison.md) |         | Determines how the slipperiness value of the block is compared to the specified value. |
-| `compare_to` | [Float](../data_types/float.md)           |         | The value to compare the slipperiness value of the block to.                           |
+Field | Type | Default | Description
+------|------|---------|------------
+`comparison` | [Comparison](../data_types/comparison.md) | | Determines how the slipperiness value of the block is compared to the specified value.
+`compare_to` | [Float](../data_types/float.md) | | The value to compare the slipperiness value of the block to.
+
 
 ### Examples
 
 ```json
 "block_condition": {
-    "type": "apoli:slipperiness",
+    "type": "origins:slipperiness",
     "comparison": "<=",
     "compare_to": 0.98
 }

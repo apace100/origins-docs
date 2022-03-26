@@ -9,7 +9,7 @@ date: 2021-10-05
 
 Executes a [Bi-entity Action Type](../bientity_action_types.md) or [Item Action Types](../item_action_types.md) when the player that has the power "uses" (right-clicks) an entity.
 
-Type ID: `apoli:action_on_entity_use`
+Type ID: `origins:action_on_entity_use`
 
 
 ### Fields
@@ -30,34 +30,34 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "apoli:action_on_entity_use",
+    "type": "origins:action_on_entity_use",
     "bientity_action": {
-        "type": "apoli:target_action",
+        "type": "origins:target_action",
         "action": {
-            "type": "apoli:and",
+            "type": "origins:and",
             "actions": [
                 {
-                    "type": "apoli:heal",
+                    "type": "origins:heal",
                     "amount": 2
                 },
                 {
-                    "type": "apoli:execute_command",
+                    "type": "origins:execute_command",
                     "command": "particle heart ~ ~0.5 ~ 0.3 0.3 0.3 0.009 4 normal @a"
                 }
             ]
         }
     },
     "bientity_condition": {
-        "type": "apoli:owner"
+        "type": "origins:owner"
     },
     "item_condition": {
-        "type": "apoli:empty"
+        "type": "origins:empty"
     },
     "hands": [
         "main_hand"
     ],
     "condition": {
-        "type": "apoli:sneaking"
+        "type": "origins:sneaking"
     }
 }
 ```

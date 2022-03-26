@@ -9,16 +9,17 @@ date: 2021-04-04
 
 Checks whether the entity is colliding horizontally (walking against a block).
 
-Type ID: `apoli:collided_horizontally`
+Type ID: `origins:collided_horizontally`
+
 
 ### Fields
 
 _None._
 
-### Examples
 
+### Examples
 ```json
 "condition": {
-    "type": "apoli:collided_horizontally"
+    "type": "origins:collided_horizontally"
 }
 ```

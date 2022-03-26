@@ -9,7 +9,7 @@ date: 2021-04-06
 
 Executes all provided actions in order.
 
-Type ID: `apoli:and`
+Type ID: `origins:and`
 
 
 ### Fields
@@ -23,14 +23,14 @@ Field  | Type | Default | Description
 
 ```json
 "entity_action": {
-    "type": "apoli:and",
+    "type": "origins:and",
     "actions": [
         {
-            "type": "apoli:exhaust",
+            "type": "origins:exhaust",
             "amount": 0.5
         },
         {    
-            "type": "apoli:apply_effect",
+            "type": "origins:apply_effect",
             "effect": {
             "effect": "minecraft:regeneration",
             "amplifier": 1,

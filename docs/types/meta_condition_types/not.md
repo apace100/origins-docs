@@ -21,7 +21,7 @@ Field  | Type | Default | Description
 
 ```json
 "condition": {
-    "type": "apoli:sprinting",
+    "type": "origins:sprinting",
     "inverted": true
 }
 ```

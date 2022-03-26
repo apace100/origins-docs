@@ -9,17 +9,19 @@ date: 2021-10-13
 
 Does nothing. Can be used as a backup in case an action is not optional in some place.
 
-Type ID: `apoli:nothing`
+Type ID: `origins:nothing`
+
 
 ### Fields
 
 _None._
 
+
 ### Examples
 
 ```json
 "entity_action": {
-    "type": "apoli:nothing"
+    "type": "origins:nothing"
 }
 ```
 
@@ -28,7 +30,7 @@ This example does.. nothing.
 
 ```json
 "bientity_action": {
-    "type": "apoli:nothing"
+    "type": "origins:nothing"
 }
 ```
 

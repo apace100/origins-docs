@@ -9,7 +9,7 @@ date: 2021-04-08
 
 Modifies how much damage the projectile of the entity that has the power deals.
 
-Type ID: `apoli:modify_projectile_damage`
+Type ID: `origins:modify_projectile_damage`
 
 
 ### Fields
@@ -29,9 +29,9 @@ Field  | Type | Default | Description
 
 ```json
 {
-    "type": "apoli:modify_projectile_damage",
+    "type": "origins:modify_projectile_damage",
     "damage_condition": {
-        "type": "apoli:projectile",
+        "type": "origins:projectile",
         "projectile": "minecraft:spectral_arrow"
     },
     "modifier": {

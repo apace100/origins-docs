@@ -9,7 +9,7 @@ date: 2021-10-06
 
 Makes the entity that has the power glow if certain conditions are met.
 
-Type ID: `apoli:self_glow`
+Type ID: `origins:self_glow`
 
 
 ### Fields
@@ -28,13 +28,13 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "apoli:self_glow",
+    "type": "origins:self_glow",
     "use_teams": false,
     "red": 0.56862745098,
     "green": 0.89019607843,
     "blue": 0.65098039215,
     "condition": {
-        "type": "apoli:in_rain"
+        "type": "origins:in_rain"
     }
 }
 ```
@@ -44,9 +44,9 @@ This example will make the entity that has the power glow for everyone if the en
 
 ```json
 {
-    "type": "apoli:self_glow",
+    "type": "origins:self_glow",
     "bientity_condition": {
-        "type": "apoli:can_see"
+        "type": "origins:can_see"
     },
     "use_teams": false,
     "red": 1.0,

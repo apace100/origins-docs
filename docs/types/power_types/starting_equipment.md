@@ -9,7 +9,7 @@ date: 2021-04-08
 
 Provides the player with items when the power is granted.
 
-Type ID: `apoli:starting_equipment`
+Type ID: `origins:starting_equipment`
 
 
 ### Fields
@@ -25,7 +25,7 @@ Field  | Type | Default | Description
 
 ```json
 {
-  	"type": "apoli:starting_equipment",
+  	"type": "origins:starting_equipment",
   	"stacks": [
     	{
       		"item": "minecraft:compass"
@@ -41,12 +41,12 @@ Field  | Type | Default | Description
 }
 ```
 
-This example will give the player the "Explorer Kit" known from the Origins: Classes mod, which consists of a compass, a clock and 9 empty maps.
+This example will give the player the "Explorer Kit" known from Origins: Classes that consists of a compass, a clock and 9 empty maps.
 <br>
 
 ```json
 {
-    "type": "apoli:starting_equipment",
+    "type": "origins:starting_equipment",
     "stacks": [
         {
             "item": "minecraft:white_stained_glass",

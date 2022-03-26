@@ -9,7 +9,7 @@ date: 2021-04-05
 
 Checks whether the item is a food component.
 
-Type ID: `apoli:food`
+Type ID: `origins:food`
 
 
 ### Fields
@@ -21,7 +21,7 @@ _None._
 
 ```json
 "item_condition": {
-    "type": "apoli:food"
+    "type": "origins:food"
 }
 ```
 

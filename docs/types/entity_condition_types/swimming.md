@@ -9,7 +9,7 @@ date: 2021-04-04
 
 Checks whether the entity is currently swimming (in the swimming pose).
 
-Type ID: `apoli:swimming`
+Type ID: `origins:swimming`
 
 !!! note
 
@@ -25,6 +25,6 @@ _None._
 
 ```json
 "condition": {
-    "type": "apoli:swimming"
+    "type": "origins:swimming"
 }
 ```

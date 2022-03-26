@@ -9,7 +9,7 @@ date: 2021-04-04
 
 Checks whether the entity is currently sprinting.
 
-Type ID: `apoli:sprinting`
+Type ID: `origins:sprinting`
 
 !!! note
 
@@ -25,6 +25,6 @@ _None._
 
 ```json
 "condition": {
-    "type": "apoli:sprinting"
+    "type": "origins:sprinting"
 }
 ```

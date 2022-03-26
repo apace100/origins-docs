@@ -9,7 +9,7 @@ date: 2021-04-04
 
 Checks whether the entity's entity type is in a specific tag.
 
-Type ID: `apoli:in_tag`
+Type ID: `origins:in_tag`
 
 
 ### Fields
@@ -23,7 +23,7 @@ Field  | Type | Default | Description
 
 ```json
 "condition": {
-    "type": "apoli:in_tag",
+    "type": "origins:in_tag",
     "tag": "minecraft:skeletons"
 }
 ```

@@ -11,14 +11,15 @@ A [String](string.md) which specifies how two numbers should be compared. Usuall
 
 ### Values
 
-| Value | Description                                                                   |
-| ----- | ----------------------------------------------------------------------------- |
-| `<`   | Checks if the first number is **less than** the second number.                |
-| `<=`  | Checks if the first number is **less than or equal to** the second number.    |
-| `>`   | Checks if the first number is **greater than** the second number.             |
-| `>=`  | Checks if the first number is **greater than or equal to** the second number. |
-| `==`  | Checks if the first number is **equal to** the second number.                 |
-| `!=`  | Checks if the first number is **not equal to** the second number.             |
+Value  | Description
+-------|------
+`<` | Checks if the first number is **less than** the second number.
+`<=` | Checks if the first number is **less than or equal to** the second number.
+`>` | Checks if the first number is **greater than** the second number.
+`>=` | Checks if the first number is **greater than or equal to** the second number.
+`==` | Checks if the first number is **equal to** the second number.
+`!=` | Checks if the first number is **not equal to** the second number.
+
 
 ### Examples
 
@@ -28,12 +29,12 @@ A [String](string.md) which specifies how two numbers should be compared. Usuall
 }
 ```
 
-Equal to. There's not much to explain about this.
+Equal to. There's not much to say about this.
 <br>
 
 ```json
 "condition": {
-	"type": "apoli:xp_levels",
+	"type": "origins:xp_levels",
 	"comparison": ">=",
 	"compare_to": 3
 }

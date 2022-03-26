@@ -9,7 +9,7 @@ date: 2021-10-02
 
 Replaces the status bar textures (health, hunger, air, experience, etc.) with a specified sprite sheet.
 
-Type ID: `apoli:status_bar_texture`
+Type ID: `origins:status_bar_texture`
 
 
 ### Fields
@@ -23,7 +23,7 @@ Field | Type | Default | Description
 
 ```json
 {
-    "type": "apoli:status_bar_texture",
+    "type": "origins:status_bar_texture",
     "texture": "example:textures/gui/custom_thing.png"
 }
 ```

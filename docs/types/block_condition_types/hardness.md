@@ -9,7 +9,7 @@ date: 2021-12-09
 
 Checks the hardness value of the block.
 
-Type ID: `apoli:hardness`
+Type ID: `origins:hardness`
 
 
 !!! note
@@ -29,7 +29,7 @@ Field | Type | Default | Description
 
 ```json
 "block_condition": {
-    "type": "apoli:hardness",
+    "type": "origins:hardness",
     "comparison": "==",
     "compare_to": 1.5
 }

@@ -9,7 +9,7 @@ date: 2021-04-07
 
 Sets the entity that has the power on fire within the specified interval.
 
-Type ID: `apoli:burn`
+Type ID: `origins:burn`
 
 
 ### Fields
@@ -25,14 +25,14 @@ Field  | Type | Default | Description
 
 ```json
 {
-    "type": "apoli:burn",
+    "type": "origins:burn",
     "interval": 20,
     "burn_duration": 1,
     "condition": {
-        "type": "apoli:equipped_item",
+        "type": "origins:equipped_item",
         "equipment_slot": "head",
         "item_condition": {
-            "type": "apoli:ingredient",
+            "type": "origins:ingredient",
             "ingredient": {
                 "item": "minecraft:leather_helmet"
             }

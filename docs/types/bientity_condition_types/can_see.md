@@ -9,20 +9,22 @@ date: 2021-10-06
 
 Checks whether the straight path from the actor entity's eyes to the target entity's eyes is unobstructed.
 
-Type ID: `apoli:can_see`
+Type ID: `origins:can_see`
+
 
 ### Fields
 
-| Field            | Type                                              | Default    | Description                                     |
-| ---------------- | ------------------------------------------------- | ---------- | ----------------------------------------------- |
-| `shape_type`     | [Shape Type](../data_types/shape_type.md)         | `"visual"` | Determines how the ray-cast will handle blocks. |
-| `fluid_handling` | [Fluid Handling](../data_types/fluid_handling.md) | `"none"`   | Determines how the ray-cast will handle fluids. |
+Field | Type | Default | Description
+------|------|---------|------------
+`shape_type` | [Shape Type](../data_types/shape_type.md) | `"visual"` | Determines how the ray-cast will handle blocks.
+`fluid_handling` | [Fluid Handling](../data_types/fluid_handling.md) | `"none"` | Determines how the ray-cast will handle fluids. 
+
 
 ### Examples
 
 ```json
 "bientity_condition": {
-    "type": "apoli:can_see"
+    "type": "origins:can_see"
 }
 ```
 

@@ -9,7 +9,7 @@ date: 2021-04-08
 
 Grants full fire immunity (meaning not only do you take no damage from fire sources, you also can not be set on fire).
 
-Type ID: `apoli:fire_immunity`
+Type ID: `origins:fire_immunity`
 
 
 ### Fields
@@ -22,12 +22,12 @@ _None._
 
 ```json
 {
-    "type": "apoli:fire_immunity",
+    "type": "origins:fire_immunity",
     "condition": {
-        "type": "apoli:equipped_item",
+        "type": "origins:equipped_item",
         "equipment_slot": "mainhand",
         "item_condition": {
-            "type": "apoli:ingredient",
+            "type": "origins:ingredient",
             "ingredient": {
                 "item": "minecraft:magma_block"
             }
