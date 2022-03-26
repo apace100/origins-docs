@@ -22,7 +22,7 @@ Field | Type | Default | Description
 ### Examples
 
 ```json
-"block": {
+"block_action": {
     "type": "origins:bonemeal",
     "effects": false
 }
