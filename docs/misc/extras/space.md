@@ -16,4 +16,4 @@ A space is a string which defines which coordinate system is used for directions
 * `velocity_horizontal`: Same as `velocity`, however the upwards velocity is considered to be 0.
 * `velocity_horizontal_normalized`: Same as `velocity_horizontal`, however the axes are normalized.
 
-![](https://raw.githubusercontent.com/apace100/origins-docs/latest/docs/img/space_coordinate_systems.gif)
+![](../../img/space_coordinate_systems.gif)
