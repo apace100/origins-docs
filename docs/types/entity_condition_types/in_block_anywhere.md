@@ -17,7 +17,7 @@ Type ID: `origins:in_block_anywhere`
 Field  | Type | Default | Description
 -------|------|---------|-------------
 `block_condition` | [Block Condition Type](../block_condition_types.md) | |  The block condition type which blocks need to fulfill in order to count for this condition.
-`comparison` | [Comparison](../data_types/comparison.md) | `">="` |  How the number of blocks which overlap and fulfill block_condition should be compared to the specified value.
+`comparison` | [Comparison](../data_types/comparison.md) | `">="` |  How the number of blocks which overlap and fulfill `block_condition` should be compared to the specified value.
 `compare_to` | [Integer](../data_types/integer.md) | `1` |  The value to compare the number to.
 
 
