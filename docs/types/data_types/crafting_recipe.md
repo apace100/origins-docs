@@ -25,7 +25,7 @@ Field  | Type | Default | Description
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`ingredients` | [Array](array.md) of [Ingredient](ingredient.md) | | These items need to be put in the crafting grid for the recipe.
+`ingredients` | [Array](array.md) of [Ingredient](ingredient.md) | | The items that need to be put in the crafting grid for the recipe.
 
 
 ### Examples (shapeless)
