@@ -16,7 +16,7 @@ Type ID: `origins:spawn_effect_cloud`
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`radius` | [Float](../data_types/float.md) | `3` | The radius of the cloud.
+`radius` | [Float](../data_types/float.md) | `3.0` | The radius of the cloud.
 `radius_on_use` | [Float](../data_types/float.md) | `-0.5` | How much the radius should change when an effect is applied.
 `wait_time` | [Integer](../data_types/integer.md) | `10` | How many ticks to wait until the cloud takes effect.
 `effect` | [Status Effect Instance](../data_types/status_effect_instance.md) | _optional_ | If specified, this status effect will be applied by the cloud to entities inside of it.

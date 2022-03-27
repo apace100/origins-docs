@@ -17,8 +17,8 @@ Type ID: `origins:play_sound`
 Field  | Type | Default | Description
 -------|------|---------|-------------
 `sound` | [Identifier](../data_types/identifier.md) | | The namespace and ID of the sound to play.
-`volume` | [Float](../data_types/float.md) | `1` | The volume of the sound.
-`pitch` | [Float](../data_types/float.md) | `1` | The pitch of the sound.
+`volume` | [Float](../data_types/float.md) | `1.0` | The volume of the sound.
+`pitch` | [Float](../data_types/float.md) | `1.0` | The pitch of the sound.
 
 
 

@@ -20,9 +20,9 @@ Type ID: `origins:add_velocity`
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`x` | [Float](../data_types/float.md) | `0` | The amount of velocity to add on the x-axis.
-`y` | [Float](../data_types/float.md) | `0` | The amount of velocity to add on the y-axis.
-`z` | [Float](../data_types/float.md) | `0` | The amount of velocity to add on the z-axis.
+`x` | [Float](../data_types/float.md) | `0.0` | The amount of velocity to add on the x-axis.
+`y` | [Float](../data_types/float.md) | `0.0` | The amount of velocity to add on the y-axis.
+`z` | [Float](../data_types/float.md) | `0.0` | The amount of velocity to add on the z-axis.
 `space` | [String](../data_types/string.md) | `"world"` | The [Space](../../misc/extras/space.md) to perform the velocity addition in.
 `client` | [Boolean](../data_types/boolean.md) | `true` | If this is false, the action will not execute on the client.
 `server` | [Boolean](../data_types/boolean.md) | `true` | If this is false, the action will not execute on the server.
