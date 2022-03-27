@@ -14,7 +14,7 @@ date: 2021-04-07
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`inverted` | [Boolean](../data_types/boolean.md) | false | If true, the condition acts inverted.
+`inverted` | [Boolean](../data_types/boolean.md) | `false` | If true, the condition acts inverted.
 
 
 ### Examples
