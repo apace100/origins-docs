@@ -33,4 +33,28 @@ Field  | Type | Default | Description
 }
 ```
 
-This example will apply a Speed I status effect to the entity that would last 20 seconds.
+This example will apply a Speed I status effect to the entity that would last for 20 seconds.
+<br>
+
+```json
+"entity_action": {
+	"type": "origins:apply_effect",
+	"effects": [
+		{
+			"effect": "minecraft:slow_falling",
+			"duration": 400,
+			"is_ambient": false,
+			"show_particles": false,
+			"show_icon": true
+		},
+		{
+			"effect": "minecraft:slowness",
+			"duration": 400,
+			"is_ambient": false,
+			"show_particles": false,
+			"show_icon": true
+		}
+	]
+}
+```
+This example will apply both Slowness I and Slow Falling I status effects that lasts for 20 seconds.
