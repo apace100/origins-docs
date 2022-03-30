@@ -15,6 +15,10 @@ Type ID: `origins:origin`
 
     **This entity condition type will only work on players.**
 
+!!! caution
+
+    Using this Entity Condition on a non-player Entity will most likely crash the game. To prevent that make sure to check if the entity is a player by using the [Entity Type (Entity Condition Type)](entity_type.md) to prevent your game from crashing.
+
 
 ### Fields
 
