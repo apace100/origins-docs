@@ -11,6 +11,10 @@ Grants a power to the entity from a specified power source.
 
 Type ID: `origins:grant_power`
 
+!!! caution
+
+    Since only Living Entities can have powers, using this entity action on a non-living entity might crash the game. Always make sure to check if the entity is a Living Entity by using the [Living (Entity Condition Type)](living.md) to prevent your game from crashing.
+
 
 ### Fields
 
