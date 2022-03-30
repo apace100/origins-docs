@@ -7,7 +7,7 @@ date: 2021-04-07
 
 [Power Type](../power_types.md)
 
-Allows for defining more that one power in a single file.
+Allows for defining more than one power in a single file.
 
 Type ID: `origins:multiple`
 
@@ -25,7 +25,7 @@ Type ID: `origins:multiple`
 Arbitrary fields. Any "key" is considered a sub-power, and takes a fully-defined power type as the value. You can reference sub-powers by using the super-power ID, appended by an underscore (`_`) and lastly the sub-power ID (which is the key), i.e. `<namespace>:<powerfile>_<subpower>`
 
 
-### Examples 
+### Examples
 
 ```json
 {
