@@ -11,6 +11,10 @@ Checks whether the entity has a specified power. Mostly used for [Origin conditi
 
 Type ID: `origins:power`
 
+!!! caution
+
+    Since only Living Entities can have powers, using this entity condition on a non-living entity might crash the game. Always make sure to check if the entity is a Living Entity by using the [Living (Entity Condition Type)](living.md) to prevent your game from crashing.
+
 
 ### Fields
 
