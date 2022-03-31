@@ -1,5 +1,5 @@
 ---
-title: Action Result (Data Type)
+title: Action Result (Extras)
 date: 2021-12-27
 ---
 
