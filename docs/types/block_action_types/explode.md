@@ -17,7 +17,7 @@ Type ID: `origins:explode`
 Field | Type | Default | Description
 ------|------|---------|-------------
 `power` | [Float](../data_types/float.md) | | Determines the power of the explosion.
-`destruction_type` | [String](../data_types/string.md) | `"break"` | Determines if the explosion should destroy the terrain, destroy the terrain and drop the loot of the blocks, or none (`"destroy"`, `"break"` or `"none"` respectively).
+`destruction_type` | [Destruction Type](../../misc/extras/destruction_types.md) | `"break"` | Determines the effect of the explosion to the terrain.
 `damage_self` | [Boolean](../data_types/boolean.md) | `true` | Determines if the exploding block should be affected by the summoned explosion.
 `indestructible` | [Block Condition Type](../block_condition_types.md) | _optional_ | If specified, the blocks that fulfills the specified block condition type is not destroyed by the summoned explosion.
 `destructible` | [Block Condition Type](../block_condition_types.md) | _optional_ | If specified, the blocks that fulfills this specified block condition type are the **only** blocks that are destroyed by the summoned explosion.
