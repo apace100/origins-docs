@@ -7,7 +7,7 @@ date: 2021-12-04
 
 [Power Type](../power_types.md)
 
-Prevents certain [Feature Renderers](../../../misc/extras/feature_renderers.md) from rendering to the entity that has this power.
+Prevents certain [Feature Renderers](../../misc/extras/feature_renderers.md) from rendering to the entity that has this power.
 
 Type ID: `origins:prevent_feature_render`
 
@@ -16,8 +16,8 @@ Type ID: `origins:prevent_feature_render`
 
 Field | Type | Default | Description
 ------|------|---------|------------
-`feature` | [Feature Renderer](../../../misc/extras/feature_renderers.md) | _optional_ | If specified, this feature renderer will not be rendered.
-`features` | [Array](../data_types/array.md) of [Feature Renderers](../../../misc/extras/feature_renderers.md) | _optional_ | If specified, these feature renderers will not be rendered.
+`feature` | [Feature Renderer](../../misc/extras/feature_renderers.md) | _optional_ | If specified, this feature renderer will not be rendered.
+`features` | [Array](../data_types/array.md) of [Feature Renderers](../../misc/extras/feature_renderers.md) | _optional_ | If specified, these feature renderers will not be rendered.
 
 
 ### Examples
