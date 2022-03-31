@@ -36,3 +36,16 @@ Field | Type | Default | Description
 ```
 
 This example will check if the actor and target are essentially facing each other.
+<br>
+
+```json
+"bientity_condition": {
+    "type": "origins:relative_rotation",
+    "actor_rotation": "head",
+    "target_rotation": "body",
+    "comparison": ">=",
+    "compare_to": 0.4
+}
+```
+
+This example will check if the actor's head is essentially facing the same way as the target's body.
