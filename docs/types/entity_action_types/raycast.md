@@ -19,8 +19,8 @@ Field | Type | Default | Description
 `distance` | [Float](../data_types/float.md) | | Determines the maximum distance the ray-cast will travel.
 `block` | [Boolean](../data_types/boolean.md) | `true` | Determines whether the ray-cast should include blocks.
 `entity` | [Boolean](../data_types/boolean.md) | `true` | Determines whether the ray-cast should include entities.
-`shape_type` | [Shape Type](../data_types/shape_type.md) | `"visual"` | Determines how the ray-cast will handle blocks.
-`fluid_handling` | [Fluid Handling](../data_types/fluid_handling.md) | `"none"` | Determines how the ray-cast will handle fluids.
+`shape_type` | [Shape Type](../../misc/extras/shape_type.md) | `"visual"` | Determines how the ray-cast will handle blocks.
+`fluid_handling` | [Fluid Handling](../../misc/extras/fluid_handling.md) | `"none"` | Determines how the ray-cast will handle fluids.
 `bientity_condition` | [Bi-entity Condition Type](../bientity_condition_types.md) | _optional_ | If specified, the specified bi-entity action type will only be executed if the specified bi-entity condition type is fulfilled by either or both the 'actor' (the entity that has the power) or 'target' (the entity that was hit by the ray-cast).
 `bientity_action` | [Bi-entity Action Type](../bientity_action_types.md) | _optional_ | If specified, this bi-entity action type will be executed on either or both the 'actor' (the entity that has the power) or 'target' (the entity that was hit by the ray-cast).
 `block_action` | [Block Action Type](../block_action_types.md) | _optional_ | If specified, this block action type will be executed on the block the ray-cast has hit.
