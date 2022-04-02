@@ -9,7 +9,7 @@ nav:
         - Workspace Setup: guides/addon/workspace_setup.md
         - Dependencies Explained: guides/addon/dependencies.md
     - JSON:
-        - Origin Layer JSON: json/origin_layer.md
+        - Origin Layer JSON: json/origin_layer.md 
         - Origin JSON: json/origin.md
         - Power JSON: json/power.md
     - General Types:
