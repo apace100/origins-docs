@@ -23,7 +23,7 @@ Field | Type | Default | Description
 `result_stack`| [Item Stack](../data_types/item_stack.md) | _optional_ | If specified, this item will be given to the 'actor' (player) entity.
 `held_item_action`| [Item Action Type](../item_action_types.md) | _optional_ | If specified, this action will be executed on the item used for right-clicking the 'target' (the entity that has the power) entity in the 'actor' (player) entity's specified hand(s) determined by the `hands` string array field.
 `result_item_action` | [Item Action Type](../item_action_types.md) | _optional_ | If specified, this action will be executed on the item that is given to the 'actor' (player) entity.
-`action_result` | [Action Result](../data_types/action_result.md) | `"success"` | Determines the result of the 'use' action.
+`action_result` | [Action Result](../../misc/extras/action_results.md) | `"success"` | Determines the result of the 'use' action.
 
 
 ### Examples
