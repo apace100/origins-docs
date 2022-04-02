@@ -9,12 +9,16 @@ date: 2021-04-04
 
 A [String](string.md) used to specify an operation used by [Attribute Modifiers](attribute_modifier.md) and [Attributed Attribute Modifiers](attributed_attribute_modifier.md).
 
+!!! note
+
+    The game first executes all `addition` operations, then executes all `multiply_base` operations and finally executes all `multiply_total` operations.
+
 ### Values
 
-Value  | Description
--------|------
-`addition` | Adds (or subtracts) the modifier value to the base: NewValue = BaseValue + ModifierValue.
-`multiply_base` | Adds (or subtracts) a portion of the base value: NewValue = CurrentValue + (BaseValue * ModifierValue)
+Value            | Description
+-----------------|------
+`addition`       | Adds (or subtracts) the modifier value to the base: NewValue = BaseValue + ModifierValue.
+`multiply_base`  | Adds (or subtracts) a portion of the base value: NewValue = CurrentValue + (BaseValue * ModifierValue)
 `multiply_total` | Multiplies the total value by this value: NewTotalValue = TotalValue * (1 + ModifierValue)
 
 
@@ -22,7 +26,7 @@ Value  | Description
 
 ```json
 {
-	"operation": "multiply_total"
+    "operation": "multiply_total"
 }
 ```
 
