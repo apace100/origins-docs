@@ -7,7 +7,7 @@ date: 2021-12-27
 
 [Extra](../../misc/extras.md)
 
-A [String](string.md) used for determining the result of a certain action.
+A [String](../../types/data_types/string.md) used for determining the result of a certain action.
 
 
 ### Values
