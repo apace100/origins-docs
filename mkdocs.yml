@@ -46,6 +46,7 @@ nav:
         - Fluid Handling: misc/extras/fluid_handling.md
         - Keybindings: misc/extras/keybindings.md
         - Materials: misc/extras/materials.md
+        - Player Abilities: misc/extras/player_abilities.md
         - Positioned Item Stack Slots: misc/extras/positioned_item_stack_slots.md
         - Shape Types: misc/extras/shape_types.md
         - Space: misc/extras/space.md
