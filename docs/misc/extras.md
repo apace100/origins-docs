@@ -18,6 +18,7 @@ Extras are pages that do not fit in other sections of the wiki.
 * [Fluid Handling](extras/fluid_handling.md)
 * [Keybindings](extras/keybindings.md)
 * [Materials](extras/materials.md)
+* [Player Abilities](extras/player_abilities.md)
 * [Positioned Item Stack Slots](extras/positioned_item_stack_slots.md)
 * [Shape Types](extras/shape_types.md)
 * [Space](extras/space.md)
