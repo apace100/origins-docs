@@ -7,7 +7,7 @@ date: 2021-12-07
 
 [Entity Condition Type](../entity_condition_types.md)
 
-Checks if the entity has the specified ability enabled.
+Checks if the player has the specified ability enabled.
 
 Type ID: `origins:ability`
 
@@ -16,7 +16,7 @@ Type ID: `origins:ability`
 
 Field | Type | Default | Description
 ------|------|---------|------------
-`ability` | [String](../data_types/string.md) | | The namespace and ID of the ability to check for.
+`ability` | [Player Ability](../../misc/extras/player_abilities.md) | | The namespace and ID of the ability to check for.
 
 
 ### Examples
