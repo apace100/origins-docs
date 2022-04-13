@@ -16,7 +16,7 @@ Type ID: `origins:distance_from_coordinates`
 
 Field | Type | Default | Description
 ------|------|---------|------------
-`reference` | [String](../data_types/string.md) | `"world_origin"` | The point to compare the distance to.
+`reference` | [String](../data_types/string.md) | `"world_origin"` | The point to compare the distance to. Accepts `"world_origin"` or `"world_spawn"`.
 `offset` | [Vector](../data_types/vector.md) | _optional_ | If specified, determines how much the reference point should be offset.
 `ignore_x` | [Boolean](../data_types/boolean.md) | `false` | Determines whether to consider the X axis to be 0.
 `ignore_y` | [Boolean](../data_types/boolean.md) | `false` | Determines whether to consider the Y axis to be 0.
