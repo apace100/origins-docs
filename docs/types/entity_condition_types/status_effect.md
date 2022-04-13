@@ -16,7 +16,7 @@ Type ID: `origins:status_effect`
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`effect` | [Identifier](../data_types/identifier.md) | | The namespace and ID of the status effect to check for.s
+`effect` | [Identifier](../data_types/identifier.md) | | The namespace and ID of the status effect to check for.
 `min_amplifier` | [Integer](../data_types/integer.md) | `0` | The minimum amplifier the status effect should have in order to pass the check.
 `max_amplifier` | [Integer](../data_types/integer.md) | `2147483647` | The maximum amplifier the status effect should have in order to pass the check.
 `min_duration` | [Integer](../data_types/integer.md) | `0` | The minimum duration in ticks the status effect should have left in order to pass the check.
@@ -34,4 +34,3 @@ Field  | Type | Default | Description
 ```
 
 This example will check if the entity has the Speed II status effect.
-
