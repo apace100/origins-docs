@@ -7,9 +7,13 @@ date: 2021-11-30
 
 [Block Action Type](../block_action_types.md)
 
-Modifies the block state property of the block.
+Modifies the block state property of the block. Depending on the property type, different values are expected: boolean properties use `value`, enumeration properties use `enum`, and integer properties use `operation` and `change`.
 
 Type ID: `origins:modify_block_state`
+
+!!! note
+
+    If none of the expected fields are specified, this action will do nothing.
 
 
 ### Fields
@@ -21,7 +25,7 @@ Field | Type | Default | Description
 `change` | [Integer](../data_types/integer.md) | _optional_ | If specified, the value to add, remove or set to/from the specified property if the specified property is an integer.
 `value` | [Boolean](../data_types/boolean.md) | _optional_ | If specified, the boolean to use as the new value for the specified property if the specified property is a boolean.
 `enum` | [String](../data_types/string.md) | _optional_ | If specified, the string to use as the new value for the specified property if the specified property is a string.
-`cycle` | [Boolean](../data_types/boolean.md) | `false` | If specified, cycles through all the states of the specified property, regardless if it's a string, integer, or boolean.
+`cycle` | [Boolean](../data_types/boolean.md) | `false` | If set to true, changes the property to the next state in the cycle, ignoring all other optional fields. All property types can use this operation.
 
 
 ### Examples
