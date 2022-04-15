@@ -1,5 +1,5 @@
 ---
-title: Layer JSON
+title: Layer (JSON Format)
 date: 2021-04-05
 ---
 
@@ -21,6 +21,7 @@ Field  | Type | Default | Description
 `enabled` | [Boolean](../types/data_types/boolean.md) | `true` | If set to false, this layer will be unavailable.
 `replace` | [Boolean](../types/data_types/boolean.md) | `false` | If set to false, the data in this file will be appended to an already existing version of this layer. Useful to add custom origins to the default origin layer for example. If set to true, the layer will be replaced and only the origins specified in this file will appear.
 `name` | [String](../types/data_types/string.md) | _optional_ | The display name of the layer. Will show at the top of the GUI saying "Choose your [name here]". Can be a literal string or a translation key.
+`gui_title` | [GUI Title](../types/data_types/gui_title.md) | _optional_ | If specified, the choose/view origin title for the layer (the text that shows at the top of the GUI) will be overridden by this.
 `missing_name` | [String](../types/data_types/string.md) | _optional_ | The display name of the origin that will show when viewing the origin if no origin has been assigned to this layer. Can be a literal string or a translation key.
 `missing_description` | [String](../types/data_types/string.md) | _optional_ | The description of the origin that will show when viewing the origin if no origin has been assigned to this layer. Can be a literal string or a translation key.
 `allow_random` | [Boolean](../types/data_types/boolean.md) | `false` | If set to true, this layer will show an option for choosing a random origin.
