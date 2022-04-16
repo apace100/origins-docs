@@ -49,4 +49,4 @@ Field | Type | Default | Description
 }
 ```
 
-This example will check if a wolf mob is tamed by the entity that has fired the raycast. The raycast will ignore tamable mobs other than wolves.
+This example will check if a wolf mob is tamed by the entity that has fired the ray-cast. The ray-cast will ignore tamable mobs other than wolves.
