@@ -25,9 +25,9 @@ Field | Type | Default | Description
 `bientity_action` | [Bi-entity Action Type](../bientity_action_types.md) | _optional_ | If specified, this bi-entity action type will be executed on either or both the 'actor' (the entity that has the power) or 'target' (the entity that was hit by the ray-cast).
 `block_action` | [Block Action Type](../block_action_types.md) | _optional_ | If specified, this block action type will be executed on the block the ray-cast has hit.
 `before_action` | [Entity Action Type](../entity_action_types.md) | _optional_ | If specified, execute this entity action type *before* casting a ray.
-`hit_action` | [Entity Action Type](../entity_action_types.md) | _optional_ | If specified, execute this entity action type if the ray-cast has hit an entity/block.
-`miss_action` | [Entity Action Type](../entity_action_types.md) | _optional_ | If specified, execute this entity action type if the ray-cast did not hit an entity/block.
-`command_at_hit` | [String](../data_types/string.md) | _optional_ | The command to execute upon the block/entity the raycast has hit.
+`hit_action` | [Entity Action Type](../entity_action_types.md) | _optional_ | If specified, execute this entity action on the entity that executed the ray-cast if the ray-cast has hit an entity/block.
+`miss_action` | [Entity Action Type](../entity_action_types.md) | _optional_ | If specified, execute this entity action on the entity that executed the ray-cast if the ray-cast did not hit an entity/block.
+`command_at_hit` | [String](../data_types/string.md) | _optional_ | The command to execute upon the block/entity the ray-cast has hit.
 `command_hit_offset` | [Float](../data_types/float.md) | _optional_ | Determines the offset of the command specified in the `command_at_hit` field.
 `command_along_ray` | [String](../data_types/string.md) | _optional_ | The command to execute for each step of the ray-cast.
 `command_step` | [Float](../data_types/float.md) | `1.0` | Determines the size of the step of the ray-cast.
