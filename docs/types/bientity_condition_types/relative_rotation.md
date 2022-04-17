@@ -17,8 +17,8 @@ Type ID: `origins:relative_rotation`
 Field | Type | Default | Description
 ------|------|---------|------------
 `axes` | [Array](../data_types/array.md) of [Strings](../data_types/string.md) | `["x", "y", "z"]` | The axes to get the angle values to calculate, and compare to.
-`actor_rotation` | [String](../data_types/string.md) | `"head"` | Determines the initial point of the rotation for the actor. Accepts `"head"` or `"body"`.
-`target_rotation` | [String](../data_types/string.md) | `"body"` | Determines the initial point of the rotation for the target. Accepts `"head"` or `"body"`. 
+`actor_rotation` | [String](../data_types/string.md) | `"head"` | Determines the initial point of the rotation for the actor. One of `"head"` and `"body"`.
+`target_rotation` | [String](../data_types/string.md) | `"body"` | Determines the initial point of the rotation for the target. One of `"head"` and `"body"`. 
 `comparison` | [Comparison](../data_types/comparison.md) | | Determines how the calculated angle value will be compared to the specified value.
 `compare_to` | [Float](../data_types/float.md) | | The value to compare the calculated angle value to.
 
