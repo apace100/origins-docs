@@ -7,7 +7,7 @@ date: 2021-12-04
 
 [Power Type](../power_types.md)
 
-Prevents certain [Feature Renderers](../../misc/extras/feature_renderers.md) from rendering to the entity that has this power.
+Prevents certain [feature renderers](../../misc/extras/feature_renderers.md) (like the wool coat of a Sheep, the worn armor of a mob, etc.) from rendering on the entity that has the power.
 
 Type ID: `origins:prevent_feature_render`
 
@@ -33,4 +33,4 @@ Field | Type | Default | Description
 }
 ```
 
-This example will make the armor layer (`ArmorFeatureRenderer`), held item (`HeldItemFeatureRenderer`) and worn Elytra (`ElytraFeatureRenderer`) essentially invisible to the player that has the power.
+This example will make the worn armor, held item and worn Elytra disappear as if the entity that has the power isn't wearing or holding an item.
