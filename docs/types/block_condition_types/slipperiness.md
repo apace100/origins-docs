@@ -25,7 +25,7 @@ Field | Type | Default | Description
 ```json
 "block_condition": {
     "type": "origins:slipperiness",
-    "comparison": "<=",
+    "comparison": "==",
     "compare_to": 0.98
 }
 ```
