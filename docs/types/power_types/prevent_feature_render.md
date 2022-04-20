@@ -33,4 +33,4 @@ Field | Type | Default | Description
 }
 ```
 
-This example will make the worn armor, held item and worn Elytra disappear as if the entity that has the power isn't wearing or holding an item.
+This example will make the worn armor, held item and worn Elytra of the entity that has this power disappear as if they weren't wearing or holding an item.
