@@ -16,7 +16,7 @@ Type ID: `origins:using_item`
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`item_condition` | [Item Condition Type](../item_condition_types/amount.md) | _optional_ | If specified, the condition will only evaluate to true if the item that is being used fulfills the specified item condition type.
+`item_condition` | [Item Condition Type](../item_condition_types.md) | _optional_ | If specified, the condition will only evaluate to true if the item that is being used fulfills the specified item condition type.
 
 
 ### Examples
