@@ -16,7 +16,7 @@ Type ID: `origins:precipitation`
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`precipitation` | [String](../data_types/string.md) | |  Which precipitation the biome has to have in order to succeed the check. One of `"none"`, `"rain"` and `"snow"`.
+`precipitation` | [String](../data_types/string.md) | |  Which precipitation the biome has to have in order to succeed the check. Accepts `"none"`, `"rain"` or `"snow"`.
 
 
 ### Examples
