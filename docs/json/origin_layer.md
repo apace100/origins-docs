@@ -30,6 +30,8 @@ Field  | Type | Default | Description
 `default_origin` | [Identifier](../types/data_types/identifier.md) | _optional_ | If set, the origin with this namespace and ID will automatically be chosen for a new player. If an orb of origin is used later on, the player will be able to choose another origin then and the `default_origin` will not apply. Could for example be used to make all players start as human, and then use the orb as a progression item to select an origin.
 `auto_choose` | [Boolean](../types/data_types/boolean.md) | `false` | If set to true, this layer will automatically pick an origin for the player if only one option is available. This also applies when an orb of origin is used.
 `hidden` | [Boolean](../types/data_types/boolean.md) | `false` | If set to true, this layer will be hidden from the "View Origin" screen.
+`loading_priority` | [Integer](../types/data_types/integer.md) | `0` | Specifies when this layer is loaded. Higher numbers mean it's loaded later, which means it will override those with lower loading priorities which share the same ID.
+
 
 
 ### Examples
