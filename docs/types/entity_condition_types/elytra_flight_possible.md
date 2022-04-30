@@ -16,7 +16,7 @@ Type ID: `origins:elytra_flight_possible`
 
     If both `check_state` and `check_abilities` boolean fields are set to `true`, the entity condition type will check if the player can activate elytra flight at the very moment.
 
-!!  warning
+!!!  warning
 
     If both `check_state` and `check_abilities` boolean fields are set to `false`, the entity condition type will evaluate to true.
 
