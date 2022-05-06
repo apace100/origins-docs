@@ -59,7 +59,7 @@ This example will prevent the entity from equipping any armor which has more def
 ```json
 {
     "type": "origins:restrict_armor",
-    "chest": {
+    "head": {
         "type": "origins:ingredient",
         "ingredient": {
             "item": "minecraft:turtle_helmet"
