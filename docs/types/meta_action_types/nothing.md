@@ -25,7 +25,7 @@ _None._
 }
 ```
 
-This example does.. nothing.
+This example does... nothing.
 <br>
 
 ```json
@@ -34,4 +34,4 @@ This example does.. nothing.
 }
 ```
 
-This example also does.. nothing.
+This example... also does nothing.
