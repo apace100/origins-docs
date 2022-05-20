@@ -16,7 +16,7 @@ Type ID: `origins:prevent_block_use`
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`block_condition` | [Block Condition Type](../block_condition_types.md) | | If specified, only blocks that fulfills this condition is affected
+`block_condition` | [Block Condition Type](../block_condition_types.md) | | If specified, only blocks that fulfil this condition are affected.
 
 
 ### Examples
