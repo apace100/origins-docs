@@ -12,11 +12,16 @@ Emits a 'game event' at the entity's position.
 Type ID: `origins:emit_game_event`
 
 
+!!! note
+
+    See [Minecraft Fandom: Sculk Sensor (Vibration amplitudes)](https://minecraft.fandom.com/wiki/Sculk_Sensor?oldid=2099339#Vibration_amplitudes) for a list of vanilla game events you can use.
+
+
 ### Fields
 
 Field | Type | Default | Description
 ------|------|---------|-------------
-`event` | [Identifier](../data_types/identifier.md) | | The namespace and ID of a game event. See [Minecraft Fandom Wiki: Sculk Sensor (Vibration amplitudes)](https://minecraft.fandom.com/wiki/Sculk_Sensor#Vibration_amplitudes) for a list of game events you can use.
+`event` | [Identifier](../data_types/identifier.md) | | The namespace and ID of a game event.
 
 
 ### Examples
