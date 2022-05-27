@@ -20,10 +20,10 @@ Type ID: `origins:riding_action`
 
 Field | Type | Default | Description
 ------|------|---------|-------------
-`action` | [Entity Action Type](../entity_action_types.md) | _optional_ | If specified, executes the specified entity action type on the entity that's been ridden.
-`bientity_action` | [Bi-entity Action Type](../bientity_action_types.md) | | If specified, executes the specified bi-entity action type that can execute on both the passenger and the entity that's being ridden.
-`bientity_condition` | [Bi-entity Condition Type](../bientity_condition_types.md) | | If set, only execute the specified actions if the bi-entity condition is fulfilled.
-`recursive` | [Boolean](../data_types/boolean.md) | `false` | If set to true, executes the specified actions on all entities that are being ridden, if there are more than one.
+`action` | [Entity Action Type](../entity_action_types.md) | _optional_ | If specified, this action will be executed on the entity being ridden.
+`bientity_action` | [Bi-entity Action Type](../bientity_action_types.md) | _optional_ | If specified, this action will be executed on either the 'actor' (the passenger entity) or the 'target' (the entity being ridden) or both.
+`bientity_condition` | [Bi-entity Condition Type](../bientity_condition_types.md) | _optional_ | If specified, only execute the specified actions if this condition is fulfilled by either the 'actor' (the passenger entity) or the 'target' (entity being ridden) or both.
+`recursive` | [Boolean](../data_types/boolean.md) | `false` | If set to `true`, the specified action(s) will be executed on all entities that are being ridden.
 
 
 ### Examples
