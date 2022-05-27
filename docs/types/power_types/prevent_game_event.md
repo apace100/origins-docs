@@ -12,6 +12,11 @@ Prevents specified game event(s) from being emitted by the entity that has the p
 Type ID: `origins:prevent_game_event`
 
 
+!!! note
+
+    See [Minecraft Fandom: Sculk Sensor (Vibration amplitudes)](https://minecraft.fandom.com/wiki/Sculk_Sensor?oldid=2099339#Vibration_amplitudes) for a list of vanilla game events you can check for.
+
+
 ### Fields
 
 Field | Type | Default | Description
