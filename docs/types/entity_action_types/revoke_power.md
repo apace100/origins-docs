@@ -17,7 +17,7 @@ Type ID: `origins:revoke_power`
 Field | Type | Default | Description
 ------|------|---------|-------------
 `power` | [Identifier](../data_types/identifier.md) | | The namespace and ID of the power to be revoked from the entity.
-`source` | [String](../data_types/string.md) | | The namespace and ID of the source of the power.
+`source` | [Identifier](../data_types/identifier.md) | | The namespace and ID of the source of the power.
 
 
 ### Examples
@@ -30,4 +30,4 @@ Field | Type | Default | Description
 }
 ```
 
-This example will revoke the `origins:elytra` power that's from the `origins:elytrian` source from the entity.
+This example will revoke the `origins:elytra` power from the `origins:elytrian` source from the entity.
