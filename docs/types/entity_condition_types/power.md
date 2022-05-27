@@ -13,7 +13,7 @@ Type ID: `origins:power`
 
 !!! caution
 
-    Since only Living Entities can have powers, using this entity condition on a non-living entity might crash the game. Always make sure to check if the entity is a Living Entity by using the [Living (Entity Condition Type)](living.md) to prevent your game from crashing.
+    Make sure to use the [Living (Entity Condition Type)](living.md) to check if the entity is a "living entity", otherwise, the game will crash since only living entities can have powers.
 
 
 ### Fields
@@ -21,7 +21,7 @@ Type ID: `origins:power`
 Field  | Type | Default | Description
 -------|------|---------|-------------
 `power` | [Identifier](../data_types/identifier.md) | | The namespace and ID of the power the entity needs to have to pass the check.
-`source` | [Identifier](../data_types/identifier.md) | _optional_ | The namespace and ID of the source of the power.
+`source` | [Identifier](../data_types/identifier.md) | _optional_ | If specified, the condition will check if the power is from the specified power source.
 
 
 ### Examples
