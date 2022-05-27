@@ -16,9 +16,8 @@ Type ID: `origins:modify_harvest`
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`block_condition` | [Block Condition Type](../block_condition_types.md) | _optional_ | If set, the modification will only apply to blocks which satisfy this condition.
-`allow` | [Boolean](../data_types/boolean.md) | _optional_ | When true, the player will be able to harvest the blocks. When false, the player will not be able to harvest the blocks.
-
+`block_condition` | [Block Condition Type](../block_condition_types.md) | _optional_ | If specified, only blocks that fulfill this condition are affected.
+`allow` | [Boolean](../data_types/boolean.md) | | Determines whether the player is be able to harvest the block.
 
 
 ### Examples
