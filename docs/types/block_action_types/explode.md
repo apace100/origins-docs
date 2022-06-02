@@ -22,7 +22,6 @@ Field | Type | Default | Description
 ------|------|---------|-------------
 `power` | [Float](../data_types/float.md) | | Determines the power of the explosion.
 `destruction_type` | [Destruction Type](../../misc/extras/destruction_types.md) | `"break"` | Determines the effect of the explosion to the terrain.
-`damage_self` | [Boolean](../data_types/boolean.md) | `true` | Determines if the block that invoked the action should take damage from the summoned explosion.
 `indestructible` | [Block Condition Type](../block_condition_types.md) | _optional_ | If specified, the blocks that fulfill this condition will not be destroyed by the summoned explosion.
 `destructible` | [Block Condition Type](../block_condition_types.md) | _optional_ | If specified, only the blocks that fulfill this condition will be destroyed by the summoned explosion.
 `create_fire` | [Boolean](../data_types/boolean.md) | `false` | Determines if the summoned explosion should create fire.
