@@ -16,7 +16,7 @@ Type ID: `origins:damage_over_time`
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`interval` | [Integer](../data_types/integer.md) | | Duration of ticks to wait between the damage.
+`interval` | [Integer](../data_types/integer.md) | `20` | Duration of ticks to wait between the damage.
 `onset_delay` | [Integer](../data_types/integer.md) | _optional_ | How many ticks the power has to be active in order to apply the first damage. If not set, this will be equal to `interval`.
 `damage` | [Float](../data_types/float.md) | | How much damage will be dealt each interval.
 `damage_easy` | [Float](../data_types/float.md) | _optional_ | How much damage will be dealt each interval on Easy difficulty. If not set, this will be equal to `damage`.
