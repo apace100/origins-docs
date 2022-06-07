@@ -16,9 +16,9 @@ Type ID: `origins:launch`
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`cooldown` | [Integer](../data_types/integer.md) | | Interval of ticks this power needs to recharge before the power can be triggered again.
+`cooldown` | [Integer](../data_types/integer.md) | `1` | Interval of ticks this power needs to recharge before the power can be triggered again.
 `speed` | [Float](../data_types/float.md) | | The speed applied to the player in the upwards direction.
-`hud_render` | [Hud Render](../data_types/hud_render.md) | | Determines how the cooldown of this power is visualized on the HUD.
+`hud_render` | [Hud Render](../data_types/hud_render.md) | _optional_ | Determines how the cooldown of this power is visualized on the HUD.
 `sound` | [Identifier](../data_types/identifier.md) | _optional_ | If specified, the sound event with this namespace and ID will be played when the power is triggered.
 `key` | [Key](../data_types/key.md) | _optional_ | Which active key this power should respond to.
 
