@@ -21,7 +21,7 @@ Type ID: `origins:cooldown`
 Field  | Type | Default | Description
 -------|------|---------|-------------
 `cooldown` | [Integer](../data_types/integer.md) | | Cooldown duration in ticks.
-`hud_render` | [Hud Render](../data_types/hud_render.md) | | Determines how the cooldown of this power is visualized on the HUD.
+`hud_render` | [Hud Render](../data_types/hud_render.md) | _optional_ | Determines how the cooldown of this power is visualized on the HUD.
 
 
 
