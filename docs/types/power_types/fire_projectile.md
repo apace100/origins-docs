@@ -17,8 +17,8 @@ Type ID: `origins:fire_projectile`
 Field  | Type | Default | Description
 -------|------|---------|-------------
 `entity_type` | [Identifier](../data_types/identifier.md) | | The ID of the entity type that will be fired.
-`cooldown` | [Integer](../data_types/integer.md) | | Interval of ticks this power needs to recharge before the power can be triggered again.
-`hud_render` | [Hud Render](../data_types/hud_render.md) | | Determines how the cooldown of this power is visualized on the HUD.
+`cooldown` | [Integer](../data_types/integer.md) | `1` | Interval of ticks this power needs to recharge before the power can be triggered again.
+`hud_render` | [Hud Render](../data_types/hud_render.md) | _optional_ | Determines how the cooldown of this power is visualized on the HUD.
 `count` | [Integer](../data_types/integer.md) | `1` | The amount of projectiles to fire each use.
 `interval` | [Integer](../data_types/integer.md) | `0` | Determines the interval for firing multiple projectiles consecutively (in ticks). If set to 0, it will fire all the projectiles at the same tick.
 `start_delay` | [Integer](../data_types/integer.md) | `0` | Determines how long the start of the firing process is delayed (in ticks).
