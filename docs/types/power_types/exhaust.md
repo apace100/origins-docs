@@ -16,7 +16,7 @@ Type ID: `origins:exhaust`
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`interval` | [Integer](../data_types/integer.md) | | Duration of ticks to wait between applying exhaustion.
+`interval` | [Integer](../data_types/integer.md) | `20` | Duration of ticks to wait between applying exhaustion.
 `exhaustion` | [Float](../data_types/float.md) | | How much exhaustion will be applied each interval.
 
 
