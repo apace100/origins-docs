@@ -17,7 +17,7 @@ Type ID: `origins:self_action_on_hit`
 Field  | Type | Default | Description
 -------|------|---------|-------------
 `entity_action` | [Entity Action Type](../entity_action_types.md) | | The action to execute on the entity.
-`cooldown` | [Integer](../data_types/integer.md) | | Interval of ticks this power needs to recharge before the power can be triggered again.
+`cooldown` | [Integer](../data_types/integer.md) | `1` | Interval of ticks this power needs to recharge before the power can be triggered again.
 `hud_render` | [Hud Render](../data_types/hud_render.md) | _optional_ | If specified, determines how the cooldown of this power is visualized on the HUD.
 `damage_condition` | [Damage Condition Type](../damage_condition_types.md) | _optional_ | If specified, the specified action will only be executed if the damage dealt is fulfills this condition.
 `target_condition` | [Entity Condition Type](../entity_condition_types.md) | _optional_ | If specified, the specified actions will only be executed if the entity/entities that has been hit fulfills this condition.
