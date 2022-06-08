@@ -98,6 +98,8 @@ Unless stated otherwise, each power type supports a `condition` field that can c
 * [Modify Fluid Render](power_types/modify_fluid_render.md)
 * [Modify Food](power_types/modify_food.md)
 * [Modify Harvest](power_types/modify_harvest.md)
+* [Modify Healing](power_types/modify_healing.md)
+* [Modify Insomnia Ticks](power_types/modify_insomnia_ticks.md)
 * [Modify Jump](power_types/modify_jump.md)
 * [Modify Lava Speed](power_types/modify_lava_speed.md)
 * [Modify Player Spawn](power_types/modify_player_spawn.md)
@@ -123,3 +125,4 @@ Unless stated otherwise, each power type supports a `condition` field that can c
 * [Prevent Game Event](power_types/prevent_game_event.md)
 * [Prevent Item Use](power_types/prevent_item_use.md)
 * [Prevent Sleep](power_types/prevent_sleep.md)
+* [Prevent Sprinting](power_types/prevent_sprinting.md)
