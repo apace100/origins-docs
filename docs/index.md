@@ -18,7 +18,7 @@ Visit [CurseForge](https://www.curseforge.com/minecraft/mc-mods/origins) or [Mod
 - What is considered "meat" is defined via a tag (`origins/tags/items/meat`), so you can add modded foods in there if you want. Avians can eat all food items that are not in the meat tag. However, if the mod correctly defines the food component as meat in code, it should work out of the box.
 - You can add food to the tag `origins/tags/items/ignore_diet` if you want it to be edible by both vegetarians and carnivores.
 - Blocks which are not passable for Phantoms include bedrock, obsidian and crying obsidian. You can change this via a tag as well (`origins/tags/blocks/unphasable`).
-- For the Feline and Shulk, blocks which are considered "natural stone" are also defined via a tag (`origins/tags/blocks/natural_stone`). By default, it includes stone, diorite, andesite, granite, netherrack, blackstone and basalt.
+- For the Feline and Shulk, blocks which are considered "natural stone" are also defined via a tag (`origins/tags/blocks/natural_stone`). By default, it includes Stone, Diorite, Andesite, Granite, Netherrack, Blackstone, Basalt and all kinds of natural Sandstone.
 - There is an "Orb of Origin" item available in the creative menu. It's a consumable that allows players to change their origin. If you want this to be obtainable in survival, add a crafting recipe via a data pack.
 
 ## Helpful links
