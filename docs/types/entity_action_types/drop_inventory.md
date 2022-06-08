@@ -7,7 +7,7 @@ date: 2022-6-07
 
 [Entity Action Type](../entity_action_types.md)
 
-Adds or sets velocity towards a specific direction.
+Drops items directly from any spot in a player's inventory.
 
 Type ID: `origins:drop_inventory`
 
@@ -23,7 +23,7 @@ Field  | Type | Default | Description
 `slots` | [Array](../data_types/array.md) of [Identifiers](../data_types/identifier.md) | _optional_ | If specified, only items in the designated slots will be dropped. All valid inputs can be found [here](https://minecraft.fandom.com/wiki/Slot#Command_argument)
 `power` | [Identifier](../data_types/identifier.md) | _optional_ | Used to specify which power will be affected if the `inventory_type` field is set to `power`.
 `throw_randomly` | [Boolean](../data_types/boolean.md) | `false` | If true, items will be thrown in random directions instead of being normally dropped, similar to how items are dropped when you die.
-`retain_ownership` | [Boolean](../data_types/boolean.md) | `true` | If true, dropped items will have their `Owner` tag match the UUID of mob who the item originally belonged to, preventing others from picking it up before the original owner has a chance. 
+`retain_ownership` | [Boolean](../data_types/boolean.md) | `true` | If true, dropped items will have their `Owner` tag match the UUID of the player who the item originally belonged to, preventing others from picking it up before the original owner has a chance. 
 
 
 ### Examples
