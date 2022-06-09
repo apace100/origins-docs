@@ -7,7 +7,7 @@ date: 2022-6-07
 
 [Entity Action Type](../entity_action_types.md)
 
-Drops items directly from any spot in a player's inventory.
+Drops items from either the entity's inventory or a power that uses the [Inventory (Power Type)](../../power_types/inventory.md).
 
 Type ID: `origins:drop_inventory`
 
