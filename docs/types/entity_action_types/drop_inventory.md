@@ -16,7 +16,7 @@ Type ID: `origins:drop_inventory`
 Field  | Type | Default | Description
 -------|------|---------|-------------
 `inventory_type` | [Identifier](../../data_types/identifier.md) | `inventory` | Takes one of either `inventory` or `power`. Determines whether you're dropping items from the player inventory, or the extra inventory from the [`origins:inventory`](../types/power_types/inventory.md) power type respectively.
-`entity_action` | [Entity Action](../types/entity_action_types.md) | _optional_ | If specified, this action will be ran after the items are dropped.
+`entity_action` | [Entity Action](../types/entity_action_types.md) | _optional_ | If specified, this action will be executed on the entity **before** the items are dropped.
 `item_action` | [Item Action](../types/item_action_types.md) | _optional_ | If specified, this action will be ran on all affected items.
 `item_condition` | [Item Condition](../types/item_condition_types.md) | _optional_ | If specified, only items which fulfill this condition will be dropped.
 `slot` | [Identifier](../../data_types/identifier.md) | _optional_ | If specified, only items in the designated slot will be dropped. All valid inputs can be found [here](https://minecraft.fandom.com/wiki/Slot#Command_argument)
