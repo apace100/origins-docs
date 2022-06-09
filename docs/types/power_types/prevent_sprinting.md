@@ -7,7 +7,7 @@ date: 2022-06-07
 
 [Power Type](../power_types.md)
 
-Prevents the player with this power from sprinting if a condition is met.
+Prevents the player that has the power from sprinting.
 
 Type ID: `origins:prevent_sprinting`
 
