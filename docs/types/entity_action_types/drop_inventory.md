@@ -21,7 +21,7 @@ Field  | Type | Default | Description
 `item_condition` | [Item Condition](../types/item_condition_types.md) | _optional_ | If specified, only items which fulfill this condition will be dropped.
 `slot` | [Identifier](../../data_types/identifier.md) | _optional_ | If specified, only items in the designated slot will be dropped. All valid inputs can be found [here](https://minecraft.fandom.com/wiki/Slot#Command_argument)
 `slots` | [Array](../data_types/array.md) of [Identifiers](../data_types/identifier.md) | _optional_ | If specified, only items in the designated slots will be dropped. All valid inputs can be found [here](https://minecraft.fandom.com/wiki/Slot#Command_argument)
-`power` | [Identifier](../data_types/identifier.md) | _optional_ | Used to specify which power will be affected if the `inventory_type` field is set to `power`.
+`power` | [Identifier](../data_types/identifier.md) | _optional_ | If specified, this power will have its contents dropped as long as its using the `inventory` power type and the `inventory_type` field of this action is set to `"power"`.
 `throw_randomly` | [Boolean](../data_types/boolean.md) | `false` | If true, items will be thrown in random directions instead of being normally dropped, similar to how items are dropped when you die.
 `retain_ownership` | [Boolean](../data_types/boolean.md) | `true` | If true, dropped items will have their `Owner` tag match the UUID of the player who the item originally belonged to, preventing others from picking it up before the original owner has a chance. 
 
