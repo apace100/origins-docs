@@ -7,7 +7,7 @@ date: 2022-6-07
 
 [Entity Action Type](../entity_action_types.md)
 
-Selects items from anywhere in a player's inventory to modify them with an [Item Action](../types/item_action_types.md).
+Modifies items from either the entity's inventory or a power that uses the [Inventory (Power Type)](../../power_types/inventory.md).
 
 Type ID: `origins:modify_inventory`
 
