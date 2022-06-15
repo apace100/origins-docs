@@ -45,7 +45,7 @@ Value            | Description
 
 ```json
 {
-    "operation": "multiply_total"
+    "operation": "multiply_total_multiplicative"
 }
 ```
 
@@ -55,7 +55,7 @@ Will multiply the total value.
 ```json
 "modifier": {
     "attribute": "reach-entity-attributes:reach",
-    "operation": "addition",
+    "operation": "add_base_early",
     "value": -2
 }
 ```
