@@ -24,6 +24,7 @@ Type ID: `origins:scoreboard`
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
+`name` | [String](../data_types/string.md) | _optional_ | If specified, the condition will check for the score of this score holder.
 `objective` | [String](../data_types/string.md) | | The name of the scoreboard objective to retrieve the value from and compare.
 `comparison` | [Comparison](../data_types/comparison.md) | | How to compare the objective's value to the specified value.
 `compare_to` | [Integer](../data_types/integer.md) | | The value to compare the objective's value to.
