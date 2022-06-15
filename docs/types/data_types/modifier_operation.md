@@ -24,7 +24,7 @@ Value                           | Description
 `min_base`                      | Prevents the base value from going below this value: `MinimumBaseValue = ModifierValue`
 `max_base`                      | Prevents the base value from going above this value: `MaximumBaseValue = ModifierValue`
 `set_base`                      | Sets the base value to the modifier value: `NewValue = ModifierValue`
-`multiply_total_additive`       | Multiplies the total value by this value: `NewTotalValue = TotalValue * (1 + ModifierValue)`
+`multiply_total_additive`       | Multiplies the total value by this value: `NewTotalValue = TotalValue * (TotalValue * ModifierValue)`
 `multiply_total_multiplicative` | Multiplies the total value by this value: `NewTotalValue = TotalValue * (1 + ModifierValue)`
 `add_total_late`                | Adds (or subtracts) the modifier value to the total: `NewTotalValue = TotalValue + ModifierValue`
 `min_total`                     | Prevents the total value from going below this value: `MinimumTotalValue = ModifierValue`
