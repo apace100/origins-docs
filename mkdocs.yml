@@ -43,6 +43,7 @@ nav:
         - Damage Source Names: misc/extras/damage_source_names.md
         - Destruction Types: misc/extras/destruction_types.md
         - Feature Renderers: misc/extras/feature_renderers.md
+        - Inventory Type: misc/extras/inventory_type.md
         - Fluid Handling: misc/extras/fluid_handling.md
         - Keybindings: misc/extras/keybindings.md
         - Materials: misc/extras/materials.md
