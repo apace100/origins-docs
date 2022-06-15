@@ -20,6 +20,7 @@ Field  | Type | Default | Description
 `container_type` | [Container Type](../../misc/extras/container_type.md) | `"dropper"` | Determines what type of container the inventory will be similar to.
 `drop_on_death` | [Boolean](../data_types/boolean.md) | `false` | When this is set to true, the player will drop the items in the inventory on death (vanishing items will vanish!).
 `drop_on_death_filter` | [Item Condition Type](../item_condition_types.md) | _optional_ | If this is set, only item stacks matching this condition will be dropped on death.
+`recoverable` | [Boolean](../data_types/boolean.md) | `true` | Determines if the content of the inventory should be dropped upon losing the power.
 `key` | [Key](../data_types/key.md) | _optional_ | Which active key this power should respond to. If none is specified, this power will use the primary active power key (by default G).
 
 
