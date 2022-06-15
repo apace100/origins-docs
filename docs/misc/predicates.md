@@ -11,3 +11,4 @@ Predicates are technical JSON files that represent the conditions for loot table
 ### List
 
 * [Origin](predicates/origin.md)
+* [Power](predicates/power.md)
