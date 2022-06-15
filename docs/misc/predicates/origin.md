@@ -9,13 +9,15 @@ date: 2021-12-01
 
 Checks if the player has the specified origin.
 
+Type ID: `origins:origin`
+
 
 ### Fields
 
 Field | Type | Default | Description
 ------|------|---------|------------
-`origin` | [Identifier](../../types/data_types/identifier.md) | | The namespace and ID of the origin that you want to check for.
-`layer` | [Identifier](../../types/data_types/identifier.md) | _optional_ | If specified, only evaluate the predicate to true if the origin is from the specified origin layer.
+`origin` | [Identifier](../../types/data_types/identifier.md) | | The namespace and ID of the origin to check for.
+`layer` | [Identifier](../../types/data_types/identifier.md) | _optional_ | If specified, checks if the specified origin is from this origin layer.
 
 
 ### Examples
