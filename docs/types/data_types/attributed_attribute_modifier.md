@@ -16,8 +16,8 @@ Field  | Type | Default | Description
 -------|------|---------|-------------
 `attribute` | [Identifier](identifier.md) | | ID of the attribute which will be modified by this modifier.
 `operation` | [Modifier Operation](modifier_operation.md) | | The operation which will be performed by this modifier.
-`value` | [Float](float.md) | | The value with which to apply the operation to the value.
-`resource` | [Identifier](../data_types/identifier.md) | _optional_ | The namespace and ID of a resource power. If specified, the value of the designated `resource` will be added onto the `value` field.
+`value` | [Float](float.md) | | The value to use for the modifier operation.
+`resource` | [Identifier](../data_types/identifier.md) | _optional_ | If specified, the value of this power will be used instead of the value specified in the `value` field.
 `name` | [String](string.md) | _optional_ | A descriptive name for the modifier, describing where it comes from.
 
 
