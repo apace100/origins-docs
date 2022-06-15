@@ -16,6 +16,7 @@ Extras are pages that do not fit in other sections of the wiki.
 * [Destruction Types](extras/destruction_types.md)
 * [Feature Renderers](extras/feature_renderers.md)
 * [Fluid Handling](extras/fluid_handling.md)
+* [Inventory Type](extras/inventory_type.md)
 * [Keybindings](extras/keybindings.md)
 * [Materials](extras/materials.md)
 * [Player Abilities](extras/player_abilities.md)
