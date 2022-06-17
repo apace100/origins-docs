@@ -9,6 +9,10 @@ date: 2022-06-15
 
 A [string](../../types/data_types/string.md) used to determine whether to reference the inventory of the entity or the inventory of a power present in the entity.
 
+!!! note
+
+    Not to be confused with [Container Type](container_type.md)
+
 
 ### Values
 
