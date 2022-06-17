@@ -41,6 +41,7 @@ nav:
         - Action Results: misc/extras/action_results.md
         - Biome Categories: misc/extras/biome_categories.md
         - Damage Source Names: misc/extras/damage_source_names.md
+        - Container Type: misc/extras/container_type.md
         - Destruction Types: misc/extras/destruction_types.md
         - Feature Renderers: misc/extras/feature_renderers.md
         - Inventory Type: misc/extras/inventory_type.md
