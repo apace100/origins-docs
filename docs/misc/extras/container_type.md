@@ -9,6 +9,10 @@ date: 2022-06-15
 
 A [string](../../types/data_types/string.md) used to determine the type of container to use for the screen of a power that uses the [Inventory (Power Type)](../../types/power_types/inventory.md).
 
+!!! note
+
+    Not to be confused with [Inventory Type](inventory_type.md)
+
 
 ### Values
 
