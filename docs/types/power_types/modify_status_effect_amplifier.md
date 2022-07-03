@@ -16,8 +16,10 @@ Type ID: `origins:modify_status_effect_amplifier`
 
 Field | Type | Default | Description
 ------|------|---------|------------
-`status_effect` | [Identifier](../data_types/identifier.md) | | The namespace and ID of the status effect that will have its amplifier modified.
-`modifier` | [Attribute Modifier](../data_types/attribute_modifier.md) | | The modifier to apply to the amplifier of the specified status effect.
+`status_effect` | [Identifier](../data_types/identifier.md) | _optional_ | If specified, only this status effect will have its amplifier modified upon being received.
+`status_effects` | [Array](../data_types/array.md) of [Identifiers](../data_types/identifier.md) | _optional_ | If specified, only these status effect(s) will have its amplifier modified upon being received.
+`modifier` | [Attribute Modifier](../data_types/attribute_modifier.md) | _optional_ | If specified, this modifier will be applied to the amplifier of the specified status effect(s).
+`modifiers` | [Array](../data_types/array.md) of [Attribute Modifiers](../data_types/attribute_modifier.md) | _optional_ | If specified, these modifiers will be applied to the amplifier of the specified status effect(s).
 
 
 ### Examples
@@ -27,7 +29,7 @@ Field | Type | Default | Description
     "type": "origins:modify_status_effect_amplifier",
     "status_effect": "minecraft:speed",
     "modifier": {
-        "operation": "addition",
+        "operation": "add_base_early",
         "value": 1
     }
 }
