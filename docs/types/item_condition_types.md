@@ -12,6 +12,7 @@ Item Condition Types operate on an `ItemStack`. These are available to power/con
 
 * [Amount](item_condition_types/amount.md)
 * [Armor Value](item_condition_types/armor_value.md)
+* [Durability](item_condition_types/durability.md)
 * [Empty](item_condition_types/empty.md)
 * [Enchantment](item_condition_types/enchantment.md)
 * [Fireproof](item_condition_types/fireproof.md)
