@@ -18,6 +18,7 @@ Item Condition Types operate on an `ItemStack`. These are available to power/con
 * [Food](item_condition_types/food.md)
 * [Harvest Level](item_condition_types/harvest_level.md)
 * [Ingredient](item_condition_types/ingredient.md)
+* [Is Damageable](item_condition_types/is_damageable.md)
 * [Meat](item_condition_types/meat.md)
 * [NBT](item_condition_types/nbt.md)
 * [Smeltable](item_condition_types/smeltable.md)
