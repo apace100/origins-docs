@@ -7,7 +7,7 @@ date: 2021-04-07
 
 [Power Type](../power_types.md)
 
-Applies one or more attribute modifiers.
+Modifies one or more attributes using [Attributed Attribute Modifiers](../data_types/attributed_attribute_modifier.md)
 
 Type ID: `origins:attribute`
 
