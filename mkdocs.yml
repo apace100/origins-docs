@@ -9,10 +9,12 @@ nav:
         - Workspace Setup: guides/addon/workspace_setup.md
         - Dependencies Explained: guides/addon/dependencies.md
     - JSON:
-        - Origin Layer JSON: json/origin_layer.md
+        - Badge JSON: json/badge.md
         - Origin JSON: json/origin.md
+        - Origin Layer JSON: json/origin_layer.md
         - Power JSON: json/power.md
     - General Types:
+        - Badge Types: types/badge_types.md
         - Data Types: types/data_types.md
         - Power Types: types/power_types.md
     - Action Types:
