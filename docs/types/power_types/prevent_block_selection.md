@@ -7,16 +7,20 @@ date: 2021-04-07
 
 [Power Type](../power_types.md)
 
-Prevents the selection (i.e. targetting) of blocks for a player. This means they are not able to mine them, and attacks, interactions, etc. will pass through the block to whatever's behind it.
+Prevents the selection of blocks for the player that has the power.
 
 Type ID: `origins:prevent_block_selection`
+
+!!! note
+
+    Preventing the "selection" of a block means that the player won't be able to mine or interact with the said block; meaning that actions will pass through the block to whatever is behind the said block.
 
 
 ### Fields
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`block_condition` | [Block Condition Type](../block_condition_types.md) | _optional_ | If specified, only blocks that fulfil this condition are affected.
+`block_condition` | [Block Condition Type](../block_condition_types.md) | _optional_ | If specified, only blocks that fulfill this condition are affected.
 
 
 ### Examples
