@@ -11,3 +11,4 @@ Item Modifiers are technical JSON files that can be created inside data packs an
 ### List
 
 * [Add Power (Apoli)](item_modifiers/apoli_add_power.md)
+* [Remove Power (Apoli)](item_modifiers/apoli/remove_power.md)
