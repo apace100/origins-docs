@@ -5,11 +5,11 @@ date: 2021-04-05
 
 # Layer JSON Format
 
-This is the format of a JSON file describing a layer. Layers are collections of origins, and a player can have a single origin on each layer. For example, the classes from the Origins: Classes add-on are on a separate layer, thus you can choose a class _in addition to_ choosing an origin.
+This is the format of a JSON file describing an origin layer. Origin layers are a collection of origins used for making a player choose one origin for each existing origin layer. For example, the classes from the **Origins: Classes** add-on are on a separate layer, thus you can choose a "class" *in addition to* choosing an origin.
 
-Layer files need to be placed inside the `origin_layers` folder within your namespace.
+Origin Layer JSON files need to be placed inside the `data/<namespace>/origin_layers` folder of your datapack. The said files can be referenced as `namespace:path/to/origin_layer` (`data/namespace/origin_layers/path/to/origin_layer`) in the [`/origin` (Command)](../misc/commands/origin.md).
 
-The most common use is to create a layer file at `data/origins/origin_layers/origin.json` with `replace` set to false, in order to add a custom origin to the list. See the examples below for what that would look like.
+The most common use is to create an Origin Layer JSON file with the name `origin.json` in the `data/origins/origin_layers` folder of your datapack with a `replace` boolean field value of `false`.
 
 
 ### Fields
