@@ -22,4 +22,5 @@ Item Condition Types operate on an `ItemStack`. These are available to power/con
 * [Is Damageable](item_condition_types/is_damageable.md)
 * [Meat](item_condition_types/meat.md)
 * [NBT](item_condition_types/nbt.md)
+* [Relative Durability](item_condition_types/relative_durability.md)
 * [Smeltable](item_condition_types/smeltable.md)
