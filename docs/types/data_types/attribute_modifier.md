@@ -7,14 +7,14 @@ date: 2021-04-04
 
 [Data Type](../data_types.md)
 
-An [Object](object.md) used to specify how an attribute should be modified.
+An [object](object.md) used to specify how a value should be modified.
 
 
 ### Fields
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`operation` | [Modifier Operation](modifier_operation.md) | | The operation which will be performed by this modifier.
+`operation` | [Attribute Modifier Operation](attribute_modifier_operation.md) | | The operation which will be performed by this modifier.
 `value` | [Float](float.md) | | The value to use for the modifier operation.
 `resource` | [Identifier](../data_types/identifier.md) | _optional_ | If specified, the value of this power will be used instead of the value specified in the `value` field.
 `name` | [String](string.md) | _optional_ | A descriptive name for the modifier, describing where it comes from.
@@ -24,19 +24,32 @@ Field  | Type | Default | Description
 
 ```json
 "modifier": {
-    "operation": "multiply_base",
-    "value": 1
+    "operation": "add_base_early",
+    "value": 9
 }
 ```
 
-This attribute modifier will multiply the base value by 2, stacking additively with other `multiply_base` operations on the same value.
+This example will add `9.0` to the base value.
+(For example: if the current base value is 6.0, the new base value will be 15 since `6 + 9 = 15`)
 <br>
 
 ```json
 "modifier": {
-	"operation": "multiply_total",
-	"value": -1
+    "operation": "multiply_base_additive",
+    "value": 2
 }
 ```
 
-This attribute modifier will multiply the total value by 0.
+This example will add the base value multiplied by the modifier value to the current base value.
+(For example: if the current base value is 5, the new base value will be 15 since `5 + (5 * 2) = 15`)
+<br>
+
+```json
+"modifier": {
+    "operation": "multiply_total_multiplicative",
+    "value": 0.25
+}
+```
+
+This example will multiply the total value by 1.25, essentially increasing the total value by 125%.
+(For example: if the current total value is 30, the new total value will be 37.5 since `30 * (1 + 0.25) = 37.5`)

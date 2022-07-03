@@ -20,7 +20,9 @@ Data types are used everywhere in the JSON files. Every field in a JSON has to h
 
 ### Origins-specific
 
+* [Attribute Modifier Operation](data_types/attribute_modifier_operation.md)
 * [Attribute Modifier](data_types/attribute_modifier.md)
+* [Attributed Attribute Modifier Operation](data_types/attributed_attribute_modifier_operation.md)
 * [Attributed Attribute Modifier](data_types/attributed_attribute_modifier.md)
 * [Badge](data_types/badge.md)
 * [Comparison](data_types/comparison.md)
@@ -31,7 +33,6 @@ Data types are used everywhere in the JSON files. Every field in a JSON has to h
 * [Ingredient](data_types/ingredient.md)
 * [Item Stack](data_types/item_stack.md)
 * [Key](data_types/key.md)
-* [Modifier Operation](data_types/modifier_operation.md)
 * [Particle Effect](data_types/particle_effect.md)
 * [Positioned Item Stack](data_types/positioned_item_stack.md)
 * [Status Effect Instance](data_types/status_effect_instance.md)
