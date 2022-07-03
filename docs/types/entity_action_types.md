@@ -36,6 +36,7 @@ Entity Action Types operate on an `Entity`. Some more specific actions only have
 * [Modify Death Ticks](entity_action_types/modify_death_ticks.md)
 * [Modify Inventory](entity_action_types/modify_inventory.md)
 * [Modify Resource](entity_action_types/modify_resource.md)
+* [Modify Stat](entity_action_types/modify_stat.md)
 * [Passenger Action](entity_action_types/passenger_action.md)
 * [Play Sound](entity_action_types/play_sound.md)
 * [Raycast](entity_action_types/raycast.md)
