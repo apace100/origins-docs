@@ -17,6 +17,7 @@ Meta Action Types are independent of the type they operate on. They basically co
 * [If-Else-List](meta_action_types/if_else_list.md)
 * [If-Else](meta_action_types/if_else.md)
 * [Nothing](meta_action_types/nothing.md)
+* [Side](meta_action_types/side.md)
 
 
 ### Bi-entity Actions
