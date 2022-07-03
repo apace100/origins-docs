@@ -7,7 +7,7 @@ date: 2021-10-02
 
 [Power Type](../power_types.md)
 
-Modifies the result item of a recipe using an [Item Action Type](../item_action_types.md) or an [Item Stack](../data_types/item_stack.md). It can also execute an [Entity Action Type](../entity_action_types.md) on the player and a [Block Action](../block_action_types.md) at the block used for crafting the recipe.
+Modifies the result item of a recipe that can be crafted via the player's inventory or the crafting table.
 
 Type ID: `origins:modify_crafting`
 
