@@ -9,6 +9,8 @@ date: 2021-04-06
 
 Modifies how much damage the entity that has the power takes.
 
+For the `bientity_action` and `bientity_condition`, the actor is the entity that attacks (left-clicks) the target entity (which has the power).
+
 Type ID: `origins:modify_damage_taken`
 
 

@@ -9,6 +9,8 @@ date: 2021-10-06
 
 Executes a [Bi-entity Action Type](../bientity_action_types.md) when the entity that has the power has hit another entity.
 
+For the `bientity_action` and `bientity_condition`, the actor is the entity that attacks (left-clicks and has the power) the target entity.
+
 Type ID: `origins:action_on_hit`
 
 
@@ -20,7 +22,7 @@ Field | Type | Default | Description
 `damage_condition` | [Damage Condition Type](../damage_condition_types.md) | _optional_ | If specified, the action will only execute when this condition holds for the damage that was dealt by the 'actor' (the entity that has the power) entity.
 `cooldown` | [Integer](../data_types/integer.md) | `1` | Interval of ticks this power needs to recharge before the power can be triggered again.
 `hud_render` | [Hud Render](../data_types/hud_render.md) | `{"should_render": false}` | Determines how the cooldown of this power is visualized on the HUD.
-`bientity_condition` | [Bi-entity Condition Type](../bientity_condition_types.md) | _optional_ | If specified, the action will only execute when this condition is fulfilled by either or both 'actor' (the entity that has the power) and 'target' (the entity/entities that's been hit) entities. 
+`bientity_condition` | [Bi-entity Condition Type](../bientity_condition_types.md) | _optional_ | If specified, the action will only execute when this condition is fulfilled by either or both 'actor' (the entity that has the power) and 'target' (the entity/entities that's been hit) entities.
 
 
 ### Examples

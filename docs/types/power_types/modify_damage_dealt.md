@@ -9,6 +9,8 @@ date: 2021-04-06
 
 Modifies how much melee damage the entity that has the power deals.
 
+For the `bientity_action` and `bientity_condition`, the actor is the entity that attacks (left-clicks and has the power) the target entity.
+
 Type ID: `origins:modify_damage_dealt`
 
 

@@ -9,6 +9,8 @@ date: 2021-10-05
 
 Executes a [Bi-entity Action Type](../bientity_action_types.md) or [Item Action Types](../item_action_types.md) when the player that has the power "uses" (right-clicks) an entity.
 
+For the `bientity_action` and `bientity_condition`, the actor is the entity that uses (right-clicks and has the power) the target entity.
+
 Type ID: `origins:action_on_entity_use`
 
 

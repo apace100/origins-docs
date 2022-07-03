@@ -9,6 +9,8 @@ date: 2021-10-06
 
 Executes a [Bi-entity Action Type](../bientity_action_types.md) if the entity that has the power has been hit by another entity.
 
+For the `bientity_action` and `bientity_condition`, the actor is the entity that attacks (left-clicks) the target entity (which has the power).
+
 Type ID: `origins:action_when_hit`
 
 

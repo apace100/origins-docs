@@ -9,6 +9,8 @@ date: 2021-10-06
 
 Prevents other players from being able to "use" (right-click) the entity that has the power and executes a bi-entity action, item action and/or give an item upon being prevented.
 
+For the `bientity_action` and `bientity_condition`, the actor is the entity that tries to use (right-click) the target entity (which has the power).
+
 Type ID: `origins:prevent_being_used`
 
 
