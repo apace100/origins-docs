@@ -12,4 +12,5 @@ Item Action Types operate on a stack of items. These are available to power/acti
 
 * [Consume](item_action_types/consume.md)
 * [Damage](item_action_types/damage.md)
+* [Merge NBT](item_action_types/merge_nbt.md)
 * [Modify](item_action_types/modify.md)
