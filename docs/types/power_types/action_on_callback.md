@@ -22,8 +22,8 @@ Field  | Type | Default | Description
 -------|------|---------|-------------
 `entity_action_chosen` | [Entity Action Type](../entity_action_types.md) | _optional_ | If specified, this action will be executed on the player when the player chooses their origin on the last layer through the menu - by using the Orb of Origin or missing an origin or joining for the first time - if the power was gained from any of the layers.
 `execute_chosen_when_orb` | [Boolean](../data_types/boolean.md) | `true` | When this is false, the `entity_action_chosen` will not be executed when the player changes their origin with an orb, but only when the player chooses an origin for the first time or their origin was reset to `origins:empty` via a command.
-`entity_action_gained` | [Entity Action Type](../entity_action_types.md) | _optional_ | If specified, this action will be executed on the player when the power is gained.
-`entity_action_lost` | [Entity Action Type](../entity_action_types.md) | _optional_ | If specified, this action will be executed on the player when the power is lost.
+`entity_action_gained` | [Entity Action Type](../entity_action_types.md) | _optional_ | If specified, this action will be executed on the player when the power is gained - if the power is granted for the first time.
+`entity_action_lost` | [Entity Action Type](../entity_action_types.md) | _optional_ | If specified, this action will be executed on the player when the power is lost - if the power is removed permanently.
 `entity_action_added` | [Entity Action Type](../entity_action_types.md) | _optional_ | If specified, this action will be executed on the player when the power is added. Joining a world adds each power back.
 `entity_action_removed` | [Entity Action Type](../entity_action_types.md) | _optional_ | If specified, this action will be executed on the player when the power is removed and right after the player respawns. Leaving a world removes each power.
 `entity_action_respawned` | [Entity Action Type](../entity_action_types.md) | _optional_ | If specified, this action will be executed on the player right after the player respawns, after the `entity_action_removed`.
