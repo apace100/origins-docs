@@ -5,7 +5,9 @@ date: 2021-04-05
 
 # Origin JSON Format
 
-This is the format of a JSON file describing an origin. They need to be placed inside the `origins` folder within your namespace.
+This is the format of a JSON file describing an origin. Origins are used to give players special abilities, which can alter the player's gameplay.
+
+Origin JSON files need to be placed inside the `data/<namespace>/origins` folder of your datapack. The said files can be referenced as `namespace:path/to/origin` (`data/namespace/origins/path/to/origin.json`) in the `origins` field of an [Origin Layer (JSON)](origin_layer.md) file.
 
 
 ### Fields
