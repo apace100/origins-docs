@@ -33,6 +33,7 @@ Entity Action Types operate on an `Entity`. Some more specific actions only have
 * [Give](entity_action_types/give.md)
 * [Grant Power](entity_action_types/grant_power.md)
 * [Heal](entity_action_types/heal.md)
+* [Modify Death Ticks](entity_action_types/modify_death_ticks.md)
 * [Modify Inventory](entity_action_types/modify_inventory.md)
 * [Passenger Action](entity_action_types/passenger_action.md)
 * [Play Sound](entity_action_types/play_sound.md)
