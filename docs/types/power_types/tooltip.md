@@ -23,6 +23,7 @@ Field | Type | Default | Description
 `item_condition` | [Item Condition Type](../item_condition_types.md) | _optional_ | If specified, the specified tooltip(s) will only apply to items that fulfills this condition.
 `text` | [String](../data_types/string.md) | _optional_ | If specified, apply this string as a tooltip.
 `texts` | [Array](../data_types/array.md) of [Strings](../data_types/string.md) | _optional_ | If specified, apply these strings as a tooltip.
+`priority` | [Integer](../data_types/integer.md) | `0` | Determines the placement priority of the tooltip(s) of the power.
 
 
 ### Examples
@@ -40,4 +41,23 @@ Field | Type | Default | Description
 }
 ```
 
-This example will apply a `"Hmm, egg."` tooltip to an Egg item.
+This example will apply a "`Hmm, egg.`" tooltip to an Egg item.
+<br>
+
+```json
+{
+    "type": "origins:tooltip",
+    "item_condition": {
+        "type": "origins:ingredient",
+        "ingredient": {
+            "item": "minecraft:cake"
+        }
+    },
+    "text": {
+        "text": "Happy birthday!",
+        "color": "yellow"
+    }
+}
+```
+
+This example will apply a yellow-colored "`Happy birthday!`" tooltip to a Cake item.
