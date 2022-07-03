@@ -21,7 +21,7 @@ Type ID: `origins:modify_stat`
 Field | Type | Default | Description
 ------|------|---------|------------
 `stat` | [Identifier](../data_types/identifier.md) | | The namespace and ID of the statistic to be modified.
-`modifier` | [Attribute Modifier](../data_types/attribute_modifier_operation.md) | | This modifier will be applied to the current value of the statistic specified.
+`modifier` | [Attribute Modifier](../data_types/attribute_modifier.md) | | This modifier will be applied to the current value of the statistic specified.
 
 
 ### Examples
