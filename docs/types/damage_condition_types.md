@@ -13,6 +13,7 @@ Damage Condition Types operate on a combination of `DamageSource` and `Float`, a
 * [Amount](damage_condition_types/amount.md)
 * [Attacker](damage_condition_types/attacker.md)
 * [Bypasses Armor](damage_condition_types/bypasses_armor.md)
+* [Explosive](damage_condition_types/explosive.md)
 * [Fire](damage_condition_types/fire.md)
 * [Name](damage_condition_types/name.md)
 * [Projectile](damage_condition_types/projectile.md)
