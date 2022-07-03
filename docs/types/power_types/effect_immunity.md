@@ -16,8 +16,9 @@ Type ID: `origins:effect_immunity`
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`effect` | [Identifier](../data_types/identifier.md) |  | If specified, the status effect with this namespace and ID can not be applied to the entity that has the power.
-`effects` | [Array](../data_types/array.md) of [Identifiers](../data_types/identifier.md) |  | If specified, the status effects with the specified namespace and IDs can not be applied to the entity that has the power.
+`effect` | [Identifier](../data_types/identifier.md) | _optional_ | If specified, only the status effect with this namespace and ID can not be applied to the entity that has the power.
+`effects` | [Array](../data_types/array.md) of [Identifiers](../data_types/identifier.md) | _optional_ | If specified, only the status effects with the specified namespace and IDs can not be applied to the entity that has the power.
+`inverted` | [Boolean](../data_types/boolean.md) | `false` | Determines whether to make the entity immune to the status effect(s) that aren't specified.
 
 
 ### Examples
