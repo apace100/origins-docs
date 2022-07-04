@@ -98,6 +98,7 @@ Unless stated otherwise, each power type supports a `condition` field that can c
 * [Modify Falling](power_types/modify_falling.md)
 * [Modify Fluid Render](power_types/modify_fluid_render.md)
 * [Modify Food](power_types/modify_food.md)
+* [Modify Grindstone](power_types/modify_grindstone.md)
 * [Modify Harvest](power_types/modify_harvest.md)
 * [Modify Healing](power_types/modify_healing.md)
 * [Modify Insomnia Ticks](power_types/modify_insomnia_ticks.md)
