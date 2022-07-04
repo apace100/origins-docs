@@ -18,13 +18,15 @@ Type ID: `origins:modify_damage_taken`
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`bientity_condition` | [Bi-entity Condition Type](../bientity_condition_types.md) | _optional_ | If specified, the specified modifier(s) and/or action(s) will only apply if either or both 'actor' (the attacker) and 'target' (the entity that has the power) fulfills this bi-entity condition type.
-`damage_condition` | [Damage Condition Type](../damage_condition_types.md) | _optional_ | If specified, the specified modifiers(s) and/or action(s) will only apply if the taken damage fulfills this condition.
-`modifier` | [Attribute Modifier](../data_types/attribute_modifier.md) | _optional_ | If specified, this modifier will apply to the damage amount.
-`modifiers` | [Array](../data_types/array.md) of [Attribute Modifiers](../data_types/attribute_modifier.md) | _optional_ | If specified, these modifiers will apply to the damage amount.
 `bientity_action` | [Bi-entity Action Type](../bientity_action_types.md) | _optional_ | If specified, this bi-entity action type will be executed on either or both 'actor' (the attacker) and 'target' (the entity that has the power).
 `self_action` | [Entity Action Type](../entity_action_types.md) | _optional_ | If specified, this action will be executed on the entity that has the power whenever the modifier(s) is applied.
 `attacker_action` | [Entity Action Type](../entity_action_types.md) | _optional_ | If specified, this action will be executed on the entity/entities that has been hit whenever the modifier(s) is applied.
+`bientity_condition` | [Bi-entity Condition Type](../bientity_condition_types.md) | _optional_ | If specified, the specified modifier(s) and/or action(s) will only apply if either or both 'actor' (the attacker) and 'target' (the entity that has the power) fulfills this bi-entity condition type.
+`apply_armor_condition` | [Entity Condition Type](../entity_condition_types.md) | _optional_ | If specified, armor will only be applied to the damage received if this condition is fulfilled by the target entity.
+`damage_armor_condition` | [Entity Condition Type](../entity_condition_types.md) | _optional_ | If specified, worn armor will only be damaged if this condition is fulfilled by the target entity.
+`damage_condition` | [Damage Condition Type](../damage_condition_types.md) | _optional_ | If specified, the specified modifiers(s) and/or action(s) will only apply if the taken damage fulfills this condition.
+`modifier` | [Attribute Modifier](../data_types/attribute_modifier.md) | _optional_ | If specified, this modifier will apply to the damage amount.
+`modifiers` | [Array](../data_types/array.md) of [Attribute Modifiers](../data_types/attribute_modifier.md) | _optional_ | If specified, these modifiers will apply to the damage amount.
 
 
 ### Examples
