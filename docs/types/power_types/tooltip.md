@@ -11,18 +11,14 @@ Applies the specified tooltip(s) to an item that is only visible to the entity t
 
 Type ID: `origins:tooltip`
 
-!!! note
-
-    The `text` and `texts` fields can accept [JSON text components](https://minecraft.fandom.com/wiki/Raw_JSON_text_format). However, JSON text components that needs to be resolved may **not work**.
-
 
 ### Fields
 
 Field | Type | Default | Description
 ------|------|---------|-------------
 `item_condition` | [Item Condition Type](../item_condition_types.md) | _optional_ | If specified, the specified tooltip(s) will only apply to items that fulfills this condition.
-`text` | [String](../data_types/string.md) | _optional_ | If specified, apply this string as a tooltip.
-`texts` | [Array](../data_types/array.md) of [Strings](../data_types/string.md) | _optional_ | If specified, apply these strings as a tooltip.
+`text` | [Text Component](../data_types/text_component.md) | _optional_ | If specified, apply this string as a tooltip.
+`texts` | [Array](../data_types/array.md) of [Text Components](../data_types/text_component.md) | _optional_ | If specified, apply these strings as a tooltip.
 `priority` | [Integer](../data_types/integer.md) | `0` | Determines the placement priority of the tooltip(s) of the power.
 
 
