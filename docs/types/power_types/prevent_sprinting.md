@@ -11,7 +11,9 @@ Prevents the player that has the power from sprinting.
 
 Type ID: `origins:prevent_sprinting`
 
+
 ### Fields
+
 _None._
 
 
@@ -19,12 +21,12 @@ _None._
 
 ```json
 {
-  "type": "origins:prevent_sprinting",
-  "condition": {
-    "type": "origins:food_level",
-    "compare_to": 12,
-    "comparison": "<="
-  }
+    "type": "origins:prevent_sprinting",
+    "condition": {
+        "type": "origins:food_level",
+        "compare_to": 12,
+        "comparison": "<="
+    }
 }
 ```
 
