@@ -20,8 +20,8 @@ Type ID: `origins:cooldown`
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`cooldown` | [Integer](../data_types/integer.md) | | Cooldown duration in ticks.
-`hud_render` | [Hud Render](../data_types/hud_render.md) | _optional_ | Determines how the cooldown of this power is visualized on the HUD.
+`cooldown` | [Integer](../data_types/integer.md) | | Interval of ticks this power needs to recharge before the power can be triggered again.
+`hud_render` | [Hud Render](../data_types/hud_render.md) | `{"should_render": false}` | Determines how the cooldown of this power is visualized on the HUD.
 
 
 
