@@ -68,7 +68,7 @@ Field | Type | Default | Description
 {
     "type": "origins:replace_loot_table",
     "replace": {
-        "([a-z|0-9|\\-|_]).*:blocks/((?!diamond).*)_ore": "example:double_drops"
+        "([a-z|0-9|\\-|_]).*:blocks\/((?!diamond).*)_ore": "example:double_drops"
     }
 }
 ```
