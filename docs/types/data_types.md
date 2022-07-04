@@ -35,4 +35,5 @@ Data types are used everywhere in the JSON files. Every field in a JSON has to h
 * [Particle Effect](data_types/particle_effect.md)
 * [Positioned Item Stack](data_types/positioned_item_stack.md)
 * [Status Effect Instance](data_types/status_effect_instance.md)
+* [Text Component](data_types/text_component.md)
 * [Vector](data_types/vector.md)
