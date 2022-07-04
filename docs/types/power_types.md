@@ -46,6 +46,7 @@ Unless stated otherwise, each power type supports a `condition` field that can c
 * [Particle](power_types/particle.md)
 * [Phasing](power_types/phasing.md)
 * [Recipe](power_types/recipe.md)
+* [Replace Loot Table](power_types/replace_loot_table.md)
 * [Resource](power_types/resource.md)
 * [Restrict Armor](power_types/restrict_armor.md)
 * [Self Glow](power_types/self_glow.md)
