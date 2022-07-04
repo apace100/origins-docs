@@ -9,24 +9,25 @@ date: 2021-04-06
 
 Modifies how much melee damage the entity that has the power deals.
 
-For the `bientity_action` and `bientity_condition`, the actor is the entity that attacks (left-clicks and has the power) the target entity.
-
 Type ID: `origins:modify_damage_dealt`
+
+!!! note
+
+    In the context of this power type, the '**actor**' entity is the entity that has the power whilst the '**target**' entity is the entity that was hit.
 
 
 ### Fields
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`bientity_condition` | [Bi-entity Condition Type](../bientity_condition_types.md) | _optional_ | If specified, the specified modifier(s) and/or action(s) will only apply if either or both 'actor' (the entity that has the power) and 'target' (the entity that has been hit) fulfills this bi-entity condition type.
-`damage_condition` | [Damage Condition Type](../damage_condition_types.md) | _optional_ | If specified, the specified modifier(s) and/or action(s) will only apply if the dealt damage fulfills this condition.
-`target_condition` | [Entity Condition Type](../entity_condition_types.md) | _optional_ | If specified, the specified modifier(s) and action(s) will only be applied if the entity/entities that has been hit fulfills this condition.
-`modifier` | [Attribute Modifier](../data_types/attribute_modifier.md) | _optional_ | If specified, this modifier will apply to the damage amount.
-`modifiers` | [Array](../data_types/array.md) of [Attribute Modifiers](../data_types/attribute_modifier.md) | _optional_ | If specified, these modifiers will apply to the damage amount.
-`bientity_action` | [Bi-entity Action Type](../bientity_action_types.md) | _optional_ | If specified, this bi-entity action type will be executed on either or both 'actor' (the entity that has the power) and 'target' (the entity that has been hit).
-`self_action` | [Entity Action Type](../entity_action_types.md) | _optional_ | If specified, this action will be executed on the entity that has the power whenever the modifier(s) is applied.
-`target_action` | [Entity Action Type](../entity_action_types.md) | _optional_ | If specified, this action will be executed on the entity/entities that has been hit whenever the modifier(s) is applied.
-
+`bientity_action` | [Bi-entity Action Type](../bientity_action_types.md) | _optional_ | If specified, this action will be executed on either or both the '**actor**' and '**target**' entities whenever the modifier(s) is/are applied.
+`self_action` | [Entity Action Type](../entity_action_types.md) | _optional_ | If specified, this action will be executed on the '**actor**' entity whenever the modifier(s) is/are applied.
+`target_action` | [Entity Action Type](../entity_action_types.md) | _optional_ | If specified, this action will be executed on the '**target**' entity whenever the modifier(s) is/are applied.
+`bientity_condition` | [Bi-entity Condition Type](../bientity_condition_types.md) | _optional_ | If specified, the specified action(s)/modifier(s) will only be executed/applied if this condition is fulfilled by either or both '**actor**' and '**target**' entities.
+`target_condition` | [Entity Condition Type](../entity_condition_types.md) | _optional_ | If specified, the specified actions/modifiers will only be executed/applied if this condition is fulfilled by the '**target**' entity.
+`damage_condition` | [Damage Condition Type](../damage_condition_types.md) | _optional_ | If specified, the specified actions/modifiers will only be executed/applied if this condition is fulfilled by the damage dealt by the '**actor**' entity.
+`modifier` | [Attribute Modifier](../data_types/attribute_modifier.md) | _optional_ | If specified, this modifier will be applied to the damage dealt by the '**actor**' entity.
+`modifiers` | [Array](../data_types/array.md) of [Attribute Modifiers](../data_types/attribute_modifier.md) | _optional_ | If specified, these modifiers will be applied t othe damage dealt by the '**actor**' entity.
 
 
 ### Examples
