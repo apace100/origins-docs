@@ -16,7 +16,7 @@ Type ID: `origins:modify_grindstone`
 
 Field | Type | Default | Description
 ------|------|---------|------------
-`result_type` | [Result Type](../data_types/result_type.md) | `"unchanged"` | Determines which item stack to use as a new result item stack.
+`result_type` | [String](../data_types/string.md) | `"unchanged"` | Determines whether to not change the initial item stack (`"unchanged"`), replace it with the item stack specified in the `result_stack` field (`"specified"`), replace it with the item stack from the top input slot of a Grindstone block (`"from_top"`) or replace it with the item stack from the bottom input slot of a Grindstone block (`"from_bottom"`).
 `entity_action` | [Entity Action Type](../entity_action_types.md) | _optional_ | If specified, this action will be executed on the player upon taking the item stack from the result slot of a Grindstone.
 `block_action` | [Block Action Type](../block_action_types.md) | _optional_ | If specified, this action will be executed on the Grindstone block upon taking the item stack from the result slot of the said Grindstone block.
 `item_action` | [Item Action Type](../item_action_types.md) | _optional_ | If specified, this action will be executed on the result item stack.
