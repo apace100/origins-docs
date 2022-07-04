@@ -18,8 +18,8 @@ Field | Type | Default | Description
 ------|------|---------|------------
 `sprite` | [Identifier](../identifier.md) | | The namespace, path and ID of the texture to use as the icon of the badge.
 `recipe` | [Crafting Recipe](../data_types/crafting_recipe.md) | | The recipe to display, including an `id` field which can be any arbitrary identifier.
-`suffix` | [String](../string.md) | _optional_ | If specified, this text will be used as the suffix for the tooltip.
-`prefix` | [String](../string.md) | _optional_ | If specified, this text will be used as the prefix for the tooltip.
+`suffix` | [Text Component](../data_types/text_component.md) | _optional_ | If specified, this text will be used as the suffix for the tooltip.
+`prefix` | [Text Component](../data_types/text_component.md) | _optional_ | If specified, this text will be used as the prefix for the tooltip.
 
 
 ### Examples
