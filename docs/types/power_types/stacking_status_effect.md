@@ -59,7 +59,7 @@ Field  | Type | Default | Description
 }
 ```
 
-This example will apply the Weakness I and Slowness I status effects that would last for 1 second to the entity that has the power if the entity is under a low ceiling. 
+This example will apply the Weakness I and Slowness I status effects that would last for 1 second to the entity that has the power if the entity is under a low ceiling.
 <br>
 
 ```json
@@ -81,4 +81,4 @@ This example will apply the Weakness I and Slowness I status effects that would 
 }
 ```
 
-This example will apply the Blindness I status effect that would last for  seconds after being exposed to the sun for at least 4 seconds.
+This example will apply the Blindness I status effect that would last for 5 seconds after being exposed to the sun for at least 4 seconds.
