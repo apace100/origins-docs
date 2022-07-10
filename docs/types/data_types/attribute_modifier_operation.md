@@ -20,7 +20,7 @@ Value                           | Description
 --------------------------------|---------------
 `add_base_early`                | Adds (or subtracts) the modifier value to the base value. (`NewBaseValue = BaseValue + ModifierValue`)
 `multiply_base_additive`        | Adds (or subtracts) the base value multiplied by the modifier value to the current base value. (`NewBaseValue = BaseValue + (BaseValue * ModifierValue)`)
-`multiply_base_multiplicative`  | Multiplies the current base value by the modifier value. (`NewBaseValue = BaseValue + (1 + ModifierValue)`)
+`multiply_base_multiplicative`  | Multiplies the current base value by the modifier value. (`NewBaseValue = BaseValue * (1 + ModifierValue)`)
 `add_base_late`                 | Adds (or subtracts) the modifier value to the base value. (`NewBaseValue = BaseValue + ModifierValue`)
 `min_base`                      | Uses the modifier value as the minimum value for the base value using Java's built-in [`Math#max`](https://docs.oracle.com/javase/8/docs/api/java/lang/Math.html#max-double-double-) method. (`NewBaseValue = Math.max(BaseValue, ModifierValue)`)
 `max_base`                      | Uses the modifier value as the maximum value for the base value using Java's built-in [`Math#min`](https://docs.oracle.com/javase/8/docs/api/java/lang/Math.html#min-double-double-) method. (`NewBaseValue = Math.min(BaseValue, ModifierValue)`)
