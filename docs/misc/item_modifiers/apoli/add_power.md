@@ -5,7 +5,7 @@ date: 2021-12-01
 
 # Add Power (Apoli)
 
-[Item Modifier](../item_modifiers.md)
+[Item Modifier](../../item_modifiers.md)
 
 Adds a power to an item stack that will only be applied to the player if the item is held/equipped in the specified equipment slot.
 
