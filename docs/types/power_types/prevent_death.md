@@ -55,4 +55,4 @@ Field  | Type | Default | Description
 }
 ```
 
-This example will always prevent the entity from dying and then apply the same effects as a Totem of Undying, e.g: clear all status effects on the entity an then apply Regeneration II, Fire Resistance I and Absorption I.
+This example will always prevent the entity from dying and then apply the same effects as a Totem of Undying, e.g: clear all status effects on the entity and then apply Regeneration II, Fire Resistance I and Absorption I.
