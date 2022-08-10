@@ -14,10 +14,10 @@ Adds a power to an item stack that will only be applied to the player if the ite
 
 Field | Type | Default | Description
 ------|------|---------|------------
-`power` | [Identifier](../../types/data_types/identifier.md) | | The namespace and ID of the power that will be added to the entity.
-`slot` | [String](../../types/data_types/string.md) | | Determines if the item should add the power to the entity if held/equipped in the specified equipment slot. Accepts `head`, `chest`, `legs`, `feet`, `mainhand` or `offhand`.
-`hidden` | [Boolean](../../types/data_types/boolean.md) | `false` | Determines if the tooltip for the power should be hidden or not.
-`negative` | [Boolean](../../types/data_types/boolean.md) | `false` | Determines if the color of the tooltip should be blue (false) or red (true).
+`power` | [Identifier](../../../types/data_types/identifier.md) | | The namespace and ID of the power that will be added to the entity.
+`slot` | [String](../../../types/data_types/string.md) | | Determines if the item should add the power to the entity if held/equipped in the specified equipment slot. Accepts `head`, `chest`, `legs`, `feet`, `mainhand` or `offhand`.
+`hidden` | [Boolean](../../../types/data_types/boolean.md) | `false` | Determines if the tooltip for the power should be hidden or not.
+`negative` | [Boolean](../../../types/data_types/boolean.md) | `false` | Determines if the color of the tooltip should be blue (false) or red (true).
 
 ### Examples
 
