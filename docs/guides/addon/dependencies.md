@@ -37,6 +37,6 @@ After the split of Origins into the three mods (Calio, Apoli and Origins), Origi
 
 Almost all of the conditions, actions and power types which are documented on this wiki are part of Apoli. Origins adds (or overrides) a few of these, as they interact with Origins directly: the `origin` condition and `action_on_callback` power type.
 
-Apart from that, Origins defines some specific power functionality which aren't generalized to a power type yet. See [Handling unique powers](unique_powers.md) for more information on how this is done.
+Apart from that, Origins defines some specific power functionality which aren't generalized to a power type yet.
 
 Most of what you'll do in an Origins add-on will interact with Apoli directly, and not Origins. Some developers even decided to not make an "Origins add-on" per se, but instead create their own Apoli add-on in which they added the power types they needed, and then built their Origin add-ons on top of that. How you structure your mod in the end is up to you.
