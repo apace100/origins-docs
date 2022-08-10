@@ -16,7 +16,7 @@ Type ID: `origins:sprite`
 
 Field | Type | Default | Description
 ------|------|---------|------------
-`sprite` | [Identifier](../identifier.md) | | The namespace, path and ID of the texture to use as the icon of the badge.
+`sprite` | [Identifier](../data_types/identifier.md) | | The namespace, path and ID of the texture to use as the icon of the badge.
 
 
 ### Examples

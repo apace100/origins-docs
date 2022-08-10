@@ -16,7 +16,7 @@ Type ID: `origins:keybind`
 
 Field | Type | Default | Description
 ------|------|---------|------------
-`sprite` | [Identifier](../identifier.md) | | The namespace, path and ID of the texture to use as the icon of the badge.
+`sprite` | [Identifier](../data_types/identifier.md) | | The namespace, path and ID of the texture to use as the icon of the badge.
 `text` | [Text Component](../data_types/text_component.md) | | The text to use in the tooltip.
 
 
