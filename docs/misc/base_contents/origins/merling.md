@@ -16,7 +16,7 @@ ID: `origins:merling`
 Name | ID | Description (In-Game) | Description (Detailed)
 -----|----|-----------------------|------------------------
 Gills | `origins:water_breathing` | You can breathe underwater, but not on land. | You can breathe perfectly fine underwater, but cannot breathe on land. However, everything which helps humans to breathe in water, helps you to breathe on land.
-Wet Eyes | `origins:water_vision` | Your vision underwater is perfect. | You can see perfectly underwater. This ability can be toggled with the active power key (default: G).
+Wet Eyes | `origins:water_vision` | Your vision underwater is perfect. | You can see perfectly underwater. This ability can be toggled with the Primary Active power key (default to G).
 Aqua Affinity | `origins:aqua_affinity` | You may break blocks underwater as others do on land. | You can break blocks underwater without problems.
 Fins | `origins:swim_speed` | Your underwater speed is increased. | You swim faster.
 Like Water | `origins:like_water` | When underwater, you do not sink to the ground unless you want to. | You will only sink in water if you have downwards velocity. Pressing space will prevent sinking.
