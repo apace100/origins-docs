@@ -10,3 +10,7 @@ date: 2021-04-04
 A regular human. Your ordinary Minecraft experience awaits.
 
 ID: `origins:human`
+
+## Powers
+
+_None._
