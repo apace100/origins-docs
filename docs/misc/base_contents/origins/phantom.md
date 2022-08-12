@@ -22,4 +22,4 @@ Invisibility | `origins:invisibility` | While phantomized, you are invisible. | 
 Photoallergic | `origins:burn_in_daylight` | You begin to burn in daylight if you are not invisible. | You start to burn in sunlight unless you are invisible or use fire resistance.
 Fast Metabolism | `origins:hunger_over_time` | Being phantomized causes you to become hungry. | You gain exhaustion faster when phantomized.
 Fragile | `origins:fragile` | You have 3 less hearts of health than humans. | You have 7 hearts.
-power.origins.phantomize_overlay.name | `origins:phantomize_overlay` | _none_ | Displays an overlay that changes color (from green to red) depending on the player's food value.
+_hidden_ | `origins:phantomize_overlay` | _none_ | Displays an overlay that changes color (from green to red) depending on the player's food value.
