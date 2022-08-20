@@ -7,6 +7,10 @@ date: 2021-04-05
 
 An [Object](../types/data_types/object.md) used to specify origins in a [Layer JSON](origin_layer.md) which only show up conditionally.
 
+!!! note
+
+    Check [Origin conditions in layers](../guides/data/origin_conditions_in_layers.md) for a detailed guide on how to use this feature.
+
 
 ### Fields
 
