@@ -36,4 +36,4 @@ Field  | Type | Default | Description
 }
 ```
 
-This exampel will classify the entity that has the power as an arthropod, meaning that they will take more damage from the Bane of Arthropods enchantment.
+This example will classify the entity that has the power as an arthropod, meaning that they will take more damage from the Bane of Arthropods enchantment.
