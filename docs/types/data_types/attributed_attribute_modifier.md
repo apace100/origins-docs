@@ -50,7 +50,7 @@ This example will add the base value multiplied by the modifier value to the cur
 "modifier": {
     "attribute": "minecraft:generic.movement_speed",
     "operation": "multiply_total",
-    "change": 0.5
+    "value": 0.5
 }
 ```
 
