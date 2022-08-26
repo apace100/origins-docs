@@ -29,11 +29,11 @@ Field | Type | Default | Description
         "operation": "add_base_early",
         "value": 1
     },
-    "resource": "example:resource/a"
+    "resource": "example:1st_resource"
 }
 ```
 
-This example will add 1 to the `example:resource/a` power.
+This example will add 1 to the `example:1st_resource` *(`data/example/powers/1st_resource.json`)* power.
 <br>
 
 ```json
@@ -41,10 +41,11 @@ This example will add 1 to the `example:resource/a` power.
     "type": "origins:modify_resource",
     "modifier": {
         "operation": "set_total",
-        "resource": "example:resource/b"
+        "value": 0,
+        "resource": "example:2nd_resource"
     },
-    "resource": "example:resource/a"
+    "resource": "example:1st_resource"
 }
 ```
 
-This example will use the value of the `example:resource/b` power as the value for the `example:resource/a` power.
+This example will set the value of the `example:1st_resource` *(`data/example/powers/1st_resource.json`)* power as the value of the `example:2nd_resource` *(`data/example/powers/2nd_resource.json`)* power.
