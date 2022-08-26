@@ -7,7 +7,7 @@ date: 2021-04-08
 
 [Power Type](../power_types.md)
 
-Provides an inventory with 9 slots that can be opened with the specified [Key](../data_types/key.md); may or may not persist on death.
+Provides an inventory that can be opened with the specified [Key](../data_types/key.md); may or may not persist on death.
 
 Type ID: `origins:inventory`
 
