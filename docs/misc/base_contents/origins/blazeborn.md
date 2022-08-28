@@ -21,5 +21,5 @@ Burning Wrath | `origins:burning_wrath` | When on fire, you deal additional dama
 Hotblooded | `origins:hotblooded` | Due to your hot body, venoms burn up, making you immune to poison and hunger status effects. | You are not affected by Hunger and Poison effects.
 Hydrophobia | `origins:water_vulnerability` | You receive damage over time while in contact with water. | You receive damage every second while in contact with water. The damage can be delayed with the water protection enchantment.
 _hidden_ | `origins:flame_particles` | _none_ | You display flame particles.
-_hidden_ | `origins:damage_from_snowballs` | _none_ | ~~Snowballs deal 3 damage to you (1.5 hearts).~~ Currently does nothing due to a bug.
+_hidden_ | `origins:damage_from_snowballs` | _none_ | Snowballs deal 3 damage to you (1.5 hearts).
 _hidden_ | `origins:damage_from_potions` | _none_ | Drinking potions or water bottles deals 2 hit points (1 heart) of damage to you.
