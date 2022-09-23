@@ -21,7 +21,7 @@ Clear all the powers from the specified target(s).
 <br>
 
 ```mcfunction
-power grant <targets> <power> [<source>]
+power grant <targets> <power> [source]
 ```
 Grant a power to the specified target(s) (from a specific power source, if specified)
 <br>
@@ -32,7 +32,7 @@ Grant a power to the specified target(s) (from a specific power source, if speci
 * `<power>` being the namespace and ID of a power
     * (e.g: `origins:arcane_skin` (`data/origins/powers/arcane_skin.json`))
 
-* `[<source>]` being the source of the power; optional; defaults to `apoli:command`
+* `[source]` being the source of the power; optional; defaults to `apoli:command`
     * (e.g: `example:test`)
 <br>
 <br>
@@ -77,7 +77,7 @@ Remove a power from the specified target.
 <br>
 
 ```mcfunction
-power revoke <targets> <power> [<source>]
+power revoke <targets> <power> [source]
 ```
 Revoke a power from the specified target(s) (and from a specific power source, if specified.)
 <br>
@@ -88,7 +88,7 @@ Revoke a power from the specified target(s) (and from a specific power source, i
 * `<power>` being the namespace and ID of a power
     * (e.g: `origins:arcane_skin` (`data/origins/powers/arcane_skin.json`))
 
-* `[<source>]` being the source of the power, defaults to `apoli:command`
+* `[source]` being the source of the power, defaults to `apoli:command`
     * (e.g: `example:test`)
 <br>
 <br>
