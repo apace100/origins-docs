@@ -72,35 +72,35 @@ This example will heal and display the heart particle effects at the tamed mob i
 
 ```json
 {
-		"type": "origins:action_on_entity_use",
-		"bientity_action": {
-				"type": "origins:mount"
-		},
-		"bientity_condition": {
-				"type": "origins:and",
-				"conditions": [
-						{
-								"type": "origins:riding",
-								"inverted": true
-						},
-						{
-								"type": "origins:target_condition",
-								"condition": {
-										"type": "origins:living"
-								}
-						}
-				]
-		},
-		"item_condition": {
-				"type": "origins:empty"
-		},
-		"hands": [
-				"main_hand"
-		],
-		"condition": {
-				"type": "origins:sneaking",
-				"inverted": true
-		}
+    "type": "origins:action_on_entity_use",
+    "bientity_action": {
+        "type": "origins:mount"
+    },
+    "bientity_condition": {
+        "type": "origins:and",
+        "conditions": [
+            {
+                "type": "origins:riding",
+                "inverted": true
+            },
+            {
+                "type": "origins:target_condition",
+                "condition": {
+                    "type": "origins:living"
+                }
+            }
+        ]
+    },
+    "item_condition": {
+        "type": "origins:empty"
+    },
+    "hands": [
+        "main_hand"
+    ],
+    "condition": {
+        "type": "origins:sneaking",
+        "inverted": true
+    }
 }
 ```
 
