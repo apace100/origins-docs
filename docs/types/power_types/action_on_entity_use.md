@@ -68,3 +68,40 @@ Field | Type | Default | Description
 ```
 
 This example will heal and display the heart particle effects at the tamed mob if the mob in question is owned by the player that has the power.
+<br>
+
+```json
+{
+		"type": "origins:action_on_entity_use",
+		"bientity_action": {
+				"type": "origins:mount"
+		},
+		"bientity_condition": {
+				"type": "origins:and",
+				"conditions": [
+						{
+								"type": "origins:riding",
+								"inverted": true
+						},
+						{
+								"type": "origins:target_condition",
+								"condition": {
+										"type": "origins:living"
+								}
+						}
+				]
+		},
+		"item_condition": {
+				"type": "origins:empty"
+		},
+		"hands": [
+				"main_hand"
+		],
+		"condition": {
+				"type": "origins:sneaking",
+				"inverted": true
+		}
+}
+```
+
+This example will let the player ride any entity they "use" (right-click), with similar rules as to riding a Horse or a Pig.
