@@ -10,7 +10,7 @@ Biome Condition Types operate on a `Biome`.
 
 ### List
 
-* [Category](biome_condition_types/category.md)
+* [Category **(DEPRECATED)**](biome_condition_types/category.md)
 * [High Humidity](biome_condition_types/high_humidity.md)
 * [In Tag](biome_condition_types/in_tag.md)
 * [Precipitation](biome_condition_types/precipitation.md)
