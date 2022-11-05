@@ -5,7 +5,7 @@ date: 2021-04-05
 
 # Biome Condition Types
 
-Biome Condition Types operate on a `Biome`.
+Biome Condition Types operate on a `RegistryEntry<Biome>`, allowing to check if the said entry is in a certain `TagKey<?>`, which in this case, `?` will be `Biome`, and the properties of the biome within the entry. These are only available to the `condition` field of the [Biome (Entity Condition Type)](entity_condition_types/biome.md).
 
 
 ### List
