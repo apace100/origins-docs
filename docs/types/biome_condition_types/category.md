@@ -12,6 +12,11 @@ Checks for the category of a biome.
 Type ID: `origins:category`
 
 
+!!! danger
+
+    This biome condition type has been **deprecated** and may be removed in a future version. Please use [In Tag (Biome Condition Type)](in_tag.md) instead.
+
+
 ### Fields
 
 Field  | Type | Default | Description
