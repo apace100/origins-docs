@@ -57,6 +57,9 @@ nav:
         - Sprites: misc/extras/sprites.md
         - Value Modifying Power Classes: misc/extras/value_modifying_power_classes.md
 
+extra_css:
+  - stylesheets/extra.css
+
 theme: readthedocs
 markdown_extensions:
     - toc:
