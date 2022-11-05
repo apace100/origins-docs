@@ -66,23 +66,12 @@ Set the specified target(s) origin in a specified origin layer.
 <br>
 
 ```mcfunction
-origin gui [targets] [originLayer]
+origin gui <targets> [originLayer]
 ```
 Bring up the Origin GUI screen to the specified target(s).
 <br>
 
-* `[targets]` being a target selector, username, or UUID; optional; defaults to `@s`.
+* `<targets>` being a target selector, username, or UUID.
     * (e.g: `@a`, `eggohito`, `70ecd8a7-5abb-492a-a3b3-9aae099400db`)
 * `[originLayer]` being the namespace and ID of an origin layer; optional; will open every layer it can if left blank.
     * (e.g: `origins:origin` (`data/origins/origin_layers/origin.json`))
-
-```mcfunction
-origin random [targets] [originLayer]
-```
-Randomizes the specified target(s) origin in a specified origin layer.
-<br>
-
-* `[targets]` being a target selector, username, or UUID; optional; defaults to `@s`.
-    * (e.g: `@a`, `eggohito`, `70ecd8a7-5abb-492a-a3b3-9aae099400db`)
-* `[originLayer]` being the namespace and ID of an origin layer; optional; will randomize all layers if left blank.
-    * (e.g: `origins:origin` (`data/origins/origin_layers/origin.json`), `origins-classes:class` (`data/origins-classes/origin_layers/class.json`))
