@@ -7,7 +7,7 @@ date: 2021-04-05
 
 [Block Condition Type](../block_condition_types.md)
 
-Checks whether the block is a replacable material (e.g. tall grass, water, ...).
+Checks whether the block is a replaceable material (e.g. tall grass, water, ...).
 
 Type ID: `origins:replacable`
 
