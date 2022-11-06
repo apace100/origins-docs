@@ -37,9 +37,10 @@ Field | Type | Value | Description
     "attribute": "minecraft:generic.attack_damage",
     "modifier": {
         "operation": "set_total",
-        "resource": "example:resource/a"
+        "resource": "example:resource",
+        "value": 0
     }
 }
 ```
 
-This example will use the value of the `example:resource/a` power as the value for the entity's `minecraft:generic.attack_damage` attribute.
+This example will set the total value of the entity's `minecraft:generic.attack_damage` attribute using the value of the `example:resource` (`data/example/powers/resource.json`) power.
