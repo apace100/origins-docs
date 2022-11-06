@@ -20,8 +20,8 @@ Field  | Type | Default | Description
 `entity_action` | [Entity Action Type](../entity_action_types.md) | _optional_ | If specified, this action will be executed on the entity **before** the items are modified.
 `item_action` | [Item Action Type](../item_action_types.md) | _optional_ | If specified, this action will be executed on the affected items.
 `item_condition` | [Item Condition Type](../item_condition_types.md) | _optional_ | If specified, only items which fulfill this condition will be affected by specified action.
-`slot` | [Identifier](../data_types/identifier.md) | _optional_ | If specified, only items in the designated slot will be modified. See [Positioned Item Stack Slots](../../misc/extras/positioned_item_stack_slots.md) for possible values.
-`slots` | [Array](../data_types/array.md) of [Identifiers](../data_types/identifier.md) | _optional_ | See [Positioned Item Stack Slots](../../misc/extras/positioned_item_stack_slots.md) for possible values.
+`slot` | [Item Slot](../data_types/item_slot.md) | _optional_ | If specified, only items in the designated slot will be modified.
+`slots` | [Array](../data_types/array.md) of [Item Slots](../data_types/item_slot.md) | _optional_ | If specified, only items in the designated slots will be modified.
 `power` | [Identifier](../data_types/identifier.md) | _optional_ | If specified, the items in the inventory of this power will be modified instead of the items in the entity's inventory if `inventory_type` is set to `"power"`.
 
 
