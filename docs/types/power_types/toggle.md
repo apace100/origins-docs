@@ -14,7 +14,7 @@ Type ID: `origins:toggle`
 
 !!! note
 
-    To check if the power with this power type is toggled ON (or OFF), you can use the [Power Active (Entity Condition Type)](../entity_condition_types/power_active.md) entity condition type.
+    To check if the power with this power type is toggled ON (or OFF), you can use the [Power Active (Entity Condition Type)](../entity_condition_types/power_active.md).
 
 
 ### Fields
