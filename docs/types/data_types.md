@@ -30,6 +30,7 @@ Data types are used everywhere in the JSON files. Every field in a JSON has to h
 * [Hud Render](data_types/hud_render.md)
 * [Identifier](data_types/identifier.md)
 * [Ingredient](data_types/ingredient.md)
+* [Item Slots](data_types/item_slots.md)
 * [Item Stack](data_types/item_stack.md)
 * [Key](data_types/key.md)
 * [Particle Effect](data_types/particle_effect.md)
