@@ -47,6 +47,6 @@ date: 2021-04-04
 | `key.hotbar.7`             | Hotbar Slot 7                  | `7`             |
 | `key.hotbar.8`             | Hotbar Slot 8                  | `8`             |
 | `key.hotbar.9`             | Hotbar Slot 9                  | `9`             |
-| `key.saveToolbarActivator` | Save Hotbar Activator          | `X`             |
-| `key.loadToolbarActivator` | Load Hotbar Activator          | `C`             |
+| `key.saveToolbarActivator` | Save Hotbar Activator          | `C`             |
+| `key.loadToolbarActivator` | Load Hotbar Activator          | `X`             |
 | `key.advancements`         | Advancements                   | `L`             |
