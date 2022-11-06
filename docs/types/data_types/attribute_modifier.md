@@ -53,3 +53,15 @@ This example will add the base value multiplied by the modifier value to the cur
 
 This example will multiply the total value by 1.25, essentially increasing the total value by 125%.
 (For example: if the current total value is 30, the new total value will be 37.5 since `30 * (1 + 0.25) = 37.5`)
+<br>
+
+```json
+"modifier": {
+    "operation": "add_base_early",
+    "resource": "example:resource",
+    "value": 0
+}
+```
+
+This example will add the value of the `example:resource` (`data/example/powers/resource.json`) power to the base value.
+(For example: if the current base value is 20.0 and the value of the `example:resource` power is 10, the new base value will be 30.0 since `20.0 + 10 = 30`)
