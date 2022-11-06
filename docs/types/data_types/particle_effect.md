@@ -7,7 +7,12 @@ date: 2021-12-03
 
 [Data Type](../data_types.md)
 
-Either a [String](string.md) which defines the particle type or an [Object](object.md) which defines the particle type and its additional parameters.
+A data type that's either a [string](string.md) which defines only the particle type or an [object](object.md) which defines the particle type and its additional parameters.
+
+
+!!! note
+
+    Refer to the [Minecraft Fandom Wiki: Particles (Particle IDs)](https://minecraft.fandom.com/wiki/Particles#Particle_IDs) page for a list of **vanilla** particle type IDs that you can use.
 
 
 ### Fields
