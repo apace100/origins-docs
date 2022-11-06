@@ -12,11 +12,18 @@ Allows checking the light level at the block's position.
 Type ID: `origins:light_level`
 
 
+!!! note
+
+    If no light type is specified in the `light_type` field, the highest light level between the block light level and **internal** sky light level will be used as the "resulting" light level of the position of the block.
+
+    See [Minecraft Fandom Wiki: Light (Internal light level)](https://minecraft.fandom.com/wiki/Light#Internal_light_level) for more information about internal sky light levels.
+
+
 ### Fields
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`light_type` | [String](../data_types/string.md) | _optional_ | The type of light level to compare. Either `sky` or `block`. If no type is provided, the greater value of the two types will be used, which is the "resulting" light level of that position.
+`light_type` | [String](../data_types/string.md) | _optional_ | If specified, determines the type of light level to compare. Accepts `"sky"` or `"block"`.
 `comparison` | [Comparison](../data_types/comparison.md) | | How the light level should be compared to the specified value.
 `compare_to` | [Integer](../data_types/integer.md) | | The value to compare the light level at the block's position to.
 
