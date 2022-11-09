@@ -13,18 +13,18 @@ Type ID: `origins:action_on_callback`
 
 !!! note
 
-    Callbacks may refer to when the player joins the world, when the player leaves the world, when the player respawns or when the player chooses an origin.
+    Callbacks may refer to when the player joins the world, when the player leaves the world, when the player respawns or when the player chooses an origin that has the power.
 
 
 ### Fields
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`entity_action_chosen` | [Entity Action Type](../entity_action_types.md) | _optional_ | If specified, this action will be executed on the player after the player finishes choosing an origin.
+`entity_action_chosen` | [Entity Action Type](../entity_action_types.md) | _optional_ | If specified, this action will be executed on the player after the player finishes choosing an origin that has the power.
 `execute_chosen_when_orb` | [Boolean](../data_types/boolean.md) | `true` | Determines whether the action in `entity_action_chosen` should be executed if the player also used an Orb of Origin item for choosing an origin.
-`entity_action_gained` | [Entity Action Type](../entity_action_types.md) | _optional_ | If specified, this action will be executed on the player when the power is granted for the first time.
-`entity_action_lost` | [Entity Action Type](../entity_action_types.md) | _optional_ | If specified, this action will be executed on the player when the power is removed permanently.
-`entity_action_added` | [Entity Action Type](../entity_action_types.md) | _optional_ | If specified, this action will be executed on the player when the power is added. Joining a world adds each power back.
+`entity_action_gained` | [Entity Action Type](../entity_action_types.md) | _optional_ | If specified, this action will be executed on the player when the power is added to the entity for the first time.
+`entity_action_lost` | [Entity Action Type](../entity_action_types.md) | _optional_ | If specified, this action will be executed on the player when the power is removed from the entity permanently.
+`entity_action_added` | [Entity Action Type](../entity_action_types.md) | _optional_ | If specified, this action will be executed on the player when the power is added to the entity. Joining a world adds each power back.
 `entity_action_removed` | [Entity Action Type](../entity_action_types.md) | _optional_ | If specified, this action will be executed on the player when the power is removed and right after the player respawns. Leaving a world removes each power.
 `entity_action_respawned` | [Entity Action Type](../entity_action_types.md) | _optional_ | If specified, this action will be executed on the player right after the player respawns. This action will be executed after the action in `entity_action_removed`.
 
