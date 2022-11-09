@@ -13,23 +13,41 @@ Type ID: `origins:action_on_callback`
 
 !!! note
 
-    For example: when the player chooses an origin that has the power, when the player joins the world, when the player leaves the world, when the player respawns or when the player becomes another origin.
+    Callbacks may refer to when the player joins the world, when the player leaves the world, when the player respawns or when the player chooses an origin.
 
 
 ### Fields
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`entity_action_chosen` | [Entity Action Type](../entity_action_types.md) | _optional_ | If specified, this action will be executed on the player when the player chooses their origin on the last layer through the menu - by using the Orb of Origin or missing an origin or joining for the first time - if the power was gained from any of the layers.
-`execute_chosen_when_orb` | [Boolean](../data_types/boolean.md) | `true` | When this is false, the `entity_action_chosen` will not be executed when the player changes their origin with an orb, but only when the player chooses an origin for the first time or their origin was reset to `origins:empty` via a command.
-`entity_action_gained` | [Entity Action Type](../entity_action_types.md) | _optional_ | If specified, this action will be executed on the player when the power is gained - if the power is granted for the first time.
-`entity_action_lost` | [Entity Action Type](../entity_action_types.md) | _optional_ | If specified, this action will be executed on the player when the power is lost - if the power is removed permanently.
+`entity_action_chosen` | [Entity Action Type](../entity_action_types.md) | _optional_ | If specified, this action will be executed on the player after the player finishing choosing an origin.
+`execute_chosen_when_orb` | [Boolean](../data_types/boolean.md) | `true` | Determines whether the action in `entity_action_chosen` should be executed if the player also used an Orb of Origin item for choosing an origin.
+`entity_action_gained` | [Entity Action Type](../entity_action_types.md) | _optional_ | If specified, this action will be executed on the player when the power is granted for the first time.
+`entity_action_lost` | [Entity Action Type](../entity_action_types.md) | _optional_ | If specified, this action will be executed on the player when the power is removed permanently.
 `entity_action_added` | [Entity Action Type](../entity_action_types.md) | _optional_ | If specified, this action will be executed on the player when the power is added. Joining a world adds each power back.
 `entity_action_removed` | [Entity Action Type](../entity_action_types.md) | _optional_ | If specified, this action will be executed on the player when the power is removed and right after the player respawns. Leaving a world removes each power.
-`entity_action_respawned` | [Entity Action Type](../entity_action_types.md) | _optional_ | If specified, this action will be executed on the player right after the player respawns, after the `entity_action_removed`.
+`entity_action_respawned` | [Entity Action Type](../entity_action_types.md) | _optional_ | If specified, this action will be executed on the player right after the player respawns. This action will be executed after the action in `entity_action_removed`.
 
 
 ### Examples
+
+```json
+{
+    "type": "origins:action_on_callback",
+    "entity_action_chosen": {
+        "type": "origins:apply_effect",
+        "effect": {
+            "effect": "minecraft:luck",
+            "duration": 24000
+        }
+    },
+    "execute_chosen_when_orb": false
+}
+```
+
+This example will give the player the Luck I (30:00) status effect the moment the player has chosen the origin that has the power, unless the player used the Orb of Origin item to choose that origin.
+<br>
+
 
 ```json
 {
