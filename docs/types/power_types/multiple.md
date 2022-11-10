@@ -11,25 +11,35 @@ Allows for defining more than one power in a single file.
 
 Type ID: `origins:multiple`
 
+
 !!! note
 
-    The sub-powers are hidden by default. When the super-power (where the `origins:multiple` power type is in) is added to the entity, all sub-powers are added automatically.
+    The sub-powers are automatically hidden. When the super-power (where the `origins:multiple` power type is used) is added to the entity, all sub-powers are added automatically.
+
+
+!!! note
+
+    You can reference sub-powers by using the ID of the super-power and the ID of the sub-power, split by an underscore (`_`).
+    (e.g: `namespace:super-power_sub-power`)
+
 
 !!! caution
 
-    If you wish to check for an entity condition, you would have to check for the said entity condition in every sub-power inside the super-power.
+    If you wish to check for an entity condition for the entire super-power, you would have to check for the said entity condition in every sub-power of the super-power.
 
 
 ### Fields
 
-Arbitrary fields. Any "key" is considered a sub-power, and takes a fully-defined power type as the value. You can reference sub-powers by using the super-power ID, appended by an underscore (`_`) and lastly the sub-power ID (which is the key), i.e. `<namespace>:<powerfile>_<subpower>`
+Arbitrary fields. Any "key", except for `hidden` and `type`, is considered a sub-power and takes a fully-defined power type as the value.
 
 
 ### Examples
 
 ```json
 {
+
     "type": "origins:multiple",
+
     "toggle": {
         "type": "origins:toggle",
         "active_by_default": false,
@@ -37,6 +47,7 @@ Arbitrary fields. Any "key" is considered a sub-power, and takes a fully-defined
             "key": "key.origins.secondary_active"
         }
     },
+
     "invisibility": {
         "type": "origins:invisibility",
         "render_armor": false,
@@ -45,7 +56,8 @@ Arbitrary fields. Any "key" is considered a sub-power, and takes a fully-defined
             "power": "*:*_toggle"
         }
     }
+
 }
 ```
 
-This example will grant the player that has the super-power to toggle invisibility by pressing the Secondary ability key.
+This example super-power has two "keys", which are considered sub-powers: `toggle` and `invisibility`. The `invisibility` sub-power will only be active *(e.g: make the entity invisible)* if the `toggle` sub-power is toggled ON.
