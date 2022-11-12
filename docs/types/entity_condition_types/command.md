@@ -7,9 +7,10 @@ date: 2021-04-04
 
 [Entity Condition Type](../entity_condition_types.md)
 
-Stores the result of the specified command, and compares the stored result to a specified value.
+Compares the result of the specified command to the specified value.
 
 Type ID: `origins:command`
+
 
 !!! caution
 
