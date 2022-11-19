@@ -7,7 +7,7 @@ date: 2021-04-04
 
 [Origin](../origins.md)
 
-As half-human and half-phantom offspring, these creatures can switch between a Phantom and a normal form.
+As half-human and half-phantom beings, these creatures can switch between a Phantom and a normal form.
 
 ID: `origins:phantom`
 
