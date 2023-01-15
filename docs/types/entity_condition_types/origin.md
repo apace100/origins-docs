@@ -7,21 +7,21 @@ date: 2021-04-04
 
 [Entity Condition Type](../entity_condition_types.md)
 
-Checks whether the player has a certain origin (optionally from a certain layer).
+Checks whether the entity has a certain origin (optionally from a certain layer).
 
 Type ID: `origins:origin`
 
 
-!!! caution
+!!! note
 
-    Make sure to use the [Entity Type (Entity Condition Type)](entity_type.md) to check if the entity is a Player entity, otherwise, the game will crash since only Players can have origins.
+    This condition will evaluate to false if the entity is not a player.
 
 
 ### Fields
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`origin` | [Identifier](../data_types/identifier.md) | | The namespace and ID of the origin the player needs to have to pass the check.
+`origin` | [Identifier](../data_types/identifier.md) | | The namespace and ID of the origin the entity needs to have to pass the check.
 `layer` | [Identifier](../data_types/identifier.md) | _optional_ |  If specified, the condition will check if the origin is from the specified origin layer.
 
 
