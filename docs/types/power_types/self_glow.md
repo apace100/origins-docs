@@ -12,6 +12,11 @@ Makes the entity that has the power glow if certain conditions are met.
 Type ID: `origins:self_glow`
 
 
+!!! note
+
+    You can use a color picker website and divide the RGB values by 255 to get the values *(e.g: ranging from 0.0 to 1.0)* to be used for the power type.
+
+
 ### Fields
 
 Field | Type | Default | Description

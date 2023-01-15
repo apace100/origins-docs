@@ -12,6 +12,11 @@ Makes other entities glow (as with the glowing status effect), but only for the 
 Type ID: `origins:entity_glow`
 
 
+!!! note
+
+    You can use a color picker website and divide the RGB values by 255 to get the values *(e.g: ranging from 0.0 to 1.0)* to be used for the power type.
+
+
 ### Fields
 
 Field  | Type | Default | Description
