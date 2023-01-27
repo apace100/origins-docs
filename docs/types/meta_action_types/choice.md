@@ -31,26 +31,26 @@ Field  | Type | Default | Description
     "actions": [
         {
             "element": {
-            "type": "origins:exhaust",
-            "amount": 0.5
+                "type": "origins:exhaust",
+                "amount": 0.5
             },
             "weight": 10
         },
         {
             "element": {    
             "type": "origins:apply_effect",
-            "effect": {
-                "effect": "minecraft:regeneration",
-                "amplifier": 1,
-                "duration": 100
-            }
+                "effect": {
+                    "effect": "minecraft:regeneration",
+                    "amplifier": 1,
+                    "duration": 100
+                }
             },
             "weight": 10
         },
         {
             "element": {
-            "type": "origins:set_on_fire",
-            "duration": 8
+                "type": "origins:set_on_fire",
+                  "duration": 8
             },
             "weight": 20
         }
