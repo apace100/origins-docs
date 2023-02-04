@@ -16,7 +16,8 @@ Type ID: `origins:invisibility`
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`render_armor` | [Boolean](../data_types/boolean.md) | | Whether or not the player's armor should be shown.
+`render_armor` | [Boolean](../data_types/boolean.md) | `false` | Determines whether armor should be shown or not.
+`render_outline` | [Boolean](../data_types/boolean.md) | `false` | Determines whether the glowing outline should be shown or not.
 
 
 ### Examples
