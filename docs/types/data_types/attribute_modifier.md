@@ -81,4 +81,4 @@ This example will add the value of the `example:resource` (`data/example/powers/
 ```
 
 This example will add the value of the `example:resource` (`data/example/powers/resource.json`) power to the base value of the modifier and multiply it by 0.01.
-(For example: if the current base value is 0.1 and the value of the `example:resource` power is -25, the new base value will be 0.125 since `0.1 + (-25 * (1-1.001)) = 0.125`)
+(For example: if the current base value is 0.1 and the value of the `example:resource` power is -25, the new base value will be 0.125 since `0.1 + (-25 * (1 - 1.001)) = 0.125`)
