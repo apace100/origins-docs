@@ -18,7 +18,12 @@ Field  | Type | Default | Description
 -------|------|---------|-------------
 `particle` | [Particle Effect](../data_types/particle_effect.md) | | The particle type that will be spawned.
 `frequency` | [Integer](../data_types/integer.md) | | Determines how often the particles should spawn (interval in ticks).
-`visible_in_first_person` | [Boolean](../data_types/boolean.md) | `false` | Determines whether the particle should be visible in first person.
+`count` | [Integer](../data_types/integer.md) | `1` | Determines the amount of particles to spawn.
+`speed` | [Float](../data_types/float.md) | `0.0` | Determines the speed of the specified particle type.
+`spread` | [Vector](../data_types/vector.md) | `{x: 0.25, y: 0.5, z: 0.25}` | Determines the size of the three-dimensional cuboid volume to spawn the specified particle type in.
+`offset_y` | [Float](../data_types/float.md) | `1.0` | The offset of where the particle will be centered in the Y axis. 
+`visible_in_first_person` | [Boolean](../data_types/boolean.md) | `false` | Determines whether the particle type should be visible in first person.
+`visible_while_invisible` | [Boolean](../data_types/boolean.md) | `false` | Determines whether the particle type should be visible if the entity is invisible.
 
 
 ### Examples
