@@ -20,6 +20,7 @@ Field  | Type | Default | Description
 `name` | [String](string.md) | *optional* | A descriptive name for the modifier, describing where it comes from.
 `modifier` | [Attribute Modifier](attribute_modifier.md) | *optional* | If specified, this modifier will be applied to the value of the modifier.
 
+
 ### Examples
 
 ```json
@@ -74,10 +75,10 @@ This example will add the value of the `example:resource` (`data/example/powers/
     "value": 0,
     "modifier": {
         "operation": "multiply_total_multiplicative",
-        "value": 0.01
+        "value": -1.001
     }
 }
 ```
 
 This example will add the value of the `example:resource` (`data/example/powers/resource.json`) power to the base value of the modifier and multiply it by 0.01.
-(For example: if the current base value is 0.1 and the value of the `example:resource` power is 25, the new base value will be 0.35 since `0.1 + (25 * 0.01) = 0.35`)
+(For example: if the current base value is 0.1 and the value of the `example:resource` power is -25, the new base value will be 0.125 since `0.1 + (-25 * (1-1.001)) = 0.125`)
