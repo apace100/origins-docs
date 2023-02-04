@@ -38,6 +38,7 @@ Entity Condition Types operate on an Entity, which also allows access to the wor
 * [Fluid Height](entity_condition_types/fluid_height.md)
 * [Food Level](entity_condition_types/food_level.md)
 * [Gamemode](entity_condition_types/gamemode.md)
+* [Glowing](entity_condition_types/glowing.md)
 * [Health](entity_condition_types/health.md)
 * [In Block Anywhere](entity_condition_types/in_block_anywhere.md)
 * [In Block](entity_condition_types/in_block.md)
