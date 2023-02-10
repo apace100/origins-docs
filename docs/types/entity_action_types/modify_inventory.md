@@ -18,7 +18,7 @@ Field  | Type | Default | Description
 -------|------|---------|-------------
 `inventory_type` | [Inventory Type](../../misc/extras/inventory_type.md) | `"inventory"` | Determines whether to modify the items in the inventory of the entity or the inventory of a power present in the entity.
 `entity_action` | [Entity Action Type](../entity_action_types.md) | _optional_ | If specified, this action will be executed on the entity **before** the items are modified.
-`item_action` | [Item Action Type](../item_action_types.md) | | If specified, this action will be executed on the affected items.
+`item_action` | [Item Action Type](../item_action_types.md) | | The action to be executed on the affected items.
 `item_condition` | [Item Condition Type](../item_condition_types.md) | _optional_ | If specified, only items which fulfill this condition will be affected by specified action.
 `slot` | [Item Slot](../data_types/item_slot.md) | _optional_ | If specified, only items in the designated slot will be modified.
 `slots` | [Array](../data_types/array.md) of [Item Slots](../data_types/item_slot.md) | _optional_ | If specified, only items in the designated slots will be modified.
