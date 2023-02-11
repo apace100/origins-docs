@@ -72,3 +72,9 @@ The main use of this feature is for a data pack which provides several layers, a
     }
 ]
 ```
+
+### Related pages
+
+* [Layer (JSON Format)](../../json/origin_layer.md)
+* [Entity Condition Types](../../types/entity_condition_types.md)
+* [Conditioned Origin JSON](../../json/conditioned_origin.md)
