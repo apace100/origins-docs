@@ -5,7 +5,7 @@ date: 2021-05-02
 
 # Defining an Origin in JSON
 
-Origins are defined in JSON files. Let's use these to create a fictional new origin, a _Supermorph_, for our [data pack](https://minecraft.gamepedia.com/Data_Pack) which we call _OriginSuperPack_. We'd like this Origin to be a bit overpowered: Metamorphs are immune to fire, have elytra-flight and can teleport with ender pearls. Their only drawback is that they need a bed at a high altitude, just like Avians. This would be a JSON file which would accomplish that:
+Origins are defined in JSON files. Let's use these to create a fictional new origin, a _Supermorph_, for our [Data Pack](https://minecraft.gamepedia.com/Data_Pack) which we call _OriginSuperPack_. We'd like this Origin to be a bit overpowered: Metamorphs are immune to fire, have Elytra Flight and can teleport with ender pearls. Their only drawback is that they need a bed at a high altitude, just like Avians. This would be a JSON file which would accomplish that:
 
 ```json
 {
@@ -21,11 +21,11 @@ Origins are defined in JSON files. Let's use these to create a fictional new ori
 }
 ```
 
-This is the JSON file defining our new _Supermorph_ origin. We put it in `data/originsuperpack/origins/supermorph.json`. In general, the file location should be as follows: `data/<namespace>/origins/<path>.json`. You can also use the namespace `origins` and the name of an existing origin, such as `avian`, in order to override the origin defined by the default mod: `data/origins/origins/avian.json`.
+This is the JSON file defining our new _Supermorph_ origin. We put it in `data/originsuperpack/origins/supermorph.json`. In general, the file location should be as follows: `data/<namespace>/origins/<path>.json`. You can also use the namespace `origins` and the name of an existing origin, such as `avian`, in order to override the origin defined by the default mod: `data/origins/origins/avian.json`. **But do remember to add a `loading_priority` field to the file that is higher than the original origin's** (for all origins that come with the base mod, that value is `0`).
 
-When you put the file in the correct file structure of a data pack and put it into a world (either when you create the world, or after the world is loaded drag it into the world's `datapacks` folder), the new origin still does not appear (at least not in v0.3.0 and above)! Why? **Layers.**
+When you put the file in the correct file structure of a data pack and put it into a world (either when you create the world, or after the world is loaded drag it into the world's `datapacks` folder), the new origin still does not appear! Why? **Layers.**
 
-The new origin still needs to be added to the origin layer. Layers are Origins' way of allowing players to have multiple origins. By default, there is only one layer, `origins:origin`. If you wanted, you could create your own layer and allow players to select a second origin! Here's how to add our origin to the default origin layer though: we need to create a layer file with the same ID of the layer we want to add to. This means our file should be located in `data/origins/origin_layers/origin.json`. The file content would then look like this:
+The new origin still needs to be added to the origin layer. Layers are the way that Origins has to allow players to have multiple origins. By default, there is only one layer, `origins:origin`. If you wanted, you could create your own layer and allow players to select a second origin! Here's how to add our origin to the default origin layer though: we need to create a layer file with the same ID of the layer we want to add to. This means our file should be located in `data/origins/origin_layers/origin.json`. The file content would then look like this:
 
 ```json
 {
@@ -40,7 +40,7 @@ The new origin still needs to be added to the origin layer. Layers are Origins' 
 
 Now, our newly created _Supermorph_ origin should show up, along with a nice slimeball icon, in the list.
 
-However, the origin still doesn't display a correct name or description. One way to fix that is by adding a [resource pack](https://minecraft.gamepedia.com/Resource_Pack) as well, with a translation for the language you're playing in (probably `en_us.json`):
+However, the origin still doesn't display a correct name or description. One way to fix that is by adding a [Resource Pack](https://minecraft.gamepedia.com/Resource_Pack) as well, with a translation for the language you're playing in (probably `en_us.json`):
 ```json
 {
 	"origin.originsuperpack.supermorph.name": "Supermorph",
