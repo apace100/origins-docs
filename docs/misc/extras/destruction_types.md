@@ -14,6 +14,6 @@ A [string](../../types/data_types/string.md) that is used to determine the effec
 
 Value       | Description
 ------------|------------
-`"break"`   | The explosion will destroy the blocks and drop the loot of the block(s).
-`"destroy"` | The explosion will only destroy the blocks.
-`"none"`    | The explosion will **not** destroy the blocks nor drop the loot of the block(s).
+`"break"`   | The explosion will destroy the blocks and drop the loot of all blocks.
+`"destroy"` | The explosion will destroy the blocks and drop the loot of some blocks (lower chance with higher explosion power, checks `survives_explosion` loot condition in loot tables.
+`"none"`    | The explosion will **not** destroy the blocks nor drop the loot of the blocks.
