@@ -11,16 +11,12 @@ Modifies the value of a certain statistic with [Attribute Modifiers](../data_typ
 
 Type ID: `origins:modify_stat`
 
-!!! note
-
-    Refer to [Minecraft Fandom Wiki: Statistics (Resource location)](https://minecraft.fandom.com/wiki/Statistics#Resource_location) for a list of **vanilla** statistics you can modify.
-
 
 ### Fields
 
 Field | Type | Default | Description
 ------|------|---------|------------
-`stat` | [Identifier](../data_types/identifier.md) | | The namespace and ID of the statistic to be modified.
+`stat` | [Stat](../data_types/stat.md) | | The type and name of the statistic to be modified.
 `modifier` | [Attribute Modifier](../data_types/attribute_modifier.md) | | This modifier will be applied to the current value of the statistic specified.
 
 
@@ -29,7 +25,10 @@ Field | Type | Default | Description
 ```json
 "entity_action": {
     "type": "origins:modify_stat",
-    "stat": "minecraft.custom:minecraft.time_since_rest",
+    "stat": {
+        "type": "minecraft:custom",
+        "id": "minecraft:time_since_rest"
+    },
     "modifier": {
         "operation": "add_base_early",
         "value": 24000
@@ -38,3 +37,20 @@ Field | Type | Default | Description
 ```
 
 This example will add 24000 to the value of the player's `minecraft.custom:minecraft.time_since_rest` statistic.
+<br>
+
+```json
+"entity_action": {
+    "type": "origins:modify_stat",
+    "stat": {
+        "type": "minecraft:used",
+        "id": "origins:orb_of_origin"
+    },
+    "modifier": {
+        "operation": "add_base_early",
+        "value": 1
+    }
+}
+```
+
+This example will add 1 to the value of the player's `minecraft.used:origins.orb_of_origin` statistic.
