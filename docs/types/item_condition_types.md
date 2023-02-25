@@ -19,6 +19,7 @@ Item Condition Types operate on an `ItemStack`. These are available to power/con
 * [Fireproof](item_condition_types/fireproof.md)
 * [Food](item_condition_types/food.md)
 * [Harvest Level](item_condition_types/harvest_level.md)
+* [Has Power](item_condition_types/has_power.md)
 * [Ingredient](item_condition_types/ingredient.md)
 * [Is Damageable](item_condition_types/is_damageable.md)
 * [Is Equippable](item_condition_types/is_equippable.md)
