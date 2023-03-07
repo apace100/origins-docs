@@ -11,9 +11,14 @@ Modifies the location of the player's spawnpoint to the specified dimension, bio
 
 Type ID: `origins:modify_player_spawn`
 
+
 !!! note
 
-    Keep in mind that structure location is costly and it might take one or two seconds before the player gets teleported when choosing the power.
+    See [Minecraft Fandom Wiki: Generated structures (IDs)](https://minecraft.fandom.com/wiki/Generated_structures#ID) and [Minecraft Fandom Wiki: Biome (Biome IDs)](https://minecraft.fandom.com/wiki/Biome#Biome_IDs) for a list of structure IDs and biome IDs respectively.
+
+!!! warning
+
+    Keep in mind that structure location is costly and it might take one or two seconds (or longer) before the player gets teleported when choosing the power.
 
 
 ### Fields
@@ -33,7 +38,7 @@ Field  | Type | Default | Description
 {
   "type": "origins:modify_player_spawn",
   "dimension": "minecraft:the_end",
-  "structure": "minecraft:endcity",
+  "structure": "minecraft:end_city",
   "spawn_strategy": "center"
 }
 ```
