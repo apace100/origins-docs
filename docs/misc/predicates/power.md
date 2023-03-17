@@ -7,7 +7,7 @@ date: 2022-06-15
 
 [Predicate](../predicates.md)
 
-Checks if the player has the specified power.
+Checks if the entity has the specified power.
 
 Type ID: `apoli:power`
 
@@ -17,7 +17,7 @@ Type ID: `apoli:power`
 Field | Type | Default | Description
 ------|------|---------|------------
 `power` | [Identifier](../../types/data_types/identifier.md) | | The namespace and ID of the power to check for.
-`source` | [Identifier](../../types/data_types/identifier.md) | | If specified, checks if the specified power is from this power source.
+`source` | [Identifier](../../types/data_types/identifier.md) | *optional* | If specified, checks if the specified power is from this power source.
 
 
 ### Examples
