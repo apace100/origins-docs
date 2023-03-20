@@ -10,7 +10,7 @@ Name                   | Description
 `armor`                | The armor that an entity is wearing.
 `cape`                 | The cape that a player might have.
 `cat_collar`           | The collar of a tamed Cat.
-`deadmau5`             | The [mouse ears](../../img/deadmau5_ears_render.png) that the official Deadmau5 account has on its head.
+`deadmau5`             | The [mouse ears](../../img/deadmau5_ears_render.png) that the official Deadmau5 Minecraft account has on its head.
 `dolphin_held_item`    | The item in a Dolphin's mouth that appears when the Dolphin is playing with the said item.
 `drowned_overlay`      | The outer layer of the Drowned's texture (clothes, vegetation, etc.).
 `elytra`               | The elytra on the back of an entity. Also works for elytras from the [Elytra Flight (Power Type)](../../types/power_types/elytra_flight.md).
