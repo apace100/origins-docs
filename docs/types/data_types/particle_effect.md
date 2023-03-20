@@ -7,7 +7,7 @@ date: 2021-12-03
 
 [Data Type](../data_types.md)
 
-A data type that's either a [string](string.md) which defines only the particle type or an [object](object.md) which defines the particle type and its additional parameters.
+A data type that's either a [String](string.md) which defines only the particle type or an [Object](object.md) which defines the particle type and its additional parameters.
 
 
 !!! note

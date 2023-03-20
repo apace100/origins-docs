@@ -7,7 +7,7 @@ date: 2022-04-01
 
 [Extra](../extras.md)
 
-A [string](../../types/data_types/string.md) that is used to determine the effect of an explosion to the terrain.
+A [String](../../types/data_types/string.md) that is used to determine the effect of an explosion to the terrain.
 
 
 ### Values

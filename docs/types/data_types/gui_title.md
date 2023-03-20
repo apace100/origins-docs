@@ -7,7 +7,7 @@ date: 2022-04-15
 
 [Data Type](../data_types.md)
 
-An [object](object.md) used to override the title in the choose/view origin GUI of a layer.
+An [Object](object.md) used to override the title in the choose/view origin GUI of a layer.
 
 
 ### Fields

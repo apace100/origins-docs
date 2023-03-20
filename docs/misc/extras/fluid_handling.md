@@ -7,7 +7,7 @@ date: 2021-01-04
 
 [Extra](../extras.md)
 
-A [string](../../types/data_types/string.md) used mainly for ray-casting to determine how it will handle fluids.
+A [String](../../types/data_types/string.md) used mainly for ray-casting to determine how it will handle fluids.
 
 
 ### Values

@@ -7,7 +7,7 @@ date: 2022-06-15
 
 [Extra](../extras.md)
 
-A [string](../../types/data_types/string.md) used to determine the type of container to use for the screen of a power that uses the [Inventory (Power Type)](../../types/power_types/inventory.md).
+A [String](../../types/data_types/string.md) used to determine the type of container to use for the screen of a power that uses the [Inventory (Power Type)](../../types/power_types/inventory.md).
 
 !!! note
 

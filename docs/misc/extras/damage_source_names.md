@@ -5,7 +5,7 @@ date: 2021-06-23
 
 #   Damage Source Names
 
-Damage Source Names are [strings](../../types/data_types/string.md) used for classifying what type of damage is taken/given, and to determine the death message for the damage upon being killed.
+Damage Source Names are [Strings](../../types/data_types/string.md) used for classifying what type of damage is taken/given, and to determine the death message for the damage upon being killed.
 
 !!! note
 

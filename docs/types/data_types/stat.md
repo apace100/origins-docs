@@ -7,7 +7,7 @@ date: 2023-02-24
 
 [Data Type](../data_types.md)
 
-An [object](object.md) specifying a statistic via a statistic type and an [identifier](identifier.md).
+An [Object](object.md) specifying a statistic via a statistic type and an [Identifier](identifier.md).
 
 
 !!! note

@@ -7,7 +7,7 @@ date: 2022-06-15
 
 [Extra](../extras.md)
 
-A [string](../../types/data_types/string.md) used to determine whether to reference the inventory of the entity or the inventory of a power present in the entity.
+A [String](../../types/data_types/string.md) used to determine whether to reference the inventory of the entity or the inventory of a power present in the entity.
 
 !!! note
 

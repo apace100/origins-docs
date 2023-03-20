@@ -7,7 +7,7 @@ date: 2022-07-03
 
 [Data Type](../data_types.md)
 
-A [string](string.md) or [object](object.md) used for displaying text with fancy formatting.
+A [String](string.md) or [Object](object.md) used for displaying text with fancy formatting.
 
 !!! note
 

@@ -7,7 +7,7 @@ date: 2021-04-04
 
 [Data Type](../data_types.md)
 
-An [object](object.md) used to specify how a value should be modified.
+An [Object](object.md) used to specify how a value should be modified.
 
 
 ### Fields

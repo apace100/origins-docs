@@ -5,7 +5,7 @@ date: 2022-07-03
 
 #   Badge JSON Format
 
-This is the format of a JSON [object](../types/data_types/object.md)/file describing a badge. A badge displays an icon after the name of a power in the power list of the Origins GUI screen.
+This is the format of a JSON [Object](../types/data_types/object.md)/file describing a badge. A badge displays an icon after the name of a power in the power list of the Origins GUI screen.
 
 Badge JSON files need to be placed inside the `data/<namespace>/badges` folder of your datapack. The said files can be referenced as `namespace:path/to/badge` (`data/namespace/badges/path/to/badge.json`) in the `badges` field of a [Power (JSON)](power.md) file.
 

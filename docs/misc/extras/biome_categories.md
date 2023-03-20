@@ -7,7 +7,7 @@ date: 2021-04-05
 
 [Extra](../extras.md)
 
-A [string](../../types/data_types/string.md) that is used for grouping certain biomes into certain categories.
+A [String](../../types/data_types/string.md) that is used for grouping certain biomes into certain categories.
 
 
 ### Values

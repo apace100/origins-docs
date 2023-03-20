@@ -9,7 +9,7 @@ This is the format of a JSON file describing an origin layer. Origin layers are 
 
 Origin Layer JSON files need to be placed inside the `data/<namespace>/origin_layers` folder of your datapack. The said files can be referenced as `namespace:path/to/origin_layer` (`data/namespace/origin_layers/path/to/origin_layer`) in the [`/origin` (Command)](../misc/commands/origin.md).
 
-The most common use is to create a file with the name `origin.json` in the `data/origins/origin_layers` folder of your datapack with a `replace` boolean field value of `false`
+The most common use is to create a file with the name `origin.json` in the `data/origins/origin_layers` folder of your datapack with a `replace` Boolean field value of `false`
 
 
 ### Fields

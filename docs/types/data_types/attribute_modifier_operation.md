@@ -7,7 +7,7 @@ date: 2021-04-04
 
 [Data Type](../data_types.md)
 
-A [string](string.md) used to specify the operation used by [Attribute Modifiers](attribute_modifier.md).
+A [String](string.md) used to specify the operation used by [Attribute Modifiers](attribute_modifier.md).
 
 !!! note
 
