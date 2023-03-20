@@ -7,7 +7,7 @@ date: 2021-12-03
 
 [Entity Action Type](../entity_action_types.md)
 
-Executes a [bi-entity action](../bientity_action_types.md) within a specified radius.
+Executes a [Bi-Entity Action](../bientity_action_types.md) within a specified radius.
 
 Type ID: `origins:area_of_effect`
 

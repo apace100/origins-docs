@@ -7,7 +7,7 @@ date: 2021-12-04
 
 [Power Type](../power_types.md)
 
-Prevents certain [feature renderers](../../misc/extras/feature_renderers.md) (like the wool coat of a Sheep, the worn armor of a mob, etc.) from rendering on the entity that has the power.
+Prevents certain [Feature Renderers](../../misc/extras/feature_renderers.md) (like the wool coat of a Sheep, the worn armor of a mob, etc.) from rendering on the entity that has the power.
 
 Type ID: `origins:prevent_feature_render`
 

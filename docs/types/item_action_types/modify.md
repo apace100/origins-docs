@@ -7,7 +7,7 @@ date: 2021-10-02
 
 [Item Action Type](../item_action_types.md)
 
-Applies an [item modifier](https://minecraft.fandom.com/wiki/Item_modifier) to the item stack.
+Applies an [Item Modifier](https://minecraft.fandom.com/wiki/Item_modifier) to the item stack.
 
 Type ID: `origins:modify`
 
