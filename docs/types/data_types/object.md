@@ -3,7 +3,7 @@ title: Object (Data Type)
 date: 2021-04-04
 ---
 
-# Object:
+# Object
 
 [Data Type](../data_types.md)
 
