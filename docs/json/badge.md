@@ -16,7 +16,7 @@ Depending on the chosen `type`, badge JSONs have more required and optional fiel
 
 Field | Type | Default | Description
 ------|------|---------|------------
-`type` | [Badge Type](../types/badge_types.md) | `"origins:keybind"` | The namespace and ID of the desired badge type. TEST
+`type` | [Badge Type](../types/badge_types.md) | `"origins:keybind"` | The namespace and ID of the desired badge type.
 
 
 ### Examples
