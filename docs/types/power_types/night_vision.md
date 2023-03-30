@@ -7,19 +7,34 @@ date: 2021-04-08
 
 [Power Type](../power_types.md)
 
-Grants night vision to the player without a status effect.
+Grants night vision to the player without the Night Vision status effect.
 
 Type ID: `origins:night_vision`
+
+
+!!! note
+
+    The strength value of the Night Vision status effect is the default value, which is 1.0.
 
 
 ### Fields
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`strength` | [Float](../data_types/float.md) | `1.0` | How strong the night vision effect is. Range: 0.0 - 1.0.
+`strength` | [Float](../data_types/float.md) | `1.0` | Determines how strong the night vision effect is. Accepted range is from 0.0 to 1.0.
 
 
 ### Examples
+
+```json
+{
+    "type": "origins:night_vision"
+}
+```
+
+This example will give the player regular night vision.
+<br>
+
 
 ```json
 {
@@ -32,4 +47,4 @@ Field  | Type | Default | Description
 }
 ```
 
-This example will give the player night vision while underwater, improving their vision by quite a bit.
+This example will give the player night vision with 50% strength upon being submerged in water.
