@@ -7,7 +7,7 @@ date: 2021-04-05
 
 [Item Condition Type](../item_condition_types.md)
 
-Checks whether the item matches a specified [Item Condition Type](../item_condition_types.md). Essentially, checking either for the item ID or whether the item is in a specified tag.
+Checks whether the item matches the specified [ingredient](../data_types/ingredient.md). Essentially, checking either for the item ID or whether the item is in a specified tag.
 
 Type ID: `origins:ingredient`
 
@@ -42,4 +42,21 @@ This example will check if the item is a `minecraft:egg` item.
 }
 ```
 
-This example will check if the item is inside the `#minecraft:flowers` item tag. (`data\minecraft\tags\items\flowers.json`)
+This example will check if the item is included in the `#minecraft:flowers` (`data/minecraft/tags/items/flowers.json`) item tag.
+<br>
+
+```json
+"item_condition": {
+    "type": "origins:ingredient",
+    "ingredient": [
+        {
+            "tag": "minecraft:planks"
+        },
+        {
+            "item": "minecraft:oak_log"
+        }
+    ]
+}
+```
+
+This example will check if the item is included in the `#minecraft:planks` (`data/minecraft/tags/items/planks.json`) item tag or if the item is a `minecraft:oak_log` item.
