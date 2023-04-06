@@ -34,9 +34,25 @@ Field | Type | Default | Description
     "type": "origins:explode",
     "power": 5,
     "destruction_type": "none",
-    "damage_self": false,
     "create_fire": false
 }
 ```
 
-This example will summon an explosion that will **not** damage the block that invoked the action, the terrain, or create fire.
+This example will summon an explosion at the position of where the block action was invoked that would not destroy the terrain nor spread fire.
+<br>
+
+
+```json
+"block_action": {
+    "type": "origins:explode",
+    "power": 5,
+    "destruction_type": "break",
+    "destructible": {
+        "type": "apoli:in_tag",
+        "tag": "minecraft:impermeable"
+    },
+    "create_fire": false
+}
+```
+
+This example will summon an explosion at the position of where the block action was invoked that would only destroy blocks that are in the `#minecraft:impermeable` (`data/minecraft/tags/blocks/impermeable.json`) block tag.
