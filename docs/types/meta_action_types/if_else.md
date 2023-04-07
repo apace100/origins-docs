@@ -14,7 +14,7 @@ Type ID: `origins:if_else`
 !!! note
 
     Depending on the condition type, a different action type is expected:
-    
+
     Action Type | Condition Type
     ------------|----------------
     [Bi-entity Action Type](../bientity_action_types.md) | [Bi-entity Condition Type](../bientity_condition_types.md)
@@ -51,4 +51,4 @@ Field  | Type | Default | Description
 }
 ```
 
-This example will set the entity on fire if they are "fall flying" for 5 seconds. Otherwise, it will restore 3 hearts of health to the entity instead.
+This example will set the entity on fire for 5 seconds if they are "fall flying". Otherwise, it will restore 3 hearts of health to the entity instead.
