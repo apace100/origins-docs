@@ -11,6 +11,10 @@ Toggles the state of a power that uses the [Toggle (Power Type)](../power_types/
 
 Type ID: `origins:toggle`
 
+!!! note
+
+    Not to be confused with [Toggle (Power Type)](../power_types/toggle.md).
+
 
 ### Fields
 
