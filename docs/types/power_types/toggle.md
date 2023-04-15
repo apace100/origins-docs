@@ -7,18 +7,14 @@ date: 2021-04-07
 
 [Power Type](../power_types.md)
 
-Provides a switch that can be toggled ON and OFF with the specified [Key](../data_types/key.md).
+Provides a state that can be toggled with the specified [Key](../data_types/key.md).
 
 Type ID: `origins:toggle`
 
 
 !!! note
 
-    To check if the power with this power type is toggled ON (or OFF), you can use the [Power Active (Entity Condition Type)](../entity_condition_types/power_active.md).
-
-!!! note
-
-    Not to be confused with [Toggle (Power Type)](../entity_action_types/toggle.md)
+    This power type provides a state that can be toggled with the [Toggle (Entity Action Type)](../entity_action_types/toggle.md) and check the state of with the [Power Active (Entity Condition Type)](../entity_condition_types/power_active.md).
 
 
 ### Fields
