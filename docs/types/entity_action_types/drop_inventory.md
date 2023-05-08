@@ -25,7 +25,7 @@ Field  | Type | Default | Description
 `power` | [Identifier](../data_types/identifier.md) | _optional_ | If specified, the items in the inventory of this power will be dropped instead of the items in the entity's inventory if `inventory_type` is set to `"power"`.
 `throw_randomly` | [Boolean](../data_types/boolean.md) | `false` | If `true`, items will be thrown in random directions instead of being normally dropped, similar to how items are dropped when you die.
 `retain_ownership` | [Boolean](../data_types/boolean.md) | `true` | If `true`, the dropped items will have their `Thrower` NBT set as the `UUID` NBT of the entity that invoked the action.
-`amount` | [Integer](../data_types/integer.md) | *optional* | If specified, the affected items will be split by this amount.
+`amount` | [Integer](../data_types/integer.md) | _optional_ | If specified, the affected items will be split by this amount.
 
 
 ### Examples
