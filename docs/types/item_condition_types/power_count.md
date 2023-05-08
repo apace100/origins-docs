@@ -16,7 +16,7 @@ Type ID: `origins:power_count`
 
 Field | Type | Default | Description
 ------|------|---------|------------
-`slot` | [String](../data_types/string.md) | *optional* | If specified, this will check how many powers are assigned to this equipment slot. Accepts one of `"head"`, `"chest"`, `"legs"`, `"feet"`, `"mainhand"` or `"offhand"`.
+`slot` | [String](../data_types/string.md) | _optional_ | If specified, this will check how many powers are assigned to this equipment slot. Accepts one of `"head"`, `"chest"`, `"legs"`, `"feet"`, `"mainhand"` or `"offhand"`.
 `comparison` | [Comparison](../data_types/comparison.md) | | Determines how the amount of powers embedded in the item is compared to the specified value.
 `compare_to` | [Integer](../data_types/integer.md) | | The value to compare the amount of powers embedded in the item to.
 
