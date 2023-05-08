@@ -16,7 +16,7 @@ Type ID: `origins:block_collision`
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`block_condition` | [Block Condition Type](../block_condition_types.md) | *optional* | If specified, the condition type will only evaluate to true if the bounding box of the entity is colliding with a block that fulfills this condition.
+`block_condition` | [Block Condition Type](../block_condition_types.md) | _optional_ | If specified, the condition type will only evaluate to true if the bounding box of the entity is colliding with a block that fulfills this condition.
 `offset_x` | [Float](../data_types/float.md) | `0` |  By how much of the bounding box size should the box be offset in the X direction (e.g.: 0 = no offset, 1 = offset of exact width, 2 = offset of twice the width of the bounding box)
 `offset_y` | [Float](../data_types/float.md) | `0` |  By how much of the bounding box size should the box be offset in the Y direction (e.g.: 0 = no offset, 1 = offset of exact height, 2 = offset of twice the height of the bounding box)
 `offset_z` | [Float](../data_types/float.md) | `0` | By how much of the bounding box size should the box be offset in the Z direction (e.g.: 0 = no offset, 1 = offset of exact depth, 2 = offset of twice the depth of the bounding box)
