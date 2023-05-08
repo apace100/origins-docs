@@ -17,7 +17,7 @@ Type ID: `origins:has_power`
 Field | Type | Default | Description
 ------|------|---------|------------
 `power` | [Identifier](../data_types/identifier.md) | | The ID of the power to check for.
-`slot` | [String](../data_types/string.md) | *optional* | If specified, this will check if the power embedded to the item is assigned to this equipment slot. Accepts one of `"head"`, `"chest"`, `"legs"`, `"feet"`, `"mainhand"` or `"offhand"`.
+`slot` | [String](../data_types/string.md) | _optional_ | If specified, this will check if the power embedded to the item is assigned to this equipment slot. Accepts one of `"head"`, `"chest"`, `"legs"`, `"feet"`, `"mainhand"` or `"offhand"`.
 
 
 ### Examples
