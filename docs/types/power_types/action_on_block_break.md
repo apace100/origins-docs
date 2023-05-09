@@ -16,7 +16,7 @@ Type ID: `origins:action_on_block_break`
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`entity_action` | [Entity Action](../entity_action_types.md) | _optional_ | If specified, this action will be executed on the player when a block is broken.
+`entity_action` | [Entity Action Type](../entity_action_types.md) | _optional_ | If specified, this action will be executed on the player when a block is broken.
 `block_action` | [Block Action Type](../block_action_types.md) | _optional_ | If specified, this action will be executed on the block that is broken.
 `block_condition` | [Block Condition Type](../block_condition_types.md) | _optional_ | If set, the specified actions will only trigger when this block condition is met by the broken block.
 `only_when_harvested` | [Boolean](../data_types/boolean.md) | `true` | If this is true, the specified actions will only execute when the player succeeds in harvesting the block (e.g. they will not trigger when stone is broken by hand).
