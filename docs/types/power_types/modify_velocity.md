@@ -16,7 +16,7 @@ Type ID: `origins:modify_velocity`
 
 Field | Type | Default | Description
 ------|------|---------|------------
-`axes` | [Array of Identifiers](../data_types/array.md) | `["x","y","z"]` | Used to specify the axes affected by this modifier. 
+`axes` | [Array](../data_types/array.md) of [Identifiers](../data_types/identifier.md)| `["x","y","z"]` | Used to specify the axes affected by this modifier. 
 `modifier` | [Attribute Modifier](../data_types/attribute_modifier.md) | _optional_ | If specified, this modifier will apply to velocity in the specified axes.
 `modifiers` | [Array](../data_types/array.md) of [Attribute Modifiers](../data_types/attribute_modifier.md) | _optional_ | If specified, these modifiers will apply to the specified axes.
 
