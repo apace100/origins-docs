@@ -16,7 +16,7 @@ Type ID: `origins:modify_slipperiness`
 
 Field | Type | Default | Description
 ------|------|---------|-------------
-`block_condition` | [Block Condition](../block_condition_types.md) | _optional_ | If specified, the modifier(s) will only apply to the blocks that fulfills this condition.
+`block_condition` | [Block Condition Type](../block_condition_types.md) | _optional_ | If specified, the modifier(s) will only apply to the blocks that fulfills this condition.
 `modifier` | [Attribute Modifier](../data_types/attribute_modifier.md) | _optional_ | If specified, this modifier will be applied to the entity's slipperiness.
 `modifiers` | [Array](../data_types/array.md) of [Attribute Modifiers](../data_types/attribute_modifier.md) | _optional_ | If specified, these modifiers will be applied to the entity's slipperiness.
 
