@@ -37,7 +37,7 @@ Field | Type | Default | Description
 `replace` | [Object](../data_types/object.md) | | An object with `"key": "value"` pairs that determine which loot table (`"key"`) will be replaced with a new loot table (`"value"`).
 `bientity_condition` | [Bi-entity Condition Type](../bientity_condition_types.md) | _optional_ | If specified, the loot tables will only be replaced if this condition is fulfilled by either or both '**actor**' and '**target**' entities.
 `block_condition` | [Block Condition Type](../block_condition_types.md) | _optional_ | If specified, the loot tables will only be replaced if the block at the context of the loot tables fulfill this condition.
-`item_condition` | [Item Condition Types](../item_condition_types.md) | _optional_ | If specified, the loot tables will only be replaced if the item in the context of the loot tables fulfill this condition.
+`item_condition` | [Item Condition Type](../item_condition_types.md) | _optional_ | If specified, the loot tables will only be replaced if the item in the context of the loot tables fulfill this condition.
 `priority` | [Integer](../data_types/integer.md) | `0` | Determines the application priority of the power.
 
 
