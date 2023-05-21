@@ -7,7 +7,7 @@ date: 2021-04-05
 
 [Item Condition Type](../item_condition_types.md)
 
-Checks the level of a certain enchantment on the item.
+Checks the level of a certain enchantment, or the amount of individual enchantments on the item.
 
 Type ID: `origins:enchantment`
 
@@ -16,9 +16,9 @@ Type ID: `origins:enchantment`
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`enchantment` | [Identifier](../data_types/identifier.md) | |  ID of the enchantment of interest, e.g. `minecraft:protection`.
-`comparison` | [Comparison](../data_types/comparison.md) | |  How to compare the enchantment level the specified value.
-`compare_to` | [Integer](../data_types/integer.md) | | Which value to compare the enchantment level against.
+`enchantment` | [Identifier](../data_types/identifier.md) | _optional_ | ID of the enchantment of interest, e.g. `minecraft:protection`. If not set, amount of enchantments will be checked instead.
+`comparison` | [Comparison](../data_types/comparison.md) | | How to compare the enchantment level, or the amount of enchantments, to the specified value.
+`compare_to` | [Integer](../data_types/integer.md) | | Which value to compare the enchantment level or amount against.
 
 
 ### Examples
@@ -33,3 +33,13 @@ Field  | Type | Default | Description
 ```
 
 This example will check if the item has the Fortune III enchantment.
+
+```json
+"item_condition": {
+    "type": "origins:enchantment",
+    "comparison": ">=",
+    "compare_to": 3
+}
+```
+
+This example will check if the item has 3 or more enchantments.
