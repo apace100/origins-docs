@@ -19,4 +19,5 @@ Block Action Types operate an action at a selected block or set of blocks. These
 
 
 ### Meta
+* [Area of Effect](block_action_types/area_of_effect.md)
 * [Offset](block_action_types/offset.md)
