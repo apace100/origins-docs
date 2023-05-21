@@ -34,6 +34,7 @@ a `type` field in the JSON. Which type a power is defines which other fields it 
 * [Fire Immunity](power_types/fire_immunity.md)
 * [Fire Projectile](power_types/fire_projectile.md)
 * [Freeze](power_types/freeze.md)
+* [Grounded](power_types/grounded.md)
 * [Ignore Water](power_types/ignore_water.md)
 * [Inventory](power_types/inventory.md)
 * [Invisibility](power_types/invisibility.md)
