@@ -9,6 +9,11 @@ date: 2021-04-04
 
 An [Object](object.md) used to specify how to deal damage to an entity.
 
+!!! danger
+
+    The concept of damage sources is deprecated. Associated fields may be removed in a future version. Any power or action requiring you to specify a damage source, will now have a way to specify a damage type instead (usually a field called `damage_type`) which should be used instead. [More information here](https://gist.github.com/apace100/bfbf82a8f9d6bd2db13e4feaf653a6b0).
+
+
 
 ### Fields
 
