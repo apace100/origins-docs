@@ -15,6 +15,7 @@ Visit [CurseForge](https://www.curseforge.com/minecraft/mc-mods/origins) or [Mod
 
 - Most powers are now configurable via data packs. You can also add new powers, as well as new origins, via data packs. This wiki should help you as a reference for everything important, and will maybe contain a few useful tutorials in the future.
 - You are welcome to join the [Origins Discord server](https://discord.gg/4mTMHu3) if you want to talk about the mod, making data packs or add-ons for the mod, or to discover servers which use the mod which are sometimes advertised there.
+    - If you've been banned from the Discord server, and believe it was unjust, you can appeal the ban by [filling out this form](https://forms.gle/JnoxrTFDXXNws6qx7).
 - What is considered "meat" is defined via a tag (`origins/tags/items/meat.json`), so you can add modded foods in there if you want. Avians can eat all food items that are not in the meat tag. However, if the mod correctly defines the food component as meat in code, it should work out of the box.
 - You can add food to the tag `origins/tags/items/ignore_diet.json` if you want it to be edible by both vegetarians and carnivores.
 - Blocks which are not passable for Phantoms include bedrock, obsidian and crying obsidian. You can change this via a tag as well (`origins/tags/blocks/unphasable.json`).
