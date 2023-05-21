@@ -11,6 +11,9 @@ Checks whether the damage source is unblockable.
 
 Type ID: `origins:unblockable`
 
+!!! danger
+
+    This damage condition type has been **deprecated** and may be removed in a future version. Please use [In Tag (Damage Condition Type)](in_tag.md) instead.
 
 ### Fields
 
