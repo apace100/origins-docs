@@ -33,11 +33,11 @@ Field  | Type | Default | Description
 "effect": {
     "effect": "minecraft:slowness",
     "amplifier": 1,
-    "duration": 80
+    "duration": -1
 }
 ```
 
-A Slowness II status which lasts for 4 seconds.
+A Slowness II status with an infinite (∞) duration.
 <br>
 
 ```json
