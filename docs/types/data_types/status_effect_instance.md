@@ -22,7 +22,7 @@ Field  | Type | Default | Description
 `effect` | [Identifier](identifier.md) | | The identifier of the status effect.
 `duration` | [Integer](integer.md) | `100` | Determines the duration of the status effect (in ticks).
 `amplifier` | [Integer](integer.md) | `0` | Determines the strength of the status effect (0 being level 1).
-`is_ambient` | [Boolean](boolean.md) | `false` | Determines whether the particle effects of the status effect is less noticable.
+`is_ambient` | [Boolean](boolean.md) | `false` | Determines whether the particle effects of the status effect is less noticeable.
 `show_particles` | [Boolean](boolean.md) | `true` | Determines whether the status effect should display particle effects on the entity.
 `show_icon` | [Boolean](boolean.md) | `true` | Determines whether the status effect would display an icon on the HUD.
 
