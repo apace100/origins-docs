@@ -21,7 +21,7 @@ Clear all the powers from the specified target(s).
 <br>
 
 ```mcfunction
-power grant <targets> <power> [source]
+power grant <targets> <power> [<source>]
 ```
 Grant a power to the specified target(s) (from a specific power source, if specified)
 <br>
@@ -32,7 +32,7 @@ Grant a power to the specified target(s) (from a specific power source, if speci
 * `<power>` being the namespace and ID of a power
     * (e.g: `origins:arcane_skin` (`data/origins/powers/arcane_skin.json`))
 
-* `[source]` being the source of the power; optional; defaults to `apoli:command`
+* `[<source>]` being the source of the power; optional; defaults to `apoli:command`
     * (e.g: `example:test`)
 <br>
 <br>
@@ -52,13 +52,16 @@ Check if the specified target(s) has a certain power.
 <br>
 
 ```mcfunction
-power list <target>
+power list <target> [<subpower>]
 ```
 List all the powers available from the specified target.
 <br>
 
 * `<target>` being a target selector, username, or UUID; can only select one at a time.
     * (e.g: `@a[limit = 1]`, `@p`, `eggohito`, `70ecd8a7-5abb-492a-a3b3-9aae099400db`)
+
+* `[<subpower>]` being a boolean that determines whether the list should include sub-powers (as in powers inside of a [Multiple](../../types/power_types/multiple.md) super-power); optional; defaults to `true`
+    * (e.g: `true`, `false`)
 <br>
 <br>
 
@@ -77,7 +80,7 @@ Remove a power from the specified target.
 <br>
 
 ```mcfunction
-power revoke <targets> <power> [source]
+power revoke <targets> <power> [<source>]
 ```
 Revoke a power from the specified target(s) (and from a specific power source, if specified.)
 <br>
@@ -88,7 +91,7 @@ Revoke a power from the specified target(s) (and from a specific power source, i
 * `<power>` being the namespace and ID of a power
     * (e.g: `origins:arcane_skin` (`data/origins/powers/arcane_skin.json`))
 
-* `[source]` being the source of the power, defaults to `apoli:command`
+* `[<source>]` being the source of the power, defaults to `apoli:command`
     * (e.g: `example:test`)
 <br>
 <br>
