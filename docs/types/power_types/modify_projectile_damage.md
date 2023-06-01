@@ -41,4 +41,4 @@ Field  | Type | Default | Description
 }
 ```
 
-This example will modify the damage of the Spectral Arrow projectile entity shot by the entity that has the power to deal additional 7 and a half hearts of damage.
+This example will modify the damage of the Spectral Arrow projectile entity shot by the entity that has the power to deal additional 4 hearts of damage.
