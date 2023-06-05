@@ -14,7 +14,7 @@ An [Object](../types/data_types/object.md) used to specify origins in a [Layer J
 
 !!! warning
 
-    The specified condition is only evaluated on the client-side. This means that server-side conditions (such as [`origins:command`](../types/entity_condition_types/command.md) will not work!)
+    The specified condition is only evaluated on the client-side. This means that server-side condition types (such as the [Command (Entity Condition Type)](../types/entity_condition_types/command.md)) will not work!
 
 
 ### Fields
