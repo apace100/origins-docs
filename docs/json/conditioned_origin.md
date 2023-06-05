@@ -12,6 +12,11 @@ An [Object](../types/data_types/object.md) used to specify origins in a [Layer J
     Check [Origin conditions in layers](../guides/data/origin_conditions_in_layers.md) for a detailed guide on how to use this feature.
 
 
+!!! warning
+
+    The specified condition is only evaluated on the client-side. This means that server-side conditions (such as [`origins:command`](../types/entity_condition_types/command.md) will not work!)
+
+
 ### Fields
 
 Field  | Type | Default | Description
