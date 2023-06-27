@@ -27,6 +27,7 @@ Data types are used everywhere in the JSON files. Every field in a JSON has to h
 * [Comparison](data_types/comparison.md)
 * [Crafting Recipe](data_types/crafting_recipe.md)
 * [Damage Source](data_types/damage_source.md)
+* [Entity Type Tag-like](data_types/entity_type_taglike.md)
 * [Hud Render](data_types/hud_render.md)
 * [Identifier](data_types/identifier.md)
 * [Ingredient](data_types/ingredient.md)
