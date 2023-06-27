@@ -10,6 +10,7 @@ nav:
         - Dependencies Explained: guides/addon/dependencies.md
     - JSON:
         - Badge JSON: json/badge.md
+        - Global Power Set JSON: json/global_power_set.md
         - Origin JSON: json/origin.md
         - Origin Layer JSON: json/origin_layer.md
         - Power JSON: json/power.md
