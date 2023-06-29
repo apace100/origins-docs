@@ -16,7 +16,7 @@ Field | Type | Default | Description
 ------|------|---------|------------
 `entity_types` | [Entity Type Tag-like](../types/data_types/entity_type_taglike.md) | _optional_ | If specified, the specified powers will only be granted to entities that fulfill this tag-like specifier.
 `powers` | [Array](../types/data_types/array.md) of [Identifiers](../types/data_types/identifier.md) | | The ID(s) of the power(s) to grant to entities globally.
-`order` | [Integer](../types/data_types/integer.md) | 0 | Determines the order at which the global power set is applied.
+`order` | [Integer](../types/data_types/integer.md) | `0` | Determines the order at which the global power set is applied.
 
 
 ### Examples
