@@ -25,7 +25,7 @@ Field  | Type | Default | Description
 `speed` | [Float](../data_types/float.md) | `1.5` | The speed applied to the fired projectile.
 `divergence` | [Float](../data_types/float.md) | `1.0` | How much each projectile fired is affected by random spread.
 `sound` | [Identifier](../data_types/identifier.md) | _optional_ | If set, the sound with this ID will be played when the power is used.
-`tag` | [String](../data_types/string.md) | _optional_ | NBT data of the entity.
+`tag` | [NBT](../data_types/nbt.md) | _optional_ | NBT data of the entity.
 `key` | [Key](../data_types/key.md) | _optional_ | Which active key this power should respond to. If none is specified, this power will use the primary active power key (by default G).
 
 

@@ -16,7 +16,7 @@ Type ID: `origins:nbt`
 
 Field | Type | Default | Description
 ------|------|---------|-------------
-`nbt` | [String](../data_types/string.md) | | The NBT data to check for.
+`nbt` | [NBT](../data_types/nbt.md) | | The NBT data to check for.
 
 
 ### Examples

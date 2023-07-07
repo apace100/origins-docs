@@ -16,7 +16,7 @@ Type ID: `origins:merge_nbt`
 
 Field | Type | Default | Description
 ------|------|---------|------------
-`nbt` | [String](../data_types/string.md) | | The NBT to merge to the item's NBT.
+`nbt` | [NBT](../data_types/nbt.md) | | The NBT to merge to the item's NBT.
 
 
 ### Examples
