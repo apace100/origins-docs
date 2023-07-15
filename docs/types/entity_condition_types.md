@@ -44,6 +44,7 @@ Entity Condition Types operate on an Entity, which also allows access to the wor
 * [In Block](entity_condition_types/in_block.md)
 * [In Rain](entity_condition_types/in_rain.md)
 * [In Tag](entity_condition_types/in_tag.md)
+* [Inventory](entity_condition_types/inventory.md)
 * [Invisible](entity_condition_types/invisible.md)
 * [Living](entity_condition_types/living.md)
 * [Moving](entity_condition_types/moving.md)
