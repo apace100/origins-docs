@@ -16,7 +16,7 @@ Once that's done and you have a mod that runs (even though it doesn't do anythin
 repositories {
 	maven {
 		name = "Ladysnake Libs"
-		url = 'https://ladysnake.jfrog.io/artifactory/mods'
+		url = 'https://maven.ladysnake.org/releases'
 	}
 	maven {
 		url = 'https://maven.cafeteria.dev'
