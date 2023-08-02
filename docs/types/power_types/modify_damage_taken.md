@@ -68,7 +68,7 @@ Field  | Type | Default | Description
 }
 ```
 
-This example will make the entity that has the power take 3 additional hearts of damage if the attacker is holding an item with either the Curse of Binding, or Curse of Vanishing enchantments.
+This example will make the entity that has the power take 2 and a half additional hearts of damage if the attacker is holding an item with either the Curse of Binding, or Curse of Vanishing enchantments.
 <br>
 
 ```json
