@@ -29,6 +29,7 @@ Entity Action Types operate on an `Entity`. Some more specific actions only have
 * [Explode](entity_action_types/explode.md)
 * [Extinguish](entity_action_types/extinguish.md)
 * [Feed](entity_action_types/feed.md)
+* [Fire Projectile](entity_action_types/fire_projectile.md)
 * [Gain Air](entity_action_types/gain_air.md)
 * [Give](entity_action_types/give.md)
 * [Grant Advancement](entity_action_types/grant_advancement.md)
