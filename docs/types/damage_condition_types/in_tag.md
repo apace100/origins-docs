@@ -12,6 +12,11 @@ Checks whether the type of this damage is in a specified tag.
 Type ID: `origins:in_tag`
 
 
+!!! note
+
+    See [Minecraft Fandom: Tag (Damage types)](https://minecraft.fandom.com/wiki/Tag#Damage_types) for a list of of damage type tags provided/used in vanilla.
+
+
 ### Fields
 
 Field | Type | Default | Description
