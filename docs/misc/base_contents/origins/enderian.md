@@ -7,7 +7,7 @@ date: 2021-04-04
 
 [Origin](../origins.md)
 
-Born as sons and daughters of the Ender Dragon, Enderians are capable of teleporting but are vulnerable to water.
+Born as children of the Ender Dragon, Enderians are capable of teleporting but are vulnerable to water.
 
 ID: `origins:enderian`
 
