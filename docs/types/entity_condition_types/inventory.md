@@ -17,7 +17,7 @@ Type ID: `origins:inventory`
 Field | Type | Default | Description
 ------|------|---------|------------
 `inventory_types` | [Array](../data_types/array.md) of [Inventory Types](../../misc/extras/inventory_type.md) | `["inventory"]` | Determines whether to check for items in the entity's inventory, inventories of powers present in the entity, or both.
-`process_mode` | [Process Mode](../data_types/process_mode.md) | `"items"` | Determines how the item stack(s) in the specified inventory/inventories are processed.
+`process_mode` | [Process Mode](../data_types/process_mode.md) | `"items"` | Determines how the item stacks in the specified inventory/inventories are evaluated.
 `item_condition` | [Item Condition Type](../item_condition_types.md) | _optional_ | If specified, only account for items from the specified inventory/inventories that fulfill this condition.
 `slots` | [Array](../data_types/array.md) of [Item Slots](../data_types/item_slot.md) | _optional_ | If specified, only items from these specified item slots are evaluated.
 `slot` | [Item Slot](../data_types/item_slot.md) | _optional_ | If specified, only the item from this specified item slot is evaluated.

@@ -23,7 +23,7 @@ Field  | Type | Default | Description
 `slot` | [Item Slot](../data_types/item_slot.md) | _optional_ | If specified, only items in the designated slot will be modified.
 `slots` | [Array](../data_types/array.md) of [Item Slots](../data_types/item_slot.md) | _optional_ | If specified, only items in the designated slots will be modified.
 `power` | [Identifier](../data_types/identifier.md) | _optional_ | If specified, the items in the inventory of this power will be modified instead of the items in the entity's inventory if `inventory_type` is set to `"power"`.
-`process_mode` | [Process Mode](../data_types/process_mode.md) | `"stacks"` | Determines how the affected item stack is processed.
+`process_mode` | [Process Mode](../data_types/process_mode.md) | `"stacks"` | Determines how the affected item stacks in the specified inventory are modified.
 `limit` | [Integer](../data_types/integer.md) | `0` | Determines the max amount of times the action should modify item stacks in the inventory. If the specified value is <= `0`, then there will be no limit.
 
 
