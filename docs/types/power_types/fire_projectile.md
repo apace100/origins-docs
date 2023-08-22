@@ -27,6 +27,8 @@ Field  | Type | Default | Description
 `sound` | [Identifier](../data_types/identifier.md) | _optional_ | If set, the sound with this ID will be played when the power is used.
 `tag` | [NBT](../data_types/nbt.md) | _optional_ | NBT data of the entity.
 `key` | [Key](../data_types/key.md) | _optional_ | Which active key this power should respond to. If none is specified, this power will use the primary active power key (by default G).
+`projectile_action` | [Entity Action Type](../entity_action_types.md) | _optional_ | If specified, this entity action will be executed on the projectile or entity that will be launched.
+`shooter_action` | [Entity Action Type](../entity_action_types.md) | _optional_ | If specified, this entity action will be executed on the entity that has the power.
 
 
 ### Examples
