@@ -67,6 +67,6 @@ markdown_extensions:
         separator: "_"
     - admonition
 plugins:
-	- search
-	- autorefs
-	- redirects
+    - search
+    - autorefs
+    - redirects
