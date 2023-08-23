@@ -16,8 +16,8 @@ Type ID: `origins:can_see`
 
 Field | Type | Default | Description
 ------|------|---------|------------
-`shape_type` | [Shape Type](../../misc/extras/shape_types.md) | `"visual"` | Determines how the ray-cast will handle blocks.
-`fluid_handling` | [Fluid Handling](../../misc/extras/fluid_handling.md) | `"none"` | Determines how the ray-cast will handle fluids. 
+`shape_type` | [Shape Type](../data_types/shape_type.md) | `"visual"` | Determines how the ray-cast will handle blocks.
+`fluid_handling` | [Fluid Handling](../data_types/fluid_handling.md) | `"none"` | Determines how the ray-cast will handle fluids. 
 
 
 ### Examples

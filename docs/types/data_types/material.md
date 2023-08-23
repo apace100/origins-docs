@@ -1,9 +1,20 @@
 ---
-title: Materials (Extras)
-date: 2021-12-09
+title:	Legacy Material
+date:	2023-08-23
 ---
 
-# List of Materials
+#	Material
+
+[Data Type][data_types]
+
+A [String][string] used to determine what a block classify as.
+
+!!!	danger
+
+	The concept of block materials have been removed as of Minecraft 1.20, therefore any types that uses this data type has been <span style="color:darkred"><b>deprecated</b></span>. Apoli, the power library that Origins uses, provides block tags for backwards compatibility with vanilla blocks assigned to each block tag with the corresponding material *(e.g: `apoli:material/<material_name>`)*
+
+
+###	Values
 
 * `air`
 * `structure_void`

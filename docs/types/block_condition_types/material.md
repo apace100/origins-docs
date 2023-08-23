@@ -16,8 +16,8 @@ Type ID: `origins:material`
 
 Field | Type | Default | Description
 ------|------|---------|------------
-`material` | [String](../data_types/string.md) | _optional_ | If specified, checks if the block classifies as this material. See [Materials](../../misc/extras/materials.md) for possible values.
-`materials` | [Array](../data_types/array.md) of [Strings](../data_types/string.md) | _optional_ | If specified, checks if the block classifies as one of these materials. See [Materials](../../misc/extras/materials.md) for possible values.
+`material` | [Material](../data_types/material.md) | _optional_ | If specified, checks if the block classifies as this material.
+`materials` | [Array](../data_types/array.md) of [Material](../data_types/material.md)] | _optional_ | If specified, checks if the block classifies as one of these materials.
 
 
 ### Examples

@@ -74,3 +74,8 @@ plugins:
             misc/extras/destruction_types.md: types/data_types/destruction_type.md
             misc/extras/container_type.md: types/data_types/container_type.md
             misc/extras/inventory_type.md: types/data_types/inventory_type.md
+            misc/extras/player_abilities.md: types/data_types/player_ability.md
+            misc/extras/space.md: types/data_types/space.md
+            misc/extras/fluid_handling.md: types/data_types/fluid_handling.md
+            misc/extras/shape_types.md: types/data_types/shape_type.md
+            misc/extras/materials.md: types/data_types/legacy_material.md

@@ -23,7 +23,7 @@ Field  | Type | Default | Description
 `x` | [Float](../data_types/float.md) | `0.0` | The amount of velocity to add on the x-axis.
 `y` | [Float](../data_types/float.md) | `0.0` | The amount of velocity to add on the y-axis.
 `z` | [Float](../data_types/float.md) | `0.0` | The amount of velocity to add on the z-axis.
-`space` | [String](../data_types/string.md) | `"world"` | The [Space](../../misc/extras/space.md) to perform the velocity addition in.
+`space` | [Space](../data_types/space.md) | `"world"` | The space to perform the addition/setting of velocity in.
 `client` | [Boolean](../data_types/boolean.md) | `true` | If this is false, the action will not execute on the client.
 `server` | [Boolean](../data_types/boolean.md) | `true` | If this is false, the action will not execute on the server.
 `set` | [Boolean](../data_types/boolean.md) | `false` | If this is true, the action will act as a "set" velocity action, overriding the entity's current velocity instead of adding to it.

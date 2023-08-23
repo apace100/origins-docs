@@ -16,7 +16,7 @@ Type ID: `origins:ability`
 
 Field | Type | Default | Description
 ------|------|---------|------------
-`ability` | [Player Ability](../../misc/extras/player_abilities.md) | | The namespace and ID of the ability to check for.
+`ability` | [Player Ability](../data_types/player_ability.md) | | The namespace and ID of the ability to check for.
 
 
 ### Examples
