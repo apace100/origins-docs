@@ -66,3 +66,7 @@ markdown_extensions:
     - toc:
         separator: "_"
     - admonition
+plugins:
+	- search
+	- autorefs
+	- redirects
