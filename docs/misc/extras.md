@@ -13,7 +13,6 @@ Extras are pages that do not fit in other sections of the wiki.
 * [Biome Categories](extras/biome_categories.md)
 * [Container Type](extras/container_type.md)
 * [Damage Source Names](extras/damage_source_names.md)
-* [Destruction Types](extras/destruction_types.md)
 * [Feature Renderers](extras/feature_renderers.md)
 * [Fluid Handling](extras/fluid_handling.md)
 * [Inventory Type](extras/inventory_type.md)

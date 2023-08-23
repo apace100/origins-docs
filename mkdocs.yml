@@ -71,3 +71,4 @@ plugins:
     - redirects:
         redirect_maps:
             misc/extras/action_results.md: types/data_types/action_result.md
+            misc/extras/destruction_types.md: types/data_types/destruction_type.md
