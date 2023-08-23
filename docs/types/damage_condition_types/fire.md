@@ -13,7 +13,7 @@ Type ID: `origins:fire`
 
 !!! danger
 
-    This damage condition type has been **deprecated** and may be removed in a future version. Please use [In Tag (Damage Condition Type)](in_tag.md) instead.
+    This damage condition type has been <span style="color:darkred"><b>deprecated</b></span> and may be removed in a future version. Please use [In Tag (Damage Condition Type)](in_tag.md) instead.
 
 ### Fields
 
