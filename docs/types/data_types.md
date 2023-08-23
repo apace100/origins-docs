@@ -20,6 +20,7 @@ Data types are used everywhere in the JSON files. Every field in a JSON has to h
 
 ### Origins-specific
 
+* [Action Result](data_types/action_result.md)
 * [Attribute Modifier Operation](data_types/attribute_modifier_operation.md)
 * [Attribute Modifier](data_types/attribute_modifier.md)
 * [Attributed Attribute Modifier Operation](data_types/attributed_attribute_modifier_operation.md)

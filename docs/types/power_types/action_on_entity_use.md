@@ -27,7 +27,7 @@ Field | Type | Default | Description
 `item_condition` | [Item Condition Type](../item_condition_types.md) | _optional_ | If specified, the specified actions will only be executed if this condition is fulfilled by the item used by the '**actor**' entity for right-clicking the '**target**' entity.
 `hands` | [Array](../data_types/array.md) of [Strings](../data_types/string.md) | `["off_hand" , "main_hand"]` | Determines if the power should be activated if the '**actor**' entity used the specified hand(s). Accepts `"off_hand"`, `"main_hand"` or both
 `result_stack` | [Item Stack](../data_types/item_stack.md) | _optional_ | If specified, this item stack will be given to the '**actor**' entity.
-`action_result` | [Action Result](../../misc/extras/action_results.md) | `"success"` | Determines the result of the 'use' action.
+`action_result` | [Action Result](../data_types/action_result.md) | `"success"` | Determines the result of the 'use' action.
 `priority` | [Integer](../data_types/integer.md) | `0` | Determines the execution priority of the power.
 
 
