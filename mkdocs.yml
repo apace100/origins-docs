@@ -78,4 +78,4 @@ plugins:
             misc/extras/space.md: types/data_types/space.md
             misc/extras/fluid_handling.md: types/data_types/fluid_handling.md
             misc/extras/shape_types.md: types/data_types/shape_type.md
-            misc/extras/materials.md: types/data_types/legacy_material.md
+            misc/extras/materials.md: types/data_types/material.md
