@@ -9,6 +9,10 @@ date: 2021-04-04
 
 An [Object](object.md) used to define how a resource or cooldown bar should be rendered.
 
+!!!	caution
+
+	The entity condition specified in the `condition` field is only evaluated on the **client-side**, therefore, using entity condition types that only work on the server-side will not work.
+
 
 ### Fields
 
