@@ -26,6 +26,7 @@ Data types are used everywhere in the JSON files. Every field in a JSON has to h
 * [Attributed Attribute Modifier Operation](data_types/attributed_attribute_modifier_operation.md)
 * [Attributed Attribute Modifier](data_types/attributed_attribute_modifier.md)
 * [Comparison](data_types/comparison.md)
+* [Container Type](data_types/container_type.md)
 * [Crafting Recipe](data_types/crafting_recipe.md)
 * [Damage Source](data_types/damage_source.md)
 * [Destruction Type](data_types/destruction_type.md)
