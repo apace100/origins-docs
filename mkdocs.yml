@@ -68,6 +68,7 @@ markdown_extensions:
 plugins:
     - search
     - autorefs
+    - alias
     - redirects:
         redirect_maps:
             misc/extras/action_results.md: types/data_types/action_result.md
