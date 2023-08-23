@@ -43,7 +43,6 @@ nav:
     - Extras:
         - Biome Categories: misc/extras/biome_categories.md
         - Damage Source Names: misc/extras/damage_source_names.md
-        - Destruction Types: misc/extras/destruction_types.md
         - Feature Renderers: misc/extras/feature_renderers.md
         - Keybindings: misc/extras/keybindings.md
         - Positioned Item Stack Slots: misc/extras/positioned_item_stack_slots.md

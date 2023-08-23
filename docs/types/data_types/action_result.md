@@ -1,6 +1,8 @@
 ---
 title:	Action Result (Data Type)
 date:	2021-12-27
+alias: test
+text: Action Result
 ---
 
 #	Action Result
