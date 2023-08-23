@@ -73,3 +73,4 @@ plugins:
             misc/extras/action_results.md: types/data_types/action_result.md
             misc/extras/destruction_types.md: types/data_types/destruction_type.md
             misc/extras/container_type.md: types/data_types/container_type.md
+            misc/extras/inventory_type.md: types/data_types/inventory_type.md

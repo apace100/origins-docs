@@ -11,7 +11,7 @@ A [String][string] used to determine the type of container to use for the invent
 
 !!!	note
 
-	Not to be confused with the [Inventory Type (Data Type)](../../misc/extras/inventory_type.md)
+	Not to be confused with the [Inventory Type (Data Type)][inventory_type]
 
 
 ###	Values

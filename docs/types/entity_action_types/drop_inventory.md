@@ -16,7 +16,7 @@ Type ID: `origins:drop_inventory`
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`inventory_type` | [Inventory Type](../../misc/extras/inventory_type.md) | `"inventory"` | Determines whether to drop the items from the inventory of the entity or the inventory of a power present in the entity.
+`inventory_type` | [Inventory Type](../data_types/inventory_type.md) | `"inventory"` | Determines whether to drop the items from the inventory of the entity or the inventory of a power present in the entity.
 `entity_action` | [Entity Action Type](../entity_action_types.md) | _optional_ | If specified, this action will be executed on the entity **before** the items are dropped.
 `item_action` | [Item Action Type](../item_action_types.md) | _optional_ | If specified, this action will be executed on the affected items **before** the affected items are dropped.
 `item_condition` | [Item Condition Type](../item_condition_types.md) | _optional_ | If specified, only items which fulfill this condition will be dropped.

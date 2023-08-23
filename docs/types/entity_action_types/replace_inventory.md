@@ -16,7 +16,7 @@ Type ID: `origins:replace_inventory`
 
 Field | Type | Default | Description
 ------|------|---------|------------
-`inventory_type` | [Inventory Type](../../misc/extras/inventory_type.md) | `"inventory"` | Determines whether to replace the items from the inventory of the entity or the inventory of a power present in the entity.
+`inventory_type` | [Inventory Type](../data_types/inventory_type.md) | `"inventory"` | Determines whether to replace the items from the inventory of the entity or the inventory of a power present in the entity.
 `entity_action` | [Entity Action Type](../entity_action_types.md) | _optional_ | If specified, this action will be executed on the entity **before** the items are replaced.
 `item_action` | [Item Action Type](../item_action_types.md) | _optional_ | If specified, this action will be executed on the affected items **after** the affected items are replaced.
 `item_condition` | [Item Condition Type](../item_condition_types.md) | _optional_ | If specified, only items which fulfill this condition will be replaced.
