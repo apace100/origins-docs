@@ -21,7 +21,7 @@ Type ID: `origins:material`
 Field | Type | Default | Description
 ------|------|---------|------------
 `material` | [Material](../data_types/material.md) | _optional_ | If specified, checks if the block classifies as this material.
-`materials` | [Array](../data_types/array.md) of [Material](../data_types/material.md)] | _optional_ | If specified, checks if the block classifies as one of these materials.
+`materials` | [Array](../data_types/array.md) of [Materials](../data_types/material.md) | _optional_ | If specified, checks if the block classifies as one of these materials.
 
 
 ### Examples
