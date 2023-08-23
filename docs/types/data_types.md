@@ -34,6 +34,7 @@ Data types are used everywhere in the JSON files. Every field in a JSON has to h
 * [Hud Render](data_types/hud_render.md)
 * [Identifier](data_types/identifier.md)
 * [Ingredient](data_types/ingredient.md)
+* [Inventory Type](data_types/inventory_type.md)
 * [Item Slot](data_types/item_slot.md)
 * [Item Stack](data_types/item_stack.md)
 * [Key](data_types/key.md)
