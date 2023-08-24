@@ -11,6 +11,10 @@ Prevents an entity from being rendered to the entity that has the power, includi
 
 Type ID: `origins:prevent_entity_render`
 
+!!! caution
+
+    The conditions specified in the `entity_condition` and `bientity_condition` fields are only evaluated on the <span style="color:goldenrod"><b>client-side</b></style>, therefore, using any condition types that only work on the server-side will not work.
+
 
 ### Fields
 

@@ -13,7 +13,7 @@ Type ID: `origins:nbt`
 
 !!! caution
 
-    This condition is only effective server-side. That means client-side power types such as [`origins:climbing`](../power_types/climbing.md), [`origins:entity_glow`](../power_types/entity_glow.md), [`origins:shader`](../power_types/shader.md), etc. won't work with this.    
+    Be cautious of using this entity condition type, as some NBT data *(e.g: tags added via `/tag`)* from the server are not synchronized to the client.
 
 
 ### Fields

@@ -11,10 +11,9 @@ Compares the result of the specified command to the specified value.
 
 Type ID: `origins:command`
 
-
 !!! caution
 
-    This condition is only effective server-side. That means client-side power types such as [`origins:climbing`](../power_types/climbing.md), [`origins:entity_glow`](../power_types/entity_glow.md), [`origins:shader`](../power_types/shader.md), etc. won't work with this.
+    This entity condition type only operates on the <span style="color:goldenrod"><b>server-side</b></span>, meaning that it cannot be used in fields that are evaluated on the client-side.
 
 
 ### Fields

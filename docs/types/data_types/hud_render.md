@@ -11,7 +11,7 @@ An [Object](object.md) used to define how a resource or cooldown bar should be r
 
 !!!	caution
 
-	The entity condition specified in the `condition` field is only evaluated on the **client-side**, therefore, using entity condition types that only work on the server-side will not work.
+	The entity condition specified in the `condition` field is only evaluated on the <span style="color:goldenrod"><b>client-side</b></span>, therefore, using entity condition types that only work on the server-side will not work.
 
 
 ### Fields

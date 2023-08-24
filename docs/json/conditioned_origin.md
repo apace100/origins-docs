@@ -11,10 +11,11 @@ An [Object](../types/data_types/object.md) used to specify origins in a [Layer J
 
     Check [Origin conditions in layers](../guides/data/origin_conditions_in_layers.md) for a detailed guide on how to use this feature.
 
+!!! caution
 
-!!! warning
+    The entity condition specified in the `condition` field is only evaluated on the <span style="color:goldenrod"><b>client-side</b></span>, therefore, using entity condition types that only work on the server-side will not work.
 
-    The specified condition is only evaluated on the client-side. This means that server-side condition types (such as the [Command (Entity Condition Type)](../types/entity_condition_types/command.md)) will not work!
+
 
 
 ### Fields

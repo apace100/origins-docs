@@ -11,10 +11,13 @@ Makes other entities glow (as with the glowing status effect), but only for the 
 
 Type ID: `origins:entity_glow`
 
-
 !!! note
 
     You can use a color picker website and divide the RGB values by 255 to get the values *(e.g: ranging from 0.0 to 1.0)* to be used for the power type.
+
+!!! caution
+
+	The conditions specified in the `entity_condition` and `bientity_condition` fields are only evaluated on the <span style="color:goldenrod"><b>client-side</b></span>, therefore, using condition types that only operates on the server-side will not work.
 
 
 ### Fields
