@@ -16,7 +16,7 @@ Type ID: `origins:and`
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`actions` | [Array](../data_types/array.md) of [Actions](../action_types.md) | | These actions will be executed one after the other (but in the same tick).
+`actions` | [Array](../data_types/array.md) of [Action Types](../action_types.md) | | These actions will be executed one after the other (but in the same tick).
 
 
 ### Examples
