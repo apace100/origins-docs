@@ -13,7 +13,7 @@ Type ID: `origins:shader`
 
 !!! note
 
-    For more information about post-processing shaders, visit [Minecraft Fandom Wiki: Shaders (Before 1.9)](https://minecraft.fandom.com/wiki/Shaders/Before_1.9)
+    For more information about post-processing shaders, visit [Minecraft Wiki: Shaders (Before 1.9)](https://minecraft.wiki/w/Shaders/Before_1.9)
 
 
 ### Fields

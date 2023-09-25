@@ -21,10 +21,10 @@ Name                   | Description
 `head`                 | The non-armor item on an entity's head.
 `held_item`            | The item in the hands of a bipedal mob.
 `horse_armor`          | The armor on a Horse that appears when the Horse is wearing an armor.
-`horse_marking`        | The patterns on a Horse. (See [Minecraft Fandom: Horse (Appearance)](https://minecraft.fandom.com/wiki/Horse#Appearance))
+`horse_marking`        | The patterns on a Horse. (See [Minecraft Wiki: Horse (Appearance)](https://minecraft.wiki/w/Horse#Appearance))
 `iron_golem_crack`     | The cracks on an Iron Golem that appears when the Iron Golem is damaged.
 `iron_golem_flower`    | The flowers and vines that appears on an Iron Golem.
-`llama_decor`          | The decoration on a Llama that appears when a Llama is wearing a certain carpet. (See [Minecraft Fandom: Llama (Decoration)](https://minecraft.fandom.com/wiki/Llama#Decoration))
+`llama_decor`          | The decoration on a Llama that appears when a Llama is wearing a certain carpet. (See [Minecraft Wiki: Llama (Decoration)](https://minecraft.wiki/w/Llama#Decoration))
 `mooshroom_mushroom`   | The mushrooms on the back of Mooshrooms.
 `panda_held_item`      | The item a Panda is holding that appears when the Panda is eating.
 `saddle`               | The saddle on a Pig or any mobs that can have saddles.
@@ -36,7 +36,7 @@ Name                   | Description
 `stray_overlay`        | The teared clothing of a Stray.
 `stuck_objects`        | The objects that can get stuck to a player, like Arrows or Bee Stingers.
 `trident_riptide`      | The animated swirling texture that appears when a player uses a Trident that has the Riptide enchantment.
-`tropical_fish_color`  | The patterns on top of a Tropical Fish's base color (See [Minecraft Fandom: Tropical Fish (Varieties)](https://minecraft.fandom.com/wiki/Tropical_Fish#Varieties))
+`tropical_fish_color`  | The patterns on top of a Tropical Fish's base color (See [Minecraft Wiki: Tropical Fish (Varieties)](https://minecraft.wiki/w/Tropical_Fish#Varieties))
 `villager_clothing`    | The biome-dependent clothes of a Villager.
 `villager_held_item`   | The item that a Villager presents in their arms when a player holds an item that they want to buy.
 `wolf_collar`          | The collar of a tamed Wolf.

@@ -13,7 +13,7 @@ Type ID: `origins:attribute_modify_transfer`
 
 !!! note
 
-    Refer to the [Minecraft Fandom Wiki: Attribute](https://minecraft.fandom.com/wiki/Attribute) page for a list of **vanilla** attributes that you can get the value from.
+    Refer to the [Minecraft Wiki: Attribute](https://minecraft.wiki/w/Attribute) page for a list of **vanilla** attributes that you can get the value from.
 
 
 ### Fields

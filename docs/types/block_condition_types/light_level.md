@@ -16,7 +16,7 @@ Type ID: `origins:light_level`
 
     If no light type is specified in the `light_type` field, the highest light level between the block light level and **internal** sky light level will be used as the "resulting" light level of the position of the block.
 
-    See [Minecraft Fandom Wiki: Light (Internal light level)](https://minecraft.fandom.com/wiki/Light#Internal_light_level) for more information about internal sky light levels.
+    See [Minecraft Wiki: Light (Internal light level)](https://minecraft.wiki/w/Light#Internal_light_level) for more information about internal sky light levels.
 
 
 ### Fields

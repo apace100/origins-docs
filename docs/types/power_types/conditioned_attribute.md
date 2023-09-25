@@ -17,7 +17,7 @@ Type ID: `origins:conditioned_attribute`
 
 !!! note
 
-    Refer to the [Minecraft Fandom Wiki: Attribute](https://minecraft.fandom.com/wiki/Attribute) page for a list of **vanilla** attributes that you can modify.
+    Refer to the [Minecraft Wiki: Attribute](https://minecraft.wiki/w/Attribute) page for a list of **vanilla** attributes that you can modify.
 
 
 ### Fields

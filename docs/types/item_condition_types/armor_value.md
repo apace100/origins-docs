@@ -15,10 +15,10 @@ Type ID: `origins:armor_value`
 
     You can visit these pages to get the armor values for each armor item piece:
 
-    * [Helmet](https://minecraft.fandom.com/wiki/Helmet#Defense_points)
-    * [Chestplate](https://minecraft.fandom.com/wiki/Chestplate#Defense_points)
-    * [Leggings](https://minecraft.fandom.com/wiki/Leggings#Defense_points)
-    * [Boots](https://minecraft.fandom.com/wiki/Boots#Defense_points)
+    * [Helmet](https://minecraft.wiki/w/Helmet#Defense_points)
+    * [Chestplate](https://minecraft.wiki/w/Chestplate#Defense_points)
+    * [Leggings](https://minecraft.wiki/w/Leggings#Defense_points)
+    * [Boots](https://minecraft.wiki/w/Boots#Defense_points)
 
 
 ### Fields

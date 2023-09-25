@@ -20,7 +20,7 @@ Type ID: `origins:block_state`
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`property` | [String](../data_types/string.md) | | The name of the property that will be checked. Examples are `facing` or `age`. See: [Minecraft Fandom Wiki: Block States (List of block states)](https://minecraft.fandom.com/wiki/Block_states#List_of_block_states)
+`property` | [String](../data_types/string.md) | | The name of the property that will be checked. Examples are `facing` or `age`. See: [Minecraft Wiki: Block States (List of block states)](https://minecraft.wiki/w/Block_states#List_of_block_states)
 `comparison` | [Comparison](../data_types/comparison.md) | _optional_ | If specified, determines how the specified property will be compared to a specified value. If not and the property is an integer, it will just check if the block has the specified property.
 `compare_to` | [Integer](../data_types/integer.md) | _optional_ | If specified, the value to compare to the value of the specified property.
 `value` | [Boolean](../data_types/boolean.md) | _optional_ | If specified, the boolean to compare to the value of the specified property if the specified property is a boolean.

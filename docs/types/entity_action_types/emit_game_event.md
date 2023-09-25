@@ -14,7 +14,7 @@ Type ID: `origins:emit_game_event`
 
 !!! note
 
-    See [Minecraft Fandom: Sculk Sensor (Vibration amplitudes)](https://minecraft.fandom.com/wiki/Sculk_Sensor?oldid=2099339#Vibration_amplitudes) for a list of vanilla game events you can use.
+    See [Minecraft Wiki: Sculk Sensor (Vibration amplitudes)](https://minecraft.wiki/w/Sculk_Sensor?oldid=2099339#Vibration_amplitudes) for a list of vanilla game events you can use.
 
 
 ### Fields

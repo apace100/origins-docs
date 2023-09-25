@@ -20,7 +20,7 @@ Type ID: `origins:modify_block_state`
 
 Field | Type | Default | Description
 ------|------|---------|-------------
-`property` | [String](../data_types/string.md) | | The name of the property that will be modified. Examples are `facing` or `age`. See [Minecraft Fandom Wiki: Block States (List of block states)](https://minecraft.fandom.com/wiki/Block_states#List_of_block_states) for possible values.
+`property` | [String](../data_types/string.md) | | The name of the property that will be modified. Examples are `facing` or `age`. See [Minecraft Wiki: Block States (List of block states)](https://minecraft.wiki/w/Block_states#List_of_block_states) for possible values.
 `operation` | [String](../data_types/string.md) | `"add"` | Determines how the value specified in the `change` field is operated on the specified property. Accepts `"add"` or `"set"`.
 `change` | [Integer](../data_types/integer.md) | _optional_ | If specified, the value to add, remove or set to/from the specified property if the specified property is an integer.
 `value` | [Boolean](../data_types/boolean.md) | _optional_ | If specified, the boolean to use as the new value for the specified property if the specified property is a boolean.

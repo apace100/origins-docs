@@ -13,7 +13,7 @@ Type ID: `origins:explode`
 
 !!! note
 
-    See [Minecraft Fandom: Explosion (Explosion strength)](https://minecraft.fandom.com/wiki/Explosion#Explosion_strength) for a list of power values that are used in vanilla.
+    See [Minecraft Wiki: Explosion (Explosion strength)](https://minecraft.wiki/w/Explosion#Explosion_strength) for a list of power values that are used in vanilla.
 
 
 ### Fields

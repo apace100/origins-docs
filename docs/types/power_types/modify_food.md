@@ -13,7 +13,7 @@ Type ID: `origins:modify_food`
 
 !!! note
 
-    The actual food saturation level of the food item is determined by the `food * saturation * 2` formula. If you are going to refer to the [Minecraft Fandom Wiki: Food (Nourishment value)](https://minecraft.fandom.com/wiki/Food#Nourishment_value)' page for the saturation value of the food item, you would have to divide the value by 2.
+    The actual food saturation level of the food item is determined by the `food * saturation * 2` formula. If you are going to refer to the [Minecraft Wiki: Food (Nourishment value)](https://minecraft.wiki/w/Food#Nourishment_value)' page for the saturation value of the food item, you would have to divide the value by 2.
 
 
 ### Fields

@@ -14,7 +14,7 @@ Type ID: `origins:modify_player_spawn`
 
 !!! note
 
-    See [Minecraft Fandom Wiki: Generated structures (IDs)](https://minecraft.fandom.com/wiki/Generated_structures#ID) and [Minecraft Fandom Wiki: Biome (Biome IDs)](https://minecraft.fandom.com/wiki/Biome#Biome_IDs) for a list of structure IDs and biome IDs respectively.
+    See [Minecraft Wiki: Generated structures (IDs)](https://minecraft.wiki/w/Generated_structures#ID) and [Minecraft Wiki: Biome (Biome IDs)](https://minecraft.wiki/w/Biome#Biome_IDs) for a list of structure IDs and biome IDs respectively.
 
 !!! warning
 

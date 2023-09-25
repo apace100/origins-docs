@@ -13,7 +13,7 @@ Type ID: `origins:selector_action`
 
 !!! note
 
-    See [Minecraft Fandom Wiki: Target selectors](https://minecraft.fandom.com/wiki/Target_selectors) for more information about target selectors.
+    See [Minecraft Wiki: Target selectors](https://minecraft.wiki/w/Target_selectors) for more information about target selectors.
 
 
 ### Fields

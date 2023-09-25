@@ -13,7 +13,7 @@ Type ID: `origins:entity_group`
 
 !!! note
 
-    See [Minecraft Fandom Wiki: Mob (Classification)](https://minecraft.fandom.com/wiki/Mob#Classification) for more information about entity groups.
+    See [Minecraft Wiki: Mob (Classification)](https://minecraft.wiki/w/Mob#Classification) for more information about entity groups.
 
 !!! note
 

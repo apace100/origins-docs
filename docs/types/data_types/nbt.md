@@ -12,7 +12,7 @@ A [string](string.md) or [object](object.md) that defines a named binary tag (NB
 
 !!! note
 
-    See [Minecraft Fandom Wiki: NBT format](https://minecraft.fandom.com/wiki/NBT_format) for more information about named binary tags (NBTs).
+    See [Minecraft Wiki: NBT format](https://minecraft.wiki/w/NBT_format) for more information about named binary tags (NBTs).
 
 
 ### Examples

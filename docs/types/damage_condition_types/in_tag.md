@@ -14,7 +14,7 @@ Type ID: `origins:in_tag`
 
 !!! note
 
-    See [Minecraft Fandom: Tag (Damage types)](https://minecraft.fandom.com/wiki/Tag#Damage_types) for a list of of damage type tags provided/used in vanilla.
+    See [Minecraft Wiki: Tag (Damage types)](https://minecraft.wiki/w/Tag#Damage_types) for a list of of damage type tags provided/used in vanilla.
 
 
 ### Fields

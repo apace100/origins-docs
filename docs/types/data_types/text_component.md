@@ -11,7 +11,7 @@ A [String](string.md) or [Object](object.md) used for displaying text with fancy
 
 !!! note
 
-    You can refer to [Minecraft Fandom: Raw JSON text format](https://minecraft.fandom.com/wiki/Raw_JSON_text_format) for JSON text components you can use.
+    You can refer to [Minecraft Wiki: Raw JSON text format](https://minecraft.wiki/w/Raw_JSON_text_format) for JSON text components you can use.
 
 
 ### Examples

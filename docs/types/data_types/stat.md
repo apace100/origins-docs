@@ -12,7 +12,7 @@ An [Object](object.md) specifying a statistic via a statistic type and an [Ident
 
 !!! note
 
-    See [Minecraft Fandom Wiki: Statistic (Resource location)](https://minecraft.fandom.com/wiki/Statistics#Resource_location) for a list of vanilla statistic types and names.
+    See [Minecraft Wiki: Statistic (Resource location)](https://minecraft.wiki/w/Statistics#Resource_location) for a list of vanilla statistic types and names.
 
 
 ### Fields
