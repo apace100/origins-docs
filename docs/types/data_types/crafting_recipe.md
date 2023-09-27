@@ -7,7 +7,7 @@ date: 2021-04-04
 
 [Data Type](../data_types.md)
 
-An [Object](object.md) specifying a shapeless or shaped crafting recipe. For some more information, view [the page on recipes on the MC wiki](https://minecraft.gamepedia.com/Recipe).
+An [Object](object.md) specifying a shapeless or shaped crafting recipe. For some more information, view [the page on recipes on the MC wiki](https://minecraft.wiki/w/Recipe).
 
 
 ### Fields (both types)
