@@ -27,7 +27,7 @@ Field | Type | Default | Description
 "bientity_action": {
     "type": "origins:damage",
     "amount": 10,
-    "type": "minecraft:cramming"
+    "damage_type": "minecraft:cramming"
 }
 ```
 
