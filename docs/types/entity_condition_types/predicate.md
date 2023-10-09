@@ -7,7 +7,7 @@ date: 2021-04-04
 
 [Entity Condition Type](../entity_condition_types.md)
 
-Checks whether the entity fulfills a specified [Predicate](https://minecraft.gamepedia.com/Predicate).
+Checks whether the entity fulfills a specified [Predicate](https://minecraft.wiki/w/Predicate).
 
 Type ID: `origins:predicate`
 

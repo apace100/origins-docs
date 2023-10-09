@@ -25,6 +25,6 @@ Visit [CurseForge](https://www.curseforge.com/minecraft/mc-mods/origins) or [Mod
 ## Helpful links
 
 * [Example data packs](https://github.com/apace100/origins-example-packs)
-* [Minecraft Wiki: Data Pack](https://minecraft.gamepedia.com/Data_Pack)
-* [Minecraft Wiki: Creating a data pack](https://minecraft.gamepedia.com/Tutorials/Creating_a_data_pack)
+* [Minecraft Wiki: Data Pack](https://minecraft.wiki/w/Data_Pack)
+* [Minecraft Wiki: Creating a data pack](https://minecraft.wiki/w/Tutorials/Creating_a_data_pack)
 * [Video Tutorial for creating custom origins with data packs by CandyCaneCazoo](https://www.youtube.com/watch?v=jId0Fw4w2PQ)

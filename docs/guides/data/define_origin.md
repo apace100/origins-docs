@@ -5,7 +5,7 @@ date: 2021-05-02
 
 # Defining an Origin in JSON
 
-Origins are defined in JSON files. Let's use these to create a fictional new origin, a _Supermorph_, for our [Data Pack](https://minecraft.gamepedia.com/Data_Pack) which we call _OriginSuperPack_. We'd like this Origin to be a bit overpowered: Metamorphs are immune to fire, have Elytra Flight and can teleport with ender pearls. Their only drawback is that they need a bed at a high altitude, just like Avians. This would be a JSON file which would accomplish that:
+Origins are defined in JSON files. Let's use these to create a fictional new origin, a _Supermorph_, for our [Data Pack](https://minecraft.wiki/w/Data_Pack) which we call _OriginSuperPack_. We'd like this Origin to be a bit overpowered: Metamorphs are immune to fire, have Elytra Flight and can teleport with ender pearls. Their only drawback is that they need a bed at a high altitude, just like Avians. This would be a JSON file which would accomplish that:
 
 ```json
 {
@@ -40,7 +40,7 @@ The new origin still needs to be added to the origin layer. Layers are the way t
 
 Now, our newly created _Supermorph_ origin should show up, along with a nice slimeball icon, in the list.
 
-However, the origin still doesn't display a correct name or description. One way to fix that is by adding a [Resource Pack](https://minecraft.gamepedia.com/Resource_Pack) as well, with a translation for the language you're playing in (probably `en_us.json`):
+However, the origin still doesn't display a correct name or description. One way to fix that is by adding a [Resource Pack](https://minecraft.wiki/w/Resource_Pack) as well, with a translation for the language you're playing in (probably `en_us.json`):
 ```json
 {
 	"origin.originsuperpack.supermorph.name": "Supermorph",
