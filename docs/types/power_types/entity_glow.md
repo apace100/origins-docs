@@ -26,7 +26,7 @@ Field  | Type | Default | Description
 -------|------|---------|-------------
 `entity_condition` | [Entity Condition Type](../entity_condition_types.md) | _optional_ | If specified, only entities which fulfill this condition will glow for the player that has the power.
 `bientity_condition` | [Bi-entity Condition Type](../bientity_condition_types.md) | _optional_ | If specified, the power will only be active if this condition is fulfilled by either or both the 'actor' (the player that has the power) and 'target' (the entity that would glow) entities.
-`use_teams` | [Boolean](../data_types/boolean) | `true` | Determines whether glowing entities should use their team's color with their glow. If set to false, the entity will instead use the `red`, `green` and `blue` fields within this power type.
+`use_teams` | [Boolean](../data_types/boolean.md) | `true` | Determines whether glowing entities should use their team's color with their glow. If set to false, the entity will instead use the `red`, `green` and `blue` fields within this power type.
 `red` | [Float](../data_types/float.md) | `1.0` | Value by which the red component of the glow will be multiplied. Range: 0.0 - 1.0.
 `green` | [Float](../data_types/float.md) | `1.0` | Value by which the green component of the glow will be multiplied. Range: 0.0 - 1.0.
 `blue` | [Float](../data_types/float.md) | `1.0` | Value by which the blue component of the glow will be multiplied. Range: 0.0 - 1.0.
