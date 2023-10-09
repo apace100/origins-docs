@@ -16,7 +16,7 @@ Type ID: `origins:prevent_elytra_flight`
 
 Field | Type | Default | Description
 ------|------|---------|------------
-`entity_action` | [Entity Action Type](../entity_action_types.md) | _optional_ | If specified, execute this entity action type upon preventing the entity that has the power.
+`entity_action` | [Entity Action Type](../entity_action_types.md) | _optional_ | If specified, this action will be executed upon the entity trying to fly an Elytra/power that uses the [Elytra Flight (Power Type)](elytra_flight.md).
 
 
 ### Examples
