@@ -32,10 +32,11 @@ Field | Type | Default | Description
         "command": "say ow! i'm burning!"
     },
     "damage_condition": {
-        "type": "origins:fire"
+        "type": "origins:in_tag",
+        "tag": "minecraft:is_fire"
     },
     "cooldown": 1
 }
 ```
 
-This example will execute an [Execute Command (Entity Action Type)](../entity_action_types/execute_command.md) that will execute a `/say` command that will display a "`[ENTITYNAME] ow! i'm burning!`" in chat if the entity has taken fire-related damage source.
+This example will execute an [Execute Command (Entity Action Type)](../entity_action_types/execute_command.md) that will execute a `/say` command that will display a "`[ENTITYNAME] ow! i'm burning!`" in chat if the entity has taken fire-related damage type.
