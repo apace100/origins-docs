@@ -19,6 +19,8 @@ Field  | Type | Default | Description
 `amount` | [Float](../data_types/float.md) |  | The amount of damage to deal.
 `source` | [Damage Source](../data_types/damage_source.md) | **DEPRECATED** | Use `damage_type` instead. [More information here](https://gist.github.com/apace100/bfbf82a8f9d6bd2db13e4feaf653a6b0).
 `damage_type` | [Identifier](../data_types/identifier.md) | | The damage type to be used. Controls e.g. the death message, invulnerabilities (e.g. towards fire), or whether armor is taken into account.
+`modifier` | [Attribute Modifier](../data_types/attribute_modifier.md) | _optional_ | If specified, this modifier will be applied to the damage taken by the '**target**' entity.
+`modifiers` | [Array](../data_types/array.md) of [Attribute Modifiers](../data_types/attribute_modifier.md) | _optional_ | If specified, these modifiers will be applied to the damage taken by the '**target**' entity.
 
 
 ### Examples

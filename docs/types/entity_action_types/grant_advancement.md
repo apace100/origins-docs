@@ -17,7 +17,9 @@ Type ID: `origins:grant_advancement`
 Field | Type | Default | Description
 ------|------|---------|-------------
 `advancement` | [Identifier](../data_types/identifier.md) | | The namespace and ID of the advancement to be granted to the player.
-
+`criteria` | [Array](../data_types/array.md) of [Strings](../data_types/string.md) | _optional_ | If specified, determines the criteria to grant to the specified advancement.
+`criterion` | [String](../data_types/string.md) | _optional_ | If specified, determines the criterion to grant to the specified advancement.
+`selection` | [String](../data_types/string.md) | `"only"` | Determines how to select the parent advancement(s) or child(ren) advancement(s) of the specified advancement. Can be one of: `"only"`, `"through"`, `"from"`, `"until"`, `"everything"`
 
 ### Examples
 

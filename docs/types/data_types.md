@@ -31,6 +31,7 @@ Data types are used everywhere in the JSON files. Every field in a JSON has to h
 * [Damage Source](data_types/damage_source.md)
 * [Destruction Type](data_types/destruction_type.md)
 * [Entity Type Tag-like](data_types/entity_type_taglike.md)
+* [Food Component](data_types/food_component.md)
 * [Fluid Handling](data_types/fluid_handling.md)
 * [Hud Render](data_types/hud_render.md)
 * [Identifier](data_types/identifier.md)

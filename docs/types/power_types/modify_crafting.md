@@ -11,11 +11,6 @@ Modifies the result item of a recipe that can be crafted via the player's invent
 
 Type ID: `origins:modify_crafting`
 
-!!! caution
-
-    This power type **cannot** modify the result item from recipes added by the [Recipe (Power Type)](recipe.md).
-
-
 ### Fields
 
 Field | Type | Default | Description

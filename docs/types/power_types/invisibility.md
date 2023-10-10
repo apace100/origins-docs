@@ -18,6 +18,7 @@ Field  | Type | Default | Description
 -------|------|---------|-------------
 `render_armor` | [Boolean](../data_types/boolean.md) | `false` | Determines whether armor should be shown or not.
 `render_outline` | [Boolean](../data_types/boolean.md) | `false` | Determines whether the glowing outline should be shown or not.
+`bientity_condition` | [Bi-entity Condition Type](../bientity_condition_types.md) | _optional_ | If specified, the '**target**' will only be invisible to '**actors**' (either the player or mobs that may see the target) if the bi-entity condition is fulfilled by either or both of them.
 
 
 ### Examples

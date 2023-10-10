@@ -50,7 +50,7 @@ Field  | Type | Default | Description
         {
             "element": {
                 "type": "origins:set_on_fire",
-                  "duration": 8
+                "duration": 8
             },
             "weight": 20
         }
