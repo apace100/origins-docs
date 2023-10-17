@@ -18,6 +18,7 @@ JustHuangHere | `origins:textures/gui/community/huang/resource_bar_02.png` | [Li
 
 # List of badge files
 **Colors**
+
 Name | Sprite Location | Image
 -------|-----------------|:-----:
 Black | `origins:textures/gui/community/silent/badge/colors/black.png` | [Link](https://github.com/apace100/origins-fabric/blob/1.20/src/main/resources/assets/origins/textures/gui/community/silent/badge/colors/black.png)
@@ -34,6 +35,7 @@ Dark Gray | `origins:textures/gui/community/silent/badge/colors/dark_gray.png` |
 Light Gray | `origins:textures/gui/community/silent/badge/colors/light_gray.png` | [Link](https://github.com/apace100/origins-fabric/blob/1.20/src/main/resources/assets/origins/textures/gui/community/silent/badge/colors/light_gray.png)
 
 **Icons**
+
 Name | Sprite Location | Image
 -------|-----------------|:-----:
 Active | `origins:textures/gui/badge/active.png` | [Link](https://github.com/apace100/origins-fabric/blob/1.18/src/main/resources/assets/origins/textures/gui/badge/active.png)
@@ -45,6 +47,7 @@ Shield | `origins:textures/gui/community/silent/badge/icons/shield.png` | [Link]
 Sword | `origins:textures/gui/community/silent/badge/icons/sword.png` | [Link](https://github.com/apace100/origins-fabric/blob/1.20/src/main/resources/assets/origins/textures/gui/community/silent/badge/icons/sword.png)
 
 **Numbers and Math**
+
 Name | Sprite Location | Image
 -------|-----------------|:-----:
 Expression (Addition) | `origins:textures/gui/community/silent/badge/math/expression_add.png` | [Link](https://github.com/apace100/origins-fabric/blob/1.20/src/main/resources/assets/origins/textures/gui/community/silent/badge/math/expression_add.png)
@@ -65,6 +68,7 @@ Number 8 | `origins:textures/gui/community/silent/badge/math/number_8.png` | [Li
 Number 9 | `origins:textures/gui/community/silent/badge/math/number_9.png` | [Link](https://github.com/apace100/origins-fabric/blob/1.20/src/main/resources/assets/origins/textures/gui/community/silent/badge/math/number_9.png)
 
 **Shapes**
+
 Name | Sprite Location | Image
 -------|-----------------|:-----:
 Arrow (Down) | `origins:textures/gui/community/silent/badge/shapes/arrow_down.png` | [Link](https://github.com/apace100/origins-fabric/blob/1.20/src/main/resources/assets/origins/textures/gui/community/silent/badge/shapes/arrow_down.png)
@@ -83,6 +87,7 @@ Pointed Triangle (Up) | `origins:textures/gui/community/silent/badge/shapes/tria
 
 
 **Sun/Moon Icons**
+
 Name | Sprite Location | Image
 -------|-----------------|:-----:
 Moon (First Quarter) | `origins:textures/gui/community/silent/badge/icons/sky/moon_first_quarter.png` | [Link](https://github.com/apace100/origins-fabric/blob/1.20/src/main/resources/assets/origins/textures/gui/community/silent/badge/icons/sky/moon_first_quarter.png)
