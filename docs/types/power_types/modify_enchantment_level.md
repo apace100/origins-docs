@@ -11,9 +11,6 @@ Applies/modifies the level of the specified enchantment to/from the entity.
 
 Type ID: `origins:modify_enchantment_level`
 
-!!! warning
-
-    This power type will only work if an item is equipped.
 
 ### Fields
 
