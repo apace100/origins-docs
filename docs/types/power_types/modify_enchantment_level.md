@@ -35,4 +35,4 @@ Field | Type | Default | Description
 }
 ```
 
-This example will grant the players the ability to mount the target entity that has the power upon "using" (right-clicking) the said entity, unless the entity that has the power already has a passenger.
+This example will grant the player the ability to use Silk Touch, regardless of whether the player is holding any item or no item at all.
