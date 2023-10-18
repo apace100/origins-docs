@@ -7,7 +7,7 @@ date: 2023-10-09
 
 [Item Condition Type](../item_condition_types.md)
 
-Checks the amount of the item.
+Checks whether the item is considered as fuel.
 
 Type ID: `origins:fuel`
 
