@@ -13,7 +13,7 @@ Type ID: `origins:command`
 
 !!! caution
 
-    This entity condition type only operates on the <span style="color:goldenrod"><b>server-side</b></span>, meaning that it cannot be used in fields that are evaluated on the client-side.
+    This block condition type only operates on the <span style="color:goldenrod"><b>server-side</b></span>, meaning that it cannot be used in fields that are evaluated on the client-side.
 
 
 ### Fields
