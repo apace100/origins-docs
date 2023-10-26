@@ -28,6 +28,7 @@ Field | Type | Default | Description
 `on_item_action` | [Item Action Type](../item_action_types.md) | _optional_ | If specified, this action will be executed on the item that has been right-clicked.
 `result_item_action` | [Item Action Type](../item_action_types.md) | _optional_ | If specified, this action will be executed on the item that is given to the player.
 `entity_action` | [Entity Action Type](../entity_action_types.md) | _optional_ | If specified, this action will be executed on the player after they used an item on an item.
+`click_type` | [String](../data_types/string.md) or [Integer](../data_types/integer.md) | `"secondary"` | Determines whether to execute the actions if the player does a right-click (`0` or `"primary"`) or left-click (`1` or `"secondary"`) action.
 
 
 ### Examples

@@ -18,6 +18,7 @@ Item Condition Types operate on an `ItemStack`. These are available to power/con
 * [Enchantment](item_condition_types/enchantment.md)
 * [Fireproof](item_condition_types/fireproof.md)
 * [Food](item_condition_types/food.md)
+* [Fuel](item_condition_types/fuel.md)
 * [Harvest Level](item_condition_types/harvest_level.md)
 * [Has Power](item_condition_types/has_power.md)
 * [Ingredient](item_condition_types/ingredient.md)
