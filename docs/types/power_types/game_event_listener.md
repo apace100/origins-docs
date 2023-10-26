@@ -24,6 +24,9 @@ Type ID: `origins:game_event_listener`
 
 Field | Type | Default | Description
 ------|------|---------|-------------
+`trigger_order` | [String](../data_types/string.md) | `"unspecified"` | Determines whether the power type should prioritize game events by distance (`"by_distance"`) or arbitrarily (`"unspecified"`).
+`entity` | [Boolean](../data_types/boolean.md) | `true` | Determines whether the power type should listen to game events emitted by entities.
+`block` | [Boolean](../data_types/boolean.md) | `true` | Determines whether the power type should listen to game events emitted by blocks.
 `bientity_action` | [Bi-entity Action Type](../bientity_action_types.md) | _optional_ | If specified, this action will be executed on either or both the '**actor**' and '**target**' entities.
 `bientity_condition` | [Bi-entity Condition Type](../bientity_condition_types.md) | _optional_ | If specified, the specified actions will only be executed if this condition is fulfilled by either or both '**actor**' and '**target**' entities.
 `block_action` | [Block Action Type](../block_action_types.md) | _optional_ | If specified, this block action type will be executed at the position where the game event or vibration was emitted.
