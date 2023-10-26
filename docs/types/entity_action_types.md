@@ -42,6 +42,7 @@ Entity Action Types operate on an `Entity`. Some more specific actions only have
 * [Passenger Action](entity_action_types/passenger_action.md)
 * [Play Sound](entity_action_types/play_sound.md)
 * [Raycast](entity_action_types/raycast.md)
+* [Remove Power](entity_action_types/remove_power.md)
 * [Replace Inventory](entity_action_types/replace_inventory.md)
 * [Revoke Advancement](entity_action_types/revoke_advancement.md)
 * [Revoke All Powers](entity_action_types/revoke_all_powers.md)
