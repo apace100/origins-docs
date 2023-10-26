@@ -16,6 +16,7 @@ Block Action Types operate an action at a selected block or set of blocks. These
 * [Explode](block_action_types/explode.md)
 * [Modify Block State](block_action_types/modify_block_state.md)
 * [Set Block](block_action_types/set_block.md)
+* [Spawn Entity](block_action_types/spawn_entity.md)
 
 
 ### Meta
