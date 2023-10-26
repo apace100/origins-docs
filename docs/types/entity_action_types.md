@@ -44,6 +44,7 @@ Entity Action Types operate on an `Entity`. Some more specific actions only have
 * [Raycast](entity_action_types/raycast.md)
 * [Replace Inventory](entity_action_types/replace_inventory.md)
 * [Revoke Advancement](entity_action_types/revoke_advancement.md)
+* [Revoke All Powers](entity_action_types/revoke_all_powers.md)
 * [Revoke Power](entity_action_types/revoke_power.md)
 * [Riding Action](entity_action_types/riding_action.md)
 * [Selector Action](entity_action_types/selector_action.md)
