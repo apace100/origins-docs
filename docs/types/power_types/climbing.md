@@ -21,7 +21,7 @@ Type ID: `origins:climbing`
 Field  | Type | Default | Description
 -------|------|---------|-------------
 `allow_holding` | [Boolean](../data_types/boolean.md) | `true` | If `true`, the entity that has the power is able to hold onto blocks.
-`hold_condition` | [Entity Condition Type](../entity_condition_types.md) | _optional_ | If specified and `allow_holding` is `true`, the entity that has the power will be able to 'hold onto the block' (not affected by gravity) if this condition is fulfilled.
+`hold_condition` | [Entity Condition Type](../entity_condition_types.md) | _optional_ | If specified and `allow_holding` is `true`, the entity that has the power will be able to 'hold onto the block' (not affected by gravity) if this condition is fulfilled, otherwise, defaults to if the entity is sneaking.
 
 
 ### Examples
