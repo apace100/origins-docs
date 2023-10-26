@@ -127,6 +127,7 @@ a `type` field in the JSON. Which type a power is defines which other fields it 
 ### Preventing types
 
 * [Prevent Being Used](power_types/prevent_being_used.md)
+* [Prevent Block Place](power_types/prevent_block_place.md)
 * [Prevent Block Selection](power_types/prevent_block_selection.md)
 * [Prevent Block Use](power_types/prevent_block_use.md)
 * [Prevent Death](power_types/prevent_death.md)
