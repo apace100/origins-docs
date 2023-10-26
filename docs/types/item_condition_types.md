@@ -5,7 +5,7 @@ date: 2021-04-05
 
 # Item Condition Types
 
-Item Condition Types operate on an `ItemStack`. These are available to power/condition types that provides an `item_condition` object field.
+Item Condition Types operate on a combination of `World` and `ItemStack`, allowing to evaluate not only the stack of items, but also access the world for certain things, like accessing the recipe manager of the world (which is used by the [Smeltable (Item Condition Type)](item_condition_types/smeltable.md)).
 
 
 ### List
