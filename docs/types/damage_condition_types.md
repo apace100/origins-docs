@@ -20,4 +20,5 @@ Damage Condition Types operate on a combination of `DamageSource` and `Float`, a
 * [Name](damage_condition_types/name.md)
 * [Out of World **(DEPRECATED)**](damage_condition_types/out_of_world.md)
 * [Projectile](damage_condition_types/projectile.md)
+* [Type](damage_condition_types/type.md)
 * [Unblockable **(DEPRECATED)**](damage_condition_types/unblockable.md)
