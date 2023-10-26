@@ -23,6 +23,8 @@ Field | Type | Default | Description
 `return_stack`| [Item Stack](../data_types/item_stack.md) | _optional_ | If specified, this item stack will be given to the player.
 `consume_action` | [String](../data_types/string.md) | `"eat"` | Determines whether the action of consuming the item is considered "eating" (`"eat"`) or "drinking" (`"drink"`).
 `consume_sound` | [Identifier](../data_types/identifier.md) |  | If specified, the sound event with this namespace and ID will be played when the item is eaten.
+`consuming_time_modifier` | [Attribute Modifier](../data_types/attribute_modifier.md) | *optional* | If specified, this modifier will be applied on the maximum time the item is being consumed (in ticks).
+`consuming_time_modifiers` | [Array](../data_types/array.md) of [Attribute Modifiers](../data_types/attribute_modifier.md) | *optional* | If specified, these modifiers will be applied on the the maximum time the item is being consumed (in ticks).
 `priority` | [Integer](../data_types/integer.md) | `0` | Determines the priority of which the power will apply its modification to the item. Must be higher than 0 if the item is already edible.
 
 
@@ -51,3 +53,30 @@ Field | Type | Default | Description
 ```
 
 This example will grant the players the ability to eat axolotls in buckets. It will give 4 hunger shanks and 8 saturation (4 * 1 * 2), it also counts as meat. This returns a water bucket upon consumption and uses the eat action.
+<br>
+
+
+```json
+{
+    "type": "origins:edible_item",
+    "item_condition": {
+        "type": "origins:ingredient",
+        "ingredient": {
+            "item": "minecraft:cookie"
+        }
+    },
+    "food_component": {
+        "hunger": 4.0,
+        "saturation": 0.4,
+        "snack": true
+    },
+    "use_action": "eat",
+    "use_time_modifier": {
+        "operation": "multiply_total_multiplicative",
+        "value": 2
+    },
+    "priority": 1
+}
+```
+
+This example will replace the food component of Cookies, making it take 3 times longer to eat while also giving 4 hunger shanks and 3.2 saturation (4.0 * 0.4 * 2).
