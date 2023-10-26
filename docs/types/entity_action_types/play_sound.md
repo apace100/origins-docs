@@ -21,7 +21,8 @@ Type ID: `origins:play_sound`
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`sound` | [Identifier](../data_types/identifier.md) | | The namespace and ID of the sound event to play.
+`sound` | [Identifier](../data_types/identifier.md) | | The ID of the sound event to play.
+`category` | [String](../data_types/string.md) | *optional* | If specified, this specifies the category and options the sound event falls under. Otherwise, uses the category specified in the entity that invoked this action. Accepts `"master"`, `"music"`, `"record"`, `"weather"`, `"block"`, `"hostile"`, `"neutral"`, `"player"`, `"ambient"` or `"voice"`.
 `volume` | [Float](../data_types/float.md) | `1.0` | The volume of the sound event.
 `pitch` | [Float](../data_types/float.md) | `1.0` | The pitch of the sound event.
 
