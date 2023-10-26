@@ -24,6 +24,7 @@ Field  | Type | Default | Description
 `icon_index` | [Integer](integer.md) | `0` | The indexed position of the icon on the sprite to use. Please note that indexes start at `0`.
 `condition` | [Entity Condition Type](../entity_condition_types.md) | _optional_ | If set (and `should_render` is true), the bar will only display when the entity with the power fulfills this condition.
 `inverted` | [Boolean](boolean.md) | `false` | If set to true, inverts the way the hud render process (it'll look like its value is being decreased).
+`order` | [Integer](integer.md) | *optional* | If specified, this determines the position of the HUD render when being rendered. The higher the `order` value is, the higher it is on the rendered HUD render stack.
 
 
 ### Examples
