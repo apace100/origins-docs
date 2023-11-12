@@ -105,4 +105,4 @@ This example will cast a ray that can go through Glass blocks (or any blocks tha
 }
 ```
 
-This example will cast a ray that will travel in the direction that your body is facing towards but sligthly down, and will travel the same distance as your block reach for blocks, and two blocks for entities.
+This example will cast a ray that will travel in the direction that your body is facing towards but slightly down, and will travel the same distance as your block reach for blocks, and two blocks for entities.
