@@ -41,6 +41,7 @@ Entity Action Types operate on an `Entity`. Some more specific actions only have
 * [Modify Stat](entity_action_types/modify_stat.md)
 * [Passenger Action](entity_action_types/passenger_action.md)
 * [Play Sound](entity_action_types/play_sound.md)
+* [Random Teleport](entity_action_types/random_teleport.md)
 * [Raycast](entity_action_types/raycast.md)
 * [Remove Power](entity_action_types/remove_power.md)
 * [Replace Inventory](entity_action_types/replace_inventory.md)
