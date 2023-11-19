@@ -12,17 +12,38 @@ Executes a [Bi-Entity Action](../bientity_action_types.md) within a specified ra
 Type ID: `origins:area_of_effect`
 
 
+!!! note
+
+    In the context of this entity action type, the '**actor**' is the entity that invoked the action and the '**target(s)**' is/are the entity/entities within the specified radius.
+
+
 ### Fields
 
 Field | Type | Default | Description
 ------|------|---------|------------
 `radius` | [Float](../data_types/float.md) | `16.0` | Determines the radius of the area.
-`bientity_action` | [Bi-entity Action Type](../bientity_action_types.md) | | The bi-entity action to execute on either or both the `actor` (the entity that has the power) and `target` (the entities within the specified radius).
-`bientity_condition` | [Bi-entity Condition Type](../bientity_condition_types.md) | _optional_ | If specified, only execute the specified bi-entity action if this bi-entity condition type is fulfilled by either or both the 'actor' (the entity that has the power) or 'target' (the entities within the specified radius).
-`include_target` | [Boolean](../data_types/boolean.md) | `false` | Determines whether the 'actor' (the entity that invoked the action) should be included as the 'target'.
+`shape` | [Shape](../data_types/shape.md) | `"cube"` | Determines the shape of the area.
+`bientity_action` | [Bi-entity Action Type](../bientity_action_types.md) | | The bi-entity action to execute on either or both the '**actor**' or the '**target(s)**'.
+`bientity_condition` | [Bi-entity Condition Type](../bientity_condition_types.md) | *optional* | If specified, the specified bi-entity action will only be executed on either or both the '**actor**' or '**target(s)**' that fulfill this bi-entity condition.
+[`include_actor`](## "Aliases: ["include_target"]") | [Boolean](../data_types/boolean.md) | `false` | Determines whether the '**actor**' should be included as a target.
 
 
 ### Examples
+
+```json
+"entity_action": {
+    "type": "origins:area_of_effect",
+    "radius": 10,
+    "shape": "sphere",
+    "bientity_action": {
+        "type": "origins:spawn_entity",
+        "entity_type": "minecraft:lightning_bolt"
+    }
+}
+```
+
+This example will summon a lightning bolt on entities within a 10 block spherical radius.
+<br>
 
 ```json
 "entity_action": {
