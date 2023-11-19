@@ -11,6 +11,7 @@ Meta Condition Types are independent of the type they operate on. They basically
 ### List
 
 * [And](meta_condition_types/and.md)
+* [Chance](meta_condition_types/chance.md)
 * [Constant](meta_condition_types/constant.md)
 * [Not](meta_condition_types/not.md)
 * [Or](meta_condition_types/or.md)
