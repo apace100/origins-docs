@@ -54,5 +54,5 @@ This example will add the base value multiplied by the modifier value to the cur
 }
 ```
 
-This example will multiply the total value of the entity's `minecraft:generic.movement_speed` attribute by 1.5, essentially increasing the total value by 150%. 
+This example will multiply the total value of the entity's `minecraft:generic.movement_speed` attribute by 1.5, essentially increasing the total value by 50%. 
 (For example: if the total value is 0.7, the new total value will be 1.05 since `0.7 * (1 + 0.5) = 1.05`)

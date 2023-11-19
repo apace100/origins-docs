@@ -21,7 +21,7 @@ Field | Type | Default | Description
 `entity` | [Boolean](../data_types/boolean.md) | `true` | Determines whether the ray-cast should include entities.
 `shape_type` | [Shape Type](../data_types/shape_type.md) | `"visual"` | Determines how the ray-cast will handle blocks.
 `fluid_handling` | [Fluid Handling](../data_types/fluid_handling.md) | `"any"` | Determines how the ray-cast will handle fluids.
-`space` | [Space](../data_types/space.md) | `"world"` | The space to execute the raycast in, if `direction` has been specified. Otherwise defaults to `"local"`.
+`space` | [Space](../data_types/space.md) | _optional_ | The space to execute the raycast in. Defaults to `"local"` unless `direction` has been specified, in which case it will default to `"world"`.
 `direction` | [Object](../data_types/object.md) | _optional_ | Used to specify the direction of the raycast. Can have a `x`, `y` and `z` [Floats](../data_types/float.md).
 `bientity_condition` | [Bi-entity Condition Type](../bientity_condition_types.md) | _optional_ | If specified, the specified bi-entity action type will only be executed if the specified bi-entity condition type is fulfilled by either or both the 'actor' (the entity that has the power) or 'target' (the entity that was hit by the ray-cast).
 `bientity_action` | [Bi-entity Action Type](../bientity_action_types.md) | _optional_ | If specified, this bi-entity action type will be executed on either or both the 'actor' (the entity that has the power) or 'target' (the entity that was hit by the ray-cast).
@@ -105,4 +105,4 @@ This example will cast a ray that can go through Glass blocks (or any blocks tha
 }
 ```
 
-This example will cast a ray that will travel in the direction that your body is facing towards but sligthly down, and will travel the same distance as your block reach for blocks, and two blocks for entities.
+This example will cast a ray that will travel in the direction that your body is facing towards but slightly down, and will travel the same distance as your block reach for blocks, and two blocks for entities.
