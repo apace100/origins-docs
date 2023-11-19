@@ -47,6 +47,7 @@ Data types are used everywhere in the JSON files. Every field in a JSON has to h
 * [Positioned Item Stack](data_types/positioned_item_stack.md)
 * [Process Mode](data_types/process_mode.md)
 * [Shape Type](data_types/shape_type.md)
+* [Shape](data_types/shape.md)
 * [Space](data_types/space.md)
 * [Stat](data_types/stat.md)
 * [Status Effect Instance](data_types/status_effect_instance.md)
