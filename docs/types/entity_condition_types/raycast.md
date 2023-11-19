@@ -21,7 +21,7 @@ Field | Type | Default | Description
 `entity` | [Boolean](../data_types/boolean.md) | `true` | Determines whether the ray-cast should include entities.
 `shape_type` | [Shape Type](../data_types/shape_type.md) | `"visual"` | Determines how the ray-cast will handle blocks.
 `fluid_handling` | [Fluid Handling](../data_types/fluid_handling.md) | `"any"` | Determines how the ray-cast will handle fluids.
-`space` | [Space](../data_types/space.md) | `"world"` | The space to execute the raycast in, if `direction` has been specified. Otherwise defaults to `"local"`
+`space` | [Space](../data_types/space.md) | _optional_ | The space to execute the raycast in. Defaults to `"local"` unless `direction` has been specified, in which case it will default to `"world"`.
 `direction` | [Object](../data_types/object.md) | _optional_ | Used to specify the direction of the raycast. Can have a `x`, `y` and `z` [Floats](../data_types/float.md).
 `match_bientity_condition` | [Bi-entity Condition Type](../bientity_condition_types.md) | _optional_ | If specified, the entity condition type will check if this bi-entity condition type is fulfilled by either or both the 'actor' (the entity being checked by the entity condition type) and 'target' (entity that the ray-cast has gone through). If not, the entity will be ignored.
 `hit_bientity_condition` | [Bi-entity Condition Type](../bientity_condition_types.md) | _optional_ | If specified, the entity condition type will check if this bi-entity condition type is fulfilled by either or both the 'actor' (the entity being checked by the entity condition type) and 'target' (the entity that has hit by the ray-cast).
