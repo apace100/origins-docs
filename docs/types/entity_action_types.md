@@ -10,6 +10,7 @@ Entity Action Types operate on an `Entity`. Some more specific actions only have
 
 ### List
 
+* [Action on Set](entity_action_types/action_on_set.md)
 * [Add Velocity](entity_action_types/add_velocity.md)
 * [Add XP](entity_action_types/add_xp.md)
 * [Apply Effect](entity_action_types/apply_effect.md)

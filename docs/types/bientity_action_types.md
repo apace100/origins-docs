@@ -12,9 +12,11 @@ As a rule of thumb, the actor is usually the entity that "triggers" the action (
 
 ### List
 
+* [Add to Set](bientity_action_types/add_to_set.md)
 * [Add Velocity](bientity_action_types/add_velocity.md)
 * [Damage](bientity_action_types/damage.md)
 * [Mount](bientity_action_types/mount.md)
+* [Remove from Set](bientity_action_types/remove_from_set.md)
 * [Set In Love](bientity_action_types/set_in_love.md)
 * [Tame](bientity_action_types/tame.md)
 
