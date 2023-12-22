@@ -30,4 +30,23 @@ Field | Type | Default | Description
 `result_item_action` | [Item Action Type](../item_action_types.md) | *optional* | If specified, this item action will be executed on the item that will be given to the player upon trying to place a block.
 
 
-[//]: <> (TODO: Add examples)
+###	Examples
+
+```json
+{
+	"type": "origins:prevent_block_place",
+	"entity_action": {
+		"type": "origins:execute_command",
+		"command": "tellraw @s {\"text\": \"Cannot place a block here!\", \"color\": \"red\"}"
+	},
+	"place_to_condition": {
+		"type": "origins:fluid",
+		"fluid_condition": {
+			"type": "origins:still",
+			"inverted": true
+		}
+	}
+}
+```
+
+This example will prevent the player from placing blocks in spaces occupied by source fluids.
