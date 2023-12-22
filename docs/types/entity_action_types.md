@@ -10,6 +10,7 @@ Entity Action Types operate on an `Entity`. Some more specific actions only have
 
 ### List
 
+* [Action on Set](entity_action_types/action_on_set.md)
 * [Add Velocity](entity_action_types/add_velocity.md)
 * [Add XP](entity_action_types/add_xp.md)
 * [Apply Effect](entity_action_types/apply_effect.md)
@@ -41,9 +42,12 @@ Entity Action Types operate on an `Entity`. Some more specific actions only have
 * [Modify Stat](entity_action_types/modify_stat.md)
 * [Passenger Action](entity_action_types/passenger_action.md)
 * [Play Sound](entity_action_types/play_sound.md)
+* [Random Teleport](entity_action_types/random_teleport.md)
 * [Raycast](entity_action_types/raycast.md)
+* [Remove Power](entity_action_types/remove_power.md)
 * [Replace Inventory](entity_action_types/replace_inventory.md)
 * [Revoke Advancement](entity_action_types/revoke_advancement.md)
+* [Revoke All Powers](entity_action_types/revoke_all_powers.md)
 * [Revoke Power](entity_action_types/revoke_power.md)
 * [Riding Action](entity_action_types/riding_action.md)
 * [Selector Action](entity_action_types/selector_action.md)

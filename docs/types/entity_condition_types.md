@@ -68,6 +68,7 @@ Entity Condition Types operate on an Entity, which also allows access to the wor
 * [Riding](entity_condition_types/riding.md)
 * [Saturation Level](entity_condition_types/saturation_level.md)
 * [Scoreboard](entity_condition_types/scoreboard.md)
+* [Set Size](entity_condition_types/set_size.md)
 * [Sneaking](entity_condition_types/sneaking.md)
 * [Sprinting](entity_condition_types/sprinting.md)
 * [Status Effect](entity_condition_types/status_effect.md)

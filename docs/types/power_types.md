@@ -31,6 +31,7 @@ a `type` field in the JSON. Which type a power is defines which other fields it 
 * [Elytra Flight](power_types/elytra_flight.md)
 * [Entity Glow](power_types/entity_glow.md)
 * [Entity Group](power_types/entity_group.md)
+* [Entity Set](power_types/entity_set.md)
 * [Exhaust](power_types/exhaust.md)
 * [Fire Immunity](power_types/fire_immunity.md)
 * [Fire Projectile](power_types/fire_projectile.md)
@@ -73,6 +74,7 @@ a `type` field in the JSON. Which type a power is defines which other fields it 
 
 * [Action On Being Used](power_types/action_on_being_used.md)
 * [Action On Block Break](power_types/action_on_block_break.md)
+* [Action on Block Place](power_types/action_on_block_place.md)
 * [Action On Block Use](power_types/action_on_block_use.md)
 * [Action On Callback](power_types/action_on_callback.md)
 * [Action On Death](power_types/action_on_death.md)
@@ -126,6 +128,7 @@ a `type` field in the JSON. Which type a power is defines which other fields it 
 ### Preventing types
 
 * [Prevent Being Used](power_types/prevent_being_used.md)
+* [Prevent Block Place](power_types/prevent_block_place.md)
 * [Prevent Block Selection](power_types/prevent_block_selection.md)
 * [Prevent Block Use](power_types/prevent_block_use.md)
 * [Prevent Death](power_types/prevent_death.md)

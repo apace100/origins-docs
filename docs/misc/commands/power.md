@@ -121,3 +121,12 @@ List all the sources of a power from the specified target.
 
 * `<power>` being the namespace and ID of a power
     * (e.g: `origins:arcane_skin` (`data/origins/powers/arcane_skin.json`))
+
+```mcfunction
+power dump <power>
+```
+Prints the JSON data of the specified power to the in-game chat.
+<br>
+
+* `<power>` being the namespace and ID of a power
+    * (e.g: `origins:arcane_skin` (`data/origins/powers/arcane_skin.json`))
