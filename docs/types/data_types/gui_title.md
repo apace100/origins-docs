@@ -14,8 +14,8 @@ An [Object](object.md) used to override the title in the choose/view origin GUI 
 
 Field | Type | Default | Description
 ------|------|---------|------------
-`choose_origin` | [String](string.md) | _optional_ | If specified, this will override the title that shows up when choosing an origin in the layer.
-`view_origin` | [String](string.md) | _optional_ | If specified, this will override the title that shows up when viewing an origin in the layer.
+`choose_origin` | [Text Component](text_component.md) | _optional_ | If specified, this will override the title that shows up when choosing an origin in the layer.
+`view_origin` | [Text Component](text_component.md) | _optional_ | If specified, this will override the title that shows up when viewing an origin in the layer.
 
 
 ### Examples

@@ -17,8 +17,8 @@ Depending on the chosen `type`, power JSONs have more required and optional fiel
 Field  | Type | Default | Description
 -------|------|---------|-------------
 `type` | [Identifier](../types/data_types/identifier.md) | | The namespace and ID of the desired [Power Type](../types/power_types.md).
-`name` | [String](../types/data_types/string.md) | _optional_ | The display name of the power. Can be a literal string or a translation key.
-`description` | [String](../types/data_types/string.md) | _optional_ | The description of the power. Can be a literal string or a translation key.
+`name` | [Text Component](../types/data_types/text_component.md) | _optional_ | The display name of the power.
+`description` | [Text Component](../types/data_types/text_component.md) | _optional_ | The description of the power.
 `hidden` | [Boolean](../types/data_types/boolean.md) | `false` | If set to true, this power will not be displayed in the power list of the origin.
 `condition` | [Entity Condition](../types/entity_condition_types.md) | _optional_ | If set, this power will only be active when the player with this power fulfills the condition.
 `loading_priority` | [Integer](../types/data_types/integer.md) | `0` | Specifies when this power is loaded. Higher numbers mean it's loaded later, which means it will override those with lower loading priorities which share the same ID.
