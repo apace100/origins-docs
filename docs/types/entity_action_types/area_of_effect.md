@@ -36,8 +36,11 @@ Field | Type | Default | Description
     "radius": 10,
     "shape": "sphere",
     "bientity_action": {
-        "type": "origins:spawn_entity",
-        "entity_type": "minecraft:lightning_bolt"
+        "type": "origins:target_action",
+        "action": {
+            "type": "origins:spawn_entity",
+            "entity_type": "minecraft:lightning_bolt"
+        }
     }
 }
 ```
