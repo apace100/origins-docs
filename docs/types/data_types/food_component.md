@@ -9,6 +9,10 @@ date: 2023-10-09
 
 An [Object](object.md) which defines a new food component.
 
+!!! note
+
+    The actual food saturation level is determined by the `food * saturation * 2` formula.
+
 
 ### Fields
 
@@ -32,4 +36,4 @@ Field  | Type | Default | Description
 }
 ```
 
-A food component that recovers 4 hunger and 1 saturation.
+A food component that recovers 4 hunger and 8 saturation points.
