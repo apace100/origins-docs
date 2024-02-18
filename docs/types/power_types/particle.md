@@ -17,7 +17,7 @@ Type ID: `origins:particle`
 Field  | Type | Default | Description
 -------|------|---------|-------------
 `particle` | [Particle Effect](../data_types/particle_effect.md) | | The particle type that will be spawned.
-`bientity_condition` | [Bi-entity Condition Type] | *optional* | If specified, the particle will only be visible if this bi-entity condition is fulfilled by either or both the entity that has the power and the entity looking at the entity that has the power.
+`bientity_condition` | [Bi-entity Condition Type](../bientity_condition_types.md) | *optional* | If specified, the particle will only be visible if this bi-entity condition is fulfilled by either or both the entity that has the power and the entity looking at the entity that has the power.
 `count` | [Integer](../data_types/integer.md) | `1` | Determines the amount of particles to spawn.
 `speed` | [Float](../data_types/float.md) | `0.0` | Determines the speed of the specified particle type.
 `force` | [Boolean](../data_types/boolean.md) | `false` | Determines whether to display the emitted particles within 512 blocks (`true`) or 32 blocks (`false`).
