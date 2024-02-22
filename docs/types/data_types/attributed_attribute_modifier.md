@@ -7,7 +7,12 @@ date: 2021-04-04
 
 [Data Type](../data_types.md)
 
-An [Object](object.md) used to specify how a specific attribute should be modified. Basically an [Attribute Modifier](attribute_modifier.md) with an additional `attribute` field.
+An [Object](object.md) used to specify how the numerical value of a specific attribute should be modified.
+
+
+!!! note
+
+    Not to be confused with [Attribute Modifier](attribute_modifier.md), which do not use vanilla's attribute modifier system.
 
 
 ### Fields
