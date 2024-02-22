@@ -12,6 +12,10 @@ Teleports the entity to a random location within the specified area.
 
 Type ID: `origins:random_teleport`
 
+!!! note
+
+    The actual width and height of the available teleportation area is double the respective provided value, +1 for the block the player stands on in the very center.
+
 
 ###	Fields
 
@@ -48,7 +52,7 @@ Field | Type | Default | Description
 }
 ```
 
-This example will teleport the entity to a random location within an 8x8x8 area. If the entity has been successfully teleported to a random location, the entity will emit a poof particle, otherwise, a message will pop-up that indicates the entity cannot be teleported.
+This example will teleport the entity to a random location within a 17x17x17 area. If the entity has been successfully teleported to a random location, the entity will emit a poof particle, otherwise, a message will pop-up that indicates the entity cannot be teleported.
 <br>
 
 ```json
@@ -67,4 +71,4 @@ This example will teleport the entity to a random location within an 8x8x8 area.
 }
 ```
 
-This example will teleport the entity on top of the center of a random block included in the `minecraft:wools` block tag within a 4x8x4 area.
+This example will teleport the entity on top of the center of a random block included in the `minecraft:wools` block tag within a 9x17x9 area.
