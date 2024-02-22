@@ -33,11 +33,14 @@ Field | Type | Default | Description
 {
     "type": "origins:action_when_hit",
     "bientity_action": {
-        "type": "origins:damage",
-        "amount": 2,
-        "damage_type": "minecraft:thorns"
+        "type": "origins:invert",
+        "action": {
+            "type": "origins:damage",
+            "amount": 2,
+            "damage_type": "minecraft:thorns"
+        }
     }
 }
 ```
 
-This example will deal 1 heart of damage to any entities that attacks the entity that has the power, quite similar to having an armor item that has the Thorns enchantment.
+This example will deal 1 heart of damage to any entities that attacks the entity that has the power, quite similar to having an armor item that has the Thorns enchantment. Bear in mind that the '**actor**' is the entity that dealt the hit, so an invert is needed.
