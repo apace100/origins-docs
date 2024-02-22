@@ -17,6 +17,7 @@ Type ID: `origins:enchantment`
 Field  | Type | Default | Description
 -------|------|---------|-------------
 `enchantment` | [Identifier](../data_types/identifier.md) | _optional_ | ID of the enchantment of interest, e.g. `minecraft:protection`. If not set, amount of enchantments will be checked instead.
+`use_modifications` | [Boolean](../data_types/boolean.md) | `true` | Determines whether to account for enchantments that were added/modified by unnatural means (e.g: via the [Modify Enchantment Level (Power Type)](../power_types/modify_enchantment_level.md).)
 `comparison` | [Comparison](../data_types/comparison.md) | | How to compare the enchantment level, or the amount of enchantments, to the specified value.
 `compare_to` | [Integer](../data_types/integer.md) | | Which value to compare the enchantment level or amount against.
 
