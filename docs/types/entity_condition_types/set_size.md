@@ -19,7 +19,7 @@ Field | Type | Default | Description
 ------|------|---------|------------
 `set` | [Identifier](../data_types/identifier.md) | | The ID of the power.
 `comparison` | [Comparison](../data_types/comparison.md) | | Determines how the amount of entities stored in the power will be compared to the specified value.
-`value` | [Integer](../data_types/integer.md) | | The specified value to compare the amount of entities stored in the power to.
+`compare_to` | [Integer](../data_types/integer.md) | | The specified value to compare the amount of entities stored in the power to.
 
 
 ###	Examples
