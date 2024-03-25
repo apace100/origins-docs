@@ -9,10 +9,12 @@ date: 2021-04-04
 
 An [Object](object.md) used to specify how to deal damage to an entity.
 
+
 !!! danger
 
-    The concept of damage sources is deprecated. Associated fields may be removed in a future version. Any power or action requiring you to specify a damage source, will now have a way to specify a damage type instead (usually a field called `damage_type`) which should be used instead. [More information here](https://gist.github.com/apace100/bfbf82a8f9d6bd2db13e4feaf653a6b0).
+	This data type has been <span style="color:darkred"><b>deprecated</b></span> since Minecraft 1.19.4 in favor of using damage types and damage type tags. Associated fields may be removed in a future version. [See here for a more detailed information](https://gist.github.com/apace100/bfbf82a8f9d6bd2db13e4feaf653a6b0)
 
+	See [Minecraft Wiki: Damage type](https://minecraft.wiki/w/Damage_type) and [Minecraft Wiki: Tags (Damage types)](https://minecraft.wiki/w/Tag#Damage_types) for more information about vanilla damage types and damage type tags.
 
 
 ### Fields

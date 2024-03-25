@@ -12,13 +12,18 @@ Applies damage to an entity.
 Type ID: `origins:damage`
 
 
+!!! info
+
+    See [Minecraft Wiki: Damage type](https://minecraft.wiki/w/Damage_type) and [Minecraft Wiki: Tags (Damage types)](https://minecraft.wiki/w/Tag#Damage_types) for more information about vanilla damage types and damage type tags.
+
+
 ### Fields
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
 `amount` | [Float](../data_types/float.md) |  | The amount of damage to deal.
-`source` | [Damage Source](../data_types/damage_source.md) | **DEPRECATED** | Use `damage_type` instead. [More information here](https://gist.github.com/apace100/bfbf82a8f9d6bd2db13e4feaf653a6b0).
-`damage_type` | [Identifier](../data_types/identifier.md) | | The damage type to be used. Controls e.g. the death message, invulnerabilities (e.g. towards fire), or whether armor is taken into account.
+`source` | [Damage Source](../data_types/damage_source.md) | <span style="color:darkred"><b>DEPRECATED</b></span> | Use `damage_type` instead. See [Damage Source (Data Type)](../data_types/damage_source.md) for more details.
+`damage_type` | [Identifier](../data_types/identifier.md) | | Defines the properties of the damage source that will be dealt, such as part of its death message, and whether it can bypass armor, shield, etc. (via damage type tags.)
 `modifier` | [Attribute Modifier](../data_types/attribute_modifier.md) | _optional_ | If specified, this modifier will be applied to the damage taken by the '**target**' entity.
 `modifiers` | [Array](../data_types/array.md) of [Attribute Modifiers](../data_types/attribute_modifier.md) | _optional_ | If specified, these modifiers will be applied to the damage taken by the '**target**' entity.
 
