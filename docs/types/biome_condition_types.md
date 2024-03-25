@@ -10,7 +10,7 @@ Biome Condition Types operate on a `RegistryEntry<Biome>`, allowing to check if 
 
 ### List
 
-* [Category **(DEPRECATED)**](biome_condition_types/category.md)
+* [Category <span style="color:darkred"><b>(DEPRECATED)</b></span>](biome_condition_types/category.md)
 * [High Humidity](biome_condition_types/high_humidity.md)
 * [In Tag](biome_condition_types/in_tag.md)
 * [Precipitation](biome_condition_types/precipitation.md)
