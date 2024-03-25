@@ -40,8 +40,11 @@ Field | Type | Default | Description
 	"type": "origins:action_on_set",
 	"set": "example:special_pets",
 	"bientity_action": {
-		"type": "origins:heal",
-		"amount": 4
+		"type": "origins:target_action",
+		"action": {
+			"type": "origins:heal",
+			"amount": 4
+		}
 	}
 }
 ```
