@@ -18,16 +18,16 @@ A [string](string.md) or [object](object.md) that defines a named binary tag (NB
 ### Examples
 
 ```json
-"nbt": "{example: {is_special: 1b, numbers: [100, 3, -56]}}"
+"nbt": "{example: {is_special: true, numbers: [100, 3, -56]}}"
 ```
 
-This example defines an object NBT that contains an object NBT named `example`. The `example` object NBT then contains two NBTs: `is_special`, which is a byte NBT, and `numbers`, which is an integer array NBT.
+This example defines an object NBT that contains an object NBT named `example`. The `example` object NBT then contains two NBTs: `is_special`, which is a boolean that will be converted into a byte NBT (`1b`), and `numbers`, which is an integer array NBT.
 <br>
 
 ```json
 "nbt": {
     "example": {
-        "is_special": 1b,
+        "is_special": true,
         "numbers": [
             100,
             3,
