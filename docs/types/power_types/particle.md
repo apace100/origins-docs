@@ -12,6 +12,11 @@ Spawns particles on the body of the entity that has the power for visual effects
 Type ID: `origins:particle`
 
 
+!!!	caution
+
+	The condition specified in the `bientity_condition` field is only evaluated on the <span style="color: goldenrod"><b>client-side</b></span>, therefore, using any condition types that only work on the server-side will not work.
+
+
 ### Fields
 
 Field  | Type | Default | Description
