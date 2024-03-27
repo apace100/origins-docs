@@ -19,6 +19,11 @@ Type ID: `origins:status_bar_texture`
     By extension, to reference status bar texture sprites in general, the `textures/gui/sprites` directory and the `.png` file extension **should** be omitted, as it's already implied.
 
 
+!!! note
+
+    [See here for a list of vanilla status bar texture sprites](https://github.com/misode/mcmeta/tree/assets/assets/minecraft/textures/gui/sprites/hud) that can be replaced via the `texture_map` field.
+
+
 ### Fields
 
 Field | Type | Default | Description
