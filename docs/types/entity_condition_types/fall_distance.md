@@ -20,8 +20,8 @@ Type ID: `origins:fall_distance`
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`comparison` | [Comparison](../data_types/comparison.md) | | How the fall distance should be compared to the specified value.
-`compare_to` | [Float](../data_types/float.md) | | The value to compare the fall distance to.
+`comparison` | [Comparison](../data_types/comparison.md) | | Determines how the fall distance of the entity should be compared to the specified value.
+`compare_to` | [Float](../data_types/float.md) | | The value at which the fall distance of the entity will be compared to.
 
 
 ### Examples

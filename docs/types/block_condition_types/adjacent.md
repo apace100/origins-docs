@@ -17,8 +17,8 @@ Type ID: `origins:adjacent`
 Field  | Type | Default | Description
 -------|------|---------|-------------
 `adjacent_condition` | [Block Condition Type](../block_condition_types.md) | | The block condition that needs to be fulfilled by adjacent blocks to count towards this condition.
-`comparison` | [Comparison](../data_types/comparison.md) | |  How the number of adjacent blocks which fulfill `adjacent_condition` should be compared to the specified value.
-`compare_to` | [Float](../data_types/float.md) | | The value to compare the number to.
+`comparison` | [Comparison](../data_types/comparison.md) | | Determines how the number of adjacent blocks which fulfill the `adjacent_condition` block condition should be compared to the specified value.
+`compare_to` | [Float](../data_types/float.md) | | The value at which the number of adjacent blocks which fulfill `adjacent_condition` will be compared to.
 
 
 ### Examples

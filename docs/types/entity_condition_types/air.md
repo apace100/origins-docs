@@ -22,8 +22,8 @@ Type ID: `origins:air`
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`comparison` | [Comparison](../data_types/comparison.md) | |  How the breath / air / bubble bar (in ticks) should be compared to the specified value.
-`compare_to` | [Integer](../data_types/integer.md) | | Which value the breath should be compared to.
+`comparison` | [Comparison](../data_types/comparison.md) | |  Determines how the breath / air / bubble (in ticks) the entity has should be compared to the specified value.
+`compare_to` | [Integer](../data_types/integer.md) | | The value at which the breath / air / bubble (in ticks) the entity has will be compared to.
 
 
 ### Examples

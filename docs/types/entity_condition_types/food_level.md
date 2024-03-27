@@ -20,8 +20,8 @@ Type ID: `origins:food_level`
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`comparison` | [Comparison](../data_types/comparison.md) | | How the food level should be compared to the specified value.
-`compare_to` | [Float](../data_types/float.md) | | Which value the food level should be compared to.
+`comparison` | [Comparison](../data_types/comparison.md) | | Determines how the food level of the player should be compared to the specified value.
+`compare_to` | [Float](../data_types/float.md) | | The value at which the food level of the player will be compared to.
 
 
 ### Examples

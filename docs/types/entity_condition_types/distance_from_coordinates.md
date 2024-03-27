@@ -25,8 +25,8 @@ Field | Type | Default | Description
 `scale_reference_to_dimension` | [Boolean](../data_types/boolean.md) | `true` | Determines whether to check for the reference point whilst considering the coordinate scale of the dimension.
 `result_on_the_wrong_dimension` | [Boolean](../data_types/boolean.md) | _optional_ | If specified, this value will override the result of the comparison if the entity being tested is not in the reference's dimension.
 `round_to_digit` | [Integer](../data_types/integer.md) | _optional_ | If specified, rounds the result to the closest number with the specified amount of digits after the comma. Negative numbers also work (e.g: `-2` rounds to multiples of 100).
-`comparison` | [Comparison](../data_types/comparison.md) | | Determines how the calculated distance is compared to the specified value.
-`compare_to` | [Float](../data_types/float.md) | | The value to compare the calculated distance to.
+`comparison` | [Comparison](../data_types/comparison.md) | | Determines how the calculated distance should be compared to the specified value.
+`compare_to` | [Float](../data_types/float.md) | | The value at which the calculated distance is compared to.
 
 
 ### Examples

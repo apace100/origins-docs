@@ -27,8 +27,8 @@ Type ID: `origins:brightness`
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`comparison` | [Comparison](../data_types/comparison.md) | | How to compare the brightness level against the specified value.
-`compare_to` | [Float](../data_types/float.md) | | The value to compare the brightness level to.
+`comparison` | [Comparison](../data_types/comparison.md) | | Determines how the calculated brightness value should be compared to the specified value.
+`compare_to` | [Float](../data_types/float.md) | | The value at which the calculated brightness value will be compared to.
 
 
 ### Examples

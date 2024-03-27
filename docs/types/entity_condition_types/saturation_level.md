@@ -20,8 +20,8 @@ Type ID: `origins:saturation_level`
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`comparison` | [Comparison](../data_types/comparison.md) | | How the saturation level should be compared to the specified value.
-`compare_to` | [Float](../data_types/float.md) | | The value the saturation level should be compared to.
+`comparison` | [Comparison](../data_types/comparison.md) | | Determines how the saturation level of the player should be compared to the specified value.
+`compare_to` | [Float](../data_types/float.md) | | The value at which the saturation level of the player will be compared to.
 
 
 ### Examples

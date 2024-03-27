@@ -20,8 +20,8 @@ Type ID: `origins:temperature`
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`comparison` | [Comparison](../data_types/comparison.md) | | How the temperature should be compared to the specified value.
-`compare_to` | [Float](../data_types/float.md) | | Which value the temperature should be compared to.
+`comparison` | [Comparison](../data_types/comparison.md) | | Determines how the temperature value of the biome should be compared to the specified value.
+`compare_to` | [Float](../data_types/float.md) | | The value at which the temperature value of the biome will be compared to.
 
 
 ### Examples

@@ -16,8 +16,8 @@ Type ID: `origins:harvest_level`
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`comparison` | [Comparison](../data_types/comparison.md) | |  How to compare the item's harvest level to the specified value.
-`compare_to` | [Integer](../data_types/integer.md) | | Which value to compare the item's harvest level to.
+`comparison` | [Comparison](../data_types/comparison.md) | | Determines how the harvest level of the material from the item stack should be compared to the specified value.
+`compare_to` | [Integer](../data_types/integer.md) | | The value at which the harvest level of the material from the item stack will be compared to.
 
 
 ### Examples

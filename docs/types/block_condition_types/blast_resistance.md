@@ -16,8 +16,8 @@ Type ID: `origins:blast_resistance`
 
 Field | Type | Default | Description
 ------|------|---------|------------
-`comparison` | [Comparison](../data_types/comparison.md) | | Determines how the blast resistance of the block is compared to the specified value.
-`compare_to` | [Float](../data_types/float.md) | | The value to compare the blast resistance of the block to.
+`comparison` | [Comparison](../data_types/comparison.md) | | Determines how the blast resistance of the block should be compared to the specified value.
+`compare_to` | [Float](../data_types/float.md) | | The value at which the blast resistance value of the block will be compared to.
 
 
 ### Examples

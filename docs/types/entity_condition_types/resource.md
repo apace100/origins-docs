@@ -17,8 +17,8 @@ Type ID: `origins:resource`
 Field  | Type | Default | Description
 -------|------|---------|-------------
 `resource` | [Identifier](../data_types/identifier.md) | | The namespace and ID of a power that will be evaluated.
-`comparison` | [Comparison](../data_types/comparison.md) | | How the value of the power that will be evaluated should be compared to the specified value.
-`compare_to` | [Integer](../data_types/integer.md) | | The value to compare the value of the power that will be evaluated to.
+`comparison` | [Comparison](../data_types/comparison.md) | | Determines how the value of the specified power should be compared to the specified value.
+`compare_to` | [Integer](../data_types/integer.md) | | The value at which the value of the specified power will be compared to.
 
 
 ### Examples

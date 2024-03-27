@@ -7,7 +7,7 @@ date: 2021-10-02
 
 [Item Condition Type](../item_condition_types.md)
 
-Checks the amount of the item.
+Checks the amount of the item in the item stack.
 
 Type ID: `origins:amount`
 
@@ -16,8 +16,8 @@ Type ID: `origins:amount`
 
 Field | Type | Default | Description
 ------|------|---------|-------------
-`comparison` | [Comparison](../data_types/comparison.md) | | Determines how to compare the number of items in this stack to the specified value.
-`compare_to` | [Integer](../data_types/integer.md) | | Which value to compare the item's count value to.
+`comparison` | [Comparison](../data_types/comparison.md) | | Determines how the amount of the item in the item stack should be compared to the specified value.
+`compare_to` | [Integer](../data_types/integer.md) | | The value at which the amount of the item in the item stack will be compared to.
 
 
 ### Examples
@@ -30,4 +30,4 @@ Field | Type | Default | Description
 }
 ```
 
-This example will check if the item has a count of 10 or more.
+This example will check if there are 10 or more items in the item stack.

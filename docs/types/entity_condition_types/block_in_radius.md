@@ -17,10 +17,10 @@ Type ID: `origins:block_in_radius`
 Field  | Type | Default | Description
 -------|------|---------|-------------
 `block_condition` | [Block Condition Type](../block_condition_types.md) | |  The block condition type to check for.
-`radius` | [Integer](../data_types/integer.md) | | The radius to check the blocks that fulfills the specified block condition type within.
+`radius` | [Integer](../data_types/integer.md) | | The radius of the area to check how many blocks fulfill the `block_condition`.
 `shape` | [String](../data_types/string.md) | `"cube"` | Determines the shape of the radius. Accepts `"cube"`, `"star"` or `"sphere"`.
-`comparison` | [Comparison](../data_types/comparison.md) | `">="` | How the amount of blocks within the specified radius which fulfills the specified block condition type should be compared to the specified value.
-`compare_to` | [Integer](../data_types/integer.md) | `1` | The value to compare the amount to.
+`comparison` | [Comparison](../data_types/comparison.md) | `">="` | Determines how the amount of blocks which fulfill `block_condition` block condition should be compared to the specified value.
+`compare_to` | [Integer](../data_types/integer.md) | `1` | The value at which the amount of blocks which fulfill `block_condition` will be compared to.
 
 
 ### Examples

@@ -22,8 +22,8 @@ Field | Type | Default | Description
 `slots` | [Array](../data_types/array.md) of [Item Slots](../data_types/item_slot.md) | _optional_ | If specified, only items from these specified item slots are evaluated.
 `slot` | [Item Slot](../data_types/item_slot.md) | _optional_ | If specified, only the item from this specified item slot is evaluated.
 `power` | [Identifier](../data_types/identifier.md) | _optional_ | If specified and if `inventory_type` is `"power"`, the items in the inventory of this power will be evaluated instead.
-`comparison` | [Comparison](../data_types/comparison.md) | `">"` | Determines how the amount of items/stacks that were evaluated are compared to the specified value.
-`compare_to` | [Integer](../data_types/integer.md) | `0` | The value at which the amount of items/stacks that were evaluated are compared to.
+`comparison` | [Comparison](../data_types/comparison.md) | `">"` | Determines how the amount of items/stacks that were evaluated should be compared to the specified value.
+`compare_to` | [Integer](../data_types/integer.md) | `0` | The value at which the amount of items/stacks that were evaluated will be compared to.
 
 
 ### Examples

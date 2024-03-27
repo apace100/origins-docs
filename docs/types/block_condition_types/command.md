@@ -11,6 +11,7 @@ Compares the result of the specified command to the specified value at the posit
 
 Type ID: `origins:command`
 
+
 !!! caution
 
     This block condition type only operates on the <span style="color:goldenrod"><b>server-side</b></span>, meaning that it cannot be used in fields that are evaluated on the client-side.
@@ -21,8 +22,8 @@ Type ID: `origins:command`
 Field  | Type | Default | Description
 -------|------|---------|-------------
 `command` | [String](../data_types/string.md) | |  The command to execute.
-`comparison` | [Comparison](../data_types/comparison.md) | | How to compare the stored result of the specified command to the specified value.
-`compare_to` | [Integer](../data_types/integer.md) | | The value to compare the stored result of the specified command to.
+`comparison` | [Comparison](../data_types/comparison.md) | | Determines how the result value (an integer) of the executed command should be compared to the specified value.
+`compare_to` | [Integer](../data_types/integer.md) | | The value at which the result value (an integer) of the executed command will be compared to.
 
 
 ### Examples

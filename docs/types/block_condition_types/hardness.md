@@ -21,8 +21,8 @@ Type ID: `origins:hardness`
 
 Field | Type | Default | Description
 ------|------|---------|------------
-`comparison` | [Comparison](../data_types/comparison.md) | | Determines how the hardness value of the block is compared to the specified value.
-`compare_to` | [Float](../data_types/float.md) | | The value to compare the hardness value of the block to.
+`comparison` | [Comparison](../data_types/comparison.md) | | Determines how the hardness value of the block should compared to the specified value.
+`compare_to` | [Float](../data_types/float.md) | | The value at which the hardness value of the block will be compared to.
 
 
 ### Examples

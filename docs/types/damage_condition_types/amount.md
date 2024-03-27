@@ -16,8 +16,8 @@ Type ID: `origins:amount`
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`comparison` | [Comparison](../data_types/comparison.md) | |  How the amount of damage should be compared to the specified value.
-`compare_to` | [Float](../data_types/float.md) | | The value to compare the amount of damage to.
+`comparison` | [Comparison](../data_types/comparison.md) | |  Determines how the amount of damage should be compared to the specified value.
+`compare_to` | [Float](../data_types/float.md) | | The value at which the amount of damage will be compared to.
 
 
 ### Examples

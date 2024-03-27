@@ -7,7 +7,7 @@ date: 2021-04-04
 
 [Entity Condition Type](../entity_condition_types.md)
 
-Checks the current (and absolute) health value of the entity.
+Checks the current health value of the entity.
 
 Type ID: `origins:health`
 
@@ -16,8 +16,8 @@ Type ID: `origins:health`
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`comparison` | [Comparison](../data_types/comparison.md) | | How the health of the entity should be compared to the specified value.
-`compare_to` | [Float](../data_types/float.md) | | Which value the health should be compared to.
+`comparison` | [Comparison](../data_types/comparison.md) | | Determines how the current health of the entity should be compared to the specified value.
+`compare_to` | [Float](../data_types/float.md) | | The value at which the current health of the entity will be compared to.
 
 
 ### Examples

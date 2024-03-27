@@ -16,8 +16,8 @@ Type ID: `origins:height`
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`comparison` | [Comparison](../data_types/comparison.md) | | How the Y position of the block should be compared to the specified value.
-`compare_to` | [Float](../data_types/float.md) | | The value to compare the Y position of the block to.
+`comparison` | [Comparison](../data_types/comparison.md) | | Determines how the Y position of the block should be compared to the specified value.
+`compare_to` | [Float](../data_types/float.md) | | The value at which the Y position of the block will be compared to.
 
 
 ### Examples

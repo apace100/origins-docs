@@ -16,8 +16,8 @@ Type ID: `origins:distance`
 
 Field  | Type | Default | Description
 -------|------|---------|-------------
-`comparison` | [Comparison](../data_types/comparison.md) | | How to compare the distance against the specified value.
-`compare_to` | [Float](../data_types/float.md) | | The distance (in blocks) to compare the distance between the actor and target to.
+`comparison` | [Comparison](../data_types/comparison.md) | | Determines how the distance (in blocks) between the actor and target entities should be compared to the specified value.
+`compare_to` | [Float](../data_types/float.md) | | The value at which the distance (in blocks) between the actor and target entities will be compared to.
 
 
 ### Examples

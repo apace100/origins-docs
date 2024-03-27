@@ -17,8 +17,8 @@ Type ID: `origins:attribute`
 Field  | Type | Default | Description
 -------|------|---------|-------------
 `attribute` | [Identifier](../data_types/identifier.md) | |  ID of the attribute of which the value should be checked. See [Minecraft Wiki: Attribute (Attributes)](https://minecraft.wiki/w/Attribute#Attributes) for a list of vanilla attributes that can be checked for.
-`comparison` | [Comparison](../data_types/comparison.md) | |  How to compare the attribute's value to the specified value.
-`compare_to` | [Float](../data_types/float.md) | | The value to compare the attribute's value to.
+`comparison` | [Comparison](../data_types/comparison.md) | |  Determines how the attribute's total value should be compared to the specified value.
+`compare_to` | [Float](../data_types/float.md) | | The value at which the attribute's total value will be compared to.
 
 
 ### Examples

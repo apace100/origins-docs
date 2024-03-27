@@ -22,8 +22,8 @@ Type ID: `origins:riding_recursive`
 Field | Type | Default | Description
 ------|------|---------|-------------
 `bientity_condition` | [Bi-entity Condition Type](../bientity_condition_types.md) | _optional_ | If specified, this condition type will only evaluate to true if this condition is fulfilled by either or both the '**actor**' and '**target**' entities.
-`comparison` | [Comparison](../data_types/comparison.md) | `">="` | How the amount of entities currently being ridden should be compared to the specified value.
-`compare_to` | [Integer](../data_types/integer.md) | `1` | Which value the amount of entities currently being ridden should be compared to.
+`comparison` | [Comparison](../data_types/comparison.md) | `">="` | Determines how the amount of entities currently being ridden should be compared to the specified value.
+`compare_to` | [Integer](../data_types/integer.md) | `1` | The value at which the amoutn of entities currently being ridden will be compared to.
 
 
 ### Examples

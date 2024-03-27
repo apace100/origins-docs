@@ -17,7 +17,7 @@ Type ID: `origins:durability`
 Field | Type | Default | Description
 ------|------|---------|------------
 `comparison` | [Comparison](../data_types/comparison.md) | | Determines how the durability value of the item should be compared to the specified value.
-`compare_to` | [Integer](../data_types/integer.md) | | The value which the durability value of the item should be compared to.
+`compare_to` | [Integer](../data_types/integer.md) | | The value at which the durability value of the item will be compared to.
 
 
 ### Examples

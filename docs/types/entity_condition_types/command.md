@@ -21,8 +21,8 @@ Type ID: `origins:command`
 Field  | Type | Default | Description
 -------|------|---------|-------------
 `command` | [String](../data_types/string.md) | |  The command to execute.
-`comparison` | [Comparison](../data_types/comparison.md) | | How to compare the stored result of the specified command to the specified value.
-`compare_to` | [Integer](../data_types/integer.md) | | The value to compare the stored result of the specified command to.
+`comparison` | [Comparison](../data_types/comparison.md) | | Determines how the result value (an integer) of the executed command should be compared to the specified value.
+`compare_to` | [Integer](../data_types/integer.md) | | The value at which the result value (an integer) of the executed command will be compared to.
 
 
 ### Examples

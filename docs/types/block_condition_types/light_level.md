@@ -24,8 +24,8 @@ Type ID: `origins:light_level`
 Field  | Type | Default | Description
 -------|------|---------|-------------
 `light_type` | [String](../data_types/string.md) | _optional_ | If specified, determines the type of light level to compare. Accepts `"sky"` or `"block"`.
-`comparison` | [Comparison](../data_types/comparison.md) | | How the light level should be compared to the specified value.
-`compare_to` | [Integer](../data_types/integer.md) | | The value to compare the light level at the block's position to.
+`comparison` | [Comparison](../data_types/comparison.md) | | Determines how the light level should be compared to the specified value.
+`compare_to` | [Integer](../data_types/integer.md) | | The value at which the light level will be compared to.
 
 
 ### Examples
