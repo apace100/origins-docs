@@ -7,7 +7,7 @@ date: 2021-04-04
 
 [Damage Condition Type](../damage_condition_types.md)
 
-Checks whether the damage source has a specific name (essentially checking the type of damage).
+Checks whether the damage source uses a specific name.
 
 Type ID: `origins:name`
 
