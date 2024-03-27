@@ -23,7 +23,7 @@ Type ID: `origins:status_bar_texture`
 
 Field | Type | Default | Description
 ------|------|---------|-------------
-`texture` | [Identifier](../data_types/identifier.md) | <span style="color: darkred"><b>DEPRECATED</b></span> | The identifier (including the `textures` directory and the `.png` file extension) of the status bar sprite sheet to replace teh default one with (e.g: [the vanilla status bar sprite sheet](https://raw.githubusercontent.com/misode/mcmeta/6d496b1a91476c4fdd45fdb093d0319141f9c109/assets/minecraft/textures/gui/icons.png)). <span style="color: darkred"><b>Use <code>texture_map</code> instead.</b></span>
+`texture` | [Identifier](../data_types/identifier.md) | <span style="color: darkred"><b>DEPRECATED</b></span> | The identifier (including the `textures` directory and the `.png` file extension) of the status bar sprite sheet to replace the default one with (e.g: [the vanilla status bar sprite sheet](https://raw.githubusercontent.com/misode/mcmeta/6d496b1a91476c4fdd45fdb093d0319141f9c109/assets/minecraft/textures/gui/icons.png)). <span style="color: darkred"><b>Use <code>texture_map</code> instead.</b></span>
 `texture_map` | [Object](../data_types/object.md) | _optional_ | An object with `"key": "value"` [identifier](../data_types/identifier.md) pairs that determine which status bar texture sprite (`"key"`) will be replaced by a new status bar texture sprite (`"value"`). 
 
 
