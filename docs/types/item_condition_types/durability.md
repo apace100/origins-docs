@@ -7,7 +7,7 @@ date: 2022-07-03
 
 [Item Condition Type](../item_condition_types.md)
 
-Checks the current and absolute durability value of the item.
+Checks the current durability of the item.
 
 Type ID: `origins:durability`
 
