@@ -14,7 +14,7 @@ Type ID: `origins:status_bar_texture`
 
 !!! note
 
-    Custom status bar texture sprites are **required** to be placed within the `assets/.../textures/gui/sprites/hud` directory of a resource pack in order for the game to recognize and register properly.
+    Custom status bar texture sprites are **required** to be placed within the `assets/.../textures/gui/sprites` directory of a resource pack in order for the game to recognize and register it properly.
 
     By extension, to reference status bar texture sprites in general, the `textures/gui/sprites` directory and the `.png` file extension **should** be omitted, as it's already implied.
 
