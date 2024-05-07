@@ -30,7 +30,7 @@ Type ID: `origins:multiple`
 
 ### Fields
 
-Arbitrary fields. Any "key", except for `hidden` and `type`, is considered a sub-power and takes a fully-defined power type as the value.
+Arbitrary fields. Any "key", except for `type`, `loading_priority`, `name`, `description`, `hidden`, `condition`, and `fabric:load_conditions`, is considered a sub-power and takes a fully-defined power type as the value.
 
 
 ### Examples
