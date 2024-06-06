@@ -80,7 +80,7 @@ a `type` field in the JSON. Which type a power is defines which other fields it 
 * [Action On Death](power_types/action_on_death.md)
 * [Action On Entity Use](power_types/action_on_entity_use.md)
 * [Action On Hit](power_types/action_on_hit.md)
-* [Action on Item Pickup](power_types/action_on_item_pickup.md)
+* [Action On Item Pickup](power_types/action_on_item_pickup.md)
 * [Action On Item Use](power_types/action_on_item_use.md)
 * [Action On Land](power_types/action_on_land.md)
 * [Action On Wake Up](power_types/action_on_wake_up.md)

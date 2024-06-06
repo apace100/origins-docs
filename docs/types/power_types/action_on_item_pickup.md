@@ -1,10 +1,10 @@
 ---
-title: Action on Item Pickup (Power Type)
+title: Action On Item Pickup (Power Type)
 date: 2024-01-10
 ---
 
 
-#	Action on Item Pickup
+#	Action On Item Pickup
 
 [Power Type](../power_types.md)
 
