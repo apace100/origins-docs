@@ -7,7 +7,7 @@ date: 2021-11-30
 
 [Power Type](../power_types.md)
 
-Executes a [Block Action Type](../bientity_action_types.md) and/or [Item Action Types](../item_action_types.md) when the player that has the power "uses" (right-clicks) a block.
+Executes a [Block Action Type](../block_action_types.md) and/or [Item Action Types](../item_action_types.md) when the player that has the power "uses" (right-clicks) a block.
 
 Type ID: `origins:action_on_block_use`
 
