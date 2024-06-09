@@ -74,7 +74,7 @@ a `type` field in the JSON. Which type a power is defines which other fields it 
 
 * [Action On Being Used](power_types/action_on_being_used.md)
 * [Action On Block Break](power_types/action_on_block_break.md)
-* [Action on Block Place](power_types/action_on_block_place.md)
+* [Action On Block Place](power_types/action_on_block_place.md)
 * [Action On Block Use](power_types/action_on_block_use.md)
 * [Action On Callback](power_types/action_on_callback.md)
 * [Action On Death](power_types/action_on_death.md)

@@ -4,7 +4,7 @@ date: 2023-10-26
 ---
 
 
-#	Action on Block Place
+#	Action On Block Place
 
 [Power Type](../power_types.md)
 
