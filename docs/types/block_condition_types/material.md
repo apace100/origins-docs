@@ -13,7 +13,7 @@ Type ID: `origins:material`
 
 !!! danger
 
-    This block condition type has been <span style="color:darkred"><b>deprecated</b></span> and may be removed in a future version.
+    This block condition type has been <span style="color:darkred"><b>deprecated</b></span> and may be removed in a future version. Please use the [In Tag (Block Condition Type)](in_tag.md) instead.
 
 
 ### Fields

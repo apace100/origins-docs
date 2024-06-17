@@ -11,10 +11,12 @@ A [String][string] used to determine what a block classify as.
 
 !!!	danger
 
-	The concept of block materials have been removed as of Minecraft 1.20, therefore any types that uses this data type has been <span style="color:darkred"><b>deprecated</b></span>. Apoli, the power library that Origins uses, provides block tags for backwards compatibility with vanilla blocks assigned to each block tag with the corresponding material *(e.g: `apoli:material/<material_name>`)*
+	This data type has been <span style="color:darkred"><b>deprecated</b></span> since Minecraft 1.20.0 as the concept of block materials has been removed; associated fields may be removed in a future version. As an alternative, block tags can be used instead.
+
+	See [Minecraft Wiki: Tag (Blocks)](https://minecraft.wiki/w/Tag#Blocks) for a list of vanilla block tags, which some may correspond to some of the block materials below. Origins also provides block tags for each materials listed below, formatted as `apoli:material/<material_name>`, each including **vanilla** blocks that use the respective material.
 
 
-###	Values
+###	Names
 
 * `air`
 * `structure_void`
