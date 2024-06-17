@@ -23,7 +23,7 @@ Field | Type | Default | Description
 ------|------|---------|------------
 `area_width` | [Float](../data_types/float.md) | `8.0` | Determines the width of the area.
 `area_height` | [Float](../data_types/float.md) | `8.0` | Determines the height of the area.
-`heightmap` | [Heightmap Type](../data_types/heightmap_type.md) | *optional* | If specified, the location will be anchored to highest Y level of the world determined by this heightmap type.
+`heightmap` | [Heightmap Type](../data_types/heightmap_type.md) | *optional* | If specified, the location will be anchored above the highest Y level of the world determined by this heightmap type.
 `attempts` | [Integer](../data_types/integer.md) | *optional* | Determines how many attempts the entity should be teleported to a random location. Defaults to `area_width` * 2 + `area_height` * 2.
 `landing_block_condition` | [Block Condition Type](../block_action_types.md) | *optional* | If specified, the entity will only be teleported on top of a block that fulfills this block condition. Otherwise, the entity will only be teleported on blocks that blocks movement/have solid collision.
 `landing_condition` | [Entity Condition Type](../entity_condition_types.md) | *optional* | If specified, the entity will only be teleported to a location if the entity fulfills this entity condition. Otherwise, the entity will only be teleported to a location that is empty (e.g: no blocks and fluids.)
