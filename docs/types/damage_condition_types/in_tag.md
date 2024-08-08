@@ -27,7 +27,7 @@ Field | Type | Default | Description
 ### Examples
 
 ```json
-"condition": {
+"damage_condition": {
     "type": "origins:in_tag",
     "tag": "minecraft:is_drowning"
 }
