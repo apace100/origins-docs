@@ -13,7 +13,7 @@ Type ID: `origins:delay`
 
 !!! caution
 
-    Delaying an action for more than a few ticks is not recommended! This meta action type is not reliable for such task.
+    Delaying an action for more than a few ticks is not recommended! This meta action type is not reliable for such a task.
 
     If you want to delay an action type *reliably,* you can use a power that would use the [Cooldown (Power Type)](../power_types/cooldown.md) and trigger that power with the [Trigger Cooldown (Entity Action Type)](../entity_action_types/trigger_cooldown.md).
 
