@@ -18,7 +18,7 @@ Entity Type Tag-likes are an [Array](../data_types/array.md) of [Identifiers](..
 ]
 ```
 
-This example defines an entity type tag-like that contains the `minecraft:dolplhin` entity type.
+This example defines an entity type tag-like that contains the `minecraft:dolphin` entity type.
 <br>
 
 ```json
