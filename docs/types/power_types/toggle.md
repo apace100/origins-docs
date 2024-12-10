@@ -23,7 +23,7 @@ Field  | Type | Default | Description
 -------|------|---------|-------------
 `active_by_default` | [Boolean](../data_types/boolean.md) | `true` | Determines whether the state of this power type should be ON by default.
 `key` | [Key](../data_types/key.md) | `{"key": "key.origins.primary_active"}` | Which active key this power should respond to.
-`retain_state` | [Boolean](../data_types/boolean.md) | `true` | Determines whether the state of this power type should retain if the condition (if there is any) is no longer fulfilled.
+`retain_state` | [Boolean](../data_types/boolean.md) | `true` | Determines whether the power remains active even if the specified condition (if any) is no longer met. If set to `true`, the power will stay in its current state regardless of the condition. If set to `false`, the power will deactivate when the condition is not fulfilled.
 
 
 ### Examples
