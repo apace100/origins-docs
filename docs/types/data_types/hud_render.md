@@ -74,4 +74,4 @@ This definition shows the resource/cooldown as a white bar with a bone icon.
 	}
 ]
 ```
-This definition will show the resource/cooldown as a white bar with a bone icon if the entity is sneaking. Otherwise, the resource/cooldown will be shown as a red bar with a heart icon.
+This definition will show the resource/cooldown as a white bar with a bone icon if the player has half or less of their max health. Otherwise, the resource/cooldown will be shown as a red bar with a heart icon.
