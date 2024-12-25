@@ -15,7 +15,7 @@ An [Object](object.md) which defines a keybinding, used in active powers to defi
 Field  | Type | Default | Description
 -------|------|---------|-------------
 `key` | [String](string.md) | | A string specifying the keybinding. See [Keybindings](../../misc/extras/keybindings.md) for possible values.
-`continuous` | [Boolean](boolean.md) | `false` | Whether the keybinding should only trigger the power on the first tick the key is held down, or, if set to true, continuously on each tick while the key is held.
+`continuous` | [Boolean](boolean.md) | `false` | Determines how the keybinding behaves when the key is held down. If set to `false`, the power will activate only once when the key is first pressed. If set to `true`, the power will try to activate continuously as long as the key is held down, accounting for any cooldown or conditions the power may have.
 
 
 ### Examples
