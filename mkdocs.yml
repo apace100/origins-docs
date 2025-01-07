@@ -8,6 +8,7 @@ nav:
     - Add-on Guides:
         - Workspace Setup: guides/addon/workspace_setup.md
         - Dependencies Explained: guides/addon/dependencies.md
+        - Defining a Power Type: guides/addon/define_power_type.md
     - JSON:
         - Badge JSON: json/badge.md
         - Global Power Set JSON: json/global_power_set.md

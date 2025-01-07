@@ -41,7 +41,7 @@ repositories {
 	}
 }
 ```
-Note: this block goes into the file directly (at the top level); do **not** add JitPack to the `publishing { repositories { ... } }` you see at the bottom of your `build.gradle`.
+Note: this block goes into the file directly (at the top level); do **not** add these dependencies to the `publishing { repositories { ... } }` you see at the bottom of your `build.gradle`.
 
 Once you did this, you also need to add this line to your `dependencies` block:
 ```
@@ -55,10 +55,6 @@ origins_version=v1.0.0
 ```
 
 Replace `v1.0.0` with the version of Origins you want to use. Usually, using the latest version is recommended. You can find the version numbers here: [GitHub Releases](https://github.com/apace100/origins-fabric/releases)
-
-Alternatively, you can specify the branch you want to use and append `-SNAPSHOT` to it, to get the latest (unreleased) version from a branch. One example would be `origins_version=1.17-SNAPSHOT` to get the latest commits for the 1.17 version of Origins! Have a look at [Origins on JitPack](https://jitpack.io/#apace100/origins-fabric) to see the available versions and view their build status.
-
-**Note:** JitPack builds the projects you request on demand. That means if you're the first to request a specific Origins version, it might take a while for JitPack to build it, and it's likely that it'll fail the first time due to a timeout. Just try again, it usually works on the second or third try. If it doesn't, check JitPack for errors.
 
 That's it! If you refresh gradle, Origins should be included in your project. Hooray!
 Test it by running your project now - you should be able to choose an origin when you join a world now, because Origins is now included in your development environment.
