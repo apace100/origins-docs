@@ -45,7 +45,7 @@ Note: this block goes into the file directly (at the top level); do **not** add 
 
 Once you did this, you also need to add this line to your `dependencies` block:
 ```
-modImplementation "com.github.apace100:origins-fabric:${project.origins_version}"
+modImplementation "io.github.apace100:origins-fabric:${project.origins_version}"
 ```
 
 The `${project.origins_version}` is a variable which will be taken from `gradle.properties`. It's just a neat way to set things up, so you don't have to mess with your `build.gradle` every time you want to update a mod. Theoretically, you could just add the version directly in the `build.gradle`. However, to define the variable, open up your `gradle.properties` file and add a line which looks like this:
