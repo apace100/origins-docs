@@ -20,7 +20,7 @@ A data type that's either a [String](string.md) which defines only the particle 
 Field | Type | Default | Description
 ------|------|---------|------------
 `type` | [Identifier](identifier.md) | | The namespace and ID of the particle type.
-`params` | [String](string.md) | | The additional parameter for the particle type.
+`params` | [String](string.md) | _optional_ | The additional parameter for the particle type.
 
 
 ### Examples
