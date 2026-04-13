@@ -30,7 +30,7 @@ a `type` field in the JSON. Which type a power is defines which other fields it 
 * [Effect Immunity](power_types/effect_immunity.md)
 * [Elytra Flight](power_types/elytra_flight.md)
 * [Entity Glow](power_types/entity_glow.md)
-* [Entity Group](power_types/entity_group.md)
+* [Entity Group <span style="color:darkred"><b>(REMOVED)</b></span>](power_types/entity_group.md)
 * [Entity Set](power_types/entity_set.md)
 * [Exhaust](power_types/exhaust.md)
 * [Fire Immunity](power_types/fire_immunity.md)

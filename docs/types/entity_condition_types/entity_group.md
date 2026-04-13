@@ -15,6 +15,10 @@ Type ID: `origins:entity_group`
 
     See [Minecraft Wiki: Mob (Classification)](https://minecraft.wiki/w/Mob#Classification) for more information about entity groups.
 
+!!! danger
+
+    This entity condition type has been <span style="color:darkred"><b>removed</b></span> in Origins 1.13.0 due to the removal of entity groups in Minecraft 1.21. **Please use [In Tag (Entity Condition Type)](in_tag.md) instead**.
+
 
 ### Fields
 

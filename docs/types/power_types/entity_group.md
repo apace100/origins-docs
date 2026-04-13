@@ -19,6 +19,10 @@ Type ID: `origins:entity_group`
 
     This power type is mostly used for determining the enchantment bonus damage towards the entity that has the power. That being said, there should only be one power that uses this power type.
 
+!!! danger
+
+    This power type has been <span style="color:darkred"><b>removed</b></span> in Origins 1.13.0 due to removal of entity groups in Minecraft 1.21. **Please use [Modify Type Tag (Power Type)](modify_type_tag.md) instead**.
+
 
 ### Fields
 
