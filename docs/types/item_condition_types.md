@@ -19,7 +19,7 @@ Item Condition Types operate on a combination of `World` and `ItemStack`, allowi
 * [Fireproof](item_condition_types/fireproof.md)
 * [Food](item_condition_types/food.md)
 * [Fuel](item_condition_types/fuel.md)
-* [Harvest Level](item_condition_types/harvest_level.md)
+* [Harvest Level <span style="color:darkred"><b>(REMOVED)</b></span>](item_condition_types/harvest_level.md)
 * [Has Power](item_condition_types/has_power.md)
 * [Ingredient](item_condition_types/ingredient.md)
 * [Is Damageable](item_condition_types/is_damageable.md)

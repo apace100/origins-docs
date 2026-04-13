@@ -11,6 +11,13 @@ Checks whether the material of the item has a certain harvest level value. Refer
 
 Type ID: `origins:harvest_level`
 
+!!! danger
+
+    This item condition type has been <span style="color:darkred"><b>removed</b></span> in Origins 1.13.0 since items no longer have a harvest level property.
+    <br>
+
+    To replicate this, you'll need to create your own item tags for each tier (e.g: wood, stone, iron, diamond, netherite) and check if the item is in one of the said tags with [Ingredient (Item Condition Type)](ingredient.md).
+
 
 ### Fields
 
