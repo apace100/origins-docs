@@ -27,20 +27,38 @@ You can use [this website](https://crafting.thedestruc7i0n.ca/) to easily create
 
 ### Origin (and origin layer) specific Orb
 
-Origins adds an `origins:origin` item component, which makes it possible for items to open the origin selection GUI and enable the player to choose an origin when the said item is used. The Orb of Origin item has this item component defined by default.
+Origins adds an [`origins:origin` item component](../../misc/component_types/origin.md), which makes it possible for items to open the origin selection GUI and enable the player to choose an origin when the said item is used. The Orb of Origin item has this item component defined by default.
 
-To make an item only be able to open the origin selection GUI with select origins or origin layers, you can specify an object (or multiple objects) with an `origin` (optional) and/or `layer` (required) keys in the `origins:origin` item component (which is an array of objects):
+Here are some examples of how it can be used:
+<ul>
+
+<li>
+
 ```mcfunction
-#   Give an Orb of Origin that will automatically select the Avian origin from the `origins:origin` origin layer
-give @s origins:orb_of_origin[origins:origin=[{origin: "origins:avian", layer: "origins:origin"}]]
-
-
-#   Give a stick that will open the origin selection GUI only with the following origin layers: `origins:origin`, `example:hello_world`
-give @s minecraft:stick[origins:origin=[{layer: "origins:origin"}, {layer: "example:hello_world"}]]
+give @s minecraft:stick[origins:origin = []]
 ```
+This example will define an <code>origins:origin</code> component to a Stick item that enables the player to select from all the available and enabled origin layers when the item is used.
 
-Otherwise, you can specify an empty `origins:origin` item component to have it open all the available and enabled origin layers:
+</li>
+<br>
+
+<li>
+
 ```mcfunction
-#   Give an egg that will open the origin selection GUI with all the available and enabled origin layers
-give @s minecraft:egg[origins:origin=[]]
+give @s origins:orb_of_origin[origins:origin = [{layer: "origins:origin"}, {layer: "example:hello_world"}]]
 ```
+This example will define an <code>origins:origin</code> component to an Orb of Origins item that enables the player to only select an origin from the defined origin layers (<code>origins:origin</code> and <code>example:hello_world</code>) when the item is used.
+
+</li>
+<br>
+
+<li>
+
+```mcfunction
+give @s minecraft:egg[origins:origin = [{layer: "origins:origin", origin: "origins:arachnid"}]]
+```
+This example will define an <code>origins:origin</code> component to an Egg item that will automatically set the origin of the player in the <code>origins:origin</code> origin layer to <code>origins:arachnid</code> origin.
+
+</li>
+
+</ul>
