@@ -44,7 +44,7 @@ Data types are used everywhere in the JSON files. Every field in a JSON has to h
 * [Item Slot](data_types/item_slot.md)
 * [Item Stack](data_types/item_stack.md)
 * [Key](data_types/key.md)
-* [Material](data_types/material.md)
+* [Material <span style="color:darkred"><b>(REMOVED)</b></span>](data_types/material.md)
 * [NBT](data_types/nbt.md)
 * [Particle Effect](data_types/particle_effect.md)
 * [Player Ability](data_types/player_ability.md)
