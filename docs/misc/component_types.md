@@ -15,3 +15,4 @@ Component types define certain behavior of objects, currently only used by items
 ##  List
 
 * [Origin](component_types/origin.md)
+* [Powers](component_types/powers.md)
