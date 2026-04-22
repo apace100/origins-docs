@@ -24,7 +24,7 @@ Item Condition Types operate on a combination of `World` and `ItemStack`, allowi
 * [Ingredient](item_condition_types/ingredient.md)
 * [Is Damageable](item_condition_types/is_damageable.md)
 * [Is Equippable](item_condition_types/is_equippable.md)
-* [Meat](item_condition_types/meat.md)
+* [Meat <span style="color:darkred"><b>(REMOVED)</b></span>](item_condition_types/meat.md)
 * [NBT](item_condition_types/nbt.md)
 * [Power Count](item_condition_types/power_count.md)
 * [Relative Durability](item_condition_types/relative_durability.md)
