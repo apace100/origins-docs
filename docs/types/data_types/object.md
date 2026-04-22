@@ -29,7 +29,7 @@ An object containing a [String](string.md) field, an [Integer](integer.md) field
 
 ```json
 "effect": {
-    "effect": "minecraft:slowness",
+    "id": "minecraft:slowness",
     "amplifier": 1,
     "duration": 80
 }

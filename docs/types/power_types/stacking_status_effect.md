@@ -38,14 +38,14 @@ Field  | Type | Default | Description
   	"duration_per_stack": 10,
   	"effects": [
     	{
-      		"effect": "minecraft:weakness",
-      		"is_ambient": true,
+      		"id": "minecraft:weakness",
+      		"ambient": true,
       		"show_particles": false,
       		"show_icon": true
     	},
     	{
-      		"effect": "minecraft:slowness",
-      		"is_ambient": true,
+      		"id": "minecraft:slowness",
+      		"ambient": true,
       		"show_particles": false,
       		"show_icon": true
     	}
@@ -70,8 +70,8 @@ This example will apply the Weakness I and Slowness I status effects that would 
     "duration_per_stack": 100,
     "tick_rate": 20,
     "effect": {
-        "effect": "minecraft:blindness",
-        "is_ambient": true,
+        "id": "minecraft:blindness",
+        "ambient": true,
         "show_particles": true,
         "show_icon": true
     },
