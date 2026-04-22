@@ -27,10 +27,20 @@ You can use [this website](https://crafting.thedestruc7i0n.ca/) to easily create
 
 ### Origin (and origin layer) specific Orb
 
-You can add the `Targets` NBT to the item so that you can only pick a certain origin/from a certain origin layer by using the Orb of Origin.
+Origins adds an `origins:origin` item component, which makes it possible for items to open the origin selection GUI and enable the player to choose an origin when the said item is used. The Orb of Origin item has this item component defined by default.
 
-e.g:
+To make an item only be able to open the origin selection GUI with select origins or origin layers, you can specify an object (or multiple objects) with an `origin` (optional) and/or `layer` (required) keys in the `origins:origin` item component (which is an array of objects):
 ```mcfunction
-give @s origins:orb_of_origin{Targets: [{Origin: "origins:avian", Layer: "origins:origin"}]}
+#   Give an Orb of Origin that will automatically select the Avian origin from the `origins:origin` origin layer
+give @s origins:orb_of_origin[origins:origin=[{origin: "origins:avian", layer: "origins:origin"}]]
+
+
+#   Give a stick that will open the origin selection GUI only with the following origin layers: `origins:origin`, `example:hello_world`
+give @s minecraft:stick[origins:origin=[{layer: "origins:origin"}, {layer: "example:hello_world"}]]
 ```
-In this example, this will set your origin to "Avian" if you were to use the given Orb of Origin.
+
+Otherwise, you can specify an empty `origins:origin` item component to have it open all the available and enabled origin layers:
+```mcfunction
+#   Give an egg that will open the origin selection GUI with all the available and enabled origin layers
+give @s minecraft:egg[origins:origin=[]]
+```
