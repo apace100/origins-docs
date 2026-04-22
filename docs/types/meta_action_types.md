@@ -11,7 +11,7 @@ Meta Action Types are independent of the type they operate on. They basically co
 ### List
 
 * [And](meta_action_types/and.md)
-* [Chance](meta_action_types/chance.md)
+* [Random Chance](meta_action_types/random_chance.md "Previously "chance"")
 * [Choice](meta_action_types/choice.md)
 * [Delay](meta_action_types/delay.md)
 * [If-Else-List](meta_action_types/if_else_list.md)
