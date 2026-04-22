@@ -11,23 +11,19 @@ Adds or sets velocity towards a specific direction.
 
 Type ID: `origins:add_velocity`
 
-!!! note
-
-    If the entity action type behaves unexpectedly, try setting either the `client` (should always work) or `server` (might not work) boolean fields to `false`. [Here are some examples.](https://github.com/apace100/apoli/blob/3115c41ea4390ad9ced3ae5be86151131accc36f/testdata/apoli/powers/add_velocity.json)
-
 
 ### Fields
 
-Field  | Type | Default | Description
--------|------|---------|-------------
-`x` | [Float](../data_types/float.md) | `0.0` | The amount of velocity to add on the x-axis.
-`y` | [Float](../data_types/float.md) | `0.0` | The amount of velocity to add on the y-axis.
-`z` | [Float](../data_types/float.md) | `0.0` | The amount of velocity to add on the z-axis.
-`space` | [Space](../data_types/space.md) | `"world"` | Determines how the direction of the velocity to add/set will be calculated.
-`client` | [Boolean](../data_types/boolean.md) | `true` | If this is false, the action will not execute on the client.
-`server` | [Boolean](../data_types/boolean.md) | `true` | If this is false, the action will not execute on the server.
-`set` | [Boolean](../data_types/boolean.md) | `false` | If this is true, the action will act as a "set" velocity action, overriding the entity's current velocity instead of adding to it.
-
+Field       |   Type                                |   Default                                                 |   Description
+------------|---------------------------------------|-----------------------------------------------------------|--------------
+`x`         |   [Float](../data_types/float.md)     |   <span style="color:chocolate"><b>DEPRECATED</b></span>  |   **Use the `velocity` field instead.**
+`y`         |   [Float](../data_types/float.md)     |   <span style="color:chocolate"><b>DEPRECATED</b></span>  |   **Use the `velocity` field instead.**
+`z`         |   [Float](../data_types/float.md)     |   <span style="color:chocolate"><b>DEPRECATED</b></span>  |   **Use the `velocity` field instead.**
+`velocity`  |   [Vector](../data_types/vector.md)   |   `{"x": 0.0, "y": 0.0, "z": 0.0}`                        |   The amount of velocity to add.
+`space`     |   [Space](../data_types/space.md)     |   `"position"`                                            |   Determines the direction of the velocity.
+`client`    |   [Boolean](../data_types/boolean.md) |   <span style="color:darkred"><b>REMOVED</b></span>       |   **Use the [Side (Meta Action Type)](../meta_action_types/side.md) instead.**
+`server`    |   [Boolean](../data_types/boolean.md) |   <span style="color:darkred"><b>REMOVED</b></span>       |   **Use the [Side (Meta Action Type)](../meta_action_types/side.md) instead.**
+`set`       |   [Boolean](../data_types/boolean.md) |   `false`                                                 |   Determines whether the entity's velocity is overridden.
 
 
 ### Examples
@@ -35,7 +31,9 @@ Field  | Type | Default | Description
 ```json
 "entity_action": {
     "type": "origins:add_velocity",
-    "y": 2
+    "velocity": {
+        "y": 2
+    }
 }
 ```
 
