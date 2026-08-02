@@ -15,11 +15,6 @@ Type ID: `origins:prevent_entity_collision`
 !!! note
 
     In the context of this power type, the '**actor**' entity is the entity that has the power whilst the '**target**' entity is the entity that was collided with.
-    
-
-!!! caution
-
-    Currently, this power type does not prevent collisions of certain entities that have solid hitboxes, such as Boats and Shulkers.
 
 
 ### Fields
