@@ -10,11 +10,15 @@ date: 2021-04-04
 An [Object](object.md) used to specify how to deal damage to an entity.
 
 
-!!! danger
+!!! warning
 
 	This data type has been <span style="color:darkred"><b>deprecated</b></span> since Minecraft 1.19.4 in favor of using damage types and damage type tags. Associated fields may be removed in a future version. [See here for a more detailed information](https://gist.github.com/apace100/bfbf82a8f9d6bd2db13e4feaf653a6b0)
 
 	See [Minecraft Wiki: Damage type](https://minecraft.wiki/w/Damage_type) and [Minecraft Wiki: Damage type tag (Java Edition)](https://minecraft.wiki/w/Damage_type_tag_(Java_Edition)) for more information about vanilla damage types and damage type tags.
+
+!!!	danger
+
+	As of Origins 1.13.0, this data type has been <span style="color:darkred"><b>removed</b></span>.
 
 
 ### Fields

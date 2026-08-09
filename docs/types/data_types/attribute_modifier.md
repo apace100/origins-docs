@@ -7,7 +7,7 @@ date: 2021-04-04
 
 [Data Type](../data_types.md)
 
-An [Object](object.md) used to specify how a numerical value should be modified. The numerical value in question can be anything depending on the power/action type using this data type.
+An [object](object.md) used to specify how a numerical value should be modified. The numerical value in question can be anything depending on the power/action type using this data type.
 
 
 !!! note
@@ -15,14 +15,19 @@ An [Object](object.md) used to specify how a numerical value should be modified.
     Not to be confused with [Attributed Attribute Modifier](attributed_attribute_modifier.md), which are strictly for modifying attributes.
 
 
+!!! note
+
+    **Any of the `amount` or `resource` fields must be present**. If both fields are present, the `resource` field will be prioritized over `amount`.
+
+
 ### Fields
 
-Field  | Type | Default | Description
--------|------|---------|-------------
-`operation` | [Attribute Modifier Operation](attribute_modifier_operation.md) | | The operation which will be performed by this modifier.
-`value` | [Float](float.md) | | The value to use for the modifier operation.
-`resource` | [Identifier](../data_types/identifier.md) | _optional_ | If specified, the value of this power will be used instead of the value specified in the `value` field.
-`modifier` | [Attribute Modifier](attribute_modifier.md) | _optional_ | If specified, this modifier will be applied to the value of the modifier.
+Field                                   |   Type                                                            |   Default     |   Description
+----------------------------------------|-------------------------------------------------------------------|---------------|--------------
+`operation`                             |   [Attribute Modifier Operation](attribute_modifier_operation.md) |               |   The operation which will be performed by this modifier.
+[`amount`](## "Previous name: "value"") |   [Float](float.md)                                               |   _optional_  |   If specified, this amount will be used for the operation.
+`resource`                              |   [Identifier](identifier.md)                                     |   _optional_  |   If specified, the value of this power will be used for the operation.
+`modifier`                              |   [Attribute Modifier](attribute_modifier.md)                     |   _optional_  |   If specified, this modifier will be applied to the value of this modifier.
 
 
 ### Examples
@@ -30,7 +35,7 @@ Field  | Type | Default | Description
 ```json
 "modifier": {
     "operation": "add_base_early",
-    "value": 9
+    "amount": 9
 }
 ```
 
@@ -41,7 +46,7 @@ This example will add `9.0` to the base value.
 ```json
 "modifier": {
     "operation": "multiply_base_additive",
-    "value": 2
+    "amount": 2
 }
 ```
 
@@ -52,7 +57,7 @@ This example will add the base value multiplied by the modifier value to the cur
 ```json
 "modifier": {
     "operation": "multiply_total_multiplicative",
-    "value": 0.25
+    "amount": 0.25
 }
 ```
 
@@ -63,8 +68,7 @@ This example will multiply the total value by 1.25, essentially increasing the t
 ```json
 "modifier": {
     "operation": "add_base_early",
-    "resource": "example:resource",
-    "value": 0
+    "resource": "example:resource"
 }
 ```
 
@@ -76,7 +80,6 @@ This example will add the value of the `example:resource` (`data/example/powers/
 "modifier": {
     "operation": "add_base_early",
     "resource": "example:resource",
-    "value": 0,
     "modifier": {
         "operation": "multiply_total_multiplicative",
         "value": -0.999

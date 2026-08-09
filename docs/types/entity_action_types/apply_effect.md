@@ -26,7 +26,7 @@ Field  | Type | Default | Description
 "entity_action": {
     "type": "origins:apply_effect",
     "effect": {
-        "effect": "minecraft:speed",
+        "id": "minecraft:speed",
         "duration": 400,
         "amplifier": 0
     }
@@ -41,16 +41,16 @@ This example will apply a Speed I status effect to the entity that would last fo
 	"type": "origins:apply_effect",
 	"effects": [
 		{
-			"effect": "minecraft:slow_falling",
+			"id": "minecraft:slow_falling",
 			"duration": 400,
-			"is_ambient": false,
+			"ambient": false,
 			"show_particles": false,
 			"show_icon": true
 		},
 		{
-			"effect": "minecraft:slowness",
+			"id": "minecraft:slowness",
 			"duration": 400,
-			"is_ambient": false,
+			"ambient": false,
 			"show_particles": false,
 			"show_icon": true
 		}

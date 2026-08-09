@@ -37,6 +37,7 @@ nav:
         - Advancement Triggers: misc/advancement_triggers.md
         - Base Contents: misc/base_contents.md
         - Commands: misc/commands.md
+        - Component Types: misc/component_types.md
         - Item Modifiers: misc/item_modifiers.md
         - Items: misc/items.md
         - Predicates: misc/predicates.md

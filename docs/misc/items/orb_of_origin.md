@@ -27,10 +27,38 @@ You can use [this website](https://crafting.thedestruc7i0n.ca/) to easily create
 
 ### Origin (and origin layer) specific Orb
 
-You can add the `Targets` NBT to the item so that you can only pick a certain origin/from a certain origin layer by using the Orb of Origin.
+Origins adds an [`origins:origin` item component](../../misc/component_types/origin.md), which makes it possible for items to open the origin selection GUI and enable the player to choose an origin when the said item is used. The Orb of Origin item has this item component defined by default.
 
-e.g:
+Here are some examples of how it can be used:
+<ul>
+
+<li>
+
 ```mcfunction
-give @s origins:orb_of_origin{Targets: [{Origin: "origins:avian", Layer: "origins:origin"}]}
+give @s minecraft:stick[origins:origin = []]
 ```
-In this example, this will set your origin to "Avian" if you were to use the given Orb of Origin.
+This example will define an <code>origins:origin</code> component to a Stick item that enables the player to select from all the available and enabled origin layers when the item is used.
+
+</li>
+<br>
+
+<li>
+
+```mcfunction
+give @s origins:orb_of_origin[origins:origin = [{layer: "origins:origin"}, {layer: "example:hello_world"}]]
+```
+This example will define an <code>origins:origin</code> component to an Orb of Origins item that enables the player to only select an origin from the defined origin layers (<code>origins:origin</code> and <code>example:hello_world</code>) when the item is used.
+
+</li>
+<br>
+
+<li>
+
+```mcfunction
+give @s minecraft:egg[origins:origin = [{layer: "origins:origin", origin: "origins:arachnid"}]]
+```
+This example will define an <code>origins:origin</code> component to an Egg item that will automatically set the origin of the player in the <code>origins:origin</code> origin layer to <code>origins:arachnid</code> origin.
+
+</li>
+
+</ul>

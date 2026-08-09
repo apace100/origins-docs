@@ -7,7 +7,7 @@ date: 2023-06-27
 
 [Data Type](../data_types.md)
 
-Entity Type Tag-likes are an [Array](../data_types/array.md) of [Identifiers](../data_types/identifier.md) that refers to an entity type or an entity type tag (if prefixed with `#`), similar to how entries in a tag are defined.
+An [array](array.md) of either [identifiers](identifier.md) or [objects](object.md) that refers to an entity type or an entity type tag (if prefixed with `#`), similar to how entries in a tag are defined.
 
 
 ### Examples
@@ -17,7 +17,6 @@ Entity Type Tag-likes are an [Array](../data_types/array.md) of [Identifiers](..
     "minecraft:dolphin"
 ]
 ```
-
 This example defines an entity type tag-like that contains the `minecraft:dolphin` entity type.
 <br>
 
@@ -28,5 +27,16 @@ This example defines an entity type tag-like that contains the `minecraft:dolphi
     "minecraft:creeper"
 ]
 ```
-
 This example defines an entity type tag-like that contains the `#minecraft:fall_damage_immune` and `#minecraft:skeletons` entity type tags, and the `minecraft:creeper` entity type.
+<br>
+
+```json
+"entity_types": [
+    {
+        "id": "#example:is_creepy",
+        "required": false
+    },
+    "minecraft:creeper"
+]
+```
+This example defines an entity type tag-like that contains the `#example:is_creepy` (without causing an error if the data pack that adds the said tag is absent), and the `minecraft:creeper` entity type.

@@ -13,7 +13,9 @@ Type ID: `origins:material`
 
 !!! danger
 
-    This block condition type has been <span style="color:darkred"><b>deprecated</b></span> and may be removed in a future version. Please use the [In Tag (Block Condition Type)](in_tag.md) instead.
+    This block condition type has been <span style="color:darkred"><b>removed</b></span> in Origins 1.13.0 due to the removal of block materials in 1.20.
+    
+    **Please use the [In Tag (Block Condition Type)](in_tag.md) instead**.
 
 
 ### Fields

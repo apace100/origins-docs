@@ -7,7 +7,7 @@ date: 2021-04-04
 
 [Data Type](../data_types.md)
 
-An [Object](object.md) used to specify how the numerical value of a specific attribute should be modified.
+An [object](object.md) used to specify how the numerical value of a specific attribute should be modified.
 
 
 !!! note
@@ -17,12 +17,12 @@ An [Object](object.md) used to specify how the numerical value of a specific att
 
 ### Fields
 
-Field  | Type | Default | Description
--------|------|---------|-------------
-`attribute` | [Identifier](identifier.md) | | ID of the attribute which will be modified by this modifier.
-`operation` | [Attributed Attribute Modifier Operation](attributed_attribute_modifier_operation.md) | | The operation which will be performed by this modifier.
-`value` | [Float](float.md) | | The value to use for the modifier operation.
-`name` | [String](string.md) | _optional_ | A descriptive name for the modifier, describing where it comes from.
+| Field       | Type                                                                                  | Default | Description                                                      |
+| -------------| ---------------------------------------------------------------------------------------| ---------| ------------------------------------------------------------------|
+| `attribute` | [Identifier](identifier.md)                                                           |         | The ID of the attribute which will be modified by this modifier. |
+| `operation` | [Attributed Attribute Modifier Operation](attributed_attribute_modifier_operation.md) |         | The operation will be performed by this modifier.                |
+| `amount`    | [Float](float.md)                                                                     |         | The amount to be used for the modifier operation.                |
+| `id`        | [Identifier](identifier.md)                                                           |         | The identifier of the modifier, describing where it comes from.  |
 
 
 ### Examples
@@ -31,10 +31,10 @@ Field  | Type | Default | Description
 "modifier": {
     "attribute": "minecraft:generic.attack_damage",
     "operation": "addition",
-    "value": 9
+    "amount": 9,
+    "id": "example:additional_attack_damage"
 }
 ```
-
 This example will add `9.0` to the base value of the entity's `minecraft:generic.attack_damage` attribute.
 (For example: if the current base value is 1, the new base value will be 10 since `1 + 9 = 10`)
 <br>
@@ -43,10 +43,10 @@ This example will add `9.0` to the base value of the entity's `minecraft:generic
 "modifier": {
     "attribute": "minecraft:generic.max_health",
     "operation": "multiply_base",
-    "value": 2
+    "amount": 2,
+    "id": "example:heavy_heart"
 }
 ```
-
 This example will add the base value multiplied by the modifier value to the current base value of the entity's `minecraft:generic.max_health` attribute.
 (For example: if the current base value is 20, the new base value will be 60 since `20 + (20 * 2) = 60`)
 <br>
@@ -55,9 +55,9 @@ This example will add the base value multiplied by the modifier value to the cur
 "modifier": {
     "attribute": "minecraft:generic.movement_speed",
     "operation": "multiply_total",
-    "value": 0.5
+    "amount": 0.5,
+    "id": "example:swift"
 }
 ```
-
 This example will multiply the total value of the entity's `minecraft:generic.movement_speed` attribute by 1.5, essentially increasing the total value by 50%. 
 (For example: if the total value is 0.7, the new total value will be 1.05 since `0.7 * (1 + 0.5) = 1.05`)
